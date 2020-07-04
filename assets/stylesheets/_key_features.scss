@@ -1,0 +1,22 @@
+.key-features-heading {
+    // border: 1px solid red;
+    border-radius: 10px;
+    background-color:rgb(5,143,185) ;
+    h2{
+        text-align: center;
+        color: white;
+        padding: 1.5rem;
+    }
+}
+.key-features-points {
+    // text-align: center;
+    width: 25%;
+    background-color:rgba(140, 255, 251 ,0.5) ;
+    border-radius: 10px;
+    padding: 1.5rem;
+    h4 {
+        padding: 1rem 0;
+        display: inline-block;
+        
+    }
+}
