@@ -1,0 +1,25 @@
+.header-section{
+    background: url(../media/cover.svg);
+    background-size: 80%;
+    background-position: 100% 0;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.logo-img{
+    width: 8rem;
+}
+.nav{
+    padding-top: 2rem;
+    @extend %flex-between;
+}
+.nav-ul{
+    @extend %flex-between;
+}
+.nav-link{
+    margin-left: 7rem;
+    color:white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    
+}   
