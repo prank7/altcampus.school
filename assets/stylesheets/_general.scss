@@ -9,10 +9,6 @@ body{
     font-family: $font-sans;
     line-height: 1.5;
 }
-.container{
-    max-width: 1200px;
-    margin: 0 auto;
-}
 
 h1 {
     @extend %fontSize1;

@@ -40,9 +40,9 @@ Hero
   - Course details
   - Modules and their topics
   - Projects
-  - Explainer video with the UI grabs of the actual app in work.
-  - Module wise SneakPeak
-  - Tour of the platform
+  - Explainer video with the UI grabs of the actual app in work.//
+  - Module wise SneakPeak//
+  - Tour of the platform//
 ​
 ## Testimonials
 ​
