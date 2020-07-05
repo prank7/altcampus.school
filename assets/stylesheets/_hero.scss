@@ -1,29 +1,23 @@
-// body {
-//     background: rgb(241, 239, 239);
-// }
 .hero {
-    background: white;
     // background-color: rgba(140, 255, 251 ,0.5);
-    // background: url(../media/coder.svg);
-    // background-size: 80%;
-    // background-position: 100% 0;
-    // background-repeat: no-repeat;
-    height: 100vh;
+    
     // margin-top: 10rem;
-    // text-align: left;
-    // @extend %flex-between;
+    text-align: left;
+    @extend %flex-between;
 }
 .hero-main{
-    // text-align: center;
-    // width: 60%;
+    width: 60%;
     h1 {
-        margin-top: 6rem;
+        margin-top: 5rem;
         font-weight: 900;
         font-family: $font-serif;
     }
     h3 {
         margin: 4rem 0 4rem 0;
     }
+}
+main{
+    // background-color: rgba(140, 255, 251 ,0.5);
 }
 
 .hero-features {
@@ -41,9 +35,4 @@
         }
     }
 
-}
-
-
-.text-center {
-    text-align: center;
 }
