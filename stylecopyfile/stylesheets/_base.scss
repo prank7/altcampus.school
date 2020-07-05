@@ -1,0 +1,269 @@
+// ================================
+// General style
+// ================================
+
+// Root Element
+html {
+  font-size: 16px;
+  font-family: $font-family2;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+}
+body {
+  background-color: $secondaryBody;
+}
+
+// Heading elements
+h1 {
+  @extend %fontSize1;
+}
+h2 {
+  @extend %fontSize2;
+}
+h3 {
+  @extend %fontSize3;
+  letter-spacing: -0.08rem;
+}
+h4 {
+  @extend %fontSize4;
+  letter-spacing: -0.05rem;
+}
+h5 {
+  @extend %fontSize5;
+  letter-spacing: 0;
+}
+h6 {
+  @extend %fontSize1;
+  letter-spacing: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  font-family: $font-family2;
+}
+
+// Paragraph Elements
+p {
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+// Align items
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+.text-left {
+  text-align: left;
+}
+
+// Form elements
+.form-control {
+  display: block;
+  width: 100%;
+  border: 1px solid rgba($textDark, 0.1);
+  color: $markDownText;
+  line-height: 1.5;
+  padding: 0.5rem 0.8rem;
+  font-size: 1.1rem;
+  font-weight: 400;
+  border-radius: 4px;
+  font-family: $font-family2;
+  &:focus {
+    border-color: $blueShade;
+  }
+}
+
+label {
+  color: #9a9a9a;
+}
+
+// Select
+.select-css {
+  font-weight: 500;
+  padding: 0.8rem 2rem 0.8rem 0.8rem;
+  width: 100%;
+  // border: 1px solid;
+  border-radius: 4px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #fff;
+  background-image: url(/images/arrow-down.png);
+  background-repeat: no-repeat, repeat;
+  background-position: right 0.7em top 50%, 0 0;
+  background-size: 0.65em auto, 100%;
+}
+.select-css.small-width {
+  display: inline-block;
+  width: auto;
+  margin-right: 1rem;
+}
+.small-width {
+  display: inline-block;
+  width: auto;
+  margin-right: 1rem;
+}
+.select-css::-ms-expand {
+  display: none;
+}
+.select-css:hover {
+  border-color: #888;
+}
+.select-css:focus {
+  border-color: #aaa;
+  box-shadow: 0 0 1px 3px rgba(59, 153, 252, 0.7);
+  box-shadow: 0 0 0 3px -moz-mac-focusring;
+  color: #222;
+  outline: none;
+}
+.select-css option {
+  font-weight: normal;
+}
+
+// Responsive image
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+// Primary Buttons  styles
+.btn {
+  padding: 0 1.5rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  // text-transform: uppercase;
+  font-size: 1.1rem;
+  color: #000000;
+  font-weight: 600;
+  height: 2.5rem;
+  width: auto;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  transition: all 200ms ease-in-out;
+  font-family: $font-family2;
+  &:hover {
+    box-shadow: 0 6px 12px -2px rgba(50, 50, 93, 0.25),
+      0 3px 7px -3px rgba(0, 0, 0, 0.3);
+    transform: translateY(-1px);
+  }
+  &:active {
+    box-shadow: 0 6px 12px -2px rgba(50, 50, 93, 0.25),
+      0 3px 7px -3px rgba(0, 0, 0, 0.3);
+    transform: translateY(-1px);
+  }
+  &.btn-success {
+    background-color: $green;
+    color: #fff;
+  }
+  &.btn-primary {
+    background-color: $blueShade;
+    color: #fff;
+  }
+  &.btn-primary-outline {
+    border: 1px solid $blueShade;
+    background: white;
+    color: $blueShade;
+  }
+  &.btn-error {
+    background: red;
+    color: white;
+  }
+  &.btn-error-outline {
+    border: 1px solid red;
+    background: white;
+    color: red;
+  }
+  &.btn-sm {
+    height: 2rem;
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
+  &.btn-git {
+    color: #24292e;
+    border: 1px solid #24292e;
+  }
+  &.btn-twitter {
+    color: #3aa1f2;
+    border: 1px solid #3aa1f2;
+  }
+}
+
+// Tags
+
+.badge {
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 2px 5px;
+  &.success {
+    background: #bbe5b3;
+  }
+  &.warning {
+    background: #ffc58b;
+  }
+}
+
+// Center Elemets within its parent
+.center-child {
+  display: grid;
+  place-items: center;
+}
+
+// Bacground colors for sections
+.bg-primary {
+  background: $bg;
+}
+
+// cleafix, cotaining floats
+.clearfix {
+  *zoom: 1;
+  &:before,
+  &:after {
+    display: table;
+    content: "";
+    line-height: 0;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+// basic flexbox class
+.flex-between {
+  @extend %flex-between;
+}
+.flex-center {
+  @extend %flex-center;
+}
+.flex-start {
+  @extend %flex-start;
+}
+.flex-end {
+  @extend %flex-end;
+}
+.item-start {
+  @extend %item-start;
+}
+@media all and (max-width: 992px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  html {
+    font-size: 10px;
+  }
+}

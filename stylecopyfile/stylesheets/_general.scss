@@ -1,0 +1,71 @@
+.height {
+  height: calc(100vh - 4rem);
+}
+.padding {
+  padding: 2.5rem 0;
+}
+.padding-top {
+  padding-top: 0rem;
+}
+.margin-bottotm-0 {
+  margin-bottom: 0 !important;
+}
+// Heading
+.heading {
+  font-size: 2rem;
+  font-weight: 800;
+  color: $green;
+}
+.heading-secondary {
+  color: $blueShade;
+  margin-top: 2rem;
+}
+.secondary-heading {
+  font-size: 2.5rem;
+  font-style: italic;
+  color: $primary;
+  letter-spacing: 0.03em;
+}
+.text {
+  font-size: 1rem;
+  color: $text;
+  font-weight: 300;
+  letter-spacing: 0.04em;
+}
+
+.back-btn {
+  color: #000000;
+  span {
+    margin-left: 0.5rem;
+  }
+}
+// Main Content container
+.main-content {
+  width: calc(100vw - 20rem);
+  min-height: calc(100vh - 4rem);
+  padding: 1.5rem 2.5rem;
+  align-self: flex-start;
+  margin-top: 4rem;
+  margin-left: 20rem;
+}
+
+// Flash
+.flash {
+  padding: 1rem;
+  border-radius: 2px;
+  margin: 0.25rem 0;
+  font-weight: 600;
+  margin-top: 1rem;
+  font-size: 1.15rem;
+  &.warning {
+    background-color: #ffb734de;
+  }
+  &.error {
+    background-color: #cc0000;
+    color: #ffffff;
+  }
+  &.success {
+    background-color: $green;
+    color: #ffffff;
+  }
+}

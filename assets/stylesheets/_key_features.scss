@@ -1,0 +1,62 @@
+.key-features-heading {
+    position: absolute;
+    width: 100%;
+    
+    background: linear-gradient(to right top, #027AB1, #1EAFC6, #4DEDDD ) ;
+    h2{
+        text-align: center;
+        color: white;
+        padding:3rem 0 10rem 0;
+        font-family: $font-serif;
+        font-weight: 700;
+        font-size: 2.8rem;
+    }
+}
+.key-features {
+    position: relative;
+}
+.features {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    padding-top: 10rem;
+    
+}
+.features-container {
+    @extend %flex-between;
+}
+.key-features-cards {
+    &:hover{
+
+        transform: translateY(-2px);
+        box-shadow: 0 30px 60px -12px rgba(50,50,90,.25),
+        0 18px 36px -18px rgba(0,0,0,.3), 0 -12px 36px -8px rgba(0,0,0,.025);
+    }
+    text-align: center;
+    width: 25%;
+    height: 300px;
+    background-color:rgb(252, 252, 252);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 2rem 1rem;
+    h4 {
+        padding: 1rem 0rem 1rem 2rem;
+        text-align: left;
+    }
+    img{
+        width: 25%;
+    }
+    p{
+        color: rgb(63, 63, 63);
+        padding: .2rem 0;
+    }
+}
+.key-features-points{
+    text-align: left;
+    margin-left: 2rem;
+}
+
+
+main{
+margin-bottom: 4rem;
+}
