@@ -106,7 +106,7 @@ h6 {
   align-items: center;
 }
 
-.col1-4, .course-article {
+.col1-4, .course-article, .author, .nav-right, .nav-left, .quotes, .testimonial {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -308,7 +308,7 @@ main {
 }
 
 .col1-4 img {
-  width: 36px;
+  min-width: 36px;
   height: 36px;
   border-radius: 50%;
   display: inline-block;
@@ -530,5 +530,108 @@ main {
   color: #1f1e1e;
   font-size: 1.4rem;
   font-weight: 700;
+}
+
+.testimonials {
+  margin: 5rem 0;
+  background: #32325D;
+  color: white;
+  padding: 5rem 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.testimonials-container {
+  max-width: 1040px;
+  margin: 0 auto;
+}
+
+.author {
+  -ms-flex-preferred-size: 40%;
+      flex-basis: 40%;
+}
+
+.author .author-img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 1.5rem;
+}
+
+.author .name {
+  color: #fcd669;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 19px;
+  margin-bottom: 6px;
+}
+
+blockquote {
+  font-family: "Nunito", sans-serif;
+  -ms-flex-preferred-size: 60%;
+      flex-basis: 60%;
+  padding-left: 1.25rem;
+  font-size: 1.5rem;
+  line-height: 2;
+  font-style: italic;
+}
+
+blockquote::before {
+  content: "";
+  width: 12px;
+  height: 9px;
+  color: #fcd669;
+  position: relative;
+  display: inline-block;
+  top: -7px;
+  background: url("../media/DOUBLE QUOTE2-01.svg");
+}
+
+blockquote::after {
+  content: "";
+  width: 12px;
+  height: 9px;
+  color: #fcd669;
+  position: relative;
+  display: inline-block;
+  top: -7px;
+  background: url("../media/DOUBLE QUOTE-01.svg");
+}
+
+.nav-right, .nav-left {
+  margin: 0 0.6rem;
+  min-width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #4069f0;
+  position: relative;
+}
+
+.nav-right:hover, .nav-left:hover {
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
+  background: #7795F8;
+}
+
+.nav-right:active, .nav-left:active {
+  background: #4069f0;
+  -webkit-transform: translatey(1px);
+          transform: translatey(1px);
+}
+
+.nav-right img, .nav-left img {
+  width: 20px;
+  height: 20px;
+}
+
+.testimonial {
+  display: none;
+}
+
+.active {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
 }
 /*# sourceMappingURL=style.css.map */

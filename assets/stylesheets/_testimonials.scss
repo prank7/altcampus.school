@@ -1,0 +1,117 @@
+.testimonials {
+    margin: 5rem 0;
+    background: #32325D;
+    color: white;
+    padding: 5rem 0;
+    font-family: $font-open;
+    
+}
+.testimonials-container {
+    max-width: 1040px;
+    margin: 0 auto;
+}
+
+.author {
+    @extend %flex-center;
+    flex-basis: 40%;
+    .author-img {
+        object-fit: cover;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        margin-right: 1.5rem;
+    }
+    
+    .name {
+        color: #fcd669;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 19px;
+        margin-bottom: 6px;
+    }
+}
+blockquote {
+        font-family: $font-serif;
+        flex-basis: 60%;
+        padding-left: 1.25rem;
+        font-size: 1.5rem;
+        line-height: 2;
+        font-style: italic;
+        &::before {
+            content: "";
+            width: 12px;
+            height: 9px;
+            color: #fcd669;
+            position: relative;
+            display: inline-block;
+            top: -7px;
+            // left: -7px;
+            // margin-left: -12px;
+            background: url("../media/DOUBLE\ QUOTE2-01.svg")
+        }
+        &::after {
+            content: "";
+            width: 12px;
+            height: 9px;
+            color: #fcd669;
+            position: relative;
+            display: inline-block;
+            top: -7px;
+            // left: -7px;
+            // margin-left: -12px;
+            background: url("../media/DOUBLE\ QUOTE-01.svg")
+        }
+}
+.nav-right, .nav-left {
+    margin: 0 0.6rem;
+    min-width: 40px;
+    height: 40px;
+    border-radius: 50%;
+     background: rgb(64, 105, 240);
+    @extend %flex-center;
+    position: relative;
+    // top: 5rem;
+    &:hover {
+        transform: translateY(-2px);
+        background: #7795F8;
+    }
+    &:active {
+        background: rgb(64, 105, 240);
+        transform: translatey(1px);
+       
+        
+    }
+    
+
+    img {
+        width: 20px;
+        height: 20px;
+    }
+}
+.quotes {
+    @extend %flex-center;
+}
+.content-wrapper {
+    // @extend %flex-center;
+    
+    //  transform: translateX(150%);
+    //  transition: transform 2s ease;
+}
+
+.testimonial {
+    @extend %flex-center;
+    // transform: translateX(-150%);
+    // transition: transform 2s ease;
+    display: none;
+}
+
+.active {
+    // transform: translateX(0);
+    // transition: transform 2s ease;
+    display: flex !important;
+
+}
+// #testimonial0, #testimonial1, #testimonial2, #testimonial3 {
+    
+// }
+
