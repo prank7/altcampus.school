@@ -1,39 +1,38 @@
 html {
-    font-size: 16px;
+  font-size: 16px;
 }
 *::before,
 *::after {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 body{
-    font-family: $font-sans;
-    line-height: 1.5;
+  font-family: $font-sans;
+  line-height: 1.5;
 }
 .container{
-    max-width: 1200px;
-    margin: 0 auto;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 h1 {
-    @extend %fontSize1;
-  }
-  h2 {
-    @extend %fontSize2;
-  }
-  h3 {
-    @extend %fontSize3;
-    letter-spacing: -0.08rem;
-  }
-  h4 {
-    @extend %fontSize4;
-    letter-spacing: -0.05rem;
-  }
-  h5 {
-    @extend %fontSize5;
-    letter-spacing: 0;
-  }
-  h6 {
-    @extend %fontSize6;
-    letter-spacing: 0;
-  }
- 
+  @extend %fontSize1;
+}
+h2 {
+  @extend %fontSize2;
+}
+h3 {
+  @extend %fontSize3;
+  letter-spacing: -0.08rem;
+}
+h4 {
+  @extend %fontSize4;
+  letter-spacing: -0.05rem;
+}
+h5 {
+  @extend %fontSize5;
+  letter-spacing: 0;
+}
+h6 {
+  @extend %fontSize6;
+  letter-spacing: 0;
+}
