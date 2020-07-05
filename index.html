@@ -7,10 +7,95 @@
   <title>AltCampus School</title>
   <link rel="stylesheet" href="./assets/stylesheets/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
   <main>
+    <div class="header-section">
+      <header>
+        <nav class="nav container">
+          <a href="./index.html" class="logo">
+            <img class="logo-img" src="./assets/media/logo.png" alt="Logo">
+          </a>
+          <div class="nav-menu">
+            <ul class="nav-ul">
+              <li class="nav-item">
+                <a class="nav-link active" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./projects.html">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contact.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+
+      <!-- hero section -->
+      <section class="hero">
+        <div class="container">
+          <div class="hero-main">
+            <h1> Everything you need to become  a software developer</h1>
+            <h3>A program designed to help you develop full-stack <br>  web development skills and become job-ready</h3>
+            <div class="hero-features">
+              <h5>100% online</h5>
+              <h5>Project based</h5>
+              <h5>Mentorship</h5>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- key feature -->
+    <section class="key-features">
+      <div class="key-features-heading">
+        <h2>We do everything to make sure you compelete the course</h2>
+      </div>
+      <article  class="features">
+        <div class="container features-container">
+        <div class="key-features-cards" >
+          <img src="./assets/media/learning.png" alt="content learning">
+          <h4>Exhaustive Course Content</h4>
+          <div  class="key-features-points">
+            <p>Step-by-step learning content</p>
+            <p>100s of videos, 400+ Exercises</p>
+            <p>30+ rigorous projects</p>
+            <p>Real life capstone project</p>
+            <p>Github Student Developer Pack</p>
+          </div>
+        </div>
+        <div class="key-features-cards" >
+          <img src="./assets/media/school.png" alt="mentorship">
+          <h4>Mentorship & Support</h4>
+          <div  class="key-features-points">
+            <p>Personalized code review</p>
+            <p>Feedback on exercises and conceptss</p>
+            <p>Daily, live office hours with mentors</p>
+            <p>Got stuck? Get quick help</p>
+            <p>Not feeling motivated? Get on a call with a coach</p>
+          </div>
+        </div>
+        <div class="key-features-cards" >
+          <img src="./assets/media/online.png" alt="content learning">
+          <h4>Immersive Learning</h4>
+          <div  class="key-features-points">
+            <p>Get matched with peers</p>
+            <p>Automated progress tracking + Coach follow up</p>
+            <p>General community support through Slack</p>
+            <p>Build strong portfolio</p>
+          </div>
+        </div>
+      </div>
+      </article>
+    </section>
+
+    <!-- Grid -->
     <div class="grid">
       <div class="stripe1"> 
         
@@ -34,106 +119,104 @@
         css
       </div>
     </div>
-  </section>
-    
 
-   
-  <section class="course-details">
-    <div class="course-details-heading">
-      <h2>What it includes...</h2>
-    </div>
-    <div class="course-highlights">
-      <div class="col">
-        <p class="numbers">12+</p>
-        <p class="topics">Modules</p>
+    <!-- course details -->
+    <section class="course-details">
+      <div class="course-details-heading">
+        <h2>What it includes...</h2>
       </div>
-      <div class="col">
-        <p class="numbers">12+</p>
-        <p class="topics">Modules</p>
+      <div class="course-highlights">
+        <div class="col">
+          <p class="numbers">12+</p>
+          <p class="topics">Modules</p>
+        </div>
+        <div class="col">
+          <p class="numbers">12+</p>
+          <p class="topics">Modules</p>
+        </div>
+        <div class="col">
+          <p class="numbers">12+</p>
+          <p class="topics">Modules</p>
+        </div>
+        <div class="col">
+          <p class="numbers">12+</p>
+          <p class="topics">Modules</p>
+        </div>
       </div>
-      <div class="col">
-        <p class="numbers">12+</p>
-        <p class="topics">Modules</p>
+      <div class="course-details-wrapper">
+        <div class="course-shadow">
+          <article class="course-content-head course-article">
+            <div class="col1-4">
+              <p>Modules</p>
+            </div>
+            <div class="col2-4">
+              <p>Topics</p>
+            </div>
+            <div class="col3-4">
+              <p>Projects</p>
+            </div>
+          </article>
+          <article class="course-details-odd-row course-article">
+            <div class="col1-4">
+              <img src="./assets/media/Online Content (1)/html5.svg" alt="html-image">
+              <p>Html & CSS</p>
+            </div>
+            <div class="col2-4">
+              <p>- Intro to Html & CSS</p>
+              <p>- Box Model, Positioning content</p>
+              <p>- Flexbox</p>
+              <p>- Typography</p>
+              <p>- backgrounds & gradients Creating lists</p>
+              <p>- Adding Media, Building Forms, Tables</p>
+              <p>- Responsive Web Design</p>
+            </div>
+            <div class="col3-4">
+              <p>Biodata, Hello World</p>
+            </div>
+          </article>
+          <article class="course-details-even-row course-article">
+            <div class="col1-4">
+              <img src="./assets/media/Online Content (1)/css.svg" alt="css-image">
+              <p>Advanced Html & CSS</p>
+            </div>
+            <div class="col2-4">
+              <p>- Complex Selector</p>
+              <p>- Preprocessor</p>
+              <p>- CSS Grid</p>
+              <p>- Transforms</p>
+              <p>- Transition and Animations</p>
+            </div>
+            <div class="col3-4">
+              <p>Box Model, Flex, Grid</p>
+            </div>
+          </article>
+          <article class="course-details-odd-row course-article">
+            <div class="col1-4">
+              <p>Html & CSS</p>
+            </div>
+            <div class="col2-4">
+              <p>Intro to Html & CSS</p>
+              <p>Box Model, Flex, Grid</p>
+            </div>
+            <div class="col3-4">
+              <p>Box Model, Flex, Grid</p>
+            </div>
+          </article>
+          <article class="course-details-even-row course-article">
+            <div class="col1-4">
+              <p>Html & CSS</p>
+            </div>
+            <div class="col2-4">
+              <p>Intro to Html & CSS</p>
+              <p>Box Model, Flex, Grid</p>
+            </div>
+            <div class="col3-4">
+              <p>Box Model, Flex, Grid</p>
+            </div>
+          </article>
+        </div>
       </div>
-      <div class="col">
-        <p class="numbers">12+</p>
-        <p class="topics">Modules</p>
-      </div>
-    </div>
-    <div class="course-details-wrapper">
-      <div class="course-shadow">
-        <article class="course-content-head course-article">
-          <div class="col1-4">
-            <p>Modules</p>
-          </div>
-          <div class="col2-4">
-            <p>Topics</p>
-          </div>
-          <div class="col3-4">
-            <p>Projects</p>
-          </div>
-        </article>
-        <article class="course-details-odd-row course-article">
-          <div class="col1-4">
-            <img src="./assets/media/Online Content (1)/html5.svg" alt="html-image">
-            <p>Html & CSS</p>
-          </div>
-          <div class="col2-4">
-            <p>- Intro to Html & CSS</p>
-            <p>- Box Model, Positioning content</p>
-            <p>- Flexbox</p>
-            <p>- Typography</p>
-            <p>- backgrounds & gradients Creating lists</p>
-            <p>- Adding Media, Building Forms, Tables</p>
-            <p>- Responsive Web Design</p>
-          </div>
-          <div class="col3-4">
-            <p>Biodata, Hello World</p>
-          </div>
-        </article>
-        <article class="course-details-even-row course-article">
-          <div class="col1-4">
-            <img src="./assets/media/Online Content (1)/css.svg" alt="css-image">
-            <p>Advanced Html & CSS</p>
-          </div>
-          <div class="col2-4">
-            <p>- Complex Selector</p>
-            <p>- Preprocessor</p>
-            <p>- CSS Grid</p>
-            <p>- Transforms</p>
-            <p>- Transition and Animations</p>
-          </div>
-          <div class="col3-4">
-            <p>Box Model, Flex, Grid</p>
-          </div>
-        </article>
-        <article class="course-details-odd-row course-article">
-          <div class="col1-4">
-            <p>Html & CSS</p>
-          </div>
-          <div class="col2-4">
-            <p>Intro to Html & CSS</p>
-            <p>Box Model, Flex, Grid</p>
-          </div>
-          <div class="col3-4">
-            <p>Box Model, Flex, Grid</p>
-          </div>
-        </article>
-        <article class="course-details-even-row course-article">
-          <div class="col1-4">
-            <p>Html & CSS</p>
-          </div>
-          <div class="col2-4">
-            <p>Intro to Html & CSS</p>
-            <p>Box Model, Flex, Grid</p>
-          </div>
-          <div class="col3-4">
-            <p>Box Model, Flex, Grid</p>
-          </div>
-        </article>
-      </div>
-    </div>
-  </section>
+    </section>  
   </main>
   
 </body>
