@@ -1,25 +1,22 @@
-
 .header{
-    background-color: #FFFAF5;
+    background-color: $lightbg1;
+    border-bottom: 2px solid #e9f4f4;
 }
 
 .logo-img{
-    width: 30%;
+    width: 75%;
 }
 .nav{
-    padding-top: 2rem;
+    padding: 0.7rem 0;
     @extend %flex-between;
 }
 .nav-ul{
     @extend %flex-between;
 }
 .nav-link{
-    margin-left: 4rem;
-    color:rgb(25, 23, 20);
+    margin-left: 2.5rem;
+    color:#6b7c93;
     text-decoration: none;
     font-size: 1.3rem;
     
 } 
-main{
-    background:#FFFAF5;
-}

@@ -6,8 +6,11 @@ html {
   box-sizing: border-box;
 }
 body{
-  font-family: $font-serif2;
+  font-family: $font-source;
   line-height: 1.5;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 .container{
   max-width: 1140px;
@@ -35,4 +38,31 @@ h5 {
 h6 {
   @extend %fontSize6;
   letter-spacing: 0;
+}
+button {
+  outline: 0;
+  border: none;
+}
+
+.btn {
+  margin-top: 1.5rem;
+  padding: .75rem 6rem;
+  background: #45B2E8;
+  font-size: 1rem;
+  letter-spacing:.06rem;
+  // border: 1px solid black;
+  border-radius: 3px;
+  cursor: pointer;
+  background: $green;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  display: inline-block;
+  &:hover{
+      color : white;
+      transform: translateY(-1px);
+      transition: all 0.3s ease;
+      box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
 }
