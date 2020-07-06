@@ -1,28 +1,22 @@
-.header-section{
-    background: url(../media/cover.svg);
-    background-size: 80%;
-    background-position: 100% 0;
-    background-repeat: no-repeat;
-    height: 100vh;
+.header{
+    background-color: $lightbg1;
+    border-bottom: 2px solid #e9f4f4;
 }
 
 .logo-img{
-    width: 8rem;
+    width: 75%;
 }
 .nav{
-    padding-top: 2rem;
+    padding: 0.7rem 0;
     @extend %flex-between;
 }
 .nav-ul{
     @extend %flex-between;
 }
 .nav-link{
-    margin-left: 7rem;
-    color:white;
+    margin-left: 2.5rem;
+    color:#6b7c93;
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     
 } 
-main{
-    background:#FFFAF5;
-}
