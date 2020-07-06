@@ -106,7 +106,7 @@ h6 {
   align-items: center;
 }
 
-.col1-4, .course-article, .author, .nav-right, .nav-left, .quotes, .testimonial {
+.col1-4, .course-article, .author, .nav, .quotes, .content-wrapper, .testimonial {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -533,6 +533,7 @@ main {
 }
 
 .testimonials {
+  position: relative;
   margin: 5rem 0;
   background: #32325D;
   color: white;
@@ -541,8 +542,10 @@ main {
 }
 
 .testimonials-container {
+  position: relative;
   max-width: 1040px;
   margin: 0 auto;
+  padding: 5rem 0;
 }
 
 .author {
@@ -599,39 +602,64 @@ blockquote::after {
   background: url("../media/DOUBLE QUOTE-01.svg");
 }
 
-.nav-right, .nav-left {
+.nav {
   margin: 0 0.6rem;
   min-width: 40px;
   height: 40px;
   border-radius: 50%;
   background: #4069f0;
   position: relative;
+  -webkit-transition: all 2s linear;
+  transition: all 2s linear;
 }
 
-.nav-right:hover, .nav-left:hover {
+.nav:hover {
   -webkit-transform: translateY(-2px);
           transform: translateY(-2px);
   background: #7795F8;
 }
 
-.nav-right:active, .nav-left:active {
+.nav:active {
   background: #4069f0;
   -webkit-transform: translatey(1px);
           transform: translatey(1px);
 }
 
-.nav-right img, .nav-left img {
+.nav img {
   width: 20px;
   height: 20px;
 }
 
+.quotes {
+  position: relative;
+}
+
+.content-wrapper {
+  overflow: hidden;
+}
+
 .testimonial {
-  display: none;
+  width: 100%;
+  position: absolute;
+  left: -100vw;
+  -webkit-transition: left 3s ease;
+  transition: left 3s ease;
 }
 
 .active {
+  left: 0;
   display: -webkit-box !important;
   display: -ms-flexbox !important;
   display: flex !important;
+}
+
+.nav-right {
+  position: relative;
+  right: -50%;
+}
+
+.nav-left {
+  position: relative;
+  left: -50%;
 }
 /*# sourceMappingURL=style.css.map */
