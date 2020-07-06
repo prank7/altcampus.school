@@ -161,8 +161,7 @@ button {
 .btn {
   margin-top: 1.5rem;
   padding: .75rem 6rem;
-  background: #45B2E8;
-  font-size: 1rem;
+  font-size: 1.1rem;
   letter-spacing: .06rem;
   border-radius: 3px;
   cursor: pointer;
@@ -171,6 +170,8 @@ button {
   text-transform: uppercase;
   color: white;
   display: inline-block;
+  font-family: "Mukta", sans-serif;
+  font-weight: 600;
   -webkit-box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
           box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
 }
@@ -404,6 +405,7 @@ button {
   font-size: 2.8rem;
   font-weight: 700;
   margin: 3rem 0;
+  color: #32325d;
 }
 
 .col1-4 {
@@ -596,13 +598,42 @@ button {
           align-items: center;
   padding: 4rem 0;
   margin-bottom: 6rem;
-  background: #45B2E8;
+  background: white;
 }
 
 .col {
   width: 25%;
   text-align: center;
-  border-right: 1px solid black;
+  border-right: 1px solid #ededed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.col div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .col:last-child {
@@ -610,17 +641,19 @@ button {
 }
 
 .col .numbers {
-  color: black;
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: 700;
-  font-family: "Work Sans", sans-serif;
+  font-family: "Mukta", sans-serif;
   margin-bottom: -1rem;
+  color: #3ecf8e;
 }
 
 .col .topics {
-  color: #1f1e1e;
   font-size: 1.4rem;
-  font-weight: 700;
+  font-weight: 600;
+  font-family: "Mukta", sans-serif;
+  text-transform: uppercase;
+  color: #21396a;
 }
 
 .pricing {
@@ -720,7 +753,6 @@ button {
 }
 
 .tweets {
-  background: #45B2E8;
   border-radius: 20px;
   padding: 0 .5rem;
 }
