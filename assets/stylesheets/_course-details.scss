@@ -19,7 +19,7 @@
         font-size: 2.8rem;
         font-weight: 700;
         margin: 3rem 0;
-        color: $fontBg1Heading;
+        color: $textBg1Heading;
     }
 }
 .col1-4 {
@@ -195,6 +195,7 @@
     // margin: 0 1rem;
     margin-bottom: 6rem;
     background: white;
+
     // box-shadow: 2px 2px 30px -30px rgba(0,0,0,.7);
     // border-radius: 8px;
     // box-shadow: 0 13px 27px -5px rgba(50,50,93,.25), 0 8px 16px -8px rgba(0,0,0,.3), 0 -6px 16px -6px rgba(0,0,0,.025);
@@ -210,21 +211,36 @@
 .col {
     width: 25%;
     text-align: center;
-    border-right: 1px solid black;
+    border-right: 1px solid #ededed;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    div {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
     &:last-child {
         border-right: none;
     }
     .numbers {
-        color: black;
-        font-size: 3rem;
+        font-size: 4rem;
         font-weight: 700;
-        font-family: $font-serif2;
+        font-family: $font-mukta;
         margin-bottom: -1rem;
+        color: $green;
     }
     .topics {
-        color: rgb(31, 30, 30);
         font-size: 1.4rem;
-        font-weight: 700;
+        font-weight: 600;
+        font-family: $font-mukta;
+        text-transform: uppercase;
+        color: #21396a;
     }
     
 }
