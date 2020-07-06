@@ -1,0 +1,37 @@
+.more-testimonial-head{
+    margin-top: 12rem;
+
+    h1{
+        background: #F5BE58;
+        padding: 4.5rem ;
+        text-align: center;
+        color: white;
+        font-family: $font-serif;
+        font-weight: 700;
+        margin-bottom: 5rem;
+    }
+  
+
+}
+.tweets{
+    background:#45B2E8;
+    border-radius: 20px;
+    padding: 0 .5rem;
+}
+
+.tweetgroup{
+    
+    
+
+    @extend %flex-between;
+    // height: 100%;
+    .tweet {
+        border-radius: 20px;
+        padding: .5rem;
+        width: 50%;
+        // height: auto;
+        flex: 1 1 auto;
+        align-self: flex-start;
+    }
+}
+
