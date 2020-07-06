@@ -138,10 +138,6 @@ body {
   margin: 0 auto;
 }
 
-h3 {
-  letter-spacing: -0.08rem;
-}
-
 h4 {
   letter-spacing: -0.05rem;
 }
@@ -185,23 +181,46 @@ main {
 
 .hero-main {
   text-align: center;
-  margin: 10rem 0 8rem;
+  margin: 6rem 0 6rem;
 }
 
 .hero-main h1 {
-  width: 70%;
-  font-weight: 900;
+  width: 73%;
+  font-weight: 700;
   font-family: "Lato", sans-serif;
   color: #191714;
   margin: 0 auto;
+  line-height: 1.2;
 }
 
 .hero-main h3 {
-  font-family: "Work Sans", sans-serif;
-  color: #191714;
-  font-weight: 300;
+  color: #35322d;
+  font-size: 1.6rem;
+  font-weight: 400;
   line-height: 1.4;
-  margin: 2rem auto 5rem;
+  margin: 2rem auto 2rem;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.hero-main button {
+  margin-top: 1.5rem;
+  padding: .75rem 6rem;
+  background: #45B2E8;
+  font-size: 1rem;
+  letter-spacing: .06rem;
+  border: 1px solid black;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.hero-main button:hover {
+  color: white;
+  -webkit-transform: translateY(-1px);
+          transform: translateY(-1px);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  -webkit-box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+          box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .hero-features {
@@ -238,13 +257,25 @@ main {
   z-index: 1;
 }
 
+.key-features {
+  position: relative;
+  padding-bottom: 10rem;
+}
+
+.key-head {
+  background: #45B2E8;
+  position: absolute;
+  left: 0%;
+  width: 100%;
+  padding: 2rem 0 9rem;
+}
+
 .key-features-heading {
   width: 100%;
 }
 
 .key-features-heading h2 {
   width: 60%;
-  padding: 5rem 0;
   font-family: "Lato", sans-serif;
   font-weight: 700;
   font-size: 2.8rem;
@@ -254,14 +285,12 @@ main {
   width: 12%;
 }
 
-.key-features {
-  background: #FBF5EF;
-  padding-bottom: 10rem;
-}
-
 .features {
   width: 100%;
   margin-top: 3rem;
+  position: relative;
+  z-index: 1;
+  padding-top: 15rem;
 }
 
 .key-features-cards {
@@ -316,7 +345,8 @@ main {
 }
 
 .course-details {
-  margin: 8rem 0;
+  background: #f7fafc;
+  padding: 3rem 0 5rem;
 }
 
 .course-details-heading {
