@@ -11,15 +11,22 @@
 
 
 function handleNavRight(e) {
-
+    
     let elm = document.getElementById(`testimonial${activeIndex}`);
+    elm.classList.add("inactive");
     elm.classList.remove("active");
     // elm.classList.remove("inactive");
     activeIndex += 1;
-    activeIndex != 4 ? "" : activeIndex = 0;
+    // activeIndex != 4 ? "" : activeIndex = 0;
+    if(activeIndex === 4) {
+        activeIndex = 0;
+        let test = document.querySelectorAll("testimonial");
+        // test.forEach(e => );
+        console.log(test)
+    }
     let nextElm = document.getElementById(`testimonial${activeIndex}`);
     nextElm.classList.add("active");
-    // nextElm.classList.add("inactive");
+    // elm.classList.remove("inactive");
 }
 function handleNavLeft(e) {
     document.getElementById(`testimonial${activeIndex}`).classList.remove("active");

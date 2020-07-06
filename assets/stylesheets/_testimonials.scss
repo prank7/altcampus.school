@@ -100,19 +100,21 @@ blockquote {
     // opacity: 0;
     left: -100vw;
     transition: left 3s ease;
+    &.inactive {
+    left: 100vw;
+    opacity: 0.5;
+    transition: left 2s ease;
+    
+}
+        &.active {
+            // transform: translateX(0);
+            left: 0;
+            display: flex !important;
+            // opacity: 1;
+        }
 }
 
-.active {
-    // transform: translateX(0);
-    left: 0;
-    display: flex !important;
-    // opacity: 1;
 
-}
-// .inactive {
-//     left: 100vw;
-//     transition: left 2s ease;
-// }
 .nav-right {
         position: relative;
         right: -50%;
