@@ -6,58 +6,67 @@
   <meta name="description" content="AltCampus offers software development courses.">
   <title>AltCampus School</title>
   <link rel="stylesheet" href="./assets/stylesheets/style.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700;900&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600&display=swap"
     rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&family=Inter:wght@300;400;500&family=Merriweather:wght@400;700&family=Neuton:wght@400;700&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
+  <!-- header -->
+  <header class="header">
+    <nav class="nav container">
+      <a href="./index.html" class="logo">
+        <img class="logo-img" src="./assets/media/logo.svg" alt="Logo">
+      </a>
+      <div class="nav-menu">
+        <ul class="nav-ul">
+          <li class="nav-item">
+            <a class="nav-link active" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./projects.html">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
   <main>
-    <div class="header-section">
-      <header>
-        <nav class="nav container">
-          <a href="./index.html" class="logo">
-            <img class="logo-img" src="./assets/media/logo.png" alt="Logo">
-          </a>
-          <div class="nav-menu">
-            <ul class="nav-ul">
-              <li class="nav-item">
-                <a class="nav-link active" href="./index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./projects.html">Pricing</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./about.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./contact.html">Contact Us</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </header>
-
       <!-- hero section -->
       <section class="hero">
         <div class="container">
           <div class="hero-main">
             <h1> Everything you need to become  a software developer</h1>
-            <h3>A program designed to help you develop full-stack <br>  web development skills and become job-ready</h3>
+            <h3>A program designed to help you develop full-stack web development skills and <br> become job-ready</h3>
             <div class="hero-features">
+              <!-- <img  class="group-logo1"  src="./assets/media/vector.png" alt="group logo"> -->
               <h5>100% online</h5>
               <h5>Project based</h5>
               <h5>Mentorship</h5>
+              <!-- <img class="group-logo2" src="./assets/media/vector2.png" alt="group logo"> -->
             </div>
+            <a href="#" class="btn">Apply</a>
           </div>
         </div>
       </section>
-    </div>
 
     <!-- key feature -->
     <section class="key-features">
-      <div class="key-features-heading">
-        <h2>We do everything to make sure you compelete the course</h2>
+      <div class="key-head">
+        <div class=" container key-features-heading">
+          <h2>We do everything to make sure you compelete the course</h2>
+          <img src="./assets/media/coder.png" alt="coder">
+        </div>
       </div>
       <article  class="features">
         <div class="container features-container">
@@ -65,32 +74,80 @@
           <img src="./assets/media/learning.png" alt="content learning">
           <h4>Exhaustive Course Content</h4>
           <div  class="key-features-points">
-            <p>Step-by-step learning content</p>
-            <p>100s of videos, 400+ Exercises</p>
-            <p>30+ rigorous projects</p>
-            <p>Real life capstone project</p>
-            <p>Github Student Developer Pack</p>
+            <div class="point-item">
+              <img src="/assets/media/checkmark.svg" class="point-icon">
+              <p class="point-item-title">Step-by-step learning content</p>
+            </div>
+            <div class="point-item">
+              <img src="/assets/media/checkmark.svg" class="point-icon">
+              <p class="point-item-title">100s of videos, 400+ Exercises</p>
+            </div>
+            <div class="point-item">
+              <img src="/assets/media/checkmark.svg" class="point-icon">
+              <p class="point-item-title">30+ rigorous projects</p>
+            </div>
+            <div class="point-item">
+              <img src="/assets/media/checkmark.svg" class="point-icon">
+              <p class="point-item-title">Real life capstone project</p>
+            </div>
+            <div class="point-item">
+              <img src="/assets/media/checkmark.svg" class="point-icon">
+              <p class="point-item-title">Github Student Developer Pack</p>
+            </div>
           </div>
         </div>
         <div class="key-features-cards" >
           <img src="./assets/media/school.png" alt="mentorship">
           <h4>Mentorship & Support</h4>
           <div  class="key-features-points">
-            <p>Personalized code review</p>
-            <p>Feedback on exercises and conceptss</p>
-            <p>Daily, live office hours with mentors</p>
-            <p>Got stuck? Get quick help</p>
-            <p>Not feeling motivated? Get on a call with a coach</p>
+
+            <div class="point-item">
+              <img src="/assets/media/checkmark.svg" class="point-icon">
+              <p class="point-item-title"> Personalized code review</p>
+            </div>
+
+            <div class="point-item">
+              <img src="/assets/media/checkmark.svg" class="point-icon">
+              <p class="point-item-title"> Feedback on exercises and concepts</p>
+            </div>
+
+            <div class="point-item">
+              <img src="/assets/media/checkmark.svg" class="point-icon">
+              <p class="point-item-title"> Daily, live office hours with mentors</p>
+            </div>
+
+            <div class="point-item">
+              <img src="/assets/media/checkmark.svg" class="point-icon">
+              <p class="point-item-title"> Got stuck? Get quick help</p>
+            </div>
+
+            <div class="point-item">
+              <img src="/assets/media/checkmark.svg" class="point-icon">
+              <p class="point-item-title"> Not feeling motivated? Get on a call with a coach</p>
+            </div>
+
           </div>
         </div>
         <div class="key-features-cards" >
           <img src="./assets/media/online.png" alt="content learning">
           <h4>Immersive Learning</h4>
           <div  class="key-features-points">
-            <p>Get matched with peers</p>
-            <p>Automated progress tracking + Coach follow up</p>
-            <p>General community support through Slack</p>
-            <p>Build strong portfolio</p>
+            <div class="point-item">
+              <img src="/assets/media/checkmark.svg" class="point-icon">
+              <p class="point-item-title">Get matched with peers</p>
+            </div>
+            <div class="point-item">
+              <img src="/assets/media/checkmark.svg" class="point-icon">
+              <p class="point-item-title">Automated progress tracking + Coach follow up</p>
+            </div>
+            <div class="point-item">
+              <img src="/assets/media/checkmark.svg" class="point-icon">
+              <p class="point-item-title">General community support through Slack</p>
+            </div>
+            <div class="point-item">
+              <img src="/assets/media/checkmark.svg" class="point-icon">
+              <p class="point-item-title">Build strong portfolio</p>
+            </div>
           </div>
         </div>
       </div>
@@ -365,8 +422,9 @@
 
     <!-- pricing -->
     <section class="pricing">
-      <article class="pricing-head">
-        <h1>Price is what you pay. Value is what you get</h1>
+      <article class="container pricing-head">
+        <h2>Price is what you pay. Value is what you get</h2>
+        <img src="./assets/media/price.png" alt="pricetag">
       </article>
       <div class="container pricing-cards">
         <article class="pro-pricing">
@@ -492,10 +550,9 @@
 
     <!-- more testimonial -->
     <section class="more-testimonial">
-      <article class="more-testimonial-head">
-        <h1>
-          This is why we do what we do
-        </h1>
+      <article class="container more-testimonial-head">
+        <h2>This is why we do what we do </h2>
+        <img src="./assets/media/twitter.png" alt="twitter">
       </article>
       <article class="tweets container" >
         <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

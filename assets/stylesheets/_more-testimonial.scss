@@ -1,17 +1,19 @@
-.more-testimonial-head{
-    margin-top: 12rem;
+.more-testimonial{
+    padding: 8rem 0;
+}
 
-    h1{
-        background: #F5BE58;
-        padding: 4.5rem ;
-        text-align: center;
-        color: white;
+.more-testimonial-head{
+    padding-bottom: 3rem;
+    @extend %flex-between;
+    h2{
+        width: 60%;
         font-family: $font-serif;
         font-weight: 700;
-        margin-bottom: 5rem;
+        font-size: 2.8rem;
     }
-  
-
+    img{
+        width: 10%  ;
+    }
 }
 .tweets{
     background:#45B2E8;
@@ -20,9 +22,6 @@
 }
 
 .tweetgroup{
-    
-    
-
     @extend %flex-between;
     // height: 100%;
     .tweet {
