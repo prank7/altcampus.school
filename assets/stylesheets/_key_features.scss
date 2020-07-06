@@ -1,25 +1,31 @@
 .key-features-heading {
-    position: absolute;
+    @extend %flex-between;
+    // position: absolute;
     width: 100%;
-    
-    background: #45B2E8;
     h2{
-        text-align: center;
-        color: white;
-        padding:3rem 0 9rem 0;
+        width: 60%;
+        // text-align: center;
+        // color: white;
+        padding:5rem 0 ;
         font-family: $font-serif;
         font-weight: 700;
         font-size: 2.8rem;
     }
+    img{
+        width: 12%;
+    }
 }
 .key-features {
-    position: relative;
+    // position: relative;
+    background: #FBF5EF;
+    padding-bottom:10rem;
 }
 .features {
     width: 100%;
-    position: relative;
-    z-index: 1;
-    padding-top: 10rem;
+    margin-top: 3rem;
+    // position: relative;
+    // z-index: 1;
+    // padding-top: 10rem;
     
 }
 .features-container {
@@ -33,8 +39,8 @@
         0 18px 36px -18px rgba(0,0,0,.3), 0 -12px 36px -8px rgba(0,0,0,.025);
     }
     text-align: center;
-    width: 25%;
-    height: 300px;
+    width: 29%;
+    height: 350px;
     background-color:rgb(252, 252, 252);
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
     border-radius: 10px;

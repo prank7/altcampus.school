@@ -1,35 +1,63 @@
 .hero {
-    // background-color: rgba(140, 255, 251 ,0.5);
-    
-    // margin-top: 10rem;
-    text-align: left;
-    @extend %flex-between;
+    background-color:#FFFAF5;
+    @extend %flex-center;
+    margin: 0 auto;
+    text-align: center;
 }
 .hero-main{
-    width: 60%;
+    text-align: center;
+    margin: 10rem 0 8rem;
+    
     h1 {
-        margin-top: 5rem;
+        width: 70%;
         font-weight: 900;
         font-family: $font-serif;
+        color: rgb(25, 23, 20);
+        margin: 0 auto;
     }
     h3 {
-        margin: 4rem 0 4rem 0;
+        // width: 70%;
+        font-family: $font-serif2;
+        // margin: 1.5rem 0 8rem 0;
+        color: rgb(25, 23, 20);
+        font-weight:300;
+        line-height: 1.4;
+        margin: 2rem auto 5rem;
     }
+    
 }
 
 .hero-features {
+    // width: 100%;
+    position: relative;
     margin-top: 2rem;
-    @extend %flex-start;
+    @extend %flex-center;
     h5 {
         padding-left: 1rem;
         padding-right:  1rem; 
 
-        border-left: 1px solid black;
+        // border-left: 1px solid black;
         &:first-child {
             margin-left: 0;
             border-left: 0;
             padding-left: 0;
         }
+    }
+    .group-logo1 {
+        width: 20%;
+        margin-right:7rem;
+        position: absolute;
+        left: 0%;
+        bottom: 30%;
+        z-index: 1;
+    }
+    .group-logo2 {
+        width: 20%;
+        margin-left:7rem;
+        position: absolute;
+        right: 0%;
+        bottom: 30%;
+        z-index: 1;
     }
 
 }
