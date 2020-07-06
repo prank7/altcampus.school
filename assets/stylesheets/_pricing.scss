@@ -1,0 +1,72 @@
+.pricing-cards{
+    @extend %flex-between;
+}
+.pricing-head{
+    background: #45B2E8;
+    padding: 4.5rem ;
+    text-align: center;
+    color: white;
+    font-family: $font-serif;
+    font-weight: 700;
+    margin-bottom: 5rem;
+
+}
+
+.pro-pricing{
+    width: 48%;
+    border-radius: 20px;
+    background: #ffff;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    // filter: drop-shadow(0px 1.92651px 3.85303px rgba(41,37,51,0.1));
+    &:hover{
+
+        transform: translateY(-2px);
+        box-shadow: 0 30px 60px -12px rgba(50,50,90,.25),
+        0 18px 36px -18px rgba(0,0,0,.3), 0 -12px 36px -8px rgba(0,0,0,.025);
+    }
+}
+.pro-pricing-intro{
+    @extend %flex-start;
+    img{
+        width: 30%;
+    }
+}
+.pro-pricing-value{
+    margin: 0 0 0 10rem;
+   
+}
+.price-discount{
+    @extend %flex-between;
+    text-decoration:line-through;
+    // text-decoration-color: black;
+    color: grey;
+    p{
+        padding-left: 1rem;
+    }
+}
+.price-real{
+    @extend %flex-between;
+    p{
+        padding-left: 1rem;
+    }
+}
+.pro-pricing-feature{
+    @extend %flex-start;
+    border-top:1px solid rgb(202, 202, 202);
+    padding: .3rem
+    ;
+    img{
+        width: 4%;
+        padding: 0 1rem;
+    }
+    p{
+        padding-left: 1rem ;
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+}
+
+.general-feature{
+    text-decoration:line-through;
+    color: grey;
+}

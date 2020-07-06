@@ -1,8 +1,15 @@
 .course-shadow {
     box-shadow: 0 13px 27px -5px rgba(50,50,93,.25), 0 8px 16px -8px rgba(0,0,0,.3), 0 -6px 16px -6px rgba(0,0,0,.025);
-    border-radius: 6px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
     margin-bottom: 3rem;
 }
+.course-details{
+    margin: 12rem 0;
+}
+
 .course-details-heading {
     text-align: center;
     font-family: $font-serif;
@@ -19,7 +26,7 @@
     width: 28%;
     text-align: left;
     padding-left: 4rem;
-    color: rgb(240, 238, 238);
+    // color: rgb(240, 238, 238);
     font-size: 1.5rem;
     font-weight: 500;
     padding-right: 3rem;
@@ -37,7 +44,7 @@
     width: 50%;
     text-align: left;
     padding-left: 5rem;
-      color: #609EEC;
+    //   color: #6ECAFB;
       font-size: 1.1rem;
       font-weight: 500;
       padding-right: 5rem;
@@ -45,44 +52,55 @@
     .col3-4 {
         width: 25%;
         text-align: left;
-        color: #71D08F;
+        // color: #71D08F;
         font-size: 1.3rem;
         font-weight: 500;
         padding-right: 5rem;
         
     }
 .course-details-odd-row {
-    background: #32325D;
+    // background: #32325D;
+    background: #FBF5EF;
+    
 }
 .course-details-even-row {
-    background: #3A3C72;
+    // background:rgba(50, 50, 93, 0.9);
+    background: #FFFAF5;
+    
 }
 .course-article {
      @extend %flex-center;
-     color: white;
+    //  color: white;
     padding: 2rem 0;
     cursor: arrow;
     &:hover {
-       background: rgba(brown, 0.9);
+    //    background: rgba(brown, 0.9);
     }
     p{
         margin-bottom: 0.5rem;
         letter-spacing: 0.03rem;
     }
+    &:last-child{
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+   
 }
 .course-details-wrapper{
-    max-width: 1040px;
+    max-width: 1140px;
     margin: 0 auto;
 }
 
 .course-content-head {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
     font-size: 2rem;
     font-weight: 800;
-    background: #5c5e16;
+    background: #F0B64B;
     padding: 1rem 0;
     p {
         font-size: 2rem;
-        color: rgb(199, 186, 13);
+        // color: rgb(199, 186, 13);
     }
 }
 //grid-background
@@ -174,11 +192,11 @@
     justify-content: center;
     align-items: center;
     padding: 4rem 0;
-    margin: 0 1rem;
+    // margin: 0 1rem;
     margin-bottom: 6rem;
-    background: rgb(228, 226, 221);
+    background:#F0B64B;
     box-shadow: 2px 2px 30px -30px rgba(0,0,0,.7);
-    border-radius: 8px;
+    // border-radius: 8px;
     box-shadow: 0 13px 27px -5px rgba(50,50,93,.25), 0 8px 16px -8px rgba(0,0,0,.3), 0 -6px 16px -6px rgba(0,0,0,.025);
     
 
