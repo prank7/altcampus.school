@@ -1,12 +1,24 @@
+.key-features {
+    position: relative;
+    padding-bottom:10rem;
+}
+
+.key-head{
+    background: #45B2E8;
+    position: absolute;
+    left: 0%;
+    width: 100%;
+    padding: 2rem 0 9rem;
+}
+
 .key-features-heading {
     @extend %flex-between;
-    // position: absolute;
     width: 100%;
     h2{
         width: 60%;
         // text-align: center;
         // color: white;
-        padding:5rem 0 ;
+        // padding:5rem 0  5rem 0;
         font-family: $font-serif;
         font-weight: 700;
         font-size: 2.8rem;
@@ -15,17 +27,13 @@
         width: 12%;
     }
 }
-.key-features {
-    // position: relative;
-    background: #FBF5EF;
-    padding-bottom:10rem;
-}
+
 .features {
     width: 100%;
     margin-top: 3rem;
-    // position: relative;
-    // z-index: 1;
-    // padding-top: 10rem;
+    position: relative;
+    z-index: 1;
+    padding-top: 15rem;
     
 }
 .features-container {

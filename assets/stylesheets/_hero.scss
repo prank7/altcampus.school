@@ -6,23 +6,43 @@
 }
 .hero-main{
     text-align: center;
-    margin: 10rem 0 8rem;
+    margin:6rem 0 6rem;
     
     h1 {
-        width: 70%;
-        font-weight: 900;
+        width: 73%;
+        font-weight: 700;
         font-family: $font-serif;
         color: rgb(25, 23, 20);
         margin: 0 auto;
+        line-height: 1.2;
     }
     h3 {
         // width: 70%;
-        font-family: $font-serif2;
+        // font-family: $font-serif2;
         // margin: 1.5rem 0 8rem 0;
-        color: rgb(25, 23, 20);
-        font-weight:300;
+        color: rgb(53, 50, 45);
+        font-size: 1.6rem;
+        font-weight:400;
         line-height: 1.4;
-        margin: 2rem auto 5rem;
+        margin: 2rem auto 2rem;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+    button{
+        margin-top: 1.5rem;
+        padding: .75rem 6rem;
+        background: #45B2E8;
+        font-size: 1rem;
+        letter-spacing:.06rem;
+        border: 1px solid black;
+        border-radius: 3px;
+        cursor: pointer;
+        &:hover{
+            color : white;
+            transform: translateY(-1px);
+            transition: all 0.3s ease;
+            box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        // border: 0;
     }
     
 }
