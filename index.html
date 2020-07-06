@@ -6,36 +6,35 @@
   <meta name="description" content="AltCampus offers software development courses.">
   <title>AltCampus School</title>
   <link rel="stylesheet" href="./assets/stylesheets/style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
+  <!-- header -->
+  <header class="header">
+    <nav class="nav container">
+      <a href="./index.html" class="logo">
+        <img class="logo-img" src="./assets/media/logo.png" alt="Logo">
+      </a>
+      <div class="nav-menu">
+        <ul class="nav-ul">
+          <li class="nav-item">
+            <a class="nav-link active" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./projects.html">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
   <main>
-    <div class="header-section">
-      <header>
-        <nav class="nav container">
-          <a href="./index.html" class="logo">
-            <img class="logo-img" src="./assets/media/logo.png" alt="Logo">
-          </a>
-          <div class="nav-menu">
-            <ul class="nav-ul">
-              <li class="nav-item">
-                <a class="nav-link active" href="./index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./projects.html">Pricing</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./about.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./contact.html">Contact Us</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </header>
-
       <!-- hero section -->
       <section class="hero">
         <div class="container">
@@ -43,19 +42,21 @@
             <h1> Everything you need to become  a software developer</h1>
             <h3>A program designed to help you develop full-stack <br>  web development skills and become job-ready</h3>
             <div class="hero-features">
+              <img  class="group-logo1"  src="./assets/media/vector.png" alt="group logo">
               <h5>100% online</h5>
               <h5>Project based</h5>
               <h5>Mentorship</h5>
+              <img class="group-logo2" src="./assets/media/vector2.png" alt="group logo">
             </div>
           </div>
         </div>
       </section>
-    </div>
 
     <!-- key feature -->
     <section class="key-features">
-      <div class="key-features-heading">
+      <div class="container key-features-heading">
         <h2>We do everything to make sure you compelete the course</h2>
+        <img src="./assets/media/coder.png" alt="coder">
       </div>
       <article  class="features">
         <div class="container features-container">
@@ -219,8 +220,9 @@
     </section> 
     <!-- pricing -->
     <section class="pricing">
-      <article class="pricing-head">
-        <h1>Price is what you pay. Value is what you get</h1>
+      <article class="container pricing-head">
+        <h2>Price is what you pay. Value is what you get</h2>
+        <img src="./assets/media/price.png" alt="pricetag">
       </article>
       <div class="container pricing-cards">
         <article class="pro-pricing">
@@ -346,10 +348,9 @@
 
     <!-- more testimonial -->
     <section class="more-testimonial">
-      <article class="more-testimonial-head">
-        <h1>
-          This is why we do what we do
-        </h1>
+      <article class="container more-testimonial-head">
+        <h2>This is why we do what we do </h2>
+        <img src="./assets/media/twitter.png" alt="twitter">
       </article>
       <article class="tweets container" >
         <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

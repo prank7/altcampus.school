@@ -7,7 +7,7 @@
     margin-bottom: 3rem;
 }
 .course-details{
-    margin: 12rem 0;
+    margin: 8rem 0;
 }
 
 .course-details-heading {
@@ -73,9 +73,7 @@
     //  color: white;
     padding: 2rem 0;
     cursor: arrow;
-    &:hover {
-    //    background: rgba(brown, 0.9);
-    }
+   
     p{
         margin-bottom: 0.5rem;
         letter-spacing: 0.03rem;
@@ -96,7 +94,7 @@
     border-top-right-radius: 20px;
     font-size: 2rem;
     font-weight: 800;
-    background: #F0B64B;
+    background: rgb(236, 232, 225);
     padding: 1rem 0;
     p {
         font-size: 2rem;
@@ -194,17 +192,17 @@
     padding: 4rem 0;
     // margin: 0 1rem;
     margin-bottom: 6rem;
-    background:#F0B64B;
-    box-shadow: 2px 2px 30px -30px rgba(0,0,0,.7);
+    background:#45B2E8;
+    // box-shadow: 2px 2px 30px -30px rgba(0,0,0,.7);
     // border-radius: 8px;
-    box-shadow: 0 13px 27px -5px rgba(50,50,93,.25), 0 8px 16px -8px rgba(0,0,0,.3), 0 -6px 16px -6px rgba(0,0,0,.025);
+    // box-shadow: 0 13px 27px -5px rgba(50,50,93,.25), 0 8px 16px -8px rgba(0,0,0,.3), 0 -6px 16px -6px rgba(0,0,0,.025);
     
 
-    &:hover {
-        transform: translateY(-2px);
-        box-shadow:0 30px 60px -12px rgba(50,50,93,.25), 0 18px 36px -18px rgba(0,0,0,.3), 0 -12px 36px -8px rgba(0,0,0,.025);
-    }
-    transition: transform 0.5s ease;
+    // &:hover {
+    //     transform: translateY(-2px);
+    //     box-shadow:0 30px 60px -12px rgba(50,50,93,.25), 0 18px 36px -18px rgba(0,0,0,.3), 0 -12px 36px -8px rgba(0,0,0,.025);
+    // }
+    // transition: transform 0.5s ease;
 }
 
 .col {
@@ -216,9 +214,10 @@
     }
     .numbers {
         color: black;
-        font-size: 5rem;
-        font-weight: 900;
-        margin-bottom: -1.3rem;
+        font-size: 3rem;
+        font-weight: 700;
+        font-family: $font-serif2;
+        margin-bottom: -1rem;
     }
     .topics {
         color: rgb(31, 30, 30);

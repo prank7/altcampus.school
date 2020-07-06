@@ -53,8 +53,8 @@ table {
 }
 
 h1 {
-  font-size: 3rem;
-  line-height: 1.574468085106383;
+  font-size: 3.5rem;
+  line-height: 1.5;
 }
 
 h2 {
@@ -63,8 +63,8 @@ h2 {
 }
 
 h3 {
-  font-size: 1.8125rem;
-  line-height: 1.6551724137931034;
+  font-size: 1.8rem;
+  line-height: 1.5;
 }
 
 h4 {
@@ -82,7 +82,7 @@ h6 {
   line-height: 1.8571428571428572;
 }
 
-.nav, .nav-ul, .hero, .features-container, .pricing-cards, .price-discount, .price-real, .tweetgroup {
+.nav, .nav-ul, .key-features-heading, .features-container, .pricing-cards, .pricing-head, .price-discount, .price-real, .more-testimonial-head, .tweetgroup {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -94,7 +94,7 @@ h6 {
   align-items: center;
 }
 
-.hero-features, .pro-pricing-intro, .pro-pricing-feature {
+.pro-pricing-intro, .pro-pricing-feature {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -106,7 +106,7 @@ h6 {
   align-items: center;
 }
 
-.col1-4, .course-article {
+.hero, .hero-features, .col1-4, .course-article {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -129,7 +129,7 @@ html {
 }
 
 body {
-  font-family: "Mukta", sans-serif;
+  font-family: "Work Sans", sans-serif;
   line-height: 1.5;
 }
 
@@ -154,16 +154,12 @@ h6 {
   letter-spacing: 0;
 }
 
-.header-section {
-  background: url(../media/cover.svg);
-  background-size: 80%;
-  background-position: 100% 0;
-  background-repeat: no-repeat;
-  height: 100vh;
+.header {
+  background-color: #FFFAF5;
 }
 
 .logo-img {
-  width: 8rem;
+  width: 30%;
 }
 
 .nav {
@@ -171,10 +167,10 @@ h6 {
 }
 
 .nav-link {
-  margin-left: 7rem;
-  color: white;
+  margin-left: 4rem;
+  color: #191714;
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 
 main {
@@ -182,31 +178,40 @@ main {
 }
 
 .hero {
-  text-align: left;
+  background-color: #FFFAF5;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .hero-main {
-  width: 60%;
+  text-align: center;
+  margin: 10rem 0 8rem;
 }
 
 .hero-main h1 {
-  margin-top: 5rem;
+  width: 70%;
   font-weight: 900;
-  font-family: "Nunito", sans-serif;
+  font-family: "Lato", sans-serif;
+  color: #191714;
+  margin: 0 auto;
 }
 
 .hero-main h3 {
-  margin: 4rem 0 4rem 0;
+  font-family: "Work Sans", sans-serif;
+  color: #191714;
+  font-weight: 300;
+  line-height: 1.4;
+  margin: 2rem auto 5rem;
 }
 
 .hero-features {
+  position: relative;
   margin-top: 2rem;
 }
 
 .hero-features h5 {
   padding-left: 1rem;
   padding-right: 1rem;
-  border-left: 1px solid black;
 }
 
 .hero-features h5:first-child {
@@ -215,36 +220,54 @@ main {
   padding-left: 0;
 }
 
-.key-features-heading {
+.hero-features .group-logo1 {
+  width: 20%;
+  margin-right: 7rem;
   position: absolute;
+  left: 0%;
+  bottom: 30%;
+  z-index: 1;
+}
+
+.hero-features .group-logo2 {
+  width: 20%;
+  margin-left: 7rem;
+  position: absolute;
+  right: 0%;
+  bottom: 30%;
+  z-index: 1;
+}
+
+.key-features-heading {
   width: 100%;
-  background: #45B2E8;
 }
 
 .key-features-heading h2 {
-  text-align: center;
-  color: white;
-  padding: 3rem 0 9rem 0;
-  font-family: "Nunito", sans-serif;
+  width: 60%;
+  padding: 5rem 0;
+  font-family: "Lato", sans-serif;
   font-weight: 700;
   font-size: 2.8rem;
 }
 
+.key-features-heading img {
+  width: 12%;
+}
+
 .key-features {
-  position: relative;
+  background: #FBF5EF;
+  padding-bottom: 10rem;
 }
 
 .features {
   width: 100%;
-  position: relative;
-  z-index: 1;
-  padding-top: 10rem;
+  margin-top: 3rem;
 }
 
 .key-features-cards {
   text-align: center;
-  width: 25%;
-  height: 300px;
+  width: 29%;
+  height: 350px;
   background-color: #fcfcfc;
   -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
           box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
@@ -293,12 +316,12 @@ main {
 }
 
 .course-details {
-  margin: 12rem 0;
+  margin: 8rem 0;
 }
 
 .course-details-heading {
   text-align: center;
-  font-family: "Nunito", sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 .course-details-heading h2 {
@@ -376,7 +399,7 @@ main {
   border-top-right-radius: 20px;
   font-size: 2rem;
   font-weight: 800;
-  background: #F0B64B;
+  background: #ece8e1;
   padding: 1rem 0;
 }
 
@@ -497,22 +520,7 @@ main {
           align-items: center;
   padding: 4rem 0;
   margin-bottom: 6rem;
-  background: #F0B64B;
-  -webkit-box-shadow: 2px 2px 30px -30px rgba(0, 0, 0, 0.7);
-          box-shadow: 2px 2px 30px -30px rgba(0, 0, 0, 0.7);
-  -webkit-box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25), 0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
-          box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25), 0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
-  -webkit-transition: -webkit-transform 0.5s ease;
-  transition: -webkit-transform 0.5s ease;
-  transition: transform 0.5s ease;
-  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
-}
-
-.course-highlights:hover {
-  -webkit-transform: translateY(-2px);
-          transform: translateY(-2px);
-  -webkit-box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25), 0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
-          box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25), 0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+  background: #45B2E8;
 }
 
 .col {
@@ -527,9 +535,10 @@ main {
 
 .col .numbers {
   color: black;
-  font-size: 5rem;
-  font-weight: 900;
-  margin-bottom: -1.3rem;
+  font-size: 3rem;
+  font-weight: 700;
+  font-family: "Work Sans", sans-serif;
+  margin-bottom: -1rem;
 }
 
 .col .topics {
@@ -538,14 +547,24 @@ main {
   font-weight: 700;
 }
 
+.pricing {
+  background: #FBF5EF;
+  padding: 8rem 0;
+}
+
 .pricing-head {
-  background: #45B2E8;
-  padding: 4.5rem;
-  text-align: center;
-  color: white;
-  font-family: "Nunito", sans-serif;
-  font-weight: 700;
   margin-bottom: 5rem;
+}
+
+.pricing-head h2 {
+  width: 40%;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 2.8rem;
+}
+
+.pricing-head img {
+  width: 8%;
 }
 
 .pro-pricing {
@@ -605,18 +624,23 @@ main {
   color: grey;
 }
 
-.more-testimonial-head {
-  margin-top: 12rem;
+.more-testimonial {
+  padding: 8rem 0;
 }
 
-.more-testimonial-head h1 {
-  background: #F5BE58;
-  padding: 4.5rem;
-  text-align: center;
-  color: white;
-  font-family: "Nunito", sans-serif;
+.more-testimonial-head {
+  padding-bottom: 3rem;
+}
+
+.more-testimonial-head h2 {
+  width: 60%;
+  font-family: "Lato", sans-serif;
   font-weight: 700;
-  margin-bottom: 5rem;
+  font-size: 2.8rem;
+}
+
+.more-testimonial-head img {
+  width: 10%;
 }
 
 .tweets {

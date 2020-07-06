@@ -1,14 +1,25 @@
+.pricing{
+    background: #FBF5EF;
+    padding: 8rem 0;
+}
+
 .pricing-cards{
     @extend %flex-between;
 }
 .pricing-head{
-    background: #45B2E8;
-    padding: 4.5rem ;
-    text-align: center;
-    color: white;
-    font-family: $font-serif;
-    font-weight: 700;
+    @extend %flex-between;
     margin-bottom: 5rem;
+    h2{
+        width: 40%;
+        // padding:5rem 0 ;
+        font-family: $font-serif;
+        font-weight: 700;
+        font-size: 2.8rem;
+    }
+
+    img{
+        width: 8%;
+    }
 
 }
 
