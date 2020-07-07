@@ -107,7 +107,7 @@ h6 {
   align-items: center;
 }
 
-.hero, .hero-features, .key-features-heading, .col1-4, .course-article, .pricing-head, .more-testimonial-head, .author, .carousel__photo, .content-wrapper, .testimonial {
+.hero, .hero-features, .key-features-heading, .col1-4, .course-article, .course-highlights, .pricing-head, .more-testimonial-head, .author, .carousel__photo, .content-wrapper, .testimonial {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -117,6 +117,21 @@ h6 {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .nav, .nav-ul, .features-container, .course-content .module-container .module-details, .pricing-cards, .tweetgroup {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .pro-pricing-intro, .price, .offer-price, .pro-pricing-feature, .footer-flex, .social-flex {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .hero, .hero-features, .key-features-heading, .col1-4, .course-article, .course-highlights, .pricing-head, .more-testimonial-head, .author, .carousel__photo, .content-wrapper, .testimonial {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
 }
 
 html {
@@ -185,6 +200,12 @@ button {
   transition: all 0.3s ease;
   -webkit-box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
           box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 12px;
+  }
 }
 
 .header {
@@ -271,6 +292,12 @@ button {
   right: 0%;
   bottom: 30%;
   z-index: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .hero-main h1 {
+    width: 100%;
+  }
 }
 
 .key-features {
@@ -383,6 +410,22 @@ button {
   margin-left: 0.25rem;
   font-size: 1rem;
   margin-top: -.3rem;
+}
+
+@media screen and (max-width: 768px) {
+  .key-features {
+    position: static;
+  }
+  .key-head {
+    position: static;
+  }
+  .features {
+    position: static;
+  }
+  .point-item {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
 }
 
 .course-shadow {
@@ -591,15 +634,6 @@ button {
 }
 
 .course-highlights {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   padding: 4rem 0;
   margin-bottom: 6rem;
   background: white;
@@ -732,6 +766,24 @@ button {
 
 .course-content .module-container:nth-child(2n+1) p {
   color: #525f7f;
+}
+
+@media screen and (max-width: 768px) {
+  .course-highlights {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .col {
+    width: 100%;
+  }
+  .course-content .module-container .module-details .module-topics {
+    width: 100%;
+  }
+  .course-content .module-container .module-details .module-projects {
+    width: 100%;
+  }
 }
 
 .pricing {
@@ -895,6 +947,41 @@ button {
 .general-feature {
   text-decoration: line-through;
   color: grey;
+}
+
+@media screen and (max-width: 768px) {
+  .pro-pricing-value {
+    margin: 0 auto;
+  }
+  .pro-pricing-value .price-tag {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .pro-pricing-intro {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .pro-pricing-intro img {
+    width: 6.5rem;
+  }
 }
 
 .more-testimonial {
@@ -1301,5 +1388,59 @@ blockquote::after {
   font-size: 0.85rem;
   font-weight: 300;
   color: rgba(221, 234, 240, 0.2);
+}
+
+@media screen and (max-width: 768px) {
+  .footer-col2 {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .footer-col1-2 {
+    width: 100%;
+  }
+  .links {
+    width: 100%;
+  }
+  .social {
+    width: 100%;
+  }
+}
+
+.faqs {
+  padding: 5rem 0;
+  font-family: "Source Sans Pro";
+}
+
+.faq-container {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.faq-heading {
+  text-align: center;
+  color: #32325d;
+  font-weight: 700;
+  margin-bottom: 3rem;
+  font-size: 2.8rem;
+}
+
+.question {
+  color: #008168;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.answer {
+  padding: 0.5rem 0 2rem 0;
+  color: #525f7f;
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 0.013rem;
+}
+
+.answer b {
+  font-weight: 600;
+  font-size: 1.4rem;
+  padding-right: 0.5rem;
 }
 /*# sourceMappingURL=style.css.map */

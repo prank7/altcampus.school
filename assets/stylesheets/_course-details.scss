@@ -188,9 +188,7 @@
 
 //course-highlights
 .course-highlights {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %flex-center;
     padding: 4rem 0;
     // margin: 0 1rem;
     margin-bottom: 6rem;
@@ -316,5 +314,30 @@
         }
         
         
+    }
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .course-highlights {
+        flex-direction: column;
+    }
+    .col {
+        width: 100%;
+    }
+    .course-content {
+        .module-container {
+            .module-details {
+                .module-topics {
+                    width: 100%;
+
+                }
+                .module-projects {
+                    width: 100%;
+                }
+            }
+        }
     }
 }

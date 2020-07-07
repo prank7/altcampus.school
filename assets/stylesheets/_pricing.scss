@@ -155,3 +155,30 @@
     text-decoration:line-through;
     color: grey;
 }
+
+
+
+@media screen and (max-width: 768px) {
+    // .pricing-head {
+    //     flex-direction: column;
+    //     align-items: center;
+    //     justify-content: center;
+    // }
+    .pro-pricing-value {
+        margin: 0 auto;
+        .price-tag {
+            flex-wrap: wrap;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    .pro-pricing-intro{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        img{
+            width: 6.5rem;
+        }
+    }
+}
