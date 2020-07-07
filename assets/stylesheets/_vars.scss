@@ -127,3 +127,20 @@ $textBg3Accent:  #525f7f;
     justify-content: flex-start;
     align-items: flex-start;
   } 
+  @media screen and (max-width: 768px) {
+    %flex-between {
+    flex-wrap: wrap;
+  }
+    %flex-start {
+    flex-wrap: wrap;
+  }
+    %flex-end {
+    flex-wrap: wrap;
+  }
+    %flex-center {
+    flex-wrap: wrap;
+  }
+    %item-start {
+    flex-wrap: wrap;
+  }
+}
