@@ -248,7 +248,13 @@
         &:last-child {
             margin-bottom: 0;
         }
+        &:hover{
+            transform: none;
+            transition: none;
+            box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+        }
     }
+    
     .premium {
         margin-bottom: 4rem;
     }
@@ -265,7 +271,13 @@
         padding-right: 1.5rem;
         width: 50%;
 
+        }
     }
-}
+    // .pricing-cards {
+    //     flex-direction: column;
+    //     justify-content: center;
+    //     align-items: center;
+    //     width: 100%;
+    // }
 
 }

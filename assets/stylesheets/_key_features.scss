@@ -15,6 +15,7 @@
 .key-features-heading {
     @extend %flex-center;
     width: 100%;
+
     h2{
         // width: 60%;
         // text-align: center;
@@ -121,6 +122,7 @@
     }
     .key-features-heading {
         flex-direction: column;
+       text-align: center;
         img{
             margin-right: none;
             width: 50px;
@@ -132,6 +134,11 @@
         &:first-child {
             margin-top: 0;
         }
-    }
+         &:hover{
 
+        transform: none;
+        transition: none;
+         box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+        }
+    }
 }
