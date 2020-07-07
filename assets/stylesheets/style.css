@@ -220,7 +220,7 @@ button {
   border-bottom: 2px solid #e9f4f4;
 }
 
-.active {
+.header .active {
   border-bottom: 2px solid #3ecf8e;
 }
 
@@ -409,7 +409,7 @@ button {
 
 .key-features-heading img {
   display: inline-block;
-  width: 4%;
+  width: 3rem;
   margin-right: 1rem;
 }
 
@@ -554,7 +554,7 @@ button {
 
 .course-details-heading img {
   display: inline-block;
-  width: 42px;
+  width: 3rem;
   margin-right: 1rem;
 }
 
@@ -771,7 +771,7 @@ button {
 }
 
 .pricing-head img {
-  width: 4%;
+  width: 3rem;
   display: inline-block;
   margin-right: 1rem;
 }
@@ -1042,7 +1042,7 @@ button {
 }
 
 .more-testimonial-head img {
-  width: 4%;
+  width: 3rem;
   margin-right: 1rem;
   display: inline-block;
 }
@@ -1081,7 +1081,7 @@ button {
 
 .testimonial-head img {
   display: inline-block;
-  width: 4%;
+  width: 3rem;
   margin-right: 1rem;
 }
 
