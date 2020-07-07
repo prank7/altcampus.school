@@ -7,14 +7,22 @@
   <title>AltCampus School</title>
   <link rel="stylesheet" href="./assets/stylesheets/style.css">
 
-  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700;900&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600&display=swap"
-    rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&family=Inter:wght@300;400;500&family=Merriweather:wght@400;700&family=Neuton:wght@400;700&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Source+Sans+Pro:wght@200;300;400;600;700;900&family=Mukta:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&family=Inter:wght@300;400;500&family=Merriweather:wght@400;700&family=Neuton:wght@400;700&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121886584-4"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-121886584-4');
+  </script>
+
 </head>
 <body>
   <!-- header -->
@@ -55,7 +63,7 @@
               <h5>Mentorship</h5>
               <!-- <img class="group-logo2" src="./assets/media/vector2.png" alt="group logo"> -->
             </div>
-            <a href="#" class="btn">Apply</a>
+            <a href="#" class="btn">Signup</a>
           </div>
         </div>
       </section>
@@ -64,7 +72,7 @@
     <section class="key-features">
       <div class="key-head">
         <div class=" container key-features-heading">
-          <img src="./assets/media/coder.png" alt="coder">
+          <img src="./assets/media/student-bbg.svg" alt="Student">
           <h2>We do everything</h2>
         </div>
       </div>
@@ -465,7 +473,7 @@
     <!-- pricing -->
     <section class="pricing">
       <article class="container pricing-head">
-        <img src="./assets/media/price.png" alt="pricetag">
+        <img src="./assets/media/price-tag.svg" alt="pricetag">
         <h2>Pricing</h2>
       </article>
       <div class="container pricing-cards">
@@ -475,15 +483,17 @@
             <div class="pro-pricing-value pro">
               <div class="price-tag">
                 <h2>Premium</h2>
-                <div>
+                <div class="price-matrix">
+                  <p class="offer">20% Off (Early Bird offer)</p>
                   <div class="price">
-                    <h4>₹93,749</h4>
-                    <p>$1249</p>
+                    <h4><pre> ₹93,749 </pre></h4>
+                    <pre><p> $1249 </p></pre>
                   </div>
                   <div class="offer-price">
                     <h4>₹74,999</h4>
                     <p>$999</p>
                   </div>
+                  
                 </div>
               </div>
             </div>
@@ -537,16 +547,16 @@
             <div class="pro-pricing-value basic">
               <div class="price-tag">
                 <h2>Standard</h2>
-                <div>
+                <div class="price-matrix">
+                  <p class="offer">20% Off (Early Bird offer)</p>
                   <div class="price">
-                    <h4>₹90,000</h4>
-                    <p>$1200</p>
+                    <h4><pre> ₹56,249 </pre></h4>
+                    <pre><p> $749 </p></pre>
                   </div>
                   <div class="offer-price">
-                    <h4>₹65,000</h4>
-                    <p>$799</p>
+                    <h4>₹44,999</h4>
+                    <p>$599</p>
                   </div>
-                  
                 </div>
               </div>
 
@@ -604,8 +614,8 @@
     <!-- more testimonial -->
     <section class="more-testimonial">
       <article class="container more-testimonial-head">
-        <h2>This is why we do what we do </h2>
         <img src="./assets/media/twitter.png" alt="twitter">
+        <h2>This is why we do what we do </h2>
       </article>
       <article class="tweets container" >
         <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
