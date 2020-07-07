@@ -1,32 +1,35 @@
 .key-features {
     position: relative;
-    padding-bottom:9rem;
+    padding-bottom: 7rem;
 }
 
 .key-head{
-    background: #21396a;
+    background: $lightbg4;
     position: absolute;
     left: 0%;
     width: 100%;
-    padding: 2rem 0 36rem;
+    padding: 6rem 0 38rem;
 }
 
 .key-features-heading {
-    @extend %flex-between;
+    @extend %flex-center;
     width: 100%;
     h2{
-        width: 60%;
+        // width: 60%;
         // text-align: center;
         // color: white;
         // padding:5rem 0  5rem 0;
         font-family: $font-serif;
         font-weight: 700;
         font-size: 2.8rem;
-        color: white;
+        color: $textBg1Heading;
         // color: $yellow;
     }
     img{
-        width: 12%;
+        // width: 12%;
+        display: inline-block;
+        width: 4%;
+        margin-right: 1rem;
     }
 }
 
@@ -34,7 +37,7 @@
     width: 100%;
     position: relative;
     z-index: 1;
-    padding-top: 15rem;
+    padding-top: 14rem;
     
 }
 .features-container {
@@ -52,6 +55,7 @@
     &:hover{
 
         transform: translateY(-2px);
+        transition: all 0.3s ease;
         box-shadow: 0 30px 60px -12px rgba(50,50,90,.25),
         0 18px 36px -18px rgba(0,0,0,.3), 0 -12px 36px -8px rgba(0,0,0,.025);
     }

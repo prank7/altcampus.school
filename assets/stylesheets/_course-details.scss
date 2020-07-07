@@ -9,7 +9,7 @@
 .course-details{
     // margin: 8rem 0;
     background: $lightbg1;
-    padding: 3rem 0 5rem;
+    padding: 7rem 0 5rem;
 }
 
 .course-details-heading {
@@ -19,7 +19,7 @@
         font-size: 2.8rem;
         font-weight: 700;
         margin: 3rem 0;
-        color: $fontBg1Heading;
+        color: $textBg1Heading;
     }
 }
 .col1-4 {
@@ -195,6 +195,7 @@
     // margin: 0 1rem;
     margin-bottom: 6rem;
     background: white;
+
     // box-shadow: 2px 2px 30px -30px rgba(0,0,0,.7);
     // border-radius: 8px;
     // box-shadow: 0 13px 27px -5px rgba(50,50,93,.25), 0 8px 16px -8px rgba(0,0,0,.3), 0 -6px 16px -6px rgba(0,0,0,.025);
@@ -210,21 +211,110 @@
 .col {
     width: 25%;
     text-align: center;
-    border-right: 1px solid black;
+    border-right: 1px solid #ededed;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    div {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
     &:last-child {
         border-right: none;
     }
     .numbers {
-        color: black;
-        font-size: 3rem;
+        font-size: 4rem;
         font-weight: 700;
-        font-family: $font-serif2;
+        font-family: $font-mukta;
         margin-bottom: -1rem;
+        color: $green;
     }
     .topics {
-        color: rgb(31, 30, 30);
         font-size: 1.4rem;
-        font-weight: 700;
+        font-weight: 600;
+        font-family: $font-mukta;
+        text-transform: uppercase;
+        color: #21396a;
     }
     
+}
+
+
+.course-content {
+    max-width: 1140px;
+    margin: 0 auto;
+    .module-container {
+        padding: 2rem;
+        h3 {
+            color: $blue;
+            // color: #21396a;
+            color: $textBg1Heading;
+            color: $greenDark;
+            font-weight: 700;
+            font-family: $font-serif;
+            text-transform: uppercase;
+        }
+        .module-details {
+            @extend %flex-between;
+            align-items: flex-start;
+            padding: 1rem 0;
+
+            h5 {
+                color: $textBg1Heading;
+                background: $yellow;
+                color: #896015;
+                border-radius: 2px;
+                padding: 0.1rem 0.6rem;
+                display: inline-block;
+                font-family: $font-mukta;
+                font-size: 1rem;
+                margin-bottom: 0.8rem;
+
+                background: #e9d495;
+                color: #9d4210;
+
+                // #f6e7ba;
+                // #9d4210;
+            }
+
+            p {
+                margin-bottom: 0.5rem;
+                font-size: 1.1rem;
+                color: $textBg3Para;
+            }
+
+            .module-topics {
+                width: 70%;
+
+            }
+            .module-projects {
+                width: 30%;
+            }
+        }
+        
+        &:nth-child(2n) {
+            background: #e6ebf1cc;
+            h3 {
+                color: $textBg1Heading;
+            }
+            h5 {
+                background: #d7ecff;
+                color: #494bae;
+            }
+        }
+        &:nth-child(2n+1) {
+            background: $lightbg4;
+            p {
+                color: $textBg1Para;
+            }
+        }
+        
+        
+    }
 }

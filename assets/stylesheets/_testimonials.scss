@@ -1,15 +1,32 @@
+.testimonial-heading {
+  padding: 6rem 0 0rem 0;
+  background: $lightbg1;
+
+  h3 {
+    font-size: 2.8rem;
+    font-family: $font-serif;
+    color: $textBg1Heading;
+    text-align: center;
+    font-weight: 700;
+    padding-bottom: 2.5rem;
+  }
+}
+
 .testimonials {
   position: relative;
-  margin: 5rem 0;
+  padding: 2.5rem 0;
   background: #32325D;
   color: white;
-  padding: 5rem 0;
-  font-family: $font-open;
+  font-family: $font-mukta;
+  blockquote {
+    font-family: $font-source;
+  }
 }
 
 .author {
   @extend %flex-center;
   flex-basis: 40%;
+  justify-content: flex-start;
   .author-img {
     object-fit: cover;
     width: 80px;
@@ -85,7 +102,7 @@ blockquote {
   top:0;
   width: 100%;
   margin: auto;
-  padding: 1rem 4rem;
+  padding: 1rem 5rem;
   z-index: 100;
   transition: transform .5s, opacity .5s, z-index .5s;
 }
@@ -121,14 +138,30 @@ blockquote {
   top:50%;
   width: 3rem;
   height: 3rem;
-  background-color: #FFF;
   transform: translateY(-50%);
   border-radius: 50%;
   cursor: pointer; 
   z-index: 1001; /* Sit on top of everything */
-  border:1px solid black;
+  background: #6772e5;
+  transition: all .15s ease;
 /*  opacity: 0;  Hide buttons until carousel is initialised 
   transition:opacity 1s;*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+
+  &:hover {
+    // transform: translateY(-1px);
+    background: #7795f8;
+    box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08)
+  }
+
+  &:active {
+    background: #555abf;
+    // transform: translateY(1px);
+    box-shadow: 0 6px 12px -2px rgba(50,50,93,.25), 0 3px 7px -3px rgba(0,0,0,.3);
+  }
 }
 
 .carousel__button--prev {
@@ -142,20 +175,25 @@ blockquote {
 /* Use pseudo elements to insert arrows inside of navigation buttons */
 .carousel__button--prev::after,
 .carousel__button--next::after {
-  content: " ";
+  content: "➜";
   position: absolute;
   width: 10px;
   height: 10px;
-  top: 50%;
-  left: 54%;
-  border-right: 2px solid black;
-  border-bottom: 2px solid black;
-  transform: translate(-50%, -50%) rotate(135deg);
+  // top: 50%;
+  // left: 54%;
+  top: 24%;
+  left: 44%;
+  // border-right: 2px solid black;
+  // border-bottom: 2px solid black;
+  // transform: translate(-50%, -50%) rotate(135deg);
 }
 
 .carousel__button--next::after {
-  left: 47%;
-  transform: translate(-50%, -50%) rotate(-45deg);
+  left: 36%;
+  // transform: translate(-50%, -50%) rotate(-45deg);
+}
+.carousel__button--prev::after {
+  transform: rotateY(180deg)
 }
 
 .dots {
