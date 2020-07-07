@@ -1,14 +1,15 @@
 .key-features {
-    position: relative;
-    padding-bottom: 7rem;
+    // position: relative;
+    // padding-bottom: 7rem;
+     background: $lightbg4;
 }
 
 .key-head{
     background: $lightbg4;
-    position: absolute;
+    // position: absolute;
     left: 0%;
     width: 100%;
-    padding: 6rem 0 38rem;
+    // padding: 5rem 0 38rem;
 }
 
 .key-features-heading {
@@ -35,9 +36,9 @@
 
 .features {
     width: 100%;
-    position: relative;
+    // position: relative;
     z-index: 1;
-    padding-top: 14rem;
+    padding-top: 3rem;
     
 }
 .features-container {
@@ -105,3 +106,32 @@
 }
 
 
+@media screen and (max-width: 768px) {
+    .key-features {
+    position: static;
+    }
+    .key-head{
+    position: static;
+    }
+    .features {
+    position: static;
+    }
+    .point-item {
+        flex-wrap: wrap;
+    }
+    .key-features-heading {
+        flex-direction: column;
+        img{
+            margin-right: none;
+            width: 50px;
+        }
+    }
+    .key-features-cards {
+        margin: 0;
+        margin-top: 4rem;
+        &:first-child {
+            margin-top: 0;
+        }
+    }
+
+}
