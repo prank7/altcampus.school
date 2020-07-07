@@ -107,7 +107,7 @@ h6 {
   align-items: center;
 }
 
-.hero, .hero-features, .key-features-heading, .course-details-heading, .course-article, .course-highlights, .pricing-head, .more-testimonial-head, .testimonial-head, .author, .carousel__photo, .content-wrapper, .testimonial {
+.hero, .hero-features, .key-features-heading, .course-details-heading, .course-article, .course-highlights, .pricing-head, .pricing-info-head, .pricing-plan, .more-testimonial-head, .testimonial-head, .author, .carousel__photo, .content-wrapper, .testimonial {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -128,7 +128,7 @@ h6 {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
-  .hero, .hero-features, .key-features-heading, .course-details-heading, .course-article, .course-highlights, .pricing-head, .more-testimonial-head, .testimonial-head, .author, .carousel__photo, .content-wrapper, .testimonial {
+  .hero, .hero-features, .key-features-heading, .course-details-heading, .course-article, .course-highlights, .pricing-head, .pricing-info-head, .pricing-plan, .more-testimonial-head, .testimonial-head, .author, .carousel__photo, .content-wrapper, .testimonial {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
@@ -218,6 +218,10 @@ button {
 .header {
   background-color: #f6f9fc;
   border-bottom: 2px solid #e9f4f4;
+}
+
+.active {
+  border-bottom: 2px solid #3ecf8e;
 }
 
 .logo-img {
@@ -929,6 +933,35 @@ button {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
+}
+
+.pricing-info-head {
+  padding: 5rem;
+}
+
+.pricing-info-head h2 {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 2.8rem;
+  color: #32325d;
+}
+
+.pricing-info-head img {
+  width: 4%;
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+.pricing-plan {
+  padding-bottom: 5rem;
+}
+
+.plan1 {
+  padding-right: 1rem;
+}
+
+.plan2 {
+  padding-left: 1rem;
 }
 
 @media screen and (max-width: 768px) {
