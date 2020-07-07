@@ -13,6 +13,8 @@
 }
 
 .course-details-heading {
+    @extend %flex-center;
+
     text-align: center;
     font-family: $font-serif;
     h2 {
@@ -20,6 +22,11 @@
         font-weight: 700;
         margin: 3rem 0;
         color: $textBg1Heading;
+    }
+    img{
+        display: inline-block;
+        width: 2.4%;
+        margin-right: 1rem;
     }
 }
 .col1-4 {

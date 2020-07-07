@@ -1,8 +1,10 @@
+
+// index.html 
+
 .pricing{
     background: $lightbg4;
     padding: 8rem 0;
 }
-
 .pricing-cards{
     @extend %flex-between;
     justify-content: space-evenly;
@@ -17,22 +19,18 @@
         font-size: 2.8rem;
         color: $textBg1Heading;
     }
-
     img{
-        width: 2.5%;
+        width: 4%;
         display: inline-block;
         margin-right: 1rem;
     }
-
 }
-
 .pro-pricing{
     border-radius: 8px;
     background: #ffff;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
     // filter: drop-shadow(0px 1.92651px 3.85303px rgba(41,37,51,0.1));
     &:hover{
-
         transform: translateY(-1px);
         transition: transform 0.1s ease;
         box-shadow: 0 30px 60px -12px rgba(50,50,90,.25),
@@ -52,7 +50,6 @@
     margin: 0;
     font-weight: 600;
     width: 100%;
-
     h2 {
         // color: $green;
         color: #ad8a56;
@@ -62,7 +59,6 @@
             color: $yellowDark;
         }
     }
-
     .price-tag {
         display: flex;
         align-items: center;
@@ -74,21 +70,16 @@
         }
     }
 }
-
 .price-matrix {
     // width: 60%;
     font-family: $font-mukta;
     .offer {
         margin-top: 0.5rem;
-
         padding: 0.25rem;
         padding-left: 0.4rem;
-        
         font-weight: 500;
-
         background: #d7ecff;
         color: #494bae;
-
         background: #fde2dd;
         color: #a31d4e;
     }
@@ -111,7 +102,6 @@
         margin-left: 1rem;
     }
 }
-
 .offer-price{
     @extend %flex-start;
     margin-top: -1rem;
@@ -150,8 +140,38 @@
         color: #8b8b8b;
     }
 }
-
 .general-feature{
     text-decoration:line-through;
     color: grey;
+}
+
+
+
+// pricing.html
+
+.pricing-info-head{
+    @extend %flex-center;
+    padding: 5rem;
+    h2{
+        // padding:5rem 0 ;
+        font-family: $font-serif;
+        font-weight: 700;
+        font-size: 2.8rem;
+        color: $textBg1Heading;
+    }
+    img{
+        width: 4%;
+        display: inline-block;
+        margin-right: 1rem;
+    }
+}
+.pricing-plan{
+    @extend %flex-center;
+    padding-bottom: 5rem;
+}
+.plan1{
+    padding-right: 1rem;
+}
+.plan2{
+    padding-left: 1rem;
 }
