@@ -145,6 +145,36 @@
 }
 
 
+// pricing.html
+
+.pricing-info-head{
+    @extend %flex-center;
+    padding: 5rem;
+    h2{
+        // padding:5rem 0 ;
+        font-family: $font-serif;
+        font-weight: 700;
+        font-size: 2.8rem;
+        color: $textBg1Heading;
+    }
+    img{
+        width: 4%;
+        display: inline-block;
+        margin-right: 1rem;
+    }
+}
+.pricing-plan{
+    @extend %flex-center;
+    padding-bottom: 5rem;
+}
+.plan1{
+    padding-right: 1rem;
+}
+.plan2{
+    padding-left: 1rem;
+}
+
+
 
 @media screen and (max-width: 768px) {
     .pricing-head {
