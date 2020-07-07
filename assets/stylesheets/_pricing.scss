@@ -15,6 +15,7 @@
         font-family: $font-serif;
         font-weight: 700;
         font-size: 2.8rem;
+        color: $textBg1Heading;
     }
 
     img{
@@ -32,8 +33,8 @@
     // filter: drop-shadow(0px 1.92651px 3.85303px rgba(41,37,51,0.1));
     &:hover{
 
-        transform: translateY(-2px);
-        transition: transform 0.3s ease;
+        transform: translateY(-1px);
+        transition: transform 0.1s ease;
         box-shadow: 0 30px 60px -12px rgba(50,50,90,.25),
         0 18px 36px -18px rgba(0,0,0,.3), 0 -12px 36px -8px rgba(0,0,0,.025);
     }
@@ -44,7 +45,7 @@
     border-radius: 8px;
     align-items: flex-start;
     img{
-        width: 5.5rem;
+        width: 6.5rem;
     }
 }
 .pro-pricing-value{
@@ -53,7 +54,8 @@
     width: 100%;
 
     h2 {
-        color: $green;
+        // color: $green;
+        color: #ad8a56;
     }
     &.pro {
         h2 {
@@ -66,34 +68,65 @@
         align-items: center;
         h2 {
             font-size: 2rem;
-            margin-right: 1rem;
+            // margin-right: 1rem;
+            margin-right: 1.5rem;
+            margin-left: -0.8rem;
         }
     }
 }
 
+.price-matrix {
+    // width: 60%;
+    font-family: $font-mukta;
+    .offer {
+        margin-top: 0.5rem;
+
+        padding: 0.25rem;
+        padding-left: 0.4rem;
+        
+        font-weight: 500;
+
+        background: #d7ecff;
+        color: #494bae;
+
+        background: #fde2dd;
+        color: #a31d4e;
+    }
+}
+
 .price{
-    @extend %flex-between;
+    @extend %flex-start;
     text-decoration:line-through;
     // text-decoration-color: black;
-    color: grey;
+    color: #919191;
+    font-weight: 300;
+    padding: 0.5rem 0;
     h4 {
-        font-size: 1.5rem;
+        font-size: 1.6rem;
+        // width: 65%;
     }
     p{
-        padding-left: 1rem;
-        font-size: 1.2rem;
+        font-size: 1.1rem;
+        // width: 25%;
+        margin-left: 1rem;
     }
 }
 
 .offer-price{
-    @extend %flex-between;
+    @extend %flex-start;
+    margin-top: -1rem;
     p{
-        padding-left: 1rem;
-        font-size: 1.6rem;
+        font-size: 1.4rem;
+        // width: 25%;
+        margin-left: 0.75rem;
+        // color: #e18229;
+        color: $green;
     }
     h4 {
-        font-size: 2rem;
+        font-size: 2.2rem;
+        // width: 65%;
         font-weight: 600;
+        color: $blue;
     }
 }
 .pro-pricing-feature{
