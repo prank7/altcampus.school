@@ -33,6 +33,7 @@
     &:hover{
 
         transform: translateY(-2px);
+        transition: transform 0.3s ease;
         box-shadow: 0 30px 60px -12px rgba(50,50,90,.25),
         0 18px 36px -18px rgba(0,0,0,.3), 0 -12px 36px -8px rgba(0,0,0,.025);
     }
@@ -41,26 +42,58 @@
     @extend %flex-start;
     background: $lightbg1;
     border-radius: 8px;
+    align-items: flex-start;
     img{
-        width: 30%;
+        width: 5.5rem;
     }
 }
 .pro-pricing-value{
     margin: 0;
+    font-weight: 600;
+    width: 100%;
+
+    h2 {
+        color: $green;
+    }
+    &.pro {
+        h2 {
+            color: $yellowDark;
+        }
+    }
+
+    .price-tag {
+        display: flex;
+        align-items: center;
+        h2 {
+            font-size: 2rem;
+            margin-right: 1rem;
+        }
+    }
 }
-.price-discount{
+
+.price{
     @extend %flex-between;
     text-decoration:line-through;
     // text-decoration-color: black;
     color: grey;
+    h4 {
+        font-size: 1.5rem;
+    }
     p{
         padding-left: 1rem;
+        font-size: 1.2rem;
     }
 }
-.price-real{
+
+.offer-price{
     @extend %flex-between;
     p{
         padding-left: 1rem;
+        font-size: 1.6rem;
+    }
+    h4 {
+        font-size: 2rem;
+        font-weight: 600;
     }
 }
 .pro-pricing-feature{

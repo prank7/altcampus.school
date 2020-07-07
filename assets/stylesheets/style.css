@@ -83,7 +83,7 @@ h6 {
   line-height: 1.8571428571428572;
 }
 
-.nav, .nav-ul, .features-container, .course-content .module-container .module-details, .pricing-cards, .price-discount, .price-real, .more-testimonial-head, .tweetgroup {
+.nav, .nav-ul, .features-container, .course-content .module-container .module-details, .pricing-cards, .price, .offer-price, .more-testimonial-head, .tweetgroup {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -332,6 +332,8 @@ button {
 .key-features-cards:hover {
   -webkit-transform: translateY(-2px);
           transform: translateY(-2px);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
   -webkit-box-shadow: 0 30px 60px -12px rgba(50, 50, 90, 0.25), 0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
           box-shadow: 0 30px 60px -12px rgba(50, 50, 90, 0.25), 0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
 }
@@ -769,6 +771,10 @@ button {
 .pro-pricing:hover {
   -webkit-transform: translateY(-2px);
           transform: translateY(-2px);
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
   -webkit-box-shadow: 0 30px 60px -12px rgba(50, 50, 90, 0.25), 0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
           box-shadow: 0 30px 60px -12px rgba(50, 50, 90, 0.25), 0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
 }
@@ -776,27 +782,65 @@ button {
 .pro-pricing-intro {
   background: #f6f9fc;
   border-radius: 8px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 .pro-pricing-intro img {
-  width: 30%;
+  width: 5.5rem;
 }
 
 .pro-pricing-value {
   margin: 0;
+  font-weight: 600;
+  width: 100%;
 }
 
-.price-discount {
+.pro-pricing-value h2 {
+  color: #3ecf8e;
+}
+
+.pro-pricing-value.pro h2 {
+  color: #f5be58;
+}
+
+.pro-pricing-value .price-tag {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.pro-pricing-value .price-tag h2 {
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+
+.price {
   text-decoration: line-through;
   color: grey;
 }
 
-.price-discount p {
-  padding-left: 1rem;
+.price h4 {
+  font-size: 1.5rem;
 }
 
-.price-real p {
+.price p {
   padding-left: 1rem;
+  font-size: 1.2rem;
+}
+
+.offer-price p {
+  padding-left: 1rem;
+  font-size: 1.6rem;
+}
+
+.offer-price h4 {
+  font-size: 2rem;
+  font-weight: 600;
 }
 
 .pro-pricing-feature {
