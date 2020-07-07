@@ -105,3 +105,17 @@
 }
 
 
+@media screen and (max-width: 768px) {
+    .key-features {
+    position: static;
+    }
+    .key-head{
+    position: static;
+    }
+    .features {
+    position: static;
+    }
+    .point-item {
+        flex-wrap: wrap;
+    }
+}

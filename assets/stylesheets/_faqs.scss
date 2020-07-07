@@ -1,0 +1,34 @@
+
+.faqs {
+    padding: 5rem 0;
+    font-family: $font-source;
+}
+.faq-container {
+    max-width: 720px;
+    margin: 0 auto;
+}
+.faq-heading {
+    text-align: center;
+    color: $textBg1Heading;
+    font-weight: 700;
+    margin-bottom: 3rem;
+    font-size: 2.8rem;
+}
+.question {
+    color: $greenDark;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.answer {
+    // font-family: $fount-source;
+    padding: 0.5rem 0 2rem 0;
+    color: $textBg1Para;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 0.013rem;
+    b {
+        font-weight: 600;
+        font-size: 1.4rem;
+        padding-right: 0.5rem;
+    }
+}
