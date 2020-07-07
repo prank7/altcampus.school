@@ -120,8 +120,10 @@
         flex-wrap: wrap;
     }
     .key-features-heading {
+        flex-direction: column;
         img{
             margin-right: none;
+            width: 50px;
         }
     }
     .key-features-cards {
@@ -131,7 +133,5 @@
             margin-top: 0;
         }
     }
-    
-
 
 }
