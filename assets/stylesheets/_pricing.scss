@@ -191,5 +191,11 @@
             margin-left: 0;
         }
     }
+    .pro-pricing {
+        margin-bottom: 4rem;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
 
 }
