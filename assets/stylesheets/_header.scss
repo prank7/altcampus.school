@@ -2,6 +2,9 @@
     background-color: $lightbg1;
     border-bottom: 2px solid #e9f4f4;
 }
+.active{
+    border-bottom: 2px solid $green;
+}
 
 .logo-img{
     width: 75%;
