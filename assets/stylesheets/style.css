@@ -202,6 +202,10 @@ button {
           box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
 }
 
+.padding {
+  padding: 5rem 0;
+}
+
 @media screen and (max-width: 768px) {
   html {
     font-size: 12px;
@@ -232,7 +236,6 @@ button {
   background-color: #f6f9fc;
   margin: 0 auto;
   text-align: center;
-  padding-bottom: 2rem;
 }
 
 .hero-main {
@@ -295,22 +298,23 @@ button {
 }
 
 @media screen and (max-width: 768px) {
+  .hero-main {
+    margin: 4rem 0;
+  }
   .hero-main h1 {
     width: 100%;
+    font-size: 3rem;
   }
 }
 
 .key-features {
-  position: relative;
-  padding-bottom: 7rem;
+  background: #e6ebf1;
 }
 
 .key-head {
   background: #e6ebf1;
-  position: absolute;
   left: 0%;
   width: 100%;
-  padding: 6rem 0 38rem;
 }
 
 .key-features-heading {
@@ -332,9 +336,8 @@ button {
 
 .features {
   width: 100%;
-  position: relative;
   z-index: 1;
-  padding-top: 14rem;
+  padding-top: 3rem;
 }
 
 .key-features-cards {
@@ -426,6 +429,16 @@ button {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
+  .key-features-heading img {
+    margin-right: none;
+  }
+  .key-features-cards {
+    margin: 0;
+    margin-top: 4rem;
+  }
+  .key-features-cards:first-child {
+    margin-top: 0;
+  }
 }
 
 .course-shadow {
@@ -440,7 +453,6 @@ button {
 
 .course-details {
   background: #f6f9fc;
-  padding: 7rem 0 5rem;
 }
 
 .course-details-heading {
@@ -451,7 +463,6 @@ button {
 .course-details-heading h2 {
   font-size: 2.8rem;
   font-weight: 700;
-  margin: 3rem 0;
   color: #32325d;
 }
 
@@ -512,11 +523,6 @@ button {
 .course-article:last-child {
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
-}
-
-.course-details-wrapper {
-  max-width: 1140px;
-  margin: 0 auto;
 }
 
 .course-content-head {
@@ -635,7 +641,7 @@ button {
 
 .course-highlights {
   padding: 4rem 0;
-  margin-bottom: 6rem;
+  margin: 4rem 0;
   background: white;
 }
 
@@ -692,11 +698,6 @@ button {
   font-family: "Mukta", sans-serif;
   text-transform: uppercase;
   color: #21396a;
-}
-
-.course-content {
-  max-width: 1140px;
-  margin: 0 auto;
 }
 
 .course-content .module-container {
@@ -787,8 +788,7 @@ button {
 }
 
 .pricing {
-  background: #e6ebf1;
-  padding: 8rem 0;
+  background: #f6f9fc;
 }
 
 .pricing-cards {
@@ -798,7 +798,7 @@ button {
 }
 
 .pricing-head {
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
 }
 
 .pricing-head h2 {
@@ -950,6 +950,9 @@ button {
 }
 
 @media screen and (max-width: 768px) {
+  .pricing-head img {
+    margin-right: 0;
+  }
   .pro-pricing-value {
     margin: 0 auto;
   }
@@ -982,11 +985,15 @@ button {
   .pro-pricing-intro img {
     width: 6.5rem;
   }
+  .price-tag h2 {
+    font-size: 2rem;
+    margin-right: 0;
+    margin-left: 0;
+  }
 }
 
 .more-testimonial {
-  padding: 8rem 0;
-  background: #f6f9fc;
+  background: #e6ebf1;
 }
 
 .more-testimonial-head {
@@ -1024,8 +1031,7 @@ button {
 }
 
 .testimonial-heading {
-  padding: 6rem 0 0rem 0;
-  background: #f6f9fc;
+  background: #e6ebf1;
 }
 
 .testimonial-heading h3 {
@@ -1304,11 +1310,6 @@ blockquote::after {
   padding: 5rem 0;
 }
 
-.footer-container {
-  max-width: 1140px;
-  margin: 0 auto;
-}
-
 .footer-flex {
   -webkit-box-align: start;
       -ms-flex-align: start;
@@ -1407,8 +1408,8 @@ blockquote::after {
 }
 
 .faqs {
-  padding: 5rem 0;
   font-family: "Source Sans Pro";
+  font-family: #f6f9fc;
 }
 
 .faq-container {
