@@ -252,20 +252,23 @@ button {
     padding: 0 2rem;
   }
   .nav-menu {
+    padding-top: 2rem;
     display: none;
-    position: absolute;
+    position: fixed;
+    z-index: 5;
     left: 0;
     top: 0;
     right: 0;
     bottom: 0;
     text-align: center;
     padding-top: 80px;
-    background: rgba(44, 62, 80, 0.856);
+    background: #32325d;
   }
   .nav-menu a {
+    display: inline-block;
     color: #fcd668;
-    font-size: 2rem;
-    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    margin: 1rem 0;
   }
   .nav-ul {
     display: -webkit-box;
@@ -287,7 +290,7 @@ button {
   }
   .logo {
     display: inline-block;
-    z-index: 999;
+    z-index: 3;
     position: relative;
   }
   .toggle:checked ~ .nav-menu {
@@ -547,7 +550,7 @@ button {
 
 .course-details-heading img {
   display: inline-block;
-  width: 2.4%;
+  width: 42px;
   margin-right: 1rem;
 }
 
@@ -904,9 +907,45 @@ button {
   color: grey;
 }
 
+.premium .btn {
+  background: #f5be58;
+}
+
+.standard .btn {
+  background: #ad8a56;
+}
+
+.premium, .standard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
 @media screen and (max-width: 768px) {
+  .pricing-head {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
   .pricing-head img {
-    margin-right: 0;
+    width: 50px;
   }
   .pro-pricing-value {
     margin: 0 auto;
@@ -996,7 +1035,7 @@ button {
 }
 
 .testimonial-head {
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
 }
 
 .testimonial-head h3 {
@@ -1275,6 +1314,24 @@ blockquote::after {
   background-color: white;
 }
 
+@media screen and (max-width: 768px) {
+  .testimonial-head {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .testimonial-head img {
+    width: 50px;
+  }
+}
+
 .footer {
   background: #32325D;
   padding: 5rem 0;
@@ -1306,7 +1363,7 @@ blockquote::after {
 
 .footer-text {
   font-size: 0.9rem;
-  color: #666869;
+  color: #929698;
   padding-top: 1rem;
 }
 
@@ -1331,7 +1388,7 @@ blockquote::after {
 .quick-links a {
   text-decoration: none;
   font-size: 0.9rem;
-  color: #666869;
+  color: #929698;
   margin-top: 1rem;
 }
 
