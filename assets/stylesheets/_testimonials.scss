@@ -1,12 +1,10 @@
 .testimonial-heading {
   // padding: 2rem 0 0rem 0;
   background: $lightbg4;
-
-  
 }
 .testimonial-head{
   @extend %flex-center;
-  margin-bottom:5rem;
+  margin-bottom:3rem;
 
   h3 {
     font-size: 2.8rem;
@@ -259,4 +257,15 @@ blockquote {
 
 .active-dot {
   background-color: white;
+}
+
+@media screen and (max-width:768px) {
+  .testimonial-head {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    img {
+      width: 50px;
+    }
+  }
 }

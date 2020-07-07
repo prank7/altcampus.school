@@ -143,6 +143,21 @@
     text-decoration:line-through;
     color: grey;
 }
+.premium .btn {
+    background: $yellowDark;
+    
+}
+.standard .btn {
+    background: #ad8a56;
+}
+
+.premium, .standard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
 
 
 // pricing.html
@@ -181,8 +196,11 @@
         // flex-direction: column;
         // align-items: center;
         // justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         img {
-            margin-right: 0;
+        width: 50px;
         }
     }
     .pro-pricing-value {
