@@ -3,7 +3,7 @@
     @extend %flex-center;
     margin: 0 auto;
     text-align: center;
-    padding-bottom: 2rem;
+    // padding-bottom: 2rem;
 }
 .hero-main{
     text-align: center;
@@ -84,4 +84,17 @@
         z-index: 1;
     }
 
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .hero-main{
+        margin: 4rem 0;
+        h1 {
+            width: 100%;
+            font-size: 3rem;
+        }
+    }
+ 
 }
