@@ -83,7 +83,7 @@ h6 {
   line-height: 1.8571428571428572;
 }
 
-.nav, .nav-ul, .features-container, .course-content .module-container .module-details, .pricing-cards, .tweetgroup {
+.nav, .nav-ul, .features-container, .course-content .module-container .module-details, .pricing-cards, .buynow, .tweetgroup {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1257,7 +1257,7 @@ blockquote::after {
 }
 
 .footer {
-  background: #1e1e1e;
+  background: #32325D;
   padding: 5rem 0;
 }
 

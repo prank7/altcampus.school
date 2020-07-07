@@ -145,6 +145,10 @@
     color: grey;
 }
 
+.buynow{
+    @extend %flex-between;
+}
+
 
 
 // pricing.html
