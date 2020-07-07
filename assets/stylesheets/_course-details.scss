@@ -9,57 +9,27 @@
 .course-details{
     // margin: 8rem 0;
     background: $lightbg1;
-    padding: 7rem 0 5rem;
+    // padding: 3rem 0 5rem;
 }
 
 .course-details-heading {
+    @extend %flex-center;
+
     text-align: center;
     font-family: $font-serif;
     h2 {
         font-size: 2.8rem;
         font-weight: 700;
-        margin: 3rem 0;
+        // margin: 3rem 0;
         color: $textBg1Heading;
     }
-}
-.col1-4 {
-    // @extend %flex-center;
-    @extend %flex-center;
-    width: 28%;
-    text-align: left;
-    padding-left: 4rem;
-    // color: rgb(240, 238, 238);
-    font-size: 1.5rem;
-    font-weight: 500;
-    padding-right: 3rem;
-    img {
-        min-width: 36px;
-        height: 36px;
-        border-radius: 50%;
+    img{
         display: inline-block;
-        margin-bottom: 0.6rem;
-        margin-right: 0.7rem;
-        border: 3px solid white;
+        width: 2.4%;
+        margin-right: 1rem;
     }
 }
-.col2-4 {
-    width: 50%;
-    text-align: left;
-    padding-left: 5rem;
-    //   color: #6ECAFB;
-      font-size: 1.1rem;
-      font-weight: 500;
-      padding-right: 5rem;
-    }
-    .col3-4 {
-        width: 25%;
-        text-align: left;
-        // color: #71D08F;
-        font-size: 1.3rem;
-        font-weight: 500;
-        padding-right: 5rem;
-        
-    }
+
 .course-details-odd-row {
     // background: #32325D;
     background: #FBF5EF;
@@ -86,10 +56,10 @@
     }
    
 }
-.course-details-wrapper{
-    max-width: 1140px;
-    margin: 0 auto;
-}
+// .course-details-wrapper{
+//     max-width: 1140px;
+//     margin: 0 auto;
+// }
 
 .course-content-head {
     border-top-left-radius: 20px;
@@ -103,97 +73,15 @@
         // color: rgb(199, 186, 13);
     }
 }
-//grid-background
-.grid {
-    // background: rgba(238, 235, 235,0.4);
-    position: absolute;
-    // top: 0;
-    display: grid;
-    grid-template-columns: repeat(16, 1fr);
-    // background: red;
-    grid-template-rows: repeat(18, 60px);
-    transform: skew(0deg, -10deg);
-    position: absolute;
-    width: 100%;
-    // height: 800px;
-    top: 4rem;
-    // top: 0;
-    // left: 0;
-    // right: 0;
-    // bottom: 0;
-    z-index: -1;
-}
-.stripe1 {
-    grid-row: 4/4;
-    grid-column: span 1;
-    background: #dbd94e;
-    height: 100%;
-}
-.stripe2 {
-   grid-row: 5/5;
-    grid-column: 1/3;
-    background: #21396a;
-    height: 100%;
-}
-.stripe3 {
-     grid-row: 5/5;
-    grid-column: 3/5;
-    background: #4675d3;
-    height: 100%;
-}
-.stripe4 {
-     grid-row: 6/6;
-    grid-column:  -1/-2;
-    background: #4675d3;
-    height: 100%;
-}
-.stripe5 {
-    grid-row: 7/7;
-    grid-column: -1/-3;
-    background: #46d346;
-    height: 100%;
-}
-.stripe6 {
-     grid-row: 11/11;
-    grid-column:    -1/-4;
-    // border: 2px solid #d6d4d1;
-    // background: #d38a46;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: tomato;
-    font-weight: 700;
-    font-size: 1.3rem;
-    background: brown
-}
-.stripe7 {
-      grid-row: 12/12;
-    grid-column:    -1/-3;
-    // border: 2px solid #d6d4d1;
-    border-top: none;
-    // background: #d38a46;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: rgb(255, 71, 80);
-    font-size: 1.3rem;
-    font-weight: 700;
-    // transform: skew(0, 10deg);
-    background: #4675d3;
 
-    
-}
 
 //course-highlights
 .course-highlights {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %flex-center;
     padding: 4rem 0;
     // margin: 0 1rem;
-    margin-bottom: 6rem;
+    // margin-bottom: 6rem;
+    margin: 4rem 0;
     background: white;
 
     // box-shadow: 2px 2px 30px -30px rgba(0,0,0,.7);
@@ -247,8 +135,8 @@
 
 
 .course-content {
-    max-width: 1140px;
-    margin: 0 auto;
+    // max-width: 1140px;
+    // margin: 0 auto;
     .module-container {
         padding: 2rem;
         h3 {
@@ -317,4 +205,37 @@
         
         
     }
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .course-highlights {
+        flex-direction: column;
+        margin: 2rem 0;
+        padding: 1rem 0;
+    }
+    .col {
+        width: 100%;
+        padding: 1rem 0;
+        border-bottom: 0.5px solid #ededed;
+        &:last-child{
+            // padding-bottom: 0;
+            border-bottom: 0;
+        }
+    }
+    .course-content {
+        .module-container {
+            .module-details {
+                .module-topics {
+                    width: 100%;
+                }
+                .module-projects {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
 }
