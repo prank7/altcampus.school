@@ -107,7 +107,7 @@ h6 {
   align-items: center;
 }
 
-.hero, .hero-features, .key-features-heading, .course-details-heading, .course-article, .course-highlights, .pricing-head, .pricing-info-head, .pricing-plan, .more-testimonial-head, .testimonial-head, .author, .carousel__photo, .content-wrapper, .testimonial {
+.hero, .hero-features, .key-features-heading, .course-details-heading, .course-article, .course-highlights, .pricing-head, .premium-btn, .pricing-info-head, .pricing-plan, .more-testimonial-head, .testimonial-head, .author, .carousel__photo, .content-wrapper, .testimonial {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -128,7 +128,7 @@ h6 {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
-  .hero, .hero-features, .key-features-heading, .course-details-heading, .course-article, .course-highlights, .pricing-head, .pricing-info-head, .pricing-plan, .more-testimonial-head, .testimonial-head, .author, .carousel__photo, .content-wrapper, .testimonial {
+  .hero, .hero-features, .key-features-heading, .course-details-heading, .course-article, .course-highlights, .pricing-head, .premium-btn, .pricing-info-head, .pricing-plan, .more-testimonial-head, .testimonial-head, .author, .carousel__photo, .content-wrapper, .testimonial {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
@@ -193,7 +193,7 @@ button {
 }
 
 .btn:hover {
-  color: white;
+  color: #e6e1e1;
   -webkit-transform: translateY(-1px);
           transform: translateY(-1px);
   -webkit-transition: all 0.3s ease;
@@ -211,7 +211,7 @@ button {
     font-size: 12px;
   }
   .container {
-    padding: 0 2rem;
+    padding: 0 1.5rem;
   }
 }
 
@@ -911,14 +911,6 @@ button {
   color: grey;
 }
 
-.premium .btn {
-  background: #f5be58;
-}
-
-.standard .btn {
-  background: #ad8a56;
-}
-
 .premium, .standard {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -933,6 +925,17 @@ button {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
+}
+
+.premium .btn, .standard .btn {
+  padding: 0.5rem 1rem;
+  padding-right: 1.5rem;
+  background: #32325D;
+}
+
+.premium-btn .premium-btn-img {
+  display: inline-block;
+  width: 2rem;
 }
 
 .pricing-info-head {
@@ -1017,11 +1020,31 @@ button {
     margin-right: 0;
     margin-left: 0;
   }
-  .pro-pricing {
-    margin-bottom: 4rem;
-  }
   .pro-pricing:last-child {
     margin-bottom: 0;
+  }
+  .premium {
+    margin-bottom: 4rem;
+  }
+  .premium, .standard {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .premium .btn, .standard .btn {
+    padding: 0.5rem 1rem;
+    padding-right: 1.5rem;
+    width: 50%;
   }
 }
 

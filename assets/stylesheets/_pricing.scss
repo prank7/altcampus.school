@@ -144,11 +144,11 @@
     color: grey;
 }
 .premium .btn {
-    background: $yellowDark;
+    // background: $yellowDark;
     
 }
 .standard .btn {
-    background: #ad8a56;
+    // background: #ad8a56;
 }
 
 .premium, .standard {
@@ -156,6 +156,21 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
+    .btn {
+        // padding: 0;
+        padding: 0.5rem 1rem;
+        padding-right: 1.5rem;
+        background: #32325D;
+    }
+}
+
+.premium-btn {
+    
+    @extend %flex-center;
+    .premium-btn-img {
+        display: inline-block;
+        width: 2rem;
+    }
 }
 
 
@@ -229,10 +244,28 @@
         }
     }
     .pro-pricing {
-        margin-bottom: 4rem;
+        
         &:last-child {
             margin-bottom: 0;
         }
     }
+    .premium {
+        margin-bottom: 4rem;
+    }
+    .premium, .standard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .premium, .standard {
+    .btn {
+        padding: 0.5rem 1rem;
+        padding-right: 1.5rem;
+        width: 50%;
+
+    }
+}
 
 }
