@@ -67,3 +67,20 @@ button {
   }
   box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
 }
+.padding {
+  padding: 5rem 0;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    html {
+    font-size: 12px;
+  }
+  .container {
+    padding: 0 2rem;
+  }
+  // .padding {
+  //   // padding: 5rem 1rem;
+  // }
+}
