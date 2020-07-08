@@ -88,7 +88,7 @@
 
     .point-item {
         display: flex;
-        align-items: flex-start;
+        align-items: center;
         margin: 0.75rem 0rem;
 
         &:first-child {
@@ -117,12 +117,13 @@
     .features {
     position: static;
     }
-    .point-item {
-        flex-wrap: wrap;
-    }
+   
     .key-features-heading {
         flex-direction: column;
        text-align: center;
+       h2 {
+           font-size: 2.4rem;
+       }
         img{
             margin-right: none;
             width: 50px;
@@ -139,6 +140,11 @@
         transform: none;
         transition: none;
          box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+        }
+    }
+    .point-item {
+        .point-item-title {
+            font-size: 1.1rem;
         }
     }
 }
