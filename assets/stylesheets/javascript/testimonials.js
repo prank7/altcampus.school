@@ -26,7 +26,7 @@
   function addAutomaticSliding() {
     slidingInterval = setInterval(() => {
       moveNext(true)
-    }, 6000)
+    }, 10000)
   }
 
   function reInitiateTimeout() {
@@ -37,7 +37,7 @@
     slidingTimeout = setTimeout(() => {
       addAutomaticSliding()
       console.log('Reinitial slider automation')
-    }, 1000000)
+    }, 10000)
   }
 
   function clearSlidingInterval() {
