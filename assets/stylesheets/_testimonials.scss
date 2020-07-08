@@ -54,7 +54,7 @@
 
 blockquote {
   font-family: $font-serif;
-  flex-basis: 60%;
+  flex-basis: 75%;
   padding-left: 1.25rem;
   font-size: 1.5rem;
   line-height: 2;
@@ -89,6 +89,7 @@ blockquote {
   overflow: hidden;
   width: 90%;
   margin: auto;
+  min-height: 17.2rem;
 }
 
 /* Apply 'border-box' to 'box-sizing' so border and padding is included in the width and height. */
@@ -172,13 +173,15 @@ blockquote {
   }
 }
 
-.carousel__button--prev {
-  left:0;
-}
 
 .carousel__button--next {
-  right:0;
+  right: 3rem;
 }
+
+.carousel__button--prev {
+  left: 3rem;
+}
+
 
 /* Use pseudo elements to insert arrows inside of navigation buttons */
 .carousel__button--prev::after,
