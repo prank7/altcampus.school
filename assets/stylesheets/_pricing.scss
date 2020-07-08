@@ -207,6 +207,9 @@
 
 
 @media screen and (max-width: 768px) {
+    .pro-pricing-feature {
+        flex-wrap: nowrap;
+    }
     .pricing-head {
         // flex-direction: column;
         // align-items: center;
@@ -214,6 +217,9 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        h2 {
+            font-size: 2.4rem;
+        }
         img {
         width: 50px;
         }
@@ -225,6 +231,7 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
+            // text-align: center;
         }
     }
     .pro-pricing-intro{
@@ -270,6 +277,7 @@
         padding: 0.5rem 1rem;
         padding-right: 1.5rem;
         width: 50%;
+        margin-top: 2rem;
 
         }
     }

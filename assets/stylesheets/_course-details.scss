@@ -101,18 +101,6 @@
     text-align: center;
     border-right: 1px solid #ededed;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    div {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: center;
-    }
-
     &:last-child {
         border-right: none;
     }
@@ -212,6 +200,7 @@
 
 @media screen and (max-width: 768px) {
     .course-highlights {
+        
         flex-direction: column;
         margin: 2rem 0;
         padding: 1rem 0;
@@ -239,7 +228,9 @@
     }
     .course-details-heading{
         flex-direction: column;
-
+        h2 {
+            font-size: 2.4rem;
+        }
         img {
             width: 50px;
 
