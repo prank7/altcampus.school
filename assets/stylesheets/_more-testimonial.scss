@@ -14,7 +14,7 @@
         color: $textBg1Heading;
     }
     img{
-        width: 4.5%;
+        width: 3rem;
         margin-right: 1rem;
         display: inline-block;
     }
@@ -35,6 +35,19 @@
         // height: auto;
         flex: 1 1 auto;
         align-self: flex-start;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .more-testimonial-head{
+        flex-direction: column;
+        text-align: center;
+        h2{
+            font-size: 2.4rem;
+        }
+        img{
+            width: 50px;
+        }
     }
 }
 

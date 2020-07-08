@@ -60,7 +60,7 @@ button {
   font-family: $font-mukta;
   font-weight: 600;
   &:hover{
-      color : white;
+      color : rgb(230, 225, 225);
       transform: translateY(-1px);
       transition: all 0.3s ease;
       box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
@@ -78,7 +78,7 @@ button {
     font-size: 12px;
   }
   .container {
-    padding: 0 2rem;
+    padding: 0 1.5rem;
   }
   // .padding {
   //   // padding: 5rem 1rem;
