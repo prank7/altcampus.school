@@ -381,7 +381,6 @@ button {
     margin: 4rem 0;
   }
   .hero-main h1 {
-    font-weight: 500;
     width: 100%;
     font-size: 3.1rem;
   }
@@ -478,9 +477,9 @@ button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: 0.75rem 0rem;
 }
 
@@ -508,16 +507,15 @@ button {
   .features {
     position: static;
   }
-  .point-item {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
   .key-features-heading {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
     text-align: center;
+  }
+  .key-features-heading h2 {
+    font-size: 2.4rem;
   }
   .key-features-heading img {
     margin-right: none;
@@ -537,6 +535,9 @@ button {
     transition: none;
     -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
             box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+  }
+  .point-item .point-item-title {
+    font-size: 1.1rem;
   }
 }
 
@@ -617,35 +618,6 @@ button {
   width: 25%;
   text-align: center;
   border-right: 1px solid #ededed;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.col div {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 .col:last-child {
@@ -765,6 +737,9 @@ button {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  .course-details-heading h2 {
+    font-size: 2.4rem;
   }
   .course-details-heading img {
     width: 50px;
@@ -990,6 +965,10 @@ button {
 }
 
 @media screen and (max-width: 768px) {
+  .pro-pricing-feature {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
   .pricing-head {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1001,6 +980,9 @@ button {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+  .pricing-head h2 {
+    font-size: 2.4rem;
   }
   .pricing-head img {
     width: 50px;
@@ -1075,6 +1057,7 @@ button {
     padding: 0.5rem 1rem;
     padding-right: 1.5rem;
     width: 50%;
+    margin-top: 2rem;
   }
 }
 
@@ -1116,6 +1099,22 @@ button {
       align-self: flex-start;
 }
 
+@media screen and (max-width: 768px) {
+  .more-testimonial-head {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+  .more-testimonial-head h2 {
+    font-size: 2.4rem;
+  }
+  .more-testimonial-head img {
+    width: 50px;
+  }
+}
+
 .testimonial-heading {
   background: #e6ebf1;
 }
@@ -1124,7 +1123,7 @@ button {
   margin-bottom: 3rem;
 }
 
-.testimonial-head h3 {
+.testimonial-head h2 {
   font-size: 2.8rem;
   font-family: "Lato", sans-serif;
   color: #32325d;
@@ -1415,6 +1414,9 @@ blockquote::after {
   }
   .testimonial-head img {
     width: 50px;
+  }
+  .testimonial-head h2 {
+    font-size: 2.4rem;
   }
   blockquote {
     -ms-flex-preferred-size: 100%;
@@ -1738,6 +1740,15 @@ blockquote::after {
 @media screen and (max-width: 768px) {
   .faq-container {
     padding: 0 2rem;
+  }
+  .faq-heading {
+    font-size: 2.4rem;
+  }
+  .answer {
+    padding: 0.5rem 0 2rem 0;
+    font-size: 1.1rem;
+    font-weight: 500;
+    letter-spacing: 0.013rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
