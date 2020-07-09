@@ -83,7 +83,7 @@ h6 {
   line-height: 1.8571428571428572;
 }
 
-.nav, .nav-ul, .features-container, .course-content .module-container .module-details, .pricing-cards, .tweetgroup {
+.nav, .nav-ul, .features, .course-content .module-container .module-details, .pricing-cards, .tweetgroup {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -120,7 +120,7 @@ h6 {
 }
 
 @media screen and (max-width: 768px) {
-  .nav, .nav-ul, .features-container, .course-content .module-container .module-details, .pricing-cards, .tweetgroup {
+  .nav, .nav-ul, .features, .course-content .module-container .module-details, .pricing-cards, .tweetgroup {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
@@ -249,8 +249,8 @@ button {
   width: 75%;
 }
 
-.nav {
-  padding: 0.7rem 0;
+.nav.container {
+  padding: 0.7rem 1.5rem;
 }
 
 .nav-link {
@@ -273,9 +273,6 @@ button {
 }
 
 @media screen and (max-width: 768px) {
-  header {
-    padding: 0 2rem;
-  }
   .nav-menu {
     padding-top: 2rem;
     display: none;
@@ -329,6 +326,21 @@ button {
     right: 0;
     left: 83%;
     top: 3%;
+  }
+  .nav-item .btn {
+    border: 0;
+    background: transparent;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    color: #fcd668;
+    font-size: 2.5rem;
+    margin: 1rem 0;
+  }
+  .nav-item .login-header {
+    color: #fcd668;
+  }
+  .nav-item .signup-header {
+    margin-left: 0;
   }
 }
 
@@ -521,6 +533,18 @@ button {
 }
 
 @media screen and (max-width: 768px) {
+  .features {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
   .key-features {
     position: static;
   }
@@ -547,6 +571,9 @@ button {
   .key-features-cards {
     margin: 0;
     margin-top: 4rem;
+    -ms-flex-item-align: auto;
+        -ms-grid-row-align: auto;
+        align-self: auto;
   }
   .key-features-cards:first-child {
     margin-top: 0;
@@ -561,6 +588,17 @@ button {
   }
   .point-item .point-item-title {
     font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .key-features-cards:hover {
+    -webkit-transform: none;
+            transform: none;
+    -webkit-transition: none;
+    transition: none;
+    -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+            box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
   }
 }
 

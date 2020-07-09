@@ -17,10 +17,6 @@
         margin-top: 0;
         color: rgb(241, 240, 240);
         color: white;
-        &:hover {
-            // color: $green;
-            // border: 2px solid $purple;
-        }
         border: 0.5px solid $purple;
     }
     .login-header {
@@ -39,7 +35,9 @@
     width: 75%;
 }
 .nav{
-    padding: 0.7rem 0;
+    &.container {
+        padding: 0.7rem 1.5rem;
+    }
     @extend %flex-between;
 }
 .nav-ul{
@@ -64,9 +62,6 @@
 
 
 @media screen and (max-width: 768px) {
-    header {
-        padding: 0 2rem;
-    }
     .nav-menu {
         padding-top: 2rem;
         display: none;
@@ -112,4 +107,20 @@
     left: 83%;
     top: 3%;
   }
+  .nav-item {
+    .btn {
+        border: 0;
+        background: transparent;
+        box-shadow: none;
+        color: $yellow;
+        font-size: 2.5rem;
+        margin: 1rem 0;
+    }
+    .login-header {
+        color: $yellow;
+    }
+    .signup-header {
+        margin-left: 0;
+    }
+}
 }
