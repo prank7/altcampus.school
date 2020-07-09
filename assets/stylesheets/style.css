@@ -224,6 +224,17 @@ button {
   border-bottom: 2px solid #3ecf8e;
 }
 
+.nav-item .btn {
+  font-size: 1rem;
+  padding: 0.2rem 0.8rem;
+  background: #32325d;
+  color: #f1f0f0;
+}
+
+.nav-item .btn:hover {
+  color: #e9f4f4;
+}
+
 .logo-img {
   width: 75%;
 }
