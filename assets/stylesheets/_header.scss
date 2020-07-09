@@ -6,7 +6,17 @@
     }
 }
 
-
+.nav-item {
+    .btn {
+        font-size: 1rem;
+        padding: 0.2rem 0.8rem;
+        background: $purple;
+        color: rgb(241, 240, 240);
+        &:hover {
+            color: #e9f4f4;
+        }
+    }
+}
 .logo-img{
     width: 75%;
 }
@@ -17,6 +27,7 @@
 .nav-ul{
     @extend %flex-between;
 }
+
 .nav-link{
     margin-left: 2.5rem;
     color:#6b7c93;
