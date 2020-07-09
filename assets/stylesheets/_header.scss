@@ -5,12 +5,15 @@
         border-bottom: 2px solid $green;
     }
 }
-
+.logo {
+    font-size: 0;
+}
 .nav-item {
     .btn {
         font-size: 1rem;
         padding: 0.2rem 0.8rem;
         background: $purple;
+        margin-top: 0;
         color: rgb(241, 240, 240);
         &:hover {
             color: #e9f4f4;

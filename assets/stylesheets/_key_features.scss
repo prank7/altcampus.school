@@ -48,6 +48,12 @@
 .key-features-cards {
     margin: 0 1.5rem;
     padding: 1.75rem;
+    text-align: center;
+    // height: 350px;
+    align-self: stretch;
+    background-color:rgb(252, 252, 252);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
     &:first-child {
         margin-left: 0;
     }
@@ -61,11 +67,6 @@
         box-shadow: 0 30px 60px -12px rgba(50,50,90,.25),
         0 18px 36px -18px rgba(0,0,0,.3), 0 -12px 36px -8px rgba(0,0,0,.025);
     }
-    text-align: center;
-    height: 350px;
-    background-color:rgb(252, 252, 252);
-    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
-    border-radius: 10px;
     h4 {
         text-align: left;
         color: $textBg1Heading;
