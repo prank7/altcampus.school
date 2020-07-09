@@ -232,10 +232,17 @@ button {
   background: #32325d;
   margin-top: 0;
   color: #f1f0f0;
+  color: white;
+  border: 0.5px solid #32325d;
 }
 
-.nav-item .btn:hover {
-  color: #e9f4f4;
+.nav-item .login-header {
+  background: none;
+  color: #6b7c93;
+}
+
+.nav-item .signup-header {
+  margin-left: 0.8rem;
 }
 
 .logo-img {
@@ -760,6 +767,28 @@ button {
   .course-details-heading img {
     width: 50px;
   }
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.flex .price-tag-btn {
+  padding: 0.1rem 1rem;
 }
 
 .pricing {
