@@ -40,11 +40,12 @@
     // position: relative;
     z-index: 1;
     padding-top: 3rem;
+    @extend %flex-between;
     
 }
-.features-container {
-    @extend %flex-between;
-}
+// .features-container {
+    
+// }
 .key-features-cards {
     margin: 0 1.5rem;
     padding: 1.75rem;
@@ -109,6 +110,11 @@
 
 
 @media screen and (max-width: 768px) {
+    .features {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
     .key-features {
     position: static;
     }
@@ -133,6 +139,7 @@
     .key-features-cards {
         margin: 0;
         margin-top: 4rem;
+        align-self: auto;
         &:first-child {
             margin-top: 0;
         }
@@ -149,3 +156,13 @@
         }
     }
 }
+
+@media screen and (max-width: 1024px) {
+    .key-features-cards {
+         &:hover{
+        transform: none;
+        transition: none;
+         box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+        }
+    }
+ }
