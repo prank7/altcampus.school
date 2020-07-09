@@ -59,3 +59,25 @@ Got stuck? Get help.
 Once you finish the course, we put you in touch with companies hiring.
 
 Confused whether this course is for you? Book a call with our co-founder.
+
+
+
+
+
+
+ 
+
+I was working in the tech support industry when I decided to switch my career and joined AltCampus. 
+
+Each day, mentors pick a topic and explain it in layman's terms. They focus heavily on having you practice, which is what sets them apart from others.
+
+The mentors are always there to help with anything you need with regards to interview preps and job search.
+
+
+
+
+
+
+ 
+
+I'd recommend AltCampus to anyone who wants to learn web/software development.
