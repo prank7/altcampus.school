@@ -1192,8 +1192,8 @@ button {
 
 blockquote {
   font-family: "Lato", sans-serif;
-  -ms-flex-preferred-size: 60%;
-      flex-basis: 60%;
+  -ms-flex-preferred-size: 75%;
+      flex-basis: 75%;
   padding-left: 1.25rem;
   font-size: 1.5rem;
   line-height: 2;
@@ -1226,6 +1226,7 @@ blockquote::after {
   overflow: hidden;
   width: 90%;
   margin: auto;
+<<<<<<< HEAD
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1235,6 +1236,9 @@ blockquote::after {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+=======
+  min-height: 17.2rem;
+>>>>>>> master
 }
 
 /* Apply 'border-box' to 'box-sizing' so border and padding is included in the width and height. */
@@ -1335,12 +1339,12 @@ blockquote::after {
           box-shadow: 0 6px 12px -2px rgba(50, 50, 93, 0.25), 0 3px 7px -3px rgba(0, 0, 0, 0.3);
 }
 
-.carousel__button--prev {
-  left: 0;
+.carousel__button--next {
+  right: 3rem;
 }
 
-.carousel__button--next {
-  right: 0;
+.carousel__button--prev {
+  left: 3rem;
 }
 
 /* Use pseudo elements to insert arrows inside of navigation buttons */
