@@ -1226,7 +1226,6 @@ blockquote::after {
   overflow: hidden;
   width: 90%;
   margin: auto;
-<<<<<<< HEAD
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1236,9 +1235,7 @@ blockquote::after {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-=======
   min-height: 17.2rem;
->>>>>>> master
 }
 
 /* Apply 'border-box' to 'box-sizing' so border and padding is included in the width and height. */
