@@ -5,16 +5,34 @@
         border-bottom: 2px solid $green;
     }
 }
-
+.logo {
+    font-size: 0;
+}
 .nav-item {
     .btn {
         font-size: 1rem;
         padding: 0.2rem 0.8rem;
         background: $purple;
+       
+        margin-top: 0;
         color: rgb(241, 240, 240);
+        color: white;
         &:hover {
-            color: #e9f4f4;
+            // color: $green;
+            // border: 2px solid $purple;
         }
+        border: 0.5px solid $purple;
+    }
+    .login-header {
+        background: none;
+        color: #6b7c93;
+        // color: $purple;
+        //  background: $purple;
+        // border: 2px solid $purple;
+        // margin-left: 0;
+    }
+    .signup-header {
+        margin-left: 0.8rem;
     }
 }
 .logo-img{
@@ -33,7 +51,6 @@
     color:#6b7c93;
     text-decoration: none;
     font-size: 1.3rem;
-    
 } 
 .bars img {
     width: 30px;

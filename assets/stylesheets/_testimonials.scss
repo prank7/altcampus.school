@@ -89,6 +89,9 @@ blockquote {
   overflow: hidden;
   width: 90%;
   margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   min-height: 17.2rem;
 }
 
