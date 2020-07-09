@@ -155,6 +155,7 @@ body {
 .container {
   max-width: 1140px;
   margin: 0 auto;
+  padding: 0 1.5rem;
 }
 
 h4 {
@@ -210,9 +211,6 @@ button {
   html {
     font-size: 12px;
   }
-  .container {
-    padding: 0 1.5rem;
-  }
 }
 
 .header {
@@ -224,10 +222,15 @@ button {
   border-bottom: 2px solid #3ecf8e;
 }
 
+.logo {
+  font-size: 0;
+}
+
 .nav-item .btn {
   font-size: 1rem;
   padding: 0.2rem 0.8rem;
   background: #32325d;
+  margin-top: 0;
   color: #f1f0f0;
 }
 
@@ -437,7 +440,9 @@ button {
   margin: 0 1.5rem;
   padding: 1.75rem;
   text-align: center;
-  height: 350px;
+  -ms-flex-item-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-self: stretch;
   background-color: #fcfcfc;
   -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
           box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
@@ -1221,6 +1226,15 @@ blockquote::after {
   overflow: hidden;
   width: 90%;
   margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 /* Apply 'border-box' to 'box-sizing' so border and padding is included in the width and height. */
