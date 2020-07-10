@@ -83,7 +83,7 @@ h6 {
   line-height: 1.8571428571428572;
 }
 
-.nav, .nav-ul, .features-container, .course-content .module-container .module-details, .pricing-cards, .tweetgroup {
+.nav, .nav-ul, .features, .course-content .module-container .module-details, .pricing-cards, .tweetgroup {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -120,7 +120,7 @@ h6 {
 }
 
 @media screen and (max-width: 768px) {
-  .nav, .nav-ul, .features-container, .course-content .module-container .module-details, .pricing-cards, .tweetgroup {
+  .nav, .nav-ul, .features, .course-content .module-container .module-details, .pricing-cards, .tweetgroup {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
@@ -155,6 +155,7 @@ body {
 .container {
   max-width: 1140px;
   margin: 0 auto;
+  padding: 0 1.5rem;
 }
 
 h4 {
@@ -210,9 +211,6 @@ button {
   html {
     font-size: 12px;
   }
-  .container {
-    padding: 0 1.5rem;
-  }
 }
 
 .header {
@@ -224,12 +222,35 @@ button {
   border-bottom: 2px solid #3ecf8e;
 }
 
+.logo {
+  font-size: 0;
+}
+
+.nav-item .btn {
+  font-size: 1rem;
+  padding: 0.2rem 0.8rem;
+  background: #32325d;
+  margin-top: 0;
+  color: #f1f0f0;
+  color: white;
+  border: 0.5px solid #32325d;
+}
+
+.nav-item .login-header {
+  background: none;
+  color: #6b7c93;
+}
+
+.nav-item .signup-header {
+  margin-left: 0.8rem;
+}
+
 .logo-img {
   width: 75%;
 }
 
-.nav {
-  padding: 0.7rem 0;
+.nav.container {
+  padding: 0.7rem 1.5rem;
 }
 
 .nav-link {
@@ -252,9 +273,6 @@ button {
 }
 
 @media screen and (max-width: 768px) {
-  header {
-    padding: 0 2rem;
-  }
   .nav-menu {
     padding-top: 2rem;
     display: none;
@@ -308,6 +326,21 @@ button {
     right: 0;
     left: 83%;
     top: 3%;
+  }
+  .nav-item .btn {
+    border: 0;
+    background: transparent;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    color: #fcd668;
+    font-size: 2.5rem;
+    margin: 1rem 0;
+  }
+  .nav-item .login-header {
+    color: #fcd668;
+  }
+  .nav-item .signup-header {
+    margin-left: 0;
   }
 }
 
@@ -426,7 +459,9 @@ button {
   margin: 0 1.5rem;
   padding: 1.75rem;
   text-align: center;
-  height: 350px;
+  -ms-flex-item-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-self: stretch;
   background-color: #fcfcfc;
   -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
           box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
@@ -498,6 +533,18 @@ button {
 }
 
 @media screen and (max-width: 768px) {
+  .features {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
   .key-features {
     position: static;
   }
@@ -524,6 +571,9 @@ button {
   .key-features-cards {
     margin: 0;
     margin-top: 4rem;
+    -ms-flex-item-align: auto;
+        -ms-grid-row-align: auto;
+        align-self: auto;
   }
   .key-features-cards:first-child {
     margin-top: 0;
@@ -538,6 +588,17 @@ button {
   }
   .point-item .point-item-title {
     font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .key-features-cards:hover {
+    -webkit-transform: none;
+            transform: none;
+    -webkit-transition: none;
+    transition: none;
+    -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+            box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
   }
 }
 
@@ -744,6 +805,28 @@ button {
   .course-details-heading img {
     width: 50px;
   }
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.flex .price-tag-btn {
+  padding: 0.1rem 1rem;
 }
 
 .pricing {
@@ -1210,6 +1293,15 @@ blockquote::after {
   overflow: hidden;
   width: 90%;
   margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   min-height: 17.2rem;
 }
 
