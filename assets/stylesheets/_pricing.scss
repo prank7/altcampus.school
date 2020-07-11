@@ -16,6 +16,7 @@
 .pricing-cards{
     @extend %flex-between;
     justify-content: space-evenly;
+    align-items: flex-start;
 }
 .pricing-head{
     @extend %flex-center;
