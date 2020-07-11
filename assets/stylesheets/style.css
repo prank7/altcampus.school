@@ -281,7 +281,7 @@ button {
     left: 0;
     top: 0;
     right: 0;
-    bottom: 0;
+    bottom: -120%;
     text-align: center;
     padding-top: 80px;
     background: #32325d;
@@ -325,19 +325,16 @@ button {
     position: absolute;
     right: 0;
     left: 83%;
-    top: 3%;
+    top: 1.2%;
   }
   .nav-item .btn {
-    border: 0;
-    background: transparent;
-    -webkit-box-shadow: none;
-            box-shadow: none;
+    background: #3ecf8e;
+    padding: 0.4rem 5rem;
+    font-size: 1.7rem;
     color: #fcd668;
-    font-size: 2.5rem;
-    margin: 1rem 0;
   }
   .nav-item .login-header {
-    color: #fcd668;
+    margin: 1.5rem 0;
   }
   .nav-item .signup-header {
     margin-left: 0;
@@ -837,6 +834,9 @@ button {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 .pricing-head {
