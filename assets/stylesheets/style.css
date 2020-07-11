@@ -329,18 +329,22 @@ button {
   }
   .nav-item .btn {
     background: #3ecf8e;
-    padding: 0.2rem 2.5rem;
-    font-size: 1.2rem;
+    padding: 0.4rem 2.5rem;
+    font-size: 1.25rem;
     color: white;
     font-weight: 400;
     border-radius: 3px;
     border: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
   }
   .nav-item .login-header {
     margin: 1.5rem 0;
+    width: 5rem;
   }
   .nav-item .signup-header {
     margin-left: 0;
+    width: 5rem;
   }
 }
 
