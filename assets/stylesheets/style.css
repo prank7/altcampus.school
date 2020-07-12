@@ -213,6 +213,44 @@ button {
   }
 }
 
+.bg-1 {
+  background: #e6ebf1;
+}
+
+.bg-1 h3 {
+  color: #008168;
+  font-size: 1.8rem;
+  font-family: "Lato", sans-serif;
+}
+
+.bg-1 h6 {
+  font-size: 1.4rem;
+  font-family: "Mukta", sans-serif;
+}
+
+.bg-1 p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+.feature-description {
+  margin-top: 1rem;
+}
+
+.bg-2 {
+  background: #f6f9fc;
+}
+
+.bg-2 h3 {
+  color: textBg1Heading;
+  font-family: "Lato", sans-serif;
+}
+
+.bg-2 h6 {
+  font-size: 1.3rem;
+  font-family: "Mukta", sans-serif;
+}
+
 .header {
   background-color: #f6f9fc;
   border-bottom: 2px solid #e9f4f4;
@@ -1737,7 +1775,9 @@ blockquote::after {
 
 .refund p {
   padding: .4rem 0;
-  font-size: 1.2rem;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #6b7c92;
 }
 
 .refundcontainer {

@@ -1,18 +1,21 @@
 html {
   font-size: 16px;
 }
+
 *::before,
 *::after {
   box-sizing: border-box;
 }
-body{
+
+body {
   font-family: $font-source;
   line-height: 1.5;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.container{
+
+.container {
   max-width: 1140px;
   margin: 0 auto;
   padding: 0 1.5rem;
@@ -21,25 +24,31 @@ body{
 h1 {
   @extend %fontSize1;
 }
+
 h2 {
   @extend %fontSize2;
 }
+
 h3 {
   @extend %fontSize3;
   // letter-spacing: -0.08rem;
 }
+
 h4 {
   @extend %fontSize4;
   letter-spacing: -0.05rem;
 }
+
 h5 {
   @extend %fontSize5;
   letter-spacing: 0;
 }
+
 h6 {
   @extend %fontSize6;
   letter-spacing: 0;
 }
+
 button {
   outline: 0;
   border: none;
@@ -49,7 +58,7 @@ button {
   margin-top: 1.5rem;
   padding: .75rem 6rem;
   font-size: 1.1rem;
-  letter-spacing:.06rem;
+  letter-spacing: .06rem;
   // border: 1px solid black;
   border-radius: 3px;
   cursor: pointer;
@@ -60,14 +69,18 @@ button {
   display: inline-block;
   font-family: $font-mukta;
   font-weight: 600;
-  &:hover{
-      color : rgb(230, 225, 225);
-      transform: translateY(-1px);
-      transition: all 0.3s ease;
-      box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+
+  &:hover {
+    color: rgb(230, 225, 225);
+    transform: translateY(-1px);
+    transition: all 0.3s ease;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
   }
-  box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+
+  box-shadow: 0 4px 6px rgba(50, 50, 93, .11),
+  0 1px 3px rgba(0, 0, 0, .08);
 }
+
 .padding {
   padding: 5rem 0;
 }
@@ -75,13 +88,52 @@ button {
 
 
 @media screen and (max-width: 768px) {
-    html {
+  html {
     font-size: 12px;
   }
+
   // .container {
-    
+
   // }
   // .padding {
   //   // padding: 5rem 1rem;
   // }
+}
+
+.bg-1 {
+  background: $lightbg4;
+
+  h3 {
+    color: $greenDark;
+    font-size: 1.8rem;
+    font-family: $font-serif;
+  }
+
+  h6 {
+    font-size: 1.4rem;
+    font-family: $font-mukta;
+  }
+
+  p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+  }
+}
+
+.feature-description {
+  margin-top: 1rem;
+}
+
+.bg-2 {
+  background: $lightbg1;
+
+  h3 {
+    color: textBg1Heading;
+    font-family: $font-serif;
+  }
+
+  h6 {
+    font-size: 1.3rem;
+    font-family: $font-mukta;
+  }
 }
