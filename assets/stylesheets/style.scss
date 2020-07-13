@@ -14,4 +14,38 @@
 @import "./privacy";
 @import "./pricing_policy";
 @import "./faqs";
-
+.feature-container {
+  display: flex;
+  text-align: center;
+  @media screen and (max-width: 768px) {
+    display: block;
+  }
+}
+.feature-item {
+  padding: 0 20px;
+  @media screen and (max-width: 768px) {
+    margin-bottom: 4rem;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+.feature-item__header {
+  min-height: 9rem;
+  @media screen and (max-width: 768px) {
+    min-height: auto;
+  }
+}
+.feature-item__heading {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  font-weight: 400;
+  margin-top: 1.2rem;
+}
+.feature__icon {
+  height: 40px;
+}
+.feature-item__intro {
+  font-size: 1.2rem;
+  margin-top: 1.2rem;
+}
