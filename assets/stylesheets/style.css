@@ -1388,7 +1388,7 @@ blockquote::after {
   }
 }
 .footer {
-  background: #32325D;
+  background: #32325d;
   padding: 5rem 0;
 }
 
@@ -1397,12 +1397,17 @@ blockquote::after {
 }
 
 .footer-col1-2 {
-  width: 50%;
+  flex: 0 1 40%;
+}
+
+.footer-links {
+  flex: 0 1 60%;
 }
 
 .footer-col2 {
   display: flex;
   align-items: flex-start;
+  justify-content: space-between;
   margin-top: -1rem;
 }
 
@@ -1424,9 +1429,6 @@ blockquote::after {
   margin-bottom: 0.4rem;
 }
 
-.social {
-  width: 50%;
-}
 .social h4 {
   color: #dad6d6;
   margin-bottom: 0.7rem;
