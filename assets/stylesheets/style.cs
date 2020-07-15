@@ -204,11 +204,11 @@ button {
 }
 
 .col-1-2 {
-  flex: 1 1 50%;
+  flex: 1 1 40%;
 }
 
 .col-img {
-  flex: 1 1 50%;
+  flex: 1 1 60%;
 }
 
 .padding-left {
@@ -1704,4 +1704,4 @@ blockquote::after {
   margin-top: 1.2rem;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.cs.map */
