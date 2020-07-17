@@ -1737,7 +1737,9 @@ blockquote::after {
 
 .refund p {
   padding: .4rem 0;
-  font-size: 1.2rem;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #6b7c92;
 }
 
 .refundcontainer {
@@ -1778,6 +1780,8 @@ blockquote::after {
 
 .pricing-policy {
   padding: 5rem 0;
+  color: #525854;
+  font-weight: 400;
 }
 
 .pricing-policy h1 {
@@ -1790,12 +1794,29 @@ blockquote::after {
 }
 
 .pricing-policy p {
-  padding: .4rem 0;
-  font-size: 1.2rem;
+  padding: .6rem 0;
+  font-weight: 400;
+  font-size: 1.05rem;
+}
+
+.pricing-policy h5 {
+  color: #3ecf8e;
+  font-size: 1.4rem;
+  padding: 0.8rem 0;
+  font-weight: 600;
+}
+
+.pricing-policy ul li {
+  padding: 0.3rem 0 0.3rem 0.6rem;
+  color: #686969;
+}
+
+.pricing-policy .bold {
+  font-weight: bold;
 }
 
 .pricing-policycontainer {
-  max-width: 900px;
+  max-width: 700px;
   margin: 0 auto;
 }
 
