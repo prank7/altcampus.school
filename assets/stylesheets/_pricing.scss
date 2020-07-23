@@ -299,3 +299,47 @@
     // }
 
 }
+
+.about {
+    .about-altcampus {
+        h2{
+            // padding:5rem 0 ;
+            font-family: $font-serif;
+            font-weight: 700;
+            font-size: 2.8rem;
+            color: $textBg1Heading;
+        }
+        p {
+            font-size: 1.4rem;
+            color: #6b7c93;
+        }
+    }
+    .team {
+        margin-top: 5rem;
+        h3 {
+            font-family: $font-serif;
+            font-weight: 700;
+            font-size: 2.3rem;
+            color: $textBg1Heading;
+            margin-bottom: 1rem;
+        }
+        .members {
+            @extend %flex-between;
+        }
+        .member {
+            img {
+                height: 200px;
+                width: 200px;
+                background-color: #c1c1c1;
+                border-radius: 4px;
+                margin: 15px;
+                object-fit: cover;
+            }
+            h6 {
+                text-align: center;
+                color: #20345d;
+                font-size: 16px;
+            }
+        }
+    }
+}
