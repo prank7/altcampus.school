@@ -83,7 +83,7 @@ h6 {
   line-height: 1.8571428571428572;
 }
 
-.nav, .nav-ul, .features, .course-content .module-container .module-details, .pricing-cards, .tweetgroup {
+.nav, .nav-ul, .features, .course-content .module-container .module-details, .pricing-cards, .about .team .members, .tweetgroup {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -120,7 +120,7 @@ h6 {
 }
 
 @media screen and (max-width: 768px) {
-  .nav, .nav-ul, .features, .course-content .module-container .module-details, .pricing-cards, .tweetgroup {
+  .nav, .nav-ul, .features, .course-content .module-container .module-details, .pricing-cards, .about .team .members, .tweetgroup {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
@@ -1149,6 +1149,46 @@ button {
     width: 50%;
     margin-top: 2rem;
   }
+}
+
+.about .about-altcampus h2 {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 2.8rem;
+  color: #32325d;
+}
+
+.about .about-altcampus p {
+  font-size: 1.4rem;
+  color: #6b7c93;
+}
+
+.about .team {
+  margin-top: 5rem;
+}
+
+.about .team h3 {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 2.3rem;
+  color: #32325d;
+  margin-bottom: 1rem;
+}
+
+.about .team .member img {
+  height: 200px;
+  width: 200px;
+  background-color: #c1c1c1;
+  border-radius: 4px;
+  margin: 15px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.about .team .member h6 {
+  text-align: center;
+  color: #20345d;
+  font-size: 16px;
 }
 
 .more-testimonial {
