@@ -124,7 +124,9 @@
   .key-features-cards {
     margin: 0;
     margin-top: 4rem;
-    align-self: auto;
+    align-self: flex-start;
+    flex: 0 1 100%;
+    padding-left: 2rem;
     &:first-child {
       margin-top: 0;
     }

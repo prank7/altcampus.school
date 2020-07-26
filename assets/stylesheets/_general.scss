@@ -86,6 +86,7 @@ button {
   color: #ffffff;
   font-size: 3.3rem;
   font-weight: 600;
+
   h3 {
     max-width: 500px;
     margin-right: 2rem;
@@ -96,6 +97,15 @@ button {
     font-size: 1.1rem;
     text-decoration: none;
     color: #20345d;
+  }
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    padding: 0 2rem;
+    h3 {
+      width: 100%;
+      margin-bottom: 2rem;
+      margin-right: 0;
+    }
   }
 }
 
