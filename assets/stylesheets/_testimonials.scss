@@ -1,19 +1,21 @@
 .testimonial-heading {
   // padding: 2rem 0 0rem 0;
-  background: $lightbg4;
+  background: url(/assets/media/mask.svg),
+    linear-gradient(to right bottom, rgba(#111f3c, 1), rgba(#20345d, 1));
+  background-size: cover;
 }
-.testimonial-head{
+.testimonial-head {
   @extend %flex-center;
-  margin-bottom:3rem;
+  margin-bottom: 3rem;
 
   h2 {
     font-size: 2.8rem;
     font-family: $font-serif;
-    color: $textBg1Heading;
+    color: #ffffff;
     text-align: center;
     font-weight: 700;
   }
-  img{
+  img {
     display: inline-block;
     width: 3rem;
     margin-right: 1rem;
@@ -23,7 +25,6 @@
 .testimonials {
   position: relative;
   padding: 2.5rem 0;
-  background: #32325D;
   color: white;
   font-family: $font-mukta;
   blockquote {
@@ -36,13 +37,14 @@
   flex-basis: 40%;
   justify-content: flex-start;
   .author-img {
+    -o-object-fit: cover;
     object-fit: cover;
     width: 80px;
     height: 80px;
     border-radius: 50%;
     margin-right: 1.5rem;
   }
-  
+
   .name {
     color: #fcd669;
     text-transform: uppercase;
@@ -67,7 +69,7 @@ blockquote {
     position: relative;
     display: inline-block;
     top: -7px;
-    background: url("../media/DOUBLE\ QUOTE2-01.svg")
+    background: url("../media/DOUBLE\ QUOTE2-01.svg");
   }
   &::after {
     content: "";
@@ -77,7 +79,7 @@ blockquote {
     position: relative;
     display: inline-block;
     top: -7px;
-    background: url("../media/DOUBLE\ QUOTE-01.svg")
+    background: url("../media/DOUBLE\ QUOTE-01.svg");
   }
 }
 
@@ -102,8 +104,6 @@ blockquote {
 
 /* We'll be using the 'transform' property to move the carousel's items, so setting the 'transform-style' to 'preserve-3d' will make sure our nested elements are rendered properly in the 3D space. */
 .carousel {
-  -webkit-transform-style: preserve-3d;
-  -moz-transform-style: preserve-3d;
   transform-style: preserve-3d;
 }
 
@@ -111,12 +111,12 @@ blockquote {
 .carousel__photo {
   opacity: 0;
   position: absolute;
-  top:0;
+  top: 0;
   width: 100%;
   margin: auto;
   padding: 1rem 5rem;
   z-index: 100;
-  transition: transform .5s, opacity .5s, z-index .5s;
+  transition: transform 0.5s, opacity 0.5s, z-index 0.5s;
 }
 
 /* Display the initial item and bring it to the front using 'z-index'. These styles also apply to the 'active' item. */
@@ -147,35 +147,35 @@ blockquote {
 .carousel__button--prev,
 .carousel__button--next {
   position: absolute;
-  top:50%;
+  top: 50%;
   width: 3rem;
   height: 3rem;
   transform: translateY(-50%);
   border-radius: 50%;
-  cursor: pointer; 
+  cursor: pointer;
   z-index: 1001; /* Sit on top of everything */
   background: #6772e5;
-  transition: all .15s ease;
-/*  opacity: 0;  Hide buttons until carousel is initialised 
+  transition: all 0.15s ease;
+  /*  opacity: 0;  Hide buttons until carousel is initialised 
   transition:opacity 1s;*/
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
 
   &:hover {
     // transform: translateY(-1px);
     background: #7795f8;
-    box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08)
+    box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
   }
 
   &:active {
     background: #555abf;
     // transform: translateY(1px);
-    box-shadow: 0 6px 12px -2px rgba(50,50,93,.25), 0 3px 7px -3px rgba(0,0,0,.3);
+    box-shadow: 0 6px 12px -2px rgba(50, 50, 93, 0.25),
+      0 3px 7px -3px rgba(0, 0, 0, 0.3);
   }
 }
-
 
 .carousel__button--next {
   right: 3rem;
@@ -184,7 +184,6 @@ blockquote {
 .carousel__button--prev {
   left: 3rem;
 }
-
 
 /* Use pseudo elements to insert arrows inside of navigation buttons */
 .carousel__button--prev::after,
@@ -207,7 +206,7 @@ blockquote {
   // transform: translate(-50%, -50%) rotate(-45deg);
 }
 .carousel__button--prev::after {
-  transform: rotateY(180deg)
+  transform: rotateY(180deg);
 }
 
 .dots {
@@ -225,47 +224,45 @@ blockquote {
   margin: 5px;
 }
 .content-wrapper {
-    @extend %flex-center;
-    overflow: hidden;
+  @extend %flex-center;
+  overflow: hidden;
 }
 
 .testimonial {
-    @extend %flex-center;
-    width: 100%;
-    position: absolute;
-    // transform: translateX(100vw);
-    // opacity: 0;
-    left: -100vw;
-    transition: left 3s ease;
-    &.inactive {
+  @extend %flex-center;
+  width: 100%;
+  position: absolute;
+  // transform: translateX(100vw);
+  // opacity: 0;
+  left: -100vw;
+  transition: left 3s ease;
+  &.inactive {
     left: 100vw;
     opacity: 0.5;
     transition: left 2s ease;
-    
+  }
+  &.active {
+    // transform: translateX(0);
+    left: 0;
+    display: flex !important;
+    // opacity: 1;
+  }
 }
-        &.active {
-            // transform: translateX(0);
-            left: 0;
-            display: flex !important;
-            // opacity: 1;
-        }
-}
-
 
 .nav-right {
-        position: relative;
-        right: -50%;
-    }
+  position: relative;
+  right: -50%;
+}
 .nav-left {
-        position: relative;
-        left: -50%;
-    }
+  position: relative;
+  left: -50%;
+}
 
 .active-dot {
   background-color: white;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
   .testimonial-head {
     // display: block;
     flex-direction: column;
@@ -293,11 +290,9 @@ blockquote {
     }
     .name {
       margin-bottom: 0;
-  
     }
   }
   .description {
     margin-top: 1rem;
   }
-  
 }

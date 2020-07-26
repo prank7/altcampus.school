@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="162.363" height="124.053" viewBox="0 0 162.363 124.053">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.193" y1="0.862" x2="1.013" y2="-0.104" gradientUnits="objectBoundingBox">
+      <stop offset="0.234" stop-color="#9090dd"/>
+      <stop offset="1" stop-color="#565696"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.673" y1="0.063" x2="-0.745" y2="3.644" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#32c67f"/>
+      <stop offset="1" stop-color="#88d1ad"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="1.633" y1="-2.36" x2="0.214" y2="1.221" xlink:href="#linear-gradient-2"/>
+    <linearGradient id="linear-gradient-4" x1="1.027" y1="-0.831" x2="0.152" y2="1.379" xlink:href="#linear-gradient-2"/>
+  </defs>
+  <g id="Group_83" data-name="Group 83" transform="translate(-471.235 -129.674)">
+    <path id="Path_29" data-name="Path 29" d="M483.207,238.524c8.421,13.03,26.71,18.6,40.963,12.475,15.733-6.761,26.132-25.427,43.235-26.262,8.185-.4,15.925,3.6,24.053,4.639,15.781,2.024,32.225-8.786,36.626-24.075s-3.781-33.187-18.22-39.864c-10.316-4.771-22.382-4.071-33.061-7.958-8.831-3.212-16.214-9.362-23.734-15s-15.735-11-25.054-12.2-19.95,2.982-23.386,11.727c-3.195,8.132.49,17.214.409,25.949-.137,15-11.13,20.179-19.241,30.443C477.02,209.513,475.455,226.53,483.207,238.524Z" transform="translate(4.093 0.241)" fill="#fff3a9" opacity="0.35"/>
+    <g id="Group_73" data-name="Group 73" transform="translate(504.283 165.52)">
+      <circle id="Ellipse_81" data-name="Ellipse 81" cx="1.728" cy="1.728" r="1.728" transform="translate(0 49.036)" fill="#e5c41f"/>
+      <circle id="Ellipse_82" data-name="Ellipse 82" cx="1.728" cy="1.728" r="1.728" fill="#e5c41f"/>
+      <circle id="Ellipse_83" data-name="Ellipse 83" cx="1.369" cy="1.369" r="1.369" transform="translate(126.576 40.395)" fill="#e5c41f"/>
+      <g id="Group_72" data-name="Group 72" transform="translate(14.503 35.252)">
+        <circle id="Ellipse_84" data-name="Ellipse 84" cx="0.922" cy="0.922" r="0.922" fill="#e5c41f"/>
+      </g>
+      <circle id="Ellipse_85" data-name="Ellipse 85" cx="2.488" cy="2.488" r="2.488" transform="translate(112.724 51.559)" fill="#e5c41f"/>
+    </g>
+    <g id="Group_74" data-name="Group 74" transform="translate(526.092 145.654)">
+      <rect id="Rectangle_84" data-name="Rectangle 84" width="78.829" height="99.721" rx="3.014" fill="#e5e5e5"/>
+      <rect id="Rectangle_85" data-name="Rectangle 85" width="51.635" height="4.144" rx="1.306" transform="translate(13.597 42.918)" fill="#c9c9c9"/>
+      <rect id="Rectangle_86" data-name="Rectangle 86" width="51.635" height="4.144" rx="1.306" transform="translate(13.597 61.597)" fill="#c9c9c9"/>
+      <rect id="Rectangle_87" data-name="Rectangle 87" width="51.635" height="4.144" rx="1.306" transform="translate(13.597 80.277)" fill="#c9c9c9"/>
+    </g>
+    <g id="Group_76" data-name="Group 76" transform="translate(521.029 129.674)">
+      <rect id="Rectangle_88" data-name="Rectangle 88" width="50.46" height="44.927" rx="6.375" fill="url(#linear-gradient)"/>
+      <g id="Group_75" data-name="Group 75" transform="translate(11.361 9.574)">
+        <circle id="Ellipse_86" data-name="Ellipse 86" cx="6.037" cy="6.037" r="6.037" transform="translate(7.832)" fill="#fff"/>
+        <path id="Path_30" data-name="Path 30" d="M523.636,144.27a14.414,14.414,0,0,0-13.7,9.942,3.438,3.438,0,0,0,3.292,4.468h20.82a3.438,3.438,0,0,0,3.293-4.468A14.414,14.414,0,0,0,523.636,144.27Z" transform="translate(-509.767 -130.678)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Group_80" data-name="Group 80" transform="translate(471.235 180.396)">
+      <g id="Group_77" data-name="Group 77" transform="translate(15.035 10.004)">
+        <rect id="Rectangle_89" data-name="Rectangle 89" width="22.137" height="2.223" transform="translate(0 13.785) rotate(-38.516)" fill="#32c67f"/>
+      </g>
+      <g id="Group_78" data-name="Group 78" transform="translate(16.465 36.621)">
+        <rect id="Rectangle_90" data-name="Rectangle 90" width="2.221" height="20.263" transform="translate(0 1.742) rotate(-51.661)" fill="#32c67f"/>
+      </g>
+      <g id="Group_79" data-name="Group 79">
+        <circle id="Ellipse_87" data-name="Ellipse 87" cx="8.176" cy="8.176" r="8.176" transform="translate(29.523)" fill="url(#linear-gradient-2)"/>
+        <circle id="Ellipse_88" data-name="Ellipse 88" cx="8.176" cy="8.176" r="8.176" transform="translate(28.759 45.536)" fill="url(#linear-gradient-3)"/>
+        <circle id="Ellipse_89" data-name="Ellipse 89" cx="13.251" cy="13.251" r="13.251" transform="translate(0 17.766)" fill="url(#linear-gradient-4)"/>
+      </g>
+    </g>
+    <g id="Group_82" data-name="Group 82" transform="translate(594.734 157.675)">
+      <circle id="Ellipse_90" data-name="Ellipse 90" cx="1.899" cy="1.899" r="1.899" transform="translate(14.925 29.461)" fill="#e5c41f"/>
+      <circle id="Ellipse_91" data-name="Ellipse 91" cx="1.899" cy="1.899" r="1.899" transform="translate(20.373 0.922)" fill="#e5c41f"/>
+      <g id="Group_81" data-name="Group 81">
+        <circle id="Ellipse_92" data-name="Ellipse 92" cx="0.922" cy="0.922" r="0.922" fill="#e5c41f"/>
+      </g>
+    </g>
+  </g>
+</svg>

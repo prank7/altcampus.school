@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="168" height="132.052" viewBox="0 0 168 132.052">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.049" y1="0.738" x2="0.984" y2="0.244" gradientUnits="objectBoundingBox">
+      <stop offset="0.234" stop-color="#9090dd"/>
+      <stop offset="1" stop-color="#565696"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_63" data-name="Group 63" transform="translate(-92.679 -125.608)">
+    <g id="Group_59" data-name="Group 59" transform="translate(92.679 125.608)">
+      <path id="Path_21" data-name="Path 21" d="M97.337,228.391c7.171,13.507,21.471,22.6,36.607,24.779a55.818,55.818,0,0,0,45.287-14.164c14.66-13.637,22.354-35.512,40.895-43.07,6.391-2.605,13.472-3.163,19.866-5.76a33.2,33.2,0,0,0,7.974-56.9c-12.147-9.513-29.66-9.387-44.088-3.919s-26.583,15.469-38.832,24.849-25.33,18.511-40.42,21.723c-12.5,2.66-22.949,2.57-28.167,15.351C91.5,203.423,91.045,216.54,97.337,228.391Z" transform="translate(-92.679 -125.608)" fill="#d4b8ff" opacity="0.2"/>
+      <circle id="Ellipse_63" data-name="Ellipse 63" cx="1.734" cy="1.734" r="1.734" transform="translate(156.209 64.049)" fill="#d4b8ff"/>
+      <circle id="Ellipse_64" data-name="Ellipse 64" cx="1.734" cy="1.734" r="1.734" transform="translate(12.016 95.656)" fill="#d4b8ff"/>
+      <circle id="Ellipse_65" data-name="Ellipse 65" cx="1.905" cy="1.905" r="1.905" transform="translate(136.118 105.377)" fill="#d4b8ff"/>
+      <circle id="Ellipse_66" data-name="Ellipse 66" cx="1.905" cy="1.905" r="1.905" transform="translate(127.087 6.534)" fill="#d4b8ff"/>
+      <circle id="Ellipse_67" data-name="Ellipse 67" cx="1.374" cy="1.374" r="1.374" transform="translate(53.586 3.786)" fill="#d4b8ff"/>
+      <g id="Group_57" data-name="Group 57" transform="translate(32.209 101.71)">
+        <circle id="Ellipse_68" data-name="Ellipse 68" cx="0.925" cy="0.925" r="0.925" fill="#d4b8ff"/>
+      </g>
+      <g id="Group_58" data-name="Group 58" transform="translate(154.358 38.012)">
+        <circle id="Ellipse_69" data-name="Ellipse 69" cx="0.925" cy="0.925" r="0.925" fill="#d4b8ff"/>
+      </g>
+      <circle id="Ellipse_70" data-name="Ellipse 70" cx="2.496" cy="2.496" r="2.496" transform="translate(7.023 43.605)" fill="#d4b8ff"/>
+    </g>
+    <g id="Group_61" data-name="Group 61" transform="translate(112.357 140.413)">
+      <rect id="Rectangle_72" data-name="Rectangle 72" width="124.517" height="77.643" rx="4.555" fill="#e5e5e5"/>
+      <path id="Path_22" data-name="Path 22" d="M143.936,134.9H112.289a7.254,7.254,0,0,0-7.254,7.254v63.133a7.255,7.255,0,0,0,7.254,7.256h31.646Z" transform="translate(-105.035 -134.904)" fill="#bfbfbf"/>
+      <rect id="Rectangle_73" data-name="Rectangle 73" width="16.11" height="4.726" rx="1.484" transform="translate(47.688 11.371)" fill="#3e82e5"/>
+      <rect id="Rectangle_74" data-name="Rectangle 74" width="23.746" height="4.726" rx="1.484" transform="translate(47.688 26.571)" fill="#9e55f2"/>
+      <rect id="Rectangle_75" data-name="Rectangle 75" width="45.448" height="4.726" rx="1.484" transform="translate(47.688 41.772)" fill="#32c67f"/>
+      <g id="Group_60" data-name="Group 60" transform="translate(6.092 11.371)" opacity="0.5">
+        <rect id="Rectangle_76" data-name="Rectangle 76" width="26.016" height="4.726" rx="1.484" fill="#fff"/>
+        <rect id="Rectangle_77" data-name="Rectangle 77" width="20.482" height="4.726" rx="1.484" transform="translate(0 16.382)" fill="#fff"/>
+        <rect id="Rectangle_78" data-name="Rectangle 78" width="14.729" height="4.726" rx="1.484" transform="translate(0 32.763)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Group_62" data-name="Group 62" transform="translate(137.352 196.976)">
+      <rect id="Rectangle_79" data-name="Rectangle 79" width="84.319" height="60.684" rx="9.292" fill="url(#linear-gradient)"/>
+      <path id="Path_23" data-name="Path 23" d="M141.486,185.6v15.95a3.046,3.046,0,0,0,4.539,2.656l15.3-8.589a3.047,3.047,0,0,0-.17-5.4l-15.3-7.363A3.048,3.048,0,0,0,141.486,185.6Z" transform="translate(-108.429 -163.233)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
