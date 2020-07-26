@@ -1,103 +1,107 @@
 .hero {
-    background-color: $lightbg1;
-    @extend %flex-center;
-    margin: 0 auto;
-    text-align: center;
-    // padding-bottom: 2rem;
+  background: linear-gradient(#f4f6ff, #f5f7ff, #ffffff);
+  position: relative;
+  @extend %flex-center;
+  margin: 0 auto;
+  text-align: center;
+  .bg-hero {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  // padding-bottom: 2rem;
 }
-.hero-main{
-    text-align: center;
-    margin:8rem 0 6rem;
-    
-    h1 {
-        width: 69%;
-        font-weight: 700;
-        font-family: $font-serif;
-        margin: 0 auto;
-        line-height: 1.2;
-        color: $textBg1Heading;
+.hero-main {
+  text-align: center;
+  margin: 8rem 0 6rem;
 
-        // &::before {
-        //     content: "";
-        //     position: absolute;
-        //     z-index: -1;
-        //     top: -7px;
-        //     bottom: -7px;
-        //     left: -10px;
-        //     width: 150px;
-        //     -webkit-transform: skewY(-12deg);
-        //     transform: skewY(-12deg);
-        //     background: #f2feef;
-        // }
-    }
+  h1 {
+    width: 69%;
+    font-weight: 700;
+    font-family: $font-serif;
+    margin: 0 auto;
+    line-height: 1.2;
+    color: $textBg1Heading;
 
-    h3 {
-        // width: 70%;
-        // font-family: $font-serif2;
-        // margin: 1.5rem 0 8rem 0;
-        color: rgb(53, 50, 45);
-        font-size: 1.6rem;
-        font-weight: 300;
-        line-height: 1.4;
-        margin: 2rem auto 1.7rem;
-        font-family: 'Source Sans Pro', sans-serif;
-        color: $textBg2Para;
-    }
-    .btn {
-        margin-top: 3.5rem;
-    }
+    // &::before {
+    //     content: "";
+    //     position: absolute;
+    //     z-index: -1;
+    //     top: -7px;
+    //     bottom: -7px;
+    //     left: -10px;
+    //     width: 150px;
+    //     -webkit-transform: skewY(-12deg);
+    //     transform: skewY(-12deg);
+    //     background: #f2feef;
+    // }
+  }
+
+  h3 {
+    // width: 70%;
+    // font-family: $font-serif2;
+    // margin: 1.5rem 0 8rem 0;
+    color: rgb(53, 50, 45);
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.4;
+    margin: 2rem auto 1.7rem;
+    font-family: "Source Sans Pro", sans-serif;
+    color: $textBg2Para;
+  }
+  .btn {
+    margin-top: 3.5rem;
+  }
 }
 
 .hero-features {
-    @extend %flex-center;
+  @extend %flex-center;
 
-    h5 {
-        // padding-left: 1rem;
-        // padding-right:  1rem; 
-        margin-left: 1rem;
-        line-height: 0.9;
-
-        // border-left: 1px solid black;
-        &:first-child {
-            margin-left: 0;
-            border-left: 0;
-            padding-left: 0;
-        }
-
-        color: $textBg1Heading;
-        border-bottom: 4px solid $yellow;
-    }
-    .group-logo1 {
-        width: 20%;
-        margin-right:7rem;
-        position: absolute;
-        left: 0%;
-        bottom: 30%;
-        z-index: 1;
-    }
-    .group-logo2 {
-        width: 20%;
-        margin-left:7rem;
-        position: absolute;
-        right: 0%;
-        bottom: 30%;
-        z-index: 1;
-    }
-
+  h5 {
+    // padding-left: 1rem;
+    // padding-right:  1rem;
+    margin: 0 1rem;
+    line-height: 0.9;
+    color: #20345d;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 1.15rem;
+  }
+  .dot {
+    width: 6px;
+    height: 6px;
+    background-color: #7f7f90;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .group-logo1 {
+    width: 20%;
+    margin-right: 7rem;
+    position: absolute;
+    left: 0%;
+    bottom: 30%;
+    z-index: 1;
+  }
+  .group-logo2 {
+    width: 20%;
+    margin-left: 7rem;
+    position: absolute;
+    right: 0%;
+    bottom: 30%;
+    z-index: 1;
+  }
 }
 
-
-
 @media screen and (max-width: 768px) {
-    .hero-main{
-        margin: 4rem 0;
-        h1 {
-            width: 100%;
-            font-size: 3.1rem;
-        }
-        h3{
-            font-size: 1.5rem;
-        }
+  .hero-main {
+    margin: 4rem 0;
+    h1 {
+      width: 100%;
+      font-size: 3.1rem;
     }
- 
+    h3 {
+      font-size: 1.5rem;
+    }
+  }
 }
