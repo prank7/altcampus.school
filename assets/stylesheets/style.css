@@ -389,6 +389,8 @@ button {
 .hero-main {
   text-align: center;
   margin: 8rem 0 6rem;
+  position: relative;
+  z-index: 99;
 }
 .hero-main h1 {
   width: 69%;
