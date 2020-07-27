@@ -61,7 +61,7 @@ button {
   font-family: $font-mukta;
   font-weight: 600;
   &:hover {
-    color: rgb(230, 225, 225);
+    // color: rgb(230, 225, 225);
     transform: translateY(-1px);
     transition: all 0.3s ease;
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
@@ -119,6 +119,9 @@ button {
     font-size: 1.1rem;
     text-decoration: none;
     color: #20345d;
+    &.btn {
+      margin-top: 0;
+    }
   }
   @media screen and (max-width: 768px) {
     flex-direction: column;
