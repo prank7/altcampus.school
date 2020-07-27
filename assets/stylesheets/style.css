@@ -240,10 +240,9 @@ button {
   }
 }
 .header {
-  background-color: #f4f6ff;
+  background-color: #f6f9fc;
   border-bottom: 2px solid #e9f4f4;
   position: relative;
-  z-index: 999;
 }
 .header .active {
   border-bottom: 2px solid #3ecf8e;
@@ -373,46 +372,48 @@ button {
   }
 }
 .hero {
-  background: linear-gradient(#f4f6ff, #f5f7ff, #ffffff);
+  background: linear-gradient(#f6f9fc, #fafcfe, #ffffff);
   position: relative;
   margin: 0 auto;
   text-align: center;
+  overflow: hidden;
 }
 .hero .bg-hero {
   position: absolute;
-  left: 50%;
-  top: 50%;
   max-width: 100%;
-  transform: translate(-50%, -50%);
+  right: -24%;
+  top: -57%;
 }
 
 .hero-main {
   text-align: center;
-  margin: 8rem 0 6rem;
+  margin: 9rem 0 6rem;
   position: relative;
   z-index: 99;
 }
 .hero-main h1 {
-  width: 69%;
   font-weight: 700;
   font-family: "Lato", sans-serif;
   margin: 0 auto;
   line-height: 1.2;
   color: #32325d;
+  font-size: 4rem;
 }
 .hero-main h3 {
-  color: #35322d;
-  font-size: 1.6rem;
-  font-weight: 300;
+  color: #7f7f90;
+  font-size: 1.4rem;
+  font-weight: 400;
   line-height: 1.4;
-  margin: 2rem auto 1.7rem;
+  margin: 3rem 0;
   font-family: "Source Sans Pro", sans-serif;
-  color: #424770;
 }
 .hero-main .btn {
   margin-top: 3.5rem;
 }
 
+.hero-features {
+  margin: 2rem 0;
+}
 .hero-features h5 {
   margin: 0 1rem;
   line-height: 0.9;
@@ -490,6 +491,7 @@ button {
 
 .key-features-cards {
   flex: 0 1 30%;
+  text-align: center;
   align-self: stretch;
 }
 .key-features-cards:first-child {
@@ -499,7 +501,7 @@ button {
   margin-right: 0;
 }
 .key-features-cards h4 {
-  text-align: left;
+  text-align: center;
   color: #32325d;
   text-transform: uppercase;
   font-family: "Mukta", sans-serif;
@@ -516,12 +518,12 @@ button {
 }
 
 .key-features-points {
-  text-align: left;
+  text-align: center;
 }
 .key-features-points .point-item {
-  display: flex;
   align-items: center;
   margin: 0.75rem 0rem;
+  text-align: center;
 }
 .key-features-points .point-item:first-child {
   margin-top: 0.45rem;
