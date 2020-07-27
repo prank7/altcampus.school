@@ -72,6 +72,28 @@ button {
   padding: 5rem 0;
 }
 
+.img-responsive {
+  width: 100%;
+  height: auto;
+}
+.col-1-2 {
+  flex: 1 1 60%;
+}
+.col-img {
+  flex: 1 1 40%;
+}
+.padding-left {
+  padding-left: 3rem;
+}
+.flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.item-start {
+  align-items: flex-start;
+}
+
 // CTA
 .cta {
   background: url(/assets/media/mask2.svg),
@@ -119,4 +141,35 @@ button {
   // .padding {
   //   // padding: 5rem 1rem;
   // }
+}
+
+.bg-1 {
+  background: $lightbg4;
+  h3 {
+    color: $greenDark;
+    font-size: 1.8rem;
+    font-family: $font-serif;
+  }
+  h6 {
+    font-size: 1.4rem;
+    font-family: $font-mukta;
+  }
+  p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+  }
+}
+.feature-description {
+  margin-top: 1rem;
+}
+.bg-2 {
+  background: $lightbg1;
+  h3 {
+    color: $textBg1Heading;
+    font-family: $font-serif;
+  }
+  h6 {
+    font-size: 1.3rem;
+    font-family: $font-mukta;
+  }
 }
