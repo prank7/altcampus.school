@@ -194,7 +194,6 @@ button {
 }
 
 .btn:hover {
-  color: #e6e1e1;
   -webkit-transform: translateY(-1px);
           transform: translateY(-1px);
   -webkit-transition: all 0.3s ease;
@@ -279,6 +278,10 @@ button {
   font-size: 1.1rem;
   text-decoration: none;
   color: #20345d;
+}
+
+.cta-wrapper a.btn {
+  margin-top: 0;
 }
 
 @media screen and (max-width: 768px) {
@@ -2050,6 +2053,7 @@ blockquote::after {
   color: #008168;
   font-size: 1.5rem;
   font-weight: 600;
+  font-family: "Mukta", sans-serif;
 }
 
 .answer {
