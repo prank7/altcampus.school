@@ -182,7 +182,7 @@ button {
   letter-spacing: 0.06rem;
   border-radius: 3px;
   cursor: pointer;
-  background: #3ecf8e;
+  background: #15be52;
   text-decoration: none;
   text-transform: uppercase;
   color: white;
@@ -204,7 +204,7 @@ button {
 }
 
 .padding {
-  padding: 5rem 0;
+  padding: 6rem 0;
 }
 
 .img-responsive {
@@ -302,24 +302,31 @@ button {
   }
 }
 
-.bg-1 {
+.bg-1, .bg-2 {
   background: #e6ebf1;
 }
 
-.bg-1 h3 {
-  color: #008168;
+.bg-1 h3, .bg-2 h3 {
+  color: #15be52;
   font-size: 1.8rem;
   font-family: "Lato", sans-serif;
+  font-weight: 700;
 }
 
-.bg-1 h6 {
+.bg-1 h6, .bg-2 h6 {
+  margin-top: 0.25rem;
+  margin-bottom: 1.2rem;
   font-size: 1.4rem;
   font-family: "Mukta", sans-serif;
+  font-weight: 400;
+  color: #32325d;
 }
 
-.bg-1 p {
+.bg-1 p, .bg-2 p {
   font-size: 1.1rem;
   line-height: 1.7;
+  color: #6b7c93;
+  width: 93%;
 }
 
 .feature-description {
@@ -327,17 +334,16 @@ button {
 }
 
 .bg-2 {
-  background: #f6f9fc;
+  background: #f7fafc;
 }
 
 .bg-2 h3 {
   color: #32325d;
-  font-family: "Lato", sans-serif;
+  color: #6672e5;
 }
 
-.bg-2 h6 {
-  font-size: 1.3rem;
-  font-family: "Mukta", sans-serif;
+p b {
+  font-weight: 600;
 }
 
 .header {
@@ -347,7 +353,7 @@ button {
 }
 
 .header .active {
-  border-bottom: 2px solid #3ecf8e;
+  border-bottom: 2px solid #15be52;
 }
 
 .logo {
@@ -357,11 +363,11 @@ button {
 .nav-item .btn {
   font-size: 1rem;
   padding: 0.2rem 0.8rem;
-  background: #32325d;
+  background: #15be52;
   margin-top: 0;
   color: #f1f0f0;
   color: white;
-  border: 0.5px solid #32325d;
+  border: 0.5px solid #15be52;
 }
 
 .nav-item .login-header {
@@ -450,7 +456,7 @@ button {
     display: inline-block;
   }
   .nav-link:hover {
-    color: #3ecf8e;
+    color: #15be52;
   }
   .close-menu {
     position: absolute;
@@ -459,7 +465,7 @@ button {
     top: 1.2%;
   }
   .nav-item .btn {
-    background: #3ecf8e;
+    background: #15be52;
     padding: 0.4rem 2.5rem;
     font-size: 1.25rem;
     color: white;
@@ -525,6 +531,10 @@ button {
   margin-top: 2rem;
 }
 
+.hero-main .btn:hover {
+  color: white;
+}
+
 .hero-features {
   margin: 2rem 0;
 }
@@ -585,6 +595,10 @@ button {
   }
 }
 
+.key-features {
+  background: #f7fafc;
+}
+
 .key-head {
   text-align: center;
 }
@@ -596,7 +610,8 @@ button {
 .key-features-heading h2 {
   font-family: "Lato", sans-serif;
   font-weight: 700;
-  font-size: 2.8rem;
+  font-size: 2.6rem;
+  line-height: 2.6rem;
   color: #32325d;
 }
 
@@ -760,6 +775,8 @@ button {
 
 .course-details {
   background: #f6f9fc;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f4f6ff), color-stop(#f5f7ff), to(#ffffff));
+  background: linear-gradient(#f4f6ff, #f5f7ff, #ffffff);
 }
 
 .course-details-heading {
@@ -768,7 +785,8 @@ button {
 }
 
 .course-details-heading h2 {
-  font-size: 2.8rem;
+  font-size: 2.6rem;
+  line-height: 3.2rem;
   font-weight: 700;
   color: #32325d;
 }
@@ -816,9 +834,8 @@ button {
 }
 
 .course-highlights {
-  padding: 4rem 0;
+  padding: 1rem 0;
   margin: 4rem 0;
-  background: white;
 }
 
 .course-highlights .col {
@@ -849,7 +866,7 @@ button {
 .course-highlights .col img {
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 72%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   width: 7rem;
@@ -880,17 +897,17 @@ button {
 }
 
 .col .numbers {
-  font-size: 4rem;
-  font-weight: 700;
-  font-family: "Mukta", sans-serif;
+  font-size: 4.75rem;
+  font-weight: 300;
   margin-bottom: -1rem;
-  color: #3ecf8e;
+  color: #15be52;
+  font-family: "Mukta", sans-serif;
 }
 
 .col .topics {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   font-weight: 600;
-  font-family: "Mukta", sans-serif;
+  font-family: "Lato", sans-serif;
   text-transform: uppercase;
   color: #21396a;
 }
@@ -1151,7 +1168,7 @@ button {
 .offer-price p {
   font-size: 1.4rem;
   margin-left: 0.75rem;
-  color: #3ecf8e;
+  color: #15be52;
 }
 
 .offer-price h4 {

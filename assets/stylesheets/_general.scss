@@ -69,7 +69,7 @@ button {
   box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
 }
 .padding {
-  padding: 5rem 0;
+  padding: 6rem 0;
 }
 
 .img-responsive {
@@ -143,33 +143,54 @@ button {
   // }
 }
 
-.bg-1 {
+.bg-1, .bg-2 {
   background: $lightbg4;
+  // background: $textBg1Heading;
+  
   h3 {
-    color: $greenDark;
+    color: $green;
     font-size: 1.8rem;
     font-family: $font-serif;
+    font-weight: 700;
   }
   h6 {
+    margin-top: 0.25rem;
+    margin-bottom: 1.2rem;
     font-size: 1.4rem;
     font-family: $font-mukta;
+    font-weight: 400;
+    color: $textBg1Heading;
+    // color: rgb(173, 189, 204);
   }
   p {
     font-size: 1.1rem;
     line-height: 1.7;
+    color: #6b7c93;
+    // padding-right: 2.5rem;
+    width: 93%;
   }
 }
+
 .feature-description {
   margin-top: 1rem;
 }
+
 .bg-2 {
-  background: $lightbg1;
+  // background: linear-gradient($lightbg3, #fafcfe, #ffffff);
+  // background: linear-gradient(#edf1f5, #ffffff);
+  // background: #edf1f5;
+  background: $lightbg3;
   h3 {
     color: $textBg1Heading;
-    font-family: $font-serif;
+    color: $blue;
   }
   h6 {
-    font-size: 1.3rem;
-    font-family: $font-mukta;
+    // color: rgb(60, 72, 82);
+  }
+}
+
+p {
+  b {
+    font-weight: 600;
   }
 }
