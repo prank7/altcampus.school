@@ -35,7 +35,7 @@
   //   margin: 0 1.5rem;
   //   padding: 1.75rem;
   flex: 0 1 30%;
-  //   text-align: center;
+  text-align: center;
   // height: 350px;
   align-self: stretch;
   //   background-color: rgb(252, 252, 252);
@@ -55,7 +55,7 @@
   //       0 -12px 36px -8px rgba(0, 0, 0, 0.025);
   //   }
   h4 {
-    text-align: left;
+    text-align: center;
     color: $textBg1Heading;
     text-transform: uppercase;
     font-family: $font-mukta;
@@ -72,13 +72,13 @@
   }
 }
 .key-features-points {
-  text-align: left;
+  text-align: center;
 
   .point-item {
-    display: flex;
+    // display: flex;
     align-items: center;
     margin: 0.75rem 0rem;
-
+    text-align: center;
     &:first-child {
       margin-top: 0.45rem;
     }
