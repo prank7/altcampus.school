@@ -16,7 +16,8 @@
 .hero-main {
   text-align: center;
   margin: 8rem 0 6rem;
-
+  position: relative;
+  z-index: 99;
   h1 {
     width: 69%;
     font-weight: 700;
