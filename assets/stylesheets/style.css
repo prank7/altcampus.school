@@ -83,7 +83,7 @@ h6 {
   line-height: 1.8571428571428572;
 }
 
-.nav, .nav-ul, .features, .course-content .module-container .module-details, .pricing-cards, .tweetgroup {
+.nav, .nav-ul, .features, .course-content .module-container .module-details, .pricing-cards, .about .team .members, .tweetgroup {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -120,7 +120,7 @@ h6 {
 }
 
 @media screen and (max-width: 768px) {
-  .nav, .nav-ul, .features, .course-content .module-container .module-details, .pricing-cards, .tweetgroup {
+  .nav, .nav-ul, .features, .course-content .module-container .module-details, .pricing-cards, .about .team .members, .tweetgroup {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
@@ -1367,6 +1367,46 @@ span.strikethrough {
   }
 }
 
+.about .about-altcampus h2 {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 2.8rem;
+  color: #32325d;
+}
+
+.about .about-altcampus p {
+  font-size: 1.4rem;
+  color: #6b7c93;
+}
+
+.about .team {
+  margin-top: 5rem;
+}
+
+.about .team h3 {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 2.3rem;
+  color: #32325d;
+  margin-bottom: 1rem;
+}
+
+.about .team .member img {
+  height: 200px;
+  width: 200px;
+  background-color: #c1c1c1;
+  border-radius: 4px;
+  margin: 15px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.about .team .member h6 {
+  text-align: center;
+  color: #20345d;
+  font-size: 16px;
+}
+
 .more-testimonial {
   background: url(/assets/media/mask3.svg) no-repeat, -webkit-gradient(linear, left top, right bottom, from(#111f3c), to(#20345d));
   background: url(/assets/media/mask3.svg) no-repeat, linear-gradient(to right bottom, #111f3c, #20345d);
@@ -2015,6 +2055,8 @@ blockquote::after {
 
 .pricing-policy {
   padding: 5rem 0;
+  color: #525854;
+  font-weight: 400;
 }
 
 .pricing-policy h1 {
@@ -2027,12 +2069,29 @@ blockquote::after {
 }
 
 .pricing-policy p {
-  padding: .4rem 0;
-  font-size: 1.2rem;
+  padding: .6rem 0;
+  font-weight: 400;
+  font-size: 1.05rem;
+}
+
+.pricing-policy h5 {
+  color: #3ecf8e;
+  font-size: 1.4rem;
+  padding: 0.8rem 0;
+  font-weight: 600;
+}
+
+.pricing-policy ul li {
+  padding: 0.3rem 0 0.3rem 0.6rem;
+  color: #686969;
+}
+
+.pricing-policy .bold {
+  font-weight: bold;
 }
 
 .pricing-policycontainer {
-  max-width: 900px;
+  max-width: 700px;
   margin: 0 auto;
 }
 
