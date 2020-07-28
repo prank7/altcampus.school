@@ -974,7 +974,7 @@
             <h2>Let your skills speak for you</h2>
           </article>
           <article class="tweets">
-            <div id="twitter"></div>
+            <!-- <div id="twitter"></div> -->
             <div class="tweetgroup">
               <div class="tweet tweet1">
                 <blockquote class="twitter-tweet">
@@ -1155,6 +1155,8 @@
                 </blockquote>
               </div>
             </div>
+          
+          <div id="twitter"></div>
           </article>
         </div>
       </section>
@@ -1401,11 +1403,16 @@
     </footer>
 
     <script src="/assets/javascript/testimonials.js"></script>
-    <script src="/assets/javascript/header.js"></script>
     <script>
+      let navBarLink = document.querySelectorAll(".nav-link");
+      let navBarItem = navBarLink.forEach(elm => elm.addEventListener('click', () => {
+        elm.classList.add('active');
+      }));
+
       window.addEventListener('load', (event) => {
         let twitterScript = document.createElement("script");
         twitterScript.setAttribute("src", "https://platform.twitter.com/widgets.js");
+        twitterScript.setAttribute("async", "true");
         document.getElementById('twitter').appendChild(twitterScript);
       });
     </script>
