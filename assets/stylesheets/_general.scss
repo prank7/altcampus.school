@@ -78,6 +78,11 @@ button {
 }
 .col-1-2 {
   flex: 1 1 60%;
+  @media screen and (max-width: 768px) {
+    flex: 0 1 100%;
+    order: 1;
+    margin-top: 2rem;
+  }
 }
 .col-img {
   flex: 1 1 40%;
@@ -90,6 +95,13 @@ button {
   // }
   &:nth-child(even) {
     text-align: right;
+    @media screen and (max-width: 768px) {
+      text-align: center;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    flex: 0 1 100%;
+    text-align: center;
   }
 }
 .padding-left {
@@ -99,6 +111,9 @@ button {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  @media screen and (max-width: 768px) {
+    flex-wrap: wrap;
+  }
 }
 .item-start {
   align-items: flex-start;

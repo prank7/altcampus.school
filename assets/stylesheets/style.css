@@ -204,6 +204,13 @@ button {
 .col-1-2 {
   flex: 1 1 60%;
 }
+@media screen and (max-width: 768px) {
+  .col-1-2 {
+    flex: 0 1 100%;
+    order: 1;
+    margin-top: 2rem;
+  }
+}
 
 .col-img {
   flex: 1 1 40%;
@@ -214,6 +221,17 @@ button {
 .col-img:nth-child(even) {
   text-align: right;
 }
+@media screen and (max-width: 768px) {
+  .col-img:nth-child(even) {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  .col-img {
+    flex: 0 1 100%;
+    text-align: center;
+  }
+}
 
 .padding-left {
   padding-left: 3rem;
@@ -223,6 +241,11 @@ button {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+@media screen and (max-width: 768px) {
+  .flex-between {
+    flex-wrap: wrap;
+  }
 }
 
 .item-start {
@@ -466,6 +489,12 @@ span.strikethrough {
   max-width: 100%;
   right: -28%;
   top: -57%;
+}
+@media screen and (max-width: 768px) {
+  .hero .bg-hero {
+    right: -47%;
+    top: -39%;
+  }
 }
 
 .hero-main {
