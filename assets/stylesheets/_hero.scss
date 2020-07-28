@@ -10,6 +10,10 @@
     max-width: 100%;
     right: -28%;
     top: -57%;
+    @media screen and (max-width: 768px) {
+      right: -47%;
+      top: -39%;
+    }
   }
   // padding-bottom: 2rem;
 }
