@@ -197,3 +197,10 @@ p {
     font-weight: 600;
   }
 }
+
+span {
+  &.strikethrough {
+    text-decoration: line-through;
+    color: #7b8a9e;
+  }
+}
