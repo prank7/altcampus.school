@@ -349,6 +349,11 @@ p b {
   font-weight: 600;
 }
 
+span.strikethrough {
+  text-decoration: line-through;
+  color: #7b8a9e;
+}
+
 .header {
   background-color: #f6f9fc;
   border-bottom: 2px solid #e9f4f4;
