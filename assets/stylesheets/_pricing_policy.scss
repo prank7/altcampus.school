@@ -1,6 +1,9 @@
-.pricing-policy{
+.pricing-policy {
     padding: 5rem 0;
-    h1{
+    color: #525854;
+    font-weight: 400;
+
+    h1 {
         padding: 3rem 0;
         text-align: center;
         font-weight: 700;
@@ -8,13 +11,35 @@
         margin: 0 auto;
         color: $textBg1Heading;
     }
-    p{
-        padding: .4rem 0;
-        font-size: 1.2rem;
+
+    p {
+        padding: .6rem 0;
+        font-weight: 400;
+        font-size: 1.05rem;
     }
-    
+
+    h5 {
+        color: $green;
+        font-size: 1.4rem;
+        padding: 0.8rem 0;
+        font-weight: 600;
+    }
+
+    ul {
+        li {
+            padding: 0.3rem 0 0.3rem 0.6rem;
+            color: #686969;
+        }
+    }
+
+    .bold {
+        font-weight: bold;
+    }
 }
-.pricing-policycontainer{
-    max-width: 900px;
+
+.pricing-policycontainer {
+    max-width: 700px;
     margin: 0 auto;
+
+
 }
