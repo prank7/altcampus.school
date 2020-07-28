@@ -339,11 +339,18 @@ button {
     margin-bottom: 2rem;
     margin-right: 0;
   }
+  .cta-wrapper h5 {
+    margin-top: -1.5rem;
+    margin-bottom: 2rem;
+  }
 }
 
 @media screen and (max-width: 768px) {
   html {
     font-size: 12px;
+  }
+  .cta {
+    text-align: center;
   }
 }
 
@@ -1364,6 +1371,11 @@ span.strikethrough {
         -ms-flex-pack: center;
             justify-content: center;
   }
+  .pro-pricing-value .price-tag h2 {
+    font-size: 2rem;
+    margin-right: 0;
+    margin-left: 0;
+  }
   .pro-pricing-intro {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1378,11 +1390,6 @@ span.strikethrough {
   }
   .pro-pricing-intro img {
     width: 6.5rem;
-  }
-  .price-tag h2 {
-    font-size: 2rem;
-    margin-right: 0;
-    margin-left: 0;
   }
   .pro-pricing:last-child {
     margin-bottom: 0;

@@ -153,13 +153,6 @@
     text-decoration:line-through;
     color: grey;
 }
-.premium .btn {
-    // background: $yellowDark;
-    
-}
-.standard .btn {
-    // background: #ad8a56;
-}
 
 .premium, .standard {
     display: flex;
@@ -242,6 +235,11 @@
             align-items: center;
             justify-content: center;
             // text-align: center;
+            h2 {
+            font-size: 2rem;
+            margin-right: 0;
+            margin-left: 0;
+            }
         }
     }
     .pro-pricing-intro{
@@ -252,14 +250,7 @@
             width: 6.5rem;
         }
     }
-     .price-tag {
-        h2 {
-            font-size: 2rem;
-            // margin-right: 1rem;
-            margin-right: 0;
-            margin-left: 0;
-        }
-    }
+   
     .pro-pricing {
         
         &:last-child {
