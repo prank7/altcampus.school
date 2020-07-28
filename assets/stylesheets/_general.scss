@@ -81,6 +81,16 @@ button {
 }
 .col-img {
   flex: 1 1 40%;
+  img {
+    max-width: 300px;
+  }
+  // .learn {
+  //   max-width: 100%;
+  //   width: 100%;
+  // }
+  &:nth-child(even) {
+    text-align: right;
+  }
 }
 .padding-left {
   padding-left: 3rem;
@@ -146,10 +156,11 @@ button {
   // }
 }
 
-.bg-1, .bg-2 {
+.bg-1,
+.bg-2 {
   background: $lightbg4;
   // background: $textBg1Heading;
-  
+
   h3 {
     color: $green;
     font-size: 1.8rem;
