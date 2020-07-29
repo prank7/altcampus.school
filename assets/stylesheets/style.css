@@ -474,6 +474,18 @@ span.strikethrough {
   margin-bottom: 4rem;
 }
 
+.map-embed {
+  width: 600px;
+  height: 240px;
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .map-embed {
+    width: 300px;
+  }
+}
+
 .header {
   background-color: #f6f9fc;
   border-bottom: 2px solid #e9f4f4;

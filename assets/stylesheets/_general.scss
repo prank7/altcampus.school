@@ -282,3 +282,12 @@ span {
 .margin-bottom-4 {
   margin-bottom: 4rem;
 }
+
+.map-embed {
+  width: 600px;
+  height: 240px;
+  margin-top: 2rem;
+  @media screen and (max-width: 768px) {
+    width: 300px;
+  }
+}
