@@ -95,7 +95,7 @@ h6 {
   align-items: center;
 }
 
-.social-flex, .footer-flex, .pro-pricing-feature, .offer-price, .price, .pro-pricing-intro {
+.social-flex, .footer-flex, .pro-pricing-feature, .pro-pricing-intro {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -105,7 +105,7 @@ h6 {
   align-items: center;
 }
 
-.testimonial, .content-wrapper, .carousel__photo, .author, .testimonial-head, .more-testimonial-head, .pricing-plan, .pricing-info-head, .premium-btn, .pricing-head, .course-highlights, .course-article, .course-details-heading, .key-features-heading, .hero-features, .hero {
+.testimonial, .content-wrapper, .carousel__photo, .author, .testimonial-head, .more-testimonial-head, .pricing-plan, .pricing-info-head, .premium-btn, .offer-price, .price, .pricing-head, .course-highlights, .course-article, .course-details-heading, .key-features-heading, .hero-features, .hero {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -122,11 +122,11 @@ h6 {
     flex-wrap: wrap;
   }
 
-  .social-flex, .footer-flex, .pro-pricing-feature, .offer-price, .price, .pro-pricing-intro {
+  .social-flex, .footer-flex, .pro-pricing-feature, .pro-pricing-intro {
     flex-wrap: wrap;
   }
 
-  .testimonial, .content-wrapper, .carousel__photo, .author, .testimonial-head, .more-testimonial-head, .pricing-plan, .pricing-info-head, .premium-btn, .pricing-head, .course-highlights, .course-article, .course-details-heading, .key-features-heading, .hero-features, .hero {
+  .testimonial, .content-wrapper, .carousel__photo, .author, .testimonial-head, .more-testimonial-head, .pricing-plan, .pricing-info-head, .premium-btn, .offer-price, .price, .pricing-head, .course-highlights, .course-article, .course-details-heading, .key-features-heading, .hero-features, .hero {
     flex-wrap: wrap;
   }
 }
@@ -232,6 +232,14 @@ button {
     flex: 0 1 100%;
     text-align: center;
   }
+  .col-img img {
+    max-width: 300px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .col-img img {
+    max-width: 230px;
+  }
 }
 
 .mockup {
@@ -253,6 +261,11 @@ button {
 @media screen and (max-width: 1024px) {
   .mockup .learn {
     max-width: 400px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .mockup .learn {
+    max-width: 300px;
   }
 }
 
@@ -311,12 +324,14 @@ button {
 @media screen and (max-width: 768px) {
   .cta-wrapper {
     flex-direction: column;
-    padding: 0 2rem;
+    padding: 0;
   }
   .cta-wrapper h3 {
     width: 100%;
-    margin-bottom: 2rem;
     margin-right: 0;
+  }
+  .cta-wrapper a.btn {
+    margin-top: 1rem;
   }
 }
 
@@ -735,7 +750,7 @@ span.strikethrough {
     margin-top: 4rem;
     align-self: flex-start;
     flex: 0 1 100%;
-    padding-left: 2rem;
+    padding-left: 0rem;
   }
   .key-features-cards:first-child {
     margin-top: 0;
@@ -748,13 +763,6 @@ span.strikethrough {
 
   .point-item .point-item-title {
     font-size: 1.1rem;
-  }
-}
-@media screen and (max-width: 1024px) {
-  .key-features-cards:hover {
-    transform: none;
-    transition: none;
-    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
   }
 }
 .course-shadow {
@@ -849,6 +857,11 @@ span.strikethrough {
   top: 72%;
   transform: translate(-50%, -50%);
   width: 7rem;
+}
+@media screen and (max-width: 768px) {
+  .course-highlights .col img {
+    transform: translate(-50%, -76%);
+  }
 }
 
 .module-topic {
@@ -948,8 +961,7 @@ span.strikethrough {
 
   .col {
     width: 100%;
-    padding: 1rem 0;
-    border-bottom: 0.5px solid #ededed;
+    padding: 3rem 0;
   }
   .col:last-child {
     border-bottom: 0;
@@ -1054,8 +1066,7 @@ span.strikethrough {
 }
 .price-matrix .offer {
   margin-top: 0.5rem;
-  padding: 0.25rem;
-  padding-left: 0.4rem;
+  padding: 0.4rem;
   font-weight: 500;
   background: #d7ecff;
   color: #494bae;
@@ -1117,16 +1128,18 @@ span.strikethrough {
   color: grey;
 }
 
-.premium, .standard {
+.premium,
+.standard {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
 }
-.premium .btn, .standard .btn {
+.premium .btn,
+.standard .btn {
   padding: 0.5rem 1rem;
   padding-right: 1.5rem;
-  background: #32325D;
+  background: #32325d;
 }
 
 .premium-btn .premium-btn-img {
@@ -1187,6 +1200,11 @@ span.strikethrough {
     align-items: center;
     justify-content: center;
   }
+  .pro-pricing-value .price-tag h2 {
+    font-size: 2rem;
+    margin-right: 0;
+    margin-left: 0;
+  }
 
   .pro-pricing-intro {
     flex-direction: column;
@@ -1195,12 +1213,6 @@ span.strikethrough {
   }
   .pro-pricing-intro img {
     width: 6.5rem;
-  }
-
-  .price-tag h2 {
-    font-size: 2rem;
-    margin-right: 0;
-    margin-left: 0;
   }
 
   .pro-pricing:last-child {
@@ -1216,14 +1228,16 @@ span.strikethrough {
     margin-bottom: 4rem;
   }
 
-  .premium, .standard {
+  .premium,
+.standard {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
 
-  .premium .btn, .standard .btn {
+  .premium .btn,
+.standard .btn {
     padding: 0.5rem 1rem;
     padding-right: 1.5rem;
     width: 50%;
@@ -1256,6 +1270,7 @@ span.strikethrough {
   background-color: #c1c1c1;
   border-radius: 4px;
   margin: 15px;
+  -o-object-fit: cover;
   object-fit: cover;
 }
 .about .team .member h6 {

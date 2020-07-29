@@ -103,6 +103,14 @@ button {
   @media screen and (max-width: 768px) {
     flex: 0 1 100%;
     text-align: center;
+    img {
+      max-width: 300px;
+    }
+  }
+  @media screen and (max-width: 576px) {
+    img {
+      max-width: 230px;
+    }
   }
 }
 .mockup {
@@ -120,9 +128,9 @@ button {
     @media screen and (max-width: 1024px) {
       max-width: 400px;
     }
-    // @media screen and (max-width: 992px) {
-    //   max-width: 300px;
-    // }
+    @media screen and (max-width: 576px) {
+      max-width: 300px;
+    }
   }
 }
 .padding-left {
@@ -174,11 +182,15 @@ button {
   }
   @media screen and (max-width: 768px) {
     flex-direction: column;
-    padding: 0 2rem;
+    padding: 0;
     h3 {
       width: 100%;
-      margin-bottom: 2rem;
       margin-right: 0;
+    }
+    a {
+      &.btn {
+        margin-top: 1rem;
+      }
     }
   }
 }

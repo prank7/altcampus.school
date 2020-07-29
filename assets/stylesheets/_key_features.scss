@@ -130,7 +130,7 @@
     margin-top: 4rem;
     align-self: flex-start;
     flex: 0 1 100%;
-    padding-left: 2rem;
+    padding-left: 0rem;
     &:first-child {
       margin-top: 0;
     }
@@ -143,16 +143,6 @@
   .point-item {
     .point-item-title {
       font-size: 1.1rem;
-    }
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .key-features-cards {
-    &:hover {
-      transform: none;
-      transition: none;
-      box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
     }
   }
 }
