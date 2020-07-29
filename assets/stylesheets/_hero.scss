@@ -10,7 +10,15 @@
     max-width: 100%;
     right: -28%;
     top: -57%;
+    @media screen and (max-width: 1024px) {
+      right: -34%;
+      top: -49%;
+    }
     @media screen and (max-width: 768px) {
+      right: -45%;
+      top: -87%;
+    }
+    @media screen and (max-width: 576px) {
       right: -47%;
       top: -39%;
     }

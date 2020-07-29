@@ -1,5 +1,6 @@
 html {
   font-size: 16px;
+  scroll-behavior: smooth;
 }
 *::before,
 *::after {
@@ -84,15 +85,15 @@ button {
     margin-top: 2rem;
   }
 }
+// .bg-1 {
+//   padding: 10rem 0 8rem 0;
+// }
+
 .col-img {
   flex: 1 1 40%;
   img {
     max-width: 300px;
   }
-  // .learn {
-  //   max-width: 100%;
-  //   width: 100%;
-  // }
   &:nth-child(even) {
     text-align: right;
     @media screen and (max-width: 768px) {
@@ -104,8 +105,31 @@ button {
     text-align: center;
   }
 }
+.mockup {
+  position: relative;
+  .learn {
+    position: absolute;
+    right: 0rem;
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 560px;
+    @media screen and (max-width: 768px) {
+      position: static;
+      transform: none;
+    }
+    @media screen and (max-width: 1024px) {
+      max-width: 400px;
+    }
+    // @media screen and (max-width: 992px) {
+    //   max-width: 300px;
+    // }
+  }
+}
 .padding-left {
   padding-left: 3rem;
+  @media screen and (max-width: 768px) {
+    padding-left: 0;
+  }
 }
 .flex-between {
   display: flex;
