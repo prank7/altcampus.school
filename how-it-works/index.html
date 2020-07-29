@@ -52,27 +52,35 @@
   <header class="header">
     <nav class="nav container">
       <a href="/" class="logo">
-        <img class="logo-img" src="/assets/media/logo.svg" alt="Logo">
+        <img class="logo-img" src="/assets/media/logo.svg" alt="Logo" />
       </a>
       <label for="toggle" class="bars"><img class="nav-menu-img" src="/assets/media/open-menu.svg"
-          alt="menu-icon"></label>
-      <input type="checkbox" class="toggle" id="toggle">
+          alt="menu-icon" /></label>
+
+      <input type="checkbox" class="toggle" id="toggle" />
       <div class="nav-menu">
         <label for="toggle" class="close-menu"><img class="nav-menu-img" src="/assets/media/close.svg"
-            alt="menu-icon"></label>
-        <input type="checkbox" class="toggle" id="toggle">
+            alt="menu-icon" /></label>
+
+        <input type="checkbox" class="toggle" id="toggle" />
         <ul class="nav-ul">
           <li class="nav-item">
             <a class="nav-link" href="/">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/how-it-works">How it works</a>
+            <a class="nav-link active" href="/how-it-works">How it works</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/pricing">Pricing</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#faqs">FAQs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn login-header" href="https://launchpad.altcampus.school/login">login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn signup-header" href="https://launchpad.altcampus.school/signup">signup</a>
           </li>
         </ul>
       </div>
@@ -238,6 +246,14 @@
       <small>&copy; AltCampus Services Pvt. Ltd, 2018-present.</small>
     </div>
   </footer>
+  <script>
+    let navBarLink = document.querySelectorAll(".nav-link");
+    let navBarItem = navBarLink.forEach((elm) =>
+      elm.addEventListener("click", () => {
+        elm.classList.add("active");
+      })
+    );
+    </script>
 </body>
 
 </html>
