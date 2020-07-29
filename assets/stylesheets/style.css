@@ -339,6 +339,10 @@ button {
   html {
     font-size: 12px;
   }
+
+  .cta {
+    text-align: center;
+  }
 }
 .bg-1,
 .bg-2 {
@@ -460,6 +464,7 @@ span.strikethrough {
     text-align: center;
     padding-top: 80px;
     background: #32325d;
+    z-index: 1000;
   }
   .nav-menu a {
     display: inline-block;
