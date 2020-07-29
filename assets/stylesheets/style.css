@@ -330,6 +330,18 @@ button {
   }
 }
 
+.flex-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .item-start {
   -webkit-box-align: start;
       -ms-flex-align: start;
@@ -456,6 +468,10 @@ span.strikethrough {
 
 .padding-top-0 {
   padding-top: 0 !important;
+}
+
+.margin-bottom-4 {
+  margin-bottom: 4rem;
 }
 
 .header {
