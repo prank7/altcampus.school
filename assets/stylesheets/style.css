@@ -132,6 +132,7 @@ h6 {
 }
 html {
   font-size: 16px;
+  scroll-behavior: smooth;
 }
 
 *::before,
@@ -233,8 +234,35 @@ button {
   }
 }
 
+.mockup {
+  position: relative;
+}
+.mockup .learn {
+  position: absolute;
+  right: 0rem;
+  top: 50%;
+  transform: translateY(-50%);
+  max-width: 560px;
+}
+@media screen and (max-width: 768px) {
+  .mockup .learn {
+    position: static;
+    transform: none;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .mockup .learn {
+    max-width: 400px;
+  }
+}
+
 .padding-left {
   padding-left: 3rem;
+}
+@media screen and (max-width: 768px) {
+  .padding-left {
+    padding-left: 0;
+  }
 }
 
 .flex-between {
@@ -409,7 +437,7 @@ span.strikethrough {
     padding-top: 2rem;
     display: none;
     position: fixed;
-    z-index: 5;
+    z-index: 999;
     left: 0;
     top: 0;
     right: 0;
@@ -490,7 +518,19 @@ span.strikethrough {
   right: -28%;
   top: -57%;
 }
+@media screen and (max-width: 1024px) {
+  .hero .bg-hero {
+    right: -34%;
+    top: -49%;
+  }
+}
 @media screen and (max-width: 768px) {
+  .hero .bg-hero {
+    right: -45%;
+    top: -87%;
+  }
+}
+@media screen and (max-width: 576px) {
   .hero .bg-hero {
     right: -47%;
     top: -39%;
@@ -1578,7 +1618,7 @@ blockquote::after {
   margin-top: -1rem;
 }
 
-.footer-logo svg {
+.footer-logo img {
   width: 100px;
 }
 
