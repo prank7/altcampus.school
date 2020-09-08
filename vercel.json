@@ -30,6 +30,10 @@
     {
       "src": "/terms",
       "dest": "/public/terms/index.html"
+    },
+    {
+      "src": "/faq",
+      "dest": "/public/FAQs/index.html"
     }
   ]
 }
