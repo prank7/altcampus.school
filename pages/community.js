@@ -7,7 +7,7 @@ export default function Community() {
   return (
     <div className="">
       <Head>
-        <title>AltCampus Community</title>
+        <title>AltCampus Community </title>
         <link rel="icon" href="/favicon.png" />
       </Head>
 
