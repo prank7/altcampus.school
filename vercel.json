@@ -34,6 +34,10 @@
     {
       "src": "/faq",
       "dest": "/public/FAQs/index.html"
+    },
+    {
+      "src": "/.*",
+      "continue": true
     }
   ]
 }
