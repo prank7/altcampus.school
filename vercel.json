@@ -1,0 +1,35 @@
+{
+  "routes": [{
+      "src": "/",
+      "dest": "/public/index.html"
+    },
+    {
+      "src": "/how-it-works",
+      "dest": "/public/how-it-works/index.html"
+    },
+    {
+      "src": "/pricing",
+      "dest": "/public/pricing/index.html"
+    },
+    {
+      "src": "/contact",
+      "dest": "/public/contact/index.html"
+    },
+    {
+      "src": "/privacy",
+      "dest": "/public/privacy/index.html"
+    },
+    {
+      "src": "/refund-policy",
+      "dest": "/public/refund-policy/index.html"
+    },
+    {
+      "src": "/pricing-policy",
+      "dest": "/public/pricing-policy/index.html"
+    },
+    {
+      "src": "/terms",
+      "dest": "/public/terms/index.html"
+    }
+  ]
+}
