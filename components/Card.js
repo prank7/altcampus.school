@@ -16,7 +16,7 @@ const Card = (props) => {
           {props.subTitle}
         </p>
         <div className="text-left">
-          <div class="text-indigo-500 hover:text-indigo-700 font-bold pt-4 rounded inline-flex items-center text-right">
+          <div className="text-indigo-500 hover:text-indigo-700 font-bold pt-4 rounded inline-flex items-center text-right">
             <span>{props.cta} &rarr;</span>
           </div>
         </div>
