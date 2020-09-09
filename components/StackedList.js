@@ -14,7 +14,7 @@ const StackedList = () => {
         />
         <ListItem
           name="JavaScript Fundamentals"
-          imageURL="https://cdn.coda.io/icons/svg/color/js.svg"
+          imageURL="/images/icons/js.svg"
         />
         <ListItem
           name="Advanced CSS"
@@ -22,43 +22,43 @@ const StackedList = () => {
         />
         <ListItem
           name="Advanced JavaScript"
-          imageURL="https://cdn.coda.io/icons/svg/color/js.svg"
+          imageURL="/images/icons/js-advanced.svg"
         />
         <ListItem
           name="Node.js"
-          imageURL="https://cdn.coda.io/icons/svg/color/node.svg"
+          imageURL="/images/icons/nodejs.svg"
         />
         <ListItem
           name="MongoDB"
-          imageURL="https://cdn.coda.io/icons/svg/color/mongodb.svg"
+          imageURL="/images/icons/mongodb.svg"
         />
         <ListItem
           name="Server side Apps with Express.js and MongoDB"
-          imageURL="https://cdn.coda.io/icons/svg/color/react-native.svg"
+          imageURL="/images/icons/express.svg"
         />
         <ListItem
           name="API & Auth"
-          imageURL="https://cdn.coda.io/icons/svg/color/react-native.svg"
+          imageURL="/images/icons/api.svg"
         />
         <ListItem
           name="React.js Fundamentals"
-          imageURL="https://cdn.coda.io/icons/svg/color/react-native.svg"
+          imageURL="/images/icons/react.svg"
         />
         <ListItem
           name="Advanced React.js"
-          imageURL="https://cdn.coda.io/icons/svg/color/react-native.svg"
+          imageURL="/images/icons/react-advanced.svg"
         />
         <ListItem
           name="Advanced Server Side Applications"
-          imageURL="https://cdn.coda.io/icons/svg/color/react-native.svg"
+          imageURL="/images/icons/server-side.svg"
         />
         <ListItem
           name="Web Security & Deployment"
-          imageURL="https://cdn.coda.io/icons/svg/color/react-native.svg"
+          imageURL="/images/icons/security.svg"
         />
         <ListItem
           name="Job Readiness Challenge"
-          imageURL="https://cdn.coda.io/icons/svg/color/react-native.svg"
+          imageURL="/images/icons/job-readiness.svg"
         />
       </ul>
     </div>
@@ -73,7 +73,7 @@ const ListItem = (props) => {
         <div className="flex items-center px-4 py-4 sm:px-6">
           <div className="min-w-0 flex-1 flex items-center">
             <div className="flex-shrink-0">
-              <img className="h-12 w-12 rounded-full" src={props.imageURL} alt="" />
+              <img className="border border-thin border-gray-200 h-12 w-12 rounded-full bg-gray-100" src={props.imageURL} alt="" />
             </div>
             <div className="min-w-0 flex-1 px-4 md:grid md:grid-cols-2 md:gap-4">
               <div>
