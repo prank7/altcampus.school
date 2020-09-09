@@ -20,7 +20,7 @@ export default function Community() {
         <ul className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
           <li className="col-span-1 bg-white rounded-lg shadow">
             <Card
-              imageURL="https://cdn.coda.io/icons/svg/color/ingredients-list.svg"
+              imageURL="/images/icons/roadmap.svg"
               title="Roadmap"
               subTitle="Get a direction."
               cta="Explore"
@@ -30,9 +30,18 @@ export default function Community() {
 
           <li className="col-span-1 bg-white rounded-lg shadow">
             <Card
-              imageURL="https://cdn.coda.io/icons/svg/color/e-learning.svg"
+              imageURL="/images/icons/tutorials.svg"
               title="Tutorials"
               subTitle="Read, learn and build using the tutorials."
+              cta="Read"
+            />
+          </li>
+
+          <li className="col-span-1 bg-white rounded-lg shadow">
+            <Card
+              imageURL="/images/icons/stories.svg"
+              title="Stories"
+              subTitle="Read success stories of students."
               cta="Read"
             />
           </li>
