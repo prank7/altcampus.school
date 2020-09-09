@@ -1,17 +1,17 @@
 import Head from "next/head";
-import Navbar from "../components/Navbar";
-import Hero from "../components/Hero";
-import Card from "../components/Card";
+import Navbar from "../../components/Navbar";
+import Hero from "../../components/Hero";
+import Card from "../../components/Card";
+import Layout from "../../components/Layout";
 
 export default function Community() {
   return (
-    <div className="">
+    <Layout>
       <Head>
         <title>AltCampus Community </title>
         <link rel="icon" href="/favicon.png" />
       </Head>
 
-      <Navbar />
       <Hero />
 
       <div className="mx-16 py-8">
@@ -24,6 +24,7 @@ export default function Community() {
               title="Roadmap"
               subTitle="Get a direction."
               cta="Explore"
+              link="/community/web-development"
             />
           </li>
 
@@ -37,6 +38,6 @@ export default function Community() {
           </li>
         </ul>
       </div>
-    </div>
+    </Layout>
   );
 }
