@@ -34,6 +34,7 @@ export default function Community() {
               title="Tutorials"
               subTitle="Read, learn and build using the tutorials."
               cta="Read"
+              link="/community/tutorials"
             />
           </li>
 
@@ -43,6 +44,7 @@ export default function Community() {
               title="Stories"
               subTitle="Read success stories of students."
               cta="Read"
+              link="/community/stories"
             />
           </li>
         </ul>
