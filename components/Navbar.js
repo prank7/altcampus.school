@@ -28,18 +28,24 @@ function Navbar(params) {
             <div className="hidden md:flex items-center justify-end space-x-8 md:flex-1 lg:w-0">
 
               <nav className="hidden md:flex space-x-10">
-                <a href="#" className="text-gray-500 inline-flex items-center space-x-2 text-base leading-6 font-medium hover:text-gray-900 transition ease-in-out duration-150">
-                  Solutions
-                </a>
-                <a href="#" className="text-base leading-6 font-medium text-gray-500 hover:text-gray-900 transition ease-in-out duration-150">
-                  Pricing
-                </a>
-                <a href="#" className="text-base leading-6 font-medium text-gray-500 hover:text-gray-900 transition ease-in-out duration-150">
-                  Docs
-                </a>
-                <a href="#" className="text-gray-500 inline-flex items-center space-x-2 text-base leading-6 font-medium hover:text-gray-900 transition ease-in-out duration-150">
+                <Link href="/community/web-development">
+                  <a className="text-gray-500 inline-flex items-center space-x-2 text-base leading-6 font-medium hover:text-gray-900 transition ease-in-out duration-150">
+                    Roadmap
+                  </a>
+                </Link>
+                <Link href="/community/tutorials">
+                  <a href="#" className="text-base leading-6 font-medium text-gray-500 hover:text-gray-900 transition ease-in-out duration-150">
+                    Tutorials
+                  </a>
+                </Link>
+                <Link href="/community/stories">
+                  <a href="#" className="text-base leading-6 font-medium text-gray-500 hover:text-gray-900 transition ease-in-out duration-150">
+                    Stories
+                  </a>
+                </Link>
+                {/* <a href="#" className="text-gray-500 inline-flex items-center space-x-2 text-base leading-6 font-medium hover:text-gray-900 transition ease-in-out duration-150">
                   More
-                </a>
+                </a> */}
               </nav>
 
 
