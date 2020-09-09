@@ -16,7 +16,7 @@ class WebDevelopment extends Component {
               Full Stack Web Development Roadmap (MERN Stack)
             </h1>
           </div>
-          <div className="col-span-1 md:col-start-2 md:col-span-4">
+          <div className="mx-8 col-span-1 md:col-start-2 md:col-span-4">
             <StackedList />
           </div>
           {/* <div className="col-span-1 w-full">
