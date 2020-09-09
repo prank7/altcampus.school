@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const Card = (props) => {
   return (
     <div className="w-full flex items-center justify-between p-6 space-x-6">
@@ -16,9 +18,11 @@ const Card = (props) => {
           {props.subTitle}
         </p>
         <div className="text-left">
-          <div className="text-indigo-500 hover:text-indigo-700 font-bold pt-4 rounded inline-flex items-center text-right">
-            <span>{props.cta} &rarr;</span>
-          </div>
+          <Link href={props.link || '/'}>
+            <a className="text-royal-blue-500 hover:text-royal-blue-700 font-bold pt-4 rounded inline-flex items-center text-right">
+              <span>{props.cta} &rarr;</span>
+            </a>
+          </Link>
         </div>
       </div>
     </div>
