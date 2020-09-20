@@ -1,14 +1,12 @@
 import React from 'react';
-import Header from '../components/Home/Header';
-import Footer from '../components/Home/Footer';
+
+import LayoutHome from '../components/Home/Layout';
 
 function HowItWorks(props) {
   return (
-    <>
-      <Header />
+    <LayoutHome>
       <Content />
-      <Footer />
-    </>
+    </LayoutHome>
   );
 }
 
