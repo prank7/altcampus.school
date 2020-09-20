@@ -1,5 +1,4 @@
 import React from 'react';
-import Header from '../components/Home/Header';
 import Hero from '../components/Home/Hero';
 import KeyFeatures from '../components/Home/KeyFeatures';
 import CourseDetails from '../components/Home/CourseDetails';
@@ -9,12 +8,11 @@ import TestimonialTweets from '../components/Home/TestimonialsTweets';
 import ReadyToBuild from '../components/Home/ReadyToBuildCTA';
 import FAQ from '../components/Home/FAQ';
 import LetsTalk from '../components/Home/LetsTalk';
-import Footer from '../components/Home/Footer';
+import LayoutHome from '../components/Home/Layout';
 
 function Home(props) {
   return (
-    <>
-      <Header />
+    <LayoutHome>
       <main>
         <Hero />
         <KeyFeatures />
@@ -25,9 +23,8 @@ function Home(props) {
         <ReadyToBuild />
         <FAQ />
         <LetsTalk />
-        <Footer />
       </main>
-    </>
+    </LayoutHome>
   );
 }
 
