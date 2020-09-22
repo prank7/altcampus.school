@@ -31,11 +31,7 @@
   width: 7rem;
 }
 
-@media screen and (min-width: 768px) {
-  .course-icon img {
-    transform: translate(-50%, -71%);
-  }
-}
+
 
 .number-1 {
   color: #956700;
@@ -65,4 +61,41 @@
   background: url(/assets/media/mask3.svg) no-repeat,
     linear-gradient(to right bottom, #111f3c, #20345d);
   background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .course-icon img {
+    transform: translate(-50%, -71%);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 12px;
+  }
+
+  /* Navbar */
+  .nav-menu {
+    position: absolute;
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    padding-top: 80px;
+    background: #32325d;
+    z-index: 99999;
+  }
+
+  .close-menu {
+    position: absolute;
+    right: 2rem;
+    top: 2rem;
+  }
+
+  .toggle:checked~.nav-menu {
+    display: inline-block;
+  }
 }
