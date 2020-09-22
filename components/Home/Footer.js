@@ -3,8 +3,8 @@ import React from "react";
 function Footer(props) {
   return (
     <footer class="py-24 bg-dark-blue-500">
-      <div class="container mx-auto px-8 sm:flex sm:justify-between">
-        <div class="footer-col1-2 sm:w-2/5">
+      <div class="container mx-auto px-8 md:flex md:justify-between">
+        <div class="footer-col1-2 md:w-2/5">
           <a class="footer-logo" href="/">
             <img
               className="w-28 inline-block"
@@ -16,10 +16,10 @@ function Footer(props) {
             Everything you need to become a software developer
           </p>
         </div>
-        <div class="footer-col1-2 footer-links sm:w-3/5">
-          <div class="sm:flex sm:justify-between">
-            <div class="sm:w-1/2">
-              <h4 className="text-2xl text-white mb-3 mt-6 sm:mt-0">
+        <div class="footer-col1-2 footer-links md:w-3/5">
+          <div class="md:flex md:justify-between">
+            <div class="md:w-1/2">
+              <h4 className="text-2xl text-white mb-3 mt-6 md:mt-0">
                 Quick links
               </h4>
               <div class="flex justify-between">
@@ -117,7 +117,7 @@ function Footer(props) {
               </div>
             </div>
             <div class="social">
-              <h4 className="text-2xl text-white mb-3 mt-6 sm:mt-0">
+              <h4 className="text-2xl text-white mb-3 mt-6 md:mt-0">
                 Follow Us
               </h4>
               <ul class="flex">

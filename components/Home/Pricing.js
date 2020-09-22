@@ -4,9 +4,9 @@ function Pricing(props) {
   return (
     <section className="py-24 bg-royal-blue-100">
       <div className="container mx-auto px-8">
-        <header className="text-center sm:flex sm:justify-center sm:items-center mb-12">
+        <header className="text-center md:flex md:justify-center md:items-center mb-12">
           <img
-            className="inline-block w-12 sm:mr-4"
+            className="inline-block w-12 md:mr-4"
             src="/assets/media/price-tag.svg"
             alt="pricetag"
           />
@@ -14,18 +14,18 @@ function Pricing(props) {
             Invest in yourself
           </h2>
         </header>
-        <div className="sm:flex sm:justify-center">
-          <div className="mb-12 sm:mb-0 sm:mx-8">
+        <div className="md:flex md:justify-center">
+          <div className="mb-12 md:mb-0 md:mx-8">
             <article className="shadow-2xl bg-white rounded-lg">
               <div className="bg-royal-blue-100 text-center pb-3 relative">
                 <img
-                  className="w-24 inline-block sm:absolute left-0 top-0"
+                  className="w-24 inline-block md:absolute left-0 top-0"
                   src="/assets/media/pro-medal.svg"
                   alt="rocket launching"
                 />
                 <div className="">
-                  <div className="sm:flex sm:items-center sm:justify-end sm:py-2 sm:px-2">
-                    <h2 className="text-3xl font-semibold text-gold-500 mb-4 sm:mr-4 sm:pl-20">
+                  <div className="md:flex md:items-center md:justify-end md:py-2 md:px-2">
+                    <h2 className="text-3xl font-semibold text-gold-500 mb-4 md:mr-4 md:pl-20">
                       Premium
                     </h2>
                     <div className="">
@@ -150,9 +150,9 @@ function Pricing(props) {
                 </li>
               </ul>
             </article>
-            <div className="text-center sm:text-right">
+            <div className="text-center md:text-right">
               <a
-                className="inline-block bg-dark-blue-500 px-12 py-3 sm:px-4 sm:py-2 rounded mt-8"
+                className="inline-block bg-dark-blue-500 px-12 py-3 md:px-4 md:py-2 rounded mt-8"
                 href="https://launchpad.altcampus.school/signup?plan=standard"
               >
                 <div className="flex items-center">
@@ -166,17 +166,17 @@ function Pricing(props) {
               </a>
             </div>
           </div>
-          <div className="sm:mx-8">
+          <div className="md:mx-8">
             <article className="shadow-2xl bg-white rounded-lg">
               <div className="bg-royal-blue-100 text-center pb-3 relative">
                 <img
-                  className="w-24 inline-block sm:absolute left-0 top-0"
+                  className="w-24 inline-block md:absolute left-0 top-0"
                   src="/assets/media/basic-medal.svg"
                   alt="balloon launching"
                 />
                 <div className="">
-                  <div className="sm:flex sm:items-center sm:justify-end sm:py-2 sm:px-2">
-                    <h2 className="text-3xl text-gold-800 font-semibold mb-4 sm:mr-4 sm:pl-20">
+                  <div className="md:flex md:items-center md:justify-end md:py-2 md:px-2">
+                    <h2 className="text-3xl text-gold-800 font-semibold mb-4 md:mr-4 md:pl-20">
                       Standard
                     </h2>
                     <div className="">
@@ -303,9 +303,9 @@ function Pricing(props) {
                 </li>
               </ul>
             </article>
-            <div className="text-center sm:text-right">
+            <div className="text-center md:text-right">
               <a
-                className="inline-block bg-dark-blue-500 px-12 py-3 sm:px-4 sm:py-2 rounded mt-8"
+                className="inline-block bg-dark-blue-500 px-12 py-3 md:px-4 md:py-2 rounded mt-8"
                 href="https://launchpad.altcampus.school/signup?plan=standard"
               >
                 <div className="flex items-center">

@@ -9,8 +9,8 @@ function CourseDetails(props) {
           Exhaustive Course Content
         </h2>
       </header>
-      <div className="text-center sm:flex sm:justify-between py-4 mb-16">
-        <div className="py-12 course-icon relative sm:w-1/4 ">
+      <div className="text-center md:flex md:justify-between py-4 mb-16">
+        <div className="py-6 md:py-12 course-icon relative md:w-1/4 ">
           <div className="relative z-10 border-r border-dark-blue-100">
             <p className="text-6xl number-1 font-light">14</p>
             <p className="text-xl uppercase font-semibold text-dark-blue-600">
@@ -23,7 +23,7 @@ function CourseDetails(props) {
             alt="Modules"
           />
         </div>
-        <div className="py-12 course-icon relative sm:w-1/4">
+        <div className="py-6 md:py-12 course-icon relative md:w-1/4">
           <div className="relative z-10 border-r border-dark-blue-100">
             <p className="text-6xl number-2 font-light">80+</p>
             <p className="text-xl uppercase font-semibold text-dark-blue-600">
@@ -36,7 +36,7 @@ function CourseDetails(props) {
             alt="Topics"
           />
         </div>
-        <div className="py-12 course-icon relative sm:w-1/4">
+        <div className="py-6 md:py-12 course-icon relative md:w-1/4">
           <div className="relative z-10 border-r border-dark-blue-100">
             <p className="text-6xl number-3 font-light">200+</p>
             <p className="text-xl uppercase font-semibold text-dark-blue-600">
@@ -49,7 +49,7 @@ function CourseDetails(props) {
             alt="Exercises"
           />
         </div>
-        <div className="py-12 course-icon relative sm:w-1/4">
+        <div className="py-6 md:py-12 course-icon relative md:w-1/4">
           <div className="relative z-10">
             <p className="text-6xl number-4 font-light">40+</p>
             <p className="text-xl uppercase font-semibold text-dark-blue-600">
@@ -95,8 +95,8 @@ function CourseDetails(props) {
           <h3 className="uppercase text-3xl font-bold text-dark-blue-500 mb-6">
             HTML & CSS Fundamentals
           </h3>
-          <div className="sm:flex sm:justify-between">
-            <div className="sm:w-4/6">
+          <div className="md:flex md:justify-between">
+            <div className="md:w-4/6">
               <h5 className="bg-blue-200 inline-block rounded py-1 px-2 text-base text-dark-blue-500 mb-3">
                 TOPICS
               </h5>
@@ -114,8 +114,8 @@ function CourseDetails(props) {
                 - Responsive Web Design
               </p>
             </div>
-            <div className="sm:w-2/6">
-              <h5 className="bg-blue-200 inline-block rounded py-1 px-2 text-base text-dark-blue-500 mb-3 mt-6 sm:mt-0">
+            <div className="md:w-2/6">
+              <h5 className="bg-blue-200 inline-block rounded py-1 px-2 text-base text-dark-blue-500 mb-3 mt-6 md:mt-0">
                 PROJECTS
               </h5>
               <p className="text-lg text-dark-blue-400 mb-2">
@@ -140,8 +140,8 @@ function CourseDetails(props) {
           <h3 className="uppercase text-3xl font-bold text-green-theme-700 mb-6">
             JavaScript Fundamentals
           </h3>
-          <div className="sm:flex sm:justify-between">
-            <div className="sm:w-4/6">
+          <div className="md:flex md:justify-between">
+            <div className="md:w-4/6">
               <h5 className="bg-gold-300 inline-block rounded py-1 px-2 text-base text-orange-800 mb-3">
                 TOPICS
               </h5>
@@ -165,8 +165,8 @@ function CourseDetails(props) {
                 - DOM and Events
               </p>
             </div>
-            <div className="sm:w-2/6">
-              <h5 className="bg-gold-300 inline-block rounded py-1 px-2 text-base text-orange-800 mb-3 mt-6 sm:mt-0">
+            <div className="md:w-2/6">
+              <h5 className="bg-gold-300 inline-block rounded py-1 px-2 text-base text-orange-800 mb-3 mt-6 md:mt-0">
                 PROJECTS
               </h5>
               <p className="text-lg text-dark-blue-400 mb-2">
@@ -190,8 +190,8 @@ function CourseDetails(props) {
           <h3 className="uppercase text-3xl font-bold text-dark-blue-500 mb-6">
             ADVANCED CSS
           </h3>
-          <div className="sm:flex sm:justify-between">
-            <div className="sm:w-4/6">
+          <div className="md:flex md:justify-between">
+            <div className="md:w-4/6">
               <h5 className="bg-blue-200 inline-block rounded py-1 px-2 text-base text-dark-blue-500 mb-3">
                 TOPICS
               </h5>
@@ -206,8 +206,8 @@ function CourseDetails(props) {
               </p>
               <p className="text-lg text-dark-blue-400 mb-2">- CSS Grid</p>
             </div>
-            <div className="sm:w-2/6">
-              <h5 className="bg-blue-200 inline-block rounded py-1 px-2 text-base text-dark-blue-500 mb-3 mt-6 sm:mt-0">
+            <div className="md:w-2/6">
+              <h5 className="bg-blue-200 inline-block rounded py-1 px-2 text-base text-dark-blue-500 mb-3 mt-6 md:mt-0">
                 PROJECTS
               </h5>
               <p className="text-lg text-dark-blue-400 mb-2">
@@ -228,8 +228,8 @@ function CourseDetails(props) {
           <h3 className="uppercase text-3xl font-bold text-green-theme-700 mb-6">
             ADVANCED JAVASCRIPT
           </h3>
-          <div className="sm:flex sm:justify-between">
-            <div className="sm:w-4/6">
+          <div className="md:flex md:justify-between">
+            <div className="md:w-4/6">
               <h5 className="bg-gold-300 inline-block rounded py-1 px-2 text-base text-orange-800 mb-3">
                 TOPICS
               </h5>
@@ -254,8 +254,8 @@ function CourseDetails(props) {
                 - Error Handling & Writing Tests
               </p>
             </div>
-            <div className="sm:w-2/6">
-              <h5 className="bg-gold-300 inline-block rounded py-1 px-2 text-base text-orange-800 mb-3 mt-6 sm:mt-0">
+            <div className="md:w-2/6">
+              <h5 className="bg-gold-300 inline-block rounded py-1 px-2 text-base text-orange-800 mb-3 mt-6 md:mt-0">
                 PROJECTS
               </h5>
               <p className="text-lg text-dark-blue-400 mb-2">
@@ -277,8 +277,8 @@ function CourseDetails(props) {
           <h3 className="uppercase text-3xl font-bold text-dark-blue-500 mb-6">
             Node.js
           </h3>
-          <div className="sm:flex sm:justify-between">
-            <div className="sm:w-4/6">
+          <div className="md:flex md:justify-between">
+            <div className="md:w-4/6">
               <h5 className="bg-blue-200 inline-block rounded py-1 px-2 text-base text-dark-blue-500 mb-3">
                 TOPICS
               </h5>
@@ -302,8 +302,8 @@ function CourseDetails(props) {
                 - Package Manager and External modules
               </p>
             </div>
-            <div className="sm:w-2/6">
-              <h5 className="bg-blue-200 inline-block rounded py-1 px-2 text-base text-dark-blue-500 mb-3 mt-6 sm:mt-0">
+            <div className="md:w-2/6">
+              <h5 className="bg-blue-200 inline-block rounded py-1 px-2 text-base text-dark-blue-500 mb-3 mt-6 md:mt-0">
                 PROJECTS
               </h5>
               <p className="text-lg text-dark-blue-400 mb-2">
@@ -323,8 +323,8 @@ function CourseDetails(props) {
           <h3 className="uppercase text-3xl font-bold text-green-theme-700 mb-6">
             MongoDB
           </h3>
-          <div className="sm:flex sm:justify-between">
-            <div className="sm:w-4/6">
+          <div className="md:flex md:justify-between">
+            <div className="md:w-4/6">
               <h5 className="bg-gold-300 inline-block rounded py-1 px-2 text-base text-orange-800 mb-3">
                 TOPICS
               </h5>
@@ -344,8 +344,8 @@ function CourseDetails(props) {
               <p className="text-lg text-dark-blue-400 mb-2">- Indexes</p>
               <p className="text-lg text-dark-blue-400 mb-2">- Aggregations</p>
             </div>
-            <div className="sm:w-2/6">
-              <h5 className="bg-gold-300 inline-block rounded py-1 px-2 text-base text-orange-800 mb-3 mt-6 sm:mt-0">
+            <div className="md:w-2/6">
+              <h5 className="bg-gold-300 inline-block rounded py-1 px-2 text-base text-orange-800 mb-3 mt-6 md:mt-0">
                 PROJECTS
               </h5>
               <p className="text-lg text-dark-blue-400 mb-2">
@@ -359,8 +359,8 @@ function CourseDetails(props) {
           <h3 className="uppercase text-3xl font-bold text-dark-blue-500 mb-6">
             SERVER SIDE APPS WITH Express.js & MongoDB
           </h3>
-          <div className="sm:flex sm:justify-between">
-            <div className="sm:w-4/6">
+          <div className="md:flex md:justify-between">
+            <div className="md:w-4/6">
               <h5 className="bg-blue-200 inline-block rounded py-1 px-2 text-base text-dark-blue-500 mb-3">
                 TOPICS
               </h5>
@@ -388,8 +388,8 @@ function CourseDetails(props) {
                 - Session Based Authentication & Authorization
               </p>
             </div>
-            <div className="sm:w-2/6">
-              <h5 className="bg-blue-200 inline-block rounded py-1 px-2 text-base text-dark-blue-500 mb-3 mt-6 sm:mt-0">
+            <div className="md:w-2/6">
+              <h5 className="bg-blue-200 inline-block rounded py-1 px-2 text-base text-dark-blue-500 mb-3 mt-6 md:mt-0">
                 PROJECTS
               </h5>
               <p className="text-lg text-dark-blue-400 mb-2">- Blog App</p>
@@ -403,8 +403,8 @@ function CourseDetails(props) {
           <h3 className="uppercase text-3xl font-bold text-green-theme-700 mb-6">
             API & AUTH
           </h3>
-          <div className="sm:flex sm:justify-between">
-            <div className="sm:w-4/6">
+          <div className="md:flex md:justify-between">
+            <div className="md:w-4/6">
               <h5 className="bg-gold-300 inline-block rounded py-1 px-2 text-base text-orange-800 mb-3">
                 TOPICS
               </h5>
@@ -421,8 +421,8 @@ function CourseDetails(props) {
                 - API Versioning, Authentication & Authorization
               </p>
             </div>
-            <div className="sm:w-2/6">
-              <h5 className="bg-gold-300 inline-block rounded py-1 px-2 text-base text-orange-800 mb-3 mt-6 sm:mt-0">
+            <div className="md:w-2/6">
+              <h5 className="bg-gold-300 inline-block rounded py-1 px-2 text-base text-orange-800 mb-3 mt-6 md:mt-0">
                 PROJECTS
               </h5>
               <p className="text-lg text-dark-blue-400 mb-2">
@@ -438,8 +438,8 @@ function CourseDetails(props) {
           <h3 className="uppercase text-3xl font-bold text-dark-blue-500 mb-6">
             React.js Fundamentals
           </h3>
-          <div className="sm:flex sm:justify-between">
-            <div className="sm:w-4/6">
+          <div className="md:flex md:justify-between">
+            <div className="md:w-4/6">
               <h5 className="bg-blue-200 inline-block rounded py-1 px-2 text-base text-dark-blue-500 mb-3">
                 TOPICS
               </h5>
@@ -466,8 +466,8 @@ function CourseDetails(props) {
                 - Type Checking with PropTypes
               </p>
             </div>
-            <div className="sm:w-2/6">
-              <h5 className="bg-blue-200 inline-block rounded py-1 px-2 text-base text-dark-blue-500 mb-3 mt-6 sm:mt-0">
+            <div className="md:w-2/6">
+              <h5 className="bg-blue-200 inline-block rounded py-1 px-2 text-base text-dark-blue-500 mb-3 mt-6 md:mt-0">
                 PROJECTS
               </h5>
               <p className="text-lg text-dark-blue-400 mb-2">- ToDo App</p>
@@ -481,8 +481,8 @@ function CourseDetails(props) {
           <h3 className="uppercase text-3xl font-bold text-green-theme-700 mb-6">
             Advanced React.js
           </h3>
-          <div className="sm:flex sm:justify-between">
-            <div className="sm:w-4/6">
+          <div className="md:flex md:justify-between">
+            <div className="md:w-4/6">
               <h5 className="bg-gold-300 inline-block rounded py-1 px-2 text-base text-orange-800 mb-3">
                 TOPICS
               </h5>
@@ -511,8 +511,8 @@ function CourseDetails(props) {
               </p>
               <p className="text-lg text-dark-blue-400 mb-2">- React Hooks</p>
             </div>
-            <div className="sm:w-2/6">
-              <h5 className="bg-gold-300 inline-block rounded py-1 px-2 text-base text-orange-800 mb-3 mt-6 sm:mt-0">
+            <div className="md:w-2/6">
+              <h5 className="bg-gold-300 inline-block rounded py-1 px-2 text-base text-orange-800 mb-3 mt-6 md:mt-0">
                 PROJECTS
               </h5>
               <p className="text-lg text-dark-blue-400 mb-2">- Medium Clone</p>
@@ -533,8 +533,8 @@ function CourseDetails(props) {
           <h3 className="uppercase text-3xl font-bold text-dark-blue-500 mb-6">
             Advanced Server Side Applications
           </h3>
-          <div className="sm:flex sm:justify-between">
-            <div className="sm:w-4/6">
+          <div className="md:flex md:justify-between">
+            <div className="md:w-4/6">
               <h5 className="bg-blue-200 inline-block rounded py-1 px-2 text-base text-dark-blue-500 mb-3">
                 TOPICS
               </h5>
@@ -552,8 +552,8 @@ function CourseDetails(props) {
               </p>
               <p className="text-lg text-dark-blue-400 mb-2"></p>
             </div>
-            <div className="sm:w-2/6">
-              <h5 className="bg-blue-200 inline-block rounded py-1 px-2 text-base text-dark-blue-500 mb-3 mt-6 sm:mt-0">
+            <div className="md:w-2/6">
+              <h5 className="bg-blue-200 inline-block rounded py-1 px-2 text-base text-dark-blue-500 mb-3 mt-6 md:mt-0">
                 PROJECTS
               </h5>
               <p className="text-lg text-dark-blue-400 mb-2">- Slack Clone</p>
@@ -565,8 +565,8 @@ function CourseDetails(props) {
           <h3 className="uppercase text-3xl font-bold text-green-theme-700 mb-6">
             Web Security & Deployment
           </h3>
-          <div className="sm:flex sm:justify-between">
-            <div className="sm:w-4/6">
+          <div className="md:flex md:justify-between">
+            <div className="md:w-4/6">
               <h5 className="bg-gold-300 inline-block rounded py-1 px-2 text-base text-orange-800 mb-3">
                 TOPICS
               </h5>
@@ -581,7 +581,7 @@ function CourseDetails(props) {
                 - Configuring & Deploying Applications
               </p>
             </div>
-            <div className="sm:w-2/6"></div>
+            <div className="md:w-2/6"></div>
           </div>
         </div>
 
@@ -589,8 +589,8 @@ function CourseDetails(props) {
           <h3 className="uppercase text-3xl font-bold text-dark-blue-500 mb-6">
             Data Structure & Algorithms
           </h3>
-          <div className="sm:flex sm:justify-between">
-            <div className="sm:w-4/6">
+          <div className="md:flex md:justify-between">
+            <div className="md:w-4/6">
               <h5 className="bg-blue-200 inline-block rounded py-1 px-2 text-base text-dark-blue-500 mb-3">
                 TOPICS
               </h5>
@@ -604,8 +604,8 @@ function CourseDetails(props) {
                 - Sorting and Searches
               </p>
             </div>
-            <div className="sm:w-2/6">
-              <h5 className="bg-blue-200 inline-block rounded py-1 px-2 text-base text-dark-blue-500 mb-3 mt-6 sm:mt-0">
+            <div className="md:w-2/6">
+              <h5 className="bg-blue-200 inline-block rounded py-1 px-2 text-base text-dark-blue-500 mb-3 mt-6 md:mt-0">
                 EXERCISES
               </h5>
               <p className="text-lg text-dark-blue-400 mb-2">
@@ -619,8 +619,8 @@ function CourseDetails(props) {
           <h3 className="uppercase text-3xl font-bold text-green-theme-700 mb-6">
             Capstone
           </h3>
-          <div className="sm:flex sm:justify-between">
-            <div className="sm:w-4/6">
+          <div className="md:flex md:justify-between">
+            <div className="md:w-4/6">
               <h5 className="bg-gold-300 inline-block rounded py-1 px-2 text-base text-orange-800 mb-3">
                 TOPICS
               </h5>
@@ -628,8 +628,8 @@ function CourseDetails(props) {
                 - Putting Everything Together
               </p>
             </div>
-            <div className="sm:w-2/6">
-              <h5 className="bg-gold-300 inline-block rounded py-1 px-2 text-base text-orange-800 mb-3 mt-6 sm:mt-0">
+            <div className="md:w-2/6">
+              <h5 className="bg-gold-300 inline-block rounded py-1 px-2 text-base text-orange-800 mb-3 mt-6 md:mt-0">
                 PROJECTS
               </h5>
               <p className="text-lg text-dark-blue-400 mb-2">- Shopify Clone</p>

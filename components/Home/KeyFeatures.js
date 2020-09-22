@@ -11,8 +11,8 @@ function KeyFeatures(props) {
             </h2>
           </div>
 
-          <article className="text-center sm:flex sm:items-start">
-            <div className="sm:mx-3">
+          <article className="text-center md:flex md:items-start">
+            <div className="md:mx-3">
               <img
                 className="inline-block h-32"
                 src="/assets/media/content.svg"
@@ -26,7 +26,7 @@ function KeyFeatures(props) {
                 assignments, and real life projects.
               </p>
             </div>
-            <div className="my-12 sm:my-0 sm:mx-3">
+            <div className="my-12 md:my-0 md:mx-3">
               <img
                 className="inline-block h-32"
                 src="/assets/media/mentorship.svg"
@@ -40,7 +40,7 @@ function KeyFeatures(props) {
                 one-to-one feedback.
               </p>
             </div>
-            <div className="sm:mx-3">
+            <div className="md:mx-3">
               <img
                 className="inline-block h-32"
                 src="/assets/media/learning.svg"
@@ -59,15 +59,15 @@ function KeyFeatures(props) {
       </section>
 
       <article className="bg-dark-blue-100 py-24">
-        <div className="container mx-auto sm:flex sm:items-center px-8">
-          <div className="sm:order-1 mb-8 sm:mb-0 sm:w-2/5">
+        <div className="container mx-auto md:flex md:items-center px-8">
+          <div className="md:order-1 mb-8 md:mb-0 md:w-2/5">
             <img
               className="w-full"
               src="/assets/media/demo-mac.svg"
               alt="Mockup"
             />
           </div>
-          <div className="sm:w-3/5">
+          <div className="md:w-3/5">
             <h3 className="text-3xl text-green-theme-500">
               Know what, when and how to learn.
             </h3>
@@ -87,15 +87,15 @@ function KeyFeatures(props) {
       </article>
 
       <article className="padding py-24 bg-dark-blue-50">
-        <div className="container mx-auto sm:flex sm:items-center px-8">
-          <div className="mb-8 sm:mb-0 sm:w-2/5">
+        <div className="container mx-auto md:flex md:items-center px-8">
+          <div className="mb-8 md:mb-0 md:w-2/5 text-center md:text-left">
             <img
-              className="w-full max-w-xs"
+              className="w-full max-w-xs inline-block"
               src="/assets/media/help1.svg"
               alt="Mockup"
             />
           </div>
-          <div className="sm:w-3/5 sm:pl-12">
+          <div className="md:w-3/5 md:pl-12">
             <h3 className="text-3xl text-royal-blue-500">
               Don't be stuck. Get the help you need.
             </h3>
@@ -114,15 +114,15 @@ function KeyFeatures(props) {
         </div>
       </article>
       <article className="bg-dark-blue-100 py-24">
-        <div className="container mx-auto sm:flex sm:items-center px-8">
-          <div className="sm:order-1 mb-8 sm:mb-0 sm:w-2/5 text-right">
+        <div className="container mx-auto md:flex md:items-center px-8">
+          <div className="md:order-1 mb-8 md:mb-0 md:w-2/5 text-center md:text-right">
             <img
               className="w-full max-w-xs inline-block"
               src="/assets/media/immersive-2.svg"
               alt="Mockup"
             />
           </div>
-          <div className="sm:w-3/5">
+          <div className="md:w-3/5">
             <h3 className="text-3xl text-green-theme-500">
               Move at your pace, but never alone.
             </h3>
@@ -144,15 +144,15 @@ function KeyFeatures(props) {
       </article>
 
       <article className="padding py-24 bg-dark-blue-50">
-        <div className="container mx-auto sm:flex sm:items-center px-8">
-          <div className="mb-8 sm:mb-0 sm:w-2/5">
+        <div className="container mx-auto md:flex md:items-center px-8">
+          <div className="mb-8 md:mb-0 md:w-2/5 text-center md:text-left">
             <img
-              className="w-full max-w-xs"
+              className="w-full max-w-xs inline-block"
               src="/assets/media/job-ready.svg"
               alt="Mockup"
             />
           </div>
-          <div className="sm:w-3/5 sm:pl-12">
+          <div className="md:w-3/5 md:pl-12">
             <h3 className="text-3xl text-royal-blue-500">
               Job-ready at a fraction of college cost.
             </h3>
