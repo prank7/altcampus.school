@@ -3,7 +3,7 @@ import React from "react";
 function ReadyToBuild(props) {
   return (
     <section className="cta py-24">
-      <div className="container mx-auto">
+      <div className="container mx-auto px-8">
         <div className="px-12 text-center sm:text-left sm:flex sm:items-center sm:justify-center">
           <h3 className="text-3xl text-white max-w-lg mr-8">
             Ready to build stuff? Get started now.
