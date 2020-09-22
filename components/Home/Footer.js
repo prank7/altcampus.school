@@ -1,80 +1,141 @@
-import React from 'react';
+import React from "react";
 
 function Footer(props) {
   return (
-    <footer class='footer'>
-      <div class='container footer-flex'>
-        <div class='footer-col1-2'>
-          <a class='footer-logo' href='/'>
-            <img src='/assets/media/logo.svg' alt='AltCampus Logo' />
+    <footer class="py-24 bg-dark-blue-500">
+      <div class="container mx-auto px-8 sm:flex sm:justify-between">
+        <div class="footer-col1-2 sm:w-2/5">
+          <a class="footer-logo" href="/">
+            <img
+              className="w-28 inline-block"
+              src="/assets/media/logo.svg"
+              alt="AltCampus Logo"
+            />
           </a>
-          <p class='footer-text'>
+          <p class="text-sm text-gray-500 mt-4">
             Everything you need to become a software developer
           </p>
         </div>
-        <div class='footer-col1-2 footer-links'>
-          <div class='footer-col2 flex-between'>
-            <div class='links'>
-              <h4>Quick links</h4>
-              <div class='flex-between item-start'>
-                <ul class='quick-links'>
-                  <li>
-                    <a href=''>Home</a>
+        <div class="footer-col1-2 footer-links sm:w-3/5">
+          <div class="sm:flex sm:justify-between">
+            <div class="sm:w-1/2">
+              <h4 className="text-2xl text-white mb-3 mt-6 sm:mt-0">
+                Quick links
+              </h4>
+              <div class="flex justify-between">
+                <ul class="">
+                  <li className="mb-2">
+                    <a className="text-gray-500 hover:text-gold-600" href="/">
+                      Home
+                    </a>
                   </li>
-                  <li>
-                    <a href='/#course-details'>Course Details</a>
+                  <li className="mb-2">
+                    <a
+                      className="text-gray-500 hover:text-gold-600"
+                      href="/#course-details"
+                    >
+                      Course Details
+                    </a>
                   </li>
-                  <li>
-                    <a href='/how-it-works'>How it works</a>
+                  <li className="mb-2">
+                    <a
+                      className="text-gray-500 hover:text-gold-600"
+                      href="/how-it-works"
+                    >
+                      How it works
+                    </a>
                   </li>
-                  <li>
-                    <a href='/#testimonials'>Testimonials</a>
+                  <li className="mb-2">
+                    <a
+                      className="text-gray-500 hover:text-gold-600"
+                      href="/#testimonials"
+                    >
+                      Testimonials
+                    </a>
                   </li>
-                  <li>
-                    <a href='/pricing'>Pricing</a>
+                  <li className="mb-2">
+                    <a
+                      className="text-gray-500 hover:text-gold-600"
+                      href="/pricing"
+                    >
+                      Pricing
+                    </a>
                   </li>
-                  <li>
-                    <a href='/#faqs'>FAQs</a>
+                  <li className="mb-2">
+                    <a
+                      className="text-gray-500 hover:text-gold-600"
+                      href="/#faqs"
+                    >
+                      FAQs
+                    </a>
                   </li>
                 </ul>
-                <ul class='quick-links'>
-                  <li>
-                    <a href='/contact' target='_blank'>
+                <ul class="quick-links">
+                  <li className="mb-2">
+                    <a
+                      className="text-gray-500 hover:text-gold-600"
+                      href="/contact"
+                      target="_blank"
+                    >
                       Contact
                     </a>
                   </li>
 
-                  <li>
-                    <a href='/privacy'>Privacy</a>
+                  <li className="mb-2">
+                    <a
+                      className="text-gray-500 hover:text-gold-600"
+                      href="/privacy"
+                    >
+                      Privacy
+                    </a>
                   </li>
-                  <li>
-                    <a href='/refund-policy'>Refund Policy</a>
+                  <li className="mb-2">
+                    <a
+                      className="text-gray-500 hover:text-gold-600"
+                      href="/refund-policy"
+                    >
+                      Refund Policy
+                    </a>
                   </li>
-                  <li>
-                    <a href='/pricing-policy/'>Pricing Policy</a>
+                  <li className="mb-2">
+                    <a
+                      className="text-gray-500 hover:text-gold-600"
+                      href="/pricing-policy/"
+                    >
+                      Pricing Policy
+                    </a>
                   </li>
-                  <li>
-                    <a href='/terms/'>Terms</a>
+                  <li className="mb-2">
+                    <a
+                      className="text-gray-500 hover:text-gold-600"
+                      href="/terms/"
+                    >
+                      Terms
+                    </a>
                   </li>
                 </ul>
               </div>
             </div>
-            <div class='social'>
-              <h4>Follow Us</h4>
-              <ul class='social-flex'>
-                <li>
-                  <a target='_blank' href='https://facebook.com/AltCampusIO'>
+            <div class="social">
+              <h4 className="text-2xl text-white mb-3 mt-6 sm:mt-0">
+                Follow Us
+              </h4>
+              <ul class="flex">
+                <li className="mr-4">
+                  <a target="_blank" href="https://facebook.com/AltCampusIO">
                     <img
-                      src='/assets/media/facebook-icon.svg'
-                      alt='facebook-icon'
+                      className="w-12"
+                      src="/assets/media/facebook-icon.svg"
+                      alt="facebook-icon"
                     />
                   </a>
                 </li>
                 <li>
-                  <a target='_blank' href='https://twitter.com/altcampus'>
+                  <a target="_blank" href="https://twitter.com/altcampus">
                     <img
-                      src='/assets/media/twitter-icon.svg'
-                      alt='twitter-icon'
+                      className="w-12"
+                      src="/assets/media/twitter-icon.svg"
+                      alt="twitter-icon"
                     />
                   </a>
                 </li>
@@ -83,7 +144,7 @@ function Footer(props) {
           </div>
         </div>
       </div>
-      <div class='footer-copyright'>
+      <div class="text-center mt-12 text-gray-700">
         <small>&copy; AltCampus Services Pvt. Ltd, 2018-present.</small>
       </div>
     </footer>

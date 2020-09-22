@@ -3,7 +3,7 @@ import React from "react";
 function LetsTalk(props) {
   return (
     <section className="cta py-24">
-      <div className="container mx-auto">
+      <div className="container mx-auto px-8">
         <div className="px-12 text-center sm:text-left sm:flex sm:items-center sm:justify-center">
           <div>
             <h3 className="text-3xl text-white max-w-lg mr-8">

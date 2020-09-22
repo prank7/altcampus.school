@@ -3,7 +3,7 @@ import React from "react";
 function Pricing(props) {
   return (
     <section className="py-24 bg-royal-blue-100">
-      <div className="container mx-auto">
+      <div className="container mx-auto px-8">
         <header className="text-center sm:flex sm:justify-center sm:items-center mb-12">
           <img
             className="inline-block w-12 sm:mr-4"

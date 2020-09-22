@@ -3,14 +3,14 @@ import React from "react";
 function TestimonialTweets(props) {
   return (
     <section className="tweet-selection py-24" id="tweetSection">
-      <div className="container mx-auto">
+      <div className="container mx-auto px-8">
         <header className="text-center mb-12">
           <h2 className="font-bold text-4xl text-white">
             Let your skills speak for you
           </h2>
         </header>
-        <article className="sm:flex sm:flex-wrap sm:items-start">
-          <div className="tweet tweet1 sm:w-1/2">
+        <article className="">
+          <div className="tweet tweet1">
             <blockquote className="twitter-tweet">
               <p lang="en" dir="ltr">
                 Successfully completed the tenure for our capstone project.🙌
