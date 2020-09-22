@@ -16,6 +16,9 @@
 /* Stop purging. */
 
 /* Your own custom utilities */
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
 
 /* Hero */
 .hero-image {
@@ -89,7 +92,12 @@
     z-index: 99999;
   }
 
+  .bars {
+    display: inline-block;
+  }
+
   .close-menu {
+    display: inline-block;
     position: absolute;
     right: 2rem;
     top: 2rem;

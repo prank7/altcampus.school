@@ -2,10 +2,10 @@ import React from "react";
 
 function Hero(props) {
   return (
-    <section className="hero text-center relative overflow-hidden">
-      <div className="container mx-auto px-8 py-32">
+    <section className="hero text-center py-20 md:py-32 relative overflow-hidden">
+      <div className="container mx-auto px-8">
         <div>
-          <h1 className="font-semibold text-dark-blue-500 text-6xl px-2 leading-tight">
+          <h1 className="font-semibold text-dark-blue-500 text-4xl md:text-6xl px-2 leading-tight">
             Everything you need to become a software developer
           </h1>
           <h3 className="text-2xl text-dark-blue-300 font-light my-12">

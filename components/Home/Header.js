@@ -7,7 +7,7 @@ function Header(props) {
         <a href="/">
           <img className="w-32" src="/assets/media/logo.svg" alt="Logo" />
         </a>
-        <label for="toggle" className="bars sm:hidden">
+        <label for="toggle" className="bars hidden">
           <img
             className="nav-menu-img w-8"
             src="/assets/media/open-menu.svg"
@@ -17,7 +17,7 @@ function Header(props) {
 
         <input type="checkbox" className="toggle hidden" id="toggle" />
         <div className="nav-menu">
-          <label for="toggle" className="close-menu sm:hidden">
+          <label for="toggle" className="close-menu hidden">
             <img
               className="nav-menu-img w-8"
               src="/assets/media/close.svg"
@@ -26,50 +26,50 @@ function Header(props) {
           </label>
 
           <input type="checkbox" className="toggle hidden" id="toggle" />
-          <ul className="sm:flex sm:items-center">
-            <li className="mb-8 sm:mb-0">
+          <ul className="md:flex md:items-center">
+            <li className="mb-8 md:mb-0">
               <a
-                className="text-4xl sm:text-xl text-gold-500 sm:text-dark-blue-300 py-1 border-b-2 border-green-theme-500"
+                className="text-4xl md:text-xl text-gold-500 md:text-dark-blue-300 py-1 border-b-2 border-green-theme-500"
                 href="/"
               >
                 Home
               </a>
             </li>
-            <li className="mb-8 sm:mb-0 sm:ml-8">
+            <li className="mb-8 md:mb-0 md:ml-8">
               <a
-                className="text-4xl sm:text-xl text-gold-500  sm:text-dark-blue-300 py-1"
+                className="text-4xl md:text-xl text-gold-500  md:text-dark-blue-300 py-1"
                 href="/how-it-works"
               >
                 How it works
               </a>
             </li>
-            <li className="mb-8 sm:mb-0 sm:ml-8">
+            <li className="mb-8 md:mb-0 md:ml-8">
               <a
-                className="text-4xl sm:text-xl text-gold-500  sm:text-dark-blue-300 py-1"
+                className="text-4xl md:text-xl text-gold-500  md:text-dark-blue-300 py-1"
                 href="/pricing"
               >
                 Pricing
               </a>
             </li>
-            <li className="mb-8 sm:mb-0 sm:ml-8">
+            <li className="mb-8 md:mb-0 md:ml-8">
               <a
-                className="text-4xl sm:text-xl text-gold-500  sm:text-dark-blue-300 py-1"
+                className="text-4xl md:text-xl text-gold-500  md:text-dark-blue-300 py-1"
                 href="#faqs"
               >
                 FAQs
               </a>
             </li>
-            <li className="mb-8 sm:mb-0 sm:ml-8">
+            <li className="mb-8 md:mb-0 md:ml-8">
               <a
-                className="inline-block text-xl sm:text-base text-white sm:text-dark-blue-300 uppercase px-12 py-4 sm:px-4 sm:py-2 border rounded border-green-theme-500 shadow-md font-medium bg-green-theme-500 sm:bg-transparent"
+                className="inline-block text-xl md:text-base text-white md:text-dark-blue-300 uppercase px-12 py-4 md:px-4 md:py-2 border rounded border-green-theme-500 shadow-md font-medium bg-green-theme-500 md:bg-transparent"
                 href="https://launchpad.altcampus.school/login"
               >
                 login
               </a>
             </li>
-            <li className="sm:ml-4">
+            <li className="md:ml-4">
               <a
-                className="font-normal inline-block text-xl sm:text-base text-white px-12 py-4 sm:px-4 sm:py-2 rounded uppercase bg-green-theme-500 border border-green-theme-500 shadow-md font-medium"
+                className="font-normal inline-block text-xl md:text-base text-white px-12 py-4 md:px-4 md:py-2 rounded uppercase bg-green-theme-500 border border-green-theme-500 shadow-md font-medium"
                 href="https://launchpad.altcampus.school/signup"
               >
                 signup
