@@ -16,9 +16,53 @@
 /* Stop purging. */
 
 /* Your own custom utilities */
-h1,h2,h3,h4,h5,h6 {
-  font-family: Lato,
-  system-ui,
-  -apple-system,
-  BlinkMacSystemFont;
+
+/* Hero */
+.hero-image {
+  max-width: 100%;
+  right: -28%;
+  top: -62%;
+}
+
+.course-icon img {
+  left: 50%;
+  top: 72%;
+  transform: translate(-50%, -76%);
+  width: 7rem;
+}
+
+@media screen and (min-width: 768px) {
+  .course-icon img {
+    transform: translate(-50%, -71%);
+  }
+}
+
+.number-1 {
+  color: #956700;
+}
+
+.number-2 {
+  color: #0a746b;
+}
+
+.number-3 {
+  color: #400793;
+}
+
+.number-4 {
+  color: #790019;
+}
+
+/* CTA */
+.cta {
+  background: url(/assets/media/mask2.svg),
+    linear-gradient(to right top, #61cb72, #41a951);
+  background-size: cover;
+}
+
+/* Tweets */
+.tweet-selection {
+  background: url(/assets/media/mask3.svg) no-repeat,
+    linear-gradient(to right bottom, #111f3c, #20345d);
+  background-size: cover;
 }
