@@ -13,15 +13,15 @@ function Hero(props) {
             skills and <br />
             become job-ready
           </h3>
-          <div className="flex justify-center">
+          <div className="flex justify-center items-center">
             <h5 className="text-royal-blue-400 font-semibold text-lg">
               100% online
             </h5>
-            <span className="dot"></span>
-            <h5 className="text-royal-blue-400 mx-8 font-semibold text-lg">
+            <span className="w-2 h-2 bg-dark-blue-300 mx-6 rounded-full"></span>
+            <h5 className="text-royal-blue-400 font-semibold text-lg">
               Project based
             </h5>
-            <span className="dot"></span>
+            <span className="w-2 h-2 bg-dark-blue-300 mx-6 rounded-full"></span>
             <h5 className="text-royal-blue-400 font-semibold text-lg">
               Mentorship
             </h5>

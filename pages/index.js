@@ -18,10 +18,10 @@ function Home(props) {
         <Hero />
         <KeyFeatures />
         <CourseDetails />
-        {/* <Testimonials /> */}
+        <Testimonials />
         <StartLearningCTA />
         <Pricing />
-        {/* <TestimonialTweets /> */}
+        <TestimonialTweets />
         <ReadyToBuild />
         <FAQ />
         <LetsTalk />
