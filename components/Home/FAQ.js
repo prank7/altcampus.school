@@ -41,7 +41,12 @@ function FAQ(props) {
             <p className="font-medium text-dark-blue-300 pt-2 pb-8 text-lg">
               <b className="text-2xl mr-3">A.</b>
               You can read about it here -{" "}
-              <a href="how-it-works/">How it works.</a>
+              <a
+                className="text-royal-blue-500 font-semibold underline hover:no-underline"
+                href="how-it-works/"
+              >
+                How it works.
+              </a>
             </p>
           </div>
 
@@ -100,7 +105,10 @@ function FAQ(props) {
             <p className="font-medium text-dark-blue-300 pt-2 pb-8 text-lg">
               <b className="text-2xl mr-3">A.</b>
               Yes, please pick a slot with one of our co-founders{" "}
-              <a href="https://calendly.com/prank7/altcampus-one-on-one">
+              <a
+                className="text-royal-blue-500 font-semibold underline hover:no-underline"
+                href="https://calendly.com/prank7/altcampus-one-on-one"
+              >
                 here.
               </a>
             </p>
