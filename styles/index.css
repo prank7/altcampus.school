@@ -17,7 +17,7 @@
 
 /* Your own custom utilities */
 body {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 /* Hero */
@@ -27,14 +27,28 @@ body {
   top: -62%;
 }
 
+.hero-heading {
+  font-size: 3.5rem;
+}
+.hero {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#f6f9fc),
+    color-stop(#fafcfe),
+    to(#ffffff)
+  );
+  background: linear-gradient(#f6f9fc, #fafcfe, #ffffff);
+  position: relative;
+}
+
 .course-icon img {
   left: 50%;
   top: 72%;
   transform: translate(-50%, -76%);
   width: 7rem;
 }
-
-
 
 .number-1 {
   color: #956700;
@@ -64,6 +78,10 @@ body {
   background: url(/assets/media/mask3.svg) no-repeat,
     linear-gradient(to right bottom, #111f3c, #20345d);
   background-size: cover;
+}
+header {
+  background: #f6f9fc;
+  border: 2px solid #e9f4f4;
 }
 
 @media screen and (min-width: 768px) {
@@ -103,7 +121,7 @@ body {
     top: 2rem;
   }
 
-  .toggle:checked~.nav-menu {
+  .toggle:checked ~ .nav-menu {
     display: inline-block;
   }
 }
