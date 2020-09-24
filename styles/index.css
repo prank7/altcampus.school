@@ -73,8 +73,9 @@ body {
   background-size: cover;
 }
 
-/* Tweets */
-.tweet-selection {
+/* Testimonial */
+.tweet-selection,
+.testimonial {
   background: url(/assets/media/mask3.svg) no-repeat,
     linear-gradient(to right bottom, #111f3c, #20345d);
   background-size: cover;
@@ -82,6 +83,52 @@ body {
 header {
   background: #f6f9fc;
   border: 2px solid #e9f4f4;
+}
+
+.testimonial blockquote::before,
+.testimonial blockquote::after {
+  content: "";
+  width: 12px;
+  height: 9px;
+  color: #fcd669;
+  position: relative;
+  display: inline-block;
+  top: -7px;
+  background: url(/assets/media/quote2.svg);
+}
+
+.testimonial blockquote::after {
+  background: url(/assets/media/quote1.svg);
+}
+
+.prev,
+.next {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.prev::after,
+.next::after {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.prev::after {
+  content: "⬅";
+}
+
+.next::after {
+  content: "⮕";
+}
+
+.prev {
+  left: 2rem;
+}
+
+.next {
+  right: 2rem;
 }
 
 @media screen and (min-width: 768px) {
