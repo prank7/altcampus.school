@@ -21,7 +21,7 @@ html {
 }
 
 body {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 h1,
@@ -115,7 +115,7 @@ button {
 
 .testimonial blockquote::before,
 .testimonial blockquote::after {
-  content: "";
+  content: '';
   width: 12px;
   height: 9px;
   color: #fcd669;
@@ -129,7 +129,6 @@ button {
   background: url(/assets/media/quote1.svg);
 }
 
-
 .prev::after,
 .next::after {
   position: absolute;
@@ -139,11 +138,11 @@ button {
 }
 
 .prev::after {
-  content: "⬅";
+  content: '⬅';
 }
 
 .next::after {
-  content: "⮕";
+  content: '⮕';
 }
 
 .next-container {
@@ -202,4 +201,10 @@ button {
   .toggle:checked~.nav-menu {
     display: inline-block;
   }
+}
+
+.map-embed {
+  width: 600px;
+  height: 240px;
+  margin: 4rem 0;
 }
