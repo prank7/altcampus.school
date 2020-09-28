@@ -17,7 +17,7 @@
 
 /* Your own custom utilities */
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 /* Hero */
@@ -30,15 +30,8 @@ body {
 .hero-heading {
   font-size: 3.5rem;
 }
+
 .hero {
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#f6f9fc),
-    color-stop(#fafcfe),
-    to(#ffffff)
-  );
   background: linear-gradient(#f6f9fc, #fafcfe, #ffffff);
   position: relative;
 }
@@ -80,10 +73,6 @@ body {
     linear-gradient(to right bottom, #111f3c, #20345d);
   background-size: cover;
 }
-header {
-  background: #f6f9fc;
-  border: 2px solid #e9f4f4;
-}
 
 .testimonial blockquote::before,
 .testimonial blockquote::after {
@@ -101,11 +90,6 @@ header {
   background: url(/assets/media/quote1.svg);
 }
 
-.prev,
-.next {
-  top: 50%;
-  transform: translateY(-50%);
-}
 
 .prev::after,
 .next::after {
@@ -123,12 +107,20 @@ header {
   content: "⮕";
 }
 
-.prev {
-  left: 2rem;
+.next-container {
+  right: 0rem;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  /* background-color: #111f3c; */
 }
 
-.next {
-  right: 2rem;
+.prev-container {
+  left: 0rem;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  /* background-color: #111f3c; */
 }
 
 @media screen and (min-width: 768px) {
@@ -168,7 +160,12 @@ header {
     top: 2rem;
   }
 
-  .toggle:checked ~ .nav-menu {
+  .toggle:checked~.nav-menu {
     display: inline-block;
   }
+}
+
+button {
+  outline: 0 !important;
+  border: 0 !important;
 }
