@@ -27,6 +27,13 @@ class Testimonials extends Component {
     this.testimonialContainer.append(firstItemClone);
 
     this.testimonialContainer.style.transform = `translate(-${100}%)`;
+
+    this.timerId = setInterval(() => {
+      this.handleNext();
+    }, 12000);
+  }
+  componentWillUnmount() {
+    clearInterval(this.timerId);
   }
 
   handleNext = () => {
