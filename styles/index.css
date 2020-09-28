@@ -16,15 +16,54 @@
 /* Stop purging. */
 
 /* Your own custom utilities */
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Source Sans Pro", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lato", sans-serif;
+}
+
+button {
+  outline: 0 !important;
+  border: 0 !important;
 }
 
 /* Hero */
 .hero-image {
   max-width: 100%;
   right: -28%;
-  top: -62%;
+  top: -57%;
+}
+
+@media screen and (max-width: 1024px) {
+  .hero-image {
+    right: -34%;
+    top: -49%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero-image {
+    right: -45%;
+    top: -87%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .hero-image {
+    right: -47%;
+    top: -39%;
+  }
 }
 
 .hero-heading {
@@ -163,9 +202,4 @@ body {
   .toggle:checked~.nav-menu {
     display: inline-block;
   }
-}
-
-button {
-  outline: 0 !important;
-  border: 0 !important;
 }
