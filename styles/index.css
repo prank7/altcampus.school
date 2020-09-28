@@ -17,7 +17,7 @@
 
 /* Your own custom utilities */
 body {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 /* Hero */
@@ -76,7 +76,7 @@ body {
 
 .testimonial blockquote::before,
 .testimonial blockquote::after {
-  content: "";
+  content: '';
   width: 12px;
   height: 9px;
   color: #fcd669;
@@ -90,7 +90,6 @@ body {
   background: url(/assets/media/quote1.svg);
 }
 
-
 .prev::after,
 .next::after {
   position: absolute;
@@ -100,11 +99,11 @@ body {
 }
 
 .prev::after {
-  content: "⬅";
+  content: '⬅';
 }
 
 .next::after {
-  content: "⮕";
+  content: '⮕';
 }
 
 .next-container {
@@ -160,7 +159,7 @@ body {
     top: 2rem;
   }
 
-  .toggle:checked~.nav-menu {
+  .toggle:checked ~ .nav-menu {
     display: inline-block;
   }
 }
@@ -168,4 +167,10 @@ body {
 button {
   outline: 0 !important;
   border: 0 !important;
+}
+
+.map-embed {
+  width: 600px;
+  height: 240px;
+  margin: 4rem 0;
 }
