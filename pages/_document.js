@@ -30,21 +30,6 @@ class MyDocument extends Document {
             `,
             }}
           />
-          <script
-            dangerouslySetInnerHTML={{
-              __html: `
-              window.addEventListener("load", (event) => {
-                let twitterScript = document.createElement("script");
-                twitterScript.setAttribute(
-                  "src",
-                  "https://platform.twitter.com/widgets.js"
-                );
-                twitterScript.setAttribute("async", "true");
-                document.getElementById("twitter").appendChild(twitterScript);
-              });
-            `,
-            }}
-          />
         </Head>
         <body className='antialiased'>
           <Main />
