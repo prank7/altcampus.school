@@ -1,14 +1,14 @@
 import React, { Component } from "react";
 import { render } from "react-dom";
 import TestimonialItem from "./TestimonialItem";
-
-let testimonialItem = {};
+import { data } from "./TestimonialData";
 
 class Testimonials extends Component {
   constructor(props) {
     super(props);
     this.state = {
       currentItem: 1,
+      testimonialData: data,
     };
   }
 
@@ -82,6 +82,7 @@ class Testimonials extends Component {
   };
 
   render() {
+    const { testimonialData } = this.state;
     return (
       <section className="py-40 testimonial" id="testimonials">
         <header className="text-center md:flex md:justify-center md:items-center mb-12">
@@ -114,13 +115,9 @@ class Testimonials extends Component {
               ref={(ref_id) => (this.testimonialContainer = ref_id)}
               className="flex"
             >
-              <TestimonialItem name={"Shreyansh"} firm={"BigBinary"} />
-              <TestimonialItem name={"Ashwani"} firm={"ClearTax"} />
-              <TestimonialItem name={"Shashank"} firm={"BigBinary"} />
-              <TestimonialItem name={"Komal Raj"} firm={"KheloMore"} />
-              <TestimonialItem name={"Abid"} firm={"LocoNav"} />
-              <TestimonialItem name={"Amit"} firm={"BigBinary"} />
-              <TestimonialItem name={"Sasikant"} firm={"Morph.ai"} />
+              {testimonialData.map((item) => {
+                return <TestimonialItem item={item} />;
+              })}
             </div>
           </div>
         </div>
