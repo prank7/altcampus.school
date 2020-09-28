@@ -27,7 +27,7 @@ function Home(props) {
         <Testimonials />
         <StartLearningCTA />
         <Pricing />
-        <TestimonialTweets />
+        {/* <TestimonialTweets /> */}
         <ReadyToBuild />
         <FAQ />
         <LetsTalk />

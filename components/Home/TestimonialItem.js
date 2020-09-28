@@ -18,7 +18,7 @@ function TestimonialItem(props) {
           <p className="title">Works at {firm}</p>
         </div>
       </figure>
-      <blockquote className="text-2xl pl-6 md:w-2/3 leading-loose italic font-normal">
+      <blockquote className="text-xl md:text-2xl pl-6 md:w-2/3 leading-relaxed md:leading-loose italic font-normal">
         {content}
       </blockquote>
     </div>

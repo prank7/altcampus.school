@@ -56,11 +56,17 @@ button {
   position: relative;
 }
 
+.hero-heading {
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+
 .hero-image {
   max-width: 100%;
   right: -28%;
   top: -57%;
 }
+
 
 @media screen and (max-width: 1024px) {
   .hero-image {
@@ -74,6 +80,10 @@ button {
     right: -45%;
     top: -87%;
   }
+
+  .hero-heading {
+    font-size: 2.9rem;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -83,9 +93,7 @@ button {
   }
 }
 
-.hero-heading {
-  font-size: 3.5rem;
-}
+
 
 
 
