@@ -4,7 +4,7 @@ import Link from "next/link";
 
 function Header() {
   return (
-    <header className="border-b-2 z-20 relative py-3">
+    <header className="border-b-2 z-20 relative py-3 navbar">
       <nav className="container flex justify-between mx-auto items-center px-6 relative z-10 max-w-6xl">
         <Link href="/">
           <a>
