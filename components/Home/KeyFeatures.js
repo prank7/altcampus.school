@@ -18,7 +18,7 @@ function KeyFeatures(props) {
                 src="/assets/media/content.svg"
                 alt="content learning"
               />
-              <h4 className="text-xl uppercase text-dark-blue-500 font-semibold mt-8 mb-2">
+              <h4 className="text-xl uppercase text-dark-blue-500 font-semibold mt-8 mb-2 font-mukta">
                 Exhaustive Course Content
               </h4>
               <p className="text-dark-blue-300 text-base">
@@ -32,7 +32,7 @@ function KeyFeatures(props) {
                 src="/assets/media/mentorship.svg"
                 alt="mentorship"
               />
-              <h4 className="text-xl uppercase text-dark-blue-500 font-semibold mt-8 mb-2">
+              <h4 className="text-xl uppercase text-dark-blue-500 font-semibold mt-8 mb-2 font-mukta">
                 Mentorship & Support
               </h4>
               <p className="text-dark-blue-300 text-base">
@@ -46,7 +46,7 @@ function KeyFeatures(props) {
                 src="/assets/media/learning.svg"
                 alt="content learning"
               />
-              <h4 className="text-xl uppercase text-dark-blue-500 font-semibold mt-8 mb-2">
+              <h4 className="text-xl uppercase text-dark-blue-500 font-semibold mt-8 mb-2 font-mukta">
                 Immersive Learning
               </h4>
               <p className="text-dark-blue-300 text-base">
@@ -68,10 +68,10 @@ function KeyFeatures(props) {
             />
           </div>
           <div className="md:w-3/5">
-            <h3 className="text-3xl text-green-theme-500">
+            <h3 className="text-3xl text-green-theme-500 font-bold">
               Know what, when and how to learn.
             </h3>
-            <h6 className="text-2xl text-dark-blue-500 mt-1 mb-4">
+            <h6 className="text-2xl text-dark-blue-500 mt-1 mb-4 font-mukta">
               Don't waste time figuring out the best tutorial or exercises.
             </h6>
             <div className="">
@@ -96,16 +96,19 @@ function KeyFeatures(props) {
             />
           </div>
           <div className="md:w-3/5 md:pl-12">
-            <h3 className="text-3xl text-royal-blue-500">
+            <h3 className="text-3xl text-royal-blue-500 font-bold">
               Don't be stuck. Get the help you need.
             </h3>
-            <h6 className="text-2xl text-dark-blue-500 mt-1 mb-4">
+            <h6 className="text-2xl text-dark-blue-500 mt-1 mb-4 font-mukta">
               Daily, live mentor sessions to clear doubts and provide feedback.
             </h6>
             <div>
               <p className="text-lg text-dark-blue-300 leading-relaxed">
                 Our every working day, live mentor sessions will help you
-                <b>resolve doubts, review code, and get one to one feedback</b>
+                <b>
+                  {" "}
+                  resolve doubts, review code, and get one to one feedback{" "}
+                </b>
                 to help you learn better and faster. Get your technical
                 questions answered quickly by mentors via Slack.
               </p>
@@ -123,10 +126,10 @@ function KeyFeatures(props) {
             />
           </div>
           <div className="md:w-3/5">
-            <h3 className="text-3xl text-green-theme-500">
+            <h3 className="text-3xl text-green-theme-500 font-bold">
               Move at your pace, but never alone.
             </h3>
-            <h6 className="text-2xl text-dark-blue-500 mt-1 mb-4">
+            <h6 className="text-2xl text-dark-blue-500 mt-1 mb-4 font-mukta">
               Tired of learning alone? Connect, share and grow with peer group.
             </h6>
             <div>
@@ -153,10 +156,10 @@ function KeyFeatures(props) {
             />
           </div>
           <div className="md:w-3/5 md:pl-12">
-            <h3 className="text-3xl text-royal-blue-500">
+            <h3 className="text-3xl text-royal-blue-500 font-bold">
               Job-ready at a fraction of college cost.
             </h3>
-            <h6 className="text-2xl text-dark-blue-500 mt-1 mb-4">
+            <h6 className="text-2xl text-dark-blue-500 mt-1 mb-4 font-mukta">
               Build strong portfolio, get help in job hunt at each step of the
               way.
             </h6>
@@ -168,6 +171,7 @@ function KeyFeatures(props) {
                   build a strong portfolio, take our job readiness challenge, do
                   career counselling, and prepare you for job interviews
                 </b>
+                {""}
                 and then match you with companies that are hiring.
               </p>
             </div>

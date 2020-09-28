@@ -152,7 +152,7 @@ function Pricing(props) {
             </article>
             <div className="text-center md:text-right">
               <a
-                className="inline-block bg-dark-blue-500 px-12 py-3 md:px-4 md:py-2 rounded mt-8"
+                className="inline-block bg-dark-blue-500 px-12 py-3 md:px-4 md:py-2 rounded mt-8 shadow-md btn-hover"
                 href="https://launchpad.altcampus.school/signup?plan=standard"
               >
                 <div className="flex items-center">
@@ -305,7 +305,7 @@ function Pricing(props) {
             </article>
             <div className="text-center md:text-right">
               <a
-                className="inline-block bg-dark-blue-500 px-12 py-3 md:px-4 md:py-2 rounded mt-8"
+                className="inline-block bg-dark-blue-500 px-12 py-3 md:px-4 md:py-2 rounded mt-8 shadow-md btn-hover"
                 href="https://launchpad.altcampus.school/signup?plan=standard"
               >
                 <div className="flex items-center">

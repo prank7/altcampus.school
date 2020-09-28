@@ -28,7 +28,7 @@ function Hero(props) {
           </div>
           <a
             href="https://launchpad.altcampus.school/signup"
-            className="text-lg text-white bg-green-theme-500 uppercase py-4 px-24 inline-block mt-12 rounded font-medium hover:shadow-lg font-mukta"
+            className="text-lg text-white bg-green-theme-500 uppercase py-4 px-24 inline-block mt-12 rounded font-medium btn-hover font-mukta"
           >
             Start Learning
           </a>

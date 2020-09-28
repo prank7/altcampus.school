@@ -12,8 +12,8 @@ function CourseDetails(props) {
       <div className="text-center md:flex md:justify-between py-4 mb-16">
         <div className="py-6 md:py-12 course-icon relative md:w-1/4 ">
           <div className="relative z-10 border-r border-dark-blue-100">
-            <p className="text-6xl number-1 font-light">14</p>
-            <p className="text-xl uppercase font-semibold text-dark-blue-600">
+            <p className="text-6xl number-1 font-mukta">14</p>
+            <p className="text-xl uppercase font-semibold text-dark-blue-600 font-lato">
               Modules
             </p>
           </div>
@@ -25,8 +25,8 @@ function CourseDetails(props) {
         </div>
         <div className="py-6 md:py-12 course-icon relative md:w-1/4">
           <div className="relative z-10 border-r border-dark-blue-100">
-            <p className="text-6xl number-2 font-light">80+</p>
-            <p className="text-xl uppercase font-semibold text-dark-blue-600">
+            <p className="text-6xl number-2 font-mukta">80+</p>
+            <p className="text-xl uppercase font-semibold text-dark-blue-600 font-lato">
               Topics
             </p>
           </div>
@@ -38,8 +38,8 @@ function CourseDetails(props) {
         </div>
         <div className="py-6 md:py-12 course-icon relative md:w-1/4">
           <div className="relative z-10 border-r border-dark-blue-100">
-            <p className="text-6xl number-3 font-light">200+</p>
-            <p className="text-xl uppercase font-semibold text-dark-blue-600">
+            <p className="text-6xl number-3 font-mukta">200+</p>
+            <p className="text-xl uppercase font-semibold text-dark-blue-600 font-lato">
               Exercises
             </p>
           </div>
@@ -51,8 +51,8 @@ function CourseDetails(props) {
         </div>
         <div className="py-6 md:py-12 course-icon relative md:w-1/4">
           <div className="relative z-10">
-            <p className="text-6xl number-4 font-light">40+</p>
-            <p className="text-xl uppercase font-semibold text-dark-blue-600">
+            <p className="text-6xl number-4 font-mukta">40+</p>
+            <p className="text-xl uppercase font-semibold text-dark-blue-600 font-lato">
               Projects
             </p>
           </div>
@@ -71,7 +71,7 @@ function CourseDetails(props) {
           </h3>
           <div className="">
             <div className="">
-              <h5 className="bg-gold-300 inline-block rounded py-1 px-2 text-base text-orange-800 mb-3">
+              <h5 className="bg-gold-300 inline-block rounded py-1 px-2 text-base text-orange-800 mb-3 font-mukta">
                 TOPICS
               </h5>
               <p className="text-lg text-dark-blue-400 mb-2">
@@ -97,7 +97,7 @@ function CourseDetails(props) {
           </h3>
           <div className="md:flex md:justify-between">
             <div className="md:w-4/6">
-              <h5 className="bg-blue-200 inline-block rounded py-1 px-2 text-base text-dark-blue-500 mb-3">
+              <h5 className="bg-blue-200 inline-block rounded py-1 px-2 text-base text-dark-blue-500 mb-3 font-mukta">
                 TOPICS
               </h5>
               <p className="text-lg text-dark-blue-400 mb-2">
@@ -115,7 +115,7 @@ function CourseDetails(props) {
               </p>
             </div>
             <div className="md:w-2/6">
-              <h5 className="bg-blue-200 inline-block rounded py-1 px-2 text-base text-dark-blue-500 mb-3 mt-6 md:mt-0">
+              <h5 className="bg-blue-200 inline-block rounded py-1 px-2 text-base text-dark-blue-500 mb-3 mt-6 md:mt-0 font-mukta">
                 PROJECTS
               </h5>
               <p className="text-lg text-dark-blue-400 mb-2">
@@ -142,7 +142,7 @@ function CourseDetails(props) {
           </h3>
           <div className="md:flex md:justify-between">
             <div className="md:w-4/6">
-              <h5 className="bg-gold-300 inline-block rounded py-1 px-2 text-base text-orange-800 mb-3">
+              <h5 className="bg-gold-300 inline-block rounded py-1 px-2 text-base text-orange-800 mb-3 font-mukta">
                 TOPICS
               </h5>
               <p className="text-lg text-dark-blue-400 mb-2">
@@ -166,7 +166,7 @@ function CourseDetails(props) {
               </p>
             </div>
             <div className="md:w-2/6">
-              <h5 className="bg-gold-300 inline-block rounded py-1 px-2 text-base text-orange-800 mb-3 mt-6 md:mt-0">
+              <h5 className="bg-gold-300 inline-block rounded py-1 px-2 text-base text-orange-800 mb-3 mt-6 md:mt-0 font-mukta">
                 PROJECTS
               </h5>
               <p className="text-lg text-dark-blue-400 mb-2">
@@ -230,7 +230,7 @@ function CourseDetails(props) {
           </h3>
           <div className="md:flex md:justify-between">
             <div className="md:w-4/6">
-              <h5 className="bg-gold-300 inline-block rounded py-1 px-2 text-base text-orange-800 mb-3">
+              <h5 className="bg-gold-300 inline-block rounded py-1 px-2 text-base text-orange-800 mb-3 font-mukta">
                 TOPICS
               </h5>
               <p className="text-lg text-dark-blue-400 mb-2">
@@ -255,7 +255,7 @@ function CourseDetails(props) {
               </p>
             </div>
             <div className="md:w-2/6">
-              <h5 className="bg-gold-300 inline-block rounded py-1 px-2 text-base text-orange-800 mb-3 mt-6 md:mt-0">
+              <h5 className="bg-gold-300 inline-block rounded py-1 px-2 text-base text-orange-800 mb-3 mt-6 md:mt-0 font-mukta">
                 PROJECTS
               </h5>
               <p className="text-lg text-dark-blue-400 mb-2">
@@ -279,7 +279,7 @@ function CourseDetails(props) {
           </h3>
           <div className="md:flex md:justify-between">
             <div className="md:w-4/6">
-              <h5 className="bg-blue-200 inline-block rounded py-1 px-2 text-base text-dark-blue-500 mb-3">
+              <h5 className="bg-blue-200 inline-block rounded py-1 px-2 text-base text-dark-blue-500 mb-3 font-mukta">
                 TOPICS
               </h5>
               <p className="text-lg text-dark-blue-400 mb-2">- HTTP Protocol</p>
@@ -303,7 +303,7 @@ function CourseDetails(props) {
               </p>
             </div>
             <div className="md:w-2/6">
-              <h5 className="bg-blue-200 inline-block rounded py-1 px-2 text-base text-dark-blue-500 mb-3 mt-6 md:mt-0">
+              <h5 className="bg-blue-200 inline-block rounded py-1 px-2 text-base text-dark-blue-500 mb-3 mt-6 md:mt-0 font-mukta">
                 PROJECTS
               </h5>
               <p className="text-lg text-dark-blue-400 mb-2">
@@ -325,7 +325,7 @@ function CourseDetails(props) {
           </h3>
           <div className="md:flex md:justify-between">
             <div className="md:w-4/6">
-              <h5 className="bg-gold-300 inline-block rounded py-1 px-2 text-base text-orange-800 mb-3">
+              <h5 className="bg-gold-300 inline-block rounded py-1 px-2 text-base text-orange-800 mb-3 font-mukta">
                 TOPICS
               </h5>
               <p className="text-lg text-dark-blue-400 mb-2">- SQL vs NoSQL</p>
@@ -345,7 +345,7 @@ function CourseDetails(props) {
               <p className="text-lg text-dark-blue-400 mb-2">- Aggregations</p>
             </div>
             <div className="md:w-2/6">
-              <h5 className="bg-gold-300 inline-block rounded py-1 px-2 text-base text-orange-800 mb-3 mt-6 md:mt-0">
+              <h5 className="bg-gold-300 inline-block rounded py-1 px-2 text-base text-orange-800 mb-3 mt-6 md:mt-0 font-mukta">
                 PROJECTS
               </h5>
               <p className="text-lg text-dark-blue-400 mb-2">
@@ -361,7 +361,7 @@ function CourseDetails(props) {
           </h3>
           <div className="md:flex md:justify-between">
             <div className="md:w-4/6">
-              <h5 className="bg-blue-200 inline-block rounded py-1 px-2 text-base text-dark-blue-500 mb-3">
+              <h5 className="bg-blue-200 inline-block rounded py-1 px-2 text-base text-dark-blue-500 mb-3 font-mukta">
                 TOPICS
               </h5>
               <p className="text-lg text-dark-blue-400 mb-2">
@@ -389,7 +389,7 @@ function CourseDetails(props) {
               </p>
             </div>
             <div className="md:w-2/6">
-              <h5 className="bg-blue-200 inline-block rounded py-1 px-2 text-base text-dark-blue-500 mb-3 mt-6 md:mt-0">
+              <h5 className="bg-blue-200 inline-block rounded py-1 px-2 text-base text-dark-blue-500 mb-3 mt-6 md:mt-0 font-mukta">
                 PROJECTS
               </h5>
               <p className="text-lg text-dark-blue-400 mb-2">- Blog App</p>
@@ -405,7 +405,7 @@ function CourseDetails(props) {
           </h3>
           <div className="md:flex md:justify-between">
             <div className="md:w-4/6">
-              <h5 className="bg-gold-300 inline-block rounded py-1 px-2 text-base text-orange-800 mb-3">
+              <h5 className="bg-gold-300 inline-block rounded py-1 px-2 text-base text-orange-800 mb-3 font-mukta">
                 TOPICS
               </h5>
               <p className="text-lg text-dark-blue-400 mb-2">
@@ -422,7 +422,7 @@ function CourseDetails(props) {
               </p>
             </div>
             <div className="md:w-2/6">
-              <h5 className="bg-gold-300 inline-block rounded py-1 px-2 text-base text-orange-800 mb-3 mt-6 md:mt-0">
+              <h5 className="bg-gold-300 inline-block rounded py-1 px-2 text-base text-orange-800 mb-3 mt-6 md:mt-0 font-mukta">
                 PROJECTS
               </h5>
               <p className="text-lg text-dark-blue-400 mb-2">
@@ -440,7 +440,7 @@ function CourseDetails(props) {
           </h3>
           <div className="md:flex md:justify-between">
             <div className="md:w-4/6">
-              <h5 className="bg-blue-200 inline-block rounded py-1 px-2 text-base text-dark-blue-500 mb-3">
+              <h5 className="bg-blue-200 inline-block rounded py-1 px-2 text-base text-dark-blue-500 mb-3 font-mukta">
                 TOPICS
               </h5>
               <p className="text-lg text-dark-blue-400 mb-2">- Why React?</p>
@@ -467,7 +467,7 @@ function CourseDetails(props) {
               </p>
             </div>
             <div className="md:w-2/6">
-              <h5 className="bg-blue-200 inline-block rounded py-1 px-2 text-base text-dark-blue-500 mb-3 mt-6 md:mt-0">
+              <h5 className="bg-blue-200 inline-block rounded py-1 px-2 text-base text-dark-blue-500 mb-3 mt-6 md:mt-0 font-mukta">
                 PROJECTS
               </h5>
               <p className="text-lg text-dark-blue-400 mb-2">- ToDo App</p>
@@ -483,7 +483,7 @@ function CourseDetails(props) {
           </h3>
           <div className="md:flex md:justify-between">
             <div className="md:w-4/6">
-              <h5 className="bg-gold-300 inline-block rounded py-1 px-2 text-base text-orange-800 mb-3">
+              <h5 className="bg-gold-300 inline-block rounded py-1 px-2 text-base text-orange-800 mb-3 font-mukta">
                 TOPICS
               </h5>
               <p className="text-lg text-dark-blue-400 mb-2">
@@ -512,7 +512,7 @@ function CourseDetails(props) {
               <p className="text-lg text-dark-blue-400 mb-2">- React Hooks</p>
             </div>
             <div className="md:w-2/6">
-              <h5 className="bg-gold-300 inline-block rounded py-1 px-2 text-base text-orange-800 mb-3 mt-6 md:mt-0">
+              <h5 className="bg-gold-300 inline-block rounded py-1 px-2 text-base text-orange-800 mb-3 mt-6 md:mt-0 font-mukta">
                 PROJECTS
               </h5>
               <p className="text-lg text-dark-blue-400 mb-2">- Medium Clone</p>
@@ -535,7 +535,7 @@ function CourseDetails(props) {
           </h3>
           <div className="md:flex md:justify-between">
             <div className="md:w-4/6">
-              <h5 className="bg-blue-200 inline-block rounded py-1 px-2 text-base text-dark-blue-500 mb-3">
+              <h5 className="bg-blue-200 inline-block rounded py-1 px-2 text-base text-dark-blue-500 mb-3 font-mukta">
                 TOPICS
               </h5>
               <p className="text-lg text-dark-blue-400 mb-2">
@@ -553,7 +553,7 @@ function CourseDetails(props) {
               <p className="text-lg text-dark-blue-400 mb-2"></p>
             </div>
             <div className="md:w-2/6">
-              <h5 className="bg-blue-200 inline-block rounded py-1 px-2 text-base text-dark-blue-500 mb-3 mt-6 md:mt-0">
+              <h5 className="bg-blue-200 inline-block rounded py-1 px-2 text-base text-dark-blue-500 mb-3 mt-6 md:mt-0 font-mukta">
                 PROJECTS
               </h5>
               <p className="text-lg text-dark-blue-400 mb-2">- Slack Clone</p>
@@ -567,7 +567,7 @@ function CourseDetails(props) {
           </h3>
           <div className="md:flex md:justify-between">
             <div className="md:w-4/6">
-              <h5 className="bg-gold-300 inline-block rounded py-1 px-2 text-base text-orange-800 mb-3">
+              <h5 className="bg-gold-300 inline-block rounded py-1 px-2 text-base text-orange-800 mb-3 font-mukta">
                 TOPICS
               </h5>
               <p className="text-lg text-dark-blue-400 mb-2">
@@ -591,7 +591,7 @@ function CourseDetails(props) {
           </h3>
           <div className="md:flex md:justify-between">
             <div className="md:w-4/6">
-              <h5 className="bg-blue-200 inline-block rounded py-1 px-2 text-base text-dark-blue-500 mb-3">
+              <h5 className="bg-blue-200 inline-block rounded py-1 px-2 text-base text-dark-blue-500 mb-3 font-mukta">
                 TOPICS
               </h5>
               <p className="text-lg text-dark-blue-400 mb-2">
@@ -605,7 +605,7 @@ function CourseDetails(props) {
               </p>
             </div>
             <div className="md:w-2/6">
-              <h5 className="bg-blue-200 inline-block rounded py-1 px-2 text-base text-dark-blue-500 mb-3 mt-6 md:mt-0">
+              <h5 className="bg-blue-200 inline-block rounded py-1 px-2 text-base text-dark-blue-500 mb-3 mt-6 md:mt-0 font-mukta">
                 EXERCISES
               </h5>
               <p className="text-lg text-dark-blue-400 mb-2">
@@ -621,7 +621,7 @@ function CourseDetails(props) {
           </h3>
           <div className="md:flex md:justify-between">
             <div className="md:w-4/6">
-              <h5 className="bg-gold-300 inline-block rounded py-1 px-2 text-base text-orange-800 mb-3">
+              <h5 className="bg-gold-300 inline-block rounded py-1 px-2 text-base text-orange-800 mb-3 font-mukta">
                 TOPICS
               </h5>
               <p className="text-lg text-dark-blue-400 mb-2">
@@ -629,7 +629,7 @@ function CourseDetails(props) {
               </p>
             </div>
             <div className="md:w-2/6">
-              <h5 className="bg-gold-300 inline-block rounded py-1 px-2 text-base text-orange-800 mb-3 mt-6 md:mt-0">
+              <h5 className="bg-gold-300 inline-block rounded py-1 px-2 text-base text-orange-800 mb-3 mt-6 md:mt-0 font-mukta">
                 PROJECTS
               </h5>
               <p className="text-lg text-dark-blue-400 mb-2">- Shopify Clone</p>

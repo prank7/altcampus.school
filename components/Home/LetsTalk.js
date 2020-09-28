@@ -13,7 +13,7 @@ function LetsTalk(props) {
           </div>
 
           <a
-            className="mt-4 md:mt-0 bg-white uppercase text-dark-blue-500 py-4 px-12 inline-block rounded shadow-md font-semibold"
+            className="mt-4 md:mt-0 bg-white uppercase text-dark-blue-500 py-4 px-12 inline-block rounded shadow-md btn-hover font-semibold"
             href="https://launchpad.altcampus.school/signup"
           >
             Let's talk!
