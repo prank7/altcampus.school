@@ -12,7 +12,6 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <link href='/assets/stylesheets/style.css' rel='stylesheet' />
           <link
             href='https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Source+Sans+Pro:wght@200;300;400;600;700&display=swap'
             rel='stylesheet'
@@ -47,7 +46,7 @@ class MyDocument extends Document {
             }}
           />
         </Head>
-        <body>
+        <body className='antialiased'>
           <Main />
           <NextScript />
         </body>
