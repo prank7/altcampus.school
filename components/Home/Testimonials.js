@@ -1,7 +1,6 @@
-import React, { Component } from "react";
-import { render } from "react-dom";
-import TestimonialItem from "./TestimonialItem";
-import { data } from "./TestimonialData";
+import React, { Component } from 'react';
+import TestimonialItem from './TestimonialItem';
+import { data } from './TestimonialData';
 
 class Testimonials extends Component {
   constructor(props) {
@@ -46,14 +45,14 @@ class Testimonials extends Component {
           100 * this.state.currentItem
         }%)`;
 
-        this.testimonialContainer.style.transitionDuration = "0.5s";
+        this.testimonialContainer.style.transitionDuration = '0.5s';
 
         if (
           this.state.currentItem ===
           this.testimonialContainer.children.length - 1
         ) {
           setTimeout(() => {
-            this.testimonialContainer.style.transitionDuration = "0s";
+            this.testimonialContainer.style.transitionDuration = '0s';
             this.testimonialContainer.style.transform = `translate(-${100}%)`;
 
             this.setState({ currentItem: 1 });
@@ -70,11 +69,11 @@ class Testimonials extends Component {
           100 * this.state.currentItem
         }%)`;
 
-        this.testimonialContainer.style.transitionDuration = "0.5s";
+        this.testimonialContainer.style.transitionDuration = '0.5s';
 
         if (this.state.currentItem === 0) {
           setTimeout(() => {
-            this.testimonialContainer.style.transitionDuration = "0s";
+            this.testimonialContainer.style.transitionDuration = '0s';
             this.testimonialContainer.style.transform = `translate(-${
               100 * (this.testimonialContainer.children.length - 2)
             }%)`;
@@ -91,39 +90,39 @@ class Testimonials extends Component {
   render() {
     const { testimonialData } = this.state;
     return (
-      <section className="py-40 testimonial" id="testimonials">
-        <header className="text-center md:flex md:justify-center md:items-center mb-12">
+      <section className='py-20 md:py-24 testimonial' id='testimonials'>
+        <header className='text-center md:flex md:justify-center md:items-center mb-12'>
           <img
-            className="inline-block w-12 md:mr-4"
-            src="/assets/media/testimonial.svg"
-            alt="testimonial"
+            className='inline-block w-12 md:mr-4'
+            src='/assets/media/testimonial.svg'
+            alt='testimonial'
           />
-          <h2 className="font-bold text-4xl text-white">From our old folks</h2>
+          <h2 className='font-bold text-4xl text-white'>From our alumni</h2>
         </header>
 
-        <div className="text-white">
-          <div className="carousel-wrapper relative mt-12 overflow-hidden">
+        <div className='text-white'>
+          <div className='carousel-wrapper relative mt-12 overflow-hidden'>
             <div>
-              <div className="absolute prev-container z-10 flex justify-center items-center px-8">
+              <div className='absolute prev-container z-10 flex justify-center items-center px-8'>
                 <button
                   onClick={this.handlePrevious}
-                  className="w-12 h-12 bg-royal-blue-500 prev rounded-full cursor-pointer"
+                  className='w-12 h-12 bg-royal-blue-500 prev rounded-full cursor-pointer focus:bg-royal-blue-600 hover:bg-royal-blue-400'
                 ></button>
               </div>
-              <div className="absolute next-container z-10 flex justify-center items-center px-8">
+              <div className='absolute next-container z-10 flex justify-center items-center px-8'>
                 <button
                   onClick={this.handleNext}
-                  className="w-12 h-12 bg-royal-blue-500 next rounded-full cursor-pointer"
+                  className='w-12 h-12 bg-royal-blue-500 next rounded-full cursor-pointer focus:bg-royal-blue-600 hover:bg-royal-blue-400'
                 ></button>
               </div>
             </div>
 
             <div
               ref={(ref_id) => (this.testimonialContainer = ref_id)}
-              className="flex"
+              className='flex'
             >
               {testimonialData.map((item) => {
-                return <TestimonialItem item={item} />;
+                return <TestimonialItem key={item.name} item={item} />;
               })}
             </div>
           </div>
