@@ -1,12 +1,18 @@
 import React from 'react';
+import Head from "next/head";
 
 import LayoutHome from '../components/Home/Layout';
 
 function HowItWorks(props) {
   return (
+    <>
+    <Head>
+      <title>How It Works | AltCampus School</title>
+    </Head>
     <LayoutHome>
       <Content />
     </LayoutHome>
+    </>
   );
 }
 

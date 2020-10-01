@@ -4,7 +4,7 @@ function CourseDetails(props) {
   return (
     <section className='py-24 bg-royal-blue-100' id='course-details'>
       <header className='text-center'>
-        <h2 className='font-bold text-4xl text-dark-blue-500'>
+        <h2 className='font-bold text-5xl text-dark-blue-500'>
           Like we said <br />
           Exhaustive Course Content
         </h2>
@@ -64,7 +64,7 @@ function CourseDetails(props) {
         </div>
       </div>
 
-      <div className='container mx-auto px-8'>
+      <div className='container mx-auto px-16'>
         <div className='p-8 bg-dark-blue-100'>
           <h3 className='uppercase text-3xl font-bold text-green-theme-700 mb-6'>
             UNIX & GIT

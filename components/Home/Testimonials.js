@@ -97,7 +97,7 @@ class Testimonials extends Component {
             src='/assets/media/testimonial.svg'
             alt='testimonial'
           />
-          <h2 className='font-bold text-4xl text-white'>From our alumni</h2>
+          <h2 className='font-bold text-5xl text-white'>From Our Alumni</h2>
         </header>
 
         <div className='text-white'>

@@ -1,8 +1,13 @@
 import React from 'react';
+import Head from "next/head";
 import LayoutHome from '../components/Home/Layout';
 
 function RefundPolicy(props) {
   return (
+    <>
+    <Head>
+      <title>Refund Policy | AltCampus School</title>
+    </Head>
     <LayoutHome>
       <main class='max-w-3xl mx-auto px-6 space-y-4 text-gray-600 py-8 pb-16 space-y-3 font-normal antialiased'>
         <article className='text-center md:py-16 py-12'>
@@ -74,6 +79,7 @@ function RefundPolicy(props) {
         </p>
       </main>
     </LayoutHome>
+    </>
   );
 }
 

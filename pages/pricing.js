@@ -3,12 +3,18 @@ import Pricing from '../components/Home/Pricing';
 import Footer from '../components/Home/Footer';
 import Header from '../components/Home/Header';
 import LayoutHome from '../components/Home/Layout';
+import Head from "next/head";
 
 function PricingPage(props) {
   return (
-    <LayoutHome>
-      <Pricing />
-    </LayoutHome>
+    <>
+      <Head>
+        <title>Pricing Policy | AltCampus School</title>
+      </Head>
+      <LayoutHome>
+        <Pricing />
+      </LayoutHome>
+    </>
   );
 }
 

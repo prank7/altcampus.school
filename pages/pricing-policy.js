@@ -1,8 +1,13 @@
 import React from 'react';
+import Head from "next/head";
 import LayoutHome from '../components/Home/Layout';
 
 function PricingPolicy(props) {
   return (
+    <>
+    <Head>
+      <title>Pricing Policy | AltCampus School</title>
+    </Head>
     <LayoutHome>
       <main class='max-w-3xl mx-auto px-6 space-y-4 text-gray-700 py-8 pb-16 space-y-3 font-normal'>
         <article className='text-center md:py-16 py-12'>
@@ -123,6 +128,7 @@ function PricingPolicy(props) {
         </p>
       </main>
     </LayoutHome>
+    </>
   );
 }
 

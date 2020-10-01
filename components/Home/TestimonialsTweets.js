@@ -3,9 +3,9 @@ import React from 'react';
 function TestimonialTweets(props) {
   return (
     <section className='tweet-selection py-24' id='tweetSection'>
-      <div className='container mx-auto px-8 break-words'>
+      <div className='container mx-auto px-16 break-words'>
         <header className='text-center mb-12'>
-          <h2 className='font-bold text-4xl text-white'>
+          <h2 className='font-bold text-5xl text-white'>
             Let your skills speak for you
           </h2>
         </header>
