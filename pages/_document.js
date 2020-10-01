@@ -13,19 +13,12 @@ class MyDocument extends Document {
       <Html>
         <Head>
           <meta charset='UTF-8' />
-          <meta
-            name='viewport'
-            content='width=device-width, initial-scale=1.0'
-          />
+          <meta name='viewport' content='width=device-width, initial-scale=1.0' />
           <meta
             name='description'
             content='AltCampus.school is an online, immersive program that helps you learn full-stack web development and
       become job-ready.'
           />
-          <title>
-            AltCampus School | Everything you need to become a software
-            developer
-          </title>
           <meta name='robots' content='index, follow' />
           <meta property='og:title' content='AltCampus School' />
           <meta
@@ -55,7 +48,7 @@ class MyDocument extends Document {
           />
 
           <link
-            href='https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Source+Sans+Pro:wght@200;300;400;600;700&display=swap'
+            href='https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Source+Sans+Pro:wght@200;400;600;700&family=Mukta:wght@300;400;500;600&display=swap'
             rel='stylesheet'
           />
           <script

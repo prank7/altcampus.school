@@ -1,8 +1,13 @@
 import React from 'react';
+import Head from "next/head";
 import LayoutHome from '../components/Home/Layout';
 
 function Terms(props) {
   return (
+    <>
+    <Head>
+      <title>Terms | AltCampus School</title>
+    </Head>
     <LayoutHome>
       <section className='max-w-3xl mx-auto px-6 space-y-4 text-gray-700 py-8 pb-16'>
         <article className='text-center md:py-16 py-12'>
@@ -361,6 +366,7 @@ function Terms(props) {
         </ul>
       </section>
     </LayoutHome>
+    </>
   );
 }
 

@@ -6,10 +6,10 @@ function LetsTalk(props) {
       <div className='container mx-auto px-8'>
         <div className='md:px-12 text-center md:text-left md:flex md:items-center md:justify-center'>
           <div>
-            <h3 className='text-3xl text-white md:max-w-lg md:mr-8'>
+            <h3 className='text-3xl text-white font-semibold md:max-w-lg md:mr-8'>
               Still have doubts? Talk to us!
             </h3>
-            <h5 className='text-white font-bold'>
+            <h5 className='text-white font-bold text-lg pt-1 font-source'>
               Get on a call with our co-founder.
             </h5>
           </div>

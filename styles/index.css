@@ -225,3 +225,23 @@ button {
   height: 240px;
   margin: 4rem 0;
 }
+
+.leading-custom {
+  line-height: 1.2;
+}
+
+.text-hero-subheading {
+  color: #7f7f90;
+}
+
+.text-hero-tags {
+  color: #7273ba;
+}
+
+.font-w600 {
+  font-weight: 600;
+}
+
+.feature-desc {
+  color: #6b7c93;
+}
