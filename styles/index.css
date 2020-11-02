@@ -245,3 +245,8 @@ button {
 .feature-desc {
   color: #6b7c93;
 }
+
+.prose {
+  max-width: 100%;
+  font-size: 1.1rem;
+}
