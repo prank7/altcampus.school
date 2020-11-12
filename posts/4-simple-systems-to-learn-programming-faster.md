@@ -4,7 +4,7 @@ date: '2020-11-02'
 blurb: Simple systems to help you learn programming better and faster.
 ---
 
-1.  Learn in public
+#### 1. Learn in public
 
 Learning in public means sharing whatever you are learning publicly. It could be through tweets, blog posts, videos, cartoons etc. The idea is to teach whatever you have learnt or share whatever you have created.
 
@@ -18,7 +18,7 @@ To get inspiration, look at the [students of AltCampus tweeting their progress p
 
 To learn more about this idea, read this fantastic article - [learning in public](https://www.swyx.io/learn-in-public/)
 
-2.  Solve the problem on the paper
+#### 2. Solve the problem on the paper
 
 One of the biggest problems with newbies is that they are just so excited to write code that they jump into the text editor the minute they have a problem statement. The problem with this approach is that you are actually not taking the time out to understand and think about the solution of the problem.
 
