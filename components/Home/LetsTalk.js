@@ -10,7 +10,7 @@ function LetsTalk(props) {
               Still have doubts? Talk to us!
             </h3>
             <h5 className='text-white font-bold text-lg pt-1 font-source'>
-              Get on a call with our co-founder.
+              Get on a call with our team.
             </h5>
           </div>
 
@@ -18,7 +18,7 @@ function LetsTalk(props) {
             className='mt-4 md:mt-0 bg-white tracking-wider uppercase text-dark-blue-500 py-3 px-12 inline-block rounded shadow-md btn-hover font-semibold'
             target='_blank'
             rel='noopener'
-            href='https://calendly.com/prank7/altcampus-one-on-one'
+            href='https://calendly.com/altcampus-one-on-one/call'
           >
             Let's talk!
           </a>
