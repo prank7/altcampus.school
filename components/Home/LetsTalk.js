@@ -18,7 +18,7 @@ function LetsTalk(props) {
             className='mt-4 md:mt-0 bg-white tracking-wider uppercase text-dark-blue-500 py-3 px-12 inline-block rounded shadow-md btn-hover font-semibold'
             target='_blank'
             rel='noopener'
-            href='https://calendly.com/altcampus-one-on-one/call'
+            href='https://calendly.com/prank7/altcampus-one-to-one'
           >
             Let's talk!
           </a>
