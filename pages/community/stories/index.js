@@ -8,10 +8,10 @@ const Stories = ({ allPostsData }) => {
   return (
     <Layout>
       <NextSeo
-        title={postData.title + " |" + " AltCampus School"}
+        title={"AltCampus School | Stories"}
         description='Placement and success stories from AltCampus'        
         openGraph={{
-          title: postData.title + " |" + " AltCampus School",
+          title: "AltCampus School | Stories",
           description: 'Placement and success stories from AltCampus' ,
         }}
         twitter={{
