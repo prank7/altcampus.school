@@ -5,6 +5,8 @@ blurb: Harshaan shares about learning to code, AltCampus, getting first job and 
 studentPhoto: '/images/students/Harshaan.jpeg'
 name: 'Harshaan Nihal Khan'
 company: 'BigBinary'
+cta: true
+ctaText: AltCampus provides quality content, mentorship, peer support system, and placement support to help you land a job like Harshaan 😊
 ---
 
 Harshaan, one of our Alumni, after completing the AltCampus course got placed at <a href="https://bigbinary.com" target="_blank">BigBinary</a> as a Software Engineer. In a conversation with our co-founder Prashant, he talks about his journey of learning to code, role of AltCampus, placement support and getting and transitioning into his first tech job. He also shares his advice for people getting started in web development.

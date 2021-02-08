@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 const Hero = () => {
   return (
     <div className='py-10 mx-auto max-w-screen-xl px-4 sm:px-6 md:py-16 lg:py-20 bg-gray-100'>
@@ -13,12 +15,14 @@ const Hero = () => {
         </p>
 
         <span className="inline-flex rounded-md shadow-sm pt-6">
-          <a
-            href="#"
-            className="whitespace-no-wrap inline-flex items-center justify-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-green-theme-600 hover:bg-green-theme-500 focus:outline-none focus:border-green-theme-700 focus:shadow-outline-green-theme active:bg-green-theme-700 transition ease-in-out duration-150"
-          >
-            Join the Community
-          </a>
+          <Link href="/community/join">
+            <a
+              href="#"
+              className="whitespace-no-wrap inline-flex items-center justify-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-green-theme-600 hover:bg-green-theme-500 focus:outline-none focus:border-green-theme-700 focus:shadow-outline-green-theme active:bg-green-theme-700 transition ease-in-out duration-150"
+            >
+              Join the Community
+            </a>
+          </Link>
         </span>
 
       </div>
