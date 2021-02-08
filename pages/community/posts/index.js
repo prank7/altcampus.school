@@ -2,13 +2,24 @@ import Head from 'next/head';
 import Link from 'next/link';
 import Layout from '../../../components/Layout';
 import { getSortedPostsData } from '../../../lib/posts';
+import { NextSeo } from 'next-seo';
 
 const Tutorials = ({ allPostsData }) => {
   return (
     <Layout>
-      <Head>
-        <title>AltCampus Community | Tutorials</title>
-      </Head>
+      <NextSeo
+        title="AltCampus Community | Posts"
+        description="Insightful tips, techniques and posts on how to learn software developement and get a job."
+        openGraph={{
+          title: 'AltCampus Community | Posts',
+          description: 'Insightful tips, techniques and posts on how to learn software developement and get a job.',
+        }}
+        twitter={{
+          handle: '@altcampus',
+          site: '@altcampus',
+          cardType: 'summary_large_image',
+        }}
+      />
       <div className="mx-8 md:mx-16 grid grid-cols-12 gap-4 post-container">
         <div className="mx-8 col-span-1 md:col-start-3 md:col-span-8">
           <h1 className="text-center py-4 pt-8 text-4xl font-bold text-gray-700">

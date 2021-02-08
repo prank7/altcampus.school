@@ -2,13 +2,24 @@ import Head from 'next/head';
 import Link from 'next/link';
 import Layout from '../../../components/Layout';
 import { getSortedPostsData } from '../../../lib/stories';
+import { NextSeo} from 'next-seo';
 
 const Stories = ({ allPostsData }) => {
   return (
     <Layout>
-      <Head>
-        <title>AltCampus Community | Stories</title>
-      </Head>
+      <NextSeo
+        title={postData.title + " |" + " AltCampus School"}
+        description='Placement and success stories from AltCampus'        
+        openGraph={{
+          title: postData.title + " |" + " AltCampus School",
+          description: 'Placement and success stories from AltCampus' ,
+        }}
+        twitter={{
+          handle: '@altcampus',
+          site: '@altcampus',
+          cardType: 'summary_large_image',
+        }}
+      />
       <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-6 gap-4">
         <div className="mx-8 col-span-1 md:col-start-2 md:col-span-4">
           <h1 className="text-center py-4 pt-8 text-4xl font-bold text-gray-700">
@@ -35,7 +46,7 @@ const Stories = ({ allPostsData }) => {
                         <h5 className="text-md font-semibold text-gray-700">{name}</h5>
                       </div>
                       <div>
-                        <h5 className="text-sm text-gray-600">{`‍Placed in ${company}`}</h5>
+                        <h5 className="text-sm text-gray-600">{`‍Placed at ${company}`}</h5>
                       </div>
                     </figcaption>
                   </div>

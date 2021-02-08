@@ -3,33 +3,30 @@ import Layout from "../../../components/Layout";
 import Link from "next/link";
 import Head from "next/head";
 import PostCTA from '../../../components/Community/PostCTA';
+import { NextSeo} from 'next-seo';
 
 export default function Post({ postData }) {
   return (
     <Layout>
-      <Head>
-        <title>{postData.title + " |" + " AltCampus School"}</title>
-        <meta
-          property="og:image"
-          content={
-            postData.img || ""
-          }
-        />
-        <meta
-          property="og:description"
-          content={
-            postData.description ||
-            "AltCampus School"
-          }
-        />
-        <meta
-          name="description"
-          content={
-            postData.description ||
-            "AltCampus School"
-          }
-        />
-      </Head>
+      <NextSeo
+        title={postData.title + " |" + " AltCampus School"}
+        description={postData.description}        
+        openGraph={{
+          title: postData.title + " |" + " AltCampus School",
+          description: postData.description,
+          images: [
+            {
+              url: postData.photo,
+              alt: postData.title,
+            }
+          ]
+        }}
+        twitter={{
+          handle: '@altcampus',
+          site: '@altcampus',
+          cardType: 'summary_large_image',
+        }}
+      />
 
       <section className="mx-8 md:mx-16 grid grid-cols-12 gap-4 post-container">
         <div className=" col-span-12 sm:col-start-3 sm:col-span-8 md:px-6 ">
