@@ -248,5 +248,10 @@ button {
 
 .prose {
   max-width: 100%;
-  font-size: 1.1rem;
+  font-size: 1.12rem;  
+}
+
+.prose p {
+  color: rgb(66, 84, 102);
+  font-weight: 500;
 }

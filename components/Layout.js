@@ -21,7 +21,7 @@ export default function Layout({ children }) {
       <main>
         <Navbar />
         {children}
-        <div style={{ marginTop: '10rem'}}></div>
+        <div style={{ marginTop: '6rem'}}></div>
         <Footer />
       </main>
     </div>
