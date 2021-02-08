@@ -107,7 +107,7 @@ function FAQ(props) {
               Yes, please pick a slot with one of our co-founders{' '}
               <a
                 className='text-royal-blue-500 font-semibold underline hover:no-underline'
-                href='https://calendly.com/prank7/altcampus-one-on-one'
+                href='https://calendly.com/prank7/altcampus-one-to-one'
               >
                 here.
               </a>
