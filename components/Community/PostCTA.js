@@ -15,9 +15,9 @@ function PostCTA(props) {
             </h5> */}
           </div>
 
-          <Link href="/" as="/" className="flex-1">
+          <Link href="/" as="/" >
             <a
-              className='px-8 py-2 text-sm mt-4 md:mt-0 bg-white tracking-wider uppercase text-dark-blue-500 inline-block rounded shadow-md btn-hover font-semibold'
+              className='flex-1 px-8 py-2 text-sm mt-4 md:mt-0 bg-white tracking-wider uppercase text-dark-blue-500 inline-block rounded shadow-md btn-hover font-semibold'
               target='_blank'
               rel='noopener'
               href='https://altcampus.school'
