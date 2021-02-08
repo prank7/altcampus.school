@@ -10,13 +10,6 @@ export default function Layout({ children }) {
     <div>
       <Head>
         <link rel="icon" href="/favicon.png" />
-        <meta name="description" content="AltCampus Community" />
-        <meta
-          property="og:image"
-          content="/images/AltCampus-Community-OG.png"
-        />
-        <meta name="og:title" content={siteTitle} />
-        <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <main>
         <Navbar />
