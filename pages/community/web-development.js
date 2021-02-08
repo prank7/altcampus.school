@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Head from 'next/head';
 import Layout from '../../components/Layout';
 import StackedList from '../../components/StackedList';
+import Footer from '../../components/Home/Footer';
 
 class WebDevelopment extends Component {
   render() {
@@ -25,6 +26,7 @@ class WebDevelopment extends Component {
             </div>
           </div> */}
         </div>
+  
       </Layout>
     )
   }

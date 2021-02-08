@@ -3,6 +3,7 @@ import Navbar from "../../components/Navbar";
 import Hero from "../../components/Hero";
 import Card from "../../components/Card";
 import Layout from "../../components/Layout";
+import Footer from "../../components/Home/Footer";
 
 export default function Community() {
   return (
@@ -31,10 +32,10 @@ export default function Community() {
           <li className="col-span-1 bg-white rounded-lg shadow">
             <Card
               imageURL="/images/icons/tutorials.svg"
-              title="Tutorials"
+              title="Posts"
               subTitle="Read, learn and build using the tutorials."
               cta="Read"
-              link="/community/tutorials"
+              link="/community/posts"
             />
           </li>
 
