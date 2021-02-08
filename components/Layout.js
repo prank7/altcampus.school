@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
+import Footer from "./Home/Footer";
 import Navbar from "./Navbar";
 
 const siteTitle = "AltCampus Community";
@@ -20,6 +21,8 @@ export default function Layout({ children }) {
       <main>
         <Navbar />
         {children}
+        <div style={{ marginTop: '10rem'}}></div>
+        <Footer />
       </main>
     </div>
   );

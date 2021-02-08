@@ -1,4 +1,4 @@
-import { getAllPostIds, getPostData } from "../../../lib/posts";
+import { getAllPostIds, getPostData } from "../../../lib/stories";
 import Layout from "../../../components/Layout";
 import Link from "next/link";
 import Head from "next/head";
@@ -32,7 +32,7 @@ export default function Post({ postData }) {
 
       <section className="mx-8 md:mx-16 grid grid-cols-12 gap-4 post-container">
         <div className=" col-span-12 sm:col-start-3 sm:col-span-8 md:px-6 ">
-          <h2 className="mt-16 my-4 font-bold text-indigo-700 text-3xl">
+          <h2 className="mt-16 my-4 font-bold text-green-theme-600 text-3xl">
             {postData.title}
           </h2>
           <div
