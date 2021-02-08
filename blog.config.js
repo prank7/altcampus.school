@@ -18,9 +18,7 @@ module.exports = {
       images: [
         {
           url: 'https://altcampus.school/assets/media/altcampus-school-og.png',
-          alt: title,
-          width: 1280,
-          height: 720
+          alt: title
         }
       ]
     },
