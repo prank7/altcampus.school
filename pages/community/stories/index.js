@@ -26,7 +26,7 @@ const Stories = ({ allPostsData }) => {
                   <img class="w-32 h-32" src={studentPhoto} alt="" width="384" height="512" />
                   <div class="my-auto px-4">
                     <blockquote>
-                      <p class="text-lg font-semibold text-green-theme-600 text-xl">
+                      <p class="font-semibold text-green-theme-600 text-xl hover:text-green-theme-500">
                         {title}
                       </p>
                     </blockquote>

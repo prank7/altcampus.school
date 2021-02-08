@@ -80,12 +80,14 @@ function Navbar(params) {
               </a>
 
               <span className="inline-flex rounded-md shadow-sm">
-                <a
-                  href="#"
-                  className="whitespace-no-wrap inline-flex items-center justify-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 border-indigo-600 hover:text-white hover:bg-indigo-500 focus:outline-none transition ease-in-out duration-150"
-                >
-                  Join the Community
-                </a>
+                <Link href="/community/join">
+                  <a
+                    href="#"
+                    className="whitespace-no-wrap inline-flex items-center justify-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 border-indigo-600 hover:text-white hover:bg-indigo-500 focus:outline-none transition ease-in-out duration-150"
+                  >
+                    Join the Community
+                  </a>
+                </Link>
               </span>
             </div>
           </div>

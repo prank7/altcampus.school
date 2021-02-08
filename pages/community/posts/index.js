@@ -22,9 +22,9 @@ const Tutorials = ({ allPostsData }) => {
                 href={`/community/posts/[id]`}
                 as={`/community/posts/${id}`}
               >
-                <figure class="bg-gray-100 rounded-xl flex p-2" style={{cursor: 'pointer'}}>
-                  <img class="w-40" src={photo} alt="" width="384" height="512" />
-                  <div class="my-auto px-4">
+                <figure class="bg-gray-100 rounded-xl flex p-3" style={{cursor: 'pointer'}}>
+                  <img class="w-48" src={photo} alt="" width="384" height="512" />
+                  <div class="my-auto pl-8">
                     <blockquote>
                       <p class="text-lg font-semibold text-indigo-600 text-2xl">
                         {title}

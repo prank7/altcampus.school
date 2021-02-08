@@ -4,6 +4,8 @@ date: '2020-11-02'
 blurb: Simple systems to help you learn programming better and faster.
 photo: '/images/posts/4-systems-learn-programming-faster-altcampus.png'
 description: How can you accelerate the pace of learning programming? Learn programming faster using these simple techniques.
+cta: true
+ctaText: AltCampus helps you learn faster by inculcating these systems as part of the learning model.  🙌
 ---
 
 ![Systems to learn programming faster](/images/posts/4-systems-learn-programming-faster-altcampus.png)

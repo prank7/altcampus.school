@@ -2,6 +2,7 @@ import { getAllPostIds, getPostData } from "../../../lib/posts";
 import Layout from "../../../components/Layout";
 import Link from "next/link";
 import Head from "next/head";
+import PostCTA from "../../../components/Community/PostCTA";
 
 export default function Post({ postData }) {
   return (
@@ -39,8 +40,14 @@ export default function Post({ postData }) {
             className="prose "
             dangerouslySetInnerHTML={{ __html: postData.contentHtml }}
           />
+          {
+            postData.cta ?
+              <PostCTA ctaText={postData.ctaText} />
+            : null
+          }
         </div>
       </section>
+
     </Layout>
   );
 }
