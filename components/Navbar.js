@@ -46,6 +46,11 @@ function Navbar(params) {
             </div>
             <div className="hidden md:flex items-center justify-end space-x-8 md:flex-1 lg:w-0">
               <nav className="hidden md:flex space-x-10">
+                <Link href="/">
+                  <a className="text-gray-500 inline-flex items-center space-x-2 text-base leading-6 font-medium hover:text-gray-900 transition ease-in-out duration-150">
+                    Program
+                  </a>
+                </Link>
                 <Link href="/community/web-development">
                   <a className="text-gray-500 inline-flex items-center space-x-2 text-base leading-6 font-medium hover:text-gray-900 transition ease-in-out duration-150">
                     Roadmap
