@@ -3,6 +3,8 @@ import Link from 'next/link';
 import Layout from '../../../components/Layout';
 import { getSortedPostsData } from '../../../lib/posts';
 import { NextSeo } from 'next-seo';
+import generateSitemap from '../../../lib/generateSitemap';
+
 
 const Tutorials = ({ allPostsData }) => {
   return (
@@ -33,15 +35,15 @@ const Tutorials = ({ allPostsData }) => {
                 href={`/community/posts/[id]`}
                 as={`/community/posts/${id}`}
               >
-                <figure class="bg-gray-100 rounded-xl flex p-3" style={{cursor: 'pointer'}}>
-                  <img class="w-48" src={photo} alt="" width="384" height="512" />
-                  <div class="my-auto pl-8">
+                <figure className="bg-gray-100 rounded-xl flex p-3" style={{cursor: 'pointer'}}>
+                  <img className="w-48" src={photo} alt="" width="384" height="512" />
+                  <div className="my-auto pl-8">
                     <blockquote>
-                      <p class="text-lg font-semibold text-indigo-600 text-2xl">
+                      <p className="text-lg font-semibold text-indigo-600 text-2xl">
                         {title}
                       </p>
                     </blockquote>
-                    {/* <figcaption class="pt-4">
+                    {/* <figcaption className="pt-4">
                       <div>
                         <h5 className="text-md font-semibold text-gray-700">{name}</h5>
                       </div>
@@ -62,6 +64,7 @@ const Tutorials = ({ allPostsData }) => {
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
+  await generateSitemap();
   return {
     props: {
       allPostsData,
