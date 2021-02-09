@@ -4,7 +4,7 @@ description: "Harshaan talks about how to learn to code, AltCampus experience, p
 date: '2020-02-08'
 blurb: Harshaan shares about learning to code, AltCampus, getting first job and advice for newbies.
 studentPhoto: '/images/students/Harshaan.jpeg'
-photo: '/images/stories/Harshaan-AltCampus-placement.png'
+photo: 'https://altcampus.school/images/stories/Harshaan-AltCampus-placement.png'
 name: 'Harshaan Nihal Khan'
 company: 'BigBinary'
 cta: true
