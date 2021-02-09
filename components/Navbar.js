@@ -47,19 +47,19 @@ function Navbar(params) {
             <div className="hidden md:flex items-center justify-end space-x-8 md:flex-1 lg:w-0">
               <nav className="hidden md:flex space-x-10">
                 <Link href="/">
-                  <a className="text-gray-500 inline-flex items-center space-x-2 text-base leading-6 font-medium hover:text-gray-900 transition ease-in-out duration-150">
+                  <a className="text-gray-700 inline-flex items-center space-x-2 text-base leading-6 font-medium hover:text-gray-900 transition ease-in-out duration-150">
                     Program
                   </a>
                 </Link>
                 <Link href="/community/web-development">
-                  <a className="text-gray-500 inline-flex items-center space-x-2 text-base leading-6 font-medium hover:text-gray-900 transition ease-in-out duration-150">
+                  <a className="text-gray-700 inline-flex items-center space-x-2 text-base leading-6 font-medium hover:text-gray-900 transition ease-in-out duration-150">
                     Roadmap
                   </a>
                 </Link>
                 <Link href="/community/posts">
                   <a
                     href="#"
-                    className="text-base leading-6 font-medium text-gray-500 hover:text-gray-900 transition ease-in-out duration-150"
+                    className="text-base leading-6 font-medium text-gray-700 hover:text-gray-900 transition ease-in-out duration-150"
                   >
                     Posts
                   </a>
@@ -67,7 +67,7 @@ function Navbar(params) {
                 <Link href="/community/stories">
                   <a
                     href="#"
-                    className="text-base leading-6 font-medium text-gray-500 hover:text-gray-900 transition ease-in-out duration-150"
+                    className="text-base leading-6 font-medium text-gray-700 hover:text-gray-900 transition ease-in-out duration-150"
                   >
                     Stories
                   </a>
@@ -119,11 +119,13 @@ function Navbar(params) {
                 <div className="pt-5 pb-6 px-5 space-y-6">
                   <div className="flex items-center justify-between">
                     <div>
-                      <img
-                        className="h-8 w-auto"
-                        src="/images/altcampus-logo.svg"
-                        alt="AltCampus logo"
-                      />
+                      <Link href="/">
+                        <img
+                          className="h-8 w-auto"
+                          src="/images/altcampus-logo.svg"
+                          alt="AltCampus logo"
+                        />
+                      </Link>
                     </div>
                     <div className="-mr-2">
                       <button
