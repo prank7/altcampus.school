@@ -33,15 +33,15 @@ const Stories = ({ allPostsData }) => {
                 href={`/community/stories/[id]`}
                 as={`/community/stories/${id}`}
               >
-                <figure class="bg-gray-100 rounded-xl flex p-2" style={{cursor: 'pointer'}}>
-                  <img class="w-32 h-32" src={studentPhoto} alt="" width="384" height="512" />
-                  <div class="my-auto px-4">
+                <figure className="bg-gray-100 rounded-xl flex p-2" style={{cursor: 'pointer'}}>
+                  <img className="w-32 h-32" src={studentPhoto} alt="" width="384" height="512" />
+                  <div className="my-auto px-4">
                     <blockquote>
-                      <p class="font-semibold text-green-theme-600 text-xl hover:text-green-theme-500">
+                      <p className="font-semibold text-green-theme-600 text-xl hover:text-green-theme-500">
                         {title}
                       </p>
                     </blockquote>
-                    <figcaption class="pt-4">
+                    <figcaption className="pt-4">
                       <div>
                         <h5 className="text-md font-semibold text-gray-700">{name}</h5>
                       </div>
