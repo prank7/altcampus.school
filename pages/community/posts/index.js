@@ -22,13 +22,13 @@ const Tutorials = ({ allPostsData }) => {
           cardType: 'summary_large_image',
         }}
       />
-      <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-6 gap-4">
-        <div className="mx-8 col-span-1 md:col-start-3 md:col-span-8">
+      <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-6 gap-4 post-container">
+        <div className="mx-8 col-span-1 md:col-start-2 md:col-span-4">
           <h1 className="text-center py-4 pt-8 text-4xl font-bold text-gray-700">
             Posts
           </h1>
         </div>
-        <div className="mx-8 col-span-1 md:col-start-3 md:col-span-8">
+        <div className="mx-8 col-span-1 md:col-start-2 md:col-span-4">
           {allPostsData.map(({ id, date, photo, title, blurb }) => (
             <div key={id} className="mb-8">
               <Link
