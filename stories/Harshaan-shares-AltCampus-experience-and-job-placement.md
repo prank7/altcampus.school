@@ -4,7 +4,7 @@ description: "Harshaan talks about how to learn to code, AltCampus experience, p
 date: '2020-02-08'
 blurb: Harshaan shares about learning to code, AltCampus, getting first job and advice for newbies.
 studentPhoto: '/images/students/Harshaan.jpeg'
-photo: 'https://altcampus.school/images/stories/Harshaan-AltCampus-placement.png'
+photo: 'https://altcampus.school/images/stories/Harshaan-AltCampus-placement-bootcamp.png'
 name: 'Harshaan Nihal Khan'
 company: 'BigBinary'
 cta: true
@@ -19,7 +19,7 @@ Follow [Harshaan on Twitter](https://twitter.com/klassynihal)
   <iframe title="AltCampus Placement - Harshaan" aria-hidden="true" width="100%" style="position:absolute" height="100%" src="https://www.youtube.com/embed/PHWNI-cDAt4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-#### Here's a transcript of the conversation
+#### Here's the transcript of the conversation
 
 <div class="transcript">
 <span class="mentor">Prashant:</span> Good to see you after so long. 
