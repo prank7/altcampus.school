@@ -22,7 +22,7 @@ const Tutorials = ({ allPostsData }) => {
           cardType: 'summary_large_image',
         }}
       />
-      <div className="mx-8 md:mx-16 grid grid-cols-12 gap-4 post-container">
+      <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-6 gap-4">
         <div className="mx-8 col-span-1 md:col-start-3 md:col-span-8">
           <h1 className="text-center py-4 pt-8 text-4xl font-bold text-gray-700">
             Posts

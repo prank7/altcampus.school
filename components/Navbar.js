@@ -180,9 +180,9 @@ function Navbar(params) {
                           className="flex-shrink-0 h-6 w-6 text-green-theme-600"
                           src="/images/icons/tutorials.svg"
                         />
-                        <Link href="/community/tutorials">
+                        <Link href="/community/posts">
                           <a className="text-base leading-6 font-medium text-gray-900">
-                            Tutorials
+                            Posts
                           </a>
                         </Link>
                       </a>
