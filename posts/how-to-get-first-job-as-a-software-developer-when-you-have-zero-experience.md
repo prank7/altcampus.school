@@ -1,5 +1,5 @@
 ---
-title: 'How to get first job as a developer when you have zero experience'
+title: 'How to get the first job as a developer when you have zero experience'
 description: "How to get first job as a software developer when everyone is looking for experienced developers? Building portfolio, showcasing expertise and getting a job with zero years of experience as a full-stack web developer."
 date: '2020-12-02'
 blurb: Getting first job as a developer is about showing your competence and curiousity.
