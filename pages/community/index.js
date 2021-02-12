@@ -23,7 +23,7 @@ export default function Community() {
             <Card
               imageURL="/images/icons/roadmap.svg"
               title="Roadmap"
-              subTitle="Get a direction."
+              subTitle="Stay on track"
               cta="Explore"
               link="/community/web-development"
             />
@@ -33,7 +33,7 @@ export default function Community() {
             <Card
               imageURL="/images/icons/tutorials.svg"
               title="Posts"
-              subTitle="Read, learn and build using the tutorials."
+              subTitle="Read, learn and build using the posts"
               cta="Read"
               link="/community/posts"
             />
@@ -43,7 +43,7 @@ export default function Community() {
             <Card
               imageURL="/images/icons/stories.svg"
               title="Stories"
-              subTitle="Read success stories of students."
+              subTitle="Read success stories of students"
               cta="Read"
               link="/community/stories"
             />
