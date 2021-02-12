@@ -8,6 +8,8 @@ cta: true
 ctaText: AltCampus helps you get your first job as a software developer by helping you prepare good portfolio, skillset and introducing you to companies hiring.  🙌
 ---
 
+![How to get first job as a developer when you have zero experience - AltCampus](https://altcampus.school/images/posts/how-to-get-first-job-as-a-developer-when-you-have-zero-experience.png)
+
 Most companies want to hire experienced developers but how do you become experienced until you get the first job? This is the classic chicken and egg problem version of tech jobs. Everyone needs to start somewhere.
 
 First, let's understand why most companies want to hire experienced developers. It's becuase with experienced developers companies don't need to invest much time or mentorship in order to get them to be productive. They get the work done. Whereas junior developers usually need lot of handholding, time, and upfront mentorship. It either slows the companies down or needs more investment from them.
