@@ -251,6 +251,12 @@ button {
   font-size: 1.14rem;  
 }
 
+@media screen and (max-width: 640px) {
+  .prose {
+    font-size: 1.2rem;
+  }
+}
+
 .prose p {
   color: rgb(66, 84, 102);
   font-weight: 500;
