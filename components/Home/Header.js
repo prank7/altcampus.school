@@ -64,6 +64,13 @@ function Header() {
               </ActiveLink>
             </li>
             <li className="mb-8 md:mb-0 md:ml-10">
+              <ActiveLink href="/community/stories">
+                <a className="text-4xl md:text-xl text-gold-500  md:text-dark-blue-300 pt-1 hover:text-dark-blue-500">
+                  Stories
+                </a>
+              </ActiveLink>
+            </li>
+            <li className="mb-8 md:mb-0 md:ml-10">
               <a
                 className="inline-flex content-center items-center text-xl md:text-base text-white font-bold md:text-dark-blue-300 uppercase px-12 py-4 md:px-4 md:py-1 border rounded border-green-theme-500 shadow-md  bg-green-theme-500 md:bg-transparent btn-hover tracking-wide"
                 href="https://launchpad.altcampus.school/login"
