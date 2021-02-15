@@ -17,7 +17,7 @@ In a conversation with our co-founder Prashant, he talks about his journey of dr
 
 He also talks about getting first job, working remotely from a village in Andhra Pradesh, building a product from end to end and transitioning into his first tech job. He also shares his advice for people getting started in web development.
 
-Follow [Chaduvula on Twitter](https://twitter.com/klassynihal)
+Follow [Chaduvula on Twitter](https://twitter.com/iamchaduvula)
 
 <div style="padding-bottom: 60%; position: relative">
   <iframe title="Dropping out, bootcamps in India, learning to program, AltCampus Placement - Chaduvula Prasanth" aria-hidden="true" width="100%" style="position:absolute" height="100%" src="https://www.youtube.com/embed/uVC7P7pQOww" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
