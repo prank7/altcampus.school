@@ -6,16 +6,28 @@ blurb: How to present yourself as a developer? How to fix your online presence? 
 photo: 'https://altcampus.school/images/posts/basic-communication-tips-for-beginner-developers.png'
 cta: true
 ctaText: AltCampus helps you pick up good communication skills to get you good, first job as a software developer.  🙌
+scriptTag: https://cdn.jsdelivr.net/npm/gist-embed@1.0.4/dist/gist-embed.min.js
 ---
 
 <div class="video-container">
   <iframe class="video" title="Basic communication tips for beginner developers - How to present yourself as a developer? How to fix your online presence? Basic remote working communication tips for software developers. AltCampus school." src="https://www.youtube.com/embed/-wbR9af83FM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-###### The above video is a recorded session from <a href="https://altcampus.school">our online program</a> on full-stack web development. Please watch the video first and then follow the checklist below.
+_The above video is a recorded session from <a href="https://altcampus.school">our online program</a> on full-stack web development. Please watch the video first and then follow the checklist below._
+
 
 ##### Follow this checklist for improving your presentation, remote work communication, technical communication via Github and sharing progress via Twitter.
 
 <br />
 
-<script src="https://gist.github.com/prank7/522655d3ea90adff97df5671f41405d7.js"></script>
+
+<code data-gist-id="522655d3ea90adff97df5671f41405d7"></code>
+
+<!-- <iframe 
+  height="208%" 
+  width="100%"  
+  src="data:text/html;charset=utf-8,
+  <head><base target='_blank' /></head>
+  <body><script src='https://gist.github.com/prank7/522655d3ea90adff97df5671f41405d7.js'></script>
+  </body>">
+</iframe> -->
