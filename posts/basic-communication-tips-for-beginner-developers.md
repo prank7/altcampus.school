@@ -1,5 +1,5 @@
 ---
-title: 'Basic communication tips for beginner developers'
+title: 'Basic Communication Tips for Beginner Developers'
 description: "How to present yourself as a developer? How to fix your online presence? Basic remote working communication tips for software developers."
 date: '2020-18-02'
 blurb: How to present yourself as a developer? How to fix your online presence? Basic remote working communication tips for software developers.
@@ -20,14 +20,4 @@ _The above video is a recorded version of the first session on professional comm
 
 <br />
 
-
 <code data-gist-id="522655d3ea90adff97df5671f41405d7"></code>
-
-<!-- <iframe 
-  height="208%" 
-  width="100%"  
-  src="data:text/html;charset=utf-8,
-  <head><base target='_blank' /></head>
-  <body><script src='https://gist.github.com/prank7/522655d3ea90adff97df5671f41405d7.js'></script>
-  </body>">
-</iframe> -->
