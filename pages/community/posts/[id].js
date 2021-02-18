@@ -8,6 +8,11 @@ import { NextSeo } from 'next-seo';
 export default function Post({ postData }) {
   return (
     <Layout>
+      {postData.scriptTag ? 
+        <Head>
+          <script type="text/javascript" src={postData.scriptTag}></script> 
+        </Head> 
+      : null}
       <NextSeo
         title={postData.title + " |" + " AltCampus School"}
         description={postData.description}        

@@ -313,3 +313,7 @@ button {
 .prose .gist h3 {
   font-family: 'Lato';
 }
+
+.prose code::before, code::after {
+  content: "";
+}
