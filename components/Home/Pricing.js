@@ -30,15 +30,15 @@ function Pricing(props) {
                     </h2>
                     <div className="font-mukta">
                       <p className="bg-red-200 inline-block py-1 px-2 text-sm font-semibold text-red-800">
-                        28% Off (Early Birds offer)
+                        36% Off (Till 12th March)
                       </p>
                       <div className="text-gray-500 my-1 pt-2">
                         <h4 className="inline-block mx-2 line-through text-2xl font-medium font-mukta">
-                          ₹93,749
+                          ₹102,149
                         </h4>
                         <p className="inline-block mx-2 line-through font-medium font-mukta">
                           {" "}
-                          $1249{" "}
+                          $1399{" "}
                         </p>
                       </div>
                       <div className="">
