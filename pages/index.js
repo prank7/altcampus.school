@@ -5,7 +5,7 @@ import CourseDetails from "../components/Home/CourseDetails";
 import Testimonials from "../components/Home/Testimonials";
 import StartLearningCTA from "../components/Home/StartLearningCTA";
 import Pricing from "../components/Home/Pricing";
-import TestimonialTweets from "../components/Home/TestimonialsTweets";
+// import TestimonialTweets from "../components/Home/TestimonialsTweets";
 import ReadyToBuild from "../components/Home/ReadyToBuildCTA";
 import FAQ from "../components/Home/FAQ";
 import LetsTalk from "../components/Home/LetsTalk";
@@ -36,7 +36,7 @@ function Home(props) {
           <Testimonials />
           <StartLearningCTA />
           <Pricing />
-          <TestimonialTweets />
+          {/* <TestimonialTweets /> */}
           <ReadyToBuild />
           <FAQ />
           <LetsTalk />
