@@ -14,12 +14,12 @@ import Head from "next/head";
 
 function Home(props) {
 
-  React.useEffect(() => {
-    const s = document.createElement("script");
-    s.setAttribute("src", "https://platform.twitter.com/widgets.js");
-    s.setAttribute("async", "true");
-    document.head.appendChild(s);
-  }, []);
+  // React.useEffect(() => {
+  //   const s = document.createElement("script");
+  //   s.setAttribute("src", "https://platform.twitter.com/widgets.js");
+  //   s.setAttribute("async", "true");
+  //   document.head.appendChild(s);
+  // }, []);
 
   return (
     <>
