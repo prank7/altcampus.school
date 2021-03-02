@@ -120,6 +120,7 @@ function Footer(props) {
                 <li className='mr-4'>
                   <a
                     target='_blank'
+                    rel="noopener"
                     className='btn-hover inline-block shadow-md rounded-full'
                     href='https://facebook.com/AltCampusIO'
                   >
@@ -133,6 +134,7 @@ function Footer(props) {
                 <li>
                   <a
                     target='_blank'
+                    rel="noopener"
                     className='btn-hover inline-block shadow-md rounded-full'
                     href='https://twitter.com/altcampus'
                   >
