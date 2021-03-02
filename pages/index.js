@@ -25,7 +25,7 @@ function Home(props) {
     <>
       <Head>
         <title>
-          AltCampus School | Everything you need to become a software developer
+          AltCampus School - Learn programming online. Fullstack web development bootcamp in India.
         </title>
       </Head>
       <LayoutHome>
