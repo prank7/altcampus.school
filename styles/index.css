@@ -15,9 +15,6 @@
 @tailwind utilities;
 /* Stop purging. */
 
-/* Start purging... */
-@tailwind typography;
-/* Stop purging. */
 
 /* Your own custom utilities */
 html {
