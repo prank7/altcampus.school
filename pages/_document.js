@@ -24,7 +24,7 @@ class MyDocument extends Document {
             href='/assets/media/favicon.png'
           />
           
-          <link rel='preconnect' href='https://fonts.gstatic.com' crossOrigin />
+          <link rel='preconnect' href='https://fonts.gstatic.com' crossOrigin="true"/>
           <link
             href='https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Source+Sans+Pro:wght@200;400;600;700&family=Mukta:wght@300;400;500;600&display=swap'
             rel="preload"
@@ -36,7 +36,7 @@ class MyDocument extends Document {
           />
 
           <script
-            async={true}
+            async="true"
             src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
           />
           <script
