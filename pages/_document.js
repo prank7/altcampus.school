@@ -36,7 +36,7 @@ class MyDocument extends Document {
           />
 
           <script
-            async="true"
+            async={true}
             src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
           />
           <script
