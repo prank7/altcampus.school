@@ -23,13 +23,18 @@ class MyDocument extends Document {
             type='image/png'
             href='/assets/media/favicon.png'
           />
-
+          
+          <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin />
           <link
             href='https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Source+Sans+Pro:wght@200;400;600;700&family=Mukta:wght@300;400;500;600&display=swap'
-            rel='stylesheet'
             rel="preload"
-            as="font"
+            as="style"
           />
+          <link
+            href='https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Source+Sans+Pro:wght@200;400;600;700&family=Mukta:wght@300;400;500;600&display=swap'
+            rel="stylesheet"
+          />
+          
           <script
             async
             src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
