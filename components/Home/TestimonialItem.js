@@ -10,6 +10,7 @@ function TestimonialItem(props) {
           className='author-img w-20 h-20 object-cover rounded-full md:mr-8'
           src={img}
           alt='sreyansh-image'
+          loading="lazy"
         />
         <div className='description text-center md:text-left mb-8 md:mb-0 mt-4 md:mt-0'>
           <p className='name uppercase text-gold-500 text-base font-semibold'>
