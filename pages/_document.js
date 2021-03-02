@@ -28,7 +28,7 @@ class MyDocument extends Document {
             href='https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Source+Sans+Pro:wght@200;400;600;700&family=Mukta:wght@300;400;500;600&display=swap'
             rel='stylesheet'
             rel="preload"
-            as="style"
+            as="font"
           />
           <script
             async
