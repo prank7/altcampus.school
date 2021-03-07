@@ -20,10 +20,10 @@ function Hero(props) {
             <h5 className="text-sm md:text-lg font-mukta">Mentorship</h5>
           </div>
           <a
-            href="https://launchpad.altcampus.school/signup"
+            href="https://try.altcampus.school?utm_source=hero_cta"
             className="text-md text-white bg-green-theme-500 hover:bg-green-theme-600 uppercase py-3 px-20 inline-block mt-12 rounded font-semibold tracking-widest btn-hover font-mukta"
           >
-            Start Learning
+            Start Learning For Free
           </a>
         </div>
         <img
