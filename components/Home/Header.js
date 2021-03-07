@@ -80,10 +80,18 @@ function Header() {
             </li>
             <li className="md:ml-4">
               <a
-                className="inline-flex content-center items-center text-xl md:text-base text-white font-bold px-12 py-4 md:px-4 md:py-1 rounded uppercase bg-green-theme-500 border border-green-theme-500 shadow-md btn-hover tracking-wide"
+                className="inline-flex content-center items-center text-xl md:text-base text-white font-bold px-12 py-4 md:px-4 md:py-1 rounded uppercase bg-royal-blue-500 border  shadow-md btn-hover tracking-wide"
                 href="https://launchpad.altcampus.school/signup"
               >
                 signup
+              </a>
+            </li>
+            <li className="md:ml-4">
+              <a
+                className="inline-flex content-center items-center text-xl md:text-base text-white font-bold px-12 py-4 md:px-4 md:py-1 mt-8 sm:mt-0 rounded uppercase bg-green-theme-500 border border-green-theme-500 shadow-md btn-hover tracking-wide"
+                href="https://try.altcampus.school"
+              >
+                Try for Free
               </a>
             </li>
           </ul>
