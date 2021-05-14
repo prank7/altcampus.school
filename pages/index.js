@@ -5,7 +5,7 @@ import CourseDetails from "../components/Home/CourseDetails";
 import Testimonials from "../components/Home/Testimonials";
 import StartLearningCTA from "../components/Home/StartLearningCTA";
 import Pricing from "../components/Home/Pricing";
-import TestimonialTweets from "../components/Home/TestimonialsTweets";
+// import TestimonialTweets from "../components/Home/TestimonialsTweets";
 import ReadyToBuild from "../components/Home/ReadyToBuildCTA";
 import FAQ from "../components/Home/FAQ";
 import LetsTalk from "../components/Home/LetsTalk";
@@ -14,18 +14,18 @@ import Head from "next/head";
 
 function Home(props) {
 
-  React.useEffect(() => {
-    const s = document.createElement("script");
-    s.setAttribute("src", "https://platform.twitter.com/widgets.js");
-    s.setAttribute("async", "true");
-    document.head.appendChild(s);
-  }, []);
+  // React.useEffect(() => {
+  //   const s = document.createElement("script");
+  //   s.setAttribute("src", "https://platform.twitter.com/widgets.js");
+  //   s.setAttribute("async", "true");
+  //   document.head.appendChild(s);
+  // }, []);
 
   return (
     <>
       <Head>
         <title>
-          AltCampus School | Everything you need to become a software developer
+          AltCampus School - Learn programming online. Fullstack web development bootcamp in India.
         </title>
       </Head>
       <LayoutHome>
@@ -36,7 +36,7 @@ function Home(props) {
           <Testimonials />
           <StartLearningCTA />
           <Pricing />
-          <TestimonialTweets />
+          {/* <TestimonialTweets /> */}
           <ReadyToBuild />
           <FAQ />
           <LetsTalk />

@@ -46,23 +46,28 @@ function Navbar(params) {
             </div>
             <div className="hidden md:flex items-center justify-end space-x-8 md:flex-1 lg:w-0">
               <nav className="hidden md:flex space-x-10">
+                <Link href="/">
+                  <a className="text-gray-700 inline-flex items-center space-x-2 text-base leading-6 font-medium hover:text-gray-900 transition ease-in-out duration-150">
+                    Program
+                  </a>
+                </Link>
                 <Link href="/community/web-development">
-                  <a className="text-gray-500 inline-flex items-center space-x-2 text-base leading-6 font-medium hover:text-gray-900 transition ease-in-out duration-150">
+                  <a className="text-gray-700 inline-flex items-center space-x-2 text-base leading-6 font-medium hover:text-gray-900 transition ease-in-out duration-150">
                     Roadmap
                   </a>
                 </Link>
-                <Link href="/community/tutorials">
+                <Link href="/community/posts">
                   <a
                     href="#"
-                    className="text-base leading-6 font-medium text-gray-500 hover:text-gray-900 transition ease-in-out duration-150"
+                    className="text-base leading-6 font-medium text-gray-700 hover:text-gray-900 transition ease-in-out duration-150"
                   >
-                    Tutorials
+                    Posts
                   </a>
                 </Link>
                 <Link href="/community/stories">
                   <a
                     href="#"
-                    className="text-base leading-6 font-medium text-gray-500 hover:text-gray-900 transition ease-in-out duration-150"
+                    className="text-base leading-6 font-medium text-gray-700 hover:text-gray-900 transition ease-in-out duration-150"
                   >
                     Stories
                   </a>
@@ -73,18 +78,21 @@ function Navbar(params) {
               </nav>
 
               <a
-                href="#"
-                className="ml-4 whitespace-no-wrap text-base leading-6 font-medium text-gray-500 hover:text-gray-900 transition ease-in-out duration-150"
+                className="inline-flex content-center items-center text-xl md:text-base text-white font-bold px-12 py-4 md:px-4 md:py-1 rounded uppercase bg-green-theme-500 border border-green-theme-500 shadow-md btn-hover tracking-wide"
+                href="https://launchpad.altcampus.school/signup"
               >
-                Sign in
+                signup
               </a>
+
               <span className="inline-flex rounded-md shadow-sm">
-                <a
-                  href="#"
-                  className="whitespace-no-wrap inline-flex items-center justify-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-green-theme-600 hover:bg-green-theme-500 focus:outline-none focus:border-green-theme-700 focus:shadow-outline-green-theme active:bg-green-theme-700 transition ease-in-out duration-150"
-                >
-                  Join the Community
-                </a>
+                <Link href="/community/join">
+                  <a
+                    href="#"
+                    className="whitespace-no-wrap inline-flex items-center justify-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 border-indigo-600 hover:text-white hover:bg-indigo-500 focus:outline-none transition ease-in-out duration-150"
+                  >
+                    Join the Community
+                  </a>
+                </Link>
               </span>
             </div>
           </div>
@@ -111,11 +119,13 @@ function Navbar(params) {
                 <div className="pt-5 pb-6 px-5 space-y-6">
                   <div className="flex items-center justify-between">
                     <div>
-                      <img
-                        className="h-8 w-auto"
-                        src="/images/altcampus-logo.svg"
-                        alt="AltCampus logo"
-                      />
+                      <Link href="/">
+                        <img
+                          className="h-8 w-auto"
+                          src="/images/altcampus-logo.svg"
+                          alt="AltCampus logo"
+                        />
+                      </Link>
                     </div>
                     <div className="-mr-2">
                       <button
@@ -170,9 +180,9 @@ function Navbar(params) {
                           className="flex-shrink-0 h-6 w-6 text-green-theme-600"
                           src="/images/icons/tutorials.svg"
                         />
-                        <Link href="/community/tutorials">
+                        <Link href="/community/posts">
                           <a className="text-base leading-6 font-medium text-gray-900">
-                            Tutorials
+                            Posts
                           </a>
                         </Link>
                       </a>

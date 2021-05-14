@@ -36,6 +36,22 @@ function FAQ(props) {
 
           <div>
             <h3 className='text-green-theme-700 font-semibold text-2xl'>
+              Q. Can I get a demo before I signup?
+            </h3>
+            <p className='font-medium text-dark-blue-300 pt-2 pb-8 text-lg'>
+              <b className='text-2xl mr-3'>A.</b>
+              Yes, you can try the free version of the program {' '}
+              <a
+                className='text-royal-blue-500 font-semibold underline hover:no-underline'
+                href='https://try.altcampus.school'
+              >
+               here.
+              </a>
+            </p>
+          </div>
+
+          <div>
+            <h3 className='text-green-theme-700 font-semibold text-2xl'>
               Q. How does the entire process work?
             </h3>
             <p className='font-medium text-dark-blue-300 pt-2 pb-8 text-lg'>
@@ -98,22 +114,7 @@ function FAQ(props) {
             </p>
           </div>
 
-          <div>
-            <h3 className='text-green-theme-700 font-semibold text-2xl'>
-              Q. Can I get a demo before I signup?
-            </h3>
-            <p className='font-medium text-dark-blue-300 pt-2 pb-8 text-lg'>
-              <b className='text-2xl mr-3'>A.</b>
-              Yes, please pick a slot with one of our co-founders{' '}
-              <a
-                className='text-royal-blue-500 font-semibold underline hover:no-underline'
-                href='https://calendly.com/prank7/altcampus-one-on-one'
-              >
-                here.
-              </a>
-            </p>
           </div>
-        </div>
       </div>
     </section>
   );

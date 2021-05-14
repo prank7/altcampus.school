@@ -45,7 +45,7 @@ export const data = [
     content: `After spending six good months being guided by the mentors,
     making new friends and dedicating myself into learning new
     skills, being at AltCampus was indeed a fulfilling experience.`,
-    img: 'assets/media/abid.jpg',
+    img: 'assets/media/abid-r.jpg',
   },
   {
     name: 'Amit',

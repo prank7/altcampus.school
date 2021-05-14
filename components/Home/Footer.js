@@ -68,6 +68,14 @@ function Footer(props) {
                 </ul>
                 <ul className='quick-links'>
                   <li className='mb-2'>
+                    <Link href='/community'>
+                      <a className='text-gray-500 hover:text-gold-600'>
+                        Community
+                      </a>
+                    </Link>
+                  </li>
+
+                  <li className='mb-2'>
                     <Link href='/contact'>
                       <a className='text-gray-500 hover:text-gold-600'>
                         Contact
@@ -112,6 +120,7 @@ function Footer(props) {
                 <li className='mr-4'>
                   <a
                     target='_blank'
+                    rel="noopener"
                     className='btn-hover inline-block shadow-md rounded-full'
                     href='https://facebook.com/AltCampusIO'
                   >
@@ -125,6 +134,7 @@ function Footer(props) {
                 <li>
                   <a
                     target='_blank'
+                    rel="noopener"
                     className='btn-hover inline-block shadow-md rounded-full'
                     href='https://twitter.com/altcampus'
                   >
