@@ -1,7 +1,12 @@
 import LayoutHome from '../components/Home/Layout';
+import Head from "next/head";
 
 function ContactPage(props) {
   return (
+    <>
+    <Head>
+      <title>Contact | AltCampus School</title>
+    </Head>
     <LayoutHome>
       <main className='max-w-xl mx-auto px-6'>
         <div>
@@ -43,6 +48,7 @@ function ContactPage(props) {
         </div>
       </main>
     </LayoutHome>
+    </>
   );
 }
 

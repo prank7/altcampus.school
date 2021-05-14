@@ -15,6 +15,7 @@
 @tailwind utilities;
 /* Stop purging. */
 
+
 /* Your own custom utilities */
 html {
   scroll-behavior: smooth;
@@ -244,4 +245,78 @@ button {
 
 .feature-desc {
   color: #6b7c93;
+}
+
+.prose {
+  max-width: 100%;
+  font-size: 1.14rem;  
+}
+
+@media screen and (max-width: 640px) {
+  .prose {
+    font-size: 1.3rem;
+  }
+}
+
+.prose p {
+  color: rgb(66, 84, 102);
+  font-weight: 500;
+}
+
+.transcript {
+  padding: 1.25rem;
+  background: #f5fbff;
+  border-radius: 0.1rem;
+}
+
+.transcript .mentor {
+  background: rgb(233, 212, 150);
+  color: rgb(156, 66, 33);
+  padding: 2px 6px;
+  border-radius: 2px;
+}
+
+.transcript .student {
+  background: rgb(190, 227, 248);
+  color: rgb(50, 50, 93);
+  padding: 2px 6px;
+  border-radius: 2px;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+}
+
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.prose .gist ul>li {
+  position: static;
+  padding-left: 0px;
+}
+
+.prose .gist p {
+  color: rgb(36, 41, 46);
+  font-weight: 500;
+  color: #4a5568;
+  font-family: -apple-system,
+  BlinkMacSystemFont, 'Open Sans';
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.prose .gist h3 {
+  font-family: 'Lato';
+}
+
+.prose code::before, code::after {
+  content: "";
 }
