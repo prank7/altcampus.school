@@ -1,5 +1,5 @@
 ---
-title: 'Why You Need to Become a Full Stack Web Developer'
+title: 'What You Need to Become a Full Stack Web Developer'
 description: 'Are you qualified to be a full-stack web developer? Learn about everything you need to become a successful developer.'
 date: '2020-19-05'
 blurb: Know everything about what you need to become a full-stack web developer.
@@ -8,7 +8,7 @@ cta: true
 ctaText: AltCampus provides you a holistic roadmap to become a skilled software developer 🛣️
 ---
 
-![Why You Should Consider Joining a Bootcamp If You Want To Learn Programming](https://altcampus.school/images/posts/what-you-need-to-become-a-full-stack-web-developer.png)
+![What You Need to Become a Full Stack Web Developer](https://altcampus.school/images/posts/what-you-need-to-become-a-full-stack-web-developer.png)
 
 [Bootcamps are a great way to kickstart](https://altcampus.school/community/posts/why-you-should-consider-joining-a-bootcamp-if-you-want-to-learn-programming) your software development career. However, there are a myriad of questions that crop up before this journey begins.
 
