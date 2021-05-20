@@ -1,14 +1,14 @@
 ---
-title: 'Here's Everything You Need To Know To Become a Full-Stack Web Developer'
-description: 'Are you qualified to be a full-stack web developer? Learn about everything you need to become a successful developer.'
+title: Here's Everything You Need To Know To Become a Full-Stack Web Developer
+description: Are you qualified to be a full-stack web developer? Learn about everything you need to become a successful developer.
 date: '2020-19-05'
-blurb: Know everything about what you need to become a full-stack web developer.
-photo: 'https://altcampus.school/images/posts/heres-everything-you-need-to-know-to-become-a-full-stack-web-developer.png'
+blurb: Get to know everything you need to become a full-stack web developer.
+photo: 'http://localhost:3000/images/posts/heres-everything-you-need-to-know-to-become-a-full-stack-web-developer.png'
 cta: true
 ctaText: AltCampus provides you a holistic roadmap to become a skilled software developer 🛣️
 ---
 
-![Here's Everything You Need To Know To Become a Full-Stack Web Developer](https://altcampus.school/images/posts/heres-everything-you-need-to-know-to-become-a-full-stack-web-developer.png)
+![Here's Everything You Need To Know To Become a Full-Stack Web Developer](http://localhost:3000/images/posts/heres-everything-you-need-to-know-to-become-a-full-stack-web-developer.png)
 
 [Bootcamps are a great way to kickstart](https://altcampus.school/community/posts/why-you-should-consider-joining-a-bootcamp-if-you-want-to-learn-programming) your software development career. However, there are a myriad of questions that crop up before this journey begins.
 
