@@ -1,5 +1,5 @@
 ---
-title: 'Why You Should Consider Joining a Bootcamp If You Want To Learn Programming'
+title: 'Why You Should Consider Joining a Bootcamp if You Want to Learn Programming'
 description: 'Is bootcamp the right place for you to become a good programmer? Learn the advantages of having a community of developers'
 date: '2020-12-05'
 blurb: How bootcamps can help you in your programming journey.
