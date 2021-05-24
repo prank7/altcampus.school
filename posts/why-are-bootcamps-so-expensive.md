@@ -54,10 +54,14 @@ Here’s the caveat - invest in bootcamps even if they are priced here, but **on
 
 ### Conclusion - Is it worth it?
 
-Let’s do the math for practical purposes. The average salary-goal of a full-stack web developer who has graduated from a bootcamp, would be a minimum of 6 LPA in India. Considering the price of a bootcamp like AltCampus , you would be investing about 15% of 6 LPA in order to gain valuable skills for life along with a well-paying job. The only bigger investment would be your time and effort.
+#### Let’s do the math!
 
-There are a range of bootcamps with exorbitant prices, or those that take away more than 60% of your annual income through plans like ISAs While it may sound appealing initially, ISAs are more of a locked obligation than an investment into learning. Objectively looking at this pain point, investing 15% of your first annual income beforehand is actually a no-brainer, especially at AltCampus, where students’ interests and concerns are always kept in mind.
+The average salary-goal of a full-stack web developer who has graduated from a bootcamp, would be a minimum of 6 LPA in India. Considering the price of a bootcamp like AltCampus , you would be investing about 15% of 6 LPA in order to gain valuable skills for life along with a well-paying job. The only bigger investment would be your time and effort.
+
+There are a range of bootcamps that charge exorbitant prices, or those that take away more than 60% of your annual income through plans like ISAs (Income Sharing Agreements). Objectively looking at this pain point, investing 15% of your first annual income beforehand is practically a no-brainer, especially at AltCampus, where students’ interests and concerns are always kept in mind.
 
 If you are a student from a high-income country, this pricing is practically a steal since you would end up earning upwards of $50k as a developer on an investment of $1200. Talk about reaping benefits!
+
+And the math? Checks out! ☑️
 
 So is it fair to say that investing in a bootcamp that actually understands your journey, and provides support in learning, mentoring, portfolio development, interview preparation, and more, is a wise decision? Yes it is. AltCampus is an alternative to the regular college education that you can bank on, to become a full-stack web developer.
