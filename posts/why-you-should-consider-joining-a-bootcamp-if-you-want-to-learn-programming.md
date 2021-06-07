@@ -3,12 +3,10 @@ title: 'Why You Should Consider Joining a Bootcamp if You Want to Learn Programm
 description: 'Is bootcamp the right place for you to become a good programmer? Learn the advantages of having a community of developers'
 date: '2020-12-05'
 blurb: How bootcamps can help you in your programming journey.
-photo: 'https://altcampus.school/images/posts/why-you-should-join-bootcamp-if-you-want-to-learn-programming.png'
+photo: '/images/posts/why-you-should-join-bootcamp-if-you-want-to-learn-programming.png'
 cta: true
 ctaText: AltCampus helps you become a full-stack web developer by providing the perfect roadmap for your programming journey.  🙌
 ---
-
-![Why You Should Consider Joining a Bootcamp If You Want To Learn Programming](https://altcampus.school/images/posts/why-you-should-join-bootcamp-if-you-want-to-learn-programming.png)
 
 The tech world has seen unprecedented growth in the last few years. Software Development took a quantum leap as the worldwide web became more accessible and hospitable. Browsers today are leading the world of app development as they are becoming more flexible to host all kinds of apps that are seemingly native in nature. With over 1.8 billion websites online, there are a plethora of technologies running seamlessly on the web to cater to enterprise as well as consumer needs.
 
