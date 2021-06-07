@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image'
 
 function KeyFeatures(props) {
   return (
@@ -60,10 +61,13 @@ function KeyFeatures(props) {
 
       <article className="bg-dark-blue-100 py-24">
         <div className="mx-auto md:flex md:items-center px-16">
-          <div className="md:order-1 mb-8 md:mb-0 md:w-2/5">
-            <img
-              className="w-full"
-              src="/assets/media/demo-mac.svg"
+          <div className="md:order-1 mb-8 md:mb-0 md:w-2/5 height-auto relative w-full">
+            <Image
+              layout="responsive"
+              // className="w-full"
+              width="512"
+              height="288"
+              src="/assets/media/demo-mac.png"
               alt="Mockup"
             />
           </div>

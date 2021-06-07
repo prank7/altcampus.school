@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import TestimonialItem from './TestimonialItem';
 import { data } from './TestimonialData';
+import { TestimonialIcon } from '../Icons';
 
 class Testimonials extends Component {
   constructor(props) {
@@ -92,11 +93,7 @@ class Testimonials extends Component {
     return (
       <section className='py-20 md:py-24 testimonial' id='testimonials'>
         <header className='text-center md:flex md:justify-center md:items-center mb-12'>
-          <img
-            className='inline-block w-12 md:mr-4'
-            src='/assets/media/testimonial.svg'
-            alt='testimonial'
-          />
+          <TestimonialIcon className='inline-block w-12 md:mr-4' />
           <h2 className='font-bold text-5xl text-white'>From Our Alumni</h2>
         </header>
 
