@@ -1,6 +1,7 @@
 import React from 'react';
 import ActiveLink from './ActiveLink';
 import Link from 'next/link';
+import { AltCampusIcon } from '../Icons';
 
 function Header() {
   return (
@@ -8,11 +9,13 @@ function Header() {
       <nav className="flex justify-between items-center relative z-10 max-w-7xl mx-auto px-8 sm:px-16">
         <Link href="/">
           <a>
-            <img
+            <AltCampusIcon className="h-12 w-auto sm:h-10" />
+            <span className="sr-only">AltCampus</span>
+            {/* <img
               className="h-12 w-auto sm:h-10"
               src="/assets/media/logo.svg"
               alt="Logo"
-            />
+            /> */}
           </a>
         </Link>
         <label htmlFor="toggle" className="bars hidden">
