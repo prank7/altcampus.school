@@ -107,13 +107,17 @@ class Testimonials extends Component {
                 <button
                   onClick={this.handlePrevious}
                   className='w-12 h-12 bg-royal-blue-500 prev rounded-full cursor-pointer focus:bg-royal-blue-600 hover:bg-royal-blue-400'
-                ></button>
+                >
+                  <span className="sr-only">Previous</span>
+                </button>
               </div>
               <div className='absolute next-container z-10 flex justify-center items-center px-8'>
                 <button
                   onClick={this.handleNext}
                   className='w-12 h-12 bg-royal-blue-500 next rounded-full cursor-pointer focus:bg-royal-blue-600 hover:bg-royal-blue-400'
-                ></button>
+                >
+                  <span className="sr-only">Next</span>
+                </button>
               </div>
             </div>
 

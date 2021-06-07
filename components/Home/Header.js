@@ -33,7 +33,6 @@ function Header() {
             />
           </label>
 
-          <input type="checkbox" className="toggle hidden" id="toggle" />
           <ul className="md:flex md:items-center">
             <li className="mb-8 md:mb-0">
               <ActiveLink href="/">
