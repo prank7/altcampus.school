@@ -1,5 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
+import { FacebookIcon, TwitterIcon } from '../Icons';
 
 function Footer(props) {
   return (
@@ -8,10 +10,12 @@ function Footer(props) {
         <div className='footer-col1-2 md:w-2/5'>
           <Link href='/'>
             <a className='footer-logo'>
-              <img
-                className='w-28 inline-block'
-                src='/assets/media/logo.svg'
-                alt='AltCampus Logo'
+              <Image
+                height={57}
+                width={160}
+                className="inline-block w-28"
+                src="/assets/media/logo.svg"
+                alt="AltCampus Logo"
               />
             </a>
           </Link>
@@ -22,9 +26,9 @@ function Footer(props) {
         <div className='footer-col1-2 footer-links md:w-3/5'>
           <div className='md:flex md:justify-between'>
             <div className='md:w-1/2'>
-              <h4 className='text-2xl text-white mb-3 mt-6 md:mt-0'>
+              <h2 className='text-2xl text-white mb-3 mt-6 md:mt-0'>
                 Quick links
-              </h4>
+              </h2>
               <div className='flex justify-between'>
                 <ul className=''>
                   <li className='mb-2'>
@@ -113,9 +117,9 @@ function Footer(props) {
               </div>
             </div>
             <div className='social'>
-              <h4 className='text-2xl text-white mb-3 mt-6 md:mt-0'>
+              <h2 className='text-2xl text-white mb-3 mt-6 md:mt-0'>
                 Follow Us
-              </h4>
+              </h2>
               <ul className='flex'>
                 <li className='mr-4'>
                   <a
@@ -124,11 +128,8 @@ function Footer(props) {
                     className='btn-hover inline-block shadow-md rounded-full'
                     href='https://facebook.com/AltCampusIO'
                   >
-                    <img
-                      className='w-12'
-                      src='/assets/media/facebook-icon.svg'
-                      alt='facebook-icon'
-                    />
+                    <FacebookIcon className="w-12" />
+                    <span className="sr-only">Facebook</span>
                   </a>
                 </li>
                 <li>
@@ -138,11 +139,8 @@ function Footer(props) {
                     className='btn-hover inline-block shadow-md rounded-full'
                     href='https://twitter.com/altcampus'
                   >
-                    <img
-                      className='w-12'
-                      src='/assets/media/twitter-icon.svg'
-                      alt='twitter-icon'
-                    />
+                    <TwitterIcon className="w-12" />
+                    <span className="sr-only">Twitter</span>
                   </a>
                 </li>
               </ul>
@@ -151,9 +149,9 @@ function Footer(props) {
         </div>
       </div>
       <div className='text-center mt-12 text-gray-700'>
-        <small>
+        <span className="text-sm text-gray-400">
           &copy; {new Date().getFullYear()} AltCampus Services Pvt. Ltd.
-        </small>
+        </span>
       </div>
     </footer>
   );

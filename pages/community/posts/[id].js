@@ -4,6 +4,8 @@ import Link from "next/link";
 import Head from "next/head";
 import PostCTA from "../../../components/Community/PostCTA";
 import { NextSeo } from 'next-seo';
+import { TwitterAltIcon } from "../../../components/Icons";
+import Image from "next/image";
 
 export default function Post({ postData }) {
   return (
@@ -39,6 +41,22 @@ export default function Post({ postData }) {
           <h2 className="mt-16 my-4 font-bold text-indigo-700 text-4xl">
             {postData.title}
           </h2>
+          {
+            postData.hideCover ?
+              null
+            : (
+                <div className="relative w-full py-8">
+                  <Image
+                    // className="w-full h-full"
+                    layout="responsive"
+                    src={postData.photo}
+                    alt=""
+                    width="1600"
+                    height="900"
+                  />
+                </div>
+            )
+          }
           <div
             className="prose "
             dangerouslySetInnerHTML={{ __html: postData.contentHtml }}
@@ -54,7 +72,9 @@ export default function Post({ postData }) {
             <p className="pt-2 text-xl text-gray-900 font-semibold">Share</p>
             <a class="twitter-share-button"
               href={`https://twitter.com/intent/tweet?text=${postData.title + ' - @AltCampus'}&url=${`https://altcampus.school/community/posts/${postData.id}`}`}>
-            <img src="/images/icons/twitter.svg"/></a>
+              <TwitterAltIcon className="h-6 w-6" />
+              <span className="sr-only">Share to Twitter</span>
+            </a>
           </div>
 
         </div>
