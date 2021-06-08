@@ -14,7 +14,7 @@
     "gray-matter": "^4.0.2",
     "next": "^10.2.3",
     "next-seo": "^4.19.0",
-    "postcss": "^8.1.7",
+    "postcss": "^8.2.10",
     "postcss-flexbugs-fixes": "^4.2.1",
     "postcss-loader": "^4.0.4",
     "postcss-preset-env": "^6.7.0",
