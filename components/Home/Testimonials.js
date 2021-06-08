@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import TestimonialItem from './TestimonialItem';
 import { data } from './TestimonialData';
+import { TestimonialIcon } from '../Icons';
 
 class Testimonials extends Component {
   constructor(props) {
@@ -92,11 +93,7 @@ class Testimonials extends Component {
     return (
       <section className='py-20 md:py-24 testimonial' id='testimonials'>
         <header className='text-center md:flex md:justify-center md:items-center mb-12'>
-          <img
-            className='inline-block w-12 md:mr-4'
-            src='/assets/media/testimonial.svg'
-            alt='testimonial'
-          />
+          <TestimonialIcon className='inline-block w-12 md:mr-4' />
           <h2 className='font-bold text-5xl text-white'>From Our Alumni</h2>
         </header>
 
@@ -107,13 +104,17 @@ class Testimonials extends Component {
                 <button
                   onClick={this.handlePrevious}
                   className='w-12 h-12 bg-royal-blue-500 prev rounded-full cursor-pointer focus:bg-royal-blue-600 hover:bg-royal-blue-400'
-                ></button>
+                >
+                  <span className="sr-only">Previous</span>
+                </button>
               </div>
               <div className='absolute next-container z-10 flex justify-center items-center px-8'>
                 <button
                   onClick={this.handleNext}
                   className='w-12 h-12 bg-royal-blue-500 next rounded-full cursor-pointer focus:bg-royal-blue-600 hover:bg-royal-blue-400'
-                ></button>
+                >
+                  <span className="sr-only">Next</span>
+                </button>
               </div>
             </div>
 
