@@ -7,9 +7,9 @@ function PostCTA(props) {
       <div className=''>
         <div className='md:px-12 py-8 px-2 bg-green-theme-600 text-center md:text-left md:flex md:items-center md:justify-center'>
           <div className="flex-1">
-            <h6 className='text-xl text-white font-semibold md:max-w-lg md:mr-8'>
+            <p className='text-xl text-white font-semibold md:max-w-lg md:mr-8'>
               {props.ctaText}
-            </h6>
+            </p>
             {/* <h5 className='text-white font-bold text-lg pt-1 font-source'>
               Get on a call with our team.
             </h5> */}
