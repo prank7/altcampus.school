@@ -3,12 +3,10 @@ title: 'What Are The Best Places to Learn Coding'
 description: 'How do you choose the right place to start your programming journey? Know all about launching your developer journey here.'
 date: '2020-07-06'
 blurb: How to begin your software developer journey.
-photo: 'https://altcampus.school/images/posts/what-are-the-best-places-to-learn-coding.png'
+photo: '/images/posts/what-are-the-best-places-to-learn-coding.png'
 cta: true
 ctaText: Launch your coding journey by choosing the best place to become a software developer.  🙌
 ---
-
-![What Are The Best Places To Learn Coding](https://altcampus.school/images/posts/what-are-the-best-places-to-learn-coding.png)
 
 So you have decided to jump on the bandwagon of becoming a software developer. But where do you start?
 
