@@ -4,7 +4,9 @@ function Blog(props) {
   return (
     <div className="p-4 bg-white shadow rounded-md mb-8">
       <a href="#">
-        <h3 className="text-gray-900 text-2xl font-bold mb-2">Tunes</h3>
+        <h3 className="text-gray-900 text-2xl font-bold mb-2">
+          Scope: Local, Global and Lexical
+        </h3>
       </a>
       <a href="#">
         <p className="font-medium mb-2 text-gray-800 text-lg">

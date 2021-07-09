@@ -16,34 +16,34 @@ function Sidebar(props) {
           <ul className="flex items-center justify-center mt-2">
             <li className="mx-2">
               <a
-                className="w-10 h-10 bg-dark-blue-300 block place-items-center grid rounded-full"
+                className="w-10 h-10 bg-dark-blue-200 block place-items-center grid rounded-full"
                 href="#"
               >
-                <img src="/images/icons/twitter.svg" alt="GitHub" />
+                <img src="/images/icons/github.svg" alt="GitHub" />
               </a>
             </li>
             <li className="mx-2">
               <a
-                className="w-10 h-10 bg-dark-blue-300 block place-items-center grid rounded-full"
+                className="w-10 h-10 bg-dark-blue-200 block place-items-center grid rounded-full"
                 href="#"
               >
-                <img src="/images/icons/twitter.svg" alt="GitHub" />
+                <img src="/images/icons/twitter-sm.svg" alt="Twitter" />
               </a>
             </li>
             <li className="mx-2">
               <a
-                className="w-10 h-10 bg-dark-blue-300 block place-items-center grid rounded-full"
+                className="w-10 h-10 bg-dark-blue-200 block place-items-center grid rounded-full"
                 href="#"
               >
-                <img src="/images/icons/twitter.svg" alt="GitHub" />
+                <img src="/images/icons/linkedin.svg" alt="Linkedin" />
               </a>
             </li>
             <li className="mx-2">
               <a
-                className="w-10 h-10 bg-dark-blue-300 block place-items-center grid rounded-full"
+                className="w-10 h-10 bg-dark-blue-200 block place-items-center grid rounded-full"
                 href="#"
               >
-                <img src="/images/icons/twitter.svg" alt="GitHub" />
+                <img src="/images/icons/email.svg" alt="Email" />
               </a>
             </li>
           </ul>
