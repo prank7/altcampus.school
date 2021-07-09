@@ -37,8 +37,8 @@ function Pricing(props) {
                           ₹93,749
                         </h4>
                         <p className="inline-block mx-2 line-through font-medium font-mukta">
-                          {" "}
-                          $1249{" "}
+                          {' '}
+                          $1249{' '}
                         </p>
                       </div>
                       <div className="">
@@ -189,7 +189,7 @@ function Pricing(props) {
                         </h4>
 
                         <p className="inline-block mx-2 line-through font-medium font-mukta">
-                          $749{" "}
+                          $749{' '}
                         </p>
                       </div>
                       <div className="offer-price">
