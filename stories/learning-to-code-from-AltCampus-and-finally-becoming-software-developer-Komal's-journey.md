@@ -3,7 +3,7 @@ title: "Komal's journey of choosing a different path, learning to code from AltC
 description: "Komal's advice for beginners, her experience at AltCampus as one of the first students, and becoming job-ready with competitive skills."
 date: '2020-07-10'
 blurb: Komal shares about learning to code at AltCampus, getting first job and advice for newbies.
-studentPhoto: '/images/students/Komal.JPG'
+studentPhoto: '/images/students/Komal.jpg'
 photo: 'https://altcampus.school/images/stories/Komal-AltCampus-placement.png'
 name: 'Komal Raj'
 company: 'Khelomore'
