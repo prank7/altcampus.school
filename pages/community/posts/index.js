@@ -1,4 +1,4 @@
-import Head from 'next/head';
+import Image from 'next/image';
 import Link from 'next/link';
 import Layout from '../../../components/Layout';
 import { getSortedPostsData } from '../../../lib/posts';
@@ -35,12 +35,34 @@ const Tutorials = ({ allPostsData }) => {
                 href={`/community/posts/[id]`}
                 as={`/community/posts/${id}`}
               >
-                <figure className="bg-gray-100 rounded-xl sm:flex p-3" style={{cursor: 'pointer'}}>
-                  <img className="w-full sm:w-48" src={photo} alt="" width="384" height="512" />
-                  <div className="my-auto py-3 sm:pt-0 sm:pl-8">
-                    <h3 className="font-semibold text-indigo-600 text-3xl sm:text-2xl">
+                <figure
+                  className=" bg-gray-100 rounded-xl sm:flex p-3 sm:items-center"
+                  style={{ cursor: 'pointer' }}
+                >
+                  <div className="relative sm:hidden w-full">
+                    <Image
+                      // className="w-full h-full"
+                      layout="responsive"
+                      src={photo}
+                      alt=""
+                      width="240"
+                      height="144"
+                    />
+                  </div>
+                  <div className="hidden sm:block sm:relative sm:w-48 sm:h-27 sm:flex-0">
+                    <Image
+                      // className="w-full h-full"
+                      layout="fill"
+                      src={photo}
+                      alt=""
+                      // width="240"
+                      // height="160"
+                    />
+                  </div>
+                  <div className="my-auto py-3 sm:pt-0 sm:pl-8 flex-1">
+                    <h2 className="font-semibold text-indigo-600 text-3xl sm:text-2xl">
                       {title}
-                    </h3>
+                    </h2>
                     {/* <figcaption className="pt-4">
                       <div>
                         <h5 className="text-md font-semibold text-gray-700">{name}</h5>

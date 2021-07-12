@@ -5,6 +5,10 @@ module.exports = {
     "./pages/**/*.js",
     "./components/**/*.js",
   ],
+  future: {
+    removeDeprecatedGapUtilities: true,
+    purgeLayersByDefault: true
+  },
   theme: {
     screens: {
       sm: "640px",
@@ -71,6 +75,9 @@ module.exports = {
           800: "#AD8A56",
         },
       },
+      height: {
+        27: "6.75rem"
+      }
     },
   },
   plugins: [

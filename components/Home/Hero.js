@@ -9,8 +9,8 @@ function Hero(props) {
             Everything you need to become a software developer
           </h1>
           <h3 className="text-xl md:text-2xl text-hero-subheading my-10 font-source  md:max-w-4xl mx-auto px-4">
-            A program designed to help you develop full-stack web development
-            skills and become job-ready
+            An online programming bootcamp designed to help you learn full-stack web development
+            and become job-ready
           </h3>
           <div className="font-medium flex justify-center items-center text-hero-tags">
             <h5 className="text-sm md:text-lg font-mukta">100% online</h5>
@@ -20,10 +20,10 @@ function Hero(props) {
             <h5 className="text-sm md:text-lg font-mukta">Mentorship</h5>
           </div>
           <a
-            href="https://launchpad.altcampus.school/signup"
+            href="https://try.altcampus.school?utm_source=hero_cta"
             className="text-md text-white bg-green-theme-500 hover:bg-green-theme-600 uppercase py-3 px-20 inline-block mt-12 rounded font-semibold tracking-widest btn-hover font-mukta"
           >
-            Start Learning
+            Start Learning For Free
           </a>
         </div>
         <img

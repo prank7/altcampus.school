@@ -1,6 +1,7 @@
 import React from 'react';
 import ActiveLink from './ActiveLink';
 import Link from 'next/link';
+import { AltCampusIcon } from '../Icons';
 
 function Header() {
   return (
@@ -8,11 +9,13 @@ function Header() {
       <nav className="flex justify-between items-center relative z-10 max-w-7xl mx-auto px-8 sm:px-16">
         <Link href="/">
           <a>
-            <img
+            <AltCampusIcon className="h-12 w-auto sm:h-10" />
+            <span className="sr-only">AltCampus</span>
+            {/* <img
               className="h-12 w-auto sm:h-10"
               src="/assets/media/logo.svg"
               alt="Logo"
-            />
+            /> */}
           </a>
         </Link>
         <label htmlFor="toggle" className="bars hidden">
@@ -33,7 +36,6 @@ function Header() {
             />
           </label>
 
-          <input type="checkbox" className="toggle hidden" id="toggle" />
           <ul className="md:flex md:items-center">
             <li className="mb-8 md:mb-0">
               <ActiveLink href="/">
@@ -80,10 +82,18 @@ function Header() {
             </li>
             <li className="md:ml-4">
               <a
-                className="inline-flex content-center items-center text-xl md:text-base text-white font-bold px-12 py-4 md:px-4 md:py-1 rounded uppercase bg-green-theme-500 border border-green-theme-500 shadow-md btn-hover tracking-wide"
+                className="inline-flex content-center items-center text-xl md:text-base text-white font-bold px-12 py-4 md:px-4 md:py-1 rounded uppercase bg-royal-blue-500 border  shadow-md btn-hover tracking-wide"
                 href="https://launchpad.altcampus.school/signup"
               >
                 signup
+              </a>
+            </li>
+            <li className="md:ml-4">
+              <a
+                className="inline-flex content-center items-center text-xl md:text-base text-white font-bold px-12 py-4 md:px-4 md:py-1 mt-8 sm:mt-0 rounded uppercase bg-green-theme-500 border border-green-theme-500 shadow-md btn-hover tracking-wide"
+                href="https://try.altcampus.school"
+              >
+                Try for Free
               </a>
             </li>
           </ul>

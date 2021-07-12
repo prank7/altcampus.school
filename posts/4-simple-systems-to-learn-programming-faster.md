@@ -1,24 +1,22 @@
 ---
 title: '4 Simple Systems to Help You Learn Programming Faster'
-description: "How to learn programming faster? 4 systems to help you learn programming faster and better at AltCampus."
+description: 'How to learn programming faster? 4 systems to help you learn programming faster and better at AltCampus.'
 date: '2020-11-02'
 blurb: Simple systems to help you learn programming better and faster.
-photo: 'https://altcampus.school/images/posts/4-systems-learn-programming-faster-altcampus.png'
+photo: '/images/posts/4-systems-learn-programming-faster-altcampus.png'
 cta: true
 ctaText: AltCampus helps you learn faster by inculcating these systems as part of the learning model.  🙌
 ---
-
-![Systems to learn programming faster](/images/posts/4-systems-learn-programming-faster-altcampus.png)
-
 
 ### 1. Learn in public
 
 Learning in public means sharing whatever you are learning publicly. It could be through tweets, blog posts, videos, cartoons etc. The idea is to teach whatever you have learnt or share whatever you have created.
 
-It helps in keeping you accountable, consistent and motivated. You increase the surface area of getting feedback and networking with other. 
+It helps in keeping you accountable, consistent and motivated. You increase the surface area of getting feedback and networking with other.
 
-Here are a few things that you can do to get started 
--  Tweet everyday about your progress
+Here are a few things that you can do to get started
+
+- Tweet everyday about your progress
 - Write blog posts on whatever you have learnt
 
 To get inspiration, look at the [students of AltCampus tweeting their progress publicly](https://twitter.com/search?q=AltCampus).
@@ -37,16 +35,16 @@ Always keep a pen and paper handy when you are learning. Anytime you get a probl
 
 If you are not good at something how do you know if what you are doing is actually good or if you are improving at all?
 
-What helps is having someone senior to give you constructive feedback. Feedback on what you are doing right, wrong. Feedback on how to improve the structure of your code. 
+What helps is having someone senior to give you constructive feedback. Feedback on what you are doing right, wrong. Feedback on how to improve the structure of your code.
 
-When you have someone to get feedback from, you know what you need to fix and thus your pace of learning increases. This idea of getting feedback and then acting on it and again seeking feedback is called feedback loop. The shorter the loop in time frame, the faster you learn. 
+When you have someone to get feedback from, you know what you need to fix and thus your pace of learning increases. This idea of getting feedback and then acting on it and again seeking feedback is called feedback loop. The shorter the loop in time frame, the faster you learn.
 
 At AltCampus we focus heavily on feedback. Mentors provide regular feedback to students on a granular level like assignments and checkpoints.
 
-### 4.  Actually build something. Don't be in tutorial hell.
+### 4. Actually build something. Don't be in tutorial hell.
 
-A problem with newbies that they keep switching from one tutorial to another, one course to another, without actually using the knowledge to build something. This is partly because most of the courses just focus on delivering concepts via video or text. Assignments and projects are missing. 
+A problem with newbies that they keep switching from one tutorial to another, one course to another, without actually using the knowledge to build something. This is partly because most of the courses just focus on delivering concepts via video or text. Assignments and projects are missing.
 
-The actual learning happens when you are using those concepts to build a project. For e.g. if you recently learnt about tags, elements etc in HTML, did you actually use to build a webpage from scratch? 
+The actual learning happens when you are using those concepts to build a project. For e.g. if you recently learnt about tags, elements etc in HTML, did you actually use to build a webpage from scratch?
 
 Don't be stuck in tutorial hell. Pick a good course that has everything in it and then build stuff. Building accelerates your pace of putting things together. Building is where fun and learning is.
