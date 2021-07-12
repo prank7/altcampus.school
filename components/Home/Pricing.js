@@ -11,6 +11,14 @@ function Pricing(props) {
             Invest in yourself
           </h2>
         </header>
+        <div className=" mb-12 md:mb-0 md:mx-8">
+          <p>
+            Can't pay the entire sum at once? Buy now, and pay later via EMI. To avail it apply here(processing takes 2-4 working days).
+          </p>
+          <p>
+            You can do the course either in a cohort or self paced, you can select this option in the signup form. Next cohort starts on 25th July. Max number of students in a cohort is 15, book your seat now. 
+          </p>
+        </div>
         <div className="md:flex md:justify-center">
           <div className="mb-12 md:mb-0 md:mx-8">
             <article className="shadow-2xl bg-white rounded-lg">

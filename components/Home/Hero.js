@@ -19,6 +19,7 @@ function Hero(props) {
             <span className="w-2 h-2 bg-dark-blue-300 mx-6 rounded-full"></span>
             <h5 className="text-sm md:text-lg font-mukta">Mentorship</h5>
           </div>
+          <p>Next cohort starts on 26th July or learn at your own pace ➜</p>
           <a
             href="https://try.altcampus.school?utm_source=hero_cta"
             className="text-md text-white bg-green-theme-500 hover:bg-green-theme-600 uppercase py-3 px-20 inline-block mt-12 rounded font-semibold tracking-widest btn-hover font-mukta"

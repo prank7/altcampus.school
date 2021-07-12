@@ -13,11 +13,8 @@ class MyDocument extends Document {
       <Html lang="en">
         <Head>
           <meta charSet='UTF-8' />
-          <meta name='viewport' content='width=device-width, initial-scale=1.0' />
           <meta name='robots' content='index, follow' />
           <meta name="author" content="AltCampus" />
-          <meta name="HandheldFriendly" content="True" />
-          <meta name="MobileOptimized" content="320" />
           <link
             rel='shortcut icon'
             type='image/png'

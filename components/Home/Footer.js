@@ -80,6 +80,14 @@ function Footer(props) {
                   </li>
 
                   <li className="mb-2">
+                    <Link href="/apply-for-emi">
+                      <a className="text-gray-500 hover:text-gold-600">
+                        Apply For EMI
+                      </a>
+                    </Link>
+                  </li>
+
+                  <li className="mb-2">
                     <Link href="/contact">
                       <a className="text-gray-500 hover:text-gold-600">
                         Contact
