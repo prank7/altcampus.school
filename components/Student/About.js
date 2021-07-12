@@ -1,4 +1,5 @@
 import React from 'react';
+import Banner from './Banner';
 
 function About(props) {
   return (
@@ -16,6 +17,7 @@ function About(props) {
         impedit? Id iure fuga expedita culpa placeat, animi doloremque eius
         voluptate, sunt magni quae.
       </p>
+      <Banner />
     </article>
   );
 }

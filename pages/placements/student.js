@@ -14,7 +14,7 @@ export default function student() {
         <link rel="icon" href="/favicon.png" />
       </Head>
       <LayoutHome>
-        <Banner />
+        {/* <Banner /> */}
         <section className=" bg-royal-blue-100  py-16">
           <div className="container mx-auto grid items-start grid-cols-9 gap-16">
             <Sidebar />

@@ -63,9 +63,23 @@ function Sidebar(props) {
           </span>
         </label> */}
         <div className="px-8 py-2 student-background">
-          <h2 className="text-xl font-bold text-dark-blue-700 border-t-2 pt-2">
-            Background
-          </h2>
+          <div className="border-t-2 pt-2 flex items-center">
+            <img
+              src="/images/icons/placed.svg"
+              className="w-16 rotate-45"
+              alt="Placement"
+            />
+            <strong className="ml-3 text-lg text-royal-blue-500">
+              Software Engineer,{' '}
+              <a
+                href="https://bigbinary.com"
+                className="hover:underline"
+                target="_blank"
+              >
+                BigBinary
+              </a>
+            </strong>
+          </div>
           <div className="mt-5">
             <h3 className="text-lg text-dark-blue-300 font-semibold mb-5">
               Education

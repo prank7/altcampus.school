@@ -19,7 +19,7 @@ function Student(props) {
             Software Engineer, BigBinary
           </h4>
           <h4 className="text-right text-lg text-gray-500 font-semibold mt-3 font-sans">
-            CTA: $2000
+            CTC: $2000
           </h4>
         </div>
       </article>
