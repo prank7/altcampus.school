@@ -1,22 +1,31 @@
 import React from 'react';
-import { BasicMedalIcon, CheckCrossIcon, CheckIcon, PriceTagIcon, ProMedalIcon } from '../Icons';
+import {
+  BasicMedalIcon,
+  CheckCrossIcon,
+  CheckIcon,
+  PriceTagIcon,
+  ProMedalIcon
+} from '../Icons';
 
 function Pricing(props) {
   return (
     <section className="py-24 bg-royal-blue-100">
       <div className="container mx-auto px-8">
-        <header className="text-center md:flex md:justify-center md:items-center mb-12">
+        <header className="text-center md:flex md:justify-center md:items-center mb-6">
           <PriceTagIcon className="inline-block w-12 md:mr-4" />
           <h2 className="font-bold text-5xl text-dark-blue-500">
             Invest in yourself
           </h2>
         </header>
-        <div className=" mb-12 md:mb-0 md:mx-8">
+        <div className="max-w-5xl mx-auto text-center mb-12 text-lg text-gray-700">
           <p>
-            Can't pay the entire sum at once? Buy now, and pay later via EMI. To avail it apply here(processing takes 2-4 working days).
+            Can't pay the entire sum at once? Buy now, and pay later via EMI. To
+            avail it apply here(processing takes 2-4 working days).
           </p>
-          <p>
-            You can do the course either in a cohort or self paced, you can select this option in the signup form. Next cohort starts on 25th July. Max number of students in a cohort is 15, book your seat now. 
+          <p className="mt-2">
+            You can do the course either in a cohort or self paced, you can
+            select this option in the signup form. Next cohort starts on 25th
+            July. Max number of students in a cohort is 15, book your seat now.
           </p>
         </div>
         <div className="md:flex md:justify-center">
@@ -38,8 +47,8 @@ function Pricing(props) {
                           ₹102,149
                         </h4>
                         <p className="inline-block mx-2 line-through font-medium font-mukta">
-                          {" "}
-                          $1399{" "}
+                          {' '}
+                          $1399{' '}
                         </p>
                       </div>
                       <div className="">
@@ -142,7 +151,7 @@ function Pricing(props) {
                         </h4>
 
                         <p className="inline-block mx-2 line-through font-medium font-mukta">
-                          $749{" "}
+                          $749{' '}
                         </p>
                       </div>
                       <div className="offer-price">

@@ -37,9 +37,9 @@ function Footer(props) {
                     </Link>
                   </li>
                   <li className="mb-2">
-                    <Link href="/#course-details">
+                    <Link href="/curriculum">
                       <a className="text-gray-500 hover:text-gold-600">
-                        Course Details
+                        Curriculum
                       </a>
                     </Link>
                   </li>
