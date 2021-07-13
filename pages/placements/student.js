@@ -5,6 +5,8 @@ import Sidebar from '../../components/Student/Sidebar';
 import About from '../../components/Student/About';
 import Project from '../../components/Student/Project';
 import Blog from '../../components/Student/Blog';
+import Story from '../../components/Student/Story';
+import ReadyToWriteStory from '../../components/Home/ReadyToWriteStory';
 
 export default function student() {
   return (
@@ -14,12 +16,18 @@ export default function student() {
         <link rel="icon" href="/favicon.png" />
       </Head>
       <LayoutHome>
-        {/* <Banner /> */}
+        <Banner />
         <section className=" bg-royal-blue-100  py-16">
           <div className="container mx-auto grid items-start grid-cols-9 gap-16">
             <Sidebar />
             <div className="col-span-6">
               <About />
+              <article>
+                <h2 className="text-dark-blue-600 text-4xl font-bold mb-2">
+                  Story
+                </h2>
+                <Story />
+              </article>
               <article>
                 <h2 className="text-dark-blue-600 text-4xl font-bold mb-2">
                   Projects
@@ -37,6 +45,7 @@ export default function student() {
             </div>
           </div>
         </section>
+        <ReadyToWriteStory />
       </LayoutHome>
     </div>
   );

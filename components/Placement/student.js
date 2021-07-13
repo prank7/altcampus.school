@@ -12,12 +12,10 @@ function Student(props) {
           />
         </figure>
         <div className="px-4 py-2">
-          <h2 className="text-2xl text-dark-blue-700 font-bold">
+          <h2 className="text-xl text-dark-blue-700 font-bold font-mukta">
             Harshaan Nihaal Khan
           </h2>
-          <h4 className="text-md text-gray-800 font-semibold mt-1">
-            Software Engineer, BigBinary
-          </h4>
+          <h4 className="text-gray-800 mt-1">Software Engineer, BigBinary</h4>
           <h4 className="text-right text-lg text-gray-500 font-semibold mt-3 font-sans">
             CTC: $2000
           </h4>
