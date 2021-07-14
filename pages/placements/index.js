@@ -5,8 +5,10 @@ import Student from '../../components/Placement/Student';
 import Banner from '../../components/Placement/Banner';
 import HiringPartners from '../../components/Placement/HiringPartners';
 import ReadyToBuild from '../../components/Home/ReadyToBuildCTA';
+import { getAllAlumnisData } from '../../lib/airtableApi';
 
-function Placement() {
+function Placement({ alumnis }) {
+  console.log(alumnis);
   return (
     <>
       <Head>
@@ -37,5 +39,13 @@ function Placement() {
     </>
   );
 }
+export const getStaticProps = async () => {
+  const data = await getAllAlumnisData();
+  return {
+    props: {
+      alumnis: data
+    }
+  };
+};
 
 export default Placement;
