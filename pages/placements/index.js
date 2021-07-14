@@ -8,7 +8,7 @@ import ReadyToBuild from '../../components/Home/ReadyToBuildCTA';
 import { getAllAlumnisData } from '../../lib/airtableApi';
 
 function Placement({ alumnis }) {
-  console.log(alumnis);
+  // console.log(alumnis);
   return (
     <>
       <Head>
@@ -26,11 +26,14 @@ function Placement({ alumnis }) {
               </h2>
             </header>
             <div className="grid grid-cols-4 gap-8">
-              <Student />
-              <Student />
-              <Student />
-              <Student />
-              <Student />
+              {
+                alumnis.map((alumni) =>
+                {
+                  return (
+                     <Student key={alumni.name} {...alumni} />
+                   )
+                 })
+                  }
             </div>
           </div>
         </section>

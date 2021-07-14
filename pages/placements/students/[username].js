@@ -17,14 +17,14 @@ export default function student({ alumniData }) {
   return (
     <div>
       <Head>
-        <title>Harshaan Nihaal Khan | AltCampus Community </title>
+        <title>{alumniData.name} | AltCampus Community </title>
         <link rel="icon" href="/favicon.png" />
       </Head>
       <LayoutHome>
-        <Banner />
+        <Banner {...alumniData} />
         <section className=" bg-royal-blue-100  py-16">
           <div className="container mx-auto grid items-start grid-cols-9 gap-16">
-            <Sidebar />
+            <Sidebar {...alumniData} />
             <div className="col-span-6">
               <About />
               <article>
@@ -37,15 +37,27 @@ export default function student({ alumniData }) {
                 <h2 className="text-dark-blue-600 text-4xl font-bold mb-2">
                   Projects
                 </h2>
-                <Project />
-                <Project />
+                {
+                  alumniData.projects.split(',').map((project) =>
+                  {
+                    return (
+                      <Project key={project} {...project} />
+                    )
+                  })
+                }
               </article>
               <article>
                 <h2 className="text-dark-blue-600 text-4xl font-bold mb-2">
                   Blog Posts
                 </h2>
-                <Blog />
-                <Blog />
+                {
+                  alumniData.blogPosts.split(',').map((blog) =>
+                  {
+                    return (
+                      <Blog key={blog} {...blog} />
+                    )
+                  })
+                }
               </article>
             </div>
           </div>

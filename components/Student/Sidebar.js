@@ -7,17 +7,17 @@ function Sidebar(props) {
         <figure className="">
           <img
             className="rounded-lg max-h-9"
-            src="/images/students/Harshaan.jpeg"
-            alt="Harshaan Nihaal Khaan"
+            src={props.image[0].url}
+            alt={props.name}
           />
         </figure>
         <div className="text-center p-3 font-bold text-dark-blue-600 capitalize text-2xl">
-          <h2>Harshaan Nihaal Khan</h2>
+          <h2>{ props.name}</h2>
           <ul className="flex items-center justify-center mt-2">
             <li className="mx-2">
               <a
                 className="w-10 h-10 bg-dark-blue-200 place-items-center grid rounded-full"
-                href="#"
+                href={props.github} target="_blank"
               >
                 <img src="/images/icons/github.svg" alt="GitHub" />
               </a>
@@ -25,7 +25,7 @@ function Sidebar(props) {
             <li className="mx-2">
               <a
                 className="w-10 h-10 bg-dark-blue-200 place-items-center grid rounded-full"
-                href="#"
+                href={props.twitter} target="_blank"
               >
                 <img src="/images/icons/twitter-sm.svg" alt="Twitter" />
               </a>
@@ -33,7 +33,7 @@ function Sidebar(props) {
             <li className="mx-2">
               <a
                 className="w-10 h-10 bg-dark-blue-200 place-items-center grid rounded-full"
-                href="#"
+                href={props.linkedin} target="_blank"
               >
                 <img src="/images/icons/linkedin.svg" alt="Linkedin" />
               </a>
@@ -41,7 +41,7 @@ function Sidebar(props) {
             <li className="mx-2">
               <a
                 className="w-10 h-10 bg-dark-blue-200 place-items-center grid rounded-full"
-                href="#"
+                href={props.email}
               >
                 <img src="/images/icons/email.svg" alt="Email" />
               </a>
@@ -97,16 +97,16 @@ function Sidebar(props) {
               />
               <div className="ml-6">
                 <h3 className="text-md font-semibold text-dark-blue-700">
-                  University of California
+                  {props.highestEducation}
                 </h3>
-                <h4 className="text-md font-semibold text-dark-blue-700">
+                {/* <h4 className="text-md font-semibold text-dark-blue-700">
                   B.com, Commerce
-                </h4>
+                </h4> */}
                 <time
                   className="text-md font-semibold text-dark-blue-300"
                   datetime=""
                 >
-                  2014-2017
+                  {props.graduationYear}
                 </time>
               </div>
             </div>

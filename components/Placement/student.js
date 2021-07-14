@@ -1,23 +1,25 @@
 import React from 'react';
 
-function Student(props) {
+function Student(props)
+{
+  console.log(props)
   return (
-    <a href="/placements/student">
+    <a href= {`/placements/students/${props.username}`}>
       <article className="border rounded-lg shadow-sm">
         <figure className="h-56 overflow-hidden">
           <img
             className="rounded-lg rounded-b-none h-full w-full object-cover"
-            src="/images/students/harshaan-full.jpeg"
+            src={props.image[0].url}
             alt="Harshaan Nihaal Khaan"
           />
         </figure>
         <div className="px-4 py-2">
           <h2 className="text-xl text-dark-blue-700 font-bold font-mukta">
-            Harshaan Nihaal Khan
+            {props.name}
           </h2>
-          <h4 className="text-gray-800 mt-1">Software Engineer, BigBinary</h4>
+          <h4 className="text-gray-800 mt-1">{props.role}, { props.company}</h4>
           <h4 className="text-right text-lg text-gray-500 font-semibold mt-3 font-sans">
-            CTC: $2000
+            CTC: {props.ctc}
           </h4>
         </div>
       </article>
