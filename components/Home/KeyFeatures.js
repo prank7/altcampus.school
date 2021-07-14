@@ -164,7 +164,7 @@ function KeyFeatures(props) {
               Job-ready at a fraction of college cost.
             </h3>
             <h6 className="text-2xl text-dark-blue-500 mt-1 mb-5 font-mukta">
-              Build strong portfolio, get help in job hunt at each step of the
+              Build strong portfolio, get help in job placement at each step of the
               way.
             </h6>
 
@@ -175,7 +175,7 @@ function KeyFeatures(props) {
                   {" "} build a strong portfolio, take our job readiness challenge, do
                   career counselling, and prepare you for job interviews
                 </b>
-                {""}
+                {" "}
                 and then match you with companies that are hiring.
               </p>
             </div>

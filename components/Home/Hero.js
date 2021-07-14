@@ -1,6 +1,12 @@
 import React from 'react';
+import globalData from '../../globalData';
 
 function Hero(props) {
+
+  var upcomingBatchDates = globalData.upcomingBatchDates;
+  var nextBatchDates = upcomingBatchDates.filter((a) => new Date(a) >= new Date());
+  var immediateBatchDate = nextBatchDates[0] ? `Next cohort starts on ${new Date(nextBatchDates[0]).toDateString().slice(4, 10)} or start learning at your own pace` : '';
+
   return (
     <section className="hero text-center py-20 md:pt-32 md:pb-24 relative overflow-hidden">
       <div className="container mx-auto px-8">
@@ -21,7 +27,7 @@ function Hero(props) {
           </div>
           <div className="mt-8">
             <p className="text-lg italic text-royal-blue-600 ">
-              Next cohort starts on 26th July or learn at your own pace ➜
+              {immediateBatchDate}
             </p>
           </div>
           <div>

@@ -1,7 +1,11 @@
 import React from 'react';
 import Link from 'next/link';
 
+import globalData from '../../globalData';
+
 function ChosePace(props) {
+  var upcomingBatchDates = globalData.upcomingBatchDates;
+  var nextBatchDates = upcomingBatchDates.filter((a) => new Date(a) >= new Date());
   return (
     <section className="bg-dark-blue-100 py-24">
       <article className="container mx-auto px-8">
@@ -16,16 +20,16 @@ function ChosePace(props) {
               Self Paced
             </h3>
             <h6 className="text-2xl text-dark-blue-500 mb-1 font-mukta">
-              Learn at your own pace, along with the community of peers.
+              Learn at your own pace.
             </h6>
             <ul className="text-lg leading-relaxed list-disc pl-4">
               <li className="mb-2">
-                Most suited for people wanting to learn fullstack web
+                Suited for folks wanting to learn fullstack web
                 development part time
               </li>
               <li className="mb-2">
                 Mentorship is still available in form of daily doubt clearing
-                sessions everyday between 6-7pm IST.
+                sessions everyday between 6-7pm IST
               </li>
               <li className="mb-2"> Can ask questions anytime via Slack </li>
               <li className="mb-2">
@@ -35,7 +39,7 @@ function ChosePace(props) {
               <li className="mb-2">
                 Access to mentorship for 9 months from the day of enrollment
               </li>
-              <li className="mb-2"> Access to content for lifetime</li>
+              {/* <li className="mb-2"> Access to content for lifetime</li> */}
               <li className="mb-2">
                 Access to hackathons, demo sessions, workshops, and community
                 events.
@@ -51,12 +55,12 @@ function ChosePace(props) {
               </li>
             </ul>
             <a
-              className="bg-white border-2 border-royal-blue-500 tracking-wider uppercase text-royal-blue-500 px-2 py-1 ml-12 mt-8 hover:shadow-lg transition-shadow ease-in-out duration-200 inline-block rounded-sm font-semibold"
+              className="mt-8 tracking-wider uppercase text-white bg-green-theme-500 hover:bg-green-theme-600 px-2 py-1 ml-6 rounded-sm hover:shadow-lg transition-shadow ease-in-out duration-200 inline-block font-semibold"
               target="_blank"
               rel="noopener"
               href="https://launchpad.altcampus.school/signup?utm_source=pick-your-pace"
             >
-              Enroll now
+              Start Today
             </a>
           </div>
           <div className="">
@@ -69,7 +73,7 @@ function ChosePace(props) {
 
             <ul className="text-lg leading-relaxed list-disc pl-4">
               <li className="mb-2">
-                Most suited for people wanting to learn fullstack web
+                Suited for folks wanting to learn fullstack web
                 development full time
               </li>
               <li className="mb-2">
@@ -77,7 +81,7 @@ function ChosePace(props) {
               </li>
               <li className="mb-2">Maximum 15 students in a cohort</li>
               <li className="mb-2">
-                Daily live mentor session, starts at 10am IST (Monday-Friday).
+                Daily live mentor session, starts at 10am IST (Monday-Friday)
               </li>
               <li className="mb-2">Can ask questions anytime via Slack</li>
               <li className="mb-2">
@@ -85,10 +89,10 @@ function ChosePace(props) {
               </li>{' '}
               <li className="mb-2">Job placement support</li>
               <li className="mb-2">
-                Access to mentorship for 9 months from the day of enrollment
+                Access to mentorship for 9 months from the day of enrollment. Usually a cohort finishes the course in 6-7 months.
               </li>
               <li className="mb-2">
-                hackathons, demo sessions, workshops, and community events.
+                Access to hackathons, demo sessions, workshops, and community events
               </li>
               <li className="mb-2">
                 Enroll now, pay later using EMI.{' '}
@@ -104,36 +108,29 @@ function ChosePace(props) {
             </ul>
 
             <div className="mt-6">
-              <h4 className="text-xl text-dark-blue-700 font-mukta font-semibold">
+              <h4 className="text-xl text-dark-blue-400 font-mukta font-semibold">
                 Upcoming batches:
               </h4>
               <ul className="mt-6">
-                <li className="flex items-center">
-                  <p className="text-2xl text-dark-blue-500 font-semibold mb-2">
-                    25th July
-                  </p>
-                  <a
-                    className="bg-white border-2 border-royal-blue-500 tracking-wider uppercase text-royal-blue-500 px-2 py-1 ml-6 rounded-sm hover:shadow-lg transition-shadow ease-in-out duration-200 inline-block font-semibold"
-                    target="_blank"
-                    rel="noopener"
-                    href="https://launchpad.altcampus.school/signup?utm_source=pick-your-pace"
-                  >
-                    Enroll now
-                  </a>
-                </li>
-                <li className="mt-8 flex items-center">
-                  <p className="text-2xl text-dark-blue-500 font-semibold mb-2">
-                    16th August
-                  </p>
-                  <a
-                    className="bg-white border-2 border-royal-blue-500 tracking-wider uppercase text-royal-blue-500 px-2 py-1 ml-6 rounded-sm inline-block hover:shadow-lg transition-shadow ease-in-out duration-200 font-semibold"
-                    target="_blank"
-                    rel="noopener"
-                    href="https://launchpad.altcampus.school/signup?utm_source=pick-your-pace"
-                  >
-                    Enroll now
-                  </a>
-                </li>
+                {
+                  nextBatchDates.map((n, i) => {
+                    return (
+                      <li key={i} className="mb-4 flex items-center">
+                        <p className="text-2xl text-dark-blue-800 font-semibold mb-2">
+                          {new Date(n).toDateString().slice(3, 10)+ " '"+  new Date(n).toDateString().slice(13)}
+                        </p>
+                        <a
+                          className="tracking-wider uppercase text-white bg-green-theme-500 hover:bg-green-theme-600 px-2 py-1 ml-6 rounded-sm hover:shadow-lg transition-shadow ease-in-out duration-200 inline-block font-semibold"
+                          target="_blank"
+                          rel="noopener"
+                          href="https://launchpad.altcampus.school/signup?utm_source=pick-your-pace"
+                        >
+                          Enroll now
+                        </a>
+                      </li>
+                    )
+                  })
+                }
               </ul>
             </div>
           </div>
