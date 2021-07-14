@@ -15,6 +15,7 @@
 @tailwind utilities;
 /* Stop purging. */
 
+
 /* Your own custom utilities */
 html {
   scroll-behavior: smooth;
