@@ -14,8 +14,9 @@ function curriculum(props) {
         <section className="py-24 bg-royal-blue-100">
           <header className="text-center">
             <h2 className="font-bold text-5xl text-dark-blue-500">
-              Exhaustive Course Content
+              Exhaustive MERN Stack Course
             </h2>
+            <h4 className="pt-2 text-2xl text-gray-700">Learn full-stack web development with one of the best designed courses on MERN stack.</h4>
           </header>
           <div className="text-center md:flex md:justify-between py-4 mb-16">
             <div className="py-6 md:py-12 course-icon relative md:w-1/4 ">

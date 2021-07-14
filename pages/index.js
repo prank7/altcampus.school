@@ -12,6 +12,7 @@ import LetsTalk from '../components/Home/LetsTalk';
 import LayoutHome from '../components/Home/Layout';
 import Head from 'next/head';
 import ChosePace from '../components/Home/ChosePace';
+import blogConfig from '../blog.config';
 
 function Home(props) {
   // React.useEffect(() => {
@@ -21,12 +22,13 @@ function Home(props) {
   //   document.head.appendChild(s);
   // }, []);
 
+  console.log('ttile', blogConfig.siteMeta.title);
+
   return (
     <>
       <Head>
         <title>
-          AltCampus School - Learn programming online. Fullstack web development
-          bootcamp in India.
+          {blogConfig.siteMeta.title}
         </title>
       </Head>
       <LayoutHome>

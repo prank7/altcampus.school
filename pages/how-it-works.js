@@ -33,8 +33,11 @@ function Content() {
         platform. Onboarding will involve connecting other platforms and tools
         and watching an orientation video on how to approach the course. You
         will be given access to all the tools we will use like Slack for
-        communication, Github organization for collaboration, etc. Our learning
-        platform hosts all the content, assignments, and projects. After being
+        communication, Github organization for collaboration, etc.
+      </p>
+      <p className='text-dark-blue-300 text-lg pt-2'> 
+        As one of the best programming bootcamps, AltCampus has designed a sophisticated learning management system(Launchpad) 
+        that hosts all the content, assignments, and projects. After being
         onboarded, You will be assigned a particular module and a mentor for the
         corresponding module. You can immediately start learning with our
         pre-recorded videos, step-by-step exercises, and assignments available
@@ -55,7 +58,7 @@ function Content() {
         development. At each step, mentors will provide you with extra resources
         and tips to help you learn better.
       </p>
-      <p className='text-dark-blue-300 text-lg'>
+      <p className='text-dark-blue-300 text-lg pt-2'>
         Once you have completed an exercise or project, there are two levels of
         feedback provided. One is automated feedback, which is a pre-recorded
         video of a mentor explaining the approach of solving the problem. This
@@ -67,6 +70,15 @@ function Content() {
         call (office hour). We make sure that you master a concept before moving
         forward.
       </p>
+
+      <h6 className='text-xl text-royal-blue-500 font-bold mt-8 mb-3'>
+        Cohort vs Self Paced
+      </h6>
+      <p className='text-dark-blue-300 text-lg'>
+        You can opt to do the course in a cohort with other learners. It's generally better for motivation and learning outcomes.
+        You should strongly consider it if you are learning it full time. Mentors do live sessions with the group everyday. Cohorts usually finish the course faster, in about 6-7 months.
+      </p>
+      <p className='text-dark-blue-300 text-lg pt-2'>Self paced is more suited for learners who want to do it part time. Mentors hold a live sessions for doubt clearing.</p>
 
       <h6 className='text-xl text-royal-blue-500 font-bold mt-8 mb-3'>
         Mentor Office hours and Getting help
@@ -122,7 +134,7 @@ function Content() {
       </p>
 
       <h6 className='text-xl text-royal-blue-500 font-bold mt-8 mb-3'>
-        Job support
+        Job Placement Support
       </h6>
       <p className='text-dark-blue-300 text-lg'>
         Throughout the course, we make sure that whatever you do is geared

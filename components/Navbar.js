@@ -11,10 +11,12 @@ function Navbar(params) {
         <div className="max-w-7xl mx-auto px-8 sm:px-16">
           <div className="flex justify-between items-center py-3 md:justify-start md:space-x-10">
             <div className="w-0 flex-1 flex">
-              <a href="/" className="inline-flex">
-                <AltCampusIcon className="h-8 sm:h-10 w-auto" />
-                <span className="sr-only">AltCampus</span>
-              </a>
+              <Link href="/">
+                <a href="/" className="inline-flex">
+                  <AltCampusIcon className="h-8 sm:h-10 w-auto" />
+                  <span className="sr-only">AltCampus</span>
+                </a>
+              </Link>
               <Link href="/community">
                 <a className="self-center text-dark-blue-400 hover:text-dark-blue-700 text-xl pl-2 pt-1">
                   Community

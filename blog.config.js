@@ -1,4 +1,4 @@
-const title = "AltCampus School - Learn programming online. Fullstack web development bootcamp in India.";
+const title = "AltCampus School - Learn programming online. Fullstack web development bootcamp based out of India.";
 const description = "AltCampus is an online, immersive programming bootcamp that helps you learn full-stack web development and become job-ready. Learn MERN stack - JavaScript, Node.js, React.js by building projects at India's best coding bootcamp.";
 const siteURL = 'https://altcampus.school';
 

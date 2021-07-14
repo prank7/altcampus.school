@@ -1,12 +1,12 @@
 import React from 'react';
+import Link from 'next/link';
 
 function CourseDetails(props) {
   return (
     <section className="py-24 bg-royal-blue-100" id="course-details">
       <header className="text-center">
         <h2 className="font-bold text-5xl text-dark-blue-500">
-          Like we said <br />
-          Exhaustive Course Content
+          Exhaustive MERN Stack Course Content
         </h2>
       </header>
       <div className="text-center md:flex md:justify-between py-4 mb-8">
@@ -64,12 +64,12 @@ function CourseDetails(props) {
         </div>
       </div>
       <footer className="text-center">
-        <a
-          className="text-md text-white bg-green-theme-500 hover:bg-green-theme-600 uppercase py-3 px-20 inline-block mt-12 rounded font-semibold tracking-widest btn-hover font-mukta"
+        <Link href="/curriculum"><a
+          className="text-md text-white bg-green-theme-500 hover:bg-green-theme-600 uppercase py-3 px-20 inline-block mt-12 rounded font-semibold tracking-wider btn-hover font-mukta"
           href="/curriculum"
         >
-          Check our curriculum
-        </a>
+          Checkout our detailed curriculum
+        </a></Link>
       </footer>
     </section>
   );
