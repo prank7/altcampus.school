@@ -21,7 +21,22 @@
 
   <url>
     <loc
+      >https://altcampus.school/community/posts/4-common-situations-in-git</loc
+    >
+  </url>
+  <url>
+    <loc
       >https://altcampus.school/community/posts/4-simple-systems-to-learn-programming-faster</loc
+    >
+  </url>
+  <url>
+    <loc
+      >https://altcampus.school/community/posts/array-methods-explained-pictorial-representation</loc
+    >
+  </url>
+  <url>
+    <loc
+      >https://altcampus.school/community/posts/basic-array-methods-in-javascript</loc
     >
   </url>
   <url>
@@ -30,8 +45,21 @@
     >
   </url>
   <url>
+    <loc>https://altcampus.school/community/posts/basic-unix-commands</loc>
+  </url>
+  <url>
+    <loc
+      >https://altcampus.school/community/posts/crud-operations-in-mongodb</loc
+    >
+  </url>
+  <url>
     <loc
       >https://altcampus.school/community/posts/heres-everything-you-need-to-know-to-become-a-full-stack-web-developer</loc
+    >
+  </url>
+  <url>
+    <loc
+      >https://altcampus.school/community/posts/how-to-build-a-great-portfolio-as-a-beginner-developer</loc
     >
   </url>
   <url>
@@ -42,6 +70,21 @@
   <url>
     <loc
       >https://altcampus.school/community/posts/how-to-overcome-imposter-syndrome-as-an-aspiring-software-developer</loc
+    >
+  </url>
+  <url>
+    <loc
+      >https://altcampus.school/community/posts/how-to-use-console-like-a-pro</loc
+    >
+  </url>
+  <url>
+    <loc
+      >https://altcampus.school/community/posts/how-to-write-good-git-commit-message</loc
+    >
+  </url>
+  <url>
+    <loc
+      >https://altcampus.school/community/posts/understanding-positioning-in-css</loc
     >
   </url>
   <url>
@@ -61,17 +104,27 @@
   </url>
   <url>
     <loc
-      >https://altcampus.school/community/stories/Harshaan-shares-AltCampus-experience-and-job-placement</loc
+      >https://altcampus.school/community/posts/writing-clean-and-organized-css</loc
     >
   </url>
   <url>
     <loc
-      >https://altcampus.school/community/stories/dropping-out-of-college-learning-to-code-first-job-AltCampus-Chaduvula-story</loc
+      >https://altcampus.school/community/posts/writing-semantically-correct-and-clean-html</loc
     >
   </url>
   <url>
     <loc
-      >https://altcampus.school/community/stories/learning-to-code-from-AltCampus-and-finally-becoming-software-developer-Komal's-journey</loc
+      >https://altcampus.school/community/stories/dropping-out-of-college-learning-to-code-first-job-altaampus-ahaduvula-story</loc
+    >
+  </url>
+  <url>
+    <loc
+      >https://altcampus.school/community/stories/harshaan-shares-altaampus-experience-and-job-placement</loc
+    >
+  </url>
+  <url>
+    <loc
+      >https://altcampus.school/community/stories/learning-to-code-from-altcampus-and-finally-becoming-software-developer-komals-journey</loc
     >
   </url>
 </urlset>

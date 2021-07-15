@@ -1,7 +1,7 @@
 ---
 title: 'Why Are Bootcamps So Expensive?'
 description: 'The pricing behind bootcamps is interesting to know about. Learn why bootcamps are priced the way they are.'
-date: '2020-20-05'
+date: '2020-05-20'
 blurb: Learn about bootcamps and their pricing strategy.
 photo: '/images/posts/why-are-bootcamps-so-expensive.png'
 cta: true

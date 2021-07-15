@@ -13,19 +13,23 @@ class MyDocument extends Document {
       <Html lang="en">
         <Head>
           <link
-            rel='shortcut icon'
-            type='image/png'
-            href='/assets/media/favicon.png'
+            rel="shortcut icon"
+            type="image/png"
+            href="/assets/media/favicon.png"
           />
-          
-          <link rel='preconnect' href='https://fonts.googleapis.com' crossOrigin="true"/>
+
           <link
-            href='https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Source+Sans+Pro:wght@200;400;600;700&family=Mukta:wght@300;400;500;600&display=swap'
+            rel="preconnect"
+            href="https://fonts.googleapis.com"
+            crossOrigin="true"
+          />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700,900&family=Source+Sans+Pro:wght@200;400;600;700&family=Mukta:wght@300;400;500;600&display=swap"
             rel="preload"
             as="style"
           />
           <link
-            href='https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Source+Sans+Pro:wght@200;400;600;700&family=Mukta:wght@300;400;500;600&display=swap'
+            href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700,900&family=Source+Sans+Pro:wght@200;400;600;700&family=Mukta:wght@300;400;500;600&display=swap"
             rel="stylesheet"
           />
 
@@ -40,11 +44,11 @@ class MyDocument extends Document {
                 function gtag(){dataLayer.push(arguments);}
                 gtag('js', new Date());
                 gtag('config', '${GA_TRACKING_ID}');
-            `,
+            `
             }}
           />
         </Head>
-        <body className='antialiased'>
+        <body className="antialiased">
           <Main />
           <NextScript />
         </body>
