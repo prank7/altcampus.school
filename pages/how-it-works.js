@@ -1,14 +1,26 @@
 import React from 'react';
 import Head from "next/head";
+import { NextSeo } from 'next-seo';
 
 import LayoutHome from '../components/Home/Layout';
 
 function HowItWorks(props) {
+
+  var title = "How AltCampus Works | AltCampus School";
+  var description = "AltCampus is one of the best programming bootcamps in India. Learn how it helps you get a job as a full stack web developer.";
+  var url = "https://altcampus.school/how-it-works";
+
   return (
     <>
-    <Head>
-      <title>How It Works | AltCampus School</title>
-    </Head>
+    <NextSeo 
+        title={title}
+        description={description}
+        openGraph={{
+          url,
+          title,
+          description
+        }}
+      />
     <LayoutHome>
       <Content />
     </LayoutHome>

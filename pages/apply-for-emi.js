@@ -4,16 +4,28 @@ import { AltCampusIcon } from '../components/Icons';
 import Image from 'next/image';
 
 import LayoutHome from '../components/Home/Layout';
+import { NextSeo } from 'next-seo';
 
 function ApplyForEMI(props) {
+  var title="Apply For EMI | AltCampus School";
+  var description="Enroll in AltCampus course for free now and pay later via EMI. Far more cost effective than ISA based bootcamps. Apply for EMI now.";
+  var url = "https://altcampus.school/apply-for-emi";
+
   return (
     <>
-    <Head>
-      <title>Apply For EMI | AltCampus School</title>
-    </Head>
-    <LayoutHome>
-      <Content />
-    </LayoutHome>
+      <NextSeo 
+        title={title}
+        description={description}
+        openGraph={{
+          url,
+          site_name: 'AltCampus School',
+          title,
+          description
+        }}
+      />
+      <LayoutHome>
+        <Content />
+      </LayoutHome>
     </>
   );
 }

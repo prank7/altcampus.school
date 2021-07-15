@@ -1,15 +1,26 @@
 import React from 'react';
 import LayoutHome from '../components/Home/Layout';
 import Head from 'next/head';
+import { NextSeo } from 'next-seo';
 
 import ReadyToBuildCTA from '../components/Home/ReadyToBuildCTA';
 
 function curriculum(props) {
+  var title = "Curriculum | AltCampus School";
+  var description = "Best curriculum and roadmap for learning full stack web development at India's best coding bootcamp. Learn MERN - JavaScript, React, Node.js with step by step and project based course.";
+  var url = "https://altcampus.school/curriculum";
+
   return (
     <>
-      <Head>
-        <title>Curriculum | AltCampus School</title>
-      </Head>
+      <NextSeo 
+        title={title}
+        description={description}
+        openGraph={{
+          url,
+          title,
+          description
+        }}
+      />
       <LayoutHome>
         <section className="py-24 bg-royal-blue-100">
           <header className="text-center">

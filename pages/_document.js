@@ -12,9 +12,6 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          <meta charSet='UTF-8' />
-          <meta name='robots' content='index, follow' />
-          <meta name="author" content="AltCampus" />
           <link
             rel='shortcut icon'
             type='image/png'

@@ -16,7 +16,7 @@ function FAQ(props) {
             </h3>
             <p className='font-medium text-dark-blue-300 pt-2 pb-8 text-lg'>
               <b className='text-2xl mr-3'>A.</b>
-              AltCampus is a programming bootcamp for recent college graduates, students taking gap year, dropouts,
+              AltCampus is an online programming bootcamp for recent college graduates, students taking gap year, dropouts,
               professionals looking to switch careers, anyone learning web
               development but needs right environment and guidance. No prior
               programming knowledge required.
