@@ -25,31 +25,46 @@ function Student(props) {
               src="/images/hiring-partner/loconav.png"
               alt="LocoNav"
             />
+            <img
+              className="w-32 m-4"
+              src="/images/hiring-partner/khelomore.svg"
+              alt="Khelomore"
+            />
+            <img
+              className="m-4 h-12"
+              src="/images/hiring-partner/ey.svg"
+              alt="EY India"
+            />
+            <img
+              className="w-32 m-4"
+              src="/images/hiring-partner/thunderpod.png"
+              alt="Thunderpod"
+            />
+            <img
+              className="w-32 m-4"
+              src="/images/hiring-partner/mclarencollege.png"
+              alt="Mclarencollege"
+            />
+            <img
+              className="w-32 m-4"
+              src="/images/hiring-partner/epyc.png"
+              alt="EPYC"
+            />
+            <img
+              className="w-32 m-4"
+              src="/images/hiring-partner/betaflux.png"
+              alt="Betaflux"
+            />
 
             <img
               className="w-32 m-4"
-              src="/images/hiring-partner/khelomore.svg"
-              alt="Khelomore"
+              src="/images/hiring-partner/saeloun.svg"
+              alt="Saeloun"
             />
             <img
               className="w-32 m-4"
-              src="/images/hiring-partner/big-binary.svg"
-              alt="BigBinary"
-            />
-            <img
-              className="w-32 m-4"
-              src="/images/hiring-partner/cleartax.png"
-              alt="ClearTax"
-            />
-            <img
-              className="w-32 m-4"
-              src="/images/hiring-partner/loconav.png"
-              alt="LocoNav"
-            />
-            <img
-              className="w-32 m-4"
-              src="/images/hiring-partner/khelomore.svg"
-              alt="Khelomore"
+              src="/images/hiring-partner/lancesoft.png"
+              alt="LanceSoft"
             />
           </figure>
         </div>

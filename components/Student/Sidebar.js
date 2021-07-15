@@ -4,20 +4,21 @@ function Sidebar(props) {
   return (
     <aside className="col-span-3 sticky top-0 shadow-sm rounded-lg bg-white">
       <article>
-        <figure className="">
+        <figure className="h-64 overflow-hidden">
           <img
-            className="rounded-lg max-h-9"
+            className="rounded-lg h-full w-full object-cover rounded-b-none"
             src={props.image[0].url}
             alt={props.name}
           />
         </figure>
         <div className="text-center p-3 font-bold text-dark-blue-600 capitalize text-2xl">
-          <h2>{ props.name}</h2>
+          <h2>{props.name}</h2>
           <ul className="flex items-center justify-center mt-2">
             <li className="mx-2">
               <a
                 className="w-10 h-10 bg-dark-blue-200 place-items-center grid rounded-full"
-                href={props.github} target="_blank"
+                href={props.github}
+                target="_blank"
               >
                 <img src="/images/icons/github.svg" alt="GitHub" />
               </a>
@@ -25,7 +26,8 @@ function Sidebar(props) {
             <li className="mx-2">
               <a
                 className="w-10 h-10 bg-dark-blue-200 place-items-center grid rounded-full"
-                href={props.twitter} target="_blank"
+                href={props.twitter}
+                target="_blank"
               >
                 <img src="/images/icons/twitter-sm.svg" alt="Twitter" />
               </a>
@@ -33,7 +35,8 @@ function Sidebar(props) {
             <li className="mx-2">
               <a
                 className="w-10 h-10 bg-dark-blue-200 place-items-center grid rounded-full"
-                href={props.linkedin} target="_blank"
+                href={props.linkedin}
+                target="_blank"
               >
                 <img src="/images/icons/linkedin.svg" alt="Linkedin" />
               </a>
@@ -41,7 +44,7 @@ function Sidebar(props) {
             <li className="mx-2">
               <a
                 className="w-10 h-10 bg-dark-blue-200 place-items-center grid rounded-full"
-                href={props.email}
+                href={`mailto:${props.email}`}
               >
                 <img src="/images/icons/email.svg" alt="Email" />
               </a>

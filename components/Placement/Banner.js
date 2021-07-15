@@ -19,7 +19,7 @@ function Student(props) {
           />
         </div>
         <h2 className="text-4xl text-royal-blue-500 font-bold">
-          <strong>Success 82.5%</strong>
+          <strong>Success Rate - 82.5%</strong>
         </h2>
       </article>
     </section>

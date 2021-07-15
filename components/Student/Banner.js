@@ -8,13 +8,13 @@ function Banner(props) {
           <h1 className="text-dark-blue-600 text-5xl font-bold">
             {props.name}
           </h1>
-          <div className="flex items-center justify-center mt-8">
-            <img
+          <div className="flex items-center justify-center">
+            {/* <img
               src="/images/icons/placed.svg"
               className="w-24 transform -rotate-12 inline-block"
-              alt="Placement"
-            />
-            <h3 className="text-royal-blue-500 text-xl font-semibold ml-6">
+              alt="Placed Stamp"
+            /> */}
+            <h3 className="text-royal-blue-500 text-xl font-semibold">
               {props.role}, {props.company}
             </h3>
           </div>

@@ -23,7 +23,7 @@ export default function student({ alumniData }) {
       <LayoutHome>
         <Banner {...alumniData} />
         <section className=" bg-royal-blue-100  py-16">
-          <div className="container mx-auto grid items-start grid-cols-9 gap-16">
+          <div className="container mx-auto px-8 grid items-start grid-cols-9 gap-16">
             <Sidebar {...alumniData} />
             <div className="col-span-6">
               <About />
@@ -37,27 +37,17 @@ export default function student({ alumniData }) {
                 <h2 className="text-dark-blue-600 text-4xl font-bold mb-2">
                   Projects
                 </h2>
-                {
-                  alumniData.projects.split(',').map((project) =>
-                  {
-                    return (
-                      <Project key={project} {...project} />
-                    )
-                  })
-                }
+                {alumniData.projects.split(',').map((project) => {
+                  return <Project key={project} {...project} />;
+                })}
               </article>
               <article>
                 <h2 className="text-dark-blue-600 text-4xl font-bold mb-2">
                   Blog Posts
                 </h2>
-                {
-                  alumniData.blogPosts.split(',').map((blog) =>
-                  {
-                    return (
-                      <Blog key={blog} {...blog} />
-                    )
-                  })
-                }
+                {alumniData.blogPosts.split(',').map((blog) => {
+                  return <Blog key={blog} {...blog} />;
+                })}
               </article>
             </div>
           </div>

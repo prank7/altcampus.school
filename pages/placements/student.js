@@ -18,7 +18,7 @@ export default function student() {
       <LayoutHome>
         <Banner />
         <section className=" bg-royal-blue-100  py-16">
-          <div className="container mx-auto grid items-start grid-cols-9 gap-16">
+          <div className="container mx-auto px-24 grid items-start grid-cols-9 gap-16">
             <Sidebar />
             <div className="col-span-6">
               <About />

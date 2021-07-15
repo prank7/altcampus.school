@@ -19,21 +19,16 @@ function Placement({ alumnis }) {
         <Banner />
         <HiringPartners />
         <section className="py-16">
-          <div className="container mx-auto ">
+          <div className="container mx-auto">
             <header>
               <h2 className="text-center text-dark-blue-500 text-5xl font-semibold mb-8">
                 Our Alumini
               </h2>
             </header>
             <div className="grid grid-cols-4 gap-8">
-              {
-                alumnis.map((alumni) =>
-                {
-                  return (
-                     <Student key={alumni.name} {...alumni} />
-                   )
-                 })
-                  }
+              {alumnis.map((alumni) => {
+                return <Student key={alumni.name} {...alumni} />;
+              })}
             </div>
           </div>
         </section>
