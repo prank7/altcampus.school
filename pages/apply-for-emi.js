@@ -1,5 +1,7 @@
 import React from 'react';
 import Head from "next/head";
+import { AltCampusIcon } from '../components/Icons';
+import Image from 'next/image';
 
 import LayoutHome from '../components/Home/Layout';
 
@@ -25,12 +27,18 @@ function Content() {
       {/* <h5 className='text-2xl font-bold text-green-theme-500'>
         How to apply
       </h5> */}
+      <div className="flex justify-center items-center">
+        <AltCampusIcon className="h-12 w-auto sm:h-10 inline" />
+        <span className="sr-only">AltCampus</span>
+        <span className="inline px-4 text-blue-700 font-mukta font-semibold"> in partnership with </span>
+        <Image src="/images/mihuru-logo.png" height="56px" width="100px" className="inline h-12 w-auto sm:h-10" />
+      </div>
       <div className="">
         <h6 className='text-2xl text-royal-blue-500 font-bold mt-8 mb-2'>
           How to apply
         </h6>
         <p className='text-dark-blue-300 text-lg'>
-          You can enroll in our programming bootcamp now and pay later using EMI. To make it easier for you to pay later, we have partnered with Mihuru.
+          You can enroll in our programming bootcamp now and pay later using EMI. To make it easier for you to pay later, we have partnered with <a className="underline" href="https://www.mihuru.com" target="_blank" rel="noopener">Mihuru</a>.
           Please fill the form below to start the process, the entire process will take 1-3 working days. The application submission will hardly take 5 minutes of your time.
         </p>
 
