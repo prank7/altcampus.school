@@ -1,14 +1,23 @@
 import React from 'react';
+import Image from 'next/image'
+
 
 function Sidebar(props) {
+const imageLoader = ({ src, width, quality }) => {
+  return src
+}
+
   return (
     <aside className="col-span-3 sticky top-0 shadow-sm rounded-lg bg-white">
       <article>
         <figure className="">
-          <img
+          <Image
+          loader={imageLoader}
             className="rounded-lg max-h-9"
-            src={props.image[0].url}
+            src={props.image[0].url || ''}
             alt={props.name}
+            width={500}
+            height={500}
           />
         </figure>
         <div className="text-center p-3 font-bold text-dark-blue-600 capitalize text-2xl">
@@ -83,7 +92,7 @@ function Sidebar(props) {
                 </h4>
                 <time
                   className="text-md font-semibold text-dark-blue-300"
-                  datetime=""
+                  dateTime=""
                 >
                   2018-2019
                 </time>
@@ -104,7 +113,7 @@ function Sidebar(props) {
                 </h4> */}
                 <time
                   className="text-md font-semibold text-dark-blue-300"
-                  datetime=""
+                  dateTime=""
                 >
                   {props.graduationYear}
                 </time>

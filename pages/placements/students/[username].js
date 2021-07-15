@@ -13,7 +13,7 @@ import {
 } from '../../../lib/airtableApi';
 
 export default function student({ alumniData }) {
-  console.log(alumniData);
+  // console.log(alumniData);
   return (
     <div>
       <Head>
@@ -74,14 +74,16 @@ export const getStaticPaths = async () => {
   return {
     paths:
       allAlumnisData.map(
-        (alumni) => `/placements/students/${alumni.username}`
+        (alumni) => {
+          return {params: {username: alumni.username}}
+        }
       ) || [],
     fallback: true
   };
 };
 
-export const getStaticProps = async ({ params }) => {
-  const { username } = params;
+export const getStaticProps = async (props) => {
+  const { username } = props.params;
   const alumniData = await getIndividualAlumniData(username);
   return {
     props: {

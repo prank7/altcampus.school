@@ -1,16 +1,21 @@
 import React from 'react';
+import Image from 'next/image'
 
-function Student(props)
-{
-  console.log(props)
+function Student(props){
+  const imageLoader = ({ src, width, quality }) => {
+    return src
+  }
   return (
     <a href= {`/placements/students/${props.username}`}>
       <article className="border rounded-lg shadow-sm">
         <figure className="h-56 overflow-hidden">
-          <img
+          <Image
+            loader={imageLoader}
             className="rounded-lg rounded-b-none h-full w-full object-cover"
             src={props.image[0].url}
-            alt="Harshaan Nihaal Khaan"
+            alt={props.name}
+            width={300}
+            height={300}
           />
         </figure>
         <div className="px-4 py-2">
