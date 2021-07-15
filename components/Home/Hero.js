@@ -5,7 +5,7 @@ function Hero(props) {
 
   var upcomingBatchDates = globalData.upcomingBatchDates;
   var nextBatchDates = upcomingBatchDates.filter((a) => new Date(a) >= new Date());
-  var immediateBatchDate = nextBatchDates[0] ? `Next cohort starts on ${new Date(nextBatchDates[0]).toDateString().slice(4, 10)} or start learning at your own pace` : '';
+  var immediateBatchDate = nextBatchDates[0] ? `Next cohort starts on ${new Date(nextBatchDates[0]).toDateString().slice(4, 10)} OR Start learning at your own pace` : '';
 
   return (
     <section className="hero text-center py-20 md:pt-32 md:pb-24 relative overflow-hidden">
