@@ -5,25 +5,26 @@ import { getSortedPostsData } from '../../../lib/stories';
 import { NextSeo} from 'next-seo';
 
 const Stories = ({ allPostsData }) => {
+
+  var title = "Success Stories | AltCampus School";
+  var description = "Placement and success stories from AltCampus. Stories from one of the best placement records among programming bootcamps in India";
+  var url = "https://altcampus.school/community/stories";
+    
   return (
     <Layout>
-      <NextSeo
-        title={"AltCampus School | Stories"}
-        description='Placement and success stories from AltCampus'        
+      <NextSeo 
+        title={title}
+        description={description}
         openGraph={{
-          title: "AltCampus School | Stories",
-          description: 'Placement and success stories from AltCampus' ,
-        }}
-        twitter={{
-          handle: '@altcampus',
-          site: '@altcampus',
-          cardType: 'summary_large_image',
+          url,
+          title,
+          description
         }}
       />
       <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-6 gap-4">
         <div className="mx-8 col-span-1 md:col-start-2 md:col-span-4">
           <h1 className="text-center py-4 pt-8 text-4xl font-bold text-gray-700">
-            Success Stories
+            Placement Stories - Getting Software Jobs After Learning at Our Bootcamp
           </h1>
         </div>
         <div className="mx-8 col-span-1 md:col-start-2 md:col-span-4">

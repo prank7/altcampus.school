@@ -22,8 +22,6 @@ function Home(props) {
   //   document.head.appendChild(s);
   // }, []);
 
-  console.log('ttile', blogConfig.siteMeta.title);
-
   return (
     <>
       <Head>

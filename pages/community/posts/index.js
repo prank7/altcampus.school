@@ -7,26 +7,28 @@ import generateSitemap from '../../../lib/generateSitemap';
 
 
 const Tutorials = ({ allPostsData }) => {
+
+  var title = "How to Learn Web Development and Get a Job - Blog | AltCampus School";
+  var description="Insightful tips, techniques and posts on how to learn software developement and get a job";
+  var url = "https://altcampus.school/community/posts";
+
   return (
     <Layout>
-      <NextSeo
-        title="AltCampus Community | Posts"
-        description="Insightful tips, techniques and posts on how to learn software developement and get a job."
+      <NextSeo 
+        title={title}
+        description={description}
         openGraph={{
-          title: 'AltCampus Community | Posts',
-          description: 'Insightful tips, techniques and posts on how to learn software developement and get a job.',
-        }}
-        twitter={{
-          handle: '@altcampus',
-          site: '@altcampus',
-          cardType: 'summary_large_image',
+          url,
+          title,
+          description
         }}
       />
       <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-6 gap-4 post-container">
         <div className="mx-8 col-span-1 md:col-start-2 md:col-span-4">
           <h1 className="text-center py-4 pt-8 text-4xl font-bold text-gray-700">
-            Posts
+            How to Learn Web Development and Get a Job - Tips on Zero to Job
           </h1>
+          <h2 className="pt-2 text-2xl text-gray-600 pb-6 text-center">On our blog here, we discuss how to get started learning full stack web development, building a portfolio and getting a job as a software developer.</h2>
         </div>
         <div className="mx-8 col-span-1 md:col-start-2 md:col-span-4">
           {allPostsData.map(({ id, date, photo, title, blurb }) => (
