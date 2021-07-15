@@ -1,9 +1,11 @@
 import React from 'react';
 
-function Blog(props) {
+function Blog(props)
+{
+  // console.log(props.blog)
   return (
     <div className="p-4 bg-white shadow rounded-md mb-8">
-      <a href="#">
+      {/* <a href="#">
         <h3 className="text-gray-900 text-2xl font-bold mb-2">
           Scope: Local, Global and Lexical
         </h3>
@@ -15,7 +17,16 @@ function Blog(props) {
           animations and creating intuitive, dynamic user experiences. Let's
           make something special.
         </p>
-      </a>
+      </a> */}
+      { 
+        !props.blogPosts ? "NA" :        
+          props.blogPosts.split(',').map((blog,index) =>
+          {
+            return (
+              <a key={index} className='bg-gray-200 p-2 hover:bg-blue-100  text-xl' href={blog} target="_blank">Blog{ index+1}</a>    
+            )
+         })  
+      }
     </div>
   );
 }

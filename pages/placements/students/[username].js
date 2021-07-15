@@ -7,6 +7,7 @@ import Project from '../../../components/Student/Project';
 import Blog from '../../../components/Student/Blog';
 import Story from '../../../components/Student/Story';
 import ReadyToWriteStory from '../../../components/Home/ReadyToWriteStory';
+import StudentExperience from '../../../components/Student/StudentExperience'
 import {
   getAllAlumnisData,
   getIndividualAlumniData
@@ -26,38 +27,24 @@ export default function student({ alumniData }) {
           <div className="container mx-auto grid items-start grid-cols-9 gap-16">
             <Sidebar {...alumniData} />
             <div className="col-span-6">
-              <About />
+              <About {...alumniData} />
               <article>
                 <h2 className="text-dark-blue-600 text-4xl font-bold mb-2">
-                  Story
+                  {alumniData.interviewLink ? "Story" : "Experience at AltCampus"}
                 </h2>
-                <Story />
+                {alumniData.interviewLink ? <Story {...alumniData} /> : <StudentExperience {...alumniData} />}
               </article>
               <article>
                 <h2 className="text-dark-blue-600 text-4xl font-bold mb-2">
                   Projects
                 </h2>
-                {
-                  alumniData.projects.split(',').map((project) =>
-                  {
-                    return (
-                      <Project key={project} {...project} />
-                    )
-                  })
-                }
+                  <Project projects={alumniData.projects} />
               </article>
               <article>
                 <h2 className="text-dark-blue-600 text-4xl font-bold mb-2">
                   Blog Posts
                 </h2>
-                {
-                  alumniData.blogPosts.split(',').map((blog) =>
-                  {
-                    return (
-                      <Blog key={blog} {...blog} />
-                    )
-                  })
-                }
+                  <Blog blogPosts={alumniData.blogPosts} />
               </article>
             </div>
           </div>

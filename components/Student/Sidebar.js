@@ -50,7 +50,7 @@ const imageLoader = ({ src, width, quality }) => {
             <li className="mx-2">
               <a
                 className="w-10 h-10 bg-dark-blue-200 place-items-center grid rounded-full"
-                href={props.email}
+                href={`mailto:${props.email}`}
               >
                 <img src="/images/icons/email.svg" alt="Email" />
               </a>

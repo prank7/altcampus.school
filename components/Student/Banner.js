@@ -15,7 +15,7 @@ function Banner(props) {
               alt="Placement"
             />
             <h3 className="text-royal-blue-500 text-xl font-semibold ml-6">
-              {props.role}, {props.company}
+              {props.role}, <a target="_blank" className='hover:underline' href={props.companyWebsite}>{props.company}</a>
             </h3>
           </div>
         </header>
