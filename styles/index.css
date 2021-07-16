@@ -282,7 +282,7 @@ button {
   padding: 2px 6px;
   border-radius: 2px;
 }
-
+/* Embedded media */
 .video-container {
   position: relative;
   width: 100%;
@@ -320,3 +320,17 @@ button {
 .prose code::before, code::after {
   content: "";
 }
+
+/* Alumini Profile */
+/* .student-background {
+  height: 0;
+  opacity: 0;
+  transition: all 300ms ease-in-out;
+}
+#show-background:checked ~ .student-background {
+  height: auto;
+  opacity: 1;
+}
+#show-background:checked ~ label span {
+  background-color: rgba(233, 237, 244,1);
+} */

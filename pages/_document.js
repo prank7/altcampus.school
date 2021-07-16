@@ -1,6 +1,7 @@
-import Document, { Html, Head, Main, NextScript } from 'next/document';
+import Document, { Html, Main,Head, NextScript } from 'next/document';
 
 const GA_TRACKING_ID = 'UA-121886584-4';
+
 
 class MyDocument extends Document {
   static async getInitialProps(ctx) {
@@ -17,7 +18,7 @@ class MyDocument extends Document {
             type='image/png'
             href='/assets/media/favicon.png'
           />
-          
+
           <link rel='preconnect' href='https://fonts.googleapis.com' crossOrigin="true"/>
           <link
             href='https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Source+Sans+Pro:wght@200;400;600;700&family=Mukta:wght@300;400;500;600&display=swap'
