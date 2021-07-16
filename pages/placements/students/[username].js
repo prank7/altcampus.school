@@ -23,27 +23,25 @@ export default function student({ alumniData }) {
       </Head>
       <LayoutHome>
         <Banner {...alumniData} />
-        <section className=" bg-royal-blue-100  py-16">
-          <div className="container mx-auto px-8 grid items-start grid-cols-9 gap-16">
+        <section className="bg-royal-blue-100  py-16">
+          <div className="container mx-auto px-8 md:grid items-start md:grid-cols-9 gap-16">
             <Sidebar {...alumniData} />
-            <div className="col-span-6">
+            <div className="md:col-span-6">
               <About {...alumniData} />
               <article>
                 <h2 className="text-dark-blue-600 text-4xl font-bold mb-2">
-                 Experience at AltCampus
+                  Experience at AltCampus
                 </h2>
                 <StudentExperience {...alumniData} />
               </article>
               <article>
                 <h2 className="text-dark-blue-600 text-4xl font-bold mb-2">
-                  {alumniData.interviewLink
-                    ? 'Story'
-                    : ''}
+                  {alumniData.interviewLink ? 'Story' : ''}
                 </h2>
                 {alumniData.interviewLink ? (
                   <Story interviewLink={alumniData.interviewLink} />
                 ) : (
-                  ""
+                  ''
                 )}
               </article>
               <article>

@@ -3,7 +3,7 @@ import React from 'react';
 function Banner(props) {
   return (
     <section className="py-8">
-      <div className="container mx-auto px-24">
+      <div className="container mx-auto px-8">
         <header className="text-center">
           <h1 className="text-dark-blue-600 text-5xl font-bold">
             {props.name}

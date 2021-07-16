@@ -10,12 +10,18 @@ function Blog(props) {
         </h3>
       </a>
       <a href={props.blog.liveURL} target="_blank">
-        <p className="mb-2 text-lg font-source font-medium text-dark-blue-400">
+        <p className="text-lg font-source font-medium text-dark-blue-400">
           {props.blog.description}
         </p>
       </a>
-      <a href={props.blog.liveURL} target="_blank">
-        <span className="text-royal-blue-500 font-mukta">Read More</span>
+      <a
+        href={props.blog.liveURL}
+        target="_blank"
+        className="mt-3 inline-block"
+      >
+        <span className="fot-semibold font-mukta text-lg text-green-500">
+          Read More
+        </span>
       </a>
     </div>
   );

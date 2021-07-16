@@ -7,21 +7,21 @@ function Project(props) {
       <h3 className="text-gray-800 font-mukta text-2xl font-bold mb-1">
         {props.project.title}
       </h3>
-      <p className="mb-2 text-lg font-source font-medium text-dark-blue-400">
+      <p className="text-lg font-source font-medium text-dark-blue-400">
         {props.project.description}
       </p>
-      <footer>
+      <footer className="mt-3">
         <a
           href={props.project.liveURL}
           target="_blank"
-          className="fot-bold text-xl mr-4 text-green-500"
+          className="fot-semibold font-mukta text-lg text-green-500 mr-4"
         >
-          Demo
+          Live Preview
         </a>
         <a
           href={props.project.code}
           target="_blank"
-          className="fot-bold text-xl mr-4 text-green-500"
+          className="fot-semibold font-mukta text-lg text-green-500"
         >
           Code
         </a>
