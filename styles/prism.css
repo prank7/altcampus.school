@@ -140,12 +140,6 @@ pre[class*='language-'] {
 .token.bold {
   font-weight: bold;
 }
-
-.token.italic {
-}
-
-element.style {
-}
 .prose pre {
   color: #fff;
   background-color: #1f2937 !important;
