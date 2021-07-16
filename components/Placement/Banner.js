@@ -8,8 +8,8 @@ function Student(props) {
           Placement Stories
         </h1>
         <p className="max-w-3xl mx-auto text-xl text-gray-700 text-hero-subheading mt-4">
-          Watch our alumni share how AltCampus School helped them start new
-          careers in tech, and get ready to rewrite your own story.
+          Check our alumni stories how AltCampus School helped them to kick
+          start their carreer in tech.
         </p>
         <div className="text-center">
           <img
