@@ -42,21 +42,30 @@ export default function student({ alumniData }) {
               </article>
               <article>
                 <h2 className="text-dark-blue-600 text-4xl font-bold mb-2">
-                  Projects
+                  {alumniData.projects[0].title ? "Projects" : ''}
                 </h2>
-                {alumniData.projects.split(',').map((project) => {
-                  return <Project key={project} {...project} />;
-                })}
-                <Project projects={alumniData.projects} />
+                {
+                  alumniData.projects.map((project) =>
+                  {
+                    return (
+                      !project.title ? "" : <Project key={project.title} project={project} />
+                    )
+                       
+                  })
+                }
               </article>
               <article>
                 <h2 className="text-dark-blue-600 text-4xl font-bold mb-2">
-                  Blog Posts
+                  {alumniData.blogPosts[0].title ? "Blog Posts" : ''}
                 </h2>
-                {alumniData.blogPosts.split(',').map((blog) => {
-                  return <Blog key={blog} {...blog} />;
-                })}
-                <Blog blogPosts={alumniData.blogPosts} />
+                {
+                  alumniData.blogPosts.map((blog) =>
+                  {
+                    return (
+                      !blog.title ? "" : <Blog blog={blog} key={blog.title} />
+                    )
+                  })
+                 }
               </article>
             </div>
           </div>
