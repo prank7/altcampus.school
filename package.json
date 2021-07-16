@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "placement": "node ./lib/generatePlacementData"
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.2.0",
@@ -29,5 +30,8 @@
   "peerDependencies": {
     "@fullhuman/postcss-purgecss": "^4.0.2",
     "postcss": "^8.0.0"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0"
   }
 }
