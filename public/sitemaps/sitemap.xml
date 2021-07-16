@@ -18,15 +18,7 @@
   <url>
     <loc>https://altcampus.school/community/stories</loc>
   </url>
-  <url>
-    <loc>https://altcampus.school/community/web-development</loc>
-  </url>
-  <url>
-    <loc>https://altcampus.school/curriculum</loc>
-  </url>
-  <url>
-    <loc>https://altcampus.school/apply-for-emi</loc>
-  </url>
+
   <url>
     <loc
       >https://altcampus.school/community/posts/4-simple-systems-to-learn-programming-faster</loc
@@ -35,6 +27,11 @@
   <url>
     <loc
       >https://altcampus.school/community/posts/basic-communication-tips-for-beginner-developers</loc
+    >
+  </url>
+  <url>
+    <loc
+      >https://altcampus.school/community/posts/do-you-need-a-cs-degree-to-become-a-software-developer</loc
     >
   </url>
   <url>
