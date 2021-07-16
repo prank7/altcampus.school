@@ -21,7 +21,7 @@ function Sidebar(props) {
           />
         </figure>
         <div className="text-center p-3 font-bold text-dark-blue-600 capitalize text-2xl">
-          <h2>{props.name}</h2>
+          {/* <h2>{props.name}</h2> */}
           <ul className="flex items-center justify-center mt-2">
             {!props.github ? (
               ''

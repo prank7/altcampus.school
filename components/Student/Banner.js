@@ -2,7 +2,7 @@ import React from 'react';
 
 function Banner(props) {
   return (
-    <section className="py-8">
+    <section className="py-16 hero">
       <div className="container mx-auto px-8">
         <header className="text-center">
           <h1 className="text-dark-blue-600 text-5xl font-bold">
@@ -14,7 +14,7 @@ function Banner(props) {
               className="w-24 transform -rotate-12 inline-block"
               alt="Placed Stamp"
             /> */}
-            <h3 className="text-royal-blue-500 text-xl font-semibold ml-6">
+            <h3 className="text-royal-blue-500 text-xl font-semibold">
               {props.role},{' '}
               <a
                 target="_blank"
