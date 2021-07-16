@@ -30,14 +30,20 @@ export default function student({ alumniData }) {
               <About {...alumniData} />
               <article>
                 <h2 className="text-dark-blue-600 text-4xl font-bold mb-2">
+                 Experience at AltCampus
+                </h2>
+                <StudentExperience {...alumniData} />
+              </article>
+              <article>
+                <h2 className="text-dark-blue-600 text-4xl font-bold mb-2">
                   {alumniData.interviewLink
                     ? 'Story'
-                    : 'Experience at AltCampus'}
+                    : ''}
                 </h2>
                 {alumniData.interviewLink ? (
-                  <Story {...alumniData} />
+                  <Story interviewLink={alumniData.interviewLink} />
                 ) : (
-                  <StudentExperience {...alumniData} />
+                  ""
                 )}
               </article>
               <article>
