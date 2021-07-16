@@ -3,13 +3,13 @@ import React from 'react';
 function Student(props) {
   return (
     <section className="bg-gray-100 py-16">
-      <div className="container mx-auto grid grid-cols-6 gap-8 items-center">
-        <p className="col-span-2 text-xl">
+      <div className="container px-8 mx-auto md:grid md:grid-cols-6 gap-8 items-center">
+        <p className="md:col-span-2 text-2xl text-dark-blue-400 text-center md:text-left mb-12 md:mb-0 font-mukta">
           A few companies where our Alumini are placed. Lorem ipsum dolor sit
           amet consectetur adipisicing elit. Illo quaerat laboriosam voluptas
         </p>
-        <div className="col-span-4">
-          <figure className="flex items-center flex-wrap">
+        <div className="md:col-span-4">
+          <figure className="flex items-center justify-between sm:justify-start flex-wrap">
             <img
               className="w-32 m-4"
               src="/images/hiring-partner/big-binary.svg"

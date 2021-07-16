@@ -11,14 +11,14 @@ function Student(props) {
       className="border rounded-lg shadow-sm"
     >
       <article>
-        <figure className="h-56 overflow-hidden">
+        <figure className="sm:h-64 md:h-56 overflow-hidden">
           <Image
             loader={imageLoader}
+            width={300}
+            height={300}
             className="rounded-lg rounded-b-none h-full w-full object-cover"
             src={props.image[0].url}
             alt={props.name}
-            width={300}
-            height={300}
           />
         </figure>
         <div className="px-4 py-2">

@@ -3,7 +3,7 @@ import React from 'react';
 function Student(props) {
   return (
     <section className="hero py-16">
-      <article className="container mx-auto text-center">
+      <article className="container mx-auto text-center px-8">
         <h1 className="text-5xl font-bold hero-heading text-dark-blue-500">
           Placement Stories
         </h1>
