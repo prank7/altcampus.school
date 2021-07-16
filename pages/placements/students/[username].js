@@ -15,6 +15,7 @@ import {
 
 export default function student({ alumniData }) {
   // console.log(alumniData);
+  if (!alumniData) return null;
   return (
     <div>
       <Head>
@@ -77,8 +78,8 @@ export default function student({ alumniData }) {
   );
 }
 
-export const getStaticPaths = async () => {
-  const allAlumnisData = await getAllAlumnisData();
+export const getStaticPaths = () => {
+  const allAlumnisData = getAllAlumnisData();
 
   return {
     paths:
@@ -89,9 +90,9 @@ export const getStaticPaths = async () => {
   };
 };
 
-export const getStaticProps = async (props) => {
+export const getStaticProps = (props) => {
   const { username } = props.params;
-  const alumniData = await getIndividualAlumniData(username);
+  const alumniData = getIndividualAlumniData(username);
   return {
     props: {
       alumniData
