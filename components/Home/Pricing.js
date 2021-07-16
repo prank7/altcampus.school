@@ -1,28 +1,44 @@
 import React from 'react';
+import Link from 'next/link';
+import {
+  BasicMedalIcon,
+  CheckCrossIcon,
+  CheckIcon,
+  PriceTagIcon,
+  ProMedalIcon
+} from '../Icons';
+
+import globalData from '../../globalData';
 
 function Pricing(props) {
+  var upcomingBatchDates = globalData.upcomingBatchDates;
+  var nextBatchDates = upcomingBatchDates.filter((a) => new Date(a) >= new Date());
+  var immediateBatchDate = nextBatchDates[0] ? `Next cohort starts on ${new Date(nextBatchDates[0]).toDateString().slice(4, 10)}.` : '';
+
   return (
     <section className="py-24 bg-royal-blue-100">
       <div className="container mx-auto px-8">
-        <header className="text-center md:flex md:justify-center md:items-center mb-12">
-          <img
-            className="inline-block w-12 md:mr-4"
-            src="/assets/media/price-tag.svg"
-            alt="pricetag"
-          />
+        <header className="text-center md:flex md:justify-center md:items-center mb-6">
+          <PriceTagIcon className="inline-block w-12 md:mr-4" />
           <h2 className="font-bold text-5xl text-dark-blue-500">
             Invest in yourself
           </h2>
         </header>
+        <div className="max-w-5xl mx-auto text-center mb-12 text-lg text-gray-700">
+          <p>
+            Can't pay the entire sum at once? Buy now, and <b>pay later via EMI</b>. To
+            avail it <Link href="/apply-for-emi"><a className="underline" href="/apply-for-emi">apply here</a></Link>(processing takes 2-4 working days).
+          </p>
+          <p className="mt-2">
+            You can do the course either in a cohort or self paced, you can
+            select this option in the signup form. {immediateBatchDate} Max number of students in a cohort is 15, book your seat now.
+          </p>
+        </div>
         <div className="md:flex md:justify-center">
           <div className="mb-12 md:mb-0 md:mx-8">
             <article className="shadow-2xl bg-white rounded-lg">
               <div className="bg-royal-blue-100 text-center pb-1 relative">
-                <img
-                  className="w-24 inline-block md:absolute left-0 top-0"
-                  src="/assets/media/pro-medal.svg"
-                  alt="rocket launching"
-                />
+                <ProMedalIcon className="w-24 inline-block md:absolute left-0 top-0" />
                 <div className="">
                   <div className="md:flex md:items-center md:justify-end md:py-2 md:px-2">
                     <h2 className="text-3xl font-semibold text-gold-500 mb-4 md:mr-4 md:pl-20">
@@ -49,101 +65,68 @@ function Pricing(props) {
                           $1119
                         </p>
                       </div>
+                      <p className="text-sm text-gray-600 underline">
+                        <Link href="/apply-for-emi">
+                          <a href="/apply-for-emi">
+                            Pay later via EMI available
+                          </a>
+                        </Link>
+                      </p>
                     </div>
                   </div>
                 </div>
               </div>
               <ul>
                 <li className="px-5 py-3 flex items-center border-t border-dark-blue-200">
-                  <img
-                    className="mr-4"
-                    src="/assets/media/check-pricing.svg"
-                    alt="checked"
-                  />
+                  <CheckIcon className="h-6 w-6 mr-4" />
                   <p className="text-base text-dark-blue-400">
                     Step by Step course content
                   </p>
                 </li>
                 <li className="px-5 py-3 flex items-center border-t border-dark-blue-200">
-                  <img
-                    className="mr-4"
-                    src="/assets/media/check-pricing.svg"
-                    alt="checked"
-                  />
+                  <CheckIcon className="h-6 w-6 mr-4" />
                   <p className="text-base text-dark-blue-400">Assignments</p>
                 </li>
                 <li className="px-5 py-3 flex items-center border-t border-dark-blue-200">
-                  <img
-                    className="mr-4"
-                    src="/assets/media/check-pricing.svg"
-                    alt="checked"
-                  />
+                  <CheckIcon className="h-6 w-6 mr-4" />
                   <p className="text-base text-dark-blue-400">Projects</p>
                 </li>
                 <li className="px-5 py-3 flex items-center border-t border-dark-blue-200">
-                  <img
-                    className="mr-4"
-                    src="/assets/media/check-pricing.svg"
-                    alt="checked"
-                  />
+                  <CheckIcon className="h-6 w-6 mr-4" />
                   <p className="text-base text-dark-blue-400">
                     Github student developer pack
                   </p>
                 </li>
                 <li className="px-5 py-3 flex items-center border-t border-dark-blue-200">
-                  <img
-                    className="mr-4"
-                    src="/assets/media/check-pricing.svg"
-                    alt="checked"
-                  />
+                  <CheckIcon className="h-6 w-6 mr-4" />
                   <p className="text-base text-dark-blue-400">
                     Developer community
                   </p>
                 </li>
                 <li className="px-5 py-3 flex items-center border-t border-dark-blue-200">
-                  <img
-                    className="mr-4"
-                    src="/assets/media/check-pricing.svg"
-                    alt="checked"
-                  />
+                  <CheckIcon className="h-6 w-6 mr-4" />
                   <p className="text-base text-dark-blue-400">
                     Personalised feedback & Code review
                   </p>
                 </li>
                 <li className="px-5 py-3 flex items-center border-t border-dark-blue-200">
-                  <img
-                    className="mr-4"
-                    src="/assets/media/check-pricing.svg"
-                    alt="checked"
-                  />
+                  <CheckIcon className="h-6 w-6 mr-4" />
                   <p className="text-base text-dark-blue-400">Mentorship</p>
                 </li>
                 <li className="px-5 py-3 flex items-center border-t border-dark-blue-200">
-                  <img
-                    className="mr-4"
-                    src="/assets/media/check-pricing.svg"
-                    alt="checked"
-                  />
+                  <CheckIcon className="h-6 w-6 mr-4" />
                   <p className="text-base text-dark-blue-400">
                     Access to office hours (Doubt clearing session)
                   </p>
                 </li>
                 <li className="px-5 py-3 flex items-center border-t border-dark-blue-200">
-                  <img
-                    className="mr-4"
-                    src="/assets/media/check-pricing.svg"
-                    alt="checked"
-                  />
+                  <CheckIcon className="h-6 w-6 mr-4" />
                   <p className="text-base text-dark-blue-400">
                     Coach follow up
                   </p>
                 </li>
                 <li className="px-5 py-3 flex items-center border-t border-dark-blue-200">
-                  <img
-                    className="mr-4"
-                    src="/assets/media/check-pricing.svg"
-                    alt="checked"
-                  />
+                  <CheckIcon className="h-6 w-6 mr-4" />
                   <p className="text-base text-dark-blue-400">
                     Portfolio preparation & placement support
                   </p>
@@ -156,11 +139,7 @@ function Pricing(props) {
                 href="https://launchpad.altcampus.school/signup"
               >
                 <div className="flex items-center">
-                  <img
-                    className="w-8"
-                    src="/assets/media/pro-medal.svg"
-                    alt="medal-in-button"
-                  />
+                  <ProMedalIcon className="w-8" />
                   <p className="text-white tracking-wider font-bold">BUY NOW</p>
                 </div>
               </a>
@@ -169,11 +148,7 @@ function Pricing(props) {
           <div className="md:mx-8">
             <article className="shadow-2xl bg-white rounded-lg">
               <div className="bg-royal-blue-100 text-center pb-1 relative">
-                <img
-                  className="w-24 inline-block md:absolute left-0 top-0"
-                  src="/assets/media/basic-medal.svg"
-                  alt="balloon launching"
-                />
+                <BasicMedalIcon className="w-24 inline-block md:absolute left-0 top-0" />
                 <div className="">
                   <div className="md:flex md:items-center md:justify-end md:py-2 md:px-2">
                     <h2 className="text-3xl text-gold-800 font-semibold mb-4 md:mr-4 md:pl-20">
@@ -200,103 +175,71 @@ function Pricing(props) {
                           $539
                         </p>
                       </div>
+
+                      <p className="text-sm text-gray-600 underline">
+                        <Link href="/apply-for-emi">
+                          <a href="/apply-for-emi">
+                            Pay later via EMI available
+                          </a>
+                        </Link>
+                      </p>
                     </div>
                   </div>
                 </div>
               </div>
               <ul>
                 <li className="px-5 py-3 flex items-center border-t border-dark-blue-200">
-                  <img
-                    className="mr-4"
-                    src="/assets/media/check-pricing.svg"
-                    alt="checked"
-                  />
+                  <CheckIcon className="h-6 w-6 mr-4" />
                   <p className="text-base text-dark-blue-400">
                     Step by Step course content
                   </p>
                 </li>
                 <li className="px-5 py-3 flex items-center border-t border-dark-blue-200">
-                  <img
-                    className="mr-4"
-                    src="/assets/media/check-pricing.svg"
-                    alt="checked"
-                  />
+                  <CheckIcon className="h-6 w-6 mr-4" />
                   <p className="text-base text-dark-blue-400">Assignments</p>
                 </li>
                 <li className="px-5 py-3 flex items-center border-t border-dark-blue-200">
-                  <img
-                    className="mr-4"
-                    src="/assets/media/check-pricing.svg"
-                    alt="checked"
-                  />
+                  <CheckIcon className="h-6 w-6 mr-4" />
                   <p className="text-base text-dark-blue-400">Projects</p>
                 </li>
                 <li className="px-5 py-3 flex items-center border-t border-dark-blue-200">
-                  <img
-                    className="mr-4"
-                    src="/assets/media/check-pricing.svg"
-                    alt="checked"
-                  />
+                  <CheckIcon className="h-6 w-6 mr-4" />
                   <p className="text-base text-dark-blue-400">
                     Github student developer pack
                   </p>
                 </li>
                 <li className="px-5 py-3 flex items-center border-t border-dark-blue-200">
-                  <img
-                    className="mr-4"
-                    src="/assets/media/check-pricing.svg"
-                    alt="checked"
-                  />
+                  <CheckIcon className="h-6 w-6 mr-4" />
                   <p className="text-base text-dark-blue-400">
                     Developer community
                   </p>
                 </li>
                 <li className="px-5 py-3 flex items-center border-t border-dark-blue-200">
-                  <img
-                    className="mr-4"
-                    src="/assets/media/check-cross-pricing.svg"
-                    alt="checked"
-                  />
+                  <CheckCrossIcon className="h-6 w-6 mr-4" />
                   <p className="text-base text-dark-blue-400 line-through">
                     Personalised feedback & Code review
                   </p>
                 </li>
                 <li className="px-5 py-3 flex items-center border-t border-dark-blue-200">
-                  <img
-                    className="mr-4"
-                    src="/assets/media/check-cross-pricing.svg"
-                    alt="checked"
-                  />
+                  <CheckCrossIcon className="h-6 w-6 mr-4" />
                   <p className="text-base text-dark-blue-400 line-through">
                     Mentorship
                   </p>
                 </li>
                 <li className="px-5 py-3 flex items-center border-t border-dark-blue-200">
-                  <img
-                    className="mr-4"
-                    src="/assets/media/check-cross-pricing.svg"
-                    alt="checked"
-                  />
+                  <CheckCrossIcon className="h-6 w-6 mr-4" />
                   <p className="text-base text-dark-blue-400 line-through">
                     Access to office hours (Doubt clearing session)
                   </p>
                 </li>
                 <li className="px-5 py-3 flex items-center border-t border-dark-blue-200">
-                  <img
-                    className="mr-4"
-                    src="/assets/media/check-cross-pricing.svg"
-                    alt="checked"
-                  />
+                  <CheckCrossIcon className="h-6 w-6 mr-4" />
                   <p className="text-base text-dark-blue-400 line-through">
                     Coach follow up
                   </p>
                 </li>
                 <li className="px-5 py-3 flex items-center border-t border-dark-blue-200">
-                  <img
-                    className="mr-4"
-                    src="/assets/media/check-cross-pricing.svg"
-                    alt="checked"
-                  />
+                  <CheckCrossIcon className="h-6 w-6 mr-4" />
                   <p className="text-base text-dark-blue-400 line-through">
                     Portfolio preparation & placement support
                   </p>
@@ -309,11 +252,7 @@ function Pricing(props) {
                 href="https://launchpad.altcampus.school/signup?plan=standard"
               >
                 <div className="flex items-center">
-                  <img
-                    className="w-8"
-                    src="/assets/media/basic-medal.svg"
-                    alt="medal-in-button"
-                  />
+                  <BasicMedalIcon className="w-8" />
                   <p className="text-white tracking-wider font-bold">BUY NOW</p>
                 </div>
               </a>

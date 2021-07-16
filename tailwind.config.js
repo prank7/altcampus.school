@@ -73,13 +73,16 @@ module.exports = {
           900: '#0F0F1C'
         },
         gold: {
-          300: '#E9D496',
-          500: '#F2BA0F',
-          600: '#888806',
-          800: '#AD8A56'
-        }
+          300: "#E9D496",
+          500: "#F2BA0F",
+          600: "#888806",
+          800: "#AD8A56",
+        },
+      },
+      height: {
+        27: "6.75rem"
       }
-    }
+    },
   },
   plugins: [require('@tailwindcss/typography')]
 };

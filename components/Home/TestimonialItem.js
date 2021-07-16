@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 function TestimonialItem(props) {
   const { name, firm, img, content, firmURL } = props.item;
@@ -6,12 +7,18 @@ function TestimonialItem(props) {
   return (
     <div className='min-w-full flex flex-col md:flex-row  justify-center items-center px-24'>
       <figure className='author flex flex-col md:flex-row items-center md:w-1/4'>
-        <img
-          className='author-img w-20 h-20 object-cover rounded-full md:mr-8'
-          src={img}
-          alt='sreyansh-image'
-          loading="lazy"
-        />
+          
+          <div className='author-img w-20 h-20 object-cover rounded-full md:mr-8 relative overflow-hidden'>
+            <Image
+              layout={"fill"}
+              src={img}
+              // height={96}
+              // width={96}
+              objectFit={"cover"}
+              alt={`${name}'s image`}
+              loading="lazy"
+            />
+          </div>
         <div className='description text-center md:text-left mb-8 md:mb-0 mt-4 md:mt-0'>
           <p className='name uppercase text-gold-500 text-base font-semibold'>
             {name}

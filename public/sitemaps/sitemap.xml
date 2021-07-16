@@ -18,7 +18,15 @@
   <url>
     <loc>https://altcampus.school/community/stories</loc>
   </url>
-
+  <url>
+    <loc>https://altcampus.school/community/web-development</loc>
+  </url>
+  <url>
+    <loc>https://altcampus.school/curriculum</loc>
+  </url>
+  <url>
+    <loc>https://altcampus.school/apply-for-emi</loc>
+  </url>
   <url>
     <loc
       >https://altcampus.school/community/posts/4-simple-systems-to-learn-programming-faster</loc
@@ -41,6 +49,16 @@
   </url>
   <url>
     <loc
+      >https://altcampus.school/community/posts/how-to-overcome-imposter-syndrome-as-an-aspiring-software-developer</loc
+    >
+  </url>
+  <url>
+    <loc
+      >https://altcampus.school/community/posts/what-are-the-best-places-to-learn-coding</loc
+    >
+  </url>
+  <url>
+    <loc
       >https://altcampus.school/community/posts/why-are-bootcamps-so-expensive</loc
     >
   </url>
@@ -57,6 +75,11 @@
   <url>
     <loc
       >https://altcampus.school/community/stories/dropping-out-of-college-learning-to-code-first-job-AltCampus-Chaduvula-story</loc
+    >
+  </url>
+  <url>
+    <loc
+      >https://altcampus.school/community/stories/learning-to-code-from-AltCampus-and-finally-becoming-software-developer-Komal's-journey</loc
     >
   </url>
 </urlset>

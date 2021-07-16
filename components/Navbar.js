@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React, { useState } from "react";
+import { AltCampusIcon } from "./Icons";
 
 function Navbar(params) {
   const [navbarOpen, setNavbarOpen] = useState(false);
@@ -10,13 +11,12 @@ function Navbar(params) {
         <div className="max-w-7xl mx-auto px-8 sm:px-16">
           <div className="flex justify-between items-center py-3 md:justify-start md:space-x-10">
             <div className="w-0 flex-1 flex">
-              <a href="/" className="inline-flex">
-                <img
-                  className="h-8 w-auto sm:h-10"
-                  src="/images/altcampus-logo.svg"
-                  alt="AltCampus"
-                />
-              </a>
+              <Link href="/">
+                <a href="/" className="inline-flex">
+                  <AltCampusIcon className="h-8 sm:h-10 w-auto" />
+                  <span className="sr-only">AltCampus</span>
+                </a>
+              </Link>
               <Link href="/community">
                 <a className="self-center text-dark-blue-400 hover:text-dark-blue-700 text-xl pl-2 pt-1">
                   Community
@@ -42,6 +42,7 @@ function Navbar(params) {
                     d="M4 6h16M4 12h16M4 18h16"
                   />
                 </svg>
+                <span className="sr-only">Open Menu</span>
               </button>
             </div>
             <div className="hidden md:flex items-center justify-end space-x-8 md:flex-1 lg:w-0">
@@ -146,6 +147,7 @@ function Navbar(params) {
                             d="M6 18L18 6M6 6l12 12"
                           />
                         </svg>
+                        <span className="sr-only">Close Menu</span>
                       </button>
                     </div>
                   </div>

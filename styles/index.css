@@ -258,7 +258,7 @@ button {
   }
 }
 
-.prose p {
+.prose p, ul {
   color: rgb(66, 84, 102);
   font-weight: 500;
 }
