@@ -37,6 +37,8 @@ function Placement({ alumnis }) {
     </>
   );
 }
+
+
 export const getStaticProps = async () => {
   const data = await getAllAlumnisData();
   return {
