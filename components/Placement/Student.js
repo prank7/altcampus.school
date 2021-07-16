@@ -2,9 +2,9 @@ import React from 'react';
 import Image from 'next/image';
 
 function Student(props) {
-  const imageLoader = ({ src, width, quality }) => {
-    return src;
-  };
+  // const imageLoader = ({ src, width, quality }) => {
+  //   return src;
+  // };
   return (
     <a
       href={`/placements/students/${props.username}`}
@@ -13,7 +13,7 @@ function Student(props) {
       <article>
         <figure className="sm:h-64 md:h-56 overflow-hidden">
           <Image
-            loader={imageLoader}
+            // loader={imageLoader}
             layout="responsive"
             width={300}
             height={300}

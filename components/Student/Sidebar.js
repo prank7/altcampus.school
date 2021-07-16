@@ -2,16 +2,16 @@ import React from 'react';
 import Image from 'next/image';
 
 function Sidebar(props) {
-  const imageLoader = ({ src, width, quality }) => {
-    return src;
-  };
-  console.log(props);
+  // const imageLoader = ({ src, width, quality }) => {
+  //   return src;
+  // };
+  // console.log(props);
   return (
     <aside className="col-span-3 md:sticky top-0 shadow-sm rounded-lg mb-16 md:mb-0 bg-white">
       <article>
         <figure className="max-h-72 sm:max-h-80 md:h-64 overflow-hidden">
           <Image
-            loader={imageLoader}
+            // loader={imageLoader}
             layout="responsive"
             className="rounded-lg h-full w-full object-cover rounded-b-none"
             src={props.image[0].url || ''}
