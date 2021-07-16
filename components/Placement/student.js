@@ -14,6 +14,7 @@ function Student(props) {
         <figure className="sm:h-64 md:h-56 overflow-hidden">
           <Image
             loader={imageLoader}
+            layout="responsive"
             width={300}
             height={300}
             className="rounded-lg rounded-b-none h-full w-full object-cover"

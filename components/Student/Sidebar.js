@@ -12,6 +12,7 @@ function Sidebar(props) {
         <figure className="h-64 overflow-hidden">
           <Image
             loader={imageLoader}
+            layout="responsive"
             className="rounded-lg h-full w-full object-cover rounded-b-none"
             src={props.image[0].url || ''}
             alt={props.name}
