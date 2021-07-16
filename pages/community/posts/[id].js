@@ -65,7 +65,7 @@ export default function Post({ postData }) {
             <hr className="mt-4" />
             <p className="pt-2 text-xl text-gray-900 font-semibold">Share</p>
             <a
-              class="twitter-share-button"
+              className="twitter-share-button"
               href={`https://twitter.com/intent/tweet?text=${
                 postData.title + ' - @AltCampus'
               }&url=${`https://altcampus.school/community/posts/${postData.id}`}`}
