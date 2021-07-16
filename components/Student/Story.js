@@ -6,7 +6,7 @@ function Story(props) {
       <figure className="video-container">
         <iframe
           className="video rounded-xl"
-          src="https://www.youtube.com/embed/PHWNI-cDAt4"
+          src={props.interviewLink}
           title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

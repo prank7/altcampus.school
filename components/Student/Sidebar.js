@@ -5,7 +5,7 @@ function Sidebar(props) {
   const imageLoader = ({ src, width, quality }) => {
     return src;
   };
-
+console.log(props)
   return (
     <aside className="col-span-3 sticky top-0 shadow-sm rounded-lg bg-white">
       <article>
@@ -23,41 +23,53 @@ function Sidebar(props) {
         <div className="text-center p-3 font-bold text-dark-blue-600 capitalize text-2xl">
           <h2>{props.name}</h2>
           <ul className="flex items-center justify-center mt-2">
-            <li className="mx-2">
-              <a
-                className="w-10 h-10 bg-dark-blue-200 place-items-center grid rounded-full"
-                href={props.github}
-                target="_blank"
-              >
-                <img src="/images/icons/github.svg" alt="GitHub" />
-              </a>
-            </li>
-            <li className="mx-2">
-              <a
-                className="w-10 h-10 bg-dark-blue-200 place-items-center grid rounded-full"
-                href={props.twitter}
-                target="_blank"
-              >
-                <img src="/images/icons/twitter-sm.svg" alt="Twitter" />
-              </a>
-            </li>
-            <li className="mx-2">
-              <a
-                className="w-10 h-10 bg-dark-blue-200 place-items-center grid rounded-full"
-                href={props.linkedin}
-                target="_blank"
-              >
-                <img src="/images/icons/linkedin.svg" alt="Linkedin" />
-              </a>
-            </li>
-            <li className="mx-2">
-              <a
-                className="w-10 h-10 bg-dark-blue-200 place-items-center grid rounded-full"
-                href={`mailto:${props.email}`}
-              >
-                <img src="/images/icons/email.svg" alt="Email" />
-              </a>
-            </li>
+            {
+              !props.github ? "" :
+                <li className="mx-2">
+                  <a
+                    className="w-10 h-10 bg-dark-blue-200 place-items-center grid rounded-full"
+                    href={props.github}
+                    target="_blank"
+                  >
+                    <img src="/images/icons/github.svg" alt="GitHub" />
+                  </a>
+                </li>
+           }
+            {
+              !props.twitter ? "" :
+                <li className="mx-2">
+                  <a
+                    className="w-10 h-10 bg-dark-blue-200 place-items-center grid rounded-full"
+                    href={props.twitter}
+                    target="_blank"
+                  >
+                    <img src="/images/icons/twitter-sm.svg" alt="Twitter" />
+                  </a>
+                </li>
+            }
+            {
+              !props.linkedin ? "" :
+                <li className="mx-2">
+                  <a
+                    className="w-10 h-10 bg-dark-blue-200 place-items-center grid rounded-full"
+                    href={props.linkedin}
+                    target="_blank"
+                  >
+                    <img src="/images/icons/linkedin.svg" alt="Linkedin" />
+                  </a>
+                </li>
+            }
+            {
+              !props.email ? "" :
+                <li className="mx-2">
+                  <a
+                    className="w-10 h-10 bg-dark-blue-200 place-items-center grid rounded-full"
+                    href={`mailto:${props.email}`}
+                  >
+                    <img src="/images/icons/email.svg" alt="Email" />
+                  </a>
+                </li>
+            }
           </ul>
         </div>
         {/* <input type="checkbox" id="show-background" hidden />
