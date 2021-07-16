@@ -6,6 +6,7 @@ blurb: Get to know everything you need to become a full-stack web developer.
 photo: '/images/posts/heres-everything-you-need-to-know-to-become-a-full-stack-web-developer.png'
 cta: true
 ctaText: AltCampus provides you a holistic roadmap to become a skilled software developer 🛣️
+author: 'ivinoop'
 ---
 
 [Bootcamps are a great way to kickstart](https://altcampus.school/community/posts/why-you-should-consider-joining-a-bootcamp-if-you-want-to-learn-programming) your software development career. However, there are a myriad of questions that crop up before this journey begins.

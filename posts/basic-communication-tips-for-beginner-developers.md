@@ -8,6 +8,7 @@ hideCover: true
 cta: true
 ctaText: AltCampus helps you pick up good communication skills to get you good, first job as a software developer.  🙌
 scriptTag: https://cdn.jsdelivr.net/npm/gist-embed@1.0.4/dist/gist-embed.min.js
+author: 'dprank'
 ---
 
 <div class="video-container">

@@ -6,6 +6,7 @@ blurb: How to overcome Imposter Syndrome as an aspiring software developer.
 photo: '/images/posts/how-to-overcome-imposter-syndrome-as-an-aspiring-software-developer.png'
 cta: true
 ctaText: Start learning full-stack web development in the best online bootcamp in India, and launch your developer career! 🚀
+author: ivinoop
 ---
 
 If there has been a nagging voice in the back of your mind whispering, “You’re not good enough” every time you try to code, you are not alone

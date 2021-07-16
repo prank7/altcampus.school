@@ -73,7 +73,7 @@ function Cards({ posts }) {
                     </p>
                     <Link href={`/community/posts/${post.id}`}>
                       <a className="block mt-2">
-                        <p className="text-xl font-extrabold text-gray-900">
+                        <p className="text-xl font-extrabold text-gray-900 hover:underline">
                           {post.title}
                         </p>
                         <p className="mt-3 text-base text-gray-600">
@@ -99,7 +99,7 @@ function Cards({ posts }) {
                         <time dateTime={post.date}>
                           {dateFormatter.render(new Date(post.date))}
                         </time>
-                        <span aria-hidden="true">&middot;</span>
+                        {/* <span aria-hidden="true">&middot;</span> */}
                         {/* <span>{post.readingTime} read</span> */}
                       </div>
                     </div>
