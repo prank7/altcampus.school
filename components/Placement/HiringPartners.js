@@ -4,9 +4,9 @@ function Student(props) {
   return (
     <section className="bg-gray-100 py-16">
       <div className="container px-8 mx-auto md:grid md:grid-cols-6 gap-8 items-center">
-        <p className="md:col-span-2 text-2xl text-dark-blue-700 font-medium text-center md:text-left mb-12 md:mb-0 font-mukta">
-          A few companies where our alumni are placed.
-        </p>
+        <h4 className="md:col-span-2 text-3xl text-green-500 font-medium text-center md:text-left mb-12 md:mb-0 font-mukta">
+          A few companies where our alumni are working
+        </h4>
         <div className="md:col-span-4">
           <figure className="flex items-center justify-between sm:justify-start flex-wrap">
             <img
