@@ -19,8 +19,15 @@ function Student(props) {
               layout="responsive"
               width={300}
               height={300}
+              quality={props.image[0].size / 1024 > 100 ? 75 : 90}
               className="rounded-lg rounded-b-none h-full w-full object-cover"
-              src={props.image[0].url}
+              src={
+                props.image[0].size / 1024 > 500
+                  ? props.image[0].thumbnails?.large?.url
+                    ? props.image[0].thumbnails?.large?.url
+                    : props.image[0].url
+                  : props.image[0].url
+              }
               alt={props.name}
             />
           </figure>
