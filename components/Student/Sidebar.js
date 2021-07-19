@@ -9,7 +9,7 @@ function Sidebar(props) {
   return (
     <aside className="col-span-3 md:sticky top-0 shadow-sm rounded-lg mb-16 md:mb-0 bg-white">
       <article>
-        <figure className="max-h-72 sm:max-h-80 md:h-64 overflow-hidden">
+        <figure className="overflow-hidden">
           <Image
             // loader={imageLoader}
             layout="responsive"
