@@ -23,14 +23,14 @@ function Student(props) {
           />
         </figure>
         <div className="px-4 py-2">
-          <h2 className="text-xl text-royal-blue-600 font-bold font-mukta">
+          <h2 className="text-2xl text-royal-blue-700 font-bold font-mukta">
             {props.name}
           </h2>
-          <h4 className="text-gray-500 font-semibold font-mukta">
+          <h4 className="text-gray-700 text-md h-12 font-mukta">
             {props.role}, {props.company}
           </h4>
-          <h4 className="text-right text-lg text-gray-500 font-semibold mt-3 font-sans">
-            CTC: {props.ctc}
+          <h4 className="text-right text-sm font-medium text-gray-500 mt-3 font-sans">
+            Placement Package: {props.ctc}
           </h4>
         </div>
       </article>

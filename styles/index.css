@@ -334,3 +334,11 @@ button {
 #show-background:checked ~ label span {
   background-color: rgba(233, 237, 244,1);
 } */
+
+
+/* Student's Review */
+/* .review::before {
+  width: 4rem;
+  height: 4rem;
+  background: #000 url(/images/icons/quote-opening.svg);
+} */
