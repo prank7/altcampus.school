@@ -1,4 +1,6 @@
 import React from 'react';
+import { NextSeo } from 'next-seo';
+
 import LayoutHome from '../../components/Home/Layout';
 import Head from 'next/head';
 import Student from '../../components/Placement/Student';
@@ -8,13 +10,22 @@ import ReadyToBuild from '../../components/Home/ReadyToBuildCTA';
 import { getAllAlumnisData } from '../../lib/airtableApi';
 
 function Placement({ alumnis }) {
-  // console.log(alumnis);
+
+  var title = "AltCampus Placements | AltCampus School";
+  var description = "Placement stats and success stories from India's best programming bootcamp. AltCampus reviews and experiences shared by our students.";
+  var url = "https://altcampus.school/placements";
+  
   return (
     <>
-      <Head>
-        <title>Placements | AltCampus Community </title>
-        <link rel="icon" href="/favicon.png" />
-      </Head>
+      <NextSeo 
+        title={title}
+        description={description}
+        openGraph={{
+          url,
+          title,
+          description
+        }}
+      />
       <LayoutHome>
         <Banner />
         <HiringPartners />
