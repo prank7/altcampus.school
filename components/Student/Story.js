@@ -8,9 +8,9 @@ function Story(props) {
           className="video rounded-xl"
           src={props.interviewLink}
           title="YouTube video player"
-          frameborder="0"
+          frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
+          allowFullScreen
         ></iframe>
       </figure>
     </div>

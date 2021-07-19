@@ -1,17 +1,17 @@
 import Head from 'next/head';
-import LayoutHome from '../../../components/Home/Layout';
-import Banner from '../../../components/Student/Banner';
-import Sidebar from '../../../components/Student/Sidebar';
-import About from '../../../components/Student/About';
-import Project from '../../../components/Student/Project';
-import Blog from '../../../components/Student/Blog';
-import Story from '../../../components/Student/Story';
-import ReadyToWriteStory from '../../../components/Home/ReadyToWriteStory';
-import StudentExperience from '../../../components/Student/StudentExperience';
+import LayoutHome from '../../components/Home/Layout';
+import Banner from '../../components/Student/Banner';
+import Sidebar from '../../components/Student/Sidebar';
+import About from '../../components/Student/About';
+import Project from '../../components/Student/Project';
+import Blog from '../../components/Student/Blog';
+import Story from '../../components/Student/Story';
+import ReadyToWriteStory from '../../components/Home/ReadyToWriteStory';
+import StudentExperience from '../../components/Student/StudentExperience';
 import {
   getAllAlumnisData,
   getIndividualAlumniData
-} from '../../../lib/airtableApi';
+} from '../../lib/airtableApi';
 
 export default function student({ alumniData }) {
   // console.log(alumniData);
@@ -84,7 +84,7 @@ export const getStaticPaths = () => {
   return {
     paths:
       allAlumnisData.map((alumni) => {
-        return { params: { username: alumni.username } };
+        return { params: { username: alumni.slug } };
       }) || [],
     fallback: true
   };
