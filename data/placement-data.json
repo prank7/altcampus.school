@@ -3,7 +3,7 @@
     "name": "Prasanth Chaduvula",
     "about": "I am an engineering dropout. 1x founder. From product development, I became a programmer.",
     "username": "prasanthchaduvula",
-    "company": "Bigbinary",
+    "company": "BigBinary",
     "dateOfBirth": "1998-07-28",
     "role": "Software Engineer ",
     "ctc": "NA",
@@ -248,7 +248,7 @@
     "name": "Yash Joshi",
     "about": "Hi, I am Yash Joshi from Gujrat. I was raised in Mumbai and am currently staying here with my folks. \n\nI studied Science in my Junior college, so obviously, I am clueless about the subject because I had different priorities back then. \n\nI later pursued a hospitality management degree and worked for two years in the hotel industry. This experience was fundamental in developing my communication skills, which means I can shoot the bull with almost anyone. I enjoy cooking and learning foreign languages. I can speak and write basic Spanish.\n\nDuring my work, I realized that the hotel industry was not the right fit for me. So, I decided to explore the world of coding, and incidentally, I was offered the opportunity to join AltCampus. I spent one-year learning software development and now am a Full-stack Software developer (it still seems unreal when I say it out loud). In hindsight, this opportunity came my way at the right time. I am currently working as a Software Engineer at Bigbinary. \n\nYou will generally see me with my headphones on, bobbing my head in tune to the music. I also enjoy writing songs, short stories, and poems and am known to doodle away my time. I would love to master playing a musical instrument and have tried my hand (and lungs) at the guitar and flute. I would love to hone my skills further in Spanish and French.\n\nI am thankful for the opportunity to learn at AltCampus, which has helped me develop my coding skills, enhanced my soft skills, and exposed me to a great community that I will always cherish.",
     "username": "yashjk",
-    "company": "Big Binary",
+    "company": "BigBinary",
     "dateOfBirth": "1995-06-12",
     "role": "Software Engineer",
     "ctc": "9 LPA",
@@ -1436,7 +1436,7 @@
     "name": "Ayushman Supratim Parasar",
     "about": "In short I am a person who loves to \n- travel.\n- learn new things.\n- make new friends.\n- live life to fullest.",
     "username": "ayushman-parasar",
-    "company": "BigBinary Solutions Pvt Ltd",
+    "company": "BigBinary",
     "dateOfBirth": "",
     "role": "Software Engineer",
     "ctc": "9 LPA",
@@ -1862,7 +1862,7 @@
     "name": "Elton Castelino",
     "about": "I love finding solutions to problems and learning web development really helped me find solutions to the problems in this field. I love traveling, listening to music, reading, video games and engaging in intellectual conversations with people.",
     "username": "eltonllc",
-    "company": "Big Binary",
+    "company": "BigBinary",
     "dateOfBirth": "",
     "role": "QA Automation Engineer",
     "ctc": "NA",
@@ -1918,7 +1918,7 @@
     "name": "Sourav Kumar",
     "about": "I am Sourav Kumar.\nI'm a web developer with a sales and marketing background.\nI work with  ReactJS and React Native.",
     "username": "souravbaranwal",
-    "company": "Big Binary",
+    "company": "BigBinary",
     "dateOfBirth": "",
     "role": "Software Engineer",
     "ctc": "10 LPA",
@@ -1979,5 +1979,127 @@
     "interviewLink": "",
     "graduationYear": "",
     "companyWebsite": "https://www.bigbinary.com/"
+  },
+  {
+    "name": "Bhavishya Negi",
+    "about": "",
+    "username": "bhavishya2107",
+    "company": "Juvoxa",
+    "dateOfBirth": "",
+    "role": "Front End Developer",
+    "ctc": "NA",
+    "projects": [
+      { "title": "", "description": "", "liveURL": "", "code": "" },
+      { "title": "", "description": "", "liveURL": "", "code": "" },
+      { "title": "", "description": "", "liveURL": "", "code": "" },
+      { "title": "", "description": "", "liveURL": "", "code": "" }
+    ],
+    "blogPosts": [
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" }
+    ],
+    "highestEducation": "Computer Engineering ( Indus University  )",
+    "email": "bhavishya2107@gmail.com",
+    "twitter": "https://www.twitter.com/bhavishya2107",
+    "linkedin": "https://www.linkedin.com/in/bhavishya2107",
+    "github": "https://www.github.com/bhavishya2107",
+    "image": [
+      {
+        "id": "attgPoKwVpCoQy3wS",
+        "url": "https://dl.airtable.com/.attachments/e6d205683a53a38257f5c3a46cc9ca50/97a53846/Bhavisya.jpeg",
+        "filename": "Bhavisya.jpeg",
+        "size": 31615,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/1c688e148429485bcd2745fe16fbfaf3/b606616c",
+            "width": 36,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/a13d20097b348ac488d6d604ad230c4f/014f686e",
+            "width": 400,
+            "height": 400
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/b9d83707c53505a8a14e45b5e7bcd774/f5057454",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
+    "experineceAtAltCampus": "The best place for learning web development.\nI was lucky enough to be a part of the offline batch because I always lacked motivation when coming to studying online or alone.\nMentors are doing a great job, its an awesome community I am glad to be a part of it.",
+    "interviewLink": "",
+    "graduationYear": "2015-2019",
+    "companyWebsite": "https://www.juvoxa.com"
+  },
+  {
+    "name": "Bharat Patodi",
+    "about": "I love coding, and with friends I love building stuff.",
+    "username": "bharat-patodi",
+    "company": "BigBinary",
+    "dateOfBirth": "",
+    "role": "SDE",
+    "ctc": "NA",
+    "projects": [
+      {
+        "title": "triKone",
+        "description": "A style library for the fashionable front-enders",
+        "liveURL": "https://bharat-patodi.github.io/trikone/",
+        "code": "https://github.com/bharat-patodi/trikone"
+      },
+      {
+        "title": "Numero",
+        "description": "Numero is a dashboard application where the user can store, display and track the data points that matter to them. This can include social media metrices, physical health numbers, financial numbers, etc.",
+        "liveURL": "https://altcampus.github.io/numero/build/index.html",
+        "code": "https://github.com/AltCampus/numero"
+      },
+      { "title": "", "description": "", "liveURL": "", "code": "" },
+      { "title": "", "description": "", "liveURL": "", "code": "" }
+    ],
+    "blogPosts": [
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" }
+    ],
+    "highestEducation": "MBA, DU, South Campus",
+    "email": "bharatpatodi@gmail.com",
+    "twitter": "https://twitter.com/bharatpatodi",
+    "linkedin": "https://www.linkedin.com/in/bharatpatodi/",
+    "github": "https://github.com/bharat-patodi",
+    "image": [
+      {
+        "id": "attU3Jogt5DnKAZC5",
+        "url": "https://dl.airtable.com/.attachments/0a9f22ff603057f8b13412f1542f245f/f4ddf522/Bharat-Patodi.JPG",
+        "filename": "Bharat-Patodi.JPG",
+        "size": 276791,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/ac7358cb70355de2f2b94bf1c31feef8/8531ad9f",
+            "width": 40,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/bf9b47a5628e3b2ffb34a4c798f444ec/2debdcd1",
+            "width": 572,
+            "height": 512
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/71bfb0abdafa8792032c50bafe1ec40e/a72e04d0",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
+    "experineceAtAltCampus": "Mentors who take care of you when you're down, a curriculum that goes in depth about everything web dev and a strong educational outcome in the form of a job with a reputed company: all this and more. AltCampus is a brilliant school that helps you make that jump to your first job in tech.",
+    "interviewLink": "",
+    "graduationYear": "",
+    "companyWebsite": ""
   }
 ]
