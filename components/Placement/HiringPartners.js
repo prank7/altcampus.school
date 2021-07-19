@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Student(props) {
+function HiringPartners(props) {
   return (
     <section className="bg-gray-100 py-16">
       <div className="container px-8 mx-auto md:grid md:grid-cols-6 gap-8 items-center">
@@ -72,4 +72,4 @@ function Student(props) {
   );
 }
 
-export default Student;
+export default HiringPartners;

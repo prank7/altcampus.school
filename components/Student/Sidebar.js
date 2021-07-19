@@ -20,7 +20,7 @@ function Sidebar(props) {
             height={500}
           />
         </figure>
-        <div className="text-center p-3 font-bold text-dark-blue-600 capitalize text-2xl">
+        <nav className="text-center p-3 font-bold text-dark-blue-600 capitalize text-2xl">
           {/* <h2>{props.name}</h2> */}
           <ul className="flex items-center justify-center mt-2">
             {!props.github ? (
@@ -75,7 +75,7 @@ function Sidebar(props) {
               </li>
             )}
           </ul>
-        </div>
+        </nav>
         {/* <input type="checkbox" id="show-background" hidden />
         <label
           className="flex items-center justify-center text-lg pb-1"
