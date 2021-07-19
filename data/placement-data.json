@@ -1197,5 +1197,92 @@
     "interviewLink": "",
     "graduationYear": "",
     "companyWebsite": "https://www.saeloun.com"
+  },
+  {
+    "name": "Shashank Bhatotia",
+    "about": "I am a software engineer at BigBinary.",
+    "username": "shashank-bhatotia",
+    "company": "BigBinary",
+    "dateOfBirth": "",
+    "role": "Software Engineer",
+    "ctc": "NA",
+    "projects": [
+      { "title": "", "description": "", "liveURL": "", "code": "" },
+      { "title": "", "description": "", "liveURL": "", "code": "" },
+      { "title": "", "description": "", "liveURL": "", "code": "" },
+      { "title": "", "description": "", "liveURL": "", "code": "" }
+    ],
+    "blogPosts": [
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" }
+    ],
+    "highestEducation": "BA (History Hons) - SOL, DU",
+    "email": "shashankbhatotia@gmail.com",
+    "twitter": "",
+    "linkedin": "",
+    "github": "https://github.com/shashank-bhatotia",
+    "image": [
+      {
+        "id": "atteDGW2faDLmk4l1",
+        "url": "https://dl.airtable.com/.attachments/2b281ed0024c1dad37bad926ee4f054f/a7ba74c9/Shashank.jpeg",
+        "filename": "Shashank.jpeg",
+        "size": 39838,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/07ff1e13fca87d72393a4c2159ccef8a/58151b2a",
+            "width": 36,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/e3057d87f441edbab79b2856f30808b5/2e0dc1d1",
+            "width": 460,
+            "height": 460
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/c317d29394b906564baf901e627c9070/7dd8e7b4",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
+    "experineceAtAltCampus": "AltCampus is affordable and opens the door to have a career in web development. AltCampus's scheduled program, weekly demo sessions, hackathons, code reviews, etc. provided the necessary milieu to set the ball rolling, and at the same time being challenging enough to push the limits. The peer-based learning helped in setting the right perspective to gauge progress. The program demanded a certain level of self-motivation to adapt to different mental models and learn quickly.  The full stack web development program at AltCampus, had the rigorousness in its curriculum to equip fairly  for interviewing and getting a job.",
+    "interviewLink": "",
+    "graduationYear": "",
+    "companyWebsite": "https://www.bigbinary.com"
+  },
+  {
+    "name": "Shreyansh Gupta",
+    "about": "",
+    "username": "",
+    "company": "BigBinary",
+    "dateOfBirth": "",
+    "role": "Software Engineer",
+    "ctc": "NA",
+    "projects": [
+      { "title": "", "description": "", "liveURL": "", "code": "" },
+      { "title": "", "description": "", "liveURL": "", "code": "" },
+      { "title": "", "description": "", "liveURL": "", "code": "" },
+      { "title": "", "description": "", "liveURL": "", "code": "" }
+    ],
+    "blogPosts": [
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" }
+    ],
+    "highestEducation": "CA dropout.",
+    "email": "shreyanshgupta98@gmail.com",
+    "twitter": "",
+    "linkedin": "",
+    "github": "",
+    "image": "",
+    "experineceAtAltCampus": "",
+    "interviewLink": "",
+    "graduationYear": "",
+    "companyWebsite": ""
   }
 ]
