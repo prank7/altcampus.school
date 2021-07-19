@@ -190,7 +190,7 @@
   },
   {
     "name": "Abid Rahim",
-    "about": "",
+    "about": "I am a Software Engineer @LocoNav. I code anything & everything in JavaScript; I also love building things from scratch. When I don't code I like to travel, read blogs or play Ukulele",
     "username": "abidrahim",
     "company": "LocoNav Pvt Ltd",
     "dateOfBirth": "1991-03-25",
@@ -1276,13 +1276,708 @@
     ],
     "highestEducation": "CA dropout.",
     "email": "shreyanshgupta98@gmail.com",
-    "twitter": "",
-    "linkedin": "",
-    "github": "",
-    "image": "",
-    "experineceAtAltCampus": "",
+    "twitter": "https://twitter.com/_backslashzero",
+    "linkedin": "https://www.linkedin.com/in/shreyansh-g-831323192/",
+    "github": "https://github.com/shreyansh-g24",
+    "image": [
+      {
+        "id": "att6WEiHyrkrJRUpw",
+        "url": "https://dl.airtable.com/.attachments/4504b590c30f2d61b06ff3ce62828e92/348dadab/Shreyans.jpg",
+        "filename": "Shreyans.jpg",
+        "size": 15483,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/76bb3b80d28d06f23057de473b775433/053dc5bb",
+            "width": 36,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/c35e9606bcfcd462d216c3112123b30c/00fd5779",
+            "width": 280,
+            "height": 280
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/5ec3baee716df7fa610100760aedf2a5/6560c182",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
+    "experineceAtAltCampus": "I was from one of the offline batches at the time. It is different from college is many ways apart from the great mentorship. I would definitely recommend you to go for the course if you are looking to learn this skillset.",
     "interviewLink": "",
     "graduationYear": "",
-    "companyWebsite": ""
+    "companyWebsite": "www.bigbinary.com"
+  },
+  {
+    "name": "Mohd Anas Ansari",
+    "about": "I like to make cool stuff through my knowledge and skill, not constrained to programming only. I like to learn new things (this is the hobby I discovered while living at AltCampus) Currently I am learning to play Guitar and honing my skills to write better.  ",
+    "username": "anasansari157",
+    "company": "BigBinary",
+    "dateOfBirth": "",
+    "role": "Software Engineer",
+    "ctc": "NA",
+    "projects": [
+      {
+        "title": "quizTick",
+        "description": "A Quiz App to test your knowledge.\n\n",
+        "liveURL": "https://quizzy-by-anasansari157.herokuapp.com/session/new",
+        "code": "https://github.com/anasansari157/quizTick"
+      },
+      {
+        "title": "CURLY",
+        "description": "URL Shortener App",
+        "liveURL": "https://curl-y.herokuapp.com/",
+        "code": "https://github.com/anasansari157/curl-y"
+      },
+      { "title": "", "description": "", "liveURL": "", "code": "" },
+      { "title": "", "description": "", "liveURL": "", "code": "" }
+    ],
+    "blogPosts": [
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" }
+    ],
+    "highestEducation": "BCA (Dropout)",
+    "email": "anasansari157@gmail.com",
+    "twitter": "https://twitter.com/_anasansari",
+    "linkedin": "https://www.linkedin.com/in/-anasansari/",
+    "github": "https://github.com/anasansari157",
+    "image": [
+      {
+        "id": "atttLlydaIRNc79TS",
+        "url": "https://dl.airtable.com/.attachments/75a986ab1a36e2f78b0c5f573a692673/19e2bd37/anas-portrait.png",
+        "filename": "anas-portrait.png",
+        "size": 2204187,
+        "type": "image/png",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/62e5d97b6ad786605c781f7b98f77e17/b0aaa853",
+            "width": 31,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/f615b3096f34d95ce4d47216502e2304/25ca3139",
+            "width": 512,
+            "height": 590
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/7d528844724f11afc9cd91b4b1934f7b/12317d6e",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
+    "experineceAtAltCampus": "AltCampus is the place that will always hold a special place in my heart. Most of the skills and prowess that I need to excel in life (not just related to programming) I developed here. Mentors, here, are the reason why AltCampus is what AltCampus is today. ",
+    "interviewLink": "",
+    "graduationYear": "",
+    "companyWebsite": "https://www.bigbinary.com/"
+  },
+  {
+    "name": "Devika misra",
+    "about": "Just waiting to embark upon the next adventure. ",
+    "username": "devikamisra12",
+    "company": "BigBinary",
+    "dateOfBirth": "",
+    "role": "Software Engineer",
+    "ctc": "NA",
+    "projects": [
+      { "title": "", "description": "", "liveURL": "", "code": "" },
+      { "title": "", "description": "", "liveURL": "", "code": "" },
+      { "title": "", "description": "", "liveURL": "", "code": "" },
+      { "title": "", "description": "", "liveURL": "", "code": "" }
+    ],
+    "blogPosts": [
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" }
+    ],
+    "highestEducation": "Humanities ( History Hons.)m Shaheed Bhagat Singh College, Delhi University",
+    "email": "devikamisra12@gmail.com",
+    "twitter": "https://twitter.com/devika_misra",
+    "linkedin": "https://www.linkedin.com/in/devika-misra",
+    "github": "https://github.com/devikamisra12",
+    "image": [
+      {
+        "id": "attUXFOE9e7hy0TJe",
+        "url": "https://dl.airtable.com/.attachments/b4a964ad0d9d2724a09e826f1037063c/0340969f/Devika.jpg",
+        "filename": "Devika.jpg",
+        "size": 42370,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/47f6d526565154a2e7096c912128553b/c0f3f739",
+            "width": 36,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/ad6d802146364fedeae24d9c4246d9b0/2a1813bd",
+            "width": 514,
+            "height": 512
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/72a43b512d3e6278ffbc38fd64603cee/a1c4da5b",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
+    "experineceAtAltCampus": "Sometime back I had challenged myself with something which was a far, far, far-fetched idea, farther than going to Mars ;), of actually exploring this faint idea I had about something termed as coding,  It is Altcampus that made it a reality!",
+    "interviewLink": "",
+    "graduationYear": "",
+    "companyWebsite": "https://www.bigbinary.com/"
+  },
+  {
+    "name": "Ayushman Supratim Parasar",
+    "about": "In short I am a person who loves to \n- travel.\n- learn new things.\n- make new friends.\n- live life to fullest.",
+    "username": "ayushman-parasar",
+    "company": "BigBinary Solutions Pvt Ltd",
+    "dateOfBirth": "",
+    "role": "Software Engineer",
+    "ctc": "9 LPA",
+    "projects": [
+      { "title": "", "description": "", "liveURL": "", "code": "" },
+      { "title": "", "description": "", "liveURL": "", "code": "" },
+      { "title": "", "description": "", "liveURL": "", "code": "" },
+      { "title": "", "description": "", "liveURL": "", "code": "" }
+    ],
+    "blogPosts": [
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" }
+    ],
+    "highestEducation": "Mechanical Engineer from GIMT, Ghy",
+    "email": "ayushman.s.parasar@gmail.com",
+    "twitter": "https://twitter.com/AyushmanParasar",
+    "linkedin": "linkedin.com/in/ayushman-parasar-6618b4171",
+    "github": "https://github.com/ayushman-parasar",
+    "image": [
+      {
+        "id": "attiRCaIe8VrB311O",
+        "url": "https://dl.airtable.com/.attachments/62124886dee73afca6beb4c8bfb8621b/cf889d67/Ayushman.jpeg",
+        "filename": "Ayushman.jpeg",
+        "size": 58262,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/0699fce4a8e6eef4a9ba62724536b098/50386662",
+            "width": 24,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/0dce6e33de00a6579c11a61a9fac65d4/7f21d561",
+            "width": 512,
+            "height": 769
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/80bd8177a299843e3ac83de2a546c5da/db987aa6",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
+    "experineceAtAltCampus": "AltCampus was the best decision of my life. AltCampus gave me knowledge and helped me learn skills both technical and non-technical and most of all I got my first job because of AltCampus. This is the best place for anyone willing to learn programming. You get to be amidst like minded people.\nThank you AltCampus",
+    "interviewLink": "",
+    "graduationYear": "",
+    "companyWebsite": "https://www.bigbinary.com/"
+  },
+  {
+    "name": "Ashwani Goswami",
+    "about": "I am Ashwani Goswami, working in ClearTax as a web developer from past two and half yrs. Currently based in Bengaluru. I am basically from Siwan, Bihar. I love watching and playing cricket. ",
+    "username": "ashwanig3",
+    "company": "Clear from ClearTax",
+    "dateOfBirth": "",
+    "role": "Web Developer",
+    "ctc": "9.44 LPA",
+    "projects": [
+      {
+        "title": "Mutual Fund Recommendation.",
+        "description": "Mutual Fund Recommendation.",
+        "liveURL": "http://cleartax-mf-recommendation.herokuapp.com/",
+        "code": "https://github.com/ashwanig3/Mutual-funds"
+      },
+      {
+        "title": "Kinder-Joy",
+        "description": "A quiz application for kids. The concept of the game is to match some words to their appropriate box. the application is built using react DND(drag and drop) library. so they have to drag the words and drop into the correct box. there can be three wrong attempts. Every wrong attempt will reduce your attempts. and Every correct attempt will increase your score by 10.",
+        "liveURL": "https://kinder-joy.herokuapp.com/",
+        "code": ""
+      },
+      {
+        "title": "Bookly",
+        "description": "Bookly",
+        "liveURL": "https://ashwanig3.github.io/projects/bookly/",
+        "code": ""
+      },
+      {
+        "title": "GitHub User Search",
+        "description": "Using this application you can search any GitHub user",
+        "liveURL": "https://build-5fksnpw6n.now.sh/",
+        "code": ""
+      }
+    ],
+    "blogPosts": [
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" }
+    ],
+    "highestEducation": "B.E. from Technocrats Institute of technology & Science, Bhopal ( CSE )",
+    "email": "goswami17829@gmail.com",
+    "twitter": "https://twitter.com/ashwanigg3",
+    "linkedin": "https://www.linkedin.com/in/ashwani-goswami-b20b40169/",
+    "github": "https://github.com/ashwanig3",
+    "image": [
+      {
+        "id": "atthvfR1iVnh4yZ19",
+        "url": "https://dl.airtable.com/.attachments/0cc575f7807157ab9f04c8e9788aaa4d/7867bea5/Ashwini.jpg",
+        "filename": "Ashwini.jpg",
+        "size": 32558,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/27ae8c184f2ff0dd78c007e19470cf66/3b2db1c2",
+            "width": 36,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/39b72ec041a4e89318cc97c642972ce8/9d40cf53",
+            "width": 400,
+            "height": 400
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/07b665c9b7327f4590b96bb70da5692d/4d30b607",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
+    "experineceAtAltCampus": "Altcampus is the best place to learn web development where you not only learn the technical skills, you will get a good community as well. and the best thing about Altcampus is their location, Its a very good environment to learn coding. Mentors are amazing,they are very helpful.",
+    "interviewLink": "",
+    "graduationYear": "2018",
+    "companyWebsite": "http://cleartax.in/"
+  },
+  {
+    "name": "Bimlendu Kumar",
+    "about": "Logic and reasoning, with correct logic, one can create anything and solve any problem. This is something that I enjoy a lot and I dont think I can ever get enough of it.",
+    "username": "bim240",
+    "company": "Arvolution",
+    "dateOfBirth": "",
+    "role": "Front End Developer",
+    "ctc": "13 LPA",
+    "projects": [
+      { "title": "", "description": "", "liveURL": "", "code": "" },
+      { "title": "", "description": "", "liveURL": "", "code": "" },
+      { "title": "", "description": "", "liveURL": "", "code": "" },
+      { "title": "", "description": "", "liveURL": "", "code": "" }
+    ],
+    "blogPosts": [
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" }
+    ],
+    "highestEducation": "Techno India college of technology (Btech, CSE)",
+    "email": "bimlendu357@gmail.com",
+    "twitter": "https://twitter.com/bim240",
+    "linkedin": "https://www.linkedin.com/in/bim240/",
+    "github": "https://github.com/bim240",
+    "image": [
+      {
+        "id": "attTBTEixOyJMh2P2",
+        "url": "https://dl.airtable.com/.attachments/6aea6f1f918ceda16e490968e8a114e1/c0fbd52a/Bimlendu.jpeg",
+        "filename": "Bimlendu.jpeg",
+        "size": 15345,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/a9c51a4b71acef357dd7735a43969ce3/7f17c32b",
+            "width": 36,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/10b258720bfe8450f69c72faedcc9d7c/5c9a7cf3",
+            "width": 372,
+            "height": 372
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/104db4d1857e9728d55388360089ac57/1c923017",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
+    "experineceAtAltCampus": "Coming to AltCampus was one of the best decisions of my life. It changed my life trajectory. Everyone is happy in my family all because of AltCampus. Thank you very much.",
+    "interviewLink": "",
+    "graduationYear": "",
+    "companyWebsite": "https://arvolution.com/en/home/"
+  },
+  {
+    "name": "ABHISHEK SHASTRI",
+    "about": "Passionate about coding and travelling. ",
+    "username": "shastri48",
+    "company": "VeGrow",
+    "dateOfBirth": "",
+    "role": "Software engineer",
+    "ctc": "NA",
+    "projects": [
+      { "title": "", "description": "", "liveURL": "", "code": "" },
+      { "title": "", "description": "", "liveURL": "", "code": "" },
+      { "title": "", "description": "", "liveURL": "", "code": "" },
+      { "title": "", "description": "", "liveURL": "", "code": "" }
+    ],
+    "blogPosts": [
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" }
+    ],
+    "highestEducation": "",
+    "email": "shastri48@gmail.com",
+    "twitter": "https://twitter.com/abhisheknaaz",
+    "linkedin": "https://www.linkedin.com/in/shastri48/",
+    "github": "https://github.com/shastri48",
+    "image": [
+      {
+        "id": "attIaKOd5DUaSlmEF",
+        "url": "https://dl.airtable.com/.attachments/edc97abde86c7ce11dba0b24a1b9fad4/f3cf8fef/SHASTRI2.jpg",
+        "filename": "SHASTRI (2).jpg",
+        "size": 159642,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/55c1019a7b76148a7171d1c90d8125ed/75dcc336",
+            "width": 27,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/17864f6f40a9678c2ca401db2cbd99c0/8ed6a136",
+            "width": 360,
+            "height": 480
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/207391a5a8b8a6d2306af82177da4b65/0ad8c3f0",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
+    "experineceAtAltCampus": "A life changing place for the passionate coder. One can not get bored of enjoying the place and learning to code. ",
+    "interviewLink": "",
+    "graduationYear": "2018",
+    "companyWebsite": "https://www.vegrow.in/"
+  },
+  {
+    "name": "Komal Raj",
+    "about": "I'm a Software Engineer with 2 years experience, currently working at KheloMore Sports Private Limited. I'm basically from MuzaffarPur Bihar so did my graduation from there as well. ",
+    "username": "komlraj",
+    "company": "KheloMore Sports Private Limited Mumbai",
+    "dateOfBirth": "",
+    "role": "Software Engineer",
+    "ctc": "10 LPA",
+    "projects": [
+      { "title": "", "description": "", "liveURL": "", "code": "" },
+      { "title": "", "description": "", "liveURL": "", "code": "" },
+      { "title": "", "description": "", "liveURL": "", "code": "" },
+      { "title": "", "description": "", "liveURL": "", "code": "" }
+    ],
+    "blogPosts": [
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" }
+    ],
+    "highestEducation": "Bachelor of Computer Applications, BRABU Muzaffarpur.",
+    "email": "kmlraj131996@gmail.com",
+    "twitter": "https://twitter.com/_kmlraj",
+    "linkedin": "https://www.linkedin.com/in/komlraj/",
+    "github": "https://github.com/komlraj",
+    "image": [
+      {
+        "id": "attLrSHoMYBu6ecdA",
+        "url": "https://dl.airtable.com/.attachments/39d434bb243b9eaf97fbd803532ef291/89b6db60/Komal-Raj.jpg",
+        "filename": "Komal-Raj.jpg",
+        "size": 32652,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/5e764874de0ad7fcd3f84550cca4eb41/6b794fd3",
+            "width": 36,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/c1d3ce8cd2fdf5560402062bb3fb925b/baad20d4",
+            "width": 400,
+            "height": 400
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/877169fae44c7aaca0e7951102e6975e/f110c5a6",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
+    "experineceAtAltCampus": "I feel proud to be a first batch, When I look back at my time in AltCampus then I feel that was a great experience.\nAltCampus provided me a platform to realize my potential, to make a module approach with keen focus on learning and a strong collaboration.\nAll mentors were outstanding & gave me the best guidance possible. I am overwhelmed by being an Alumni of AltCampus for whatever & wherever I am today.",
+    "interviewLink": "https://www.youtube.com/embed/L9-mwYMGR84",
+    "graduationYear": "2017",
+    "companyWebsite": "https://www.khelomore.com/"
+  },
+  {
+    "name": "Ashik Raj",
+    "about": "I am architect turned webdeveloper, trying to apply my understanding of form and functionality to my new canvas, the web .",
+    "username": "ashikraj78",
+    "company": "Out of Box",
+    "dateOfBirth": "",
+    "role": "Full Stack Developer",
+    "ctc": "6 LPA",
+    "projects": [
+      {
+        "title": "My Portfolio",
+        "description": "Ashik Rah Portfolio",
+        "liveURL": "https://ashikraj.live/",
+        "code": ""
+      },
+      { "title": "", "description": "", "liveURL": "", "code": "" },
+      { "title": "", "description": "", "liveURL": "", "code": "" },
+      { "title": "", "description": "", "liveURL": "", "code": "" }
+    ],
+    "blogPosts": [
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" }
+    ],
+    "highestEducation": " School of Planning and Architecture, Bhopal , Madhya Pradesh",
+    "email": "ashikraj.78@gmail.com",
+    "twitter": "https://twitter.com/_ashikraj",
+    "linkedin": "https://www.linkedin.com/in/ashik-raj-43aa5769/",
+    "github": "https://github.com/ashikraj78",
+    "image": [
+      {
+        "id": "attt1twLvujjYD2fF",
+        "url": "https://dl.airtable.com/.attachments/99d3f68cd2e02c532fe4e3b99482f4f3/6189bf40/Ashik_Raj_ProfilePic.jpeg",
+        "filename": "Ashik_Raj_ProfilePic.jpeg",
+        "size": 202232,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/4fd316c8bbcf78209489f8c7e3a34023/f2ab826e",
+            "width": 54,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/63df4c7c1c07ba484d5054bfba5165b4/f0af7d93",
+            "width": 768,
+            "height": 512
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/46ee7d3ece6a8b42ffddaf2807cddaea/f8cd77fb",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
+    "experineceAtAltCampus": "AltCampus is an experience and life changing journey for me. It shaped my thought and I learnt to focus on process. Mentors helped me to learn coding from zero to professional level. Thankyou AltCampus for opening door to new horizons. ",
+    "interviewLink": "",
+    "graduationYear": "",
+    "companyWebsite": "https://outofbox.co/"
+  },
+  {
+    "name": "Ruchi Kharwar",
+    "about": "I never neglect an opportunity to improve myself, like to learn from others. \nLike traveling and enjoy the nature.\nMy hobbies are reading and listening to songs.\n",
+    "username": "ruchikh",
+    "company": "Accelerate Business Solutions",
+    "dateOfBirth": "",
+    "role": "Reactjs Developer",
+    "ctc": "6 LPA",
+    "projects": [
+      {
+        "title": "FightIQ",
+        "description": "Predict UFC upcoming fight results and score points",
+        "liveURL": "https://github.com/ruchikh/fight-iq",
+        "code": "https://github.com/ruchikh/fight-iq"
+      },
+      { "title": "", "description": "", "liveURL": "", "code": "" },
+      { "title": "", "description": "", "liveURL": "", "code": "" },
+      { "title": "", "description": "", "liveURL": "", "code": "" }
+    ],
+    "blogPosts": [
+      {
+        "title": "Prototype in JavaScript",
+        "description": "Whenever we create a new function in JavaScript, JavaScript engine by default adds a prototype property to it this property is an object and we call it “prototype object” this prototype object has a constructor property which points back to our function and another property call __proto__ which is an object.",
+        "liveURL": "https://medium.com/@ruchikharwar4/prototype-in-javascript-545e718fea6f"
+      },
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" }
+    ],
+    "highestEducation": "Computer Science ( Dr. RML Avadh University Faizabad )",
+    "email": "ruchikharwar4@gmail.com",
+    "twitter": "https://twitter.com/kharwar_ruchi",
+    "linkedin": "https://www.linkedin.com/in/ruchi-kharwar-713a27139/",
+    "github": "https://github.com/ruchikh",
+    "image": [
+      {
+        "id": "attd66Po3VmiKMX70",
+        "url": "https://dl.airtable.com/.attachments/798c6e15d04e36cb1da8a7807462b376/ae30a128/Ruchi-Kharwar.jpeg",
+        "filename": "Ruchi-Kharwar.jpeg",
+        "size": 152038,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/ff4cf1980806be6b966207df78cbd2df/47b58398",
+            "width": 36,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/c06b6e2e5f2b2554acb24922aa205f47/ea433660",
+            "width": 512,
+            "height": 518
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/38620e76d56c5c04246a31a86fafd656/860fcc77",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
+    "experineceAtAltCampus": "I was in batch-2, I got placed in a startup as Front-End Developer in Mumbai,\nBefore i went to AltCampus I was not at all good at programming.\nIf anyone wants to learn programming from the basics AltCampus is best place to learn.",
+    "interviewLink": "",
+    "graduationYear": "",
+    "companyWebsite": "https://www.acceleratebs.com/"
+  },
+  {
+    "name": "Elton Castelino",
+    "about": "I love finding solutions to problems and learning web development really helped me find solutions to the problems in this field. I love traveling, listening to music, reading, video games and engaging in intellectual conversations with people.",
+    "username": "eltonllc",
+    "company": "Big Binary",
+    "dateOfBirth": "",
+    "role": "QA Automation Engineer",
+    "ctc": "NA",
+    "projects": [
+      { "title": "", "description": "", "liveURL": "", "code": "" },
+      { "title": "", "description": "", "liveURL": "", "code": "" },
+      { "title": "", "description": "", "liveURL": "", "code": "" },
+      { "title": "", "description": "", "liveURL": "", "code": "" }
+    ],
+    "blogPosts": [
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" }
+    ],
+    "highestEducation": "Acharya Institutes",
+    "email": "celtonlloyd@gmail.com",
+    "twitter": "https://twitter.com/celtonll0yd?s=09",
+    "linkedin": "https://www.linkedin.com/in/elton-c-2b7248147",
+    "github": "https://github.com/eltonllc",
+    "image": [
+      {
+        "id": "att3qwUPVbt9Yqr3j",
+        "url": "https://dl.airtable.com/.attachments/43032564f84ce6feeff4c41c83a4ae49/8d4e1a16/Elton.JPG",
+        "filename": "Elton.JPG",
+        "size": 180552,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/d2cb83401746923e3057a98a6bc0d9bd/7011fe87",
+            "width": 28,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/da0d2a2570533171b6edcca0ca915f1a/d4e7db96",
+            "width": 411,
+            "height": 534
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/f605d690e1f591c27c07bc9b35831e36/91d0f308",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
+    "experineceAtAltCampus": "My time at Altcampus was fulfilling. At first, I wasn't even sure about git and now I know how web applications work and how to create them. The mentors know what they're doing.\nThankyou Altcampus.",
+    "interviewLink": "",
+    "graduationYear": "",
+    "companyWebsite": "https://www.bigbinary.com/"
+  },
+  {
+    "name": "Sourav Kumar",
+    "about": "I am Sourav Kumar.\nI'm a web developer with a sales and marketing background.\nI work with  ReactJS and React Native.",
+    "username": "souravbaranwal",
+    "company": "Big Binary",
+    "dateOfBirth": "",
+    "role": "Software Engineer",
+    "ctc": "10 LPA",
+    "projects": [
+      {
+        "title": "Superflix",
+        "description": "A netflix clone made using api provided by MovieDB. The App can be accessed at url",
+        "liveURL": "https://superflix.souravkumar.tech/",
+        "code": "https://github.com/souravbaranwal/superflix"
+      },
+      {
+        "title": "Conduit",
+        "description": "Conduit Application",
+        "liveURL": "https://conduit.souravkumar.tech/",
+        "code": "https://github.com/souravbaranwal/conduit"
+      },
+      { "title": "", "description": "", "liveURL": "", "code": "" },
+      { "title": "", "description": "", "liveURL": "", "code": "" }
+    ],
+    "blogPosts": [
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" }
+    ],
+    "highestEducation": "Engineering dropout",
+    "email": "sourav.baranwal@gmail.com",
+    "twitter": "https://twitter.com/SouravKumarB2",
+    "linkedin": "https://www.linkedin.com/in/sourav-k-269b03a2/",
+    "github": "https://github.com/souravbaranwal",
+    "image": [
+      {
+        "id": "attC3bu9tzwoyejDS",
+        "url": "https://dl.airtable.com/.attachments/52c79bb6e3fa53a495c2eb2c6fce7eb4/47a02cef/Sourav-Kumar.png",
+        "filename": "Sourav-Kumar.png",
+        "size": 337611,
+        "type": "image/png",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/f75e3f2abae91b78b0c8e536dc94d26f/2bb3af08",
+            "width": 29,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/7f758d449de455b5d14917a048996bb3/427d8eb2",
+            "width": 512,
+            "height": 643
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/0261ddd78d0c24c92d196fab789a74b9/9351f1f1",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
+    "experineceAtAltCampus": "I have had a life-changing experience with Altcampus.\nComing from a non-software background, the path was tough but mentors were always available to help which made it possible for me to become a Software Engineer from not knowing to write a single line of code.",
+    "interviewLink": "",
+    "graduationYear": "",
+    "companyWebsite": "https://www.bigbinary.com/"
   }
 ]
