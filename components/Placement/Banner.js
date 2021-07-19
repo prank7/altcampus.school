@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Student(props) {
+function Banner(props) {
   return (
     <section className="hero py-16">
       <article className="container mx-auto text-center px-8">
@@ -26,4 +26,4 @@ function Student(props) {
   );
 }
 
-export default Student;
+export default Banner;
