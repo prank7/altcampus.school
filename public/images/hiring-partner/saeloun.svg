@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="169px" height="64px" viewBox="0 0 169 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Group 9</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-9">
+            <g id="saeloun" fill-rule="nonzero">
+                <circle id="Oval" fill="#FFFFFF" cx="31.5" cy="32.5" r="26.5"></circle>
+                <path d="M32,63.474 C14.327,63.474 0,49.264 0,31.737 C0,14.209 14.327,0 32,0 C49.673,0 64,14.21 64,31.737 C64,49.265 49.673,63.474 32,63.474 Z M46.669,53.004 L46.669,11.187 L40.791,11.187 L40.791,27.474 L37.994,27.474 L37.994,11.844 L32.211,11.844 L32.211,51.128 L37.994,51.128 L37.994,32.354 L40.791,32.354 L40.791,53.004 L46.669,53.004 Z M31.974,38.456 C27.139,35.406 24.152,30.477 24.152,21.184 L24.152,15.224 L18.037,15.224 L18.037,21.278 C18.037,30.712 15.241,36.391 9.552,39.77 L13.012,44.182 C16.71,42.07 20.076,37.752 21.119,33.857 C22.114,37.658 25.906,41.554 28.419,43.197 L31.974,38.457 L31.974,38.456 Z" id="Shape" fill="#2D3037"></path>
+            </g>
+            <text id="Saeloun" font-family="Muli-ExtraBold, Muli" font-size="24" font-weight="700" fill="#2D3037">
+                <tspan x="76" y="41">Saeloun</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

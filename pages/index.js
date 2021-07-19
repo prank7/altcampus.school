@@ -1,19 +1,20 @@
-import React from "react";
-import Hero from "../components/Home/Hero";
-import KeyFeatures from "../components/Home/KeyFeatures";
-import CourseDetails from "../components/Home/CourseDetails";
-import Testimonials from "../components/Home/Testimonials";
-import StartLearningCTA from "../components/Home/StartLearningCTA";
-import Pricing from "../components/Home/Pricing";
+import React from 'react';
+import Hero from '../components/Home/Hero';
+import KeyFeatures from '../components/Home/KeyFeatures';
+import CourseDetails from '../components/Home/CourseDetails';
+import Testimonials from '../components/Home/Testimonials';
+import StartLearningCTA from '../components/Home/StartLearningCTA';
+import Pricing from '../components/Home/Pricing';
 // import TestimonialTweets from "../components/Home/TestimonialsTweets";
-import ReadyToBuild from "../components/Home/ReadyToBuildCTA";
-import FAQ from "../components/Home/FAQ";
-import LetsTalk from "../components/Home/LetsTalk";
-import LayoutHome from "../components/Home/Layout";
-import Head from "next/head";
+import ReadyToBuild from '../components/Home/ReadyToBuildCTA';
+import FAQ from '../components/Home/FAQ';
+import LetsTalk from '../components/Home/LetsTalk';
+import LayoutHome from '../components/Home/Layout';
+import Head from 'next/head';
+import ChosePace from '../components/Home/ChosePace';
+import blogConfig from '../blog.config';
 
 function Home(props) {
-
   // React.useEffect(() => {
   //   const s = document.createElement("script");
   //   s.setAttribute("src", "https://platform.twitter.com/widgets.js");
@@ -25,7 +26,7 @@ function Home(props) {
     <>
       <Head>
         <title>
-          AltCampus School - Learn programming online. Fullstack web development bootcamp in India.
+          {blogConfig.siteMeta.title}
         </title>
       </Head>
       <LayoutHome>
@@ -35,6 +36,7 @@ function Home(props) {
           <CourseDetails />
           <Testimonials />
           <StartLearningCTA />
+          <ChosePace />
           <Pricing />
           {/* <TestimonialTweets /> */}
           <ReadyToBuild />

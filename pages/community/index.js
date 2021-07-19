@@ -1,4 +1,6 @@
 import Head from "next/head";
+import { NextSeo } from 'next-seo';
+
 import Navbar from "../../components/Navbar";
 import Hero from "../../components/Hero";
 import Card from "../../components/Card";
@@ -6,12 +8,27 @@ import Layout from "../../components/Layout";
 import Footer from "../../components/Home/Footer";
 
 export default function Community() {
+
+  var title = "Community of Web developers | AltCampus School";
+  var description = "One of the best communities for learning software developement- Free roadmap, content and peers. Join India's best web development bootcamp's thriving community.";
+  var url = "https://altcampus.school/community/web-development";
+
   return (
     <Layout>
       <Head>
         <title>AltCampus Community </title>
         <link rel="icon" href="/favicon.png" />
       </Head>
+
+      <NextSeo 
+        title={title}
+        description={description}
+        openGraph={{
+          url,
+          title,
+          description
+        }}
+      />
 
       <Hero />
 

@@ -1,16 +1,39 @@
 import React from 'react';
-import { BasicMedalIcon, CheckCrossIcon, CheckIcon, PriceTagIcon, ProMedalIcon } from '../Icons';
+import Link from 'next/link';
+import {
+  BasicMedalIcon,
+  CheckCrossIcon,
+  CheckIcon,
+  PriceTagIcon,
+  ProMedalIcon
+} from '../Icons';
+
+import globalData from '../../globalData';
 
 function Pricing(props) {
+  var upcomingBatchDates = globalData.upcomingBatchDates;
+  var nextBatchDates = upcomingBatchDates.filter((a) => new Date(a) >= new Date());
+  var immediateBatchDate = nextBatchDates[0] ? `Next cohort starts on ${new Date(nextBatchDates[0]).toDateString().slice(4, 10)}.` : '';
+
   return (
     <section className="py-24 bg-royal-blue-100">
       <div className="container mx-auto px-8">
-        <header className="text-center md:flex md:justify-center md:items-center mb-12">
+        <header className="text-center md:flex md:justify-center md:items-center mb-6">
           <PriceTagIcon className="inline-block w-12 md:mr-4" />
           <h2 className="font-bold text-5xl text-dark-blue-500">
             Invest in yourself
           </h2>
         </header>
+        <div className="max-w-5xl mx-auto text-center mb-12 text-lg text-gray-700">
+          <p>
+            Can't pay the entire sum at once? Buy now, and <b>pay later via EMI</b>. To
+            avail it <Link href="/apply-for-emi"><a className="underline" href="/apply-for-emi">apply here</a></Link>(processing takes 2-4 working days).
+          </p>
+          <p className="mt-2">
+            You can do the course either in a cohort or self paced, you can
+            select this option in the signup form. {immediateBatchDate} Max number of students in a cohort is 15, book your seat now.
+          </p>
+        </div>
         <div className="md:flex md:justify-center">
           <div className="mb-12 md:mb-0 md:mx-8">
             <article className="shadow-2xl bg-white rounded-lg">
@@ -30,8 +53,8 @@ function Pricing(props) {
                           ₹102,149
                         </h4>
                         <p className="inline-block mx-2 line-through font-medium font-mukta">
-                          {" "}
-                          $1399{" "}
+                          {' '}
+                          $1399{' '}
                         </p>
                       </div>
                       <div className="">
@@ -42,6 +65,13 @@ function Pricing(props) {
                           $1119
                         </p>
                       </div>
+                      <p className="text-sm text-gray-600 underline">
+                        <Link href="/apply-for-emi">
+                          <a href="/apply-for-emi">
+                            Pay later via EMI available
+                          </a>
+                        </Link>
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -134,7 +164,7 @@ function Pricing(props) {
                         </h4>
 
                         <p className="inline-block mx-2 line-through font-medium font-mukta">
-                          $749{" "}
+                          $749{' '}
                         </p>
                       </div>
                       <div className="offer-price">
@@ -145,6 +175,14 @@ function Pricing(props) {
                           $539
                         </p>
                       </div>
+
+                      <p className="text-sm text-gray-600 underline">
+                        <Link href="/apply-for-emi">
+                          <a href="/apply-for-emi">
+                            Pay later via EMI available
+                          </a>
+                        </Link>
+                      </p>
                     </div>
                   </div>
                 </div>
