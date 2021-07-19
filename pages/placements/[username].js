@@ -17,7 +17,7 @@ export default function student({ alumniData }) {
   // console.log(alumniData);
   if (!alumniData) return null;
   return (
-    <div>
+    <>
       <Head>
         <title>{alumniData.name} | AltCampus Community </title>
         <link rel="icon" href="/favicon.png" />
@@ -28,10 +28,16 @@ export default function student({ alumniData }) {
           <div className="container mx-auto px-8 md:grid items-start md:grid-cols-9 gap-16">
             <Sidebar {...alumniData} />
             <div className="md:col-span-6">
-              <About {...alumniData} />
               <article>
                 <h2 className="text-dark-blue-600 text-4xl font-bold mb-2">
-                  Experience at AltCampus
+                  About
+                </h2>
+                <About {...alumniData} />
+              </article>
+
+              <article>
+                <h2 className="text-dark-blue-600 text-4xl font-bold mb-2">
+                  AltCampus Review
                 </h2>
                 <StudentExperience {...alumniData} />
               </article>
@@ -74,7 +80,7 @@ export default function student({ alumniData }) {
         </section>
         <ReadyToWriteStory />
       </LayoutHome>
-    </div>
+    </>
   );
 }
 
