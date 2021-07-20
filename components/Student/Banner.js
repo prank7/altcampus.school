@@ -31,7 +31,11 @@ function Banner(props) {
             </div>
             <blockquote className="review">
               <p className="mt-8 text-xl text-center font-source text-green-500 break-words italic font-semibold">
-                {props.experineceAtAltCampus}
+                {props.experineceAtAltCampus
+                  ? props.experineceAtAltCampus.length > 280
+                    ? props.experineceAtAltCampus.slice(0, 280) + ' ...'
+                    : props.experineceAtAltCampus
+                  : null}
               </p>
             </blockquote>
 
@@ -44,7 +48,7 @@ function Banner(props) {
                     href="#"
                   >
                     <img
-                      className="w-5"
+                      className="h-5"
                       src="/images/icons/tweet-share.svg"
                       alt="Tweeter"
                     />
@@ -61,10 +65,10 @@ function Banner(props) {
                   >
                     <img
                       src="/images/icons/linkedin-share.svg"
-                      className="w-4"
+                      className="h-4"
                       alt="Linkedin"
                     />
-                    <span className="inline-block ml-2 mt-1 font-semibold text-sm">
+                    <span className="inline-block ml-2 font-semibold text-sm">
                       Share
                     </span>
                   </a>
