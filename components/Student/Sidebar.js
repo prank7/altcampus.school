@@ -7,9 +7,9 @@ function Sidebar(props) {
   // };
   // console.log(props);
   return (
-    <aside className="col-span-3 md:sticky top-0 shadow-sm rounded-lg mb-16 md:mb-0 bg-white">
+    <aside className="col-span-3 top-0 shadow-sm rounded-lg mb-16 bg-white">
       <article>
-        <figure className="max-h-72 sm:max-h-80 md:h-64 overflow-hidden">
+        <figure className="overflow-hidden">
           <Image
             // loader={imageLoader}
             layout="responsive"
@@ -20,7 +20,7 @@ function Sidebar(props) {
             height={500}
           />
         </figure>
-        <div className="text-center p-3 font-bold text-dark-blue-600 capitalize text-2xl">
+        <nav className="text-center p-3 font-bold text-dark-blue-600 capitalize text-2xl">
           {/* <h2>{props.name}</h2> */}
           <ul className="flex items-center justify-center mt-2">
             {!props.github ? (
@@ -75,7 +75,7 @@ function Sidebar(props) {
               </li>
             )}
           </ul>
-        </div>
+        </nav>
         {/* <input type="checkbox" id="show-background" hidden />
         <label
           className="flex items-center justify-center text-lg pb-1"
@@ -92,6 +92,28 @@ function Sidebar(props) {
         </label> */}
         <div className="px-8 py-2 student-background">
           <div className="border-t-2 pt-2 flex items-center"></div>
+          <div className="flex items-center mt-4">
+            <figure className="w-20">
+              <Image
+                layout="responsive"
+                src="/images/icons/placed.png"
+                alt="Placed Stamp"
+                height={100}
+                width={100}
+                // className=""
+              />
+            </figure>
+            <p className="ml-4 text-lg text-royal-blue-500 font-semibold">
+              {props.role} at{' '}
+              <a
+                target="_blank"
+                className="hover:underline"
+                href={props.companyWebsite}
+              >
+                {props.company}
+              </a>
+            </p>
+          </div>
           <div className="mt-5">
             <h3 className="text-lg text-dark-blue-300 font-semibold mb-5">
               Education

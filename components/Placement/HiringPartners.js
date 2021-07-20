@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Student(props) {
+function HiringPartners(props) {
   return (
     <section className="bg-gray-100 py-16">
       <div className="container px-8 mx-auto md:grid md:grid-cols-6 gap-8 items-center">
@@ -65,6 +65,36 @@ function Student(props) {
               src="/images/hiring-partner/lancesoft.png"
               alt="LanceSoft"
             />
+            <img
+              className="w-32 m-4"
+              src="/images/hiring-partner/arvolution.png"
+              alt="ARVOLUTION"
+            />
+            <img
+              className="w-32 m-4"
+              src="/images/hiring-partner/vegrow.png"
+              alt="Vegrow"
+            />
+            <img
+              className="w-32 m-4"
+              src="/images/hiring-partner/accelerate.png"
+              alt="Accelerate"
+            />
+            <img
+              className="w-32 m-4"
+              src="/images/hiring-partner/credilio.svg"
+              alt="Credilio"
+            />
+            <img
+              className="w-32 m-4"
+              src="/images/hiring-partner/outofbox.png"
+              alt="Out Of Box"
+            />
+            <img
+              className="w-32 m-4"
+              src="/images/hiring-partner/juvoxa.png"
+              alt="Out Of Box"
+            />
           </figure>
         </div>
       </div>
@@ -72,4 +102,4 @@ function Student(props) {
   );
 }
 
-export default Student;
+export default HiringPartners;
