@@ -63,7 +63,7 @@ function Cards({ posts }) {
                     </p>
                     <Link href={`/community/posts/${post.id}`}>
                       <a className="block mt-2">
-                        <p className="text-xl font-extrabold text-gray-700 hover:underline">
+                        <p className="text-xl font-extrabold text-gray-800 hover:underline">
                           {post.title}
                         </p>
                         <p className="mt-3 text-base text-gray-600">
