@@ -1,17 +1,17 @@
-import Head from "next/head";
+import Head from 'next/head';
 import { NextSeo } from 'next-seo';
 
-import Navbar from "../../components/Navbar";
-import Hero from "../../components/Hero";
-import Card from "../../components/Card";
-import Layout from "../../components/Layout";
-import Footer from "../../components/Home/Footer";
+import Navbar from '../../components/Navbar';
+import Hero from '../../components/Hero';
+import Card from '../../components/Card';
+import Layout from '../../components/Layout';
+import Footer from '../../components/Home/Footer';
 
 export default function Community() {
-
-  var title = "Community of Web developers | AltCampus School";
-  var description = "One of the best communities for learning software developement- Free roadmap, content and peers. Join India's best web development bootcamp's thriving community.";
-  var url = "https://altcampus.school/community/web-development";
+  var title = 'Community of Web developers | AltCampus School';
+  var description =
+    "One of the best communities for learning software developement- Free roadmap, content and peers. Join India's best web development bootcamp's thriving community.";
+  var url = 'https://altcampus.school/community/web-development';
 
   return (
     <Layout>
@@ -20,7 +20,7 @@ export default function Community() {
         <link rel="icon" href="/favicon.png" />
       </Head>
 
-      <NextSeo 
+      <NextSeo
         title={title}
         description={description}
         openGraph={{
@@ -32,7 +32,7 @@ export default function Community() {
 
       <Hero />
 
-      <div className="mx-16 py-8">
+      <div className="mx-16 py-8 mb-16">
         <h2 className="text-gray-500 text-xs font-medium uppercase tracking-wide"></h2>
 
         <ul className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">

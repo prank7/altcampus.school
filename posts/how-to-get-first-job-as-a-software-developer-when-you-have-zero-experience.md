@@ -6,6 +6,7 @@ blurb: Getting first job as a developer is about showing your competence and cur
 photo: '/images/posts/how-to-get-first-job-as-a-developer-when-you-have-zero-experience.png'
 cta: true
 ctaText: AltCampus helps you get your first job as a software developer by helping you prepare good portfolio, skillset and introducing you to companies hiring.  🙌
+author: dprank
 ---
 
 Most companies want to hire experienced developers but how do you become experienced until you get the first job? This is the classic chicken and egg problem version of tech jobs. Everyone needs to start somewhere.

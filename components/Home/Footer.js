@@ -20,7 +20,10 @@ function Footer(props) {
             </a>
           </Link>
           <p className="text-md text-gray-500 mt-4 pr-4">
-            Everything you need to become a software developer. <br/><br/>AltCampus is an online programming bootcamp based out of India and provides one of the best MERN stack web development courses.
+            Everything you need to become a software developer. <br />
+            <br />
+            AltCampus is an online programming bootcamp based out of India and
+            provides one of the best MERN stack web development courses.
           </p>
         </div>
         <div className="footer-col1-2 footer-links md:w-3/5">

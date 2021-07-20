@@ -6,6 +6,7 @@ blurb: How to begin your software developer journey.
 photo: '/images/posts/what-are-the-best-places-to-learn-coding.png'
 cta: true
 ctaText: Launch your coding journey by choosing the best place to become a software developer.  🙌
+author: ivinoop
 ---
 
 So you have decided to jump on the bandwagon of becoming a software developer. But where do you start?
