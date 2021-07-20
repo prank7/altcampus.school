@@ -7,7 +7,7 @@ function Sidebar(props) {
   // };
   // console.log(props);
   return (
-    <aside className="col-span-3 md:sticky top-0 shadow-sm rounded-lg mb-16 md:mb-0 bg-white">
+    <aside className="col-span-3 top-0 shadow-sm rounded-lg mb-16 bg-white">
       <article>
         <figure className="overflow-hidden">
           <Image
