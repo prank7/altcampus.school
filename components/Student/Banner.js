@@ -29,15 +29,15 @@ function Banner(props) {
                 Placement Package: {props.ctc}
               </h4>
             </div>
-            <blockquote className="review">
-              <p className="mt-8 text-xl text-center font-source text-green-500 break-words italic font-semibold">
+            <div className="review">
+              <blockquote className="experience-quote mt-8 text-xl text-center font-source text-green-500 break-words italic font-semibold">
                 {props.experineceAtAltCampus
                   ? props.experineceAtAltCampus.length > 280
                     ? props.experineceAtAltCampus.slice(0, 280) + ' ...'
                     : props.experineceAtAltCampus
                   : null}
-              </p>
-            </blockquote>
+              </blockquote>
+            </div>
 
             <nav className="mt-10">
               <ul className="flex justify-center items-center">
