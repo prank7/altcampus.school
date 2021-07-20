@@ -12,6 +12,11 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
+          <meta charSet="UTF-8" />
+          <meta name="robots" content="index, follow" />
+          <meta name="author" content="AltCampus" />
+          <meta name="HandheldFriendly" content="True" />
+          <meta name="MobileOptimized" content="320" />
           <link
             rel="shortcut icon"
             type="image/png"
@@ -30,8 +35,7 @@ class MyDocument extends Document {
           />
           <link
             href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Source+Sans+Pro:wght@200;400;600;700&family=Mukta:wght@300;400;500;600&display=swap"
-            as="style"
-            rel="preload"
+            rel="stylesheet"
           />
 
           <script

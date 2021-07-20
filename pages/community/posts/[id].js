@@ -81,7 +81,7 @@ export default function Post({ postData }) {
               </div>
             </div>
 
-            <div className="">
+            <div>
               <p className="text-md text-gray-800 font-semibold">Share</p>
               <div className="flex items-center space-x-2">
                 <a
