@@ -26,7 +26,7 @@ function Placement({ alumnis }) {
           description,
           images: [
             {
-              url: '/assets/media/placement-page.png',
+              url: 'https://altcampus.school/assets/media/placement-page.png',
               alt: title
             }
           ]
