@@ -316,8 +316,9 @@ ul {
   font-family: 'Lato';
 }
 
-.prose code::before, code::after {
-  content: "";
+.prose code::before,
+code::after {
+  content: '';
 }
 
 /* Alumini Profile */
@@ -333,3 +334,5 @@ ul {
 #show-background:checked ~ label span {
   background-color: rgba(233, 237, 244,1);
 } */
+
+@import url('prism.css');
