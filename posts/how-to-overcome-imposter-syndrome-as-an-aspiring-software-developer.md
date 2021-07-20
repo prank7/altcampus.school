@@ -1,6 +1,6 @@
 ---
 title: 'How To Overcome Imposter Syndrome As An Aspiring Software Developer'
-description: 'What is Imposter Syndrome?Know all about Imposter Syndrome and how to overcome it.'
+description: 'What is Imposter Syndrome in software development? Know all about Imposter Syndrome and how to overcome it as a developer.'
 date: '2020-22-06'
 blurb: How to overcome Imposter Syndrome as an aspiring software developer.
 photo: '/images/posts/how-to-overcome-imposter-syndrome-as-an-aspiring-software-developer.png'

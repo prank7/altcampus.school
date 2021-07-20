@@ -1,6 +1,6 @@
 ---
 title: 'Why Are Bootcamps So Expensive?'
-description: 'The pricing behind bootcamps is interesting to know about. Learn why bootcamps are priced the way they are.'
+description: 'Why are bootcamps expensive? What is their pricing strategy? Learn all about programming bootcamps and their pricing.'
 date: '2020-20-05'
 blurb: Learn about bootcamps and their pricing strategy.
 photo: '/images/posts/why-are-bootcamps-so-expensive.png'

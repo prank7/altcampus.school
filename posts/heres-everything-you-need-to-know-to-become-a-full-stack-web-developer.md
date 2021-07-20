@@ -1,6 +1,6 @@
 ---
 title: Here's Everything You Need To Know To Become a Full-Stack Web Developer
-description: Are you qualified to be a full-stack web developer? Learn about everything you need to become a successful developer.
+description: Are you qualified to be a full-stack web developer? Learn about everything you need to know to become a successful full-stack developer.
 date: '2020-19-05'
 blurb: Get to know everything you need to become a full-stack web developer.
 photo: '/images/posts/heres-everything-you-need-to-know-to-become-a-full-stack-web-developer.png'

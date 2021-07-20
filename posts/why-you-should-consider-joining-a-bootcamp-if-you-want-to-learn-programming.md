@@ -1,6 +1,6 @@
 ---
 title: 'Why You Should Consider Joining a Bootcamp if You Want to Learn Programming'
-description: 'Is bootcamp the right place for you to become a good programmer? Learn the advantages of having a community of developers'
+description: 'How to learn programming? Should you join a bootcamp to learn programming? What is the best programming bootcamp in India?'
 date: '2020-12-05'
 blurb: How bootcamps can help you in your programming journey.
 photo: '/images/posts/why-you-should-join-bootcamp-if-you-want-to-learn-programming.png'
