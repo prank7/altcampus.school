@@ -12,12 +12,32 @@ import {
   getAllAlumnisData,
   getIndividualAlumniData
 } from '../../lib/airtableApi';
+import { NextSeo } from 'next-seo';
 
 export default function student({ alumniData }) {
   // console.log(alumniData);
   if (!alumniData) return null;
+  var title = `${alumniData.name} | AltCampus School`;
+  var description = `Placed as ${alumniData.role} at ${alumniData.company} `;
+  var url = `https://altcampus.school/placements/${alumniData.slug}`;
+
   return (
     <>
+      <NextSeo
+        title={title}
+        description={description}
+        openGraph={{
+          url,
+          title,
+          description,
+          images: [
+            {
+              url: alumniData.image[0].url,
+              alt: title
+            }
+          ]
+        }}
+      />
       <Head>
         <title>{alumniData.name} | AltCampus Community </title>
         <link rel="icon" href="/favicon.png" />

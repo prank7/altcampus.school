@@ -43,9 +43,12 @@ function Banner(props) {
               <ul className="flex justify-center items-center">
                 <li className="mx-3">
                   <a
+                    target="_blank"
                     className="flex border px-4 py-1 rounded-md border-royal-blue-500 items-center"
                     style={{ color: '#40A8F5', borderColor: '#40A8F5' }}
-                    href="#"
+                    href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(
+                      `https://altcampus.school/placements/${props.slug}`
+                    )}`}
                   >
                     <img
                       className="h-5"
