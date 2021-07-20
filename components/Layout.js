@@ -1,9 +1,9 @@
-import Head from "next/head";
-import Link from "next/link";
-import Footer from "./Home/Footer";
-import Navbar from "./Navbar";
+import Head from 'next/head';
+import Link from 'next/link';
+import Footer from './Home/Footer';
+import Navbar from './Navbar';
 
-const siteTitle = "AltCampus Community";
+const siteTitle = 'AltCampus Community';
 
 export default function Layout({ children }) {
   return (
@@ -14,7 +14,7 @@ export default function Layout({ children }) {
       <main>
         <Navbar />
         {children}
-        <div style={{ marginTop: '6rem'}}></div>
+        {/* <div className="mt-24"></div> */}
         <Footer />
       </main>
     </div>

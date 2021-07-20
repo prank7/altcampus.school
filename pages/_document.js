@@ -1,4 +1,4 @@
-import Document, { Html, Head, Main, NextScript } from 'next/document';
+import Document, { Html, Main, Head, NextScript } from 'next/document';
 
 const GA_TRACKING_ID = 'UA-121886584-4';
 

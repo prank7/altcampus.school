@@ -1,11 +1,12 @@
 ---
 title: 'Why Are Bootcamps So Expensive?'
 description: 'The pricing behind bootcamps is interesting to know about. Learn why bootcamps are priced the way they are.'
-date: '2020-20-05'
+date: '2020-05-20'
 blurb: Learn about bootcamps and their pricing strategy.
 photo: '/images/posts/why-are-bootcamps-so-expensive.png'
 cta: true
 ctaText: AltCampus makes your investment into its full-stack web development curriculum, highly worth it!
+author: ivinoop
 ---
 
 There is a perennial instinct in our minds every time a financial transaction is presented before us - to evaluate the worth of it from every possible angle before spending or investing on it. Suffice to say, this instinct in us is there to make us better decision makers, and rightly so.
