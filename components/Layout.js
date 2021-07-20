@@ -14,7 +14,7 @@ export default function Layout({ children }) {
       <main>
         <Navbar />
         {children}
-        <div style={{ marginTop: '6rem' }}></div>
+        {/* <div className="mt-24"></div> */}
         <Footer />
       </main>
     </div>

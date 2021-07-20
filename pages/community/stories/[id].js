@@ -33,7 +33,7 @@ export default function Post({ postData }) {
         }}
       />
 
-      <section className="mx-8 md:mx-16 grid grid-cols-12 gap-4 post-container">
+      <section className="mx-8 md:mx-16 grid grid-cols-12 gap-4 post-container mb-16">
         <div className=" col-span-12 sm:col-start-3 sm:col-span-8 md:px-6 ">
           <h2 className="mt-16 my-4 font-bold text-green-theme-600 text-3xl">
             {postData.title}
