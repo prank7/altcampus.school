@@ -94,7 +94,7 @@ function Sidebar(props) {
           <div className="border-t-2 pt-2 flex items-center"></div>
           <div className="flex items-center mt-4">
             <img
-              className="w-20 border"
+              className="w-20"
               src="/images/icons/placed.svg"
               alt="Placed Stamp"
             />
