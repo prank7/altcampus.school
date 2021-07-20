@@ -35,9 +35,6 @@ const Tutorials = ({ allPostsData }) => {
 function Cards({ posts }) {
   return (
     <div className="relative bg-gray-200 pt-16 pb-16 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8">
-      <div className="absolute inset-0">
-        <div className="bg-white h-1/3 sm:h-2/3" />
-      </div>
       <div className="relative max-w-7xl mx-auto px-8">
         <div className="text-center">
           <h2 className="text-3xl max-w-4xl mx-auto tracking-tight font-extrabold text-gray-700 sm:text-4xl">
@@ -66,7 +63,7 @@ function Cards({ posts }) {
                     </p>
                     <Link href={`/community/posts/${post.id}`}>
                       <a className="block mt-2">
-                        <p className="text-xl font-extrabold text-gray-900 hover:underline">
+                        <p className="text-xl font-extrabold text-gray-700 hover:underline">
                           {post.title}
                         </p>
                         <p className="mt-3 text-base text-gray-600">
