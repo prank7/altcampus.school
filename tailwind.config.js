@@ -23,6 +23,10 @@ module.exports = {
       xl: '1280px'
       // => @media (min-width: 1280px) { ... }
     },
+    maxHeight: {
+      72: '20rem',
+      80: '32rem'
+    },
     extend: {
       fontFamily: {
         display: ['Gilroy', 'sans-serif'],
