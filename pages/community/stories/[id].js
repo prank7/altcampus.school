@@ -1,14 +1,10 @@
 import { getAllPostIds, getPostData } from '../../../lib/stories';
 import Layout from '../../../components/Layout';
-import Link from 'next/link';
 import Head from 'next/head';
 import PostCTA from '../../../components/Community/PostCTA';
 import { NextSeo } from 'next-seo';
-import { useRouter } from 'next/dist/client/router';
 
 export default function Post({ postData }) {
-  let router = useRouter();
-
   return (
     <Layout>
       <NextSeo

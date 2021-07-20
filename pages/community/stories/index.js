@@ -23,9 +23,6 @@ const Stories = ({ allPostsData }) => {
       />
 
       <div className="relative bg-gray-200 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8">
-        <div className="absolute inset-0">
-          <div className="bg-white h-1/3 sm:h-2/3" />
-        </div>
         <div className="relative max-w-7xl mx-auto px-8 pb-16">
           <div className="text-center">
             <h2 className="text-3xl max-w-4xl mx-auto tracking-tight font-extrabold text-gray-700 sm:text-4xl">
@@ -43,10 +40,7 @@ const Stories = ({ allPostsData }) => {
                     href={`/community/stories/[id]`}
                     as={`/community/stories/${id}`}
                   >
-                    <figure
-                      className="bg-gray-100 rounded-xl flex p-2"
-                      style={{ cursor: 'pointer' }}
-                    >
+                    <figure className="bg-gray-100 rounded-xl flex p-2 cursor-pointer">
                       <img
                         className="w-32 h-32"
                         src={studentPhoto}
@@ -56,7 +50,7 @@ const Stories = ({ allPostsData }) => {
                       />
                       <div className="my-auto px-4">
                         <blockquote>
-                          <p className="font-semibold text-green-theme-600 text-xl hover:text-green-theme-500">
+                          <p className="font-semibold text-green-theme-600 text-xl hover:text-green-theme-500 hover:underline">
                             {title}
                           </p>
                         </blockquote>
