@@ -73,16 +73,27 @@ module.exports = {
           900: '#0F0F1C'
         },
         gold: {
-          300: "#E9D496",
-          500: "#F2BA0F",
-          600: "#888806",
-          800: "#AD8A56",
-        },
+          300: '#E9D496',
+          500: '#F2BA0F',
+          600: '#888806',
+          800: '#AD8A56'
+        }
+      },
+      width: {
+        0.5: '0.125rem'
       },
       height: {
-        27: "6.75rem"
+        27: '6.75rem'
+      },
+      gridTemplateColumns: {
+        'timeline-tree': ' 1fr 3rem 1fr',
+        'timeline-item': ' 1rem 1fr'
+      },
+
+      gridTemplateRows: {
+        'timeline-list-bullet': '1fr 0.25rem 1fr'
       }
-    },
+    }
   },
   plugins: [require('@tailwindcss/typography')]
 };
