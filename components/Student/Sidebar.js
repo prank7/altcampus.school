@@ -93,11 +93,16 @@ function Sidebar(props) {
         <div className="px-8 py-2 student-background">
           <div className="border-t-2 pt-2 flex items-center"></div>
           <div className="flex items-center mt-4">
-            <img
-              className="w-20"
-              src="/images/icons/placed.svg"
-              alt="Placed Stamp"
-            />
+            <figure className="w-20">
+              <Image
+                layout="responsive"
+                src="/images/icons/placed.png"
+                alt="Placed Stamp"
+                height={100}
+                width={100}
+                // className=""
+              />
+            </figure>
             <p className="ml-4 text-lg text-royal-blue-500 font-semibold">
               {props.role} at{' '}
               <a
