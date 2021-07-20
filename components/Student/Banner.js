@@ -62,9 +62,12 @@ function Banner(props) {
                 </li>
                 <li className="mx-3">
                   <a
+                    target="_blank"
                     className="flex border px-4 py-1 rounded-md border-royal-blue-500 items-center"
                     style={{ color: '#2C7FBA', borderColor: '#2C7FBA' }}
-                    href="#"
+                    href={`http://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(
+                      `https://altcampus.school/placements/${props.slug}`
+                    )}`}
                   >
                     <img
                       src="/images/icons/linkedin-share.svg"
@@ -78,9 +81,12 @@ function Banner(props) {
                 </li>
                 <li className="mx-3">
                   <a
+                    target="_blank"
                     className="flex border px-4 py-1 rounded-md border-royal-blue-500 items-center"
                     style={{ color: '#4460A0', borderColor: '#4460A0' }}
-                    href="#"
+                    href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(
+                      `https://altcampus.school/placements/${props.slug}`
+                    )}`}
                   >
                     <img
                       className="h-5"
