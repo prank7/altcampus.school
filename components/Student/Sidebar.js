@@ -92,6 +92,23 @@ function Sidebar(props) {
         </label> */}
         <div className="px-8 py-2 student-background">
           <div className="border-t-2 pt-2 flex items-center"></div>
+          <div className="flex items-center mt-4">
+            <img
+              className="w-20 border"
+              src="/images/icons/placed.svg"
+              alt="Placed Stamp"
+            />
+            <p className="ml-4 text-lg text-royal-blue-500 font-semibold">
+              {props.role} at{' '}
+              <a
+                target="_blank"
+                className="hover:underline"
+                href={props.companyWebsite}
+              >
+                {props.company}
+              </a>
+            </p>
+          </div>
           <div className="mt-5">
             <h3 className="text-lg text-dark-blue-300 font-semibold mb-5">
               Education

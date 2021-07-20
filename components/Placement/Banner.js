@@ -15,8 +15,8 @@ function Banner(props) {
         </h2>
         <div className="text-center">
           <img
-            src="/images/icons/approved.svg"
-            alt="Placed Icon"
+            src="/images/icons/success-rate.svg"
+            alt="Success Rate Stamp"
             className="w-24 mt-8 mb-3 inline-block"
           />
         </div>
