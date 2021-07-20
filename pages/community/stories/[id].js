@@ -9,7 +9,6 @@ import { useRouter } from 'next/dist/client/router';
 export default function Post({ postData }) {
   let router = useRouter();
 
-  // console.log(process.env.NODE_ENV);
   return (
     <Layout>
       <NextSeo
