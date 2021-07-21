@@ -75,11 +75,14 @@ function Cards({ posts }) {
                   <div className="mt-6 flex items-center">
                     <div className="flex-shrink-0">
                       <span className="sr-only">{author?.name}</span>
-                      <img
-                        className="h-10 w-10 rounded-full"
-                        src={author?.avatar}
-                        alt=""
-                      />
+                      <div className="relative h-10 w-10 ">
+                        <Image
+                          className="rounded-full"
+                          src={author?.avatar}
+                          layout="fill"
+                          alt=""
+                        />
+                      </div>
                     </div>
                     <div className="ml-3">
                       <p className="text-sm font-medium text-gray-900 font-semibold">
