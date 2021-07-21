@@ -48,18 +48,27 @@ function Navbar(params) {
             <div className="hidden md:flex items-center justify-end space-x-8 md:flex-1 lg:w-0">
               <nav className="hidden md:flex space-x-10">
                 <Link href="/">
-                  <a className="text-gray-700 inline-flex items-center space-x-2 text-base leading-6 font-medium hover:text-gray-900 transition ease-in-out duration-150">
+                  <a href="/" className="text-gray-700 inline-flex items-center space-x-2 text-base leading-6 font-medium hover:text-gray-900 transition ease-in-out duration-150">
                     Program
                   </a>
                 </Link>
                 <Link href="/community/web-development">
-                  <a className="text-gray-700 inline-flex items-center space-x-2 text-base leading-6 font-medium hover:text-gray-900 transition ease-in-out duration-150">
+                  <a href="/community/web-development" className="text-gray-700 inline-flex items-center space-x-2 text-base leading-6 font-medium hover:text-gray-900 transition ease-in-out duration-150">
                     Roadmap
                   </a>
                 </Link>
+                <Link href="/placements">
+                  <a
+                    href="/placements"
+                    className="text-base leading-6 font-medium text-gray-700 hover:text-gray-900 transition ease-in-out duration-150"
+                  >
+                    Placements
+                  </a>
+                </Link>
+                
                 <Link href="/community/posts">
                   <a
-                    href="#"
+                    href="/community/posts"
                     className="text-base leading-6 font-medium text-gray-700 hover:text-gray-900 transition ease-in-out duration-150"
                   >
                     Posts
@@ -67,7 +76,7 @@ function Navbar(params) {
                 </Link>
                 <Link href="/community/stories">
                   <a
-                    href="#"
+                    href="/community/stories"
                     className="text-base leading-6 font-medium text-gray-700 hover:text-gray-900 transition ease-in-out duration-150"
                   >
                     Stories
@@ -88,7 +97,7 @@ function Navbar(params) {
               <span className="inline-flex rounded-md shadow-sm">
                 <Link href="/community/join">
                   <a
-                    href="#"
+                    href="/community/join"
                     className="whitespace-no-wrap inline-flex items-center justify-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 border-indigo-600 hover:text-white hover:bg-indigo-500 focus:outline-none transition ease-in-out duration-150"
                   >
                     Join the Community
@@ -167,6 +176,24 @@ function Navbar(params) {
                         <Link href="/community/web-development">
                           <a className="text-base leading-6 font-medium text-gray-900">
                             Roadmap
+                          </a>
+                        </Link>
+                      </a>
+
+                      <a
+                        href="/placements"
+                        className="-m-3 p-3 flex items-center space-x-3 rounded-md hover:bg-gray-50 transition ease-in-out duration-150"
+                      >
+                        {/* <svg className="flex-shrink-0 h-6 w-6 text-green-theme-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
+                      </svg> */}
+                        <img
+                          className="flex-shrink-0 h-6 w-6 text-green-theme-600"
+                          src="/images/icons/roadmap.svg"
+                        />
+                        <Link href="/placements">
+                          <a className="text-base leading-6 font-medium text-gray-900">
+                            Placements
                           </a>
                         </Link>
                       </a>

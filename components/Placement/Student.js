@@ -38,9 +38,9 @@ function Student(props) {
             <h4 className="text-gray-700 text-md h-12 font-mukta">
               {props.role}, {props.company}
             </h4>
-            <h4 className="text-right text-sm font-medium text-gray-500 mt-3 font-sans">
+            {/* <h4 className="text-right text-sm font-medium text-gray-500 mt-3 font-sans">
               Placement Package: {props.ctc}
-            </h4>
+            </h4> */}
           </div>
         </article>
       </a>

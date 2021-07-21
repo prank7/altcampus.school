@@ -24,11 +24,11 @@ function Banner(props) {
                 {props.company}
               </a>
             </h3>
-            <div className="text-center">
+            {/* <div className="text-center">
               <h4 className=" text-xl font-medium text-gray-500 mt-3 font-sans">
                 Placement Package: {props.ctc}
               </h4>
-            </div>
+            </div> */}
             <div className="review">
               <blockquote className="experience-quote mt-8 text-xl text-center font-source text-green-500 break-words italic font-semibold">
                 {props.experineceAtAltCampus

@@ -18,7 +18,7 @@ export default function student({ alumniData }) {
   // console.log(alumniData);
   if (!alumniData) return null;
   var title = `${alumniData.name} | AltCampus School`;
-  var description = `Placed as ${alumniData.role} at ${alumniData.company} `;
+  var description = `Placed as ${alumniData.role} at ${alumniData.company} after completing AltCampus programming bootcamp.`;
   var url = `https://altcampus.school/placements/${alumniData.slug}`;
 
   return (
@@ -39,7 +39,7 @@ export default function student({ alumniData }) {
         }}
       />
       <Head>
-        <title>{alumniData.name} | AltCampus Community </title>
+        <title>{alumniData.name} | AltCampus Alumni </title>
         <link rel="icon" href="/favicon.png" />
       </Head>
       <LayoutHome>
