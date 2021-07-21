@@ -18,6 +18,15 @@
   <url>
     <loc>https://altcampus.school/community/stories</loc>
   </url>
+  <url>
+    <loc>https://altcampus.school/community/web-development</loc>
+  </url>
+  <url>
+    <loc>https://altcampus.school/curriculum</loc>
+  </url>
+  <url>
+    <loc>https://altcampus.school/apply-for-emi</loc>
+  </url>
 
   <url>
     <loc
@@ -34,7 +43,6 @@
       >https://altcampus.school/community/posts/array-methods-explained-pictorial-representation</loc
     >
   </url>
-
   <url>
     <loc
       >https://altcampus.school/community/posts/basic-array-methods-in-javascript</loc
