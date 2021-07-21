@@ -18,6 +18,15 @@
   <url>
     <loc>https://altcampus.school/community/stories</loc>
   </url>
+  <url>
+    <loc>https://altcampus.school/community/web-development</loc>
+  </url>
+  <url>
+    <loc>https://altcampus.school/curriculum</loc>
+  </url>
+  <url>
+    <loc>https://altcampus.school/apply-for-emi</loc>
+  </url>
 
   <url>
     <loc
@@ -34,7 +43,6 @@
       >https://altcampus.school/community/posts/array-methods-explained-pictorial-representation</loc
     >
   </url>
-
   <url>
     <loc
       >https://altcampus.school/community/posts/basic-array-methods-in-javascript</loc
@@ -51,6 +59,11 @@
   <url>
     <loc
       >https://altcampus.school/community/posts/crud-operations-in-mongodb</loc
+    >
+  </url>
+  <url>
+    <loc
+      >https://altcampus.school/community/posts/do-you-need-a-cs-degree-to-become-a-software-developer</loc
     >
   </url>
   <url>
@@ -205,7 +218,7 @@
     <loc>https://altcampus.school/placements/devika-misra</loc>
   </url>
   <url>
-    <loc>https://altcampus.school/placements/ayushman-supratim-parasar</loc>
+    <loc>https://altcampus.school/placements/ayushman-s-parasar</loc>
   </url>
   <url>
     <loc>https://altcampus.school/placements/ashwani-goswami</loc>
