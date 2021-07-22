@@ -50,7 +50,7 @@ const CourseTimeline = () => {
         <div className="container mx-auto pt-4 pb-16 text-center font-lato">
           <p className="mt-6 text-xl leading-normal">
             By{' '}
-            <span className="font-bold font-mono text-2xl">
+            <span className="font-bold font-mukta text-3xl">
               {format(courseFinishDate, 'MMM dd, yyyy')} (
               {weeklyTopicTasks.length} weeks)
             </span>
