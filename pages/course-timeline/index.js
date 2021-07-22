@@ -1,4 +1,4 @@
-import { addWeeks } from 'date-fns';
+import { addWeeks, format } from 'date-fns';
 import { useState } from 'react';
 import trackTimings from '../../data/track-timings.json';
 import LayoutHome from '../../components/Home/Layout';
@@ -30,8 +30,8 @@ const CourseTimeline = () => {
             Course Timeline
           </h2>
           <h4 className="pt-2 text-2xl text-gray-700">
-            Find out when you're going to complete the course or how your
-            upcoming weeks are gonna look like
+            Find out when you're going to complete the course and how your
+            upcoming weeks are going to look like
           </h4>
         </header>{' '}
         <div className="container mx-auto py-16">
@@ -48,24 +48,19 @@ const CourseTimeline = () => {
           </p>
         </div>
         <div className="container mx-auto pt-4 pb-16 text-center font-lato">
-          <p className="mt-6 text-xl">
-            If you put <span className="font-bold">{hoursPerWeek} hours</span>{' '}
-            every week, you'll become a full stack software developer in
-            <span className="font-bold"> {weeklyTopicTasks.length} weeks</span>
-          </p>
-          <p className="mt-3 text-xl">
-            If you{' '}
+          <p className="mt-6 text-xl leading-normal">
+            By{' '}
+            <span className="font-bold font-mono text-2xl">
+              {format(courseFinishDate, 'MMM dd, yyyy')} (
+              {weeklyTopicTasks.length} weeks)
+            </span>
+            , you will become a full stack software developer if you{' '}
             <a
               className="text-royal-blue-600 hover:underline"
               href="https://launchpad.altcampus.school/signup?utm_source=timeline"
             >
               join today
             </a>
-            , you'll become a full stack web developer by
-            <span className="font-bold">
-              {' '}
-              {courseFinishDate.toDateString()}{' '}
-            </span>
           </p>
         </div>
         <div className="bg-white container mx-auto rounded-md shadow px-6 py-6">
