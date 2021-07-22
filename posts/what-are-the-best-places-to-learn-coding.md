@@ -1,11 +1,12 @@
 ---
 title: 'What Are The Best Places to Learn Coding'
 description: 'How do you choose the right place to start your programming journey? Know all about launching your developer journey here.'
-date: '2020-07-06'
+date: '2021-07-06'
 blurb: How to begin your software developer journey.
 photo: '/images/posts/what-are-the-best-places-to-learn-coding.png'
 cta: true
 ctaText: Launch your coding journey by choosing the best place to become a software developer.  🙌
+author: ivinoop
 ---
 
 So you have decided to jump on the bandwagon of becoming a software developer. But where do you start?
@@ -28,36 +29,36 @@ There are endless materials on the internet to get one started, but there are a 
 
 1. **Codecademy**
 
-Founded in 2011, Codecademy offers resources over a wide range of languages, frameworks, and personalized learning paths for the premium user. From HTML and CSS to Python, Ruby on Rails, JavaScript, Swift, and more, Codecademy has everything in one place. Each course also includes building a few apps to showcase in your portfolio.
+   Founded in 2011, Codecademy offers resources over a wide range of languages, frameworks, and personalized learning paths for the premium user. From HTML and CSS to Python, Ruby on Rails, JavaScript, Swift, and more, Codecademy has everything in one place. Each course also includes building a few apps to showcase in your portfolio.
 
-The drawback here is that even with the premium (or PRO) subscription, Codecademy lacks in one of the most crucial elements of learning - personalized mentorship. You will have to depend on outside community help; even if it is fellow Codecademy students who are on the same path as you, the lack of a mentor to provide feedback, makes this rank a bit lower on the best places to learn coding.
+   The drawback here is that even with the premium (or PRO) subscription, Codecademy lacks in one of the most crucial elements of learning - personalized mentorship. You will have to depend on outside community help; even if it is fellow Codecademy students who are on the same path as you, the lack of a mentor to provide feedback, makes this rank a bit lower on the best places to learn coding.
 
 2. **Udemy**
 
-This is a huge platform that has gained widespread popularity over the years. Established content creators and even organizations have started publishing their content here in the form of courses, mini-project series, etc. Founded in 2010 with a goal to globalize education accessibility for students everywhere, Udemy has become the go-to platform for learners in every nook and corner of the world.
+   This is a huge platform that has gained widespread popularity over the years. Established content creators and even organizations have started publishing their content here in the form of courses, mini-project series, etc. Founded in 2010 with a goal to globalize education accessibility for students everywhere, Udemy has become the go-to platform for learners in every nook and corner of the world.
 
-The caveats here are many. While access is definitely easier, along with affordable costs, there can be biased reviews on the quality of the courses. Coding along while watching the instructor online, with virtually zero direct access to mentorship or the community of learners, is definitely a disadvantage.
+   The caveats here are many. While access is definitely easier, along with affordable costs, there can be biased reviews on the quality of the courses. Coding along while watching the instructor online, with virtually zero direct access to mentorship or the community of learners, is definitely a disadvantage.
 
-There is also the **absence of practice**. Without enough practice exercises and challenges to cement the concepts you have gained from the course at each step, online courses from Udemy are at best, a supplemental resource but never a reliable source for learning programming.
+   There is also the **absence of practice**. Without enough practice exercises and challenges to cement the concepts you have gained from the course at each step, online courses from Udemy are at best, a supplemental resource but never a reliable source for learning programming.
 
 3. **Freecodecamp**
 
-This platform stands as one of the true exceptions to the disadvantages of online learning. Founded in 2014, Freecodecamp (FCC), is a not-for-profit organization that aims to deliver 100% free education in computer science to learners everywhere. Thousands of testimonials stand out as a testament to how FCC has helped students from a plethora of diverse backgrounds to dive into the world of programming and restart their lives and careers.
+   This platform stands as one of the true exceptions to the disadvantages of online learning. Founded in 2014, Freecodecamp (FCC), is a not-for-profit organization that aims to deliver 100% free education in computer science to learners everywhere. Thousands of testimonials stand out as a testament to how FCC has helped students from a plethora of diverse backgrounds to dive into the world of programming and restart their lives and careers.
 
-FCC has hundreds of practice exercises and course materials to ensure that your learning is at par with any other premium course out there.
+   FCC has hundreds of practice exercises and course materials to ensure that your learning is at par with any other premium course out there.
 
-There is however, a fundamental drawback to learning from FCC - **lack of mentorship**. The learning playground is free and filled with materials, but spending an unnecessary amount of time trying to find solutions and practice by yourself is not constructive.
+   There is however, a fundamental drawback to learning from FCC - **lack of mentorship**. The learning playground is free and filled with materials, but spending an unnecessary amount of time trying to find solutions and practice by yourself is not constructive.
 
 4. **Bootcamps**
 
-Bootcamps in India have grown in popularity over the years, largely due to the increase in demand for skilled software developers. Traditional educational institutions do not impart the much needed skills required for the modern industry. This, coupled with the rapid advancements in technology means that upskilling is the way to grow in one’s career.
+   Bootcamps in India have grown in popularity over the years, largely due to the increase in demand for skilled software developers. Traditional educational institutions do not impart the much needed skills required for the modern industry. This, coupled with the rapid advancements in technology means that upskilling is the way to grow in one’s career.
 
-Bootcamps offer this and much more. Apart from just upskilling, they also help people who are looking to entirely switch careers from a different domain to software development. There are various bootcamps in India to learn programming :
+   Bootcamps offer this and much more. Apart from just upskilling, they also help people who are looking to entirely switch careers from a different domain to software development. There are various bootcamps in India to learn programming :
 
-- The Newton School → An ISA based online bootcamp that offers various courses in programming, with zero upfront fees. Students can start learning right away and then pay the bootcamp back when they get a job. This payment period can extend to 36 months depending on the terms of the ISA and the salary.
-- Masai School → Based out of Bangalore, Masai also offers an ISA based online platform for both full-stack web development and full-stack Android development. The fees/ISA structure is similar to that of Newton School’s.
+   - The Newton School → An ISA based online bootcamp that offers various courses in programming, with zero upfront fees. Students can start learning right away and then pay the bootcamp back when they get a job. This payment period can extend to 36 months depending on the terms of the ISA and the salary.
+   - Masai School → Based out of Bangalore, Masai also offers an ISA based online platform for both full-stack web development and full-stack Android development. The fees/ISA structure is similar to that of Newton School’s.
 
-While the courses may be relevant, the fee structure in ISA is exorbitant, and is the first thing that hinders students from joining. Quality education along with **affordability** and **personalized mentorship** are what students need today, to become qualified full-stack developers tomorrow.
+   While the courses may be relevant, the fee structure in ISA is exorbitant, and is the first thing that hinders students from joining. Quality education along with **affordability** and **personalized mentorship** are what students need today, to become qualified full-stack developers tomorrow.
 
 ### The Alternative
 

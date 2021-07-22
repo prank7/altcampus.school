@@ -39,35 +39,42 @@ function Header() {
           <ul className="md:flex md:items-center">
             <li className="mb-8 md:mb-0">
               <ActiveLink href="/">
-                <a className="text-4xl font- md:text-xl text-gold-500 md:text-dark-blue-300 pt-1 hover:text-dark-blue-500">
+                <a className="text-4xl font- md:text-lg text-gold-500 md:text-dark-blue-300 pt-1 hover:text-dark-blue-500">
                   Home
                 </a>
               </ActiveLink>
             </li>
             <li className="mb-8 md:mb-0 md:ml-10">
               <ActiveLink href="/how-it-works">
-                <a className="text-4xl md:text-xl text-gold-500  md:text-dark-blue-300 pt-1 hover:text-dark-blue-500">
+                <a className="text-4xl md:text-lg text-gold-500  md:text-dark-blue-300 pt-1 hover:text-dark-blue-500">
                   How it works
                 </a>
               </ActiveLink>
             </li>
             <li className="mb-8 md:mb-0 md:ml-10">
               <ActiveLink href="/pricing">
-                <a className="text-4xl md:text-xl text-gold-500  md:text-dark-blue-300 pt-1 hover:text-dark-blue-500">
+                <a className="text-4xl md:text-lg text-gold-500  md:text-dark-blue-300 pt-1 hover:text-dark-blue-500">
                   Pricing
                 </a>
               </ActiveLink>
             </li>
             <li className="mb-8 md:mb-0 md:ml-10">
               <ActiveLink href="/#faqs">
-                <a className="text-4xl md:text-xl text-gold-500  md:text-dark-blue-300 pt-1 hover:text-dark-blue-500">
+                <a className="text-4xl md:text-lg text-gold-500  md:text-dark-blue-300 pt-1 hover:text-dark-blue-500">
                   FAQs
                 </a>
               </ActiveLink>
             </li>
             <li className="mb-8 md:mb-0 md:ml-10">
+              <ActiveLink href="/placements">
+                <a className="text-4xl md:text-lg text-gold-500  md:text-dark-blue-300 pt-1 hover:text-dark-blue-500">
+                  Placements
+                </a>
+              </ActiveLink>
+            </li>
+            <li className="mb-8 md:mb-0 md:ml-10">
               <ActiveLink href="/community/stories">
-                <a className="text-4xl md:text-xl text-gold-500  md:text-dark-blue-300 pt-1 hover:text-dark-blue-500">
+                <a className="text-4xl md:text-lg text-gold-500  md:text-dark-blue-300 pt-1 hover:text-dark-blue-500">
                   Stories
                 </a>
               </ActiveLink>

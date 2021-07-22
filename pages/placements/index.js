@@ -10,20 +10,26 @@ import ReadyToBuild from '../../components/Home/ReadyToBuildCTA';
 import { getAllAlumnisData } from '../../lib/airtableApi';
 
 function Placement({ alumnis }) {
+  var title = 'AltCampus Placements | AltCampus School';
+  var description =
+    "Placement stats and success stories from India's best programming bootcamp. AltCampus reviews and experiences shared by our students.";
+  var url = 'https://altcampus.school/placements';
 
-  var title = "AltCampus Placements | AltCampus School";
-  var description = "Placement stats and success stories from India's best programming bootcamp. AltCampus reviews and experiences shared by our students.";
-  var url = "https://altcampus.school/placements";
-  
   return (
     <>
-      <NextSeo 
+      <NextSeo
         title={title}
         description={description}
         openGraph={{
           url,
           title,
-          description
+          description,
+          images: [
+            {
+              url: 'https://altcampus.school/assets/media/placement-page.png',
+              alt: title
+            }
+          ]
         }}
       />
       <LayoutHome>

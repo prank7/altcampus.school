@@ -13,7 +13,7 @@ export default function Join() {
         <link rel="icon" href="/favicon.png" />
       </Head>
 
-      <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-6 gap-4 post-container">
+      <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-6 gap-4 post-container mb-16">
         <div className="mx-12 col-span-1 md:col-start-2 md:col-span-4">
           <h1 className="text-center py-4 pt-8 text-4xl font-bold text-indigo-700">
             Join the Community

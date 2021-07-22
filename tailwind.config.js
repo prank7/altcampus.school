@@ -89,7 +89,6 @@ module.exports = {
         'timeline-tree': ' 1fr 3rem 1fr',
         'timeline-item': ' 1rem 1fr'
       },
-
       gridTemplateRows: {
         'timeline-list-bullet': '1fr 0.25rem 1fr'
       }
