@@ -11,7 +11,7 @@ const TimelineTree = ({ weeklyTopicTasks }) => {
 
         // console.log(lastTaskOfPreviousWeek);
         return (
-          <>
+          <React.Fragment key={i}>
             <div className="w-full text-center my-2 font-bold font-lato text-green-600 text-2xl">
               Week {i + 1}
             </div>
@@ -33,7 +33,10 @@ const TimelineTree = ({ weeklyTopicTasks }) => {
                   const isFirstTask = i === 0;
                   const isLastTask = i + 1 === arr.length;
                   return (
-                    <li className="text-white text-lg list-none grid grid-cols-timeline-item grid-gap-0 align-center ">
+                    <li
+                      key={task.name}
+                      className="text-white text-lg list-none grid grid-cols-timeline-item grid-gap-0 align-center "
+                    >
                       <div className="grid grid-rows-timeline-list-bullet">
                         {isFirstTask ? (
                           <div></div>
@@ -75,7 +78,7 @@ const TimelineTree = ({ weeklyTopicTasks }) => {
                 </>
               ) : null}
             </div>
-          </>
+          </React.Fragment>
         );
       })}
     </>

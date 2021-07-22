@@ -54,7 +54,14 @@ const CourseTimeline = () => {
             <span className="font-bold"> {weeklyTopicTasks.length} weeks</span>
           </p>
           <p className="mt-3 text-xl">
-            If you join today, you'll become a full stack web developer by
+            If you{' '}
+            <a
+              className="text-royal-blue-600 hover:underline"
+              href="https://launchpad.altcampus.school/signup?utm_source=timeline"
+            >
+              join today
+            </a>
+            , you'll become a full stack web developer by
             <span className="font-bold">
               {' '}
               {courseFinishDate.toDateString()}{' '}
