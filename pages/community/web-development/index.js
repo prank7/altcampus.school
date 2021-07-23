@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import Head from 'next/head';
 import { NextSeo } from 'next-seo';
 
-import Layout from '../../components/Layout';
-import StackedList from '../../components/StackedList';
-import Footer from '../../components/Home/Footer';
+import Layout from '../../../components/Layout';
+import StackedList from '../../../components/StackedList';
+import Footer from '../../../components/Home/Footer';
 
 class WebDevelopment extends Component {
   render() {
@@ -35,7 +35,7 @@ class WebDevelopment extends Component {
             <StackedList />
           </div>
           {/* <div className="col-span-1 w-full">
-            <div className="bg-white shadow overflow-hidden sm:rounded-md bg-white px-4 py-4">
+            <div className="bg-white shadow overflow-hidden sm:rounded-md px-4 py-4">
               <h1 className="font-semibold text-xl">Contributors</h1>
             </div>
           </div> */}
