@@ -23,11 +23,11 @@ const Handle = (props) => {
 const Slider = ({ value, min, max, step, setValue }) => {
   return (
     <RcSlider
-      dots
+      // dots
       value={value}
       min={min}
       max={max}
-      step={step}
+      // step={step}
       dotStyle={{
         marginTop: '16px',
         height: '16px',
@@ -49,21 +49,21 @@ const Slider = ({ value, min, max, step, setValue }) => {
       }}
       railStyle={{ backgroundColor: LIGHT_ROYAL_BLUE }}
       trackStyle={{ backgroundColor: DARK_ROYAL_BLUE }}
-      marks={new Array((max - min) / step + 1)
-        .fill(null)
-        .map((_, i) => min + i * step)
-        .reduce((acc, mark) => {
-          acc[mark] = {
-            label: mark,
-            style: {
-              fontSize: '1rem',
-              color: value === mark ? DARK_ROYAL_BLUE : undefined,
-              fontWeight: value === mark ? 'bold' : undefined
-            },
-            fontFamily: '"Source Sans Pro", sans-serif'
-          };
-          return acc;
-        }, {})}
+      // marks={new Array((max - min) / step + 1)
+      //   .fill(null)
+      //   .map((_, i) => min + i * step)
+      //   .reduce((acc, mark) => {
+      //     acc[mark] = {
+      //       label: mark,
+      //       style: {
+      //         fontSize: '1rem',
+      //         color: value === mark ? DARK_ROYAL_BLUE : undefined,
+      //         fontWeight: value === mark ? 'bold' : undefined
+      //       },
+      //       fontFamily: '"Source Sans Pro", sans-serif'
+      //     };
+      //     return acc;
+      //   }, {})}
       onChange={(value) => setValue(value)}
     />
   );
