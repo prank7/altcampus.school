@@ -8,13 +8,15 @@ import authors from '../../../lib/author.json';
 import { MDXRemote } from 'next-mdx-remote';
 import Image from 'next/image';
 import Link from 'next/link';
+import Topics from '../../../components/roadmap/Topics';
 
 const components = {
   a: Link,
   // It also works with dynamically-imported components, which is especially
   // useful for conditionally loading components for certain routes.
   // See the notes in README.md for more details.
-  Head
+  Head,
+  Topics
 };
 export default function Post({ postData }) {
   let authorInfo = authors[postData.author || 'altcampus'];
