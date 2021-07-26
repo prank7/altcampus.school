@@ -16,16 +16,20 @@ const getColumnCount = () => {
     return 1;
   }
 
-  const width = Window.innerWidth;
+  const width = window.innerWidth;
+  console.log(width);
   switch (true) {
-    case width < 600:
+    case width < 640:
       return 1;
 
-    case width < 768:
+    case width < 1024:
       return 2;
 
-    default:
+    case width > 1024:
       return 3;
+
+    default:
+      return 1;
   }
 };
 
@@ -38,6 +42,7 @@ function Reviews({ alumnis }) {
   var description = 'AltCampus reviews and experiences shared by our students.';
   var url = 'https://altcampus.school/reviews';
 
+  console.log(getColumnCount());
   return (
     <>
       <NextSeo
