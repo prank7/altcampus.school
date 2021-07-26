@@ -87,7 +87,11 @@ export const getStaticProps = () => {
   const data = getAllAlumnisData();
   return {
     props: {
-      alumnis: data
+      alumnis: data.filter((alumni) =>
+        alumni.experineceAtAltCampus
+          ? alumni.experineceAtAltCampus.length > 10
+          : false
+      )
     }
   };
 };
