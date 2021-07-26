@@ -371,3 +371,9 @@ code::after {
   quotes: '“' '”' '‘' '’';
 }
 @import url('prism.css');
+
+div[role='gridcell'] {
+  @apply border;
+  @apply rounded-lg;
+  @apply shadow-sm;
+}
