@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 function ReviewCard(props) {
-  console.log(props);
+  // console.log(props);
   // const imageLoader = ({ src, width, quality }) => {
   //   return src;
   // };
@@ -21,13 +21,11 @@ function ReviewCard(props) {
                 layout="fill"
                 // width={50}
                 // height={50}
-                quality={props.image[0].size / 1024 > 100 ? 75 : 90}
+                quality={props.image[0].size / 1024 > 50 ? 20 : 75}
                 className="rounded-full h-full w-full object-cover"
                 src={
-                  props.image[0].size / 1024 > 500
+                  props.image[0].thumbnails?.large?.url
                     ? props.image[0].thumbnails?.large?.url
-                      ? props.image[0].thumbnails?.large?.url
-                      : props.image[0].url
                     : props.image[0].url
                 }
                 alt={props.name}
