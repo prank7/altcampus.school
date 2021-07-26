@@ -42,12 +42,12 @@ function ReviewCard(props) {
               </h4>
             </div>
           </div>
-          <div className="review py-2 px-2">
+          <div className="review pt-2 pb-4 px-2">
             <blockquote className="experience-quote text-md font-source text-royal-blue-500 break-words italic font-semibold">
-              {props.experineceAtAltCampus
-                ? props.experineceAtAltCampus.length > 280
-                  ? props.experineceAtAltCampus.slice(0, 280) + ' ...'
-                  : props.experineceAtAltCampus
+              {props.experienceAtAltCampus
+                ? props.experienceAtAltCampus.length > 280
+                  ? props.experienceAtAltCampus.slice(0, 280) + ' ...'
+                  : props.experienceAtAltCampus
                 : null}
             </blockquote>
           </div>
