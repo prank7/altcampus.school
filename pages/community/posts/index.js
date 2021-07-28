@@ -92,8 +92,8 @@ function Cards({ posts }) {
                         <time dateTime={post.date}>
                           {dateFormatter.render(new Date(post.date))}
                         </time>
-                        {/* <span aria-hidden="true">&middot;</span> */}
-                        {/* <span>{post.readingTime} read</span> */}
+                        <span aria-hidden="true">&middot;</span>
+                        <span>{post.readingTime.text}</span>
                       </div>
                     </div>
                   </div>
@@ -109,6 +109,7 @@ function Cards({ posts }) {
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
+
   await generateSitemap();
   return {
     props: {
