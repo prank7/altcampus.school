@@ -43,7 +43,7 @@ function Cards({ posts }) {
         </div>
         <div className="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
           {posts.map((post) => (
-            <PostCard post={post} />
+            <PostCard key={post.id} post={post} />
           ))}
         </div>
       </div>

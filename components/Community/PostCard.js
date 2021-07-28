@@ -11,7 +11,7 @@ export default function PostCard({ post, related }) {
     <div
       key={post.title}
       className={`flex flex-col rounded-lg shadow-lg overflow-hidden ${
-        related && 'border-2'
+        related && 'border'
       }`}
     >
       <div className="flex-1 bg-white p-6 flex flex-col justify-between">
