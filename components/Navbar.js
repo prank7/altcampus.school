@@ -149,8 +149,8 @@ function Navbar(params) {
                   class="flex w-full md:w-auto justify-center text-xl md:text-base text-white font-bold px-12 py-4 md:px-4 md:py-1 rounded uppercase bg-green-theme-500 border border-green-theme-500 shadow-md btn-hover tracking-wide text-center"
                   href="https://launchpad.altcampus.school/signup"
                 >
-                  signup{' '}
-                  <span className="md:hidden ml-1"> for AltCampus School</span>
+                  <span className="hidden md:inline-block">signup</span>
+                  <span className="md:hidden">signup for AltCampus School</span>
                 </a>
               </Link>
             </li>
