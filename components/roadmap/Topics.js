@@ -1,6 +1,6 @@
 export default function Topics({ title, topics }) {
   return (
-    <div className="border bg-blue-100 dark:border-blue-900 bg-blue-50 dark:bg-blue-900 rounded p-6 my-4 w-full">
+    <div className="border bg-blue-100 dark:border-blue-900 dark:bg-blue-900 rounded p-6 my-4 w-full">
       <span>{title}</span>
       <div className="mt-4">
         {topics.map((topic) => (

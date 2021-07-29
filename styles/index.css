@@ -191,7 +191,6 @@ button {
 
   /* Navbar */
   .nav-menu {
-    position: absolute;
     display: none;
     position: fixed;
     left: 0;
@@ -217,6 +216,16 @@ button {
 
   .toggle:checked ~ .nav-menu {
     display: inline-block;
+  }
+  .community.nav-menu {
+    background: #ffffff;
+    position: absolute;
+    top: 0.5rem;
+    left: 1rem;
+    right: 1rem;
+    bottom: auto;
+    padding: 1.5rem;
+    text-align: left;
   }
 }
 
