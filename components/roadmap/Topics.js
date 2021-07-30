@@ -1,11 +1,17 @@
 export default function Topics({ title, topics }) {
   return (
-    <div className="border bg-blue-100 dark:border-blue-900 dark:bg-blue-900 rounded p-6 my-4 w-full">
-      <span>{title}</span>
-      <div className="mt-4">
+    <article className="bg-white p-8 rounded-md shadow-sm topic-list mb-16 mt-8">
+      <h4 className="mt-0 text-2xl text-gray-700">{title}</h4>
+      <ul className="mt-4">
         {topics.map((topic) => (
-          <div key={topic} className="flex font-medium items-baseline mb-2">
-            <div className="h-4 w-4 mr-2">
+          <li
+            key={topic}
+            className="flex font-medium my-12 list-none items-center"
+          >
+            <a
+              href="{topic.link}"
+              className="flex items-center hover:no-underline"
+            >
               <svg className="h-4 w-4 text-blue-500" viewBox="0 0 24 24">
                 <g
                   fill="none"
@@ -18,18 +24,18 @@ export default function Topics({ title, topics }) {
                   <path d="M22 4L12 14.01l-3-3" />
                 </g>
               </svg>
-            </div>
-            <a href={topic.link} className="cursor-pointer">
-              <span>{topic.text}</span>
+              <strong className="ml-4 text-lg text-gray-700 font-normal">
+                {topic.text}
+              </strong>
             </a>
             {topic.type === 'paid' && (
               <span className="inline-flex items-center px-2 ml-2 py-0.5 rounded-md text-sm font-medium bg-red-800 text-white">
                 PAID
               </span>
             )}
-          </div>
+          </li>
         ))}
-      </div>
-    </div>
+      </ul>
+    </article>
   );
 }

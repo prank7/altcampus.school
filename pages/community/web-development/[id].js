@@ -49,48 +49,64 @@ export default function Post({ postData }) {
         }}
       />
 
-      <section className="mx-8 md:mx-16 grid grid-cols-12 gap-4 post-container mb-16">
-        <div className=" col-span-12 sm:col-start-3 sm:col-span-8 md:px-6 ">
-          <h2 className="mt-16 my-4 font-bold text-indigo-700 text-4xl">
+      <main className="">
+        <header className="container mx-auto px-24 py-24">
+          <strong className="uppercase text-gray-300 font-semibold">
+            Step by step
+          </strong>
+          <h1 className="text-6xl text-royal-blue-800 mt-2 font-extrabold">
             {postData.title}
-          </h2>
+          </h1>
+          <p className="text-lg text-gray-600 mt-4">{postData.description}</p>
+        </header>
 
-          {/* <div
-            className=""
-            dangerouslySetInnerHTML={{
-              __html: postData.contentHtml
-            }}
-          > */}
-          <div className="prose">
+        <section className="prose bg-gray-100 pt-12 pb-4">
+          <article className="max-w-screen-lg mx-auto px-24">
             <MDXRemote {...postData.contentHtml} components={components} />
-          </div>
-          {/* </div> */}
-          {postData.cta ? <PostCTA ctaText={postData.ctaText} /> : null}
-          <div className="flex items-center justify-center mt-8">
-            <div>
-              <p className="text-md text-gray-800 font-semibold">Share</p>
-              <div className="flex items-center space-x-2">
-                <a
-                  className="twitter-share-button"
-                  href={`https://twitter.com/intent/tweet?text=${
-                    postData.title + ' - @AltCampus'
-                  }&url=${`https://altcampus.school/community/posts/${postData.id}`}`}
-                >
-                  <TwitterAltIcon className="h-8 w-8" />
-                  <span className="sr-only">Share to Twitter</span>
-                </a>
-                <a
-                  className="twitter-share-button"
-                  href={`https://facebook.com/sharer/sharer.php?u=${`https://altcampus.school/community/posts/${postData.id}`}`}
-                >
-                  <FacebookIcon className="h-8 w-8" />
-                  <span className="sr-only">Share to Facebook</span>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+          </article>
+        </section>
+
+        {postData.cta ? <PostCTA ctaText={postData.ctaText} /> : null}
+        <section className="flex items-center justify-center py-16">
+          <ul className="flex items-center space-x-2">
+            <li className="mx-4">
+              <a
+                className="flex border px-4 py-1 rounded-md border-royal-blue-500 items-center"
+                target="_blank"
+                style={{ color: '#40A8F5', borderColor: '#40A8F5' }}
+                href={`https://twitter.com/intent/tweet?text=${
+                  postData.title + ' - @AltCampus'
+                }&url=${`https://altcampus.school/community/posts/${postData.id}`}`}
+              >
+                <img
+                  className="h-5"
+                  src="/images/icons/tweet-share.svg"
+                  alt="Tweeter"
+                />
+                <span className="inline-block ml-2 font-semibold text-sm">
+                  Tweet
+                </span>
+              </a>
+            </li>
+            <li className="mx-4">
+              <a
+                className="flex border px-4 py-1 rounded-md border-royal-blue-500 items-center"
+                style={{ color: '#4460A0', borderColor: '#4460A0' }}
+                href={`https://facebook.com/sharer/sharer.php?u=${`https://altcampus.school/community/posts/${postData.id}`}`}
+              >
+                <img
+                  className="h-5"
+                  src="/images/icons/fb-share.svg"
+                  alt="Facebook"
+                />
+                <span className="inline-block ml-2 font-semibold text-sm">
+                  Share
+                </span>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </main>
     </Layout>
   );
 }
