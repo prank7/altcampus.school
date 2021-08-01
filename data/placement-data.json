@@ -58,85 +58,6 @@
     "companyWebsite": "https://www.bigbinary.com/"
   },
   {
-    "name": "Vivek Baruah",
-    "about": "Hi I am Vivek Baruah from Assam. I did my engineering at GIMT Guwahati. I like studying history, political philosophy, or anything non-fiction. My all-time favorite hobby is traveling the Himalayas. \n\nAfter I completed my course at AltCampus, I got my first job as a Software Engineer at BigBinary.",
-    "username": "vivekbrh01",
-    "company": "BigBinary",
-    "dateOfBirth": "1993-12-01",
-    "role": "SDE",
-    "ctc": "NA",
-    "projects": [
-      {
-        "title": "VS Code Cheatsheet",
-        "description": "Chrome extension for people who work on VS Code\nChrome extension for Visual Studio Code shortcuts especially designed for MacOS. It shows three different commands every time a new tab is opened or tab is reloaded. ",
-        "liveURL": "https://chrome.google.com/webstore/detail/vs-code-cheatsheet/olmkpmgmodifgapdnkmmjaigmmldhdhc?hl=en",
-        "code": "https://github.com/vivekbrh01/js_chrome_extension"
-      },
-      { "title": "", "description": "", "liveURL": "", "code": "" },
-      { "title": "", "description": "", "liveURL": "", "code": "" },
-      { "title": "", "description": "", "liveURL": "", "code": "" }
-    ],
-    "blogPosts": [
-      {
-        "title": "Copy-by-value Vs Copy-by-reference",
-        "description": "Copy-by-value and copy-by-reference methods have always confused budding programmers. To understand the nuanced difference between the two types of copy we need to understand what happens in the memory after we assign a value to it.",
-        "liveURL": "https://medium.com/@vivekbrh01/copy-by-value-vs-copy-by-reference-7bedcf43d9af"
-      },
-      {
-        "title": "Array methods",
-        "description": "We are now going to have a look at a few Array methods which are commonly used.",
-        "liveURL": "https://medium.com/@vivekbrh01/array-methods-921b370c04d2"
-      },
-      {
-        "title": "Type Conversions",
-        "description": "In JavaScript values are converted from one type to another. Many a times it is done by the language itself and is called implicit type conversion. However, sometimes we need to specifically tell the language to do it; it is known as explicit type conversion",
-        "liveURL": "https://medium.com/@vivekbrh01/type-conversions-51299ed9ed0b"
-      },
-      {
-        "title": "Hashing in node",
-        "description": "Hashes and salts mostly used before saving passwords in the database. This converts the plain text password into a random string. It is an irreversible conversion of strings of arbitrary length to hashed strings of fixed length.",
-        "liveURL": "https://medium.com/@vivekbrh01/hashing-in-node-bbb46cc7f886"
-      }
-    ],
-    "highestEducation": "B.E. ( ETE )",
-    "email": "vivek.baruah@hey.com",
-    "twitter": "https://twitter.com/VivekBaruah5",
-    "linkedin": "https://www.linkedin.com/in/vivekbrh01/",
-    "github": "https://github.com/vivekbrh01",
-    "image": [
-      {
-        "id": "attSEhus2stwLAwf0",
-        "width": 927,
-        "height": 856,
-        "url": "https://dl.airtable.com/.attachments/05800cead4f45a656836045cba1a38d1/6ac9aaa9/Vivek.png",
-        "filename": "Vivek.png",
-        "size": 629372,
-        "type": "image/png",
-        "thumbnails": {
-          "small": {
-            "url": "https://dl.airtable.com/.attachmentThumbnails/3ec44a4de357c7c6ee5357688dc9823c/62dfcf57",
-            "width": 39,
-            "height": 36
-          },
-          "large": {
-            "url": "https://dl.airtable.com/.attachmentThumbnails/3b6f7b2462b78a512e44915ce21044b9/d966c774",
-            "width": 554,
-            "height": 512
-          },
-          "full": {
-            "url": "https://dl.airtable.com/.attachmentThumbnails/39486afe3eaae0c2aed8f61e1e63b822/630f5330",
-            "width": 3000,
-            "height": 3000
-          }
-        }
-      }
-    ],
-    "experineceAtAltCampus": "The best thing that happened to my career was AltCampus.\nThe mentors helped us acquire coding skills along with numerous other life skills.\nOne of the projects that I made when I was at AltCampus was the chrome extension, this was no big deal for me till Ponicode mentioned it on Twitter.\nHere is the link to the Tweet: https://twitter.com/PonicodeDev/status/1359535727718109185",
-    "interviewLink": "",
-    "graduationYear": "2014-2015",
-    "companyWebsite": "https://www.bigbinary.com/"
-  },
-  {
     "name": "Harshaan Nihal Khan",
     "about": "I am Nihal from Udaipur, Currently working as Software Engineer.",
     "username": "harshaanNihal",
@@ -191,6 +112,64 @@
     ],
     "experineceAtAltCampus": " I was initially unsure about pursuing a web development altogether. However, just within a couple of weeks here, I am happy to say that all of my doubts have been proven completely wrong. Looking back, I could not think of another place that I would enjoy as much as Altcampus. My time at AltCampus was one of the best and most productive times of my life. I gained the skills, confidence, a great set of friends it is like a second home for me now.\n The best takeaway from Altcampus is to learn \"How to learn\".  \n",
     "interviewLink": "https://www.youtube.com/embed/PHWNI-cDAt4",
+    "graduationYear": "",
+    "companyWebsite": "https://www.bigbinary.com/"
+  },
+  {
+    "name": "Devika misra",
+    "about": "Just waiting to embark upon the next adventure. ",
+    "username": "devikamisra12",
+    "company": "BigBinary",
+    "dateOfBirth": "",
+    "role": "Software Engineer",
+    "ctc": "NA",
+    "projects": [
+      { "title": "", "description": "", "liveURL": "", "code": "" },
+      { "title": "", "description": "", "liveURL": "", "code": "" },
+      { "title": "", "description": "", "liveURL": "", "code": "" },
+      { "title": "", "description": "", "liveURL": "", "code": "" }
+    ],
+    "blogPosts": [
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" }
+    ],
+    "highestEducation": "Humanities ( History Hons.)m Shaheed Bhagat Singh College, Delhi University",
+    "email": "devikamisra12@gmail.com",
+    "twitter": "https://twitter.com/devika_misra",
+    "linkedin": "https://www.linkedin.com/in/devika-misra",
+    "github": "https://github.com/devikamisra12",
+    "image": [
+      {
+        "id": "attUXFOE9e7hy0TJe",
+        "width": 830,
+        "height": 826,
+        "url": "https://dl.airtable.com/.attachments/b4a964ad0d9d2724a09e826f1037063c/0340969f/Devika.jpg",
+        "filename": "Devika.jpg",
+        "size": 42370,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/47f6d526565154a2e7096c912128553b/c0f3f739",
+            "width": 36,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/ad6d802146364fedeae24d9c4246d9b0/2a1813bd",
+            "width": 514,
+            "height": 512
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/72a43b512d3e6278ffbc38fd64603cee/a1c4da5b",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
+    "experineceAtAltCampus": "Sometime back I had challenged myself with something which was a far, far, far-fetched idea, farther than going to Mars ;), of actually exploring this faint idea I had about something termed as coding,  It is Altcampus that made it a reality!",
+    "interviewLink": "",
     "graduationYear": "",
     "companyWebsite": "https://www.bigbinary.com/"
   },
@@ -326,6 +305,64 @@
     "companyWebsite": "https://www.bigbinary.com/"
   },
   {
+    "name": "Komal Raj",
+    "about": "I'm a Software Engineer with 2 years experience, currently working at KheloMore Sports Private Limited. I'm basically from MuzaffarPur Bihar so did my graduation from there as well. ",
+    "username": "komlraj",
+    "company": "KheloMore Sports Private Limited Mumbai",
+    "dateOfBirth": "",
+    "role": "Software Engineer",
+    "ctc": "10 LPA",
+    "projects": [
+      { "title": "", "description": "", "liveURL": "", "code": "" },
+      { "title": "", "description": "", "liveURL": "", "code": "" },
+      { "title": "", "description": "", "liveURL": "", "code": "" },
+      { "title": "", "description": "", "liveURL": "", "code": "" }
+    ],
+    "blogPosts": [
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" }
+    ],
+    "highestEducation": "Bachelor of Computer Applications, BRABU Muzaffarpur.",
+    "email": "kmlraj131996@gmail.com",
+    "twitter": "https://twitter.com/_kmlraj",
+    "linkedin": "https://www.linkedin.com/in/komlraj/",
+    "github": "https://github.com/komlraj",
+    "image": [
+      {
+        "id": "attLrSHoMYBu6ecdA",
+        "width": 400,
+        "height": 400,
+        "url": "https://dl.airtable.com/.attachments/39d434bb243b9eaf97fbd803532ef291/89b6db60/Komal-Raj.jpg",
+        "filename": "Komal-Raj.jpg",
+        "size": 32652,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/5e764874de0ad7fcd3f84550cca4eb41/6b794fd3",
+            "width": 36,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/c1d3ce8cd2fdf5560402062bb3fb925b/baad20d4",
+            "width": 400,
+            "height": 400
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/877169fae44c7aaca0e7951102e6975e/f110c5a6",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
+    "experineceAtAltCampus": "I feel proud to be a first batch, When I look back at my time in AltCampus then I feel that was a great experience.\nAltCampus provided me a platform to realize my potential, to make a module approach with keen focus on learning and a strong collaboration.\nAll mentors were outstanding & gave me the best guidance possible. I am overwhelmed by being an Alumni of AltCampus for whatever & wherever I am today.",
+    "interviewLink": "https://www.youtube.com/embed/L9-mwYMGR84",
+    "graduationYear": "2017",
+    "companyWebsite": "https://www.khelomore.com/"
+  },
+  {
     "name": "Deepak Sharma",
     "about": "Hi! I am Deepak Sharma, I don't have a college degree, I have completed an education that is equivalent to Intermediate. But because of the skills that I learned at AltCampus, currently, I am working as a Software Engineer at Credilio with a good package.",
     "username": "dasjideepak",
@@ -387,6 +424,85 @@
     "interviewLink": "",
     "graduationYear": "2018-2019",
     "companyWebsite": "https://www.credilio.in/"
+  },
+  {
+    "name": "Vivek Baruah",
+    "about": "Hi I am Vivek Baruah from Assam. I did my engineering at GIMT Guwahati. I like studying history, political philosophy, or anything non-fiction. My all-time favorite hobby is traveling the Himalayas. \n\nAfter I completed my course at AltCampus, I got my first job as a Software Engineer at BigBinary.",
+    "username": "vivekbrh01",
+    "company": "BigBinary",
+    "dateOfBirth": "1993-12-01",
+    "role": "SDE",
+    "ctc": "NA",
+    "projects": [
+      {
+        "title": "VS Code Cheatsheet",
+        "description": "Chrome extension for people who work on VS Code\nChrome extension for Visual Studio Code shortcuts especially designed for MacOS. It shows three different commands every time a new tab is opened or tab is reloaded. ",
+        "liveURL": "https://chrome.google.com/webstore/detail/vs-code-cheatsheet/olmkpmgmodifgapdnkmmjaigmmldhdhc?hl=en",
+        "code": "https://github.com/vivekbrh01/js_chrome_extension"
+      },
+      { "title": "", "description": "", "liveURL": "", "code": "" },
+      { "title": "", "description": "", "liveURL": "", "code": "" },
+      { "title": "", "description": "", "liveURL": "", "code": "" }
+    ],
+    "blogPosts": [
+      {
+        "title": "Copy-by-value Vs Copy-by-reference",
+        "description": "Copy-by-value and copy-by-reference methods have always confused budding programmers. To understand the nuanced difference between the two types of copy we need to understand what happens in the memory after we assign a value to it.",
+        "liveURL": "https://medium.com/@vivekbrh01/copy-by-value-vs-copy-by-reference-7bedcf43d9af"
+      },
+      {
+        "title": "Array methods",
+        "description": "We are now going to have a look at a few Array methods which are commonly used.",
+        "liveURL": "https://medium.com/@vivekbrh01/array-methods-921b370c04d2"
+      },
+      {
+        "title": "Type Conversions",
+        "description": "In JavaScript values are converted from one type to another. Many a times it is done by the language itself and is called implicit type conversion. However, sometimes we need to specifically tell the language to do it; it is known as explicit type conversion",
+        "liveURL": "https://medium.com/@vivekbrh01/type-conversions-51299ed9ed0b"
+      },
+      {
+        "title": "Hashing in node",
+        "description": "Hashes and salts mostly used before saving passwords in the database. This converts the plain text password into a random string. It is an irreversible conversion of strings of arbitrary length to hashed strings of fixed length.",
+        "liveURL": "https://medium.com/@vivekbrh01/hashing-in-node-bbb46cc7f886"
+      }
+    ],
+    "highestEducation": "B.E. ( ETE )",
+    "email": "vivek.baruah@hey.com",
+    "twitter": "https://twitter.com/VivekBaruah5",
+    "linkedin": "https://www.linkedin.com/in/vivekbrh01/",
+    "github": "https://github.com/vivekbrh01",
+    "image": [
+      {
+        "id": "attSEhus2stwLAwf0",
+        "width": 927,
+        "height": 856,
+        "url": "https://dl.airtable.com/.attachments/05800cead4f45a656836045cba1a38d1/6ac9aaa9/Vivek.png",
+        "filename": "Vivek.png",
+        "size": 629372,
+        "type": "image/png",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/3ec44a4de357c7c6ee5357688dc9823c/62dfcf57",
+            "width": 39,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/3b6f7b2462b78a512e44915ce21044b9/d966c774",
+            "width": 554,
+            "height": 512
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/39486afe3eaae0c2aed8f61e1e63b822/630f5330",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
+    "experineceAtAltCampus": "The best thing that happened to my career was AltCampus.\nThe mentors helped us acquire coding skills along with numerous other life skills.\nOne of the projects that I made when I was at AltCampus was the chrome extension, this was no big deal for me till Ponicode mentioned it on Twitter.\nHere is the link to the Tweet: https://twitter.com/PonicodeDev/status/1359535727718109185",
+    "interviewLink": "",
+    "graduationYear": "2014-2015",
+    "companyWebsite": "https://www.bigbinary.com/"
   },
   {
     "name": "Koushik Shetty",
@@ -1423,64 +1539,6 @@
     "companyWebsite": "https://www.bigbinary.com/"
   },
   {
-    "name": "Devika misra",
-    "about": "Just waiting to embark upon the next adventure. ",
-    "username": "devikamisra12",
-    "company": "BigBinary",
-    "dateOfBirth": "",
-    "role": "Software Engineer",
-    "ctc": "NA",
-    "projects": [
-      { "title": "", "description": "", "liveURL": "", "code": "" },
-      { "title": "", "description": "", "liveURL": "", "code": "" },
-      { "title": "", "description": "", "liveURL": "", "code": "" },
-      { "title": "", "description": "", "liveURL": "", "code": "" }
-    ],
-    "blogPosts": [
-      { "title": "", "description": "", "liveURL": "" },
-      { "title": "", "description": "", "liveURL": "" },
-      { "title": "", "description": "", "liveURL": "" },
-      { "title": "", "description": "", "liveURL": "" }
-    ],
-    "highestEducation": "Humanities ( History Hons.)m Shaheed Bhagat Singh College, Delhi University",
-    "email": "devikamisra12@gmail.com",
-    "twitter": "https://twitter.com/devika_misra",
-    "linkedin": "https://www.linkedin.com/in/devika-misra",
-    "github": "https://github.com/devikamisra12",
-    "image": [
-      {
-        "id": "attUXFOE9e7hy0TJe",
-        "width": 830,
-        "height": 826,
-        "url": "https://dl.airtable.com/.attachments/b4a964ad0d9d2724a09e826f1037063c/0340969f/Devika.jpg",
-        "filename": "Devika.jpg",
-        "size": 42370,
-        "type": "image/jpeg",
-        "thumbnails": {
-          "small": {
-            "url": "https://dl.airtable.com/.attachmentThumbnails/47f6d526565154a2e7096c912128553b/c0f3f739",
-            "width": 36,
-            "height": 36
-          },
-          "large": {
-            "url": "https://dl.airtable.com/.attachmentThumbnails/ad6d802146364fedeae24d9c4246d9b0/2a1813bd",
-            "width": 514,
-            "height": 512
-          },
-          "full": {
-            "url": "https://dl.airtable.com/.attachmentThumbnails/72a43b512d3e6278ffbc38fd64603cee/a1c4da5b",
-            "width": 3000,
-            "height": 3000
-          }
-        }
-      }
-    ],
-    "experineceAtAltCampus": "Sometime back I had challenged myself with something which was a far, far, far-fetched idea, farther than going to Mars ;), of actually exploring this faint idea I had about something termed as coding,  It is Altcampus that made it a reality!",
-    "interviewLink": "",
-    "graduationYear": "",
-    "companyWebsite": "https://www.bigbinary.com/"
-  },
-  {
     "name": "Ayushman Supratim Parasar",
     "about": "In short I am a person who loves to \n- travel.\n- learn new things.\n- make new friends.\n- live life to fullest.",
     "username": "ayushman-parasar",
@@ -1731,64 +1789,6 @@
     "interviewLink": "",
     "graduationYear": "2018",
     "companyWebsite": "https://www.vegrow.in/"
-  },
-  {
-    "name": "Komal Raj",
-    "about": "I'm a Software Engineer with 2 years experience, currently working at KheloMore Sports Private Limited. I'm basically from MuzaffarPur Bihar so did my graduation from there as well. ",
-    "username": "komlraj",
-    "company": "KheloMore Sports Private Limited Mumbai",
-    "dateOfBirth": "",
-    "role": "Software Engineer",
-    "ctc": "10 LPA",
-    "projects": [
-      { "title": "", "description": "", "liveURL": "", "code": "" },
-      { "title": "", "description": "", "liveURL": "", "code": "" },
-      { "title": "", "description": "", "liveURL": "", "code": "" },
-      { "title": "", "description": "", "liveURL": "", "code": "" }
-    ],
-    "blogPosts": [
-      { "title": "", "description": "", "liveURL": "" },
-      { "title": "", "description": "", "liveURL": "" },
-      { "title": "", "description": "", "liveURL": "" },
-      { "title": "", "description": "", "liveURL": "" }
-    ],
-    "highestEducation": "Bachelor of Computer Applications, BRABU Muzaffarpur.",
-    "email": "kmlraj131996@gmail.com",
-    "twitter": "https://twitter.com/_kmlraj",
-    "linkedin": "https://www.linkedin.com/in/komlraj/",
-    "github": "https://github.com/komlraj",
-    "image": [
-      {
-        "id": "attLrSHoMYBu6ecdA",
-        "width": 400,
-        "height": 400,
-        "url": "https://dl.airtable.com/.attachments/39d434bb243b9eaf97fbd803532ef291/89b6db60/Komal-Raj.jpg",
-        "filename": "Komal-Raj.jpg",
-        "size": 32652,
-        "type": "image/jpeg",
-        "thumbnails": {
-          "small": {
-            "url": "https://dl.airtable.com/.attachmentThumbnails/5e764874de0ad7fcd3f84550cca4eb41/6b794fd3",
-            "width": 36,
-            "height": 36
-          },
-          "large": {
-            "url": "https://dl.airtable.com/.attachmentThumbnails/c1d3ce8cd2fdf5560402062bb3fb925b/baad20d4",
-            "width": 400,
-            "height": 400
-          },
-          "full": {
-            "url": "https://dl.airtable.com/.attachmentThumbnails/877169fae44c7aaca0e7951102e6975e/f110c5a6",
-            "width": 3000,
-            "height": 3000
-          }
-        }
-      }
-    ],
-    "experineceAtAltCampus": "I feel proud to be a first batch, When I look back at my time in AltCampus then I feel that was a great experience.\nAltCampus provided me a platform to realize my potential, to make a module approach with keen focus on learning and a strong collaboration.\nAll mentors were outstanding & gave me the best guidance possible. I am overwhelmed by being an Alumni of AltCampus for whatever & wherever I am today.",
-    "interviewLink": "https://www.youtube.com/embed/L9-mwYMGR84",
-    "graduationYear": "2017",
-    "companyWebsite": "https://www.khelomore.com/"
   },
   {
     "name": "Ashik Raj",
