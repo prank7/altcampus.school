@@ -2246,64 +2246,6 @@
     "companyWebsite": "https://www.bigbinary.com"
   },
   {
-    "name": "Ankireddy Naveen",
-    "about": "I'm Naveen from Andhrapradesh,I'm passionate about doing anything that helpful for my happiness and peace.",
-    "username": "naveenankireddy",
-    "company": "Nowhere",
-    "dateOfBirth": "",
-    "role": "Front-End developer",
-    "ctc": "NA",
-    "projects": [
-      { "title": "", "description": "", "liveURL": "", "code": "" },
-      { "title": "", "description": "", "liveURL": "", "code": "" },
-      { "title": "", "description": "", "liveURL": "", "code": "" },
-      { "title": "", "description": "", "liveURL": "", "code": "" }
-    ],
-    "blogPosts": [
-      { "title": "", "description": "", "liveURL": "" },
-      { "title": "", "description": "", "liveURL": "" },
-      { "title": "", "description": "", "liveURL": "" },
-      { "title": "", "description": "", "liveURL": "" }
-    ],
-    "highestEducation": "",
-    "email": "naveenkumarreddyankireddy@gmail.com",
-    "twitter": "https://twitter.com/AnkireddyNaveen",
-    "linkedin": "https://www.linkedin.com/in/naveen-reddy-73a842217",
-    "github": "https://github.com/naveenankireddy",
-    "image": [
-      {
-        "id": "attemzO4m2tmfNLTV",
-        "width": 660,
-        "height": 760,
-        "url": "https://dl.airtable.com/.attachments/7d3544619d3641c980adf44ff2a88ae8/7dd53168/Naveen.png",
-        "filename": "Naveen.png",
-        "size": 512845,
-        "type": "image/png",
-        "thumbnails": {
-          "small": {
-            "url": "https://dl.airtable.com/.attachmentThumbnails/e169373d1266d52f8d094b564bb448ae/ebb91e69",
-            "width": 31,
-            "height": 36
-          },
-          "large": {
-            "url": "https://dl.airtable.com/.attachmentThumbnails/cff2de733a082233e071adf3d9aabe9d/8109ee8d",
-            "width": 512,
-            "height": 590
-          },
-          "full": {
-            "url": "https://dl.airtable.com/.attachmentThumbnails/09753bf221e30eab1ae6f3767d764e4f/fd6568eb",
-            "width": 3000,
-            "height": 3000
-          }
-        }
-      }
-    ],
-    "experineceAtAltCampus": "AltCampus plays a major role in my life, AltCampus taught me how to code,Altcampus taught me how to express, Altcampus gave me a lot of best friends, Altcampus encourage me when I was in trouble, Altcampus helped me when I was in problems , Altcampus console me when I was In sad, Altcampus gave me a job , Altcampus teach me  that my 22 years previous experience can't give, I'm not successful right now but the vision to focus and achieve given by Altcampus is in my bag ,One day I can achieve what I can , AltCampus taught me how to speak Hindi and English also.\nThank you Prashath Bhaiya to opened the gates let me in to AltCampus.\nLove you AltCampus .... forever!",
-    "interviewLink": "",
-    "graduationYear": "",
-    "companyWebsite": ""
-  },
-  {
     "name": "Sanjib Roy",
     "about": "I am a software engineer, who loves coding, writing poems, reciting poems, learning new stuff, photography and teaching. Besides Computer Science, my favorite subjects are History, Physics, Mathematics, and Personal finance. At last, I want to say that as Gustave Flaubert said I also believe that if one always looked at the skies, one would end up with wings.",
     "username": "sanjibroy360",
