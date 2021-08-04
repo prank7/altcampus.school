@@ -1,17 +1,14 @@
 export default function Topics({ title, topics }) {
   return (
-    <article className="bg-white p-8 rounded-md shadow-sm topic-list mb-16 mt-8">
-      <h4 className="mt-0 text-2xl text-gray-700">{title}</h4>
+    <article className="bg-gray-100 p-8 rounded-md shadow-sm topic-list mb-16 mt-8">
+      <h3 className="mt-0 text-3xl text-gray-700">{title}</h3>
       <ul className="mt-4">
         {topics.map((topic) => (
           <li
             key={topic}
             className="flex font-medium my-12 list-none items-center"
           >
-            <a
-              href="{topic.link}"
-              className="flex items-center hover:no-underline"
-            >
+            <a href={topic.link} target="_blank" className="flex items-center">
               <svg className="h-4 w-4 text-blue-500" viewBox="0 0 24 24">
                 <g
                   fill="none"
@@ -24,7 +21,7 @@ export default function Topics({ title, topics }) {
                   <path d="M22 4L12 14.01l-3-3" />
                 </g>
               </svg>
-              <strong className="ml-4 text-lg text-gray-700 font-normal">
+              <strong className="ml-4 text-xl text-gray-700 font-normal underline hover:no-underline">
                 {topic.text}
               </strong>
             </a>

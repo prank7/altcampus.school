@@ -50,28 +50,31 @@ export default function Post({ postData }) {
       />
 
       <main className="">
-        <header className="container mx-auto px-24 py-24">
-          <strong className="uppercase text-gray-300 font-semibold">
-            Step by step
-          </strong>
-          <h1 className="text-6xl text-royal-blue-800 mt-2 font-extrabold">
-            {postData.title}
-          </h1>
-          <p className="text-lg text-gray-600 mt-4">{postData.description}</p>
+        <header className="bg-gray-100 py-24">
+          <div className="container container mx-auto px-24">
+            <strong className="uppercase text-gray-400 font-semibold">
+              Step by step
+            </strong>
+            <h1 className="text-5xl text-royal-blue-800 mt-2 font-extrabold max-w-screen-md">
+              {postData.title}
+            </h1>
+            <p className="text-lg text-gray-500 mt-4 max-w-screen-md">
+              {postData.description}
+            </p>
+          </div>
         </header>
 
-        <section className="prose bg-gray-100 pt-12 pb-4">
+        <section className="prose bg-white pt-12 pb-4">
           <article className="max-w-screen-lg mx-auto px-24">
             <MDXRemote {...postData.contentHtml} components={components} />
           </article>
         </section>
 
-        {postData.cta ? <PostCTA ctaText={postData.ctaText} /> : null}
-        <section className="flex items-center justify-center py-16">
+        <section className="flex items-center justify-center pb-16">
           <ul className="flex items-center space-x-2">
             <li className="mx-4">
               <a
-                className="flex border px-4 py-1 rounded-md border-royal-blue-500 items-center"
+                className="flex border px-4 py-1 rounded-md border-royal-blue-500 items-center btn-hover"
                 target="_blank"
                 style={{ color: '#40A8F5', borderColor: '#40A8F5' }}
                 href={`https://twitter.com/intent/tweet?text=${
@@ -90,7 +93,7 @@ export default function Post({ postData }) {
             </li>
             <li className="mx-4">
               <a
-                className="flex border px-4 py-1 rounded-md border-royal-blue-500 items-center"
+                className="flex border px-4 py-1 rounded-md border-royal-blue-500 items-center btn-hover"
                 style={{ color: '#4460A0', borderColor: '#4460A0' }}
                 href={`https://facebook.com/sharer/sharer.php?u=${`https://altcampus.school/community/posts/${postData.id}`}`}
               >
@@ -106,6 +109,7 @@ export default function Post({ postData }) {
             </li>
           </ul>
         </section>
+        {postData.cta ? <PostCTA ctaText={postData.ctaText} /> : null}
       </main>
     </Layout>
   );

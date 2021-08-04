@@ -298,7 +298,7 @@ button {
 }
 .prose p {
   font-size: 1.2rem;
-  color: rgb(27, 31, 35);
+  color: rgb(84 90 97);
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
@@ -346,11 +346,23 @@ code::after {
   content: '';
 }
 
-.prose .topic-list h4{
+.prose .topic-list h3{
   margin-top: 0;
+  font-size: 1.5rem;
+  color: rgba(46, 51, 103,1);
 }
 .prose .topic-list li{
   margin: 1rem 0;
+}
+.prose .topic-list ul:last-child, .prose .topic-list li:last-child{
+  margin-bottom: 0;
+}
+.prose .topic-list li a{
+  text-decoration: none;
+}
+
+.prose .topic-list li strong{
+  font-weight: 400;
 }
 
 /* Alumini Profile */
