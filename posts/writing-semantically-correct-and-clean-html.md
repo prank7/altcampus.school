@@ -60,10 +60,10 @@ that you wish existed.</p></strong>
 **Good:**
 
 ```html
-<p class="intro">
+<p className="intro">
   <strong>AltCampus, the alternative to college that you wish existed.</strong>.
 </p>
-<p class="intro">
+<p className="intro">
   A 6-month program that helps you become a software developer.
 </p>
 ```
@@ -156,7 +156,7 @@ For e.g. an important line should not be wrapped in `<span>` tag but in any of t
 **Bad:**
 
 ```html
-<span class="heading"><strong>AltCampus</span></strong>
+<span className="heading"><strong>AltCampus</span></strong>
 <br><br>
 The Alternative to College That You Wish Existed
 <br><br>
@@ -204,9 +204,9 @@ We often overuse divs, to style the elements. It works for styling purposes but 
 **Bad:**
 
 ```html
-<div class="container">
-  <div class="article">
-    <div class="headline">Headlines Across the World</div>
+<div className="container">
+  <div className="article">
+    <div className="headline">Headlines Across the World</div>
   </div>
 </div>
 ```
@@ -214,7 +214,7 @@ We often overuse divs, to style the elements. It works for styling purposes but 
 **Good:**
 
 ```html
-<section class="container">
+<section className="container">
   <article>
     <h1>Headlines Across the World</h1>
   </article>
@@ -273,7 +273,7 @@ Using external stylesheet gives us the option to reuse our code. Also, we can st
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <p class="greeting">Hello, how are you?</p>
+    <p className="greeting">Hello, how are you?</p>
   </body>
 </html>
 ```
@@ -304,13 +304,13 @@ Choosing good class and id names requires a skill that comes with experiences. O
 **Bad:**
 
 ```html
-<p class="red">Error! please try again.</p>
+<p className="red">Error! please try again.</p>
 ```
 
 **Good:**
 
 ```html
-<p class="error">Error! please try again.</p>
+<p className="error">Error! please try again.</p>
 ```
 
 ### 12. Use Proper White Spaces
@@ -322,7 +322,7 @@ Many people especially beginners write messed up codes without using whitespaces
 ```
 <body>
 <h1>List</h1>
-<ul class=" list "><li>Item 1</li><li>Item 2</li><li>Item 3</li><li>Item 4</li><li>Item 5</li></ul>
+<ul className=" list "><li>Item 1</li><li>Item 2</li><li>Item 3</li><li>Item 4</li><li>Item 5</li></ul>
 </body>
 ```
 
@@ -331,7 +331,7 @@ Many people especially beginners write messed up codes without using whitespaces
 ```html
 <body>
   <h1>List</h1>
-  <ul class="list">
+  <ul className="list">
     <li>Item 1</li>
     <li>Item 2</li>
     <li>Item 3</li>

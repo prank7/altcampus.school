@@ -34,9 +34,9 @@ This is the default value. Any element that is positioned static, is in its norm
 The position of the element depends on the flow of the document. However, relatively positioned elements will accept any values for the properties, top, right, bottom, and left as well as any z-index declarations.
 
 ```html
-<div class="box"><h2>Static</h2></div>
-<div class="box" id="position"><h2>relative</h2></div>
-<div class="box"><h2>Static</h2></div>
+<div className="box"><h2>Static</h2></div>
+<div className="box" id="position"><h2>relative</h2></div>
+<div className="box"><h2>Static</h2></div>
 ```
 
 ```css
@@ -66,10 +66,10 @@ Here, the box will move 30 pixels from left and 30px from top from its original 
 Absolutely positioned elements are removed from the normal document flow and lose their original position. The element next to it takes the position of that element. As far as the elements around them are concerned, the absolutely positioned element doesn’t exist. To position an element absolutely, we need to make the parent element of that particular element positioned relatively or it will be positioned with reference to window viewport.
 
 ```html
-<div class="box"><h2>Static</h2></div>
-<div class="box"><h2>Static</h2></div>
-<div class="box"><h2>Static</h2></div>
-<div class="box" id="position"><h2>absolute</h2></div>
+<div className="box"><h2>Static</h2></div>
+<div className="box"><h2>Static</h2></div>
+<div className="box"><h2>Static</h2></div>
+<div className="box" id="position"><h2>absolute</h2></div>
 ```
 
 ```css
@@ -99,7 +99,7 @@ h2 {
 Similar to `absolute` positioning, fixed positioned elements are removed from the normal document flow. Unlike the absolutely positioned element, a fixed positioned element always works with reference to the window viewport and does not move along with the content as we scroll the page.
 
 ```html
-<div class="container">
+<div className="container">
   <p>Lorem, ipsum dolor sit amet ....</p>
   <div id="one"><h2>fixed</h2></div>
 </div>
@@ -133,9 +133,9 @@ h2 {
 Sticky is similar to relative positioning, but it doesn’t remove an element from the normal document flow. Sticky positioning is a hybrid of relative and fixed positioning. The element is treated as relative positioned until it crosses a specified threshold, at which point it is treated as fixed positioned.
 
 ```html
-<div class="container">
+<div className="container">
   <p>Lorem ipsum dolor sit amet....</p>
-  <div class="box">
+  <div className="box">
     I will stick to the screen when you reach my scroll position
   </div>
   <p>Lorem ipsum dolor sit amet....</p>

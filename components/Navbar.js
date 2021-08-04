@@ -16,7 +16,7 @@ function Navbar(params) {
           </Link>
           <Link href="/community">
             <a
-              class="text-dark-blue-400 hover:text-dark-blue-700 text-xl ml-2 mt-1"
+              className="text-dark-blue-400 hover:text-dark-blue-700 text-xl ml-2 mt-1"
               href="/community"
             >
               Community
@@ -42,7 +42,7 @@ function Navbar(params) {
         <div className="community nav-menu shadow-md md:shadow-none rounded-md p-8 md:p-0">
           <label htmlFor="toggle" className="close-menu hidden">
             <svg
-              class="h-8 w-8"
+              className="h-8 w-8"
               fill="none"
               viewBox="0 0 24 24"
               stroke="#a2b7ce"
@@ -67,7 +67,7 @@ function Navbar(params) {
               <Link href="/">
                 <a
                   href="/"
-                  class="text-gray-700 text-base hover:text-gray-900 transition ease-in-out duration-150"
+                  className="text-gray-700 text-base hover:text-gray-900 transition ease-in-out duration-150"
                 >
                   Program
                 </a>
@@ -77,10 +77,10 @@ function Navbar(params) {
               <Link href="/community/web-development">
                 <a
                   href="/community/web-development"
-                  class="inline-flex items-center text-gray-700 text-base hover:text-gray-900 transition ease-in-out duration-150"
+                  className="inline-flex items-center text-gray-700 text-base hover:text-gray-900 transition ease-in-out duration-150"
                 >
                   <img
-                    class="h-6 w-6 text-green-theme-600 md:hidden mr-3"
+                    className="h-6 w-6 text-green-theme-600 md:hidden mr-3"
                     src="/images/icons/roadmap.svg"
                   />
                   Roadmap
@@ -91,10 +91,10 @@ function Navbar(params) {
               <Link href="/placements">
                 <a
                   href="/placements"
-                  class="inline-flex items-center text-gray-700 text-base hover:text-gray-900 transition ease-in-out duration-150"
+                  className="inline-flex items-center text-gray-700 text-base hover:text-gray-900 transition ease-in-out duration-150"
                 >
                   <img
-                    class="h-6 w-6 text-green-theme-600 md:hidden mr-3"
+                    className="h-6 w-6 text-green-theme-600 md:hidden mr-3"
                     src="/images/icons/roadmap.svg"
                   />
                   Placements
@@ -105,10 +105,10 @@ function Navbar(params) {
               <Link href="/community/posts">
                 <a
                   href="/community/posts"
-                  class="inline-flex items-center text-gray-700 text-base hover:text-gray-900 transition ease-in-out duration-150"
+                  className="inline-flex items-center text-gray-700 text-base hover:text-gray-900 transition ease-in-out duration-150"
                 >
                   <img
-                    class="flex-shrink-0 h-6 w-6 text-green-theme-600 md:hidden mr-3"
+                    className="flex-shrink-0 h-6 w-6 text-green-theme-600 md:hidden mr-3"
                     src="/images/icons/tutorials.svg"
                   />
                   Posts
@@ -119,10 +119,10 @@ function Navbar(params) {
               <Link href="/community/stories">
                 <a
                   href="/community/stories"
-                  class="inline-flex items-center text-gray-700 text-base hover:text-gray-900 transition ease-in-out duration-150"
+                  className="inline-flex items-center text-gray-700 text-base hover:text-gray-900 transition ease-in-out duration-150"
                 >
                   <img
-                    class="flex-shrink-0 h-6 w-6 text-green-theme-600 md:hidden mr-3"
+                    className="flex-shrink-0 h-6 w-6 text-green-theme-600 md:hidden mr-3"
                     src="/images/icons/stories.svg"
                   />
                   Stories
@@ -132,13 +132,13 @@ function Navbar(params) {
             <li className="grid grid-cols-2 row-gap-4 col-gap-8 border-t-2 border-dark-blue-100 md:hidden mt-8 py-8">
               <a
                 href="/how-it-works"
-                class="text-base leading-6 font-medium text-gray-900 hover:text-gray-700 transition ease-in-out duration-150"
+                className="text-base leading-6 font-medium text-gray-900 hover:text-gray-700 transition ease-in-out duration-150"
               >
                 How it works
               </a>
               <a
                 href="/pricing"
-                class="text-base leading-6 font-medium text-gray-900 hover:text-gray-700 transition ease-in-out duration-150"
+                className="text-base leading-6 font-medium text-gray-900 hover:text-gray-700 transition ease-in-out duration-150"
               >
                 Pricing
               </a>
@@ -146,7 +146,7 @@ function Navbar(params) {
             <li className="mt-4 md:mt-0 md:ml-8">
               <Link href="https://launchpad.altcampus.school/signup">
                 <a
-                  class="flex w-full md:w-auto justify-center text-xl md:text-base text-white font-bold px-12 py-4 md:px-4 md:py-1 rounded uppercase bg-green-theme-500 border border-green-theme-500 shadow-md btn-hover tracking-wide text-center"
+                  className="flex w-full md:w-auto justify-center text-xl md:text-base text-white font-bold px-12 py-4 md:px-4 md:py-1 rounded uppercase bg-green-theme-500 border border-green-theme-500 shadow-md btn-hover tracking-wide text-center"
                   href="https://launchpad.altcampus.school/signup"
                 >
                   <span className="hidden md:inline-block">signup</span>
@@ -158,7 +158,7 @@ function Navbar(params) {
               <Link href="/community/join">
                 <a
                   href="/community/join"
-                  class="whitespace-no-wrap inline-flex items-center justify-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 border-indigo-600 hover:text-white hover:bg-indigo-500 focus:outline-none transition ease-in-out duration-150"
+                  className="whitespace-no-wrap inline-flex items-center justify-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 border-indigo-600 hover:text-white hover:bg-indigo-500 focus:outline-none transition ease-in-out duration-150"
                 >
                   Join the Community
                 </a>
@@ -171,7 +171,7 @@ function Navbar(params) {
               <Link href="/community/join">
                 <a
                   href="https://launchpad.altcampus.school/login"
-                  class="pl-2 text-green-theme-600 hover:text-green-theme-500 transition ease-in-out duration-150"
+                  className="pl-2 text-green-theme-600 hover:text-green-theme-500 transition ease-in-out duration-150"
                 >
                   Sign in
                 </a>
