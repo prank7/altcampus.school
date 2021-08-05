@@ -27,10 +27,13 @@ export default function Topics({ title, topics }) {
 }
 function Free({ topic }) {
   return (
-    <li key={topic} className="flex font-medium my-12 list-none items-center">
+    <li
+      key={topic}
+      className="flex font-medium my-12 list-none items-center underline hover:no-underline"
+    >
       <a
-        href="{topic.link}"
-        className="flex items-center hover:no-underline"
+        href={topic.link}
+        className="flex items-center"
         target="_blank"
         rel="noreferrer noopener"
       >
