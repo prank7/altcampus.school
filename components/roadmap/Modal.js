@@ -1,6 +1,7 @@
 import { Fragment, useContext, useEffect, useRef, useState } from 'react';
 import ReactDOM from 'react-dom';
 import { Dialog, Transition } from '@headlessui/react';
+import { ExternalLinkIcon } from '@heroicons/react/solid';
 import { ModalContext } from '../../pages/community/web-development/[id]';
 
 export default function Modal() {
@@ -57,49 +58,28 @@ export default function Modal() {
             leaveTo="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
           >
             <div className="inline-block align-bottom bg-white rounded-lg px-4 pt-5 pb-4 text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full sm:p-6">
-              <div>
-                <div className="mx-auto flex items-center justify-center w-32">
-                  <img src="/assets/media/logo.png" alt="AltCampus Logo" />
-                </div>
-                <div className="my-3 text-center sm:mt-5">
-                  <Dialog.Title
-                    as="h3"
-                    className="text-2xl leading-6 text-gray-900 py-6 font-extrabold"
+              <div className="bg-royal-blue-700">
+                <div className="max-w-2xl mx-auto text-center py-16 px-4 sm:py-20 sm:px-6 lg:px-8">
+                  <h2 className="text-3xl font-extrabold text-white sm:text-4xl">
+                    <span className="block">This content is Paid!</span>
+                  </h2>
+                  <p className="mt-4 text-lg leading-6 text-royal-blue-200">
+                    With AltCampus you will get access to the materials to learn
+                    and to practice to hone your skill.
+                  </p>
+                  <a
+                    href="http://try.altcampus.school/"
+                    rel="noreferrer noopener"
+                    target="_blank"
+                    className="mt-8 w-full inline-flex items-center justify-center px-5 py-3 border border-transparent text-base uppercase font-extrabold rounded-md text-royal-blue-600 bg-white hover:bg-royal-blue-50 sm:w-auto"
                   >
-                    This is a Premium Content
-                  </Dialog.Title>
-                  <div className="mt-2">
-                    <p className="text-md text-gray-500">
-                      You need to signup to access this content. After signing
-                      up you will get access to all the learning and practice
-                      materials that will halp you become a full stack web
-                      developer. Click on "Sign Up Now" button to get started.
-                    </p>
-                  </div>
+                    Sign up for free
+                    <ExternalLinkIcon
+                      className="ml-3 h-5 w-5 flex-shrink-0 text-gray-400"
+                      aria-hidden="true"
+                    />
+                  </a>
                 </div>
-              </div>
-              <div className="mt-5 sm:mt-6 sm:grid sm:grid-cols-2 sm:gap-3 sm:grid-flow-row-dense">
-                <button
-                  type="button"
-                  className="mt-3 w-full inline-flex justify-center rounded-md border border-gray-300 shadow-sm px-4 py-3 text-md uppercase font-medium text-gray-700 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-royal-blue-500 sm:mt-0 sm:col-start-1 sm:text-sm bg-gray-200"
-                  onClick={() => setOpen(false)}
-                  ref={cancelButtonRef}
-                >
-                  Cancel
-                </button>
-                <a
-                  href="https://launchpad.altcampus.school/signup"
-                  target="_blank"
-                  className="w-full inline-flex justify-center"
-                >
-                  <button
-                    type="button"
-                    className="w-full inline-flex justify-center rounded-md border border-transparent shadow-sm px-4 py-3 text-md uppercase bg-royal-blue-600 text-base font-medium text-white hover:bg-royal-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-royal-blue-500 sm:col-start-2 sm:text-sm"
-                    onClick={() => setOpen(false)}
-                  >
-                    Sign Up Now
-                  </button>
-                </a>
               </div>
             </div>
           </Transition.Child>
