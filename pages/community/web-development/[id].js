@@ -54,8 +54,8 @@ export default function Post({ postData }) {
           }}
         />
         <main className="">
-          <header className="bg-gray-100 py-24">
-            <div className="container container mx-auto px-24">
+          <header className="bg-gray-100 py-12 md:py-24">
+            <div className="container container mx-auto px-8 md:px-24">
               <strong className="uppercase text-gray-400 font-semibold">
                 Step by step
               </strong>
@@ -69,7 +69,7 @@ export default function Post({ postData }) {
           </header>
 
           <section className="prose bg-white pt-12 pb-4">
-            <article className="max-w-screen-lg mx-auto px-24">
+            <article className="container md:max-w-screen-lg mx-auto px-8 md:px-24">
               <MDXRemote {...postData.contentHtml} components={components} />
             </article>
           </section>

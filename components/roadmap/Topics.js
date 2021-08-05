@@ -83,7 +83,7 @@ function Paid({ topic, setOpen }) {
       </strong>
 
       <span className="inline-flex items-center px-2 ml-2 py-0.5 rounded-md text-sm font-medium bg-red-800 text-white">
-        PAID
+        PRO
       </span>
     </li>
   );
