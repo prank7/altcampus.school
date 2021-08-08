@@ -30,16 +30,16 @@ export default function Topics({ title, topics, exercises }) {
                 className="absolute inset-0 flex items-center"
                 aria-hidden="true"
               >
-                <div className="w-full border-t border-gray-300" />
+                <div className="w-full border-t-2 border-royal-blue-500" />
               </div>
               <div className="relative flex justify-center">
-                <span className="px-2 bg-white text-md text-gray-700 border">
-                  Exercises
+                <span className="px-3 py-1 bg-royal-blue-500 text-md font-semibold text-white border">
+                  Exercises / Project
                 </span>
               </div>
             </div>
             <ul className="mt-4">
-              {exercises.map((topic) => getLayout(topic.type, topic))}
+              {exercises.map((exercise) => getLayout(exercise.type, exercise))}
             </ul>
           </>
         )}
@@ -59,7 +59,7 @@ function External({ topic }) {
         target="_blank"
         rel="noreferrer noopener"
       >
-        <svg className="h-4 w-4 text-blue-500" viewBox="0 0 24 24">
+        <svg className="h-4 w-4 text-gray-500" viewBox="0 0 24 24">
           <g
             fill="none"
             stroke="currentColor"
@@ -86,7 +86,7 @@ function FreeTask({ topic }) {
   return (
     <li
       key={topic}
-      className="flex font-medium my-12 list-none items-center underline hover:no-underline"
+      className="flex font-medium my-12 list-none items-center exercise-item"
     >
       <a
         href={topic.link}
@@ -94,8 +94,8 @@ function FreeTask({ topic }) {
         target="_blank"
         rel="noreferrer noopener"
       >
-        <VariableIcon className="h-5 w-5 flex-shrink-0 text-green-theme-800" />
-        <strong className="ml-4 text-lg text-gray-700 font-normal">
+        <VariableIcon className="h-5 w-5 flex-shrink-0 text-royal-blue-700" />
+        <strong className="ml-4 text-lg text-royal-blue-800 font-normal">
           {topic.text}
         </strong>
       </a>
@@ -109,10 +109,10 @@ function PaidTask({ topic, setOpen }) {
   return (
     <li
       key={topic}
-      className="flex font-medium my-12 list-none items-center cursor-pointer"
+      className="flex font-medium my-12 list-none items-start cursor-pointer"
       onClick={handleClick}
     >
-      <VariableIcon className="h-5 w-5 flex-shrink-0 text-green-theme-800" />
+      <VariableIcon className="h-5 w-5 flex-shrink-0 text-royal-blue-500" />
       <strong className="ml-4 text-lg text-gray-700 font-normal underline">
         {topic.text}
       </strong>

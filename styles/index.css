@@ -357,6 +357,13 @@ code::after {
 .prose .topic-list ul:last-child, .prose .topic-list li:last-child{
   margin-bottom: 0;
 }
+.prose .exercise-item strong{
+  color: #3D4489;
+  text-decoration: underline
+}
+.prose .exercise-item strong:hover{
+  text-decoration: none
+}
 .prose .topic-list li a{
   text-decoration: none;
 }
