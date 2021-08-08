@@ -1,9 +1,8 @@
-import { useRouter } from 'next/router';
 import { useContext } from 'react';
 import { ModalContext } from '../../pages/community/web-development/[id]';
 import { ExternalLinkIcon, VariableIcon } from '@heroicons/react/outline';
 
-export default function Topics({ title, topics }) {
+export default function Topics({ title, topics, exercises }) {
   let { setOpen } = useContext(ModalContext);
 
   function getLayout(type, topic) {
@@ -38,7 +37,7 @@ export default function Topics({ title, topics }) {
           </div>
         </div>
         <ul className="mt-4">
-          {topics.map((topic) => getLayout(topic.type, topic))}
+          {exercises && exercises.map((topic) => getLayout(topic.type, topic))}
         </ul>
       </article>
     </>
@@ -109,18 +108,7 @@ function PaidTask({ topic, setOpen }) {
       className="flex font-medium my-12 list-none items-center cursor-pointer"
       onClick={handleClick}
     >
-      <svg className="h-4 w-4 text-blue-500" viewBox="0 0 24 24">
-        <g
-          fill="none"
-          stroke="currentColor"
-          strokeWidth="2"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        >
-          <path d="M22 11.08V12a10 10 0 11-5.93-9.14" />
-          <path d="M22 4L12 14.01l-3-3" />
-        </g>
-      </svg>
+      <VariableIcon className="h-5 w-5 flex-shrink-0 text-green-theme-800" />
       <strong className="ml-4 text-lg text-gray-700 font-normal underline">
         {topic.text}
       </strong>
