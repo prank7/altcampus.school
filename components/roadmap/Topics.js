@@ -22,11 +22,7 @@ export default function Topics({ title, topics }) {
 
   return (
     <>
-<<<<<<< HEAD
       <article className="bg-gray-100 p-8 rounded-md shadow-sm topic-list mb-10 mt-8">
-=======
-      <article className="shadow-sm topic-list mb-16 mt-8 rounded-md bg-blue-50 p-8">
->>>>>>> 6c4c0a9 (add exercises to the topics)
         <h3 className="mt-0 text-2xl text-gray-700">{title}</h3>
         <ul className="mt-4">
           {topics.map((topic) => getLayout(topic.type, topic))}
