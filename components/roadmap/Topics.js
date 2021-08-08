@@ -3,29 +3,55 @@ import Link from 'next/link';
 import { useContext } from 'react';
 import { ModalContext } from '../../pages/community/web-development/[id]';
 import Modal from './Modal';
+import { ExternalLinkIcon, VariableIcon } from '@heroicons/react/outline';
 
 export default function Topics({ title, topics }) {
   let router = useRouter();
   let { setOpen } = useContext(ModalContext);
 
+  function getLayout(type, topic) {
+    switch (type) {
+      case 'free':
+        return <FreeTask topic={topic} />;
+      case 'paid':
+        return <PaidTask topic={topic} setOpen={setOpen} />;
+      default:
+        return <External topic={topic} />;
+    }
+  }
+
   return (
     <>
+<<<<<<< HEAD
       <article className="bg-gray-100 p-8 rounded-md shadow-sm topic-list mb-10 mt-8">
+=======
+      <article className="shadow-sm topic-list mb-16 mt-8 rounded-md bg-blue-50 p-8">
+>>>>>>> 6c4c0a9 (add exercises to the topics)
         <h3 className="mt-0 text-2xl text-gray-700">{title}</h3>
         <ul className="mt-4">
-          {topics.map((topic) =>
-            topic.type === 'paid' ? (
-              <Paid topic={topic} router={router} setOpen={setOpen} />
-            ) : (
-              <Free topic={topic} />
-            )
-          )}
+          {topics.map((topic) => getLayout(topic.type, topic))}
+        </ul>
+        <div className="relative">
+          <div
+            className="absolute inset-0 flex items-center"
+            aria-hidden="true"
+          >
+            <div className="w-full border-t border-gray-300" />
+          </div>
+          <div className="relative flex justify-center">
+            <span className="px-2 bg-white text-md text-gray-700 border">
+              Exercises
+            </span>
+          </div>
+        </div>
+        <ul className="mt-4">
+          {topics.map((topic) => getLayout(topic.type, topic))}
         </ul>
       </article>
     </>
   );
 }
-function Free({ topic }) {
+function External({ topic }) {
   return (
     <li
       key={topic}
@@ -52,11 +78,35 @@ function Free({ topic }) {
         <strong className="ml-4 text-lg text-gray-700 font-normal">
           {topic.text}
         </strong>
+        <ExternalLinkIcon
+          className="ml-3 h-4 w-4 flex-shrink-0 text-gray-400"
+          aria-hidden="true"
+        />
       </a>
     </li>
   );
 }
-function Paid({ topic, setOpen }) {
+function FreeTask({ topic }) {
+  return (
+    <li
+      key={topic}
+      className="flex font-medium my-12 list-none items-center underline hover:no-underline"
+    >
+      <a
+        href={topic.link}
+        className="flex items-center"
+        target="_blank"
+        rel="noreferrer noopener"
+      >
+        <VariableIcon className="h-5 w-5 flex-shrink-0 text-green-theme-800" />
+        <strong className="ml-4 text-lg text-gray-700 font-normal">
+          {topic.text}
+        </strong>
+      </a>
+    </li>
+  );
+}
+function PaidTask({ topic, setOpen }) {
   function handleClick() {
     setOpen(true);
   }
