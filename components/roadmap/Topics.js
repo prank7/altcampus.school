@@ -1,12 +1,9 @@
 import { useRouter } from 'next/router';
-import Link from 'next/link';
 import { useContext } from 'react';
 import { ModalContext } from '../../pages/community/web-development/[id]';
-import Modal from './Modal';
 import { ExternalLinkIcon, VariableIcon } from '@heroicons/react/outline';
 
 export default function Topics({ title, topics }) {
-  let router = useRouter();
   let { setOpen } = useContext(ModalContext);
 
   function getLayout(type, topic) {
