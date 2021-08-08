@@ -23,22 +23,26 @@ export default function Topics({ title, topics, exercises }) {
         <ul className="mt-4">
           {topics.map((topic) => getLayout(topic.type, topic))}
         </ul>
-        <div className="relative">
-          <div
-            className="absolute inset-0 flex items-center"
-            aria-hidden="true"
-          >
-            <div className="w-full border-t border-gray-300" />
-          </div>
-          <div className="relative flex justify-center">
-            <span className="px-2 bg-white text-md text-gray-700 border">
-              Exercises
-            </span>
-          </div>
-        </div>
-        <ul className="mt-4">
-          {exercises && exercises.map((topic) => getLayout(topic.type, topic))}
-        </ul>
+        {exercises && (
+          <>
+            <div className="relative">
+              <div
+                className="absolute inset-0 flex items-center"
+                aria-hidden="true"
+              >
+                <div className="w-full border-t border-gray-300" />
+              </div>
+              <div className="relative flex justify-center">
+                <span className="px-2 bg-white text-md text-gray-700 border">
+                  Exercises
+                </span>
+              </div>
+            </div>
+            <ul className="mt-4">
+              {exercises.map((topic) => getLayout(topic.type, topic))}
+            </ul>
+          </>
+        )}
       </article>
     </>
   );
