@@ -1,13 +1,8 @@
-import Image from 'next/image';
-import tinytime from 'tinytime';
-import Link from 'next/link';
 import Layout from '../../../components/Layout';
+import PostCard from '../../../components/Community/PostCard';
 import { getSortedPostsData } from '../../../lib/posts';
 import { NextSeo } from 'next-seo';
 import generateSitemap from '../../../lib/generateSitemap';
-import authors from '../../../lib/author.json';
-
-let dateFormatter = tinytime('{MMMM} {DD}, {YYYY}');
 
 const Tutorials = ({ allPostsData }) => {
   var title =
@@ -47,57 +42,9 @@ function Cards({ posts }) {
           </p>
         </div>
         <div className="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
-          {posts.map((post) => {
-            let author = authors[post.author || 'altcampus'];
-            return (
-              <div
-                key={post.title}
-                className="flex flex-col rounded-lg shadow-lg overflow-hidden"
-              >
-                <div className="flex-1 bg-white p-6 flex flex-col justify-between">
-                  <div className="flex-1">
-                    <p className="text-sm font-medium text-indigo-600">
-                      {/* <a href={post.category.href} className="hover:underline">
-                      {post.category.name}
-                    </a> */}
-                    </p>
-                    <Link href={`/community/posts/${post.id}`}>
-                      <a className="block mt-2">
-                        <p className="text-xl font-extrabold text-gray-800 hover:underline">
-                          {post.title}
-                        </p>
-                        <p className="mt-3 text-base text-gray-600">
-                          {post.description}
-                        </p>
-                      </a>
-                    </Link>
-                  </div>
-                  <div className="mt-6 flex items-center">
-                    <div className="flex-shrink-0">
-                      <span className="sr-only">{author?.name}</span>
-                      <img
-                        className="h-10 w-10 rounded-full"
-                        src={author?.avatar}
-                        alt=""
-                      />
-                    </div>
-                    <div className="ml-3">
-                      <p className="text-sm font-medium text-gray-900 font-semibold">
-                        {author.name}
-                      </p>
-                      <div className="flex space-x-1 text-sm text-gray-600">
-                        <time dateTime={post.date}>
-                          {dateFormatter.render(new Date(post.date))}
-                        </time>
-                        {/* <span aria-hidden="true">&middot;</span> */}
-                        {/* <span>{post.readingTime} read</span> */}
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            );
-          })}
+          {posts.map((post) => (
+            <PostCard key={post.id} post={post} />
+          ))}
         </div>
       </div>
     </div>
@@ -106,6 +53,7 @@ function Cards({ posts }) {
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
+
   await generateSitemap();
   return {
     props: {

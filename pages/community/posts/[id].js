@@ -1,14 +1,18 @@
-import { getAllPostIds, getPostData } from '../../../lib/posts';
+import {
+  getAllPostIds,
+  getPostData,
+  getRelatedPosts
+} from '../../../lib/posts';
 import Layout from '../../../components/Layout';
-import Link from 'next/link';
 import Head from 'next/head';
 import PostCTA from '../../../components/Community/PostCTA';
+import PostCard from '../../../components/Community/PostCard';
 import { NextSeo } from 'next-seo';
 import { TwitterAltIcon, FacebookIcon } from '../../../components/Icons';
 import authors from '../../../lib/author.json';
 import Image from 'next/image';
 
-export default function Post({ postData }) {
+export default function Post({ postData, relatedPosts = [] }) {
   let authorInfo = authors[postData.author || 'altcampus'];
 
   return (
@@ -63,6 +67,7 @@ export default function Post({ postData }) {
             }}
           />
           {postData.cta ? <PostCTA ctaText={postData.ctaText} /> : null}
+
           <div className="flex items-center justify-between mt-8">
             <div className="flex items-center space-x-2 lg:space-x-4">
               <img
@@ -105,6 +110,21 @@ export default function Post({ postData }) {
           </div>
         </div>
       </section>
+      <div className="relative">
+        <div className="absolute inset-0 flex items-center" aria-hidden="true">
+          <div className="w-full border-t border-dotted border-gray-300 sm:max-w-2xl mx-auto" />
+        </div>
+        <div className="relative flex justify-center">
+          <span className="px-3 bg-white text-lg font-medium text-gray-900">
+            Other Posts
+          </span>
+        </div>
+      </div>
+      <div className="my-12 mx-8 max-w-lg grid gap-5 lg:grid-cols-3 lg:max-w-none sm:mx-12">
+        {relatedPosts.map((post) => (
+          <PostCard key={post.id} post={post} related />
+        ))}
+      </div>
     </Layout>
   );
 }
@@ -119,10 +139,11 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
   const postData = await getPostData(params.id);
-
+  const relatedPosts = await getRelatedPosts(params.id);
   return {
     props: {
-      postData
+      postData,
+      relatedPosts
     }
   };
 }

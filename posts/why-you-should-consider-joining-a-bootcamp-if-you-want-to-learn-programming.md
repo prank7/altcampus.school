@@ -1,7 +1,7 @@
 ---
 title: 'Why You Should Consider Joining a Bootcamp if You Want to Learn Programming'
 description: 'Is bootcamp the right place for you to become a good programmer? Learn the advantages of having a community of developers'
-date: '2020-12-05'
+date: '2021-05-12'
 blurb: How bootcamps can help you in your programming journey.
 photo: '/images/posts/why-you-should-join-bootcamp-if-you-want-to-learn-programming.png'
 cta: true
@@ -11,13 +11,13 @@ author: ivinoop
 
 The tech world has seen unprecedented growth in the last few years. Software Development took a quantum leap as the worldwide web became more accessible and hospitable. Browsers today are leading the world of app development as they are becoming more flexible to host all kinds of apps that are seemingly native in nature. With over 1.8 billion websites online, there are a plethora of technologies running seamlessly on the web to cater to enterprise as well as consumer needs.
 
-So the questions today for a learner are - What should one choose to learn today from the vast ocean of tech stacks available, and where should one learn it all from?
+So the questions today for a learner are - What should one choose to learn today from the vast ocean of tech stacks available, and [what are the best places to learn programming?](https://altcampus.school/community/posts/what-are-the-best-places-to-learn-coding)
 
 ### The Self-Taught Way
 
 With technology having made its way into every aspect of learning and living, students can find almost any knowledge accessible and affordable too, on the internet. There are millions of developers who have walked the self-taught way and been successful in their pursuits. However, this path has its own disadvantages too, the major one being that there is no mentorship available when one finds oneself too deep in the waters. The other disadvantage is that anyone without a computer science or technology background will most often find themselves very lost without a structured learning path, and without a means to network and find fellow students along their journey. We will discuss why these aspects are important, further along in the article.
 
-That said, the self-taught path is an adventurous one, that often prepares developers to be self-reliant and to explore solutions from various sources.
+That said, the self-taught path is an adventurous one that often prepares developers to be self-reliant and to explore solutions from various sources.
 
 ### The Bootcamp Way
 
@@ -47,11 +47,9 @@ Learning to program is in itself not a difficult path. However, programming defi
 
 #### 4. The Tech Stack
 
-This is probably the most important factor to choose a programming bootcamp. While languages can be learned in a one-off manner by watching YouTube tutorials or blogs, a full-stack development journey is different altogether. Bootcamps that offer full-stack courses are worth it, since the industry today is moving towards developers having a wide range of skills. Tech stacks are often debatable and one must always choose the stack depending on the demand, salary offered, and interest towards the set of technologies.
+This is probably the most important factor to choose a programming bootcamp. While languages can be learned in a one-off manner by watching YouTube tutorials or blogs, a full-stack development journey is different altogether. Bootcamps that offer full-stack courses are worth it, since the industry today is moving towards developers having a wide range of skills. Tech stacks are often debatable and one must always choose the stack depending on the demand, salary offered, and interest towards the set of technologies. While the popular MERN stack (MongoDB, ExpressJS, ReactJS, NodeJS) is in high demand in most industry hubs and startups, AngularJS is also ranked high amongst enterprise app development. There's also the Python stack for the backend where Django or Flask are used. So one should choose a bootcamp based on these factors.
 
-While the popular MERN stack (MongoDB, ExpressJS, ReactJS, NodeJS) is in high demand in most industry hubs and startups, AngularJS is also ranked high amongst enterprise app development. There's also the Python stack for the backend where Django or Flask are used. So one should choose a bootcamp based on these factors.
-
-Learning full-stack prepares a developer for many years to come. The challenges faced in developing full stack apps ensures that a developer knows the intricacies of what goes into planning, designing, prototyping, and finally developing modern apps that work seamlessly. A bootcamp offers these with a structured learning path that takes the hassle out of students' hands, of having to prepare and plan everything by themselves. Proper guidance and goes a long way in making the journey that much easier and better.
+Learning full-stack prepares a developer for many years to come. The challenges faced in developing full stack apps ensures that a developer knows the intricacies of what goes into planning, designing, prototyping, and finally developing modern apps that work seamlessly. A bootcamp offers these with a structured learning path that takes the hassle out of students' hands, of having to prepare and plan everything by themselves. Proper guidance goes a long way in making the journey that much easier and better. 
 
 #### 5. Structured Roadmap
 
@@ -67,10 +65,10 @@ Especially in programming, practice is the only way to keep growing. Bootcamps m
 
 #### 7. Feedback Loop
 
-This is perhaps the most important part of learning programming in a bootcamp and goes parallely with mentorship. Getting feedback on your work is a great way to rectify mistakes and learn better ways to build projects. A constant stream of feedback from mentors and peers will build a positive approach to learning as well as builds character. This loop ensures that there is quantitative as well as qualitative progress at each level of learning.
+This is perhaps the most important part of learning programming in a bootcamp and goes parallely with mentorship. Getting feedback on your work is a great way to rectify mistakes and learn better ways to build projects. A constant stream of feedback from mentors and peers will build a positive approach to learning as well as build character. This loop ensures that there is quantitative as well as qualitative progress at each level of learning.
 
-Programming bootcamps are today's alternative to colleges since they offer a much more focused approach to learning relevant skills. Degrees and certificates are becoming less of a factor to enter the software development world since the right skills matter. There are unlimited opportunities for a software developer today, especially in the web ecosystem since it has a low barrier for entry and is the most accessible platform for the majority of customers and developers alike.
+Programming bootcamps are today's alternative to colleges since they offer a much more focused approach to learning relevant skills. [Degrees and certificates are becoming less of a factor](https://altcampus.school/community/posts/do-you-need-a-cs-degree-to-become-a-software-developer) to enter the software development world since the right skills matter. There are unlimited opportunities for a software developer today, especially in the web ecosystem since it has a low barrier for entry and is the most accessible platform for the majority of customers and developers alike. 
 
-While self-learning is always emphasized and encouraged, the learning that comes by being part of a bootcamp is unparalleled. From people skills, teamwork and communication, to becoming a skilled software developer in relevant technologies, bootcamps undoubtedly offer a holistic learning approach to everyone who has the goal of becoming a software developer.
+While self-learning is always emphasized and encouraged, the learning that comes by being part of a bootcamp is unparalleled. From people skills, teamwork and [learning communication tips](https://altcampus.school/community/posts/basic-communication-tips-for-beginner-developers), to [becoming a skilled software developer](https://altcampus.school/community/posts/4-simple-systems-to-learn-programming-faster) in relevant technologies, bootcamps undoubtedly offer a holistic learning approach to everyone who has the goal of becoming a software developer. 
 
 All the best for your programming journey. 🙌
