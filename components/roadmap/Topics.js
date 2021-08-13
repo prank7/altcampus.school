@@ -2,7 +2,7 @@ import { useContext } from 'react';
 import { ModalContext } from '../../pages/community/web-development/[id]';
 import { ExternalLinkIcon, VariableIcon } from '@heroicons/react/outline';
 
-export default function Topics({ title, topics, exercises }) {
+export default function Topics({ title, topics, exercises, description }) {
   let { setOpen } = useContext(ModalContext);
 
   function getLayout(type, topic) {
@@ -20,8 +20,11 @@ export default function Topics({ title, topics, exercises }) {
     <>
       <article className="bg-gray-100 p-8 rounded-md shadow-sm topic-list mb-10 mt-8">
         <h3 className="mt-0 text-2xl text-gray-700">{title}</h3>
+        <p>{description}</p>
         <ul className="mt-4">
-          {topics.map((topic) => getLayout(topic.type, topic))}
+          {topics.map((topic) =>
+            getLayout((topic.type || '').toLowerCase(), topic)
+          )}
         </ul>
         {exercises && (
           <>
@@ -59,7 +62,7 @@ function External({ topic }) {
         target="_blank"
         rel="noreferrer noopener"
       >
-        <svg className="h-4 w-4 text-gray-500" viewBox="0 0 24 24">
+        <svg className="h-4 w-4 text-blue-500" viewBox="0 0 24 24">
           <g
             fill="none"
             stroke="currentColor"
@@ -109,10 +112,10 @@ function PaidTask({ topic, setOpen }) {
   return (
     <li
       key={topic}
-      className="flex font-medium my-12 list-none items-start cursor-pointer"
+      className="flex font-medium my-12 list-none cursor-pointer items-center"
       onClick={handleClick}
     >
-      <VariableIcon className="h-5 w-5 flex-shrink-0 text-royal-blue-500" />
+      <VariableIcon className="h-5 w-5 flex-shrink-0 text-blue-800" />
       <strong className="ml-4 text-lg text-gray-700 font-normal underline">
         {topic.text}
       </strong>

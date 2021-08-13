@@ -7,253 +7,496 @@ cta: true
 ctaText: AltCampus helps you learn faster by inculcating these systems as part of the learning model.  🙌
 ---
 
-## JavaScript
-
-JavaScript is a language of the web. It can make a web pages alive by making it dynamic. It can change the HTML and CSS of the page based on user interactions.
+JavaScript is a language of the web. It can make a web page alive by making it dynamic. It can change the HTML and CSS of the page based on user interactions.
 
 <Modal />
 <Topics
-  title="Value Variable and Types"
+  title="Value, Variables, Types and Operators"
+  description="Learn about the most fundamental concept of a programming language i.e understanding values. We will also learn about different types of values ways of storing and manupulating them."
   topics={[
     {
-      text: 'Introduction to Unix and Running First Command',
-      link:
-        'https://www.youtube.com/watch?v=Owr911MIixA&list=PLuV7IXB8NIKV5GhmjkRUtrVB2-7iUL_QK',
+      text: 'Why Learn JavaScript?',
+      link: 'https://www.youtube.com/watch?v=_uSSzs7Hkhg&t=1s',
       type: ''
     },
     {
-      text: 'Different types of Unix family',
-      link:
-        'https://www.linuxandubuntu.com/home/top-10-unix-based-operating-systems',
-      type: 'free-task'
-    },
-    {
-      text: 'Basic Shell Commands',
-      link:
-        'https://www.youtube.com/watch?v=IuQACVRXqf0&list=PLuV7IXB8NIKV5GhmjkRUtrVB2-7iUL_QK&index=2',
+      text: 'Hello World in JavaScript',
+      link: 'https://www.youtube.com/watch?v=yk4LpETv7Ks',
       type: ''
     },
     {
-      text: 'Basic Shell Commands - Manipulating files(CRUD on Files)',
-      link:
-        'https://www.youtube.com/watch?v=8REFyT06qPU&list=PLuV7IXB8NIKV5GhmjkRUtrVB2-7iUL_QK&index=3',
+      text: 'Understanding Values',
+      link: 'https://www.youtube.com/watch?v=Mwabr67mxOI',
       type: ''
     },
     {
-      text:
-        'Basic Shell Commands - Working with directories/folders(CRUD on Directory)',
-      link:
-        'https://www.youtube.com/watch?v=E296igoqqHY&list=PLuV7IXB8NIKV5GhmjkRUtrVB2-7iUL_QK&index=4',
-      type: ''
-    }
-  ]}
-/>
-
-## 2. Git (Version Control)
-
-Git is version control system. Version control is a system that keeps track of changes to a file or set of files, overtime so that you can go back to specific version later.
-
-<Topics
-  title="Introduction to GIT"
-  topics={[
-    {
-      text: 'What is Version Control?',
-      link:
-        'https://www.youtube.com/watch?v=umWcwhidbsQ&list=PLuV7IXB8NIKV5GhmjkRUtrVB2-7iUL_QK&index=5',
+      text: 'Storing a Value in Variable',
+      link: 'https://www.youtube.com/watch?v=0f9aMLonC3I',
       type: ''
     },
     {
-      text: 'Versioning in Git',
-      link:
-        'https://www.youtube.com/watch?v=umWcwhidbsQ&list=PLuV7IXB8NIKV5GhmjkRUtrVB2-7iUL_QK&index=5',
+      text: 'Writing a comment',
+      link: 'https://www.youtube.com/watch?v=IUzzLF3F2ow',
       type: ''
     },
     {
-      text: 'Stages in Git(Untracked area, Staging area, Committed stage',
-      link:
-        'https://www.youtube.com/watch?v=umWcwhidbsQ&list=PLuV7IXB8NIKV5GhmjkRUtrVB2-7iUL_QK&index=5',
-      type: ''
-    }
-  ]}
-/>
-<Topics
-  title="Basic Git Commands"
-  topics={[
-    {
-      text: 'Installing Git',
-      link:
-        'https://www.youtube.com/watch?v=9HbQj3kgpHM&list=PLuV7IXB8NIKV5GhmjkRUtrVB2-7iUL_QK&index=6',
+      text: 'String Template Literal',
+      link: 'https://www.youtube.com/watch?v=IUzzLF3F2ow',
       type: ''
     },
     {
-      text: 'Configuring Git in your local system',
-      link:
-        'https://www.youtube.com/watch?v=9HbQj3kgpHM&list=PLuV7IXB8NIKV5GhmjkRUtrVB2-7iUL_QK&index=6',
+      text: 'Type Conversion',
+      link: 'https://www.youtube.com/watch?v=vS5lQlfk7DU',
       type: ''
     },
     {
-      text: 'Initializing git',
-      link:
-        'https://www.youtube.com/watch?v=9HbQj3kgpHM&list=PLuV7IXB8NIKV5GhmjkRUtrVB2-7iUL_QK&index=6',
+      text: 'Implicit and Explicit Type Conversion',
+      link: 'https://www.youtube.com/watch?v=phOkVwhlK-I',
       type: ''
     },
     {
-      text: 'Git Status - checks the current status of changes',
-      link:
-        'https://www.youtube.com/watch?v=9HbQj3kgpHM&list=PLuV7IXB8NIKV5GhmjkRUtrVB2-7iUL_QK&index=6',
+      text: 'Truthy and Falsy Values',
+      link: 'https://www.youtube.com/watch?v=I-ENmEF_pG4',
       type: ''
     },
     {
-      text: 'Git log - gives the commit history of a repository',
-      link:
-        'https://www.youtube.com/watch?v=9HbQj3kgpHM&list=PLuV7IXB8NIKV5GhmjkRUtrVB2-7iUL_QK&index=6',
+      text: 'Basic Math Operators',
+      link: 'https://www.youtube.com/watch?v=X0RBS3wElcc',
       type: ''
     },
     {
-      text: 'Git add - sends changes to the staging area',
-      link:
-        'https://www.youtube.com/watch?v=9HbQj3kgpHM&list=PLuV7IXB8NIKV5GhmjkRUtrVB2-7iUL_QK&index=6',
+      text: 'Operator Precedence',
+      link: 'https://www.youtube.com/watch?v=QYNRZe1m6sU',
       type: ''
     },
     {
-      text: 'Git commit - sends changes from staging area to committed area',
-      link:
-        'https://www.youtube.com/watch?v=9HbQj3kgpHM&list=PLuV7IXB8NIKV5GhmjkRUtrVB2-7iUL_QK&index=6',
+      text: 'Comparison and Logical Operators',
+      link: 'https://www.youtube.com/watch?v=2OyvQJVLWrE',
       type: ''
     },
     {
-      text:
-        'Git diff - checks the difference between staging area and working tree',
-      link:
-        'https://www.youtube.com/watch?v=9HbQj3kgpHM&list=PLuV7IXB8NIKV5GhmjkRUtrVB2-7iUL_QK&index=6',
+      text: 'Logical Operators',
+      link: 'https://www.youtube.com/watch?v=IgskD4aXNaE',
       type: ''
     },
     {
-      text:
-        'Git restore --staged - moves back the changes from staging area to working tree',
-      link:
-        'https://www.youtube.com/watch?v=9HbQj3kgpHM&list=PLuV7IXB8NIKV5GhmjkRUtrVB2-7iUL_QK&index=6',
-      type: ''
-    },
-    { text: 'Ignoring a file from tracking by git', link: '', type: '' }
-  ]}
-/>
-
-<Topics
-  title="Branching and Merging in Git"
-  topics={[
-    {
-      text: 'Creating a git branch',
-      link:
-        'https://www.youtube.com/watch?v=wYx6oaRThg4&list=PLuV7IXB8NIKV5GhmjkRUtrVB2-7iUL_QK&index=7',
+      text: 'Making decision in code',
+      link: 'https://www.youtube.com/watch?v=jMMCrL4_-LI',
       type: ''
     },
     {
-      text: 'Switching from one branch to another',
-      link:
-        'https://www.youtube.com/watch?v=wYx6oaRThg4&list=PLuV7IXB8NIKV5GhmjkRUtrVB2-7iUL_QK&index=7',
+      text: 'Expression and Statement',
+      link: 'https://www.youtube.com/watch?v=A7RFX8pdiic',
       type: ''
     },
     {
-      text: 'Merging branches',
-      link:
-        'https://www.youtube.com/watch?v=wYx6oaRThg4&list=PLuV7IXB8NIKV5GhmjkRUtrVB2-7iUL_QK&index=7',
-      type: ''
-    },
-    {
-      text: 'Deleting a branch',
-      link:
-        'https://www.youtube.com/watch?v=wYx6oaRThg4&list=PLuV7IXB8NIKV5GhmjkRUtrVB2-7iUL_QK&index=7',
-      type: ''
-    },
-    {
-      text: '3 way merging',
-      link:
-        'https://www.youtube.com/watch?v=wYx6oaRThg4&list=PLuV7IXB8NIKV5GhmjkRUtrVB2-7iUL_QK&index=7',
-      type: ''
-    },
-    { text: 'Understanding merge conflicts', link: '', type: '' },
-    { text: 'Resolving a merge conflicts', link: '', type: '' }
-  ]}
-/>
-
-## Github
-
-GitHub is a code hosting platform for version control and collaboration. It lets you and your teammate to work together on projects from anywhere.
-
-<Topics
-  title="Introduction to Github"
-  topics={[
-    {
-      text: 'Collabrating with Git',
-      link:
-        'https://www.youtube.com/watch?v=uQW_1fYS17w&list=PLuV7IXB8NIKV5GhmjkRUtrVB2-7iUL_QK&index=8',
-      type: ''
-    },
-    {
-      text: 'What is a remote repository?',
-      link:
-        'https://www.youtube.com/watch?v=uQW_1fYS17w&list=PLuV7IXB8NIKV5GhmjkRUtrVB2-7iUL_QK&index=8',
-      type: ''
-    },
-    {
-      text: 'Creating a remote repository and connecting to a local repository',
-      link:
-        'https://www.youtube.com/watch?v=uQW_1fYS17w&list=PLuV7IXB8NIKV5GhmjkRUtrVB2-7iUL_QK&index=8',
-      type: 'free'
-    },
-    {
-      text: 'Pushing changes from a local repository to a remote repository',
-      link:
-        'https://www.youtube.com/watch?v=uQW_1fYS17w&list=PLuV7IXB8NIKV5GhmjkRUtrVB2-7iUL_QK&index=8',
-      type: ''
-    },
-    {
-      text: 'Cloning a remote repository',
-      link:
-        'https://www.youtube.com/watch?v=uQW_1fYS17w&list=PLuV7IXB8NIKV5GhmjkRUtrVB2-7iUL_QK&index=8',
-      type: ''
-    },
-    {
-      text: 'Creating a pull request and merging it',
-      link:
-        'https://www.youtube.com/watch?v=uQW_1fYS17w&list=PLuV7IXB8NIKV5GhmjkRUtrVB2-7iUL_QK&index=8',
-      type: ''
-    },
-    {
-      text: 'Fetching changes from remote to a local repository',
-      link:
-        'https://www.youtube.com/watch?v=uQW_1fYS17w&list=PLuV7IXB8NIKV5GhmjkRUtrVB2-7iUL_QK&index=8',
-      type: ''
-    },
-    {
-      text: 'Pulling changes from remote and merge to a local repository',
-      link:
-        'https://www.youtube.com/watch?v=uQW_1fYS17w&list=PLuV7IXB8NIKV5GhmjkRUtrVB2-7iUL_QK&index=8',
-      type: ''
-    },
-    {
-      text: 'Githu Pages - Make your first website live',
-      link: 'https://pages.github.com/',
+      text: 'Repeating Actions with Loops',
+      link: 'https://www.youtube.com/watch?v=5oTrQtrMpKw',
       type: ''
     }
   ]}
   exercises={[
     {
-      text: 'Fetching changes from remote to a local repository',
+      text: 'Hello World in JavaScript',
+      link: 'https://try.altcampus.school',
+      type: 'Free'
+    },
+    {
+      text: 'Values, Types and typeof',
+      link: 'https://try.altcampus.school',
+      type: 'Free'
+    },
+    {
+      text: 'Accessing and Assigning Values',
+      link: 'https://try.altcampus.school',
+      type: 'Free'
+    },
+    {
+      text: 'String Template Literal',
+      link: 'https://try.altcampus.school',
+      type: 'Free'
+    },
+    {
+      text: 'Type Conversion & Truthy and Falsy',
+      link: 'https://try.altcampus.school',
+      type: 'Free'
+    },
+    {
+      text: 'Practice Different Operators',
+      link: 'https://try.altcampus.school',
+      type: 'Free'
+    },
+    {
+      text: 'Practice Loop and Making Decision',
+      link: 'https://try.altcampus.school',
+      type: 'Free'
+    },
+    {
+      text: 'Assignment Level 2 & 3',
+      link: 'https://try.altcampus.school',
+      type: 'Free'
+    }
+  ]}
+/>
+
+<Topics
+  title="Working with Functions"
+  description="Learn about combining multiple steps into a function. We will also learn about different ways of difining a function."
+  topics={[
+    {
+      text: 'Writing your first function',
+      link: 'https://www.youtube.com/watch?v=uUlbgDC0ed4',
+      type: ''
+    },
+    {
+      text: 'Understanding argument and aeturn',
+      link: 'https://www.youtube.com/watch?v=CvZPXJ4R2Rk',
+      type: ''
+    },
+    {
+      text: 'Scope and Default Parameter',
+      link: 'https://www.youtube.com/watch?v=YCbkKTVu7oM',
+      type: ''
+    },
+    {
+      text: 'Nature of Scope',
+      link: 'https://www.youtube.com/watch?v=Bie0IiLVSiA',
+      type: ''
+    },
+    {
+      text: 'Different Types of Functions',
+      link: 'https://www.youtube.com/watch?v=6B3c1cPoQ68',
+      type: ''
+    }
+  ]}
+  exercises={[
+    {
+      text: 'Practice Writing Function with Arguments and Return',
+      link: 'https://gist.github.com/nnnkit/21a86fd2b3c7c14eb33c258771d05d8b',
+      type: 'Free'
+    },
+    {
+      text: 'Practice Function and Return',
+      link: 'https://gist.github.com/nnnkit/8de937d84bd0c4266fcef0c6f1984f98',
+      type: 'Free'
+    },
+    {
+      text: 'Practice Writing Different Types of Functions',
+      link: '',
+      type: 'paid'
+    },
+    {
+      text: 'Practice Writing Functions (Advanced)',
+      link: '',
+      type: 'paid'
+    },
+    {
+      text: 'Solving Codewars Problems',
+      link: 'https://www.codewars.com/collections/javascript-learning-2',
+      type: 'Free'
+    }
+  ]}
+/>
+<Topics
+  title="Data Structure (Objects and Arrays)"
+  description="Learn about better ways to organise a complicated data set using Objects and Arrays. We will also learn about operations like creating, updating and deleting."
+  topics={[
+    {
+      text: 'Working with Objects',
+      link: 'https://www.youtube.com/watch?v=2twZLUKlUHY',
+      type: ''
+    },
+    {
+      text: 'Working with Arrays',
+      link: 'https://www.youtube.com/watch?v=F0pJSoUbh1k',
+      type: ''
+    },
+    {
+      text: 'Combining Arrays and Objects',
+      link: 'https://www.youtube.com/watch?v=vHoQ0Gu0494',
+      type: ''
+    },
+    {
+      text: 'Copy by Value and Reference',
+      link: 'https://www.youtube.com/watch?v=1intnGVvh3A',
+      type: ''
+    },
+    {
+      text: 'Primitive and Non-Primitive',
+      link: 'https://www.youtube.com/watch?v=rtdi9pE25YI',
+      type: ''
+    }
+  ]}
+  exercises={[
+    {
+      text:
+        'Practice Accessing and Assigning Properties and Values in Objects and Arrays',
+      link: '',
+      type: 'paid'
+    },
+    {
+      text: 'Practicing Dot and Bracket Notation',
+      link: 'https://gist.github.com/nnnkit/3eb017812160beab8bc76be014120007',
+      type: 'Free'
+    },
+    {
+      text: 'Practice Manipulating Arrays',
+      link: '',
+      type: 'paid'
+    },
+    {
+      text: 'Combining Arrays and Objects',
+      link: '',
+      type: 'paid'
+    },
+    {
+      text: 'Practice Copy by Value and Copy by Reference',
+      link: 'https://gist.github.com/nnnkit/7a6e6c3f3031f80250cee2e5d855cd37',
+      type: 'Free'
+    },
+    {
+      text: 'Copy vs Cloning Non-Primitive Data Types',
+      link: '',
+      type: 'paid'
+    }
+  ]}
+/>
+
+<Topics
+  title="Array and String Methods"
+  description="Learn about using array and string methods. These methods will help us do different operations on string and array."
+  topics={[
+    {
+      text: 'Higher Order Function',
       link:
-        'https://www.youtube.com/watch?v=uQW_1fYS17w&list=PLuV7IXB8NIKV5GhmjkRUtrVB2-7iUL_QK&index=8',
+        'https://www.freecodecamp.org/news/a-quick-intro-to-higher-order-functions-in-javascript-1a014f89c6b/',
+      type: ''
+    },
+    {
+      text: 'Methods of Primitives',
+      link: 'https://javascript.info/primitives-methods',
+      type: ''
+    },
+    {
+      text: 'Basic Strign Methods',
+      link: 'https://javascript.info/string',
+      type: ''
+    },
+    {
+      text: 'Basic Array Methods',
+      link: 'https://javascript.info/array',
+      type: ''
+    },
+    {
+      text: 'Methods to Add and Remove Items',
+      link: 'https://javascript.info/array-methods#add-remove-items',
+      type: ''
+    },
+    {
+      text: 'Array.forEach',
+      link: 'https://javascript.info/array-methods#iterate-foreach',
+      type: ''
+    },
+    {
+      text: 'Searching in array',
+      link: 'https://javascript.info/array-methods#searching-in-array',
+      type: ''
+    },
+    {
+      text: 'Transform an array',
+      link: 'https://javascript.info/array-methods#transform-an-array',
+      type: ''
+    },
+    {
+      text: 'Other Array Mehtods',
+      link: 'https://javascript.info/array-methods#array-isarray',
+      type: ''
+    }
+  ]}
+  exercises={[
+    {
+      text: 'Practice Scopr, Scope Chain and Nature of Scope',
+      link: 'https://gist.github.com/nnnkit/ce230a17008dc93c9a906b34ef5dbb2e',
+      type: 'Free'
+    },
+    {
+      text: 'Practicing Higher Order Functions',
+      link: '',
+      type: 'paid'
+    },
+    {
+      text: 'Practicing String Methods',
+      link: '',
+      type: 'paid'
+    },
+    {
+      text: 'Visualise Array Methods',
+      link: '',
+      type: 'paid'
+    },
+    {
+      text: 'Practicing Array and Srring Methods',
+      link: 'https://gist.github.com/nnnkit/39d661ec36b022b15898f1466727b05d',
+      type: 'Free'
+    },
+    {
+      text: 'Implement Array Methods',
+      link: '',
+      type: 'paid'
+    }
+  ]}
+/>
+
+## Browser: DOM and Events
+
+We will learn about making a web page dynamic by adding, removing and manipulating elements of the page. We will also learn to make the web page interactive by handling events like click, moving the mouse etc.
+
+<Topics
+  title="Browser and DOM"
+  description="We will learn to selecting and manipulating the element on the web page. It will help us to make the web page dynamic."
+  topics={[
+    {
+      text: 'Understanding Browser Environment',
+      link: 'https://javascript.info/browser-environment',
+      type: ''
+    },
+    {
+      text: 'Introduction to the DOM',
+      link:
+        'https://www.digitalocean.com/community/tutorials/introduction-to-the-dom',
+      type: ''
+    },
+    {
+      text: 'Understanding the DOM Tree and Nodes',
+      link:
+        'https://www.digitalocean.com/community/tutorials/understanding-the-dom-tree-and-nodes'
+    },
+    {
+      text: 'Selecting Elements in DOM',
+      link:
+        'https://www.digitalocean.com/community/tutorials/how-to-access-elements-in-the-dom',
+      type: ''
+    },
+    {
+      text: 'How To Traverse the DOM',
+      link:
+        'https://www.digitalocean.com/community/tutorials/how-to-traverse-the-dom',
+      type: ''
+    },
+    {
+      text: 'How To Make Changes to the DOM',
+      link:
+        'https://www.digitalocean.com/community/tutorials/how-to-make-changes-to-the-dom',
+      type: ''
+    },
+    {
+      text: 'How To Modify Attributes, Classes, and Styles in the DOM',
+      link:
+        'https://www.digitalocean.com/community/tutorials/how-to-modify-attributes-classes-and-styles-in-the-dom',
+      type: ''
+    }
+  ]}
+  exercises={[
+    {
+      text: 'Practice Selecting and Manipulating Elements',
+      link: 'https://gist.github.com/nnnkit/027a7c0bf0cadc310602db1a043c5e24',
+      type: 'Free'
+    },
+    {
+      text: 'Making a Clock',
+      link:
+        'https://www.youtube.com/watch?v=xu87YWbr4X0&list=PLu8EoSxDXHP6CGK4YVJhL_VWetA865GOH&index=2',
+      type: 'Free'
+    },
+    {
+      text: 'People of GOT app (Dynamic App)',
+      link: '',
+      type: 'paid'
+    },
+    {
+      text: 'Practice Selecting and Manipulating Elements Advanced',
+      link: '',
+      type: 'paid'
+    }
+  ]}
+/>
+
+<Topics
+  title="DOM and Events"
+  description="We will learn to handle different kind of events like mouse and keyboard. We will also learn to take input from user using input elements."
+  topics={[
+    {
+      text: 'Introduction to Browser Events',
+      link: 'https://javascript.info/introduction-browser-events',
+      type: ''
+    },
+    {
+      text: 'Bubbling and capturing',
+      link: 'https://javascript.info/bubbling-and-capturing',
+      type: ''
+    },
+    {
+      text: 'Event Delegation',
+      link: 'https://javascript.info/event-delegation'
+    },
+    {
+      text: 'Understanding Default Actions',
+      link: 'https://javascript.info/default-browser-action',
+      type: ''
+    },
+    {
+      text: 'Mouse Events',
+      link: 'https://javascript.info/mouse-events-basics',
+      type: ''
+    },
+    {
+      text: 'Handling Inputs',
+      link: 'https://javascript.info/keyboard-events',
+      type: ''
+    },
+    {
+      text: 'Form Validation using HTML',
+      type: 'paid'
+    },
+    {
+      text: 'Form Validation',
+      link: 'https://www.youtube.com/watch?v=In0nB0ABaUk',
+      type: ''
+    }
+  ]}
+  exercises={[
+    {
+      text: 'Random Color Generator',
+      link: 'https://gist.github.com/nnnkit/0c0af5f6e240ebc166aa3105bf79ff5a',
+      type: 'Free'
+    },
+    {
+      text: 'Making a Drum Kit',
+      link:
+        'https://www.youtube.com/watch?v=VuN8qwZoego&list=PLu8EoSxDXHP6CGK4YVJhL_VWetA865GOH',
+      type: 'Free'
+    },
+    {
+      text: 'Rock Paper and Scissor Game',
+      link: '',
+      type: 'paid'
+    },
+    {
+      text: 'Handling Different Input Elements with Validation',
+      type: 'paid'
+    },
+    {
+      text: 'Making a TODO application',
+      type: 'paid'
+    },
+    {
+      text: 'Memory Game',
+      link:
+        'https://www.taniarascia.com/how-to-create-a-memory-game-super-mario-with-plain-javascript/',
       type: 'free'
     },
     {
-      text: 'Pulling changes from remote and merge to a local repository',
-      link:
-        'https://www.youtube.com/watch?v=uQW_1fYS17w&list=PLuV7IXB8NIKV5GhmjkRUtrVB2-7iUL_QK&index=8',
-      type: 'free'
-    },
-    {
-      text: 'Githu Pages - Make your first website live',
-      link: 'https://pages.github.com/',
+      text: 'Create Your First Chrome Extension',
       type: 'paid'
     }
   ]}
