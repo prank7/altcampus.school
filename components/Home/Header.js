@@ -2,6 +2,8 @@ import React from 'react';
 import ActiveLink from './ActiveLink';
 import Link from 'next/link';
 import { AltCampusIcon } from '../Icons';
+import ResourcesMenu from './ResourcesMenu';
+import TestimonialMenu from './TestimonialMenu';
 
 function Header() {
   return (
@@ -66,19 +68,25 @@ function Header() {
               </ActiveLink>
             </li>
             <li className="mb-8 md:mb-0 md:ml-10">
+              <ResourcesMenu />
+            </li>
+            <li className="mb-8 md:mb-0 md:ml-10">
+              <TestimonialMenu />
+            </li>
+            {/* <li className="mb-8 md:mb-0 md:ml-10">
               <ActiveLink href="/placements">
                 <a className="text-4xl md:text-lg text-gold-500  md:text-dark-blue-300 pt-1 hover:text-dark-blue-500">
                   Placements
                 </a>
               </ActiveLink>
-            </li>
-            <li className="mb-8 md:mb-0 md:ml-10">
+            </li> */}
+            {/* <li className="mb-8 md:mb-0 md:ml-10">
               <ActiveLink href="/community/stories">
                 <a className="text-4xl md:text-lg text-gold-500  md:text-dark-blue-300 pt-1 hover:text-dark-blue-500">
                   Stories
                 </a>
               </ActiveLink>
-            </li>
+            </li> */}
             <li className="mb-8 md:mb-0 md:ml-10">
               <a
                 className="inline-flex content-center items-center text-xl md:text-base text-white font-bold md:text-dark-blue-300 uppercase px-12 py-4 md:px-4 md:py-1 border rounded border-green-theme-500 shadow-md  bg-green-theme-500 md:bg-transparent btn-hover tracking-wide"
