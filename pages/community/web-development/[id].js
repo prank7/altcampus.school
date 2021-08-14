@@ -14,19 +14,17 @@ export let ModalContext = createContext(false);
 
 const components = {
   a: Link,
-  // It also works with dynamically-imported components, which is especially
-  // useful for conditionally loading components for certain routes.
-  // See the notes in README.md for more details.
   Head,
   Topics,
   Modal
 };
 export default function Post({ postData }) {
   let [open, setOpen] = useState(false);
+  let [modalType, setModalType] = useState('paid');
   let authorInfo = authors[postData.author || 'altcampus'];
 
   return (
-    <ModalContext.Provider value={{ open, setOpen }}>
+    <ModalContext.Provider value={{ open, setOpen, modalType, setModalType }}>
       <Layout>
         {postData.scriptTag ? (
           <Head>
@@ -70,6 +68,7 @@ export default function Post({ postData }) {
 
           <section className="prose bg-white pt-12 pb-4">
             <article className="container md:max-w-screen-lg mx-auto px-8 md:px-24">
+              <Modal />
               <MDXRemote {...postData.contentHtml} components={components} />
             </article>
           </section>

@@ -4,9 +4,65 @@ import { Dialog, Transition } from '@headlessui/react';
 import { ExternalLinkIcon } from '@heroicons/react/solid';
 import { ModalContext } from '../../pages/community/web-development/[id]';
 
+function TrialContent() {
+  return (
+    <>
+      <h2 className="text-3xl font-extrabold text-white sm:text-4xl">
+        <span className="block">Join us!</span>
+      </h2>
+      <p className="mt-8 text-lg leading-8 text-royal-blue-200 mx-8">
+        This content can be accessed by signing up for the AltCampus full-stack
+        web development free trial. Sign up today!
+      </p>
+      <a
+        href="http://try.altcampus.school/"
+        rel="noreferrer noopener"
+        target="_blank"
+        className="mt-8 w-full inline-flex items-center justify-center px-5 py-3 border border-transparent text-base uppercase tracking-wider font-bold rounded-md text-white bg-green-theme-600 hover:bg-green-theme-500 hover:borde sm:w-auto"
+      >
+        Sign up for free
+        <ExternalLinkIcon
+          className="ml-3 h-5 w-5 flex-shrink-0 text-white"
+          aria-hidden="true"
+        />
+      </a>
+    </>
+  );
+}
+
+function PaidContent() {
+  return (
+    <>
+      <h2 className="text-3xl font-extrabold text-white sm:text-4xl">
+        <span className="block">Go PRO! 🎉</span>
+      </h2>
+      <p className="mt-8 text-lg leading-8 text-royal-blue-200">
+        This content is only available as part of the AltCampus paid curriculum.
+      </p>
+      <p className="mt-4 text-lg leading-8 text-royal-blue-200">
+        Join us to access step-by-step content and extensive practical exercises
+        that will take you from
+        <b> zero</b> to
+        <b> professional full-stack web developer</b> in just 6 months!
+      </p>
+      <a
+        href="https://launchpad.altcampus.school/signup"
+        rel="noreferrer noopener"
+        target="_blank"
+        className="mt-8 w-full inline-flex items-center justify-center px-5 py-3 border border-transparent text-base uppercase tracking-wider font-bold rounded-md text-white bg-green-theme-600 hover:bg-green-theme-500 hover:borde sm:w-auto"
+      >
+        Yes, I want in!
+        <ExternalLinkIcon
+          className="ml-3 h-5 w-5 flex-shrink-0 text-white"
+          aria-hidden="true"
+        />
+      </a>
+    </>
+  );
+}
 export default function Modal() {
   const [isBrowser, setIsBrowser] = useState(false);
-  const { open, setOpen } = useContext(ModalContext);
+  const { open, setOpen, modalType } = useContext(ModalContext);
 
   useEffect(() => {
     setIsBrowser(true);
@@ -57,28 +113,10 @@ export default function Modal() {
             leaveFrom="opacity-100 translate-y-0 sm:scale-100"
             leaveTo="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
           >
-            <div className="inline-block align-bottom bg-white rounded-lg px-4 pt-5 pb-4 text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full sm:p-6">
+            <div className="inline-block align-bottom bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:align-middle sm:max-w-lg sm:w-full">
               <div className="bg-royal-blue-700">
                 <div className="max-w-2xl mx-auto text-center py-16 px-4 sm:py-20 sm:px-6 lg:px-8">
-                  <h2 className="text-3xl font-extrabold text-white sm:text-4xl">
-                    <span className="block">This content is Paid!</span>
-                  </h2>
-                  <p className="mt-4 text-lg leading-6 text-royal-blue-200">
-                    With AltCampus you will get access to the materials to learn
-                    and to practice to hone your skill.
-                  </p>
-                  <a
-                    href="http://try.altcampus.school/"
-                    rel="noreferrer noopener"
-                    target="_blank"
-                    className="mt-8 w-full inline-flex items-center justify-center px-5 py-3 border border-transparent text-base uppercase font-extrabold rounded-md text-royal-blue-600 bg-white hover:bg-royal-blue-50 sm:w-auto"
-                  >
-                    Sign up for free
-                    <ExternalLinkIcon
-                      className="ml-3 h-5 w-5 flex-shrink-0 text-gray-400"
-                      aria-hidden="true"
-                    />
-                  </a>
+                  {modalType === 'paid' ? <PaidContent /> : <TrialContent />}
                 </div>
               </div>
             </div>
