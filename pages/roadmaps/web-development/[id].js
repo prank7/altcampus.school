@@ -42,7 +42,7 @@ export default function Post({ roadmapData }) {
             description: roadmapData.description,
             images: [
               {
-                url: roadmapData.photo,
+                url: `https://altcampus.school/${roadmapData.photo}`,
                 alt: roadmapData.title
               }
             ]
