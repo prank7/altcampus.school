@@ -2,64 +2,8 @@ import { Fragment, useContext, useEffect, useRef, useState } from 'react';
 import ReactDOM from 'react-dom';
 import { Dialog, Transition } from '@headlessui/react';
 import { ExternalLinkIcon } from '@heroicons/react/solid';
-import { ModalContext } from '../../pages/community/web-development/[id]';
+import { ModalContext } from '../../pages/roadmaps/web-development/[id]';
 
-function TrialContent() {
-  return (
-    <>
-      <h2 className="text-3xl font-extrabold text-white sm:text-4xl">
-        <span className="block">Join us!</span>
-      </h2>
-      <p className="mt-8 text-lg leading-8 text-royal-blue-200 mx-8">
-        This content can be accessed by signing up for the AltCampus full-stack
-        web development free trial. Sign up today!
-      </p>
-      <a
-        href="http://try.altcampus.school/"
-        rel="noreferrer noopener"
-        target="_blank"
-        className="mt-8 w-full inline-flex items-center justify-center px-5 py-3 border border-transparent text-base uppercase tracking-wider font-bold rounded-md text-white bg-green-theme-600 hover:bg-green-theme-500 hover:borde sm:w-auto"
-      >
-        Sign up for free
-        <ExternalLinkIcon
-          className="ml-3 h-5 w-5 flex-shrink-0 text-white"
-          aria-hidden="true"
-        />
-      </a>
-    </>
-  );
-}
-
-function PaidContent() {
-  return (
-    <>
-      <h2 className="text-3xl font-extrabold text-white sm:text-4xl">
-        <span className="block">Go PRO! 🎉</span>
-      </h2>
-      <p className="mt-8 text-lg leading-8 text-royal-blue-200">
-        This content is only available as part of the AltCampus paid curriculum.
-      </p>
-      <p className="mt-4 text-lg leading-8 text-royal-blue-200">
-        Join us to access step-by-step content and extensive practical exercises
-        that will take you from
-        <b> zero</b> to
-        <b> professional full-stack web developer</b> in just 6 months!
-      </p>
-      <a
-        href="https://launchpad.altcampus.school/signup"
-        rel="noreferrer noopener"
-        target="_blank"
-        className="mt-8 w-full inline-flex items-center justify-center px-5 py-3 border border-transparent text-base uppercase tracking-wider font-bold rounded-md text-white bg-green-theme-600 hover:bg-green-theme-500 hover:borde sm:w-auto"
-      >
-        Yes, I want in!
-        <ExternalLinkIcon
-          className="ml-3 h-5 w-5 flex-shrink-0 text-white"
-          aria-hidden="true"
-        />
-      </a>
-    </>
-  );
-}
 export default function Modal() {
   const [isBrowser, setIsBrowser] = useState(false);
   const { open, setOpen, modalType } = useContext(ModalContext);
@@ -125,5 +69,62 @@ export default function Modal() {
       </Dialog>
     </Transition.Root>,
     document.getElementById('modal-root')
+  );
+}
+
+function TrialContent() {
+  return (
+    <>
+      <h2 className="text-3xl font-extrabold text-white sm:text-4xl">
+        <span className="block">Join us!</span>
+      </h2>
+      <p className="mt-8 text-lg leading-8 text-royal-blue-200 mx-6">
+        This content can be accessed by signing up for the AltCampus full-stack
+        web development free trial. Sign up today!
+      </p>
+      <a
+        href="http://try.altcampus.school/"
+        rel="noreferrer noopener"
+        target="_blank"
+        className="mt-8 w-full inline-flex items-center justify-center px-5 py-3 border border-transparent text-base uppercase tracking-wider font-bold rounded-md text-white bg-green-theme-600 hover:bg-green-theme-500 hover:borde sm:w-auto"
+      >
+        Sign up for free
+        <ExternalLinkIcon
+          className="ml-3 h-5 w-5 flex-shrink-0 text-white"
+          aria-hidden="true"
+        />
+      </a>
+    </>
+  );
+}
+
+function PaidContent() {
+  return (
+    <>
+      <h2 className="text-3xl font-extrabold text-white sm:text-4xl">
+        <span className="block">Go PRO! 🎉</span>
+      </h2>
+      <p className="mt-8 text-lg leading-8 text-royal-blue-200 mx-6">
+        This content is only available as part of the AltCampus paid curriculum.
+      </p>
+      <p className="mt-4 text-lg leading-8 text-royal-blue-200 mx-6">
+        Join us to access step-by-step content and extensive practical exercises
+        that will take you from
+        <b> zero</b> to
+        <b> professional full-stack web developer</b> in just 6 months!
+      </p>
+      <a
+        href="https://launchpad.altcampus.school/signup"
+        rel="noreferrer noopener"
+        target="_blank"
+        className="mt-8 w-full inline-flex items-center justify-center px-5 py-3 border border-transparent text-base uppercase tracking-wider font-bold rounded-md text-white bg-green-theme-600 hover:bg-green-theme-500 hover:borde sm:w-auto"
+      >
+        Yes, I want in!
+        <ExternalLinkIcon
+          className="ml-3 h-5 w-5 flex-shrink-0 text-white"
+          aria-hidden="true"
+        />
+      </a>
+    </>
   );
 }

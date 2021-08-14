@@ -1,5 +1,5 @@
 import { useContext } from 'react';
-import { ModalContext } from '../../pages/community/web-development/[id]';
+import { ModalContext } from '../../pages/roadmaps/web-development/[id]';
 import { ExternalLinkIcon } from '@heroicons/react/outline';
 
 export default function Topics({ title, topics, exercises, description }) {
@@ -9,14 +9,24 @@ export default function Topics({ title, topics, exercises, description }) {
     switch (type) {
       case 'paid':
         return (
-          <Paid topic={topic} setOpen={setOpen} setModalType={setModalType} />
+          <Paid
+            key={topic.text}
+            topic={topic}
+            setOpen={setOpen}
+            setModalType={setModalType}
+          />
         );
       case 'trial':
         return (
-          <Trial topic={topic} setOpen={setOpen} setModalType={setModalType} />
+          <Trial
+            key={topic.text}
+            topic={topic}
+            setOpen={setOpen}
+            setModalType={setModalType}
+          />
         );
       default:
-        return <Free topic={topic} />;
+        return <Free key={topic.text} topic={topic} />;
     }
   }
 
@@ -32,15 +42,15 @@ export default function Topics({ title, topics, exercises, description }) {
         </ul>
         {exercises && (
           <>
-            <div className="relative">
+            <div className="relative my-8">
               <div
                 className="absolute inset-0 flex items-center"
                 aria-hidden="true"
               >
-                <div className="w-full border-t-2 border-royal-blue-500" />
+                <div className="w-full border border-royal-blue-500" />
               </div>
               <div className="relative flex justify-center">
-                <span className="px-3 py-1 bg-royal-blue-500 text-md font-semibold text-white border">
+                <span className="px-3 py-1 bg-royal-blue-500 text-md font-semibold text-white rounded-md">
                   Exercises / Projects
                 </span>
               </div>
@@ -147,7 +157,7 @@ function Paid({ topic, setOpen, setModalType }) {
         {topic.text}
       </strong>
 
-      <span className="inline-flex items-center px-3 ml-2 py-0.5 rounded-md text-sm bg-red-700 text-white">
+      <span className="inline-flex items-center px-2 ml-2 py-0.5 rounded-md text-xs bg-dark-blue-600 text-white">
         PRO
       </span>
     </li>

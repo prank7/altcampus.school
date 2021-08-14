@@ -1,89 +1,49 @@
-import { Email, RightChevron } from "./Icons";
+import { Email, RightChevron } from './Icons';
+import Link from 'next/link';
 
-const StackedList = () => {
+const StackedList = ({ roadmapsInfo }) => {
+  if (!roadmapsInfo) {
+    return <></>;
+  }
   return (
     <div className="bg-white shadow overflow-hidden sm:rounded-md">
       <ul>
-        <ListItem
-          name="Unix & Git"
-          imageURL="https://cdn.coda.io/icons/svg/color/git.svg"
-        />
-        <ListItem
-          name="HTML & CSS Fundamentals"
-          imageURL="https://cdn.coda.io/icons/svg/color/html-5.svg"
-        />
-        <ListItem
-          name="JavaScript Fundamentals"
-          imageURL="/images/icons/js.svg"
-        />
-        <ListItem
-          name="Advanced CSS"
-          imageURL="https://cdn.coda.io/icons/svg/color/css3.svg"
-        />
-        <ListItem
-          name="Advanced JavaScript"
-          imageURL="/images/icons/js-advanced.svg"
-        />
-        <ListItem
-          name="Node.js"
-          imageURL="/images/icons/nodejs.svg"
-        />
-        <ListItem
-          name="MongoDB"
-          imageURL="/images/icons/mongodb.svg"
-        />
-        <ListItem
-          name="Server side Apps with Express.js and MongoDB"
-          imageURL="/images/icons/express.svg"
-        />
-        <ListItem
-          name="API & Auth"
-          imageURL="/images/icons/api.svg"
-        />
-        <ListItem
-          name="React.js Fundamentals"
-          imageURL="/images/icons/react.svg"
-        />
-        <ListItem
-          name="Advanced React.js"
-          imageURL="/images/icons/react-advanced.svg"
-        />
-        <ListItem
-          name="Advanced Server Side Applications"
-          imageURL="/images/icons/server-side.svg"
-        />
-        <ListItem
-          name="Web Security & Deployment"
-          imageURL="/images/icons/security.svg"
-        />
-        <ListItem
-          name="Job Readiness Challenge"
-          imageURL="/images/icons/job-readiness.svg"
-        />
+        {roadmapsInfo.map((roadmapInfo) => (
+          <ListItem {...roadmapInfo} key={roadmapInfo.id} />
+        ))}
       </ul>
     </div>
-  )
-}
-
+  );
+};
 
 const ListItem = (props) => {
   return (
     <li className="border-t border-gray-200">
-      <a href="#" className="block hover:bg-gray-50 focus:outline-none focus:bg-gray-50 transition duration-150 ease-in-out">
-        <div className="flex items-center px-4 py-4 sm:px-6">
-          <div className="min-w-0 flex-1 flex items-center">
-            <div className="flex-shrink-0">
-              <img className="border border-thin border-gray-200 h-12 w-12 rounded-full bg-gray-100" src={props.imageURL} alt="" />
-            </div>
-            <div className="min-w-0 flex-1 px-4 md:grid md:grid-cols-2 md:gap-4">
-              <div>
-              <div className="text-sm leading-5 font-semibold text-indigo-600 truncate">{props.name || ""}</div>
-                <div className="mt-2 flex items-center text-sm leading-5 text-gray-500">
-                  <Email />
-                  <span className="truncate pl-2">Coming Soon</span>
-                </div>
+      <Link
+        href={`/roadmaps/web-development/${props.id}`}
+        className="block hover:bg-gray-50 focus:outline-none focus:bg-gray-50 transition duration-150 ease-in-out"
+      >
+        <a>
+          <div className="flex items-center px-4 py-4 sm:px-6">
+            <div className="min-w-0 flex-1 flex items-center">
+              <div className="flex-shrink-0">
+                <img
+                  className="border border-thin border-gray-200 h-12 w-12 rounded-full bg-gray-100"
+                  src={props.icon}
+                  alt=""
+                />
               </div>
-              {/* <div className="hidden md:block">
+              <div className="min-w-0 flex-1 px-4 md:grid md:grid-cols-2 md:gap-4">
+                <div>
+                  <div className="text-sm leading-5 font-semibold text-indigo-600 truncate">
+                    {props.title || ''}
+                  </div>
+                  <div className="mt-2 flex items-center text-sm leading-5 text-gray-500">
+                    {/* <Email /> */}
+                    <span className="truncate">{props.description}</span>
+                  </div>
+                </div>
+                {/* <div className="hidden md:block">
                 <div>
                   <div className="text-sm leading-5 text-gray-900">
                     Applied on
@@ -97,15 +57,16 @@ const ListItem = (props) => {
                   </div>
                 </div>
               </div> */}
+              </div>
+            </div>
+            <div>
+              <RightChevron />
             </div>
           </div>
-          <div>
-            <RightChevron />
-          </div>
-        </div>
-      </a>
+        </a>
+      </Link>
     </li>
-  )
-}
+  );
+};
 
 export default StackedList;

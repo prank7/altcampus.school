@@ -2,11 +2,12 @@ import { createContext, useState } from 'react';
 import Head from 'next/head';
 import { NextSeo } from 'next-seo';
 import Link from 'next/link';
+import { MDXRemote } from 'next-mdx-remote';
+
 import { getAllRoadmapIds, getRoadmapData } from '../../../lib/roadmaps';
 import Layout from '../../../components/Layout';
 import PostCTA from '../../../components/Community/PostCTA';
 import authors from '../../../lib/author.json';
-import { MDXRemote } from 'next-mdx-remote';
 import Topics from '../../../components/roadmap/Topics';
 import Modal from '../../../components/roadmap/Modal';
 
