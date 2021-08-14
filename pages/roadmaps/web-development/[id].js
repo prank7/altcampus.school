@@ -19,30 +19,31 @@ const components = {
   Topics,
   Modal
 };
-export default function Post({ postData }) {
+export default function Post({ roadmapData }) {
   let [open, setOpen] = useState(false);
   let [modalType, setModalType] = useState('paid');
-  let authorInfo = authors[postData.author || 'altcampus'];
 
   return (
     <ModalContext.Provider value={{ open, setOpen, modalType, setModalType }}>
       <Layout>
-        {postData.scriptTag ? (
+        {roadmapData.scriptTag ? (
           <Head>
-            <script type="text/javascript" src={postData.scriptTag}></script>
+            <script type="text/javascript" src={roadmapData.scriptTag}></script>
           </Head>
         ) : null}
         <NextSeo
-          title={postData.title + ' |' + ' AltCampus School'}
-          description={postData.description}
+          title={roadmapData.title + ' |' + ' AltCampus School'}
+          description={roadmapData.description}
           openGraph={{
-            title: postData.title + ' |' + ' AltCampus School',
-            url: 'https://altcampus.school/community/posts/' + postData.id,
-            description: postData.description,
+            title: roadmapData.title + ' |' + ' AltCampus School',
+            url:
+              'https://altcampus.school/roadmaps/web-development/' +
+              roadmapData.id,
+            description: roadmapData.description,
             images: [
               {
-                url: postData.photo,
-                alt: postData.title
+                url: roadmapData.photo,
+                alt: roadmapData.title
               }
             ]
           }}
@@ -59,10 +60,10 @@ export default function Post({ postData }) {
                 Step by step
               </strong>
               <h1 className="text-5xl text-royal-blue-800 mt-2 font-extrabold max-w-screen-md">
-                {postData.title}
+                {roadmapData.title}
               </h1>
               <p className="text-lg text-gray-500 mt-4 max-w-screen-md">
-                {postData.description}
+                {roadmapData.description}
               </p>
             </div>
           </header>
@@ -70,7 +71,7 @@ export default function Post({ postData }) {
           <section className="prose bg-white pt-12 pb-4">
             <article className="container md:max-w-screen-lg mx-auto px-8 md:px-24">
               <Modal />
-              <MDXRemote {...postData.contentHtml} components={components} />
+              <MDXRemote {...roadmapData.contentHtml} components={components} />
             </article>
           </section>
 
@@ -82,8 +83,8 @@ export default function Post({ postData }) {
                   target="_blank"
                   style={{ color: '#40A8F5', borderColor: '#40A8F5' }}
                   href={`https://twitter.com/intent/tweet?text=${
-                    postData.title + ' - @AltCampus'
-                  }&url=${`https://altcampus.school/community/posts/${postData.id}`}`}
+                    roadmapData.title + ' - @AltCampus'
+                  }&url=${`https://altcampus.school/community/posts/${roadmapData.id}`}`}
                 >
                   <img
                     className="h-5"
@@ -99,7 +100,7 @@ export default function Post({ postData }) {
                 <a
                   className="flex border px-4 py-1 rounded-md border-royal-blue-500 items-center btn-hover"
                   style={{ color: '#4460A0', borderColor: '#4460A0' }}
-                  href={`https://facebook.com/sharer/sharer.php?u=${`https://altcampus.school/community/posts/${postData.id}`}`}
+                  href={`https://facebook.com/sharer/sharer.php?u=${`https://altcampus.school/community/posts/${roadmapData.id}`}`}
                 >
                   <img
                     className="h-5"
@@ -113,7 +114,7 @@ export default function Post({ postData }) {
               </li>
             </ul>
           </section>
-          {postData.cta ? <PostCTA ctaText={postData.ctaText} /> : null}
+          {roadmapData.cta ? <PostCTA ctaText={roadmapData.ctaText} /> : null}
         </main>
       </Layout>
     </ModalContext.Provider>
@@ -129,11 +130,11 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  const postData = await getRoadmapData(params.id);
+  const roadmapData = await getRoadmapData(params.id);
 
   return {
     props: {
-      postData
+      roadmapData
     }
   };
 }
