@@ -55,6 +55,9 @@ There are endless materials on the internet to get one started, but there are a 
 
    Bootcamps offer this and much more. Apart from just upskilling, they also help people who are looking to entirely switch careers from a different domain to software development. There are various bootcamps in India to learn programming :
 
+   - Lambda School → Online coding school that remotely trains devlelopers. Students pay 17% of their annual income for two years in the ISA model of Lambda. 
+   - Flatiron School → An in-person bootcamp that offers courses in Software Engineering and Analytics. Upfront payment and loan based payment options are available. 
+   - Le Wagon → An online as well as in-person bootcamp based out of multiple locations. Offers courses in Web Development and Data Science.  
    - The Newton School → An ISA based online bootcamp that offers various courses in programming, with zero upfront fees. Students can start learning right away and then pay the bootcamp back when they get a job. This payment period can extend to 36 months depending on the terms of the ISA and the salary.
    - Masai School → Based out of Bangalore, Masai also offers an ISA based online platform for both full-stack web development and full-stack Android development. The fees/ISA structure is similar to that of Newton School’s.
 

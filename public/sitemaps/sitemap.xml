@@ -62,11 +62,13 @@
     >
   </url>
   <url>
-    <loc>https://altcampus.school/community/posts/demo</loc>
+    <loc
+      >https://altcampus.school/community/posts/do-you-need-a-cs-degree-to-become-a-software-developer</loc
+    >
   </url>
   <url>
     <loc
-      >https://altcampus.school/community/posts/do-you-need-a-cs-degree-to-become-a-software-developer</loc
+      >https://altcampus.school/community/posts/full-stack-developer-career-salary</loc
     >
   </url>
   <url>
@@ -101,6 +103,11 @@
   </url>
   <url>
     <loc
+      >https://altcampus.school/community/posts/ultimate-guide-to-programming-bootcamps</loc
+    >
+  </url>
+  <url>
+    <loc
       >https://altcampus.school/community/posts/understanding-positioning-in-css</loc
     >
   </url>
@@ -112,6 +119,11 @@
   <url>
     <loc
       >https://altcampus.school/community/posts/why-are-bootcamps-so-expensive</loc
+    >
+  </url>
+  <url>
+    <loc
+      >https://altcampus.school/community/posts/why-every-developer-should-have-a-portfolio</loc
     >
   </url>
   <url>
