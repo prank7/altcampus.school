@@ -18,7 +18,7 @@ const StackedList = ({ roadmapsInfo }) => {
 
 const ListItem = (props) => {
   return (
-    <li className="border-t border-gray-200">
+    <li className="border-t border-gray-200 hover:bg-gray-100">
       <Link
         href={`/roadmaps/web-development/${props.id}`}
         className="block hover:bg-gray-50 focus:outline-none focus:bg-gray-50 transition duration-150 ease-in-out"
@@ -35,10 +35,10 @@ const ListItem = (props) => {
               </div>
               <div className="min-w-0 flex-1 px-4 md:grid md:grid-cols-2 md:gap-4">
                 <div>
-                  <div className="text-sm leading-5 font-semibold text-indigo-600 truncate">
+                  <div className="text-lg leading-5 font-semibold text-dark-blue-600 truncate">
                     {props.title || ''}
                   </div>
-                  <div className="mt-2 flex items-center text-sm leading-5 text-gray-500">
+                  <div className="mt-2 flex items-center text-sm leading-5 text-gray-600">
                     {/* <Email /> */}
                     <span className="truncate">{props.description}</span>
                   </div>
@@ -60,7 +60,7 @@ const ListItem = (props) => {
               </div>
             </div>
             <div>
-              <RightChevron />
+              <RightChevron className="w-8 h-8" />
             </div>
           </div>
         </a>
