@@ -27,7 +27,7 @@ function WebDevelopment({ roadmapsInfo }) {
       />
       <div className="max-w-4xl mx-auto">
         <div className="col-span-1 sm:col-span-1 md:col-span-6 my-14 mx-8">
-          <h1 className="text-center py-4 text-3xl font-bold text-gray-600">
+          <h1 className="text-center py-4 text-3xl font-bold text-royal-blue-600">
             Full Stack Web Development Roadmap (MERN Stack)
           </h1>
           <p className="pt-4 text-center text-gray-500 text-md">
