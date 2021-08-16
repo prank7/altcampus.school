@@ -2,7 +2,6 @@
 title: 'Unix and Git'
 description: 'Learn the basics of Unix and some handy Shell commands. Get the power of Git too!'
 date: '2020-06-09'
-blurb: Learn about some common situation while using Git such as changing the git commit message, understanding git log and more.
 photo: '/images/roadmaps/unix-and-git.jpg'
 icon: 'https://cdn.coda.io/icons/svg/color/git.svg'
 cta: true
@@ -38,14 +37,13 @@ Windows is one of the main operating systems that does not belong to the Unix OS
       type: ''
     },
     {
-      text: 'Basic Shell Commands - Manipulating files(CRUD on Files)',
+      text: 'Manipulating files(CRUD on Files)',
       link:
         'https://www.youtube.com/watch?v=8REFyT06qPU&list=PLuV7IXB8NIKV5GhmjkRUtrVB2-7iUL_QK&index=3',
       type: ''
     },
     {
-      text:
-        'Basic Shell Commands - Working with directories/folders(CRUD on Directory)',
+      text: 'Working with directories/folders (CRUD on Directory)',
       link:
         'https://www.youtube.com/watch?v=E296igoqqHY&list=PLuV7IXB8NIKV5GhmjkRUtrVB2-7iUL_QK&index=4',
       type: ''
@@ -53,213 +51,77 @@ Windows is one of the main operating systems that does not belong to the Unix OS
   ]}
   exercises={[
     {
-      text: 'Exercise - Practice commands on unix and shell',
+      text: 'Practice commands on unix and shell',
       link: 'https://gist.github.com/suraj122/f52ccd978fcede5b402f8f658c048ce7',
       type: 'free'
+    },
+    {
+      text: 'Practice CRUD operations',
+      link: '',
+      type: 'trial'
+    },
+    {
+      text: 'Practicing commands on Directory',
+      link: '',
+      type: 'trial'
     }
   ]}
 />
 
-## 2. Git (Version Control)
+## 2. Git and Github
 
 Git is version control system. Version control is a system that keeps track of changes to a file or set of files, overtime so that you can go back to specific version later.
-
-<Topics
-  title="Introduction to GIT"
-  topics={[
-    {
-      text: 'What is Version Control?',
-      link:
-        'https://www.youtube.com/watch?v=umWcwhidbsQ&list=PLuV7IXB8NIKV5GhmjkRUtrVB2-7iUL_QK&index=5',
-      type: ''
-    },
-    {
-      text: 'Versioning in Git',
-      link:
-        'https://www.youtube.com/watch?v=umWcwhidbsQ&list=PLuV7IXB8NIKV5GhmjkRUtrVB2-7iUL_QK&index=5',
-      type: ''
-    },
-    {
-      text: 'Stages in Git(Untracked area, Staging area, Committed stage',
-      link:
-        'https://www.youtube.com/watch?v=umWcwhidbsQ&list=PLuV7IXB8NIKV5GhmjkRUtrVB2-7iUL_QK&index=5',
-      type: ''
-    }
-  ]}
-/>
-<Topics
-  title="Basic Git Commands"
-  topics={[
-    {
-      text: 'Installing Git',
-      link:
-        'https://www.youtube.com/watch?v=9HbQj3kgpHM&list=PLuV7IXB8NIKV5GhmjkRUtrVB2-7iUL_QK&index=6',
-      type: ''
-    },
-    {
-      text: 'Configuring Git in your local system',
-      link:
-        'https://www.youtube.com/watch?v=9HbQj3kgpHM&list=PLuV7IXB8NIKV5GhmjkRUtrVB2-7iUL_QK&index=6',
-      type: ''
-    },
-    {
-      text: 'Initializing git',
-      link:
-        'https://www.youtube.com/watch?v=9HbQj3kgpHM&list=PLuV7IXB8NIKV5GhmjkRUtrVB2-7iUL_QK&index=6',
-      type: ''
-    },
-    {
-      text: 'Git Status - checks the current status of changes',
-      link:
-        'https://www.youtube.com/watch?v=9HbQj3kgpHM&list=PLuV7IXB8NIKV5GhmjkRUtrVB2-7iUL_QK&index=6',
-      type: ''
-    },
-    {
-      text: 'Git log - gives the commit history of a repository',
-      link:
-        'https://www.youtube.com/watch?v=9HbQj3kgpHM&list=PLuV7IXB8NIKV5GhmjkRUtrVB2-7iUL_QK&index=6',
-      type: ''
-    },
-    {
-      text: 'Git add - sends changes to the staging area',
-      link:
-        'https://www.youtube.com/watch?v=9HbQj3kgpHM&list=PLuV7IXB8NIKV5GhmjkRUtrVB2-7iUL_QK&index=6',
-      type: ''
-    },
-    {
-      text: 'Git commit - sends changes from staging area to committed area',
-      link:
-        'https://www.youtube.com/watch?v=9HbQj3kgpHM&list=PLuV7IXB8NIKV5GhmjkRUtrVB2-7iUL_QK&index=6',
-      type: ''
-    },
-    {
-      text:
-        'Git diff - checks the difference between staging area and working tree',
-      link:
-        'https://www.youtube.com/watch?v=9HbQj3kgpHM&list=PLuV7IXB8NIKV5GhmjkRUtrVB2-7iUL_QK&index=6',
-      type: ''
-    },
-    {
-      text:
-        'Git restore --staged - moves back the changes from staging area to working tree',
-      link:
-        'https://www.youtube.com/watch?v=9HbQj3kgpHM&list=PLuV7IXB8NIKV5GhmjkRUtrVB2-7iUL_QK&index=6',
-      type: ''
-    },
-    { text: 'Ignoring a file from tracking by git', link: '', type: '' }
-  ]}
-/>
-
-<Topics
-  title="Branching and Merging in Git"
-  topics={[
-    {
-      text: 'Creating a git branch',
-      link:
-        'https://www.youtube.com/watch?v=wYx6oaRThg4&list=PLuV7IXB8NIKV5GhmjkRUtrVB2-7iUL_QK&index=7',
-      type: ''
-    },
-    {
-      text: 'Switching from one branch to another',
-      link:
-        'https://www.youtube.com/watch?v=wYx6oaRThg4&list=PLuV7IXB8NIKV5GhmjkRUtrVB2-7iUL_QK&index=7',
-      type: ''
-    },
-    {
-      text: 'Merging branches',
-      link:
-        'https://www.youtube.com/watch?v=wYx6oaRThg4&list=PLuV7IXB8NIKV5GhmjkRUtrVB2-7iUL_QK&index=7',
-      type: ''
-    },
-    {
-      text: 'Deleting a branch',
-      link:
-        'https://www.youtube.com/watch?v=wYx6oaRThg4&list=PLuV7IXB8NIKV5GhmjkRUtrVB2-7iUL_QK&index=7',
-      type: ''
-    },
-    {
-      text: '3 way merging',
-      link:
-        'https://www.youtube.com/watch?v=wYx6oaRThg4&list=PLuV7IXB8NIKV5GhmjkRUtrVB2-7iUL_QK&index=7',
-      type: ''
-    },
-    { text: 'Understanding merge conflicts', link: '', type: '' },
-    { text: 'Resolving a merge conflicts', link: '', type: '' }
-  ]}
-/>
-
-## Github
 
 GitHub is a code hosting platform for version control and collaboration. It lets you and your teammate to work together on projects from anywhere.
 
 <Topics
-  title="Introduction to Github"
+  title="Introduction to Git and Github"
   topics={[
     {
-      text: 'Collabrating with Git',
-      link:
-        'https://www.youtube.com/watch?v=uQW_1fYS17w&list=PLuV7IXB8NIKV5GhmjkRUtrVB2-7iUL_QK&index=8',
+      text: 'What is a Version Control System?',
+      link: 'https://www.youtube.com/watch?v=umWcwhidbsQ',
       type: ''
     },
     {
-      text: 'What is a remote repository?',
-      link:
-        'https://www.youtube.com/watch?v=uQW_1fYS17w&list=PLuV7IXB8NIKV5GhmjkRUtrVB2-7iUL_QK&index=8',
+      text: 'Understanding Git - real world example',
+      link: 'https://www.youtube.com/watch?v=9HbQj3kgpHM',
       type: ''
     },
     {
-      text: 'Creating a remote repository and connecting to a local repository',
-      link:
-        'https://www.youtube.com/watch?v=uQW_1fYS17w&list=PLuV7IXB8NIKV5GhmjkRUtrVB2-7iUL_QK&index=8',
+      text: 'Working with git branches',
+      link: 'https://www.youtube.com/watch?v=wYx6oaRThg4',
       type: ''
     },
     {
-      text: 'Pushing changes from a local repository to a remote repository',
-      link:
-        'https://www.youtube.com/watch?v=uQW_1fYS17w&list=PLuV7IXB8NIKV5GhmjkRUtrVB2-7iUL_QK&index=8',
-      type: ''
-    },
-    {
-      text: 'Cloning a remote repository',
-      link:
-        'https://www.youtube.com/watch?v=uQW_1fYS17w&list=PLuV7IXB8NIKV5GhmjkRUtrVB2-7iUL_QK&index=8',
-      type: ''
-    },
-    {
-      text: 'Creating a pull request and merging it',
-      link:
-        'https://www.youtube.com/watch?v=uQW_1fYS17w&list=PLuV7IXB8NIKV5GhmjkRUtrVB2-7iUL_QK&index=8',
-      type: ''
-    },
-    {
-      text: 'Fetching changes from remote to a local repository',
-      link:
-        'https://www.youtube.com/watch?v=uQW_1fYS17w&list=PLuV7IXB8NIKV5GhmjkRUtrVB2-7iUL_QK&index=8',
-      type: ''
-    },
-    {
-      text: 'Pulling changes from remote and merge to a local repository',
-      link:
-        'https://www.youtube.com/watch?v=uQW_1fYS17w&list=PLuV7IXB8NIKV5GhmjkRUtrVB2-7iUL_QK&index=8',
-      type: ''
-    },
-    {
-      text: 'Githu Pages - Make your first website live',
-      link: 'https://pages.github.com/',
+      text: 'Collaborating via Github',
+      link: 'https://www.youtube.com/watch?v=uQW_1fYS17w',
       type: ''
     }
   ]}
   exercises={[
     {
-      text:
-        'Create your first small project. Use Git and Github to do and make a personal "hello world" website.',
-      link: 'https://gist.github.com/suraj122/f52ccd978fcede5b402f8f658c048ce7',
-      type: 'free'
+      text: 'Meditating on Git',
+      link: '',
+      type: 'trial'
     },
     {
-      text: 'Github Pages - Make your first website live',
-      link: 'https://pages.github.com/',
-      type: 'free'
+      text: 'Practicing Basic Git Commands',
+      link: '',
+      type: 'trial'
+    },
+    {
+      text: 'Practicing Branching',
+      link: '',
+      type: 'trial'
+    },
+    {
+      text: 'Using Github Pages to make your first page live',
+      link: '',
+      type: 'trial'
+    },
+    {
+      text: 'First Day on Github',
+      link: 'https://lab.github.com/githubtraining/first-day-on-github'
     }
   ]}
 />

@@ -32,10 +32,10 @@ export default function Post({ roadmapData }) {
           </Head>
         ) : null}
         <NextSeo
-          title={roadmapData.title + ' |' + ' AltCampus School'}
+          title={`${roadmapData.title} | AltCampus School'`}
           description={roadmapData.description}
           openGraph={{
-            title: roadmapData.title + ' |' + ' AltCampus School',
+            title: `${roadmapData.title} Roadmap | AltCampus School`,
             url:
               'https://altcampus.school/roadmaps/web-development/' +
               roadmapData.id,
@@ -60,7 +60,7 @@ export default function Post({ roadmapData }) {
                 Step by step
               </strong>
               <h1 className="text-5xl text-royal-blue-800 mt-2 font-extrabold max-w-screen-md">
-                {roadmapData.title}
+                {roadmapData.title} Roadmap
               </h1>
               <p className="text-lg text-gray-500 mt-4 max-w-screen-md">
                 {roadmapData.description}
