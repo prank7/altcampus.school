@@ -25,20 +25,23 @@ function WebDevelopment({ roadmapsInfo }) {
           description
         }}
       />
-      <div className="max-w-4xl mx-auto">
-        <div className="col-span-1 sm:col-span-1 md:col-span-6 my-14 mx-8">
-          <h1 className="text-center py-4 text-3xl font-bold text-royal-blue-600">
-            Full Stack Web Development Roadmap (MERN Stack)
-          </h1>
-          <p className="pt-4 text-center text-gray-500 text-md">
-            Below you will find all the topics - arranged in step-by-step order
-            - that you will need to cover to become a full-stack web developer.
-            If you complete all of these you should achieve your goal within 6-8
-            months (studying 6-8 hours a day). Get started today!
-          </p>
-        </div>
-        <div className="mb-20 mx-8 col-span-1 md:col-start-2 md:col-span-4">
-          <StackedList roadmapsInfo={roadmapsInfo} />
+      <div className="w-full h-full bg-gray-100 py-12">
+        <div className="max-w-4xl mx-auto">
+          <div className="mx-8">
+            <h1 className="text-center py-4 text-4xl font-bold text-gray-600">
+              Your Roadmap to Becoming a Full-Stack Web Developer (MERN Stack)
+            </h1>
+            <p className="pb-16 pt-6 text-center text-gray-500 text-md">
+              Below you will find all the topics - arranged in step-by-step
+              order - that you will need to cover to become a full-stack web
+              developer. If you complete all of these, you should achieve your
+              goal within 6-8 months (studying 6-8 hours a day). Get started
+              today!
+            </p>
+          </div>
+          <div className="mx-8 mb-8">
+            <StackedList roadmapsInfo={roadmapsInfo} />
+          </div>
         </div>
       </div>
     </Layout>

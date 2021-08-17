@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import React, { useState } from 'react';
 import { AltCampusIcon } from './Icons';
+import ActiveLink from '../components/Home/ActiveLink';
 
 function Navbar(params) {
   const [navbarOpen, setNavbarOpen] = useState(false);
@@ -58,20 +59,20 @@ function Navbar(params) {
           <ul className="md:flex md:items-center">
             <li className="md:hidden">
               <Link href="/">
-                <a href="/">
+                <a>
                   <AltCampusIcon className="h-12 w-auto sm:h-10" />
                 </a>
               </Link>
             </li>
             <li className="mt-12 md:mt-0 hidden md:inline-block">
-              <Link href="/">
+              <ActiveLink href="/">
                 <a className="text-gray-700 text-base hover:text-gray-900 transition ease-in-out duration-150">
                   Program
                 </a>
-              </Link>
+              </ActiveLink>
             </li>
             <li className="mt-12 md:mt-0 md:ml-8">
-              <Link href="/roadmaps/web-development">
+              <ActiveLink href="/roadmaps/web-development">
                 <a className="inline-flex items-center text-gray-700 text-base hover:text-gray-900 transition ease-in-out duration-150">
                   <img
                     className="h-6 w-6 text-green-theme-600 md:hidden mr-3"
@@ -79,10 +80,10 @@ function Navbar(params) {
                   />
                   Roadmap
                 </a>
-              </Link>
+              </ActiveLink>
             </li>
             <li className="mt-4 md:mt-0 md:ml-8">
-              <Link href="/placements">
+              <ActiveLink href="/placements">
                 <a className="inline-flex items-center text-gray-700 text-base hover:text-gray-900 transition ease-in-out duration-150">
                   <img
                     className="h-6 w-6 text-green-theme-600 md:hidden mr-3"
@@ -90,10 +91,10 @@ function Navbar(params) {
                   />
                   Placements
                 </a>
-              </Link>
+              </ActiveLink>
             </li>
             <li className="mt-4 md:mt-0 md:ml-8">
-              <Link href="/community/posts">
+              <ActiveLink href="/community/posts">
                 <a
                   href="/community/posts"
                   className="inline-flex items-center text-gray-700 text-base hover:text-gray-900 transition ease-in-out duration-150"
@@ -104,10 +105,10 @@ function Navbar(params) {
                   />
                   Posts
                 </a>
-              </Link>
+              </ActiveLink>
             </li>
             <li className="mt-4 md:mt-0 md:ml-8">
-              <Link href="/community/stories">
+              <ActiveLink href="/community/stories">
                 <a
                   href="/community/stories"
                   className="inline-flex items-center text-gray-700 text-base hover:text-gray-900 transition ease-in-out duration-150"
@@ -118,7 +119,7 @@ function Navbar(params) {
                   />
                   Stories
                 </a>
-              </Link>
+              </ActiveLink>
             </li>
             <li className="grid grid-cols-2 row-gap-4 col-gap-8 border-t-2 border-dark-blue-100 md:hidden mt-8 py-8">
               <a
