@@ -277,4 +277,23 @@
   <url>
     <loc>https://altcampus.school/placements/reettik-goswami</loc>
   </url>
+
+  <url>
+    <loc>https://altcampus.school/roadmaps/web-development/unix-and-git</loc>
+  </url>
+  <url>
+    <loc
+      >https://altcampus.school/roadmaps/web-development/html-and-css-fundamentals</loc
+    >
+  </url>
+  <url>
+    <loc
+      >https://altcampus.school/roadmaps/web-development/javascript-fundamentals</loc
+    >
+  </url>
+  <url>
+    <loc
+      >https://altcampus.school/roadmaps/web-development/javascript-advanced</loc
+    >
+  </url>
 </urlset>
