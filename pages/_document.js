@@ -23,7 +23,7 @@ class MyDocument extends Document {
             href="/assets/media/favicon.png"
           />
 
-          <link
+          {/* <link
             rel="preconnect"
             href="https://fonts.googleapis.com"
             crossOrigin="true"
@@ -51,7 +51,7 @@ class MyDocument extends Document {
                 gtag('config', '${GA_TRACKING_ID}');
             `
             }}
-          />
+          /> */}
         </Head>
         <body className="antialiased">
           <Main />
