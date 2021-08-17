@@ -18,7 +18,7 @@ const StackedList = ({ roadmapsInfo }) => {
 
 const ListItem = (props) => {
   return (
-    <li className="border-t border-gray-200 hover:bg-gray-100">
+    <li className="border-t border-gray-200 hover:bg-gray-50">
       <Link
         href={`/roadmaps/web-development/${props.id}`}
         className="block hover:bg-gray-50 focus:outline-none focus:bg-gray-50 transition duration-150 ease-in-out"
