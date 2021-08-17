@@ -65,20 +65,14 @@ function Navbar(params) {
             </li>
             <li className="mt-12 md:mt-0 hidden md:inline-block">
               <Link href="/">
-                <a
-                  href="/"
-                  className="text-gray-700 text-base hover:text-gray-900 transition ease-in-out duration-150"
-                >
+                <a className="text-gray-700 text-base hover:text-gray-900 transition ease-in-out duration-150">
                   Program
                 </a>
               </Link>
             </li>
             <li className="mt-12 md:mt-0 md:ml-8">
-              <Link href="/community/web-development">
-                <a
-                  href="/community/web-development"
-                  className="inline-flex items-center text-gray-700 text-base hover:text-gray-900 transition ease-in-out duration-150"
-                >
+              <Link href="/roadmaps/web-development">
+                <a className="inline-flex items-center text-gray-700 text-base hover:text-gray-900 transition ease-in-out duration-150">
                   <img
                     className="h-6 w-6 text-green-theme-600 md:hidden mr-3"
                     src="/images/icons/roadmap.svg"
@@ -89,10 +83,7 @@ function Navbar(params) {
             </li>
             <li className="mt-4 md:mt-0 md:ml-8">
               <Link href="/placements">
-                <a
-                  href="/placements"
-                  className="inline-flex items-center text-gray-700 text-base hover:text-gray-900 transition ease-in-out duration-150"
-                >
+                <a className="inline-flex items-center text-gray-700 text-base hover:text-gray-900 transition ease-in-out duration-150">
                   <img
                     className="h-6 w-6 text-green-theme-600 md:hidden mr-3"
                     src="/images/icons/roadmap.svg"
