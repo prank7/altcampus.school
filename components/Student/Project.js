@@ -1,7 +1,6 @@
 import React from 'react';
 
 function Project(props) {
-  // console.log(props.project)
   return (
     <div className="p-4 bg-white shadow rounded-md mb-8">
       <h3 className="text-gray-800 font-mukta text-2xl font-bold mb-1">

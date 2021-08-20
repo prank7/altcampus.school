@@ -1,7 +1,6 @@
 import React from 'react';
 
 function Blog(props) {
-  // console.log(props.blog)
   return (
     <div className="p-4 bg-white shadow rounded-md mb-8">
       <a href={props.blog.liveURL} target="_blank">

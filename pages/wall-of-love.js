@@ -1,10 +1,19 @@
 import React from 'react';
 import Head from 'next/head';
 import { NextSeo } from 'next-seo';
+import Masonry from 'react-masonry-css';
 
 import LayoutHome from '../components/Home/Layout';
 import { getTweets } from '../lib/twitter';
 import Tweet from '../components/Tweet';
+
+const breakpointColumnsObj = {
+  default: 3,
+  1280: 3,
+  1024: 2,
+  768: 2,
+  640: 1
+};
 
 function WallOfLove({ tweets }) {
   console.log(tweets);
@@ -25,15 +34,19 @@ function WallOfLove({ tweets }) {
         }}
       />
       <LayoutHome>
-        <main className="max-w-7xl mx-auto px-8 py-16">
-          <h1 className="text-center text-dark-blue-500 text-5xl font-semibold mb-8">
+        <main className="max-w-7xl mx-auto px-8 py-20">
+          <h1 className="text-center text-dark-blue-500 text-5xl font-semibold mb-16">
             What people are saying!
           </h1>
-          <div className="grid grid-cols-1 gap-x-4 gap-y-8 sm:grid-cols-2 sm:gap-x-6 lg:grid-cols-3 xl:gap-x-8">
+          <Masonry
+            breakpointCols={breakpointColumnsObj}
+            className="my-masonry-grid"
+            columnClassName="my-masonry-grid_column"
+          >
             {tweets.map((tweet) => (
               <Tweet key={tweet.id} {...tweet} />
             ))}
-          </div>
+          </Masonry>
         </main>
       </LayoutHome>
     </>
@@ -86,6 +99,7 @@ export async function getStaticProps() {
     '1270398313368391681',
     '1361225375750049794',
     '1331617753946460160',
+    '1052896689017810944',
     '1328388068831764481',
     '1324336961893486595',
     '1315696357181587456',
@@ -105,8 +119,7 @@ export async function getStaticProps() {
     '1117468286579556353',
     '1113998003130589184',
     '1102619238395633664',
-    '1098640557096734720',
-    '1052896689017810944'
+    '1098640557096734720'
   ]);
 
   return { props: { tweets } };
