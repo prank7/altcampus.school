@@ -16,7 +16,6 @@ const breakpointColumnsObj = {
 };
 
 function WallOfLove({ tweets }) {
-  console.log(tweets);
   var title = 'Wall Of Love | AltCampus School';
   var description =
     'AltCampus is one of the best programming bootcamps in India. Learn how it helps you get a job as a full stack web developer.';
