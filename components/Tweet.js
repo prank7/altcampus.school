@@ -92,8 +92,8 @@ export default function Tweet({
         className="tweet mt-4 mb-4 leading-normal whitespace-pre-wrap text-lg text-gray-700"
         dangerouslySetInnerHTML={{
           __html: twitterText.autoLink(formattedText, {
-            usernameClass: 'tweet-text-color font-semibold',
-            hashtagClass: 'tweet-text-color',
+            usernameClass: 'tweet-text-color font-semibold hover:underline',
+            hashtagClass: 'tweet-text-color hover:underline',
             targetBlank: true,
             usernameIncludeSymbol: true
           })
