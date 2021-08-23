@@ -27,6 +27,7 @@
     "querystring": "^0.2.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-masonry-css": "^1.0.16",
     "reading-time": "^1.3.0",
     "remark": "^13.0.0",
     "remark-gfm": "^1.0.0",
@@ -34,7 +35,8 @@
     "remark-prism": "^1.3.6",
     "slugify": "^1.6.0",
     "tailwindcss": "^2.2.7",
-    "tinytime": "^0.2.6"
+    "tinytime": "^0.2.6",
+    "twitter-text": "^3.1.0"
   },
   "peerDependencies": {
     "@fullhuman/postcss-purgecss": "^4.0.2",
