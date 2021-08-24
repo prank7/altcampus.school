@@ -39,7 +39,7 @@ function ContactPage(props) {
                 <div className='mt-4'>
                   Email us at -
                   <a
-                    href='mailto:hello@altcampus.io'
+                    href='mailto:hello@altcampus.school'
                     style={{ color: '#30ba67' }}
                   >
                     hello@altcampus.io
