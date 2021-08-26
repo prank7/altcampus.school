@@ -2673,7 +2673,34 @@
     "twitter": "https://twitter.com/ashwinkumar_25",
     "linkedin": "https://www.linkedin.com/in/ashwin-kumar-0925/",
     "github": "https://github.com/ashwin0925",
-    "image": {},
+    "image": [
+      {
+        "id": "attQtgO0KXtmFY9qk",
+        "width": 400,
+        "height": 400,
+        "url": "https://dl.airtable.com/.attachments/395720215a63fe2ca34742a7a45f981f/3eac860d/aswin.jpg",
+        "filename": "aswin.jpg",
+        "size": 27438,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/930b09c00e14b874af63fde859568ee5/4febc817",
+            "width": 36,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/9d95c7e638ff9f6a8d395852b37366f8/c11379b5",
+            "width": 400,
+            "height": 400
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/d24c32a65437b0073a36d3bf7a4a08fc/aa087162",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
     "experineceAtAltCampus": "One of the best \"Boot Camp\" to learn to Programming where we can meet and work with people from different states, share ideas with each other and grow together.",
     "interviewLink": "",
     "graduationYear": "",
