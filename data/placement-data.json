@@ -2438,5 +2438,245 @@
     "interviewLink": "",
     "graduationYear": "",
     "companyWebsite": "https://www.bigbinary.com/"
+  },
+  {
+    "name": "Kiran Kumar",
+    "about": "I have a Bachelors Degree from VTU Karnataka, and currently working as a Software Engineer at BigBinary.",
+    "username": "kiran-kumar011",
+    "company": "BigBinary",
+    "dateOfBirth": "",
+    "role": "Software Engineer",
+    "ctc": "NA",
+    "projects": [
+      { "title": "", "description": "", "liveURL": "", "code": "" },
+      { "title": "", "description": "", "liveURL": "", "code": "" },
+      { "title": "", "description": "", "liveURL": "", "code": "" },
+      { "title": "", "description": "", "liveURL": "", "code": "" }
+    ],
+    "blogPosts": [
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" }
+    ],
+    "highestEducation": "Sambhram institute of technology, Bangalore",
+    "email": "kirankirankumar56@gmail.com",
+    "twitter": "https://twitter.com/kiran__kumaar",
+    "linkedin": "https://www.linkedin.com/in/kiran-kumar-167869134/",
+    "github": "https://github.com/kiran-kumar011",
+    "image": [
+      {
+        "id": "attjJQXo56PBuHtpq",
+        "width": 2048,
+        "height": 1365,
+        "url": "https://dl.airtable.com/.attachments/f4aa32febac1555df8df19c4e6e2b46d/9b77d0b5/Kiran.jpg",
+        "filename": "Kiran.jpg",
+        "size": 1294542,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/0d7cb3e59733195333281a27cc30dd9d/bce90fba",
+            "width": 54,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/9a2967e4294d92d68c1bab2845776054/ae11e4a5",
+            "width": 768,
+            "height": 512
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/c5cf94794ef42a3e3167644e3ce0f751/2c3ca501",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
+    "experineceAtAltCampus": "I had a great learning experience because of the environment created at AltCampus.\nA system to coordinate and discuss all of your doubts while learning programming.",
+    "interviewLink": "",
+    "graduationYear": "",
+    "companyWebsite": "https://www.bigbinary.com/"
+  },
+  {
+    "name": "Swastik Yadav",
+    "about": "I am a college dropout turned full-stack software engineer, with the help of AltCampus.\n\nNowadays I am working on my own freelancing business. Where I help online course creators with high converting copywriting and websites.",
+    "username": "Swastikyadav",
+    "company": "BigBinary",
+    "dateOfBirth": "",
+    "role": "Software Engineer",
+    "ctc": "NA",
+    "projects": [
+      {
+        "title": "Twitter Clone",
+        "description": "Twitter Clone",
+        "liveURL": "https://swastikyadav.github.io/twitter-clone/",
+        "code": "https://swastikyadav.github.io/twitter-clone/"
+      },
+      {
+        "title": "Chrome Extension",
+        "description": "Chrome extension for basic git, bash and css commands.",
+        "liveURL": "https://github.com/Swastikyadav/js_chrome_extension",
+        "code": "https://github.com/Swastikyadav/js_chrome_extension"
+      },
+      {
+        "title": "Reddit Search App",
+        "description": "Reddit Search App",
+        "liveURL": "https://github.com/Swastikyadav/reddit-search-app",
+        "code": "https://github.com/Swastikyadav/reddit-search-app"
+      },
+      {
+        "title": "Conduit Blogging App",
+        "description": "A real world blog app. A clone of Medium.",
+        "liveURL": "https://github.com/Swastikyadav/Conduit-Real-world-Bloging-App",
+        "code": "https://github.com/Swastikyadav/Conduit-Real-world-Bloging-App"
+      }
+    ],
+    "blogPosts": [
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" }
+    ],
+    "highestEducation": "IGNOU Physics honors - Ist year dropout.",
+    "email": "swastikb380@gmail.com",
+    "twitter": "https://twitter.com/swastikJsDev",
+    "linkedin": "https://www.linkedin.com/in/swastik-yadav-6386b71b5/",
+    "github": "https://github.com/Swastikyadav",
+    "image": [
+      {
+        "id": "attiFr3cEGNJJJoU5",
+        "width": 130,
+        "height": 130,
+        "url": "https://dl.airtable.com/.attachments/6aa3a8b9cb63768af8909702280c9488/a50a92dd/swastik.png",
+        "filename": "swastik.png",
+        "size": 12590,
+        "type": "image/png",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/a1d9b255c436700cc32dae6d0112e271/726e0535",
+            "width": 36,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/67d43e83727f24c9084a07504ce6f4b2/54bc067e",
+            "width": 130,
+            "height": 130
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/5216e4768724233d04d09042699e39cf/997b68b3",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
+    "experineceAtAltCampus": "Applying for AltCampus was the best decision I have ever made up to now. You don't need any prior knowledge of programming. They train you from ground zero and make you reach your escape velocity.",
+    "interviewLink": "",
+    "graduationYear": "",
+    "companyWebsite": "https://www.bigbinary.com/"
+  },
+  {
+    "name": "Abhinav Singh",
+    "about": "I am a technology enthusiast and a curious person. I am a software engineer by profession.",
+    "username": "abhinavsingh06",
+    "company": "BigBinary",
+    "dateOfBirth": "",
+    "role": "Software Engineer",
+    "ctc": "NA",
+    "projects": [
+      { "title": "", "description": "", "liveURL": "", "code": "" },
+      { "title": "", "description": "", "liveURL": "", "code": "" },
+      { "title": "", "description": "", "liveURL": "", "code": "" },
+      { "title": "", "description": "", "liveURL": "", "code": "" }
+    ],
+    "blogPosts": [
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" }
+    ],
+    "highestEducation": "Bachelor of Engineering, CSE",
+    "email": "singh.abhinav6996@gmail.com",
+    "twitter": "https://twitter.com/at_hello_world",
+    "linkedin": "https://www.linkedin.com/in/abhinav9669/",
+    "github": "https://github.com/abhinavsingh06",
+    "image": [
+      {
+        "id": "attPQ2Ycak8jhpBMk",
+        "width": 1157,
+        "height": 1280,
+        "url": "https://dl.airtable.com/.attachments/262ddf3c0c64d386a8686807f71b284f/c3dd9da4/Abhinav-Singh.jpeg",
+        "filename": "Abhinav-Singh.jpeg",
+        "size": 157358,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/57e4cf5e4abd03c22f68e4760748e483/72a86571",
+            "width": 33,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/db44d25a0bbf6d4834dadc9535338801/8aba6d71",
+            "width": 512,
+            "height": 566
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/603ad7030342306fc1b279107d923822/6a986d42",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
+    "experineceAtAltCampus": "Altcampus was a major milestone in my life which I seek as a pathfinder for my career as a software engineer.\nAltcampus guided me the path that needs to be followed to become a web developer, moreover the environment indulges a person to inculcate some life basics too. ",
+    "interviewLink": "",
+    "graduationYear": "",
+    "companyWebsite": "https://www.bigbinary.com/"
+  },
+  {
+    "name": "Ashwin Kumar N",
+    "about": "Web Developer with exceptional strengths in problem solving and technical troubleshooting.",
+    "username": "ashwin0925",
+    "company": "Wolken Software",
+    "dateOfBirth": "",
+    "role": "Web Developer",
+    "ctc": "NA",
+    "projects": [
+      {
+        "title": "Conduit Clone",
+        "description": "Conduit Clone",
+        "liveURL": "https://clone-conduit.netlify.app/",
+        "code": "https://clone-conduit.netlify.app/"
+      },
+      {
+        "title": "Product Hunt Clone",
+        "description": "Product Hunt Clone",
+        "liveURL": "https://producthuntclone.netlify.app/",
+        "code": "https://producthuntclone.netlify.app/"
+      },
+      {
+        "title": "The New York Times Demo",
+        "description": "The New York Times Demo",
+        "liveURL": "https://ashwin0925.github.io/the_new_york_times_demo-7/",
+        "code": "https://ashwin0925.github.io/the_new_york_times_demo-7/"
+      },
+      { "title": "", "description": "", "liveURL": "", "code": "" }
+    ],
+    "blogPosts": [
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" }
+    ],
+    "highestEducation": "MCA (Master of Computer Application) from Nitte Meenakshi Institute of Technology",
+    "email": "ashwinkumar9830@gmail.com",
+    "twitter": "https://twitter.com/ashwinkumar_25",
+    "linkedin": "https://www.linkedin.com/in/ashwin-kumar-0925/",
+    "github": "https://github.com/ashwin0925",
+    "image": {},
+    "experineceAtAltCampus": "One of the best \"Boot Camp\" to learn to Programming where we can meet and work with people from different states, share ideas with each other and grow together.",
+    "interviewLink": "",
+    "graduationYear": "",
+    "companyWebsite": "https://www.wolkensoftware.com/"
   }
 ]
