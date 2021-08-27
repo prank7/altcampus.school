@@ -246,22 +246,29 @@ button {
   color: #6b7c93;
 }
 
+
+/* Post */
+
 .prose {
   max-width: 100%;
   font-size: 1.14rem;
+  margin-top: 3rem;
+}
+.prose .gist h3, .prose .gist h2 {
+  font-family: 'Lato';
+}
+.prose h2 {
+  margin-bottom: 0.75rem;
+}
+.prose img {
+  margin: 0;
 }
 
-@media screen and (max-width: 640px) {
-  .prose {
-    font-size: 1.3rem;
-  }
-}
-
-.prose p,
-ul {
+.prose p, .prose ul {
   color: rgb(66, 84, 102);
   font-weight: 500;
 }
+
 
 .transcript {
   padding: 1.25rem;
@@ -312,13 +319,17 @@ ul {
   line-height: 1.5;
 }
 
-.prose .gist h3 {
-  font-family: 'Lato';
-}
+
 
 .prose code::before,
 code::after {
   content: '';
+}
+
+@media screen and (max-width: 640px) {
+  .prose {
+    font-size: 1.3rem;
+  }
 }
 
 /* Alumini Profile */
