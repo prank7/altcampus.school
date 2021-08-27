@@ -43,32 +43,37 @@ export default function Post({ postData, relatedPosts = [] }) {
         }}
       />
 
-      <section className="mx-8 md:mx-16 grid grid-cols-12 gap-4 post-container mb-16">
-        <div className=" col-span-12 sm:col-start-3 sm:col-span-8 md:px-6 ">
-          <h1 className="mt-16 mb-8 font-bold text-indigo-700 text-4xl">
-            {postData.title}
-          </h1>
-          {postData.hideCover || !postData.photo ? null : (
-            <div className="relative w-full py-8">
-              <Image
-                // className="w-full h-full"
-                layout="responsive"
-                src={postData.photo}
-                alt=""
-                width="1600"
-                height="900"
-              />
-            </div>
-          )}
-          <div
-            className="prose"
-            dangerouslySetInnerHTML={{
-              __html: postData.contentHtml
-            }}
-          />
+      <section className="container mx-auto mb-16 px-8 md:px-0">
+        <div className="max-w-screen-md mx-auto">
+          <article>
+            <header>
+              <h1 className="mt-16 mb-8 font-bold text-indigo-700 text-4xl">
+                {postData.title}
+              </h1>
+              {postData.hideCover || !postData.photo ? null : (
+                <div className="relative w-full py-8">
+                  <Image
+                    // className="w-full h-full"
+                    layout="responsive"
+                    src={postData.photo}
+                    alt=""
+                    width="1600"
+                    height="900"
+                  />
+                </div>
+              )}
+            </header>
+
+            <div
+              className="prose"
+              dangerouslySetInnerHTML={{
+                __html: postData.contentHtml
+              }}
+            />
+          </article>
           {postData.cta ? <PostCTA ctaText={postData.ctaText} /> : null}
 
-          <div className="flex items-center justify-between mt-8">
+          <footer className="flex items-center justify-between mt-8">
             <div className="flex items-center space-x-2 lg:space-x-4">
               <img
                 className="w-12 h-12 rounded-full lg:w-12 lg:h-12"
@@ -76,12 +81,14 @@ export default function Post({ postData, relatedPosts = [] }) {
                 alt={authorInfo.name}
               />
               <div className="font-medium text-lg leading-6 space-y-1">
-                <h3 className="font-bold">{authorInfo.name}</h3>
+                <cite className="font-bold not-italic">{authorInfo.name}</cite>
                 <a
                   href={`https://twitter.com/${authorInfo.twitter}`}
                   target="_blank"
                 >
-                  <p className="text-indigo-600">{`@` + authorInfo.twitter}</p>
+                  <strong className="text-indigo-600 block font-normal">
+                    {`@` + authorInfo.twitter}
+                  </strong>
                 </a>
               </div>
             </div>
@@ -107,24 +114,29 @@ export default function Post({ postData, relatedPosts = [] }) {
                 </a>
               </div>
             </div>
-          </div>
+          </footer>
         </div>
       </section>
-      <div className="relative">
-        <div className="absolute inset-0 flex items-center" aria-hidden="true">
-          <div className="w-full border-t border-dotted border-gray-300 sm:max-w-2xl mx-auto" />
+      <section>
+        <header className="relative">
+          <div
+            className="absolute inset-0 flex items-center"
+            aria-hidden="true"
+          >
+            <div className="w-full border-t border-dotted border-gray-300 sm:max-w-2xl mx-auto" />
+          </div>
+          <div className="relative flex justify-center">
+            <h4 className="px-3 bg-white text-lg font-medium text-gray-900">
+              Other Posts
+            </h4>
+          </div>
+        </header>
+        <div className="container mx-auto px-8 my-12 grid gap-8 md:gap-4 md:grid-cols-3">
+          {relatedPosts.map((post) => (
+            <PostCard key={post.id} post={post} related />
+          ))}
         </div>
-        <div className="relative flex justify-center">
-          <span className="px-3 bg-white text-lg font-medium text-gray-900">
-            Other Posts
-          </span>
-        </div>
-      </div>
-      <div className="my-12 mx-8 max-w-lg grid gap-5 lg:grid-cols-3 lg:max-w-none sm:mx-12">
-        {relatedPosts.map((post) => (
-          <PostCard key={post.id} post={post} related />
-        ))}
-      </div>
+      </section>
     </Layout>
   );
 }

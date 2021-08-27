@@ -5,7 +5,7 @@ date: '2021-08-26'
 blurb: Learn about bootcamps and their pricing strategy.
 photo: ''
 cta: true
-ctaText: AltCampus makes your investment into its full-stack web development curriculum, highly worth it!
+ctaText: Learn how to code at AltCampus and kickstart your career as a software developer 🚀
 author: suraj122
 ---
 
