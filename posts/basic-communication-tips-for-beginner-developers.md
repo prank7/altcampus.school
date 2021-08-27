@@ -11,8 +11,8 @@ scriptTag: https://cdn.jsdelivr.net/npm/gist-embed@1.0.4/dist/gist-embed.min.js
 author: 'dprank'
 ---
 
-<div class="video-container">
-  <iframe class="video" title="Basic communication tips for beginner developers - How to present yourself as a developer? How to fix your online presence? Basic remote working communication tips for software developers. AltCampus school." src="https://www.youtube.com/embed/-wbR9af83FM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div className="video-container">
+  <iframe className="video" title="Basic communication tips for beginner developers - How to present yourself as a developer? How to fix your online presence? Basic remote working communication tips for software developers. AltCampus school." src="https://www.youtube.com/embed/-wbR9af83FM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 _The above video is a recorded version of the first session on professional communication of<a href="https://altcampus.school">our online program</a> on full-stack web development. Please watch the video first and then follow the checklist below._

@@ -11,7 +11,7 @@ cta: true
 ctaText: AltCampus provides quality content, mentorship, peer support system, and placement support to help you land a job like Komal 🚀
 ---
 
-Komal Raj, one of our Alumni, after completing the AltCampus course got placed at <a href="https://www.khelomore.com/" target="_blank">Khelomore</a> as a Software Developer. 
+Komal Raj, one of our Alumni, after completing the AltCampus course got placed at <a href="https://www.khelomore.com/" target="_blank">Khelomore</a> as a Software Developer.
 
 In a conversation with one of our team members, she talks about her learning experience at AltCampus as a first batch student, community support, mentorship and placements.
 
@@ -25,11 +25,11 @@ Follow [Komal on Twitter](https://twitter.com/_kmlraj)
 
 #### Here's the brief transcript of the conversation
 
-<div class="transcript">
+<div className="transcript">
 
 Komal Raj was about to join a Masters degree when her brother suggested to join AltCampus. But she was not sure that she would get a good job with great salary, without a masters degree, especially as a fresher. But her perspective changed soon.
 
-After a week at AltCampus her confidence was boosted. And she realized that getting a job in any company needs skills first, rather than having a  Bachelors or Masters degree, which is exactly what AltCampus is mainly focusing on.
+After a week at AltCampus her confidence was boosted. And she realized that getting a job in any company needs skills first, rather than having a Bachelors or Masters degree, which is exactly what AltCampus is mainly focusing on.
 
 She liked the mentorship and the community support which helped her to land her dream job within 6 months after joining AltCampus.
 

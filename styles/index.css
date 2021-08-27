@@ -191,7 +191,6 @@ button {
 
   /* Navbar */
   .nav-menu {
-    position: absolute;
     display: none;
     position: fixed;
     left: 0;
@@ -217,6 +216,16 @@ button {
 
   .toggle:checked ~ .nav-menu {
     display: inline-block;
+  }
+  .community.nav-menu {
+    background: #ffffff;
+    position: absolute;
+    top: 0.5rem;
+    left: 1rem;
+    right: 1rem;
+    bottom: auto;
+    padding: 1.5rem;
+    text-align: left;
   }
 }
 
@@ -269,7 +278,6 @@ button {
   font-weight: 500;
 }
 
-
 .transcript {
   padding: 1.25rem;
   background: #f5fbff;
@@ -305,9 +313,40 @@ button {
   border: 0;
 }
 
+/* Prose */
+.prose {
+  max-width: 100%;
+}
+.prose p {
+  font-size: 1.2rem;
+  color: rgb(84 90 97);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.prose strong {
+  color: #4a5568;
+}
+.prose h2 {
+  font-size: 2.5rem;
+  margin: 0;
+  margin-top: 3rem;
+}
+.prose h2:first-child {
+  margin-top: 0;
+}
+.prose ul {
+  list-style-type: none;
+}
+.prose ul li {
+  list-style-type: none;
+  padding-left: 0;
+}
+.prose ul li::before {
+  display: none;
+}
+
 .prose .gist ul > li {
-  position: static;
-  padding-left: 0px;
+  list-style-type: none;
 }
 
 .prose .gist p {
@@ -326,10 +365,37 @@ code::after {
   content: '';
 }
 
+
 @media screen and (max-width: 640px) {
   .prose {
     font-size: 1.3rem;
   }
+}
+.prose .topic-list h3 {
+  margin-top: 0;
+  font-size: 1.5rem;
+  color: rgba(46, 51, 103, 1);
+}
+.prose .topic-list li {
+  margin: 1rem 0;
+}
+.prose .topic-list ul:last-child,
+.prose .topic-list li:last-child {
+  margin-bottom: 0;
+}
+.prose .exercise-item strong {
+  color: #3d4489;
+  text-decoration: underline;
+}
+.prose .exercise-item strong:hover {
+  text-decoration: none;
+}
+.prose .topic-list li a {
+  text-decoration: none;
+}
+
+.prose .topic-list li strong {
+  font-weight: 400;
 }
 
 /* Alumini Profile */
@@ -381,4 +447,27 @@ code::after {
 .experience-quote {
   quotes: '“' '”' '‘' '’';
 }
+
+.my-masonry-grid {
+  display: -webkit-box; /* Not needed if autoprefixing */
+  display: -ms-flexbox; /* Not needed if autoprefixing */
+  display: flex;
+  margin-left: -30px; /* gutter size offset */
+  width: auto;
+}
+.my-masonry-grid_column {
+  padding-left: 30px; /* gutter size */
+  background-clip: padding-box;
+}
+
+/* Style your items */
+.my-masonry-grid_column > div {
+  /* change div to reference your elements you put in <Masonry> */
+  margin-bottom: 30px;
+}
+
+.tweet-text-color {
+  color: #1b95e0;
+}
+
 @import url('prism.css');
