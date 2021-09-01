@@ -1,0 +1,117 @@
+---
+title: 'API & Auth'
+description: 'API provides the interface for exchange of data from server to client and vice versa by exposing endpoints. JWT authentication ensures roles and permissions for users or applications accessing data.'
+date: '2021-08-24'
+photo: '/images/roadmaps/api-and-auth.jpg'
+icon: '/images/icons/api.svg'
+order: 8
+cta: true
+ctaText: AltCampus helps you learn faster by inculcating these systems as part of the learning model.  🙌
+---
+
+A truly RESTful APIs follows certain guidelines for transmitting information over HTTP. We use JSON(Javascript Object Notation) format to transmit information. JWT tokens allows to independently transmit data without maintaining a state.
+
+<Topics
+  title="API Basics"
+  description="Learn what APIs are...guidlines which make it truly RESTful API. Learn to serve API endpoints from an express server and also about API Versioning"
+  topics={[
+    {
+      text: 'What are APIs ?',
+      link: 'https://www.youtube.com/watch?v=OVvTv9Hy91Q',
+      type: ''
+    },
+    {
+      text: 'What are RESTful APIs ?',
+      type: 'paid'
+    },
+    {
+      text: 'REST Guiding Principles',
+      type: 'paid'
+    },
+    {
+      text: 'Create API endpoints using Express server',
+      type: 'paid'
+    },
+    {
+      text: 'API Versioning',
+      type: 'paid'
+    }
+  ]}
+  exercises={[
+    {
+      text: 'Explain API',
+      link: 'https://www.youtube.com/watch?v=OVvTv9Hy91Q',
+      type: ''
+    },
+    {
+      text: 'Explain REST and their guiding principles',
+      link: 'https://ninenines.eu/docs/en/cowboy/2.9/guide/rest_principles/',
+      type: ''
+    },
+    {
+      text: 'Add API endpoints for users CRUD in an Express application',
+      type: 'paid'
+    },
+    {
+      text: 'Version above endpoints as V1 & V2',
+      type: 'paid'
+    }
+  ]}
+/>
+
+<Topics
+  title="API Authentication using JWT"
+  description="JWT tokens are independent, self contained block of information used for authenticating applications. Token based authentication is the stateless mechanism which deos not rely on previous requests or previous user data stored."
+  topics={[
+    {
+      text: 'JWT Basics',
+      link: 'https://jwt.io/introduction',
+      type: ''
+    },
+    {
+      text: 'JWT Structure',
+      link: 'https://jwt.io/introduction',
+      type: ''
+    },
+    {
+      text: 'Authentication flow for JWT tokens',
+      type: 'paid'
+    },
+    {
+      text: 'Signing JWT tokens',
+      type: 'paid'
+    },
+    {
+      text: 'Validating JWT tokens',
+      type: 'paid'
+    },
+    {
+      text: 'Different ways of passing token from requests',
+      type: 'paid'
+    }
+  ]}
+  exercises={[
+    {
+      text: 'Explain structure of JWT tokens',
+      link: 'https://developer.okta.com/blog/2020/12/21/beginners-guide-to-jwt',
+      type: ''
+    },
+    {
+      text: 'Send JWT tokens after successful login in an Express app',
+      type: 'paid'
+    },
+    {
+      text: 'Verify JWT tokens for protected routes in an Express app',
+      type: 'paid'
+    },
+    {
+      text: 'Create Community Forum API Endpoints',
+      type: 'paid'
+    },
+    {
+      text: 'Create Real World App API endpoints using node/express',
+      link: 'https://github.com/gothinkster/realworld/tree/master/api',
+      type: ''
+    }
+  ]}
+/>
