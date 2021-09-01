@@ -255,6 +255,30 @@ button {
   color: #6b7c93;
 }
 
+/* Post */
+
+.prose {
+  max-width: 100%;
+  font-size: 1.14rem;
+  margin-top: 3rem;
+}
+.prose .gist h3,
+.prose .gist h2 {
+  font-family: 'Lato';
+}
+.prose h2 {
+  margin-bottom: 0.75rem;
+}
+.prose img {
+  margin: 0;
+}
+
+.prose p,
+.prose ul {
+  color: rgb(66, 84, 102);
+  font-weight: 500;
+}
+
 .transcript {
   padding: 1.25rem;
   background: #f5fbff;
@@ -291,11 +315,13 @@ button {
 }
 
 /* Prose */
+
 .prose {
   max-width: 100%;
+  margin-top: 4rem;
 }
 .prose p {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   color: rgb(84 90 97);
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -304,7 +330,7 @@ button {
   color: #4a5568;
 }
 .prose h2 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin: 0;
   margin-top: 3rem;
 }
@@ -316,14 +342,26 @@ button {
 }
 .prose ul li {
   list-style-type: none;
-  padding-left: 0;
+  padding-left: 1.2rem;
+  color: rgb(84 90 97);
+  font-size: 1.3rem;
 }
-.prose ul li::before {
-  display: none;
+.prose ul > li::before {
+  content: '';
+  position: absolute;
+  background-color: rgb(84 90 97);
+  border-radius: 50%;
+  width: 0.375rem;
+  height: 0.375rem;
+  top: calc(0.875em - 0.1875em);
+  left: 0.25rem;
 }
 
 .prose .gist ul > li {
   list-style-type: none;
+}
+.prose a:hover {
+  text-decoration: none;
 }
 
 .prose .gist p {
@@ -335,15 +373,16 @@ button {
   line-height: 1.5;
 }
 
-.prose .gist h3 {
-  font-family: 'Lato';
-}
-
 .prose code::before,
 code::after {
   content: '';
 }
 
+@media screen and (max-width: 640px) {
+  .prose {
+    font-size: 1.3rem;
+  }
+}
 .prose .topic-list h3 {
   margin-top: 0;
   font-size: 1.5rem;
