@@ -1,0 +1,193 @@
+---
+title: 'MongoDB Database'
+description: 'MongoDB is a NoSQL database which stores documents as JSON objects in binary format(bson). It is highly scalable.'
+date: '2021-08-19'
+photo: '/images/roadmaps/mongodb.jpg'
+icon: '/images/icons/mongodb.svg'
+order: 7
+cta: true
+ctaText: AltCampus helps you learn faster by inculcating these systems as part of the learning model.  🙌
+---
+
+MongoDB is the database layer of MVC architecture applications. It stores application data in an easy to query formats. It supports different data types like String, Number, Boolean, Date etc..
+
+<Topics
+  title="MongoDB Fundamentals"
+  description="Learn the structure of mongoDB database and where documents are stored. Learn to perform CRUD(Create, Read, Update and Delete) operations with database."
+  topics={[
+    {
+      text: 'Introduction to MongoDB',
+      link: 'https://www.youtube.com/watch?v=pWbMrx5rVBE',
+      type: ''
+    },
+    {
+      text: 'Databases, collections and documents',
+      link: 'https://www.youtube.com/watch?v=SnqPyqRh4r4',
+      type: ''
+    },
+    {
+      text: 'Create operation in MongoDB',
+      link: 'https://docs.mongodb.com/manual/tutorial/insert-documents/',
+      type: ''
+    },
+    {
+      text: 'Read(Query) operation in MongoDB',
+      link: 'https://docs.mongodb.com/manual/tutorial/query-documents/',
+      type: ''
+    },
+    {
+      text: 'Update operation in MongoDBects',
+      link: 'https://docs.mongodb.com/manual/tutorial/update-documents/',
+      type: ''
+    },
+    {
+      text: 'Delete operation in MongoDB',
+      link: 'https://docs.mongodb.com/manual/tutorial/remove-documents/',
+      type: ''
+    },
+    {
+      text: 'Complex query operations in MongoDB',
+      type: 'paid'
+    },
+    {
+      text: 'Complex update operations in MongoDB',
+      type: 'paid'
+    }
+  ]}
+  exercises={[
+    {
+      text: 'What does db.stat(), db.version() and db.help() does ?',
+      link: 'https://gist.github.com/ravi11o/26c6b680892c96b7097aa9507a8e6256',
+      type: ''
+    },
+    {
+      text: 'Create a database for your state and check whether created or not ?',
+      link: 'https://gist.github.com/ravi11o/26c6b680892c96b7097aa9507a8e6256',
+      type: ''
+    },
+    {
+      text: 'Create new collection inside state database and list it.',
+      link: 'https://gist.github.com/ravi11o/26c6b680892c96b7097aa9507a8e6256',
+      type: ''
+    },
+    {
+      text: 'Create a capped collection with maximum 5 documents',
+      link: 'https://gist.github.com/ravi11o/26c6b680892c96b7097aa9507a8e6256',
+      type: ''
+    },
+    {
+      text: 'Insert documents in state database',
+      link: 'https://gist.github.com/ravi11o/26c6b680892c96b7097aa9507a8e6256',
+      type: ''
+    },
+    {
+      text: 'Find single document using findOne() method in state database',
+      link: 'https://gist.github.com/ravi11o/26c6b680892c96b7097aa9507a8e6256',
+      type: ''
+    },
+    {
+      text: 'Update single document using updateOne() method',
+      link: 'https://gist.github.com/ravi11o/26c6b680892c96b7097aa9507a8e6256',
+      type: ''
+    },
+    {
+      text: 'Delete single document using delete() method',
+      link: 'https://gist.github.com/ravi11o/26c6b680892c96b7097aa9507a8e6256',
+      type: ''
+    }
+  ]}
+/>
+
+<Topics
+  title="MongoDB Indexes & Aggregations"
+  description="Learn to optimize the performance of the query operations using Indexes and get statistical data from entire dataset using aggregation framework."
+  topics={[
+    {
+      text: 'Indexes in MongoDB',
+      link: 'https://www.youtube.com/watch?v=IHQeDEn38BQ',
+      type: ''
+    },
+    {
+      text: 'Single field index in MongoDB',
+      link: 'https://www.youtube.com/watch?v=qLeU9h2YnKg',
+      type: ''
+    },
+    {
+      text: 'Compound Index in MongoDB',
+      link: 'https://www.youtube.com/watch?v=qLeU9h2YnKg',
+      type: ''
+    },
+    {
+      text: 'Multikey index in MongoDB',
+      link: 'https://www.youtube.com/watch?v=qLeU9h2YnKg',
+      type: ''
+    },
+    {
+      text: 'Text based index in MongoDB',
+      link: 'https://docs.mongodb.com/manual/core/index-text/',
+      type: ''
+    },
+    {
+      text: 'Aggregation pipeline in MongoDB',
+      link: 'https://www.youtube.com/watch?v=Kk6Er0c7srU',
+      type: ''
+    },
+    {
+      text: '$group operator in Aggregations',
+      link: 'https://docs.mongodb.com/manual/core/aggregation-pipeline/',
+      type: ''
+    },
+    {
+      text: '$match operator in Aggregations',
+      link: 'https://docs.mongodb.com/manual/core/aggregation-pipeline/',
+      type: ''
+    }
+  ]}
+  exercises={[
+    {
+      text: 'Why are indexes used in the database ?',
+      link: 'https://gist.github.com/ravi11o/b349a20bab629799e6100410929d6e75',
+      type: ''
+    },
+    {
+      text: 'Create a single field index on name in address collection',
+      link: 'https://gist.github.com/ravi11o/b349a20bab629799e6100410929d6e75',
+      type: ''
+    },
+    {
+      text: 'Create a compound index on state and city in address collection',
+      link: 'https://gist.github.com/ravi11o/b349a20bab629799e6100410929d6e75',
+      type: ''
+    },
+    {
+      text: 'Create a multikey index on tags in articles collection',
+      link: 'https://gist.github.com/ravi11o/b349a20bab629799e6100410929d6e75',
+      type: ''
+    },
+    {
+      text: "Create text index on article's description in article collection.",
+      link: 'https://gist.github.com/ravi11o/b349a20bab629799e6100410929d6e75',
+      type: ''
+    },
+    {
+      text: 'Follow instructions in link to find all active males whose age is >= 25 using aggregation',
+      link: 'https://gist.github.com/ravi11o/3dc703771a9e11e282478d3c09787561',
+      type: ''
+    },
+    {
+      text: 'Find all female with green eyes and apple as favoriteFruit.',
+      link: 'https://gist.github.com/ravi11o/3dc703771a9e11e282478d3c09787561',
+      type: ''
+    },
+    {
+      text: 'Count total male and females',
+      link: 'https://gist.github.com/ravi11o/3dc703771a9e11e282478d3c09787561',
+      type: ''
+    },
+    {
+      text: 'Count all 20+ females who have brown eyes',
+      link: 'https://gist.github.com/ravi11o/3dc703771a9e11e282478d3c09787561',
+      type: ''
+    }
+  ]}
+/>

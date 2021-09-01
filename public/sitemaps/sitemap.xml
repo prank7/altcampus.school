@@ -292,8 +292,40 @@
     >
   </url>
   <url>
+    <loc>https://altcampus.school/roadmaps/web-development/advanced-css</loc>
+  </url>
+  <url>
     <loc
       >https://altcampus.school/roadmaps/web-development/javascript-advanced</loc
+    >
+  </url>
+  <url>
+    <loc>https://altcampus.school/roadmaps/web-development/core-node</loc>
+  </url>
+  <url>
+    <loc>https://altcampus.school/roadmaps/web-development/mongodb</loc>
+  </url>
+  <url>
+    <loc
+      >https://altcampus.school/roadmaps/web-development/server-side-apps-with-express-and-mongo</loc
+    >
+  </url>
+  <url>
+    <loc>https://altcampus.school/roadmaps/web-development/api-and-auth</loc>
+  </url>
+  <url>
+    <loc
+      >https://altcampus.school/roadmaps/web-development/react-fundamental</loc
+    >
+  </url>
+  <url>
+    <loc
+      >https://altcampus.school/roadmaps/web-development/advanced-server-side-apps</loc
+    >
+  </url>
+  <url>
+    <loc
+      >https://altcampus.school/roadmaps/web-development/web-security-and-deployment</loc
     >
   </url>
 </urlset>
