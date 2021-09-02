@@ -33,13 +33,14 @@ function Cards({ posts }) {
       <div className="relative max-w-7xl mx-auto px-8">
         <div className="text-center">
           <h2 className="text-3xl max-w-4xl mx-auto tracking-tight font-extrabold text-gray-700 sm:text-4xl">
-            How to Learn Web Development and Get a Job - Tips on Zero to Job
+            The Ultimate Guides to Learn Web Development and Get a Job - Tips on
+            Zero to Job
           </h2>
-          <p className="mt-3 max-w-2xl mx-auto text-xl text-gray-600 sm:mt-4">
+          {/* <p className="mt-3 max-w-2xl mx-auto text-xl text-gray-600 sm:mt-4">
             On our blog here, we discuss how to get started learning full stack
             web development, building a portfolio and getting a job as a
             software developer.
-          </p>
+          </p> */}
         </div>
         <div className="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
           {posts.map((post) => (
