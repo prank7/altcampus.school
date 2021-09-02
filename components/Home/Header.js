@@ -150,8 +150,8 @@ function MobileNavigation({ open }) {
                 </Popover.Button>
               </div>
             </div>
-            <div className="mt-6">
-              <nav className="grid gap-y-8">
+            <div className="mt-12 mb-6">
+              <nav className="grid gap-y-10">
                 {mobileMenu.map((item) => (
                   <a
                     key={item.name}
@@ -171,7 +171,7 @@ function MobileNavigation({ open }) {
             </div>
           </div>
           <div className="py-6 px-5 space-y-6 bg-gray-50">
-            <div className="grid grid-cols-2 gap-y-4 gap-x-8">
+            <div className="grid grid-cols-2 gap-y-6 gap-x-8 mb-8">
               <a
                 href="#faqs"
                 className="text-xl font-medium text-gray-900 hover:text-gray-700"
