@@ -1,3 +1,5 @@
+import { Fragment } from 'react';
+import Link from 'next/link';
 import { Popover, Transition } from '@headlessui/react';
 import {
   AcademicCapIcon,
@@ -5,7 +7,6 @@ import {
   ChevronDownIcon,
   HeartIcon
 } from '@heroicons/react/outline';
-import { Fragment } from 'react';
 
 const solutions = [
   {
@@ -59,26 +60,24 @@ export default function TestimonialMenu() {
                 <div className="overflow-hidden rounded-lg shadow-lg ring-1 ring-black ring-opacity-5">
                   <div className="relative grid gap-8 bg-white px-8 py-8">
                     {solutions.map((item) => (
-                      <a
-                        key={item.name}
-                        href={item.href}
-                        className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-100 transition ease-in-out duration-150"
-                      >
-                        <div className="flex items-center justify-center flex-shrink-0 text-white">
-                          <item.icon
-                            className="flex-shrink-0 h-5 w-5 text-royal-blue-600 mt-1"
-                            aria-hidden="true"
-                          />
-                        </div>
-                        <div className="ml-4">
-                          <p className="text-lg font-medium text-gray-700">
-                            {item.name}
-                          </p>
-                          <p className="text-sm text-gray-500">
-                            {item.description}
-                          </p>
-                        </div>
-                      </a>
+                      <Link href={item.href} key={item.name}>
+                        <a className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-200 transition ease-in-out duration-150">
+                          <div className="flex items-center justify-center flex-shrink-0 text-white">
+                            <item.icon
+                              className="flex-shrink-0 h-5 w-5 text-royal-blue-600 mt-1"
+                              aria-hidden="true"
+                            />
+                          </div>
+                          <div className="ml-4">
+                            <p className="text-lg font-medium text-gray-700">
+                              {item.name}
+                            </p>
+                            <p className="text-sm text-gray-500">
+                              {item.description}
+                            </p>
+                          </div>
+                        </a>
+                      </Link>
                     ))}
                   </div>
                 </div>

@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 let dateFormatter = tinytime('{MMMM} {DD}, {YYYY}');
 
-export default function PostCard({ post, related }) {
+export default function PostCard({ post, related, path = 'posts' }) {
   let author = authors[post.author || 'altcampus'];
   return (
     <article
@@ -17,7 +17,7 @@ export default function PostCard({ post, related }) {
       <div className="flex-1 bg-white p-6 flex flex-col justify-between">
         <div className="flex-1">
           <p className="text-sm font-medium text-indigo-600"></p>
-          <Link href={`/posts/${post.id}`}>
+          <Link href={`/${path}/${post.id}`}>
             <a className="block mt-2">
               <h2 className="text-lg font-bold text-gray-800 hover:underline">
                 {post.title}

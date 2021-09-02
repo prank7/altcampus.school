@@ -69,7 +69,7 @@ export default function ResourcesMenu() {
                   <div className="relative grid gap-8 bg-white px-8 py-8">
                     {solutions.map((item) => (
                       <Link href={item.href} key={item.name}>
-                        <a className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-100 transition ease-in-out duration-150">
+                        <a className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-200 transition ease-in-out duration-150">
                           <div className="flex items-center justify-center flex-shrink-0 text-white">
                             <item.icon
                               className="flex-shrink-0 h-5 w-5 text-royal-blue-600 mt-1"
