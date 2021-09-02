@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { MDXRemote } from 'next-mdx-remote';
 
 import { getAllRoadmapIds, getRoadmapData } from '../../../lib/roadmaps';
-import Layout from '../../../components/Layout';
+import LayoutHome from '../../../components/Home/Layout';
 import PostCTA from '../../../components/Community/PostCTA';
 import authors from '../../../lib/author.json';
 import Topics from '../../../components/roadmap/Topics';
@@ -25,7 +25,7 @@ export default function Post({ roadmapData }) {
 
   return (
     <ModalContext.Provider value={{ open, setOpen, modalType, setModalType }}>
-      <Layout>
+      <LayoutHome>
         {roadmapData.scriptTag ? (
           <Head>
             <script type="text/javascript" src={roadmapData.scriptTag}></script>
@@ -116,7 +116,7 @@ export default function Post({ roadmapData }) {
           </section>
           {roadmapData.cta ? <PostCTA ctaText={roadmapData.ctaText} /> : null}
         </main>
-      </Layout>
+      </LayoutHome>
     </ModalContext.Provider>
   );
 }

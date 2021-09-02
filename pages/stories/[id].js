@@ -1,9 +1,7 @@
-import { getAllPostIds, getPostData } from '../../../lib/stories';
-import Layout from '../../../components/Layout';
-import Head from 'next/head';
-import PostCTA from '../../../components/Community/PostCTA';
+import { getAllPostIds, getPostData } from '../../lib/stories';
+import PostCTA from '../../components/Community/PostCTA';
 import { NextSeo } from 'next-seo';
-import LayoutHome from '../../../components/Home/Layout';
+import LayoutHome from '../../components/Home/Layout';
 
 export default function Post({ postData }) {
   return (
