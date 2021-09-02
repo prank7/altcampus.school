@@ -41,7 +41,7 @@ Here’s the caveat - invest in bootcamps even if they are priced here, but **on
 
   The most important factor in pricing is mentorship and its associated value. Students can learn topics from anywhere today but there is one major thing that is lacking - the luxury to make mistakes and correct these mistakes by getting proper feedback and code reviews.
 
-  As we discussed in one of our [previous articles](https://altcampus.school/community/posts/why-you-should-consider-joining-a-bootcamp-if-you-want-to-learn-programming), feedback loops and practice are crucial to elevate your understanding of concepts. Mentorship is a personal approach to learning that instills confidence in you with every step. Mentoring in this manner requires years of experience and management skills, which mentors have worked very hard at achieving, which is why investing in this factor is a huge advantage for learners.
+  As we discussed in one of our [previous articles](https://altcampus.school/posts/why-you-should-consider-joining-a-bootcamp-if-you-want-to-learn-programming), feedback loops and practice are crucial to elevate your understanding of concepts. Mentorship is a personal approach to learning that instills confidence in you with every step. Mentoring in this manner requires years of experience and management skills, which mentors have worked very hard at achieving, which is why investing in this factor is a huge advantage for learners.
 
 - #### Community
 

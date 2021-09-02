@@ -1,13 +1,10 @@
 import Head from 'next/head';
-import Navbar from '../../components/Navbar';
-import Hero from '../../components/Hero';
-import Card from '../../components/Card';
-import Layout from '../../components/Layout';
-import Footer from '../../components/Home/Footer';
+
+import LayoutHome from '../../components/Home/Layout';
 
 export default function Join() {
   return (
-    <Layout>
+    <LayoutHome>
       <Head>
         <title>Join | AltCampus Community </title>
         <link rel="icon" href="/favicon.png" />
@@ -42,6 +39,6 @@ export default function Join() {
           ></iframe>
         </div>
       </div>
-    </Layout>
+    </LayoutHome>
   );
 }

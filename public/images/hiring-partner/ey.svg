@@ -14,7 +14,7 @@
         <rect x="42" y="46" width="71" height="10"></rect>
       </clipPath>
       <polygon
-        class="ey-logo-yellow"
+        className="ey-logo-yellow"
         fill="#FFE632"
         points="51.2,0 0,19.3 0,19.3 51.2,10 "
       ></polygon>

@@ -6,6 +6,7 @@ import Hero from '../../components/Hero';
 import Card from '../../components/Card';
 import Layout from '../../components/Layout';
 import Footer from '../../components/Home/Footer';
+import LayoutHome from '../../components/Home/Layout';
 
 export default function Community() {
   var title = 'Community of Web developers | AltCampus School';
@@ -14,7 +15,7 @@ export default function Community() {
   var url = 'https://altcampus.school/community/web-development';
 
   return (
-    <Layout>
+    <LayoutHome>
       <Head>
         <title>AltCampus Community </title>
         <link rel="icon" href="/favicon.png" />
@@ -52,7 +53,7 @@ export default function Community() {
               title="Posts"
               subTitle="Read, learn and build using the posts"
               cta="Read"
-              link="/community/posts"
+              link="/posts"
             />
           </li>
 
@@ -62,11 +63,11 @@ export default function Community() {
               title="Stories"
               subTitle="Read success stories of students"
               cta="Read"
-              link="/community/stories"
+              link="/stories"
             />
           </li>
         </ul>
       </div>
-    </Layout>
+    </LayoutHome>
   );
 }

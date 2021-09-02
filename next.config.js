@@ -6,7 +6,9 @@ module.exports = {
       'avatars.githubusercontent.com',
       'avatars0.githubusercontent.com',
       'avatars1.githubusercontent.com',
-      'avatars2.githubusercontent.com'
+      'avatars2.githubusercontent.com',
+      'pbs.twimg.com',
+      'abs.twimg.com'
     ]
   }
 };

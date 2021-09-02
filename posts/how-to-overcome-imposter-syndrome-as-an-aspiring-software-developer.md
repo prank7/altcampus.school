@@ -70,7 +70,7 @@ This is called being articulate, and it takes some time to learn how to be artic
 
 There is no better way to become good at something than through consistency. The more you build apps, however small, the better your confidence levels will be. This will drive Imposter Syndrome to the side, or maybe even completely away at one point.
 
-Find your place where the culture of continuous learning is encouraged. There are lots of places out there to learn programming. Find [the best place to do so,](https://altcampus.school/community/posts/what-are-the-best-places-to-learn-coding) and inculcate the habit of consistency.
+Find your place where the culture of continuous learning is encouraged. There are lots of places out there to learn programming. Find [the best place to do so,](https://altcampus.school/posts/what-are-the-best-places-to-learn-coding) and inculcate the habit of consistency.
 
 **6. It’s okay to not know it all**
 
@@ -78,6 +78,6 @@ Find comfort in the fact that you need not know it all. Nobody can know everythi
 
 The stigma associated with having Imposter Syndrome is being addressed more and more nowadays, with more inclusivity in the developer community. If you are one among those who feels intellectually inadequate to learn programming, do not feel so! Understand that the journey of an aspiring software developer is always filled with challenges, but those challenges are meant to help you grow in your career.
 
-If you are curious to learn more about [becoming a software developer](https://altcampus.school/community/posts/heres-everything-you-need-to-know-to-become-a-full-stack-web-developer), AltCampus is here to boost your career with a solid online bootcamp 🚀.
+If you are curious to learn more about [becoming a software developer](https://altcampus.school/posts/heres-everything-you-need-to-know-to-become-a-full-stack-web-developer), AltCampus is here to boost your career with a solid online bootcamp 🚀.
 
 See you in the next post! Until then, keep shipping 🙌

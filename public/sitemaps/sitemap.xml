@@ -13,10 +13,10 @@
     <loc>https://altcampus.school/community</loc>
   </url>
   <url>
-    <loc>https://altcampus.school/community/posts</loc>
+    <loc>https://altcampus.school/posts</loc>
   </url>
   <url>
-    <loc>https://altcampus.school/community/stories</loc>
+    <loc>https://altcampus.school/stories</loc>
   </url>
   <url>
     <loc>https://altcampus.school/community/web-development</loc>
@@ -28,6 +28,11 @@
     <loc>https://altcampus.school/apply-for-emi</loc>
   </url>
 
+  <url>
+    <loc
+      >https://altcampus.school/community/posts/10-full-stack-beginner-project-ideas-for-learning-MERN-stack</loc
+    >
+  </url>
   <url>
     <loc
       >https://altcampus.school/community/posts/4-common-situations-in-git</loc
@@ -68,6 +73,16 @@
   </url>
   <url>
     <loc
+      >https://altcampus.school/community/posts/frequently-asked-MERN-interview-questions</loc
+    >
+  </url>
+  <url>
+    <loc
+      >https://altcampus.school/community/posts/full-stack-developer-career-salary</loc
+    >
+  </url>
+  <url>
+    <loc
       >https://altcampus.school/community/posts/heres-everything-you-need-to-know-to-become-a-full-stack-web-developer</loc
     >
   </url>
@@ -97,6 +112,29 @@
     >
   </url>
   <url>
+    <loc>https://altcampus.school/community/posts/key-MERN-stack-concepts</loc>
+  </url>
+  <url>
+    <loc
+      >https://altcampus.school/community/posts/list-of-simple-projects-to-build-to-learn-and-be-good-at-html-and-css</loc
+    >
+  </url>
+  <url>
+    <loc
+      >https://altcampus.school/community/posts/prerequisites-for-learning-MERN-stack</loc
+    >
+  </url>
+  <url>
+    <loc
+      >https://altcampus.school/community/posts/the-complete-roadmap-to-learn-full-stack-web-development-using-the-MERN-stack</loc
+    >
+  </url>
+  <url>
+    <loc
+      >https://altcampus.school/community/posts/ultimate-guide-to-programming-bootcamps</loc
+    >
+  </url>
+  <url>
     <loc
       >https://altcampus.school/community/posts/understanding-positioning-in-css</loc
     >
@@ -109,6 +147,16 @@
   <url>
     <loc
       >https://altcampus.school/community/posts/why-are-bootcamps-so-expensive</loc
+    >
+  </url>
+  <url>
+    <loc
+      >https://altcampus.school/community/posts/why-every-developer-should-have-a-portfolio</loc
+    >
+  </url>
+  <url>
+    <loc
+      >https://altcampus.school/community/posts/why-should-you-learn-MERN-stack</loc
     >
   </url>
   <url>
@@ -149,10 +197,10 @@
     <loc>https://altcampus.school/placements/prasanth-chaduvula</loc>
   </url>
   <url>
-    <loc>https://altcampus.school/placements/vivek-baruah</loc>
+    <loc>https://altcampus.school/placements/harshaan-nihal-khan</loc>
   </url>
   <url>
-    <loc>https://altcampus.school/placements/harshaan-nihal-khan</loc>
+    <loc>https://altcampus.school/placements/devika-misra</loc>
   </url>
   <url>
     <loc>https://altcampus.school/placements/abid-rahim</loc>
@@ -161,7 +209,13 @@
     <loc>https://altcampus.school/placements/yash-joshi</loc>
   </url>
   <url>
+    <loc>https://altcampus.school/placements/komal-raj</loc>
+  </url>
+  <url>
     <loc>https://altcampus.school/placements/deepak-sharma</loc>
+  </url>
+  <url>
+    <loc>https://altcampus.school/placements/vivek-baruah</loc>
   </url>
   <url>
     <loc>https://altcampus.school/placements/koushik-shetty</loc>
@@ -215,10 +269,7 @@
     <loc>https://altcampus.school/placements/mohd-anas-ansari</loc>
   </url>
   <url>
-    <loc>https://altcampus.school/placements/devika-misra</loc>
-  </url>
-  <url>
-    <loc>https://altcampus.school/placements/ayushman-s-parasar</loc>
+    <loc>https://altcampus.school/placements/ayushman-supratim-parasar</loc>
   </url>
   <url>
     <loc>https://altcampus.school/placements/ashwani-goswami</loc>
@@ -228,9 +279,6 @@
   </url>
   <url>
     <loc>https://altcampus.school/placements/abhishek-shastri</loc>
-  </url>
-  <url>
-    <loc>https://altcampus.school/placements/komal-raj</loc>
   </url>
   <url>
     <loc>https://altcampus.school/placements/ashik-raj</loc>
@@ -249,5 +297,80 @@
   </url>
   <url>
     <loc>https://altcampus.school/placements/bharat-patodi</loc>
+  </url>
+  <url>
+    <loc>https://altcampus.school/placements/jay-bhoyar</loc>
+  </url>
+  <url>
+    <loc>https://altcampus.school/placements/sanjib-roy</loc>
+  </url>
+  <url>
+    <loc>https://altcampus.school/placements/alisha-saxena</loc>
+  </url>
+  <url>
+    <loc>https://altcampus.school/placements/reettik-goswami</loc>
+  </url>
+  <url>
+    <loc>https://altcampus.school/placements/kiran-kumar</loc>
+  </url>
+  <url>
+    <loc>https://altcampus.school/placements/swastik-yadav</loc>
+  </url>
+  <url>
+    <loc>https://altcampus.school/placements/abhinav-singh</loc>
+  </url>
+  <url>
+    <loc>https://altcampus.school/placements/ashwin-kumar-n</loc>
+  </url>
+
+  <url>
+    <loc>https://altcampus.school/roadmaps/web-development/unix-and-git</loc>
+  </url>
+  <url>
+    <loc
+      >https://altcampus.school/roadmaps/web-development/html-and-css-fundamentals</loc
+    >
+  </url>
+  <url>
+    <loc
+      >https://altcampus.school/roadmaps/web-development/javascript-fundamentals</loc
+    >
+  </url>
+  <url>
+    <loc>https://altcampus.school/roadmaps/web-development/advanced-css</loc>
+  </url>
+  <url>
+    <loc
+      >https://altcampus.school/roadmaps/web-development/javascript-advanced</loc
+    >
+  </url>
+  <url>
+    <loc>https://altcampus.school/roadmaps/web-development/core-node</loc>
+  </url>
+  <url>
+    <loc>https://altcampus.school/roadmaps/web-development/mongodb</loc>
+  </url>
+  <url>
+    <loc
+      >https://altcampus.school/roadmaps/web-development/server-side-apps-with-express-and-mongo</loc
+    >
+  </url>
+  <url>
+    <loc>https://altcampus.school/roadmaps/web-development/api-and-auth</loc>
+  </url>
+  <url>
+    <loc
+      >https://altcampus.school/roadmaps/web-development/react-fundamental</loc
+    >
+  </url>
+  <url>
+    <loc
+      >https://altcampus.school/roadmaps/web-development/advanced-server-side-apps</loc
+    >
+  </url>
+  <url>
+    <loc
+      >https://altcampus.school/roadmaps/web-development/web-security-and-deployment</loc
+    >
   </url>
 </urlset>
