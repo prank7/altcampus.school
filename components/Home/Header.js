@@ -162,7 +162,7 @@ function MobileNavigation({ open }) {
                       className="flex-shrink-0 h-6 w-6 text-dark-blue-600"
                       aria-hidden="true"
                     />
-                    <span className="ml-3 text-base font-medium text-gray-900">
+                    <span className="ml-3 text-xl font-medium text-gray-900">
                       {item.name}
                     </span>
                   </a>
@@ -174,39 +174,39 @@ function MobileNavigation({ open }) {
             <div className="grid grid-cols-2 gap-y-4 gap-x-8">
               <a
                 href="#faqs"
-                className="text-base font-medium text-gray-900 hover:text-gray-700"
+                className="text-xl font-medium text-gray-900 hover:text-gray-700"
               >
                 FAQs
               </a>
 
               <a
                 href="/guides"
-                className="text-base font-medium text-gray-900 hover:text-gray-700"
+                className="text-xl font-medium text-gray-900 hover:text-gray-700"
               >
                 Guides
               </a>
               <a
                 href="/wall-of-love"
-                className="text-base font-medium text-gray-900 hover:text-gray-700"
+                className="text-xl font-medium text-gray-900 hover:text-gray-700"
               >
                 Wall of love
               </a>
               <a
                 href="/roadmaps"
-                className="text-base font-medium text-gray-900 hover:text-gray-700"
+                className="text-xl font-medium text-gray-900 hover:text-gray-700"
               >
                 Roadmaps
               </a>
             </div>
             <div className="flex items-center justify-center text-center">
               <a
-                className="inline-flex content-center items-center text-sm text-white font-bold px-8 py-2 md:px-4 md:py-1 rounded uppercase bg-dark-blue-600 border  shadow-md btn-hover tracking-wide mr-3 w-1/2 justify-center"
+                className="inline-flex content-center items-center text-xl text-white font-bold px-8 py-3 md:px-4 md:py-1 rounded uppercase bg-dark-blue-600 border  shadow-md btn-hover tracking-wide mr-3 w-1/2 justify-center"
                 href="https://launchpad.altcampus.school/signup"
               >
                 sign up
               </a>
               <a
-                className="inline-flex content-center items-center text-sm text-white font-bold px-8 py-2 md:px-4 md:py-1 rounded uppercase bg-green-theme-500 border border-green-theme-500 shadow-md btn-hover tracking-wide w-1/2 justify-center"
+                className="inline-flex content-center items-center text-xl text-white font-bold px-8 py-3 md:px-4 md:py-1 rounded uppercase bg-green-theme-500 border border-green-theme-500 shadow-md btn-hover tracking-wide w-1/2 justify-center"
                 href="https://try.altcampus.school"
               >
                 Try for Free
