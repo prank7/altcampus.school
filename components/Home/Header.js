@@ -25,7 +25,7 @@ const mobileMenu = [
   },
   {
     name: 'Pricing',
-    href: '/pricing',
+    href: '/#pricing',
     icon: CurrencyDollarIcon
   },
   {
@@ -64,7 +64,7 @@ function Header() {
                   <Popover.Button className="bg-gray-300 rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-400">
                     <span className="sr-only">Open menu</span>
                     <MenuIcon
-                      className="h-6 w-6 text-gray-800"
+                      className="h-8 w-8 text-gray-800"
                       aria-hidden="true"
                     />
                   </Popover.Button>
@@ -79,7 +79,7 @@ function Header() {
                         How it works
                       </a>
                     </ActiveLink>
-                    <ActiveLink href="/pricing">
+                    <ActiveLink href="#pricing">
                       <a className="text-4xl md:text-lg text-gold-500  md:text-dark-blue-300 pt-1 hover:text-dark-blue-500">
                         Pricing
                       </a>
@@ -146,7 +146,10 @@ function MobileNavigation({ open }) {
               <div className="-mr-2">
                 <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-400">
                   <span className="sr-only">Close menu</span>
-                  <XIcon className="h-6 w-6" aria-hidden="true" />
+                  <XIcon
+                    className="h-8 w-8 bg-gray-200 text-gray-700 p-1 rounded"
+                    aria-hidden="true"
+                  />
                 </Popover.Button>
               </div>
             </div>

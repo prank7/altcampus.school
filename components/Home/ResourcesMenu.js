@@ -13,28 +13,28 @@ import { Fragment } from 'react';
 const solutions = [
   {
     name: 'Blog Posts',
-    description: 'Learn about web development',
+    description: 'Become a full stack web developer',
     href: '/posts',
     icon: LightBulbIcon
   },
   {
     name: 'Guides',
-    description: 'Ultimate guides for each topic',
+    description: 'Ultimate guides to kickstart your developer journey',
     href: '/guides',
     icon: NewspaperIcon
   },
   {
     name: 'Roadmaps',
-    description: 'Step by step learning for free',
+    description: 'Go from zero to expert with free learning roadmaps',
     href: '/roadmaps/web-development',
     icon: TruckIcon
-  },
-  {
-    name: 'Couse Timeline Estimator',
-    description: 'When will I become a developer?',
-    href: 'https://course-timeline-next-js.vercel.app/',
-    icon: PaperAirplaneIcon
   }
+  // {
+  //   name: 'Couse Timeline Estimator',
+  //   description: 'When will I become a developer?',
+  //   href: 'https://course-timeline-next-js.vercel.app/',
+  //   icon: PaperAirplaneIcon
+  // }
 ];
 
 export default function ResourcesMenu() {

@@ -100,14 +100,14 @@ export default function Post({ guideData, relatedGuides = [] }) {
                   className="twitter-share-button"
                   href={`https://twitter.com/intent/tweet?text=${
                     guideData.title + ' - @AltCampus'
-                  }&url=${`https://altcampus.school/community/posts/${guideData.id}`}`}
+                  }&url=${`https://altcampus.school/posts/${guideData.id}`}`}
                 >
                   <TwitterAltIcon className="h-8 w-8" />
                   <span className="sr-only">Share to Twitter</span>
                 </a>
                 <a
                   className="twitter-share-button"
-                  href={`https://facebook.com/sharer/sharer.php?u=${`https://altcampus.school/community/posts/${guideData.id}`}`}
+                  href={`https://facebook.com/sharer/sharer.php?u=${`https://altcampus.school/posts/${guideData.id}`}`}
                 >
                   <FacebookIcon className="h-8 w-8" />
                   <span className="sr-only">Share to Facebook</span>

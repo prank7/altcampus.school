@@ -12,11 +12,17 @@ import globalData from '../../globalData';
 
 function Pricing(props) {
   var upcomingBatchDates = globalData.upcomingBatchDates;
-  var nextBatchDates = upcomingBatchDates.filter((a) => new Date(a) >= new Date());
-  var immediateBatchDate = nextBatchDates[0] ? `Next cohort starts on ${new Date(nextBatchDates[0]).toDateString().slice(4, 10)}.` : '';
+  var nextBatchDates = upcomingBatchDates.filter(
+    (a) => new Date(a) >= new Date()
+  );
+  var immediateBatchDate = nextBatchDates[0]
+    ? `Next cohort starts on ${new Date(nextBatchDates[0])
+        .toDateString()
+        .slice(4, 10)}.`
+    : '';
 
   return (
-    <section className="py-24 bg-royal-blue-100">
+    <section id="pricing" className="py-24 bg-royal-blue-100">
       <div className="container mx-auto px-8">
         <header className="text-center md:flex md:justify-center md:items-center mb-6">
           <PriceTagIcon className="inline-block w-12 md:mr-4" />
@@ -26,12 +32,19 @@ function Pricing(props) {
         </header>
         <div className="max-w-5xl mx-auto text-center mb-12 text-lg text-gray-700">
           <p>
-            Can't pay the entire sum at once? Buy now, and <b>pay later via EMI</b>. To
-            avail it <Link href="/apply-for-emi"><a className="underline" href="/apply-for-emi">apply here</a></Link>(processing takes 2-4 working days).
+            Can't pay the entire sum at once? Buy now, and{' '}
+            <b>pay later via EMI</b>. To avail it{' '}
+            <Link href="/apply-for-emi">
+              <a className="underline" href="/apply-for-emi">
+                apply here
+              </a>
+            </Link>
+            (processing takes 2-4 working days).
           </p>
           <p className="mt-2">
             You can do the course either in a cohort or self paced, you can
-            select this option in the signup form. {immediateBatchDate} Max number of students in a cohort is 15, book your seat now.
+            select this option in the signup form. {immediateBatchDate} Max
+            number of students in a cohort is 15, book your seat now.
           </p>
         </div>
         <div className="md:flex md:justify-center">
