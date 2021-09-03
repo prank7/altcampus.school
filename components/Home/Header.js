@@ -1,16 +1,13 @@
 import React from 'react';
 import ActiveLink from './ActiveLink';
 import { AltCampusIcon } from '../Icons';
-import ResourcesMenu from './ResourcesMenu';
-import TestimonialMenu from './TestimonialMenu';
+import ResourcesMenu, { resourceItems } from './ResourcesMenu';
+import TestimonialMenu, { testimonialItems } from './TestimonialMenu';
 
 import { Fragment } from 'react';
 import { Popover, Transition } from '@headlessui/react';
 import {
-  AcademicCapIcon,
-  BookOpenIcon,
   CurrencyDollarIcon,
-  LightBulbIcon,
   MenuIcon,
   QuestionMarkCircleIcon,
   XIcon
@@ -29,19 +26,9 @@ const mobileMenu = [
     icon: CurrencyDollarIcon
   },
   {
-    name: 'Blog Posts',
-    href: '/posts',
-    icon: LightBulbIcon
-  },
-  {
-    name: 'Placements',
-    href: '/placements',
-    icon: AcademicCapIcon
-  },
-  {
-    name: 'Success Stories',
-    href: '/stories',
-    icon: BookOpenIcon
+    name: 'FAQs',
+    href: '/#faqs',
+    icon: QuestionMarkCircleIcon
   }
 ];
 
@@ -109,7 +96,6 @@ function Header() {
                 </div>
               </div>
             </div>
-
             <MobileNavigation open={open} />
           </>
         )}
@@ -154,7 +140,7 @@ function MobileNavigation({ open }) {
               </div>
             </div>
             <div className="mt-12 mb-6">
-              <nav className="grid gap-y-10">
+              <nav className="grid gap-y-8">
                 {mobileMenu.map((item) => (
                   <a
                     key={item.name}
@@ -170,37 +156,49 @@ function MobileNavigation({ open }) {
                     </span>
                   </a>
                 ))}
+
+                <h3 className="text-base font-medium tracking-wide text-gray-500 uppercase">
+                  Resources
+                </h3>
+
+                {resourceItems.map((item) => (
+                  <a
+                    key={item.name}
+                    href={item.href}
+                    className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50"
+                  >
+                    <item.icon
+                      className="flex-shrink-0 h-6 w-6 text-dark-blue-600"
+                      aria-hidden="true"
+                    />
+                    <span className="ml-3 text-xl font-medium text-gray-900">
+                      {item.name}
+                    </span>
+                  </a>
+                ))}
+                <h3 className="text-base font-medium tracking-wide text-gray-500 uppercase">
+                  Testimonials
+                </h3>
+
+                {testimonialItems.map((item) => (
+                  <a
+                    key={item.name}
+                    href={item.href}
+                    className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50"
+                  >
+                    <item.icon
+                      className="flex-shrink-0 h-6 w-6 text-dark-blue-600"
+                      aria-hidden="true"
+                    />
+                    <p className="ml-3 text-xl font-medium text-gray-900">
+                      {item.name}
+                    </p>
+                  </a>
+                ))}
               </nav>
             </div>
           </div>
           <div className="py-6 px-5 space-y-6 bg-gray-50">
-            <div className="grid grid-cols-2 gap-y-6 gap-x-8 mb-8">
-              <a
-                href="#faqs"
-                className="text-xl font-medium text-gray-900 hover:text-gray-700"
-              >
-                FAQs
-              </a>
-
-              <a
-                href="/guides"
-                className="text-xl font-medium text-gray-900 hover:text-gray-700"
-              >
-                Guides
-              </a>
-              <a
-                href="/wall-of-love"
-                className="text-xl font-medium text-gray-900 hover:text-gray-700"
-              >
-                Wall of love
-              </a>
-              <a
-                href="/roadmaps"
-                className="text-xl font-medium text-gray-900 hover:text-gray-700"
-              >
-                Roadmaps
-              </a>
-            </div>
             <div className="flex items-center justify-center text-center">
               <a
                 className="inline-flex content-center items-center text-xl text-white font-bold px-8 py-3 md:px-4 md:py-1 rounded uppercase bg-dark-blue-600 border  shadow-md btn-hover tracking-wide mr-3 w-1/2 justify-center"

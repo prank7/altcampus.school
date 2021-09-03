@@ -8,7 +8,7 @@ import {
   HeartIcon
 } from '@heroicons/react/outline';
 
-const solutions = [
+export const testimonialItems = [
   {
     name: 'Placements',
     description: 'Amazing companies where our graduates are working',
@@ -59,7 +59,7 @@ export default function TestimonialMenu() {
               <Popover.Panel className="absolute z-10 w-screen max-w-sm lg:max-w-sm px-4 mt-3 transform -translate-x-1/2 left-1/2 sm:px-0">
                 <div className="overflow-hidden rounded-lg shadow-lg ring-1 ring-black ring-opacity-5">
                   <div className="relative grid gap-8 bg-white px-8 py-8">
-                    {solutions.map((item) => (
+                    {testimonialItems.map((item) => (
                       <Link href={item.href} key={item.name}>
                         <a className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-200 transition ease-in-out duration-150">
                           <div className="flex items-center justify-center flex-shrink-0 text-white">
