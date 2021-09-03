@@ -1,10 +1,10 @@
 ---
 title: 'The Ultimate Guide to MERN Stack'
 description: 'MERN stack which is powered by Javascript, allows developers to create Full stack applications without the knowledge of any other programming language.
-This guide covers all the what, whys and hows required to start the MERN stack development.'
+This guide covers all the what, why, and how, required to start the MERN stack development.'
 date: '2021-09-02'
 blurb: 'MERN stack which is powered by Javascript, allows developers to create Full stack applications without the knowledge of any other programming language.
-This guide covers all the what, whys and hows required to start the MERN stack development.'
+This guide covers the what, why, and how, required to start the MERN stack development.'
 photo: '/images/guides/the-ultimate-guide-to-MERN-stack.jpg'
 cta: true
 ctaText: AltCampus helps you learn faster by inculcating these systems as part of the learning model.  🙌
@@ -15,7 +15,7 @@ Full Stack web development is gaining traction in IT industry as it allows devel
 
 MERN stack which is powered by Javascript, allows developers to create Full stack applications without the knowledge of any other programming language.
 
-This guide covers all the what, whys and hows required to start the MERN stack development.
+This guide covers the what, why, and how, required to start the MERN stack development.
 
 ### What does MERN stand for?
 
@@ -33,11 +33,11 @@ MERN stack laverages below frameworks/tools for creating full-stack applications
 
 - MongoDB is the database layer for the full-stack application used to store and manage data.
 - It is an open-source, NoSQL, document based database which stores data in the binary JSON format.
-- It is highly scalable and can be used to store latge volumes of data.
+- It is highly scalable and can be used to store large volumes of data.
 
 #### 2. **ExpressJS Framework**
 
-- ExpressJS is an open source, unopinionated, lightweight framework built on top of NodeJS.
+- ExpressJS is open source, unopinionated, lightweight framework built on top of NodeJS.
 - It uses Javascript on the server side to create fast and secure back-end applications.
 - You can use Model, View & Controller (MVC) pattern to create server-side applications.
 
@@ -52,9 +52,9 @@ MERN stack laverages below frameworks/tools for creating full-stack applications
 #### 4. **NodeJS**
 
 - Node.js is the back-end layer which hosts the server created using JavaScript.
-- It is an open-source, cross-platform which uses JavaScript(outside the browser) to create server side tools and applications.
-- Express.js framework is build on top of Node.js to facilitate web developments.
-- Node.js hosts thousands of public/private packages via NPM to facilitate applications development over multiple domains.
+- It is open-source, cross-platform which uses JavaScript(outside the browser) to create server side tools and applications.
+- Express.js framework is built on top of Node.js to facilitate web development.
+- Node.js hosts thousands of public/private packages via NPM to facilitate application development over multiple domains.
 
 ### Why should you learn MERN Stack ?
 
@@ -62,7 +62,7 @@ MERN stack laverages below frameworks/tools for creating full-stack applications
 
 - You can create full stack applications, mobile applications using React native, desktop applications using Electron.js - All you need is JavaScript.
 
-- MongoDB as the database uses JSON(Javascript Object Notation) format to store and manage data which is standard now a days for exchange of information in a full-stack application from client to server and vice-versa, can be easily integrated in MERN Stack applications.
+- MongoDB as the database uses JSON(Javascript Object Notation) format to store and manage data which is standard nowadays for exchange of information in a full-stack application from client to server and vice-versa, and can be easily integrated in MERN Stack applications.
 
 Here are [10 reasons why you should learn MERN stack.](https://altcampus.school/community/posts/why-should-you-learn-MERN-stack)
 
@@ -80,7 +80,7 @@ Yes, there are other stacks as well. They may use languages other than Javascrip
 - Basic knowledge of Unix commands
 - Good understanding of HTML/CSS concepts
 - Grasp on JavaScript fundamentals
-- Basics of mongoDB is a plus.
+- Basics of MongoDB is a plus.
 
 You can learn more about the [concepts you need to learn before starting MERN here.](https://altcampus.school/community/posts/prerequisites-for-learning-MERN-stack)
 
@@ -95,7 +95,7 @@ MERN Stack applictaions follows a 3 layer architecture pattern which is based on
 #### 1. **Client layer(Views)**
 
 - These are views(webpages) which is visible to the client.
-- Client layer will be developed using React which combinely uses Javascript, HTML & CSS.
+- Client layer will be developed using React which combinedly uses Javascript, HTML & CSS.
 - On this layer, end users tries to access the feature of our application.
 
 #### 2. **Application Layer(Controllers)**
@@ -111,7 +111,7 @@ MERN Stack applictaions follows a 3 layer architecture pattern which is based on
 
 ### How does MERN Stack work ?
 
-In a full-stack MERN application, the client layer(React application) which is accessible by the end users makes request for web pages. These requests go to the application server which is the logical layer. It determines what data/web-pages a client needs and makes request to database(database layer) for fetching those informtaion. Lastly the backend server(application layer) passes required data/web-pages to react application which renders the data on web-page for the clients.
+In a full-stack MERN application, the client layer(React application) which is accessible by the end users makes request for web pages. These requests go to the application server which is the logical layer. It determines what data/web-pages a client needs and makes request to database(database layer) for fetching this informtaion. Finally the backend server(application layer) passes required data/web-pages to React application which renders the data on web-page for the clients.
 
 Let's walk through a scenario to understand the working of MERN stack applications.
 
@@ -127,11 +127,11 @@ Let's walk through a scenario to understand the working of MERN stack applicatio
 
 ### Roadmap for learning MERN Stack and becoming a full stack developer
 
-Remember, the core to become a full stack MERN developer is to have sound technical knowledge of underling languages like HTML/CSS and JavaScript.
+Remember, the core necessity to become a full stack MERN developer is to have sound technical knowledge of underlyng languages like HTML/CSS and JavaScript.
 
-There after, we can proceed to individual platforms/libraries based on the choosen stack.
+There after, we can proceed to individual platforms/libraries based on the chosen stack.
 
-A full-stack MERN developer should be prolofic in different technologies like
+A full-stack MERN developer should be prolific in different technologies like
 
 1. Frontend(React)
 2. Backend(Node/Express)
@@ -141,7 +141,7 @@ A full-stack MERN developer should be prolofic in different technologies like
 
 Here's a [complete roadmap to learn and become a MERN stack developer](https://altcampus.school/community/posts/the-complete-roadmap-to-learn-full-stack-web-development-using-the-MERN-stack)
 
-### How long it takes to learn MERN stack ?
+### How long does it take to learn MERN stack ?
 
 It depends on the fundamental skill set. If you have sound technical knowledge of underlying languages like HTML, CSS and JavaScript; it would take around 8-10 weeks to
 become a beginner level MERN stack developer with hands-on practice.
@@ -152,7 +152,7 @@ become a beginner level MERN stack developer with hands-on practice.
 
 For understanding the advanced concepts of ReactJS like **Context API**, **State management using Redux** & **React hooks**, It may take additional 2 to 3 weeks.
 
-If you are starting out the developer journey, you need to understand the fundamentals of web like HTML, CSS & Javascript.
+If you are starting out on the developer journey, you need to understand the fundamentals of web like HTML, CSS & Javascript.
 
 It may take around additional 8-10 weeks to grasp the fundamentals.
 
@@ -162,7 +162,7 @@ It may take around additional 8-10 weeks to grasp the fundamentals.
 
 So, in total it will take between 18-30 weeks to become a full-stack developer on MERN stack, starting from absolute scratch.
 
-Our [program at AltCampus](https://altcampus.school) takes you all the way from zero to a full-stack employable MERN stack developer in about 6 months of time.
+Our [program at AltCampus](https://altcampus.school) takes you all the way from zero to a full-stack employable MERN developer in about 6 months of time.
 
 ### What is the salary of a MERN Stack developer ?
 
@@ -181,6 +181,8 @@ The average salary of a full stack developer varies across different continients
 The average starting full-stack developer salary in India is around ₹589,578 or $7800, and that in the United States is around $86,121.
 
 Since MERN stack is the most popular and widely used among all stacks for full-stack development, the average salary in India is around ₹723,000 or \$9717.
+
+[Here is an in-depth post explaining the salary, growth, and career of a full-stack developer.](https://altcampus.school/community/posts/full-stack-developer-career-salary)
 
 ### How to learn MERN Stack ?
 
@@ -203,7 +205,7 @@ If you are just starting out your developer journey, checkout [our course](https
 
 ### What are some key concepts to learn in MERN Stack ?
 
-MERN Stack is build of 4 robust technologies i.e. MongoDB, Express.js, React.js and Node,js.
+MERN Stack is built of 4 robust technologies i.e. MongoDB, Express.js, React.js and Node,js.
 
 To be a MERN Stack developer, one should have working knowledge of all the above technologies.
 
@@ -228,7 +230,7 @@ Few full stack MERN projects which a beginner developer can start with are:
 
 #### 1. Personal Project Management Tool
 
-- This project can help you gather all your learning projects in one app. You can use MongoDB database for storing all project details like project name, details, url link, github repository etc...
+- This project can help you gather all your learning projects in one app. You can use MongoDB database for storing all project details like project name, details, url link, github repository etc.
 - Using React, create webpages where you can list all the projects.
 - Express application linked to mongoDB database can serve data to React application
 
@@ -247,7 +249,7 @@ Create a blog application where users can
 
 #### 3. Social Media App for local handicrafts
 
-Social media app where people can connect with other people, view local handicrafts being created in the area, share their own creatings etc.
+Social media app where people can connect with other people, view local handicrafts being created in the area, share their own crafts and creatives, etc.
 
 Here are [10 full stack project ideas for beginner MERN stack developers](https://altcampus.school/community/posts/10-full-stack-beginner-project-ideas-for-learning-MERN-stack).
 
@@ -262,7 +264,7 @@ There are a lot of tutorials online to learn MERN stack.
 
 3. Checkout [Full-Stack Web Development with React Specialization](https://www.coursera.org/specializations/full-stack-react) by Coursera in collaboration with The Hong Kong University
 
-Most of these courses has good video content but they lack a strong feedback mechanism which could track students progress on a daily/weekly basis. They have community but you need to wait hours to get a response.
+Most of these courses have good video content but they lack a strong feedback mechanism which could track students progress on a daily/weekly basis. They have community but you need to wait hours to get a response.
 
 Take a look at our [AltCampus full-stack MERN course](https://altcampus.school/).
 
@@ -307,7 +309,7 @@ MongoDB also supports replication which can provide high availability of data al
 - What is blocking code ? Give examples to differentiate it from non-blocking code.
 - What is callback hell & how to avoid this ?
 - Explain important features of MongoDB ?
-- What is the differnece between association and referencing in MongoDB ?
+- What is the difference between association and referencing in MongoDB ?
 - What are Indexes and how are they helpful ?
 - What is prop drilling in react and way to avoid it ?
 - Explain virtualDOM ?
@@ -376,7 +378,7 @@ You may have to create an entire application from the scratch which will require
 
 ### What are some of the most popular companies using MERN stack?
 
-There are hundreds on companies which have been developed using MERN stack technology. A few widely popular ones are:-
+There are hundreds of companies which have been developed using MERN stack technology. A few widely popular ones are:-
 
 - Facebook
 - Netflix
@@ -432,7 +434,7 @@ There are other differences as well:-
 
 - Angular has bidirectional data flow which in case of larger applications makes it harder to track the source of data changes. There would be a lot of actions which would mutate data all the times. In React, data flow is unidirectional and only certain actions can change the data present in the store. This will save the data from unnecessary mutations and it can be easily tracked.
 
-- React is more suited for Native mobile app development whereas we can use Angular for this.
+- React is more suited for Native mobile app development whereas we can not use Angular for this.
 
 According to the 2019 HackerRank Developer skills report, Angular was the most popular choice of a web framework that programmers knew in 2018. This changed in 2019, the same report found that 30% of developers in 2019 wanted to learn the React framework, making it the most popular.
 
