@@ -62,17 +62,17 @@ function Header() {
                     className="flex items-center space-x-10"
                   >
                     <ActiveLink href="/how-it-works">
-                      <a className="text-4xl md:text-lg text-gold-500  md:text-dark-blue-300 pt-1 hover:text-dark-blue-500">
+                      <a className="text-4xl md:text-lg text-gold-500  md:text-dark-blue-300 hover:text-dark-blue-500">
                         How it works
                       </a>
                     </ActiveLink>
                     <ActiveLink href="#pricing">
-                      <a className="text-4xl md:text-lg text-gold-500  md:text-dark-blue-300 pt-1 hover:text-dark-blue-500">
+                      <a className="text-4xl md:text-lg text-gold-500  md:text-dark-blue-300 hover:text-dark-blue-500">
                         Pricing
                       </a>
                     </ActiveLink>
                     <ActiveLink href="/#faqs">
-                      <a className="text-4xl md:text-lg text-gold-500  md:text-dark-blue-300 pt-1 hover:text-dark-blue-500">
+                      <a className="text-4xl md:text-lg text-gold-500  md:text-dark-blue-300 hover:text-dark-blue-500">
                         FAQs
                       </a>
                     </ActiveLink>

@@ -45,7 +45,7 @@ export default function ResourcesMenu() {
               <span>Resources</span>
               <ChevronDownIcon
                 className={`${open ? '' : 'text-opacity-70'}
-                  ml-1 mt-1 h-5 w-5 text-gold-500 md:text-dark-blue-300 transition ease-in-out duration-150`}
+                  ml-1 h-5 w-5 text-gold-500 md:text-dark-blue-300 transition ease-in-out duration-150`}
                 aria-hidden="true"
               />
             </Popover.Button>
