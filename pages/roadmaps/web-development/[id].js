@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { MDXRemote } from 'next-mdx-remote';
 
 import { getAllRoadmapIds, getRoadmapData } from '../../../lib/roadmaps';
-import Layout from '../../../components/Layout';
+import LayoutHome from '../../../components/Home/Layout';
 import PostCTA from '../../../components/Community/PostCTA';
 import authors from '../../../lib/author.json';
 import Topics from '../../../components/roadmap/Topics';
@@ -25,7 +25,7 @@ export default function Post({ roadmapData }) {
 
   return (
     <ModalContext.Provider value={{ open, setOpen, modalType, setModalType }}>
-      <Layout>
+      <LayoutHome>
         {roadmapData.scriptTag ? (
           <Head>
             <script type="text/javascript" src={roadmapData.scriptTag}></script>
@@ -84,7 +84,7 @@ export default function Post({ roadmapData }) {
                   style={{ color: '#40A8F5', borderColor: '#40A8F5' }}
                   href={`https://twitter.com/intent/tweet?text=${
                     roadmapData.title + ' - @AltCampus'
-                  }&url=${`https://altcampus.school/community/posts/${roadmapData.id}`}`}
+                  }&url=${`https://altcampus.school/posts/${roadmapData.id}`}`}
                 >
                   <img
                     className="h-5"
@@ -100,7 +100,7 @@ export default function Post({ roadmapData }) {
                 <a
                   className="flex border px-4 py-1 rounded-md border-royal-blue-500 items-center btn-hover"
                   style={{ color: '#4460A0', borderColor: '#4460A0' }}
-                  href={`https://facebook.com/sharer/sharer.php?u=${`https://altcampus.school/community/posts/${roadmapData.id}`}`}
+                  href={`https://facebook.com/sharer/sharer.php?u=${`https://altcampus.school/posts/${roadmapData.id}`}`}
                 >
                   <img
                     className="h-5"
@@ -116,7 +116,7 @@ export default function Post({ roadmapData }) {
           </section>
           {roadmapData.cta ? <PostCTA ctaText={roadmapData.ctaText} /> : null}
         </main>
-      </Layout>
+      </LayoutHome>
     </ModalContext.Provider>
   );
 }

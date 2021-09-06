@@ -1,18 +1,18 @@
-import Layout from '../../../components/Layout';
-import PostCard from '../../../components/Community/PostCard';
-import { getSortedPostsData } from '../../../lib/posts';
+import PostCard from '../../components/Community/PostCard';
+import { getSortedPostsData } from '../../lib/posts';
 import { NextSeo } from 'next-seo';
-import generateSitemap from '../../../lib/generateSitemap';
+import generateSitemap from '../../lib/generateSitemap';
+import LayoutHome from '../../components/Home/Layout';
 
 const Tutorials = ({ allPostsData }) => {
   var title =
     'How to Learn Web Development and Get a Job - Blog | AltCampus School';
   var description =
     'Insightful tips, techniques and posts on how to learn software developement and get a job';
-  var url = 'https://altcampus.school/community/posts';
+  var url = 'https://altcampus.school/posts';
 
   return (
-    <Layout>
+    <LayoutHome>
       <NextSeo
         title={title}
         description={description}
@@ -23,7 +23,7 @@ const Tutorials = ({ allPostsData }) => {
         }}
       />
       <Cards posts={allPostsData} />
-    </Layout>
+    </LayoutHome>
   );
 };
 

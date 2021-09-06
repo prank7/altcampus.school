@@ -68,14 +68,24 @@ function Footer(props) {
                     </Link>
                   </li>
                   <li className="mb-2">
-                    <Link href="/community/posts">
+                    <Link href="/posts">
                       <a className="text-gray-500 hover:text-gold-600">
                         Blog Posts
                       </a>
                     </Link>
                   </li>
                   <li className="mb-2">
-                    <Link href="/pricing">
+                    <a
+                      target="_blank"
+                      rel="noopener"
+                      href="https://launchpad.altcampus.school/login"
+                      className="text-gray-500 hover:text-gold-600"
+                    >
+                      Launchpad Login
+                    </a>
+                  </li>
+                  <li className="mb-2">
+                    <Link href="/#pricing">
                       <a className="text-gray-500 hover:text-gold-600">
                         Pricing
                       </a>
@@ -88,14 +98,6 @@ function Footer(props) {
                   </li>
                 </ul>
                 <ul className="quick-links">
-                  <li className="mb-2">
-                    <Link href="/community">
-                      <a className="text-gray-500 hover:text-gold-600">
-                        Community
-                      </a>
-                    </Link>
-                  </li>
-
                   <li className="mb-2">
                     <Link href="/apply-for-emi">
                       <a className="text-gray-500 hover:text-gold-600">

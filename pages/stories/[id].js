@@ -1,18 +1,17 @@
-import { getAllPostIds, getPostData } from '../../../lib/stories';
-import Layout from '../../../components/Layout';
-import Head from 'next/head';
-import PostCTA from '../../../components/Community/PostCTA';
+import { getAllPostIds, getPostData } from '../../lib/stories';
+import PostCTA from '../../components/Community/PostCTA';
 import { NextSeo } from 'next-seo';
+import LayoutHome from '../../components/Home/Layout';
 
 export default function Post({ postData }) {
   return (
-    <Layout>
+    <LayoutHome>
       <NextSeo
         title={postData.title + ' |' + ' AltCampus School'}
         description={postData.description}
         openGraph={{
           title: postData.title + ' |' + ' AltCampus School',
-          url: 'https://altcampus.school/community/stories/' + postData.id,
+          url: 'https://altcampus.school/stories/' + postData.id,
           description: postData.description,
           images: [
             {
@@ -41,7 +40,7 @@ export default function Post({ postData }) {
           {postData.cta ? <PostCTA ctaText={postData.ctaText} /> : null}
         </div>
       </section>
-    </Layout>
+    </LayoutHome>
   );
 }
 

@@ -25,9 +25,7 @@ function Home(props) {
   return (
     <>
       <Head>
-        <title>
-          {blogConfig.siteMeta.title}
-        </title>
+        <title>{blogConfig.siteMeta.title}</title>
       </Head>
       <LayoutHome>
         <main>

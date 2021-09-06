@@ -94,9 +94,9 @@ function Navbar(params) {
               </ActiveLink>
             </li>
             <li className="mt-4 md:mt-0 md:ml-8">
-              <ActiveLink href="/community/posts">
+              <ActiveLink href="/posts">
                 <a
-                  href="/community/posts"
+                  href="/posts"
                   className="inline-flex items-center text-gray-700 text-base hover:text-gray-900 transition ease-in-out duration-150"
                 >
                   <img
@@ -108,9 +108,9 @@ function Navbar(params) {
               </ActiveLink>
             </li>
             <li className="mt-4 md:mt-0 md:ml-8">
-              <ActiveLink href="/community/stories">
+              <ActiveLink href="/stories">
                 <a
-                  href="/community/stories"
+                  href="/stories"
                   className="inline-flex items-center text-gray-700 text-base hover:text-gray-900 transition ease-in-out duration-150"
                 >
                   <img

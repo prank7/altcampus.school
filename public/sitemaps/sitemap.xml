@@ -13,10 +13,10 @@
     <loc>https://altcampus.school/community</loc>
   </url>
   <url>
-    <loc>https://altcampus.school/community/posts</loc>
+    <loc>https://altcampus.school/posts</loc>
   </url>
   <url>
-    <loc>https://altcampus.school/community/stories</loc>
+    <loc>https://altcampus.school/stories</loc>
   </url>
   <url>
     <loc>https://altcampus.school/community/web-development</loc>
@@ -30,163 +30,145 @@
 
   <url>
     <loc
-      >https://altcampus.school/community/posts/10-full-stack-beginner-project-ideas-for-learning-MERN-stack</loc
+      >https://altcampus.school/posts/10-full-stack-beginner-project-ideas-for-learning-MERN-stack</loc
+    >
+  </url>
+  <url>
+    <loc>https://altcampus.school/posts/4-common-situations-in-git</loc>
+  </url>
+  <url>
+    <loc
+      >https://altcampus.school/posts/4-simple-systems-to-learn-programming-faster</loc
     >
   </url>
   <url>
     <loc
-      >https://altcampus.school/community/posts/4-common-situations-in-git</loc
+      >https://altcampus.school/posts/array-methods-explained-pictorial-representation</loc
+    >
+  </url>
+  <url>
+    <loc>https://altcampus.school/posts/basic-array-methods-in-javascript</loc>
+  </url>
+  <url>
+    <loc
+      >https://altcampus.school/posts/basic-communication-tips-for-beginner-developers</loc
+    >
+  </url>
+  <url>
+    <loc>https://altcampus.school/posts/basic-unix-commands</loc>
+  </url>
+  <url>
+    <loc>https://altcampus.school/posts/crud-operations-in-mongodb</loc>
+  </url>
+  <url>
+    <loc
+      >https://altcampus.school/posts/do-you-need-a-cs-degree-to-become-a-software-developer</loc
     >
   </url>
   <url>
     <loc
-      >https://altcampus.school/community/posts/4-simple-systems-to-learn-programming-faster</loc
+      >https://altcampus.school/posts/frequently-asked-MERN-interview-questions</loc
+    >
+  </url>
+  <url>
+    <loc>https://altcampus.school/posts/full-stack-developer-career-salary</loc>
+  </url>
+  <url>
+    <loc
+      >https://altcampus.school/posts/heres-everything-you-need-to-know-to-become-a-full-stack-web-developer</loc
     >
   </url>
   <url>
     <loc
-      >https://altcampus.school/community/posts/array-methods-explained-pictorial-representation</loc
+      >https://altcampus.school/posts/how-to-build-a-great-portfolio-as-a-beginner-developer</loc
     >
   </url>
   <url>
     <loc
-      >https://altcampus.school/community/posts/basic-array-methods-in-javascript</loc
+      >https://altcampus.school/posts/how-to-get-first-job-as-a-software-developer-when-you-have-zero-experience</loc
     >
   </url>
   <url>
     <loc
-      >https://altcampus.school/community/posts/basic-communication-tips-for-beginner-developers</loc
+      >https://altcampus.school/posts/how-to-overcome-imposter-syndrome-as-an-aspiring-software-developer</loc
     >
   </url>
   <url>
-    <loc>https://altcampus.school/community/posts/basic-unix-commands</loc>
+    <loc>https://altcampus.school/posts/how-to-use-console-like-a-pro</loc>
   </url>
   <url>
     <loc
-      >https://altcampus.school/community/posts/crud-operations-in-mongodb</loc
+      >https://altcampus.school/posts/how-to-write-good-git-commit-message</loc
     >
   </url>
   <url>
-    <loc
-      >https://altcampus.school/community/posts/do-you-need-a-cs-degree-to-become-a-software-developer</loc
-    >
+    <loc>https://altcampus.school/posts/key-MERN-stack-concepts</loc>
   </url>
   <url>
     <loc
-      >https://altcampus.school/community/posts/frequently-asked-MERN-interview-questions</loc
-    >
-  </url>
-  <url>
-    <loc
-      >https://altcampus.school/community/posts/full-stack-developer-career-salary</loc
+      >https://altcampus.school/posts/list-of-simple-projects-to-build-to-learn-and-be-good-at-html-and-css</loc
     >
   </url>
   <url>
     <loc
-      >https://altcampus.school/community/posts/heres-everything-you-need-to-know-to-become-a-full-stack-web-developer</loc
+      >https://altcampus.school/posts/prerequisites-for-learning-MERN-stack</loc
     >
   </url>
   <url>
     <loc
-      >https://altcampus.school/community/posts/how-to-build-a-great-portfolio-as-a-beginner-developer</loc
+      >https://altcampus.school/posts/the-complete-roadmap-to-learn-full-stack-web-development-using-the-MERN-stack</loc
     >
   </url>
   <url>
     <loc
-      >https://altcampus.school/community/posts/how-to-get-first-job-as-a-software-developer-when-you-have-zero-experience</loc
+      >https://altcampus.school/posts/ultimate-guide-to-programming-bootcamps</loc
+    >
+  </url>
+  <url>
+    <loc>https://altcampus.school/posts/understanding-positioning-in-css</loc>
+  </url>
+  <url>
+    <loc
+      >https://altcampus.school/posts/what-are-the-best-places-to-learn-coding</loc
+    >
+  </url>
+  <url>
+    <loc>https://altcampus.school/posts/why-are-bootcamps-so-expensive</loc>
+  </url>
+  <url>
+    <loc
+      >https://altcampus.school/posts/why-every-developer-should-have-a-portfolio</loc
+    >
+  </url>
+  <url>
+    <loc>https://altcampus.school/posts/why-should-you-learn-MERN-stack</loc>
+  </url>
+  <url>
+    <loc
+      >https://altcampus.school/posts/why-you-should-consider-joining-a-bootcamp-if-you-want-to-learn-programming</loc
+    >
+  </url>
+  <url>
+    <loc>https://altcampus.school/posts/writing-clean-and-organized-css</loc>
+  </url>
+  <url>
+    <loc
+      >https://altcampus.school/posts/writing-semantically-correct-and-clean-html</loc
     >
   </url>
   <url>
     <loc
-      >https://altcampus.school/community/posts/how-to-overcome-imposter-syndrome-as-an-aspiring-software-developer</loc
+      >https://altcampus.school/stories/dropping-out-of-college-learning-to-code-first-job-altaampus-ahaduvula-story</loc
     >
   </url>
   <url>
     <loc
-      >https://altcampus.school/community/posts/how-to-use-console-like-a-pro</loc
+      >https://altcampus.school/stories/harshaan-shares-altaampus-experience-and-job-placement</loc
     >
   </url>
   <url>
     <loc
-      >https://altcampus.school/community/posts/how-to-write-good-git-commit-message</loc
-    >
-  </url>
-  <url>
-    <loc>https://altcampus.school/community/posts/key-MERN-stack-concepts</loc>
-  </url>
-  <url>
-    <loc
-      >https://altcampus.school/community/posts/list-of-simple-projects-to-build-to-learn-and-be-good-at-html-and-css</loc
-    >
-  </url>
-  <url>
-    <loc
-      >https://altcampus.school/community/posts/prerequisites-for-learning-MERN-stack</loc
-    >
-  </url>
-  <url>
-    <loc
-      >https://altcampus.school/community/posts/the-complete-roadmap-to-learn-full-stack-web-development-using-the-MERN-stack</loc
-    >
-  </url>
-  <url>
-    <loc
-      >https://altcampus.school/community/posts/ultimate-guide-to-programming-bootcamps</loc
-    >
-  </url>
-  <url>
-    <loc
-      >https://altcampus.school/community/posts/understanding-positioning-in-css</loc
-    >
-  </url>
-  <url>
-    <loc
-      >https://altcampus.school/community/posts/what-are-the-best-places-to-learn-coding</loc
-    >
-  </url>
-  <url>
-    <loc
-      >https://altcampus.school/community/posts/why-are-bootcamps-so-expensive</loc
-    >
-  </url>
-  <url>
-    <loc
-      >https://altcampus.school/community/posts/why-every-developer-should-have-a-portfolio</loc
-    >
-  </url>
-  <url>
-    <loc
-      >https://altcampus.school/community/posts/why-should-you-learn-MERN-stack</loc
-    >
-  </url>
-  <url>
-    <loc
-      >https://altcampus.school/community/posts/why-you-should-consider-joining-a-bootcamp-if-you-want-to-learn-programming</loc
-    >
-  </url>
-  <url>
-    <loc
-      >https://altcampus.school/community/posts/writing-clean-and-organized-css</loc
-    >
-  </url>
-  <url>
-    <loc
-      >https://altcampus.school/community/posts/writing-semantically-correct-and-clean-html</loc
-    >
-  </url>
-  <url>
-    <loc
-      >https://altcampus.school/community/stories/dropping-out-of-college-learning-to-code-first-job-altaampus-ahaduvula-story</loc
-    >
-  </url>
-  <url>
-    <loc
-      >https://altcampus.school/community/stories/harshaan-shares-altaampus-experience-and-job-placement</loc
-    >
-  </url>
-  <url>
-    <loc
-      >https://altcampus.school/community/stories/learning-to-code-from-altcampus-and-finally-becoming-software-developer-komals-journey</loc
+      >https://altcampus.school/stories/learning-to-code-from-altcampus-and-finally-becoming-software-developer-komals-journey</loc
     >
   </url>
   <url>

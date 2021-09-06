@@ -1,22 +1,18 @@
-import {
-  getAllPostIds,
-  getPostData,
-  getRelatedPosts
-} from '../../../lib/posts';
-import Layout from '../../../components/Layout';
+import { getAllPostIds, getPostData, getRelatedPosts } from '../../lib/posts';
 import Head from 'next/head';
-import PostCTA from '../../../components/Community/PostCTA';
-import PostCard from '../../../components/Community/PostCard';
+import PostCTA from '../../components/Community/PostCTA';
+import PostCard from '../../components/Community/PostCard';
 import { NextSeo } from 'next-seo';
-import { TwitterAltIcon, FacebookIcon } from '../../../components/Icons';
-import authors from '../../../lib/author.json';
+import { TwitterAltIcon, FacebookIcon } from '../../components/Icons';
+import authors from '../../lib/author.json';
 import Image from 'next/image';
+import LayoutHome from '../../components/Home/Layout';
 
 export default function Post({ postData, relatedPosts = [] }) {
   let authorInfo = authors[postData.author || 'altcampus'];
 
   return (
-    <Layout>
+    <LayoutHome>
       {postData.scriptTag ? (
         <Head>
           <script type="text/javascript" src={postData.scriptTag}></script>
@@ -27,7 +23,7 @@ export default function Post({ postData, relatedPosts = [] }) {
         description={postData.description}
         openGraph={{
           title: postData.title + ' |' + ' AltCampus School',
-          url: 'https://altcampus.school/community/posts/' + postData.id,
+          url: 'https://altcampus.school/posts/' + postData.id,
           description: postData.description,
           images: [
             {
@@ -100,14 +96,14 @@ export default function Post({ postData, relatedPosts = [] }) {
                   className="twitter-share-button"
                   href={`https://twitter.com/intent/tweet?text=${
                     postData.title + ' - @AltCampus'
-                  }&url=${`https://altcampus.school/community/posts/${postData.id}`}`}
+                  }&url=${`https://altcampus.school/posts/${postData.id}`}`}
                 >
                   <TwitterAltIcon className="h-8 w-8" />
                   <span className="sr-only">Share to Twitter</span>
                 </a>
                 <a
                   className="twitter-share-button"
-                  href={`https://facebook.com/sharer/sharer.php?u=${`https://altcampus.school/community/posts/${postData.id}`}`}
+                  href={`https://facebook.com/sharer/sharer.php?u=${`https://altcampus.school/posts/${postData.id}`}`}
                 >
                   <FacebookIcon className="h-8 w-8" />
                   <span className="sr-only">Share to Facebook</span>
@@ -137,7 +133,7 @@ export default function Post({ postData, relatedPosts = [] }) {
           ))}
         </div>
       </section>
-    </Layout>
+    </LayoutHome>
   );
 }
 

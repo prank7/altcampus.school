@@ -1,12 +1,9 @@
-import React, { Component } from 'react';
-import Head from 'next/head';
+import React from 'react';
 import { NextSeo } from 'next-seo';
-
-import Layout from '../../../components/Layout';
 import StackedList from '../../../components/StackedList';
-import Footer from '../../../components/Home/Footer';
 import { getAllRoadmapsInfo } from '../../../lib/roadmaps';
 import generateSitemap from '../../../lib/generateSitemap';
+import LayoutHome from '../../../components/Home/Layout';
 
 function WebDevelopment({ roadmapsInfo }) {
   var title = 'Full Stack Web Development Learning Roadmap | AltCampus School';
@@ -15,7 +12,7 @@ function WebDevelopment({ roadmapsInfo }) {
   var url = 'https://altcampus.school/community/web-development';
 
   return (
-    <Layout>
+    <LayoutHome>
       <NextSeo
         title={title}
         description={description}
@@ -44,7 +41,7 @@ function WebDevelopment({ roadmapsInfo }) {
           </div>
         </div>
       </div>
-    </Layout>
+    </LayoutHome>
   );
 }
 

@@ -1,22 +1,22 @@
-import Layout from '../../../components/Layout';
+import LayoutHome from '../../components/Home/Layout';
 import Head from 'next/head';
-import PostCTA from '../../../components/Community/PostCTA';
-import PostCard from '../../../components/Community/PostCard';
+import PostCTA from '../../components/Community/PostCTA';
+import PostCard from '../../components/Community/PostCard';
 import { NextSeo } from 'next-seo';
-import { TwitterAltIcon, FacebookIcon } from '../../../components/Icons';
-import authors from '../../../lib/author.json';
+import { TwitterAltIcon, FacebookIcon } from '../../components/Icons';
+import authors from '../../lib/author.json';
 import Image from 'next/image';
 import {
   getAllGuideIds,
   getGuideData,
   getRelatedGuides
-} from '../../../lib/guides';
+} from '../../lib/guides';
 
 export default function Post({ guideData, relatedGuides = [] }) {
   let authorInfo = authors[guideData.author || 'altcampus'];
 
   return (
-    <Layout>
+    <LayoutHome>
       {guideData.scriptTag ? (
         <Head>
           <script type="text/javascript" src={guideData.scriptTag}></script>
@@ -100,14 +100,14 @@ export default function Post({ guideData, relatedGuides = [] }) {
                   className="twitter-share-button"
                   href={`https://twitter.com/intent/tweet?text=${
                     guideData.title + ' - @AltCampus'
-                  }&url=${`https://altcampus.school/community/posts/${guideData.id}`}`}
+                  }&url=${`https://altcampus.school/posts/${guideData.id}`}`}
                 >
                   <TwitterAltIcon className="h-8 w-8" />
                   <span className="sr-only">Share to Twitter</span>
                 </a>
                 <a
                   className="twitter-share-button"
-                  href={`https://facebook.com/sharer/sharer.php?u=${`https://altcampus.school/community/posts/${guideData.id}`}`}
+                  href={`https://facebook.com/sharer/sharer.php?u=${`https://altcampus.school/posts/${guideData.id}`}`}
                 >
                   <FacebookIcon className="h-8 w-8" />
                   <span className="sr-only">Share to Facebook</span>
@@ -137,7 +137,7 @@ export default function Post({ guideData, relatedGuides = [] }) {
           ))}
         </div>
       </section>
-    </Layout>
+    </LayoutHome>
   );
 }
 

@@ -1,17 +1,16 @@
-import Head from 'next/head';
 import Link from 'next/link';
-import Layout from '../../../components/Layout';
-import { getSortedPostsData } from '../../../lib/stories';
+import { getSortedPostsData } from '../../lib/stories';
 import { NextSeo } from 'next-seo';
+import LayoutHome from '../../components/Home/Layout';
 
 const Stories = ({ allPostsData }) => {
   var title = 'Success Stories | AltCampus School';
   var description =
     'Placement and success stories from AltCampus. Stories from one of the best placement records among programming bootcamps in India';
-  var url = 'https://altcampus.school/community/stories';
+  var url = 'https://altcampus.school/stories';
 
   return (
-    <Layout>
+    <LayoutHome>
       <NextSeo
         title={title}
         description={description}
@@ -36,10 +35,7 @@ const Stories = ({ allPostsData }) => {
             {allPostsData.map(
               ({ id, name, company, date, title, studentPhoto, blurb }) => (
                 <div key={id} className="mb-8">
-                  <Link
-                    href={`/community/stories/[id]`}
-                    as={`/community/stories/${id}`}
-                  >
+                  <Link href={`/stories/[id]`} as={`/stories/${id}`}>
                     <figure className="bg-gray-100 rounded-xl flex p-2 cursor-pointer">
                       <img
                         className="w-32 h-32"
@@ -73,7 +69,7 @@ const Stories = ({ allPostsData }) => {
           </div>
         </div>
       </div>
-    </Layout>
+    </LayoutHome>
   );
 };
 

@@ -53,6 +53,6 @@ These are few unix commands which every developer should be familiar with. They 
 - Higher order functions
 - Scope & Closure
 
-Once you have covered these topics then you can are ready to [learn entire MERN stack](https://altcampus.school/community/posts/the-complete-roadmap-to-learn-full-stack-web-development-using-the-MERN-stack).
+Once you have covered these topics then you can are ready to [learn entire MERN stack](https://altcampus.school/posts/the-complete-roadmap-to-learn-full-stack-web-development-using-the-MERN-stack).
 
 If you are someone who is new to all of this, take a look at [our course](https://altcampus.school) which takes you from absolute scratch to becoming a full-stack developer.
