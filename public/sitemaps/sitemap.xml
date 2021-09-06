@@ -10,16 +10,16 @@
     <loc>https://altcampus.school/pricing</loc>
   </url>
   <url>
-    <loc>https://altcampus.school/community</loc>
-  </url>
-  <url>
     <loc>https://altcampus.school/posts</loc>
   </url>
   <url>
     <loc>https://altcampus.school/stories</loc>
   </url>
   <url>
-    <loc>https://altcampus.school/community/web-development</loc>
+    <loc>https://altcampus.school/guides</loc>
+  </url>
+  <url>
+    <loc>https://altcampus.school/roadmaps/web-development</loc>
   </url>
   <url>
     <loc>https://altcampus.school/curriculum</loc>
@@ -120,11 +120,6 @@
     >
   </url>
   <url>
-    <loc
-      >https://altcampus.school/posts/ultimate-guide-to-programming-bootcamps</loc
-    >
-  </url>
-  <url>
     <loc>https://altcampus.school/posts/understanding-positioning-in-css</loc>
   </url>
   <url>
@@ -169,6 +164,14 @@
   <url>
     <loc
       >https://altcampus.school/stories/learning-to-code-from-altcampus-and-finally-becoming-software-developer-komals-journey</loc
+    >
+  </url>
+  <url>
+    <loc>https://altcampus.school/guides/the-ultimate-guide-to-MERN-stack</loc>
+  </url>
+  <url>
+    <loc
+      >https://altcampus.school/guides/ultimate-guide-to-programming-bootcamps</loc
     >
   </url>
   <url>
