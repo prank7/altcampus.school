@@ -22,7 +22,7 @@ author: 'dprank'
   title="Basic communication tips for beginner developers - How to present yourself as a developer? How to fix your online presence? Basic remote working communication tips for software developers. AltCampus school." src="https://www.youtube.com/embed/-wbR9af83FM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </figure>
 
-_The above video is a recorded version of the first session on professional communication of<a href="https://altcampus.school">our online program</a> on full-stack web development. Please watch the video first and then follow the checklist below._
+_The above video is a recorded version of the first session on professional communication of <a href="https://altcampus.school">our online program</a> on full-stack web development. Please watch the video first and then follow the checklist below._
 
 ##### Follow this checklist for improving your presentation, remote work communication, technical communication via Github and sharing progress via Twitter.
 
