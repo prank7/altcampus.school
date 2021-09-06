@@ -66,7 +66,7 @@ function Header() {
                         How it works
                       </a>
                     </ActiveLink>
-                    <ActiveLink href="#pricing">
+                    <ActiveLink href="/#pricing">
                       <a className="text-4xl md:text-lg text-gold-500  md:text-dark-blue-300 hover:text-dark-blue-500">
                         Pricing
                       </a>
