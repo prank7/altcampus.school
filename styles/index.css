@@ -314,6 +314,7 @@ button {
   border: 0;
 }
 
+
 /* Prose */
 
 .prose {
@@ -408,6 +409,9 @@ code::after {
 
 .prose .topic-list li strong {
   font-weight: 400;
+}
+.task-list-item::before {
+  display: none;
 }
 
 /* Alumini Profile */
