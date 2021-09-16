@@ -33,7 +33,7 @@ You can make a component more powerful using props. Props are read-only pieces o
 
 ### What to do?
 
-For this project, you will need to use props in you components. Using props you can add different properties to the component. Go through this [link](https://gist.github.com/nnnkit/2b3dafbce71756f2d26331fb2d90f06b), read the requirements and complete the project.
+For this project, you will need to use props in your components. Using props you can add different properties to the component. Go through this [link](https://gist.github.com/nnnkit/2b3dafbce71756f2d26331fb2d90f06b), read the requirements and complete the project.
 
 **Topics you will learn doing this:-**
 
@@ -191,7 +191,7 @@ The quiz app will have the following features:
 - The quiz app will first display a collection of categories (https://opentdb.com/api_category.php)
 - User can select a category from the list
 - Once the category is selected display question one after another (https://opentdb.com/api.php?amount=10&category=10&difficulty=medium)
-- Show the progress of of the quiz like (2/10)
+- Show the progress of the quiz like (2/10)
 - At the end of 10 questions display the score card
 - The score card will contain percentage of right answers.
 - It will alco contain all the questions with user selected answer and the right answer
@@ -242,4 +242,4 @@ You can go through this [live demo](https://ac-blog-app.vercel.app/) and use thi
 
 **Time Taken:** 30 Hours
 
-If you are someone new to all of this, take a look at [our course](https://altcampus.school) which takes you from absolute beginner to becoming a full-stack developer and getting your first developer job. It includes everything (assignments, video lectures, quizzes, interview questions and job prepration) you will need for you journey of becoming a full-stack developer.
+If you are someone new to all of this, take a look at [our course](https://altcampus.school) which takes you from absolute beginner to becoming a full-stack developer and getting your first developer job. It includes everything (assignments, video lectures, quizzes, interview questions and job prepration) you will need for your journey of becoming a full-stack developer.
