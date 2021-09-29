@@ -25,7 +25,7 @@ function Hero(props) {
           </h1>
           <div className="bg-white col-span-1 flex items-center shadow-lg-custom py-7 pr-8 pl-8 rounded-2xl">
             <div className="-ml-16">
-              <span className="text-center rounded-full text-5.5xl text-white block w-16 h-16 bg-gray-500 shadow-md-custom pt-1">
+              <span className="text-center rounded-full text-5.5xl text-white block w-16 h-16 bg-gray-500 -shadow-md-custom pt-1 font-bold transform -scale-y-1">
                 “
               </span>
             </div>

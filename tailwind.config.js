@@ -98,7 +98,11 @@ module.exports = {
       boxShadow: {
         'sm-custom': '0 2px 4px 0 rgba(0,0,0,0.08)',
         'md-custom': '0 9px 12px 0 rgba(25,28,60,0.31)',
+        '-md-custom': '0 -9px 12px 0 rgba(25,28,60,0.31)',
         'lg-custom': '0 13px 23px 0 rgba(25,28,60,0.06)'
+      },
+      scale: {
+        '-1': '-1'
       }
     }
   },
