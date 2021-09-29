@@ -7,7 +7,7 @@ export default function ActiveLink({ href, children }) {
 
   let className = children.props.className || '';
   if (router.pathname === href) {
-    className = `${className} border-b-2 border-green-theme-500 `;
+    className = `${className} nav-active relative`;
   }
 
   return <Link href={href}>{React.cloneElement(children, { className })}</Link>;

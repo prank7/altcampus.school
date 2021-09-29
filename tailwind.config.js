@@ -33,7 +33,9 @@ module.exports = {
         body: ['Graphik', 'sans-serif'],
         lato: ['Lato', 'sans-serif'],
         source: ['Source Sans Pro', 'sans-serif'],
-        mukta: ['Mukta', 'sans-serif']
+        mukta: ['Mukta', 'sans-serif'],
+        Karla: ['Karla', 'sans-serif'],
+        Sora: ['Sora', 'sans-serif']
       },
       colors: {
         'green-theme': {
@@ -46,7 +48,7 @@ module.exports = {
           600: '#13AB4A',
           700: '#0D7231',
           800: '#095625',
-          900: '#063919'
+          900: '#12853C'
         },
         'royal-blue': {
           50: '#F7F8FE',
@@ -77,10 +79,16 @@ module.exports = {
           500: '#F2BA0F',
           600: '#888806',
           800: '#AD8A56'
+        },
+        gray: {
+          500: '#536784'
         }
       },
       height: {
         27: '6.75rem'
+      },
+      boxShadow: {
+        'sm-custom': '0 2px 4px 0 rgba(0,0,0,0.08);'
       }
     }
   },

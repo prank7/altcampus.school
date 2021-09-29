@@ -1,10 +1,10 @@
-import Header from './Header';
-import Footer from './Footer';
+import Navbar from '../Common/Navbar';
+import Footer from '../Common/Footer';
 
 export default function LayoutHome({ children }) {
   return (
     <>
-      <Header />
+      <Navbar />
       {children}
       <Footer />
     </>
