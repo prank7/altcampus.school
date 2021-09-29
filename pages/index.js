@@ -9,7 +9,7 @@ import Pricing from '../components/Home/Pricing';
 import ReadyToBuild from '../components/Home/ReadyToBuildCTA';
 import FAQ from '../components/Home/FAQ';
 import LetsTalk from '../components/Home/LetsTalk';
-import LayoutHome from '../components/Home/Layout';
+import LayoutHome from '../components/Common/Layout';
 import Head from 'next/head';
 import ChosePace from '../components/Home/ChosePace';
 import blogConfig from '../blog.config';

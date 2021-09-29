@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1406px" height="577px" viewBox="0 0 1406 577" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-78.1%" y="-78.1%" width="256.2%" height="256.2%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="50" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-84.3%" y="-84.3%" width="268.5%" height="268.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="50" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-126.1%" y="-126.1%" width="352.1%" height="352.1%" filterUnits="objectBoundingBox" id="filter-3">
+            <feGaussianBlur stdDeviation="50" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-53.0%" y="-53.0%" width="206.0%" height="206.0%" filterUnits="objectBoundingBox" id="filter-4">
+            <feGaussianBlur stdDeviation="50" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Landing-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing-Page-Copy" transform="translate(-4.000000, 0.000000)">
+            <g id="Group-2" transform="translate(123.000000, 88.000000)">
+                <circle id="Oval" fill="#FBBF24" opacity="0.201961742" filter="url(#filter-1)" cx="96" cy="191" r="96"></circle>
+                <circle id="Oval-Copy" fill="#EEA7CD" opacity="0.371625115" filter="url(#filter-2)" cx="567" cy="281" r="89"></circle>
+                <circle id="Oval-Copy-2" fill="#12853C" opacity="0.168448415" filter="url(#filter-3)" cx="626.5" cy="59.5" r="59.5"></circle>
+                <circle id="Oval-Copy-3" fill="#8D98FF" opacity="0.274319278" filter="url(#filter-4)" cx="1023.5" cy="191.5" r="141.5"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -37,6 +37,10 @@ module.exports = {
         Karla: ['Karla', 'sans-serif'],
         Sora: ['Sora', 'sans-serif']
       },
+      fontSize: {
+        '5.5xl': '3.5rem',
+        xxs: '0.625rem'
+      },
       colors: {
         'green-theme': {
           50: '#F3FCF6',
@@ -84,11 +88,17 @@ module.exports = {
           500: '#536784'
         }
       },
+      width: {
+        1.2: '0.3125rem'
+      },
       height: {
+        1.2: '0.3125rem',
         27: '6.75rem'
       },
       boxShadow: {
-        'sm-custom': '0 2px 4px 0 rgba(0,0,0,0.08);'
+        'sm-custom': '0 2px 4px 0 rgba(0,0,0,0.08)',
+        'md-custom': '0 9px 12px 0 rgba(25,28,60,0.31)',
+        'lg-custom': '0 13px 23px 0 rgba(25,28,60,0.06)'
       }
     }
   },

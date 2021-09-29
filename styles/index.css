@@ -30,7 +30,10 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Sora', sans-serif;
+}
+p {
+  font-family: 'Karla', sans-serif;
 }
 
 button {
@@ -59,21 +62,16 @@ button {
   border-radius: 4px 4px 0 0;
 }
 
-/* Hero */
-.hero {
-  background: linear-gradient(#f6f9fc, #fafcfe, #ffffff);
-  position: relative;
+/* Background-image */
+.bg-fancy {
+  background-image: url('/images/bg-curve.svg'), url('/images/bg-blur.svg');
+  background-position: 0 1rem;
 }
-
-.hero-heading {
-  font-size: 3.5rem;
-  font-weight: 700;
+.bg-blur {
+  background-image: url('/images/bg-blur.svg');
 }
-
-.hero-image {
-  max-width: 100%;
-  right: -28%;
-  top: -57%;
+.bg-curve {
+  background-image:url('/images/bg-curve.svg');
 }
 
 @media screen and (max-width: 1024px) {

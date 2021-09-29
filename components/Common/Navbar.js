@@ -54,7 +54,7 @@ const mobileMenu = [
 
 function Navbar() {
   return (
-    <header className="relative bg-white shadow-sm-custom">
+    <header className="fixed z-20 w-full top-0 bg-white shadow-sm-custom">
       <Popover className="container mx-auto flex justify-between items-center px-8 sm:px-3 py-4 sm:py-0">
         {({ open }) => (
           <>

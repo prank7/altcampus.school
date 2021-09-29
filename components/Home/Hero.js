@@ -13,43 +13,68 @@ function Hero(props) {
     : '';
 
   return (
-    <section className="hero text-center py-20 md:pt-32 md:pb-24 relative overflow-hidden">
-      <div className="container mx-auto px-8">
-        <div>
-          <h1 className="hero-heading font-bold text-dark-blue-500 md:px-12 md:max-w-4xl mx-auto leading-custom font-Sora">
-            Everything you need to become a Software Developer
+    <section className="py-40 bg-fancy bg-no-repeat">
+      <article className="container mx-auto px-3">
+        <header className="grid grid-cols-2 gap-x-20 items-center">
+          <h1 className="text-5.5xl font-bold leading-tight col-span-1 text-royal-blue-900">
+            <strong>
+              Everything you <br /> need to become a
+            </strong>
+            <br />
+            <strong className="text-green-theme-900">Software Developer</strong>
           </h1>
-          <h3 className="text-xl md:text-2xl text-hero-subheading my-10 font-source  md:max-w-4xl mx-auto px-4">
-            An online programming bootcamp designed to help you learn full-stack
-            web development and become job-ready
-          </h3>
-          <div className="font-medium flex justify-center items-center text-hero-tags">
-            <h5 className="text-sm md:text-lg font-mukta">100% online</h5>
-            <span className="w-2 h-2 bg-dark-blue-300 mx-6 rounded-full"></span>
-            <h5 className="text-sm md:text-lg font-mukta">Project based</h5>
-            <span className="w-2 h-2 bg-dark-blue-300 mx-6 rounded-full"></span>
-            <h5 className="text-sm md:text-lg font-mukta">Mentorship</h5>
+          <div className="bg-white col-span-1 flex items-center shadow-lg-custom py-7 pr-8 pl-8 rounded-2xl">
+            <div className="-ml-16">
+              <span className="text-center rounded-full text-5.5xl text-white block w-16 h-16 bg-gray-500 shadow-md-custom pt-1">
+                “
+              </span>
+            </div>
+            <blockquote className="ml-6">
+              <p className="text-base text-gray-500 leading-relaxed">
+                Altcampus is where my search ended for the perfect bootcamp like
+                course. I finally landed a job! Thanks to them!
+              </p>
+            </blockquote>
+            <figure className="text-center ml-11">
+              <div className="w-24">
+                <img
+                  className="inline-block"
+                  src="/images/students/sachin.svg"
+                  alt="Sachin Kumaar"
+                />
+                <figcaption className="mt-2">
+                  <cite className="text-base not-italic text-royal-blue-900 font-semibold">
+                    Sachin
+                  </cite>
+                  <br />
+                  <cite className="text-xxs not-italic text-gray-500 tracking-normal uppercase">
+                    Cleartax
+                  </cite>
+                </figcaption>
+              </div>
+            </figure>
           </div>
-          <div className="mt-8">
-            <p className="text-lg italic text-royal-blue-600 ">
-              {immediateBatchDate}
-            </p>
-          </div>
-          <div>
-            <a
-              href="https://try.altcampus.school?utm_source=hero_cta"
-              className="text-md text-white bg-green-theme-500 hover:bg-green-theme-600 uppercase py-3 px-20 inline-block mt-12 rounded font-semibold tracking-widest btn-hover font-mukta"
-            >
-              Start Learning For Free
-            </a>
-          </div>
-        </div>
-        <img
-          className="absolute right-0 top-0 hero-image"
-          src="/assets/media/bg-hero1.svg"
-          alt="Hero Bg"
-        />
-      </div>
+        </header>
+        <h5 className="text-xs uppercase font-medium space-x-4 text-royal-blue-900 mt-14 flex items-center">
+          <strong className="font-medium">100% Online</strong>
+          <span className="w-1.2 h-1.2 inline-block bg-gray-500 rounded-full"></span>
+          <strong className="font-medium">Project based</strong>
+          <span className="w-1.2 h-1.2 inline-block bg-gray-500 rounded-full"></span>
+          <strong className="font-medium"> Mentorship</strong>
+        </h5>
+        <footer className="grid grid-cols-5 items-center mt-11">
+          <h2 className="col-span-4 text-2xl leading-normal font-normal text-royal-blue-900">
+            An online programming bootcamp designed <br /> to help you learn
+            full-stack web development and become job-ready !
+          </h2>
+          <a
+            href="https://try.altcampus.school/"
+            className="bg-green-theme-900 py-4 inline-block col-span-1 text-center text-white font-semibold text-sm rounded"
+          >
+            Start For Free
+          </a>
+        </footer>
+      </article>
     </section>
   );
 }
