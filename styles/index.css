@@ -74,6 +74,11 @@ button {
   background-image:url('/images/bg-curve.svg');
 }
 
+/* AC Stats Component */
+.stats-item:last-child {
+  border-right: 0;
+}
+
 @media screen and (max-width: 1024px) {
   .hero-image {
     right: -34%;

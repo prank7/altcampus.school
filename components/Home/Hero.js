@@ -16,7 +16,7 @@ function Hero(props) {
     <section className="py-40 bg-fancy bg-no-repeat">
       <article className="container mx-auto px-3">
         <header className="grid grid-cols-2 gap-x-20 items-center">
-          <h1 className="text-5.5xl font-bold leading-tight col-span-1 text-royal-blue-900">
+          <h1 className="text-5.5xl font-bold leading-tight col-span-1 text-royal-blue-800">
             <strong>
               Everything you <br /> need to become a
             </strong>
@@ -43,7 +43,7 @@ function Hero(props) {
                   alt="Sachin Kumaar"
                 />
                 <figcaption className="mt-2">
-                  <cite className="text-base not-italic text-royal-blue-900 font-semibold">
+                  <cite className="text-base not-italic text-royal-blue-800 font-semibold">
                     Sachin
                   </cite>
                   <br />
@@ -55,7 +55,7 @@ function Hero(props) {
             </figure>
           </div>
         </header>
-        <h5 className="text-xs uppercase font-medium space-x-4 text-royal-blue-900 mt-14 flex items-center">
+        <h5 className="text-xs uppercase font-medium space-x-4 text-royal-blue-800 mt-14 flex items-center">
           <strong className="font-medium">100% Online</strong>
           <span className="w-1.2 h-1.2 inline-block bg-gray-500 rounded-full"></span>
           <strong className="font-medium">Project based</strong>
@@ -63,7 +63,7 @@ function Hero(props) {
           <strong className="font-medium"> Mentorship</strong>
         </h5>
         <footer className="grid grid-cols-5 items-center mt-11">
-          <h2 className="col-span-4 text-2xl leading-normal font-normal text-royal-blue-900">
+          <h2 className="col-span-4 text-2xl leading-normal font-normal text-royal-blue-800">
             An online programming bootcamp designed <br /> to help you learn
             full-stack web development and become job-ready !
           </h2>

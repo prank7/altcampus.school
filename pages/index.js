@@ -13,6 +13,7 @@ import LayoutHome from '../components/Common/Layout';
 import Head from 'next/head';
 import ChosePace from '../components/Home/ChosePace';
 import blogConfig from '../blog.config';
+import ACStats from '../components/Home/ACStats';
 
 function Home(props) {
   // React.useEffect(() => {
@@ -30,8 +31,7 @@ function Home(props) {
       <LayoutHome>
         <main>
           <Hero />
-          <KeyFeatures />
-          <CourseDetails />
+          <ACStats />
           <Testimonials />
           <StartLearningCTA />
           <ChosePace />
