@@ -1,8 +1,5 @@
 import React from 'react';
 import Hero from '../components/Home/Hero';
-import KeyFeatures from '../components/Home/KeyFeatures';
-import CourseDetails from '../components/Home/CourseDetails';
-import Testimonials from '../components/Home/Testimonials';
 import StartLearningCTA from '../components/Home/StartLearningCTA';
 import Pricing from '../components/Home/Pricing';
 // import TestimonialTweets from "../components/Home/TestimonialsTweets";
@@ -14,6 +11,7 @@ import Head from 'next/head';
 import ChosePace from '../components/Home/ChosePace';
 import blogConfig from '../blog.config';
 import ACStats from '../components/Home/ACStats';
+import Alumni from '../components/Home/Alumni/Alumnis';
 
 function Home(props) {
   // React.useEffect(() => {
@@ -32,14 +30,13 @@ function Home(props) {
         <main>
           <Hero />
           <ACStats />
-          <Testimonials />
-          <StartLearningCTA />
-          <ChosePace />
-          <Pricing />
+          <Alumni />
+          {/* <ChosePace />
+          <Pricing /> */}
           {/* <TestimonialTweets /> */}
-          <ReadyToBuild />
+          {/* <ReadyToBuild />
           <FAQ />
-          <LetsTalk />
+          <LetsTalk /> */}
         </main>
       </LayoutHome>
     </>

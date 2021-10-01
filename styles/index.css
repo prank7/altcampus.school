@@ -64,11 +64,11 @@ button {
 
 /* Background-image */
 .bg-fancy {
-  background-image: url('/images/bg-curve.svg'), url('/images/bg-blur.svg');
-  background-position: 0 1rem;
+  background: url('/images/bg-curve.svg') no-repeat 0 1rem , url('/images/bg-blur.svg') no-repeat 0 -48px;
 }
 .bg-blur {
   background-image: url('/images/bg-blur.svg');
+  background-position: center center;
 }
 .bg-curve {
   background-image:url('/images/bg-curve.svg');

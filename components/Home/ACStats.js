@@ -1,5 +1,4 @@
 import React from 'react';
-import globalData from '../../globalData';
 
 const statsMenu = [
   {
