@@ -3,7 +3,7 @@ import Hero from '../components/Home/Hero';
 import StartLearningCTA from '../components/Home/StartLearningCTA';
 import Pricing from '../components/Home/Pricing';
 // import TestimonialTweets from "../components/Home/TestimonialsTweets";
-import ReadyToBuild from '../components/Home/SignupCTA';
+import CTA from '../components/Home/SignupCTA';
 import FAQ from '../components/Home/FAQ';
 import LetsTalk from '../components/Home/LetsTalk';
 import LayoutHome from '../components/Common/Layout';
@@ -12,6 +12,7 @@ import ChosePace from '../components/Home/ChosePace';
 import blogConfig from '../blog.config';
 import ACStats from '../components/Home/ACStats';
 import Alumni from '../components/Home/Alumni/Alumnis';
+import CourseStack from '../components/Home/CourseStack';
 
 function Home(props) {
   // React.useEffect(() => {
@@ -34,7 +35,17 @@ function Home(props) {
           {/* <ChosePace />
           <Pricing /> */}
           {/* <TestimonialTweets /> */}
-          <ReadyToBuild />
+          <CTA
+            titleA={'Land your dream job'}
+            titleB={'of which you will be more proud !'}
+            action={'Sign Up Now!'}
+          />
+          <CourseStack />
+          {/* <CTA
+            titleA={'Ready to take the'}
+            titleB={'world of programming by storm?'}
+            action={'I am ready, Sign me up!'}
+          /> */}
           {/* <FAQ />
           <LetsTalk /> */}
         </main>

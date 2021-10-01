@@ -70,6 +70,10 @@ button {
   background-image: url('/images/bg-blur.svg');
   background-position: center center;
 }
+.bg-blur-blue {
+  background-image: url('/images/bg-blur-circle.svg');
+  background-position: center center;
+}
 .bg-curve {
   background: url('/images/bg-curve-2.svg') no-repeat 0 98%, linear-gradient(#191C3C, #191C3C) ;
   background-size: cover;

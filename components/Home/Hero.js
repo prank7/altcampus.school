@@ -16,13 +16,13 @@ function Hero(props) {
     <section className="py-40 bg-fancy bg-no-repeat">
       <article className="container mx-auto px-3">
         <header className="grid grid-cols-2 gap-x-20 items-center">
-          <h1 className="text-5.5xl font-bold leading-tight col-span-1 text-royal-blue-800">
+          <h2 className="text-5.5xl font-bold leading-tight col-span-1 text-royal-blue-800">
             <strong>
               Everything you <br /> need to become a
             </strong>
             <br />
             <strong className="text-green-theme-900">Software Developer</strong>
-          </h1>
+          </h2>
           <div className="bg-white col-span-1 flex items-center shadow-lg-custom py-7 pr-8 pl-8 rounded-2xl">
             <div className="-ml-16">
               <span className="text-center rounded-full text-5.5xl text-white block w-16 h-16 bg-gray-500 -shadow-md-custom pt-1 font-bold transform -scale-y-1">
@@ -63,10 +63,10 @@ function Hero(props) {
           <strong className="font-medium"> Mentorship</strong>
         </h5>
         <footer className="grid grid-cols-5 items-center mt-11">
-          <h2 className="col-span-4 text-2xl leading-normal font-normal text-royal-blue-800">
+          <h1 className="col-span-4 text-2xl leading-normal font-normal text-royal-blue-800">
             An online programming bootcamp designed <br /> to help you learn
             full-stack web development and become job-ready !
-          </h2>
+          </h1>
           <a
             href="https://try.altcampus.school/"
             className="bg-green-theme-900 py-4 inline-block col-span-1 text-center text-white font-semibold text-sm rounded"
