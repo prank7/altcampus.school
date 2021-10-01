@@ -3,7 +3,7 @@ import Hero from '../components/Home/Hero';
 import StartLearningCTA from '../components/Home/StartLearningCTA';
 import Pricing from '../components/Home/Pricing';
 // import TestimonialTweets from "../components/Home/TestimonialsTweets";
-import ReadyToBuild from '../components/Home/ReadyToBuildCTA';
+import ReadyToBuild from '../components/Home/SignupCTA';
 import FAQ from '../components/Home/FAQ';
 import LetsTalk from '../components/Home/LetsTalk';
 import LayoutHome from '../components/Common/Layout';
@@ -34,8 +34,8 @@ function Home(props) {
           {/* <ChosePace />
           <Pricing /> */}
           {/* <TestimonialTweets /> */}
-          {/* <ReadyToBuild />
-          <FAQ />
+          <ReadyToBuild />
+          {/* <FAQ />
           <LetsTalk /> */}
         </main>
       </LayoutHome>

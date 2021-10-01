@@ -71,7 +71,8 @@ button {
   background-position: center center;
 }
 .bg-curve {
-  background-image:url('/images/bg-curve.svg');
+  background: url('/images/bg-curve-2.svg') no-repeat 0 98%, linear-gradient(#191C3C, #191C3C) ;
+  background-size: cover;
 }
 
 /* AC Stats Component */
