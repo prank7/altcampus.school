@@ -13,6 +13,7 @@ import blogConfig from '../blog.config';
 import ACStats from '../components/Home/ACStats';
 import Alumni from '../components/Home/Alumni/Alumnis';
 import CourseStack from '../components/Home/CourseStack';
+import CourseModel from '../components/Home/CourseModel/CourseModel';
 
 function Home(props) {
   // React.useEffect(() => {
@@ -41,11 +42,15 @@ function Home(props) {
             action={'Sign Up Now!'}
           />
           <CourseStack />
-          {/* <CTA
+          <section>
+            <CourseModel />
+          </section>
+
+          <CTA
             titleA={'Ready to take the'}
             titleB={'world of programming by storm?'}
             action={'I am ready, Sign me up!'}
-          /> */}
+          />
           {/* <FAQ />
           <LetsTalk /> */}
         </main>

@@ -2,7 +2,7 @@ import PostCard from '../../components/Community/PostCard';
 import { getSortedPostsData } from '../../lib/posts';
 import { NextSeo } from 'next-seo';
 import generateSitemap from '../../lib/generateSitemap';
-import LayoutHome from '../../components/Home/Layout';
+import LayoutHome from '../../components/Common/Layout';
 
 const Tutorials = ({ allPostsData }) => {
   var title =

@@ -84,6 +84,23 @@ button {
   border-right: 0;
 }
 
+/* Course Model */
+.course-model-item::before, .course-model-item::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 6rem;
+  background-color: rgba(25, 28, 60,0.07);
+  filter: blur(30px);
+  border-radius: 100%;
+} 
+.course-model-item::before {
+  top: 0;
+}
+.course-model-item::after {
+  bottom: 0;
+}
 @media screen and (max-width: 1024px) {
   .hero-image {
     right: -34%;

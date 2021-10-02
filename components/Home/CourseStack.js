@@ -5,7 +5,7 @@ function CourseStack(props) {
     <section className="py-20">
       <div className="container mx-auto px-3">
         <h3 className="text-center font-bold text-gray-500 text-2xl">
-          Meet some of our alumnis...
+          What Separates Us…
         </h3>
         <div className="max-w-5xl mx-auto grid grid-cols-2 mt-28 gap-x-16 gap-y-9">
           <article className="">
@@ -76,9 +76,14 @@ function CourseStack(props) {
             </fieldset>
           </form>
           <article className="flex items-center bg-white py-6 px-7 shadow-lg-custom rounded-2xl relative z-10">
-            <p className="font-Karla text-base text-gray-500 leading-relaxed mr-6">
+            <p className="font-Karla text-base text-gray-500 leading-relaxed mr-6 relative">
               This is the most detailed, to the point and practical curriculum
               that I have come across during my search of a bootcamp.
+              <div className="absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2">
+                <span className="text-center rounded-full text-8xl text-green-theme-900 block w-16 h-16 transform -scale-y-1 font-Sora text-opacity-10 font-semibold">
+                  “
+                </span>
+              </div>
             </p>
             <aside>
               <img src="/images/students/sachin.svg" alt="Sachin" />
