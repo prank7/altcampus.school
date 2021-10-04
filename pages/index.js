@@ -14,6 +14,7 @@ import ACStats from '../components/Home/ACStats';
 import Alumni from '../components/Home/Alumni/Alumnis';
 import CourseStack from '../components/Home/CourseStack';
 import CourseModel from '../components/Home/CourseModel/CourseModel';
+import TestimonialCTA from '../components/Home/TestimonialCTA';
 
 function Home(props) {
   // React.useEffect(() => {
@@ -45,12 +46,16 @@ function Home(props) {
           <section>
             <CourseModel />
           </section>
-
-          <CTA
+          <TestimonialCTA
             titleA={'Ready to take the'}
             titleB={'world of programming by storm?'}
             action={'I am ready, Sign me up!'}
           />
+          {/* <CTA
+            titleA={'Ready to take the'}
+            titleB={'world of programming by storm?'}
+            action={'I am ready, Sign me up!'}
+          /> */}
           {/* <FAQ />
           <LetsTalk /> */}
         </main>

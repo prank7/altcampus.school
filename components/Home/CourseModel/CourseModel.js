@@ -5,7 +5,7 @@ import CourseModelGraphics from './CourseModelGraphics';
 function CourseModel(props) {
   return (
     <section className="mt-16">
-      <div className="mx-auto px-3 course-model-item relative ">
+      <div className="course-model-item relative ">
         <div className="bg-white relative z-10">
           <article className="max-w-5xl mx-auto px-3 py-24 flex items-center justify-between relative z-10">
             <div className="max-w max-w-lg">
@@ -51,7 +51,7 @@ function CourseModel(props) {
         </article>
       </div>
 
-      <div className="mx-auto px-3 course-model-item relative ">
+      <div className="course-model-item relative ">
         <div className="bg-white relative z-10">
           <article className="max-w-5xl mx-auto px-3 py-24 flex items-center justify-between relative z-10">
             <div className="max-w max-w-lg">
