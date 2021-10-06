@@ -157,6 +157,16 @@ button {
   break-inside: avoid;
   margin: 0 0 1.5rem 0;
 }
+
+/* FAQs */
+.active-ques {
+  background: linear-gradient(268.31deg, rgba(18,133,60,0.07) 0%, rgba(18,133,60,0) 40%);
+  border-right: 5px solid #12853C;
+}
+.answer-column {
+  background: url(/images/bg-blur-sm.svg) 100% 100% no-repeat;
+  background-size: 50%;
+}
 @media screen and (max-width: 1024px) {
   .hero-image {
     right: -34%;

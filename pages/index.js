@@ -15,6 +15,7 @@ import CourseStack from '../components/Home/CourseStack';
 import CourseModel from '../components/Home/CourseModel/CourseModel';
 import TestimonialCTA from '../components/Home/TestimonialCTA';
 import WallOfLove from '../components/Home/WallOfLove';
+import Blog from '../components/Home/Blog';
 
 function Home(props) {
   // React.useEffect(() => {
@@ -53,13 +54,14 @@ function Home(props) {
           />
           <Pricing />
           <WallOfLove />
+          <FAQ />
+          <Blog />
           <CTA
             titleA={'Ready to take the'}
             titleB={'world of programming by storm?'}
             action={'I am ready, Sign me up!'}
           />
-          {/* <FAQ />
-          <LetsTalk /> */}
+          {/* <LetsTalk /> */}
         </main>
       </LayoutHome>
     </>
