@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="469px" height="149px" viewBox="0 0 469 149" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Group 6</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="105.43461%" y1="44.4109606%" x2="19.2063374%" y2="52.5011029%" id="linearGradient-1">
+            <stop stop-color="#9E1681" offset="0%"></stop>
+            <stop stop-color="#6A0B97" offset="99.9127362%"></stop>
+        </linearGradient>
+        <path d="M7.15341531,192.024232 C53.3417195,174.786713 60.0937523,154.037512 128.143685,158.50034 C196.193617,162.963168 252.441624,180.516959 309.366489,180.516959 C366.291354,180.516959 449.096617,120.118701 555.544156,120.118701 C555.544156,141.445405 554.6516,169.290513 552.866489,203.654024 L7.15341531,203.654024 C-2.38447177,199.460378 -2.38447177,195.583781 7.15341531,192.024232 Z" id="path-2"></path>
+    </defs>
+    <g id="Landing-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing-Page-Copy" transform="translate(-773.000000, -5183.000000)">
+            <g id="Group-6-Copy" transform="translate(773.000000, 5183.000000)">
+                <g id="Group-6" transform="translate(-75.000000, -55.930607)">
+                    <rect id="Rectangle" fill="url(#linearGradient-1)" x="65.8664889" y="40.1702735" width="487" height="162.821797"></rect>
+                    <path d="M13.1419691,204.629005 C47.7004079,181.027489 77.6918149,167.104935 103.11619,162.861344 C158.419471,153.630654 269.931366,181.264909 354.388511,145.468202 C493.481629,86.5143321 472.378991,6.74452005e-15 564.878991,0 C564.878991,6.07502461 561.767379,74.284693 555.544156,204.629005 L13.1419691,204.629005 Z" id="Path-5" fill="#FFFFFF" opacity="0.0867618336"></path>
+                    <mask id="mask-3" fill="white">
+                        <use xlink:href="#path-2"></use>
+                    </mask>
+                    <use id="Path-4" fill="#FFFFFF" opacity="0.0595315372" xlink:href="#path-2"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

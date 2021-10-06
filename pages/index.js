@@ -8,13 +8,13 @@ import FAQ from '../components/Home/FAQ';
 import LetsTalk from '../components/Home/LetsTalk';
 import LayoutHome from '../components/Common/Layout';
 import Head from 'next/head';
-import ChosePace from '../components/Home/ChosePace';
 import blogConfig from '../blog.config';
 import ACStats from '../components/Home/ACStats';
 import Alumni from '../components/Home/Alumni/Alumnis';
 import CourseStack from '../components/Home/CourseStack';
 import CourseModel from '../components/Home/CourseModel/CourseModel';
 import TestimonialCTA from '../components/Home/TestimonialCTA';
+import WallOfLove from '../components/Home/WallOfLove';
 
 function Home(props) {
   // React.useEffect(() => {
@@ -51,11 +51,13 @@ function Home(props) {
             titleB={'world of programming by storm?'}
             action={'I am ready, Sign me up!'}
           />
-          {/* <CTA
+          <Pricing />
+          <WallOfLove />
+          <CTA
             titleA={'Ready to take the'}
             titleB={'world of programming by storm?'}
             action={'I am ready, Sign me up!'}
-          /> */}
+          />
           {/* <FAQ />
           <LetsTalk /> */}
         </main>

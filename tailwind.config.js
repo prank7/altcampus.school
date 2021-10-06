@@ -62,7 +62,7 @@ module.exports = {
           300: '#C2C7F5',
           400: '#949CED',
           500: '#6672E5',
-          600: '#8D98FF',
+          600: '#515AA9',
           700: '#3D4489',
           800: '#191C3C',
           900: '#1F2245'
@@ -100,7 +100,8 @@ module.exports = {
         'sm-custom': '0 2px 4px 0 rgba(0,0,0,0.08)',
         'md-custom': '0 9px 12px 0 rgba(25,28,60,0.31)',
         '-md-custom': '0 -9px 12px 0 rgba(25,28,60,0.31)',
-        'lg-custom': '0 13px 23px 0 rgba(25,28,60,0.06)'
+        'lg-custom': '0 13px 23px 0 rgba(25,28,60,0.06)',
+        'inner-custom': 'inset 0 1px 3px 0 rgba(25,28,60,0.14)'
       },
       scale: {
         '-1': '-1'
