@@ -31,13 +31,16 @@ function Pricing(props) {
         </header>
         <div className="grid grid-cols-2 gap-x-24">
           <article className="bg-white shadow-lg-custom rounded-2xl relative">
-            <header className="px-14 py-8 card-banner rounded-t-2xl bg-cover">
-              <h3 className="text-white text-3xl font-bold text-shadow">
-                Online Course
-              </h3>
-              <h5 className="font-medium text-xl text-white mt-4">
-                Self Paced or Cohor
-              </h5>
+            <header className="relative">
+              <div className="px-14 py-8 card-banner rounded-t-2xl bg-cover relative z-10">
+                <h3 className="text-white text-3xl font-bold text-shadow">
+                  Online Course
+                </h3>
+                <h5 className="font-medium text-xl text-white mt-4">
+                  Self Paced or Cohor
+                </h5>
+              </div>
+              <div className="absolute bottom-0 left-0 w-full h-6 bg-dark-gold-900 bg-opacity-70 rounded-circle blur-lg filter"></div>
             </header>
             <ul className="pl-14 pr-10 py-10 leading-relaxed text-xl text-royal-blue-800 font-Karla pricing-list ">
               <li className="relative">
@@ -84,13 +87,16 @@ function Pricing(props) {
             </footer>
           </article>
           <article className="bg-white shadow-lg-custom rounded-2xl">
-            <header className="px-14 py-8 card-banner-2 rounded-t-2xl bg-cover">
-              <h3 className="text-white text-3xl font-bold text-shadow">
-                Bootcamp
-              </h3>
-              <h5 className="font-medium text-xl text-white mt-4">
-                Mentorship & Cohort
-              </h5>
+            <header className="relative">
+              <div className="px-14 py-8 card-banner-2 rounded-t-2xl bg-cover relative z-10">
+                <h3 className="text-white text-3xl font-bold text-shadow">
+                  Bootcamp
+                </h3>
+                <h5 className="font-medium text-xl text-white mt-4">
+                  Mentorship & Cohort
+                </h5>
+              </div>
+              <div className="absolute bottom-0 left-0 w-full h-6 bg-purple-900 bg-opacity-70 rounded-circle blur-lg filter"></div>
             </header>
             <ul className="pl-14 pr-10 py-10 leading-relaxed text-xl text-royal-blue-800 font-Karla pricing-list">
               <li className="relative">

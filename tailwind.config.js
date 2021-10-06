@@ -85,6 +85,12 @@ module.exports = {
           600: '#888806',
           800: '#AD8A56'
         },
+        'dark-gold': {
+          900: '#B8481F'
+        },
+        purple: {
+          900: '#5E0388'
+        },
         gray: {
           500: '#536784'
         }
@@ -102,6 +108,9 @@ module.exports = {
         '-md-custom': '0 -9px 12px 0 rgba(25,28,60,0.31)',
         'lg-custom': '0 13px 23px 0 rgba(25,28,60,0.06)',
         'inner-custom': 'inset 0 1px 3px 0 rgba(25,28,60,0.14)'
+      },
+      borderRadius: {
+        circle: '50%'
       },
       scale: {
         '-1': '-1'
