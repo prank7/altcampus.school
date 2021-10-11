@@ -11,7 +11,7 @@ function WallOfLove(props) {
         </header>
         <article className="items-start wall-of-love-wrapper">
           <div className="tweet-box">
-            <blockquote class="bg-white grid-cols-1 p-3 shadow-sm rounded-none">
+            <blockquote className="bg-white grid-cols-1 p-3 shadow-sm rounded-none">
               <p lang="en" dir="ltr">
                 Today, I learnt about operators and how to use operators in
                 JavaScript. Also I learnt about decision and loops and how to
@@ -40,11 +40,11 @@ function WallOfLove(props) {
             <script
               async
               src="https://platform.twitter.com/widgets.js"
-              charset="utf-8"
+              charSet="utf-8"
             ></script>
           </div>
           <div className="tweet-box">
-            <blockquote class="bg-white grid-cols-1 p-3 shadow-sm">
+            <blockquote className="bg-white grid-cols-1 p-3 shadow-sm">
               <p lang="en" dir="ltr">
                 Day 60{' '}
                 <a href="https://twitter.com/hashtag/100DaysOfCode?src=hash&amp;ref_src=twsrc%5Etfw">
@@ -68,12 +68,12 @@ function WallOfLove(props) {
             <script
               async
               src="https://platform.twitter.com/widgets.js"
-              charset="utf-8"
+              charSet="utf-8"
             ></script>
           </div>
 
           <div className="tweet-box">
-            <blockquote class="bg-white grid-cols-1 p-3 shadow-sm">
+            <blockquote className="bg-white grid-cols-1 p-3 shadow-sm">
               <p lang="en" dir="ltr">
                 Day 6:Done with checkpoint 1! ( after a long long weekend)
                 ⛳️⛳️⛳️⛳️ Maybe tomorrow there&#39;ll be a code
@@ -100,11 +100,11 @@ function WallOfLove(props) {
             <script
               async
               src="https://platform.twitter.com/widgets.js"
-              charset="utf-8"
+              charSet="utf-8"
             ></script>
           </div>
           <div className="tweet-box">
-            <blockquote class="bg-white grid-cols-1 p-3 shadow-sm">
+            <blockquote className="bg-white grid-cols-1 p-3 shadow-sm">
               <p lang="en" dir="ltr">
                 Day 6:Done with checkpoint 1! ( after a long long weekend)
                 ⛳️⛳️⛳️⛳️ Maybe tomorrow there&#39;ll be a code
@@ -131,7 +131,7 @@ function WallOfLove(props) {
             <script
               async
               src="https://platform.twitter.com/widgets.js"
-              charset="utf-8"
+              charSet="utf-8"
             ></script>
           </div>
 
