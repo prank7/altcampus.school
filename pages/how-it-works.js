@@ -2,7 +2,7 @@ import React from 'react';
 import Head from 'next/head';
 import { NextSeo } from 'next-seo';
 
-import LayoutHome from '../components/Home/Layout';
+import LayoutHome from '../components/Common/Layout';
 
 function HowItWorks(props) {
   var title = 'How AltCampus Works | AltCampus School';

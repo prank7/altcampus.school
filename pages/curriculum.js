@@ -1,18 +1,19 @@
 import React from 'react';
-import LayoutHome from '../components/Home/Layout';
+import LayoutHome from '../components/Common/Layout';
 import Head from 'next/head';
 import { NextSeo } from 'next-seo';
 
 import ReadyToBuildCTA from '../components/Home/ReadyToBuildCTA';
 
 function curriculum(props) {
-  var title = "Curriculum | AltCampus School";
-  var description = "Best curriculum and roadmap for learning full stack web development at India's best coding bootcamp. Learn MERN - JavaScript, React, Node.js with step by step and project based course.";
-  var url = "https://altcampus.school/curriculum";
+  var title = 'Curriculum | AltCampus School';
+  var description =
+    "Best curriculum and roadmap for learning full stack web development at India's best coding bootcamp. Learn MERN - JavaScript, React, Node.js with step by step and project based course.";
+  var url = 'https://altcampus.school/curriculum';
 
   return (
     <>
-      <NextSeo 
+      <NextSeo
         title={title}
         description={description}
         openGraph={{
@@ -27,7 +28,10 @@ function curriculum(props) {
             <h2 className="font-bold text-5xl text-dark-blue-500">
               Exhaustive MERN Stack Course
             </h2>
-            <h4 className="pt-2 text-2xl text-gray-700">Learn full-stack web development with one of the best designed courses on MERN stack.</h4>
+            <h4 className="pt-2 text-2xl text-gray-700">
+              Learn full-stack web development with one of the best designed
+              courses on MERN stack.
+            </h4>
           </header>
           <div className="text-center md:flex md:justify-between py-4 mb-16">
             <div className="py-6 md:py-12 course-icon relative md:w-1/4 ">

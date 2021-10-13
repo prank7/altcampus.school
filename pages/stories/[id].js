@@ -1,7 +1,7 @@
 import { getAllPostIds, getPostData } from '../../lib/stories';
 import PostCTA from '../../components/Community/PostCTA';
 import { NextSeo } from 'next-seo';
-import LayoutHome from '../../components/Home/Layout';
+import LayoutHome from '../../components/Common/Layout';
 
 export default function Post({ postData }) {
   return (

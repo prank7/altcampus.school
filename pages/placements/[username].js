@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import LayoutHome from '../../components/Home/Layout';
+import LayoutHome from '../../components/Common/Layout';
 import Banner from '../../components/Student/Banner';
 import Sidebar from '../../components/Student/Sidebar';
 import About from '../../components/Student/About';

@@ -1,7 +1,7 @@
 import React from 'react';
 import { NextSeo } from 'next-seo';
 
-import LayoutHome from '../../components/Home/Layout';
+import LayoutHome from '../../components/Common/Layout';
 import Head from 'next/head';
 import Student from '../../components/Placement/Student';
 import Banner from '../../components/Placement/Banner';

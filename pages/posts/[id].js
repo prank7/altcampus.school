@@ -6,7 +6,7 @@ import { NextSeo } from 'next-seo';
 import { TwitterAltIcon, FacebookIcon } from '../../components/Icons';
 import authors from '../../lib/author.json';
 import Image from 'next/image';
-import LayoutHome from '../../components/Home/Layout';
+import LayoutHome from '../../components/Common/Layout';
 
 export default function Post({ postData, relatedPosts = [] }) {
   let authorInfo = authors[postData.author || 'altcampus'];

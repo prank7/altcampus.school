@@ -1,4 +1,4 @@
-import LayoutHome from '../../components/Home/Layout';
+import LayoutHome from '../../components/Common/Layout';
 import Head from 'next/head';
 import PostCTA from '../../components/Community/PostCTA';
 import PostCard from '../../components/Community/PostCard';

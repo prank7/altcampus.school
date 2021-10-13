@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { MDXRemote } from 'next-mdx-remote';
 
 import { getAllRoadmapIds, getRoadmapData } from '../../../lib/roadmaps';
-import LayoutHome from '../../../components/Home/Layout';
+import LayoutHome from '../../../components/Common/Layout';
 import PostCTA from '../../../components/Community/PostCTA';
 import authors from '../../../lib/author.json';
 import Topics from '../../../components/roadmap/Topics';

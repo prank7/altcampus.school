@@ -3,9 +3,8 @@ import Head from 'next/head';
 import { NextSeo } from 'next-seo';
 
 import Pricing from '../components/Home/Pricing';
-import Footer from '../components/Home/Footer';
-import Header from '../components/Home/Header';
-import LayoutHome from '../components/Home/Layout';
+
+import LayoutHome from '../components/Common/Layout';
 
 function PricingPage(props) {
   var title = 'Pricing | AltCampus School';

@@ -3,7 +3,7 @@ import Head from 'next/head';
 import { NextSeo } from 'next-seo';
 import Masonry from 'react-masonry-css';
 
-import LayoutHome from '../components/Home/Layout';
+import LayoutHome from '../components/Common/Layout';
 import { getTweets } from '../lib/twitter';
 import Tweet from '../components/Tweet';
 
