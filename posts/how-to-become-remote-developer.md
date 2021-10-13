@@ -1,7 +1,7 @@
 ---
 title: 'Looking For A Remote Job in 2021? Become a Software Developer'
 description: 'How to find remote jobs in 2021? Learn all about how to become a remote software developer and work with freedom.'
-date: '2021-10-23'
+date: '2021-09-23'
 blurb: Everything you need to become a remote software developer in 2021.
 photo: '/images/posts/remote-developer-2021.png'
 cta: true
