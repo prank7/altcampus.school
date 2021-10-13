@@ -3,7 +3,7 @@ import { NextSeo } from 'next-seo';
 import StackedList from '../../../components/StackedList';
 import { getAllRoadmapsInfo } from '../../../lib/roadmaps';
 import generateSitemap from '../../../lib/generateSitemap';
-import LayoutHome from '../../../components/Home/Layout';
+import LayoutHome from '../../../components/Common/Layout';
 
 function WebDevelopment({ roadmapsInfo }) {
   var title = 'Full Stack Web Development Learning Roadmap | AltCampus School';

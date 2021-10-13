@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { getSortedPostsData } from '../../lib/stories';
 import { NextSeo } from 'next-seo';
-import LayoutHome from '../../components/Home/Layout';
+import LayoutHome from '../../components/Common/Layout';
 
 const Stories = ({ allPostsData }) => {
   var title = 'Success Stories | AltCampus School';

@@ -1,5 +1,5 @@
 import PostCard from '../../components/Community/PostCard';
-import LayoutHome from '../../components/Home/Layout';
+import LayoutHome from '../../components/Common/Layout';
 import { NextSeo } from 'next-seo';
 import generateSitemap from '../../lib/generateSitemap';
 import { getSortedGuidesData } from '../../lib/guides';

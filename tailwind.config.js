@@ -33,7 +33,14 @@ module.exports = {
         body: ['Graphik', 'sans-serif'],
         lato: ['Lato', 'sans-serif'],
         source: ['Source Sans Pro', 'sans-serif'],
-        mukta: ['Mukta', 'sans-serif']
+        mukta: ['Mukta', 'sans-serif'],
+        Karla: ['Karla', 'sans-serif'],
+        Sora: ['Sora', 'sans-serif']
+      },
+      fontSize: {
+        '5.5xl': '3.5rem',
+        '4.5xl': '2.5rem',
+        xxs: '0.625rem'
       },
       colors: {
         'green-theme': {
@@ -46,18 +53,18 @@ module.exports = {
           600: '#13AB4A',
           700: '#0D7231',
           800: '#095625',
-          900: '#063919'
+          900: '#12853C'
         },
         'royal-blue': {
           50: '#F7F8FE',
           100: '#F4F6FF',
-          200: '#D9DCF9',
+          200: '#E2E8F0',
           300: '#C2C7F5',
           400: '#949CED',
           500: '#6672E5',
-          600: '#5C67CE',
+          600: '#515AA9',
           700: '#3D4489',
-          800: '#2E3367',
+          800: '#191C3C',
           900: '#1F2245'
         },
         'dark-blue': {
@@ -77,10 +84,39 @@ module.exports = {
           500: '#F2BA0F',
           600: '#888806',
           800: '#AD8A56'
+        },
+        'dark-gold': {
+          900: '#B8481F'
+        },
+        purple: {
+          900: '#5E0388'
+        },
+        gray: {
+          500: '#536784'
         }
       },
+      width: {
+        1.2: '0.3125rem'
+      },
       height: {
+        1.2: '0.3125rem',
         27: '6.75rem'
+      },
+      boxShadow: {
+        'sm-custom': '0 2px 4px 0 rgba(0,0,0,0.08)',
+        'md-custom': '0 9px 12px 0 rgba(25,28,60,0.31)',
+        '-md-custom': '0 -9px 12px 0 rgba(25,28,60,0.31)',
+        'lg-custom': '0 13px 23px 0 rgba(25,28,60,0.06)',
+        'inner-custom': 'inset 0 1px 3px 0 rgba(25,28,60,0.14)'
+      },
+      borderRadius: {
+        circle: '50%'
+      },
+      scale: {
+        '-1': '-1'
+      },
+      opacity: {
+        '07': '0.07'
       }
     }
   },

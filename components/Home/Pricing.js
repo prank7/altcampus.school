@@ -1,276 +1,150 @@
 import React from 'react';
-import Link from 'next/link';
-import {
-  BasicMedalIcon,
-  CheckCrossIcon,
-  CheckIcon,
-  PriceTagIcon,
-  ProMedalIcon
-} from '../Icons';
-
-import globalData from '../../globalData';
 
 function Pricing(props) {
-  var upcomingBatchDates = globalData.upcomingBatchDates;
-  var nextBatchDates = upcomingBatchDates.filter(
-    (a) => new Date(a) >= new Date()
-  );
-  var immediateBatchDate = nextBatchDates[0]
-    ? `Next cohort starts on ${new Date(nextBatchDates[0])
-        .toDateString()
-        .slice(4, 10)}.`
-    : '';
-
   return (
-    <section id="pricing" className="py-24 bg-royal-blue-100">
-      <div className="container mx-auto px-8">
-        <header className="text-center md:flex md:justify-center md:items-center mb-6">
-          <PriceTagIcon className="inline-block w-12 md:mr-4" />
-          <h2 className="font-bold text-5xl text-dark-blue-500">
-            Invest in yourself
-          </h2>
+    <section className="py-24">
+      <div className="max-w-5xl mx-auto px-3 sm:px-0">
+        <header>
+          <h3 className="text-center font-bold text-gray-500 text-2xl">
+            Price is what you pay, Value is what you get
+          </h3>
+          <div className="flex items-center justify-center my-16">
+            <input
+              type="checkbox"
+              name="toggle"
+              className="hidden"
+              id="togglePrice"
+            />
+            <label
+              htmlFor="togglePrice"
+              className="w-16 h-10 bg-royal-blue-200 rounded-full shadow-inner-custom flex items-center p-1 toggle-price order-1 mx-4 cursor-pointer"
+            >
+              <div className="w-8 h-8 rounded-full bg-gradient-to-b from from-royal-blue-600 to-royal-blue-800"></div>
+            </label>
+            <strong className="font-normal text-base text-gray-500 dollar">
+              US Dollars
+            </strong>
+            <strong className="font-normal text-base text-gray-500 order-2 rupee">
+              Rupees
+            </strong>
+          </div>
         </header>
-        <div className="max-w-5xl mx-auto text-center mb-12 text-lg text-gray-700">
-          <p>
-            Can't pay the entire sum at once? Buy now, and{' '}
-            <b>pay later via EMI</b>. To avail it{' '}
-            <Link href="/apply-for-emi">
-              <a className="underline" href="/apply-for-emi">
-                apply here
-              </a>
-            </Link>
-            (processing takes 2-4 working days).
-          </p>
-          <p className="mt-2">
-            You can do the course either in a cohort or self paced, you can
-            select this option in the signup form. {immediateBatchDate} Max
-            number of students in a cohort is 15, book your seat now.
-          </p>
-        </div>
-        <div className="md:flex md:justify-center">
-          <div className="mb-12 md:mb-0 md:mx-8">
-            <article className="shadow-2xl bg-white rounded-lg">
-              <div className="bg-royal-blue-100 text-center pb-1 relative">
-                <ProMedalIcon className="w-24 inline-block md:absolute left-0 top-0" />
-                <div className="">
-                  <div className="md:flex md:items-center md:justify-end md:py-2 md:px-2">
-                    <h2 className="text-3xl font-semibold text-gold-500 mb-4 md:mr-4 md:pl-20">
-                      Premium
-                    </h2>
-                    <div className="font-mukta">
-                      <p className="bg-red-200 inline-block py-1 px-2 text-sm font-semibold text-red-800">
-                        20% Off
-                      </p>
-                      <div className="text-gray-500 my-1 pt-2">
-                        <h4 className="inline-block mx-2 line-through text-2xl font-medium font-mukta">
-                          ₹102,149
-                        </h4>
-                        <p className="inline-block mx-2 line-through font-medium font-mukta">
-                          {' '}
-                          $1399{' '}
-                        </p>
-                      </div>
-                      <div className="">
-                        <h4 className="inline-block mx-2 text-4xl text-royal-blue-500 font-semibold font-mukta">
-                          ₹81,249
-                        </h4>
-                        <p className="inline-block mx-2 text-2xl text-green-theme-500 font-mukta">
-                          $1119
-                        </p>
-                      </div>
-                      <p className="text-sm text-gray-600 underline">
-                        <Link href="/apply-for-emi">
-                          <a href="/apply-for-emi">
-                            Pay later via EMI available
-                          </a>
-                        </Link>
-                      </p>
-                    </div>
+        <div className="grid grid-cols-2 gap-x-24">
+          <article className="bg-white shadow-lg-custom rounded-2xl relative">
+            <header className="relative">
+              <div className="px-14 py-8 card-banner rounded-t-2xl bg-cover relative z-10">
+                <h3 className="text-white text-3xl font-bold text-shadow">
+                  Online Course
+                </h3>
+                <h5 className="font-medium text-xl text-white mt-4">
+                  Self Paced or Cohor
+                </h5>
+              </div>
+              <div className="absolute bottom-0 left-0 w-full h-6 bg-dark-gold-900 bg-opacity-70 rounded-circle blur-lg filter"></div>
+            </header>
+            <ul className="pl-14 pr-10 py-10 leading-relaxed text-xl text-royal-blue-800 font-Karla pricing-list ">
+              <li className="relative">
+                Donec facilisis tortor ut augue lacinia, at viverra est semper.{' '}
+              </li>
+              <li className="relative mt-2">Assignments</li>
+              <li className="relative mt-2">
+                Donec facilisis tortor ut augue lacinia, at viverra est semper.{' '}
+              </li>
+              <li className="relative mt-2">Github student developer pack</li>
+              <li className="relative mt-2">Step by Step course content</li>
+              <li className="relative mt-2">Assignments</li>
+            </ul>
+            <footer className="pl-12 pr-10 py-10 absolute bottom-0 right-0 left-0">
+              <div className="border-solid border-t border-royal-blue-200 pt-6">
+                <span className="text-2xl text-gray-500 font-bold line-through">
+                  ₹ 80 K
+                </span>
+                <div className="mt-6">
+                  <h3 className="tex text-4.5xl font-bold text-royal-blue-800">
+                    ₹ 60K
+                  </h3>
+                  <div className="flex justify-between items-center">
+                    <a
+                      className="text-gray-500 text-base underline leading-loose"
+                      href="#"
+                    >
+                      6 Easy EMIs of 10K
+                    </a>
+                    <a
+                      className="flex text-green-theme-900 font-semibold text-xl"
+                      href="#"
+                    >
+                      Enroll Now!
+                      <img
+                        className="ml-6"
+                        src="/images/icons/arrow-right-green.svg"
+                        alt="Arrow Right Icon"
+                      />
+                    </a>
                   </div>
                 </div>
               </div>
-              <ul>
-                <li className="px-5 py-3 flex items-center border-t border-dark-blue-200">
-                  <CheckIcon className="h-6 w-6 mr-4" />
-                  <p className="text-base text-dark-blue-400">
-                    Step by Step course content
-                  </p>
-                </li>
-                <li className="px-5 py-3 flex items-center border-t border-dark-blue-200">
-                  <CheckIcon className="h-6 w-6 mr-4" />
-                  <p className="text-base text-dark-blue-400">Assignments</p>
-                </li>
-                <li className="px-5 py-3 flex items-center border-t border-dark-blue-200">
-                  <CheckIcon className="h-6 w-6 mr-4" />
-                  <p className="text-base text-dark-blue-400">Projects</p>
-                </li>
-                <li className="px-5 py-3 flex items-center border-t border-dark-blue-200">
-                  <CheckIcon className="h-6 w-6 mr-4" />
-                  <p className="text-base text-dark-blue-400">
-                    Github student developer pack
-                  </p>
-                </li>
-                <li className="px-5 py-3 flex items-center border-t border-dark-blue-200">
-                  <CheckIcon className="h-6 w-6 mr-4" />
-                  <p className="text-base text-dark-blue-400">
-                    Developer community
-                  </p>
-                </li>
-                <li className="px-5 py-3 flex items-center border-t border-dark-blue-200">
-                  <CheckIcon className="h-6 w-6 mr-4" />
-                  <p className="text-base text-dark-blue-400">
-                    Personalised feedback & Code review
-                  </p>
-                </li>
-                <li className="px-5 py-3 flex items-center border-t border-dark-blue-200">
-                  <CheckIcon className="h-6 w-6 mr-4" />
-                  <p className="text-base text-dark-blue-400">Mentorship</p>
-                </li>
-                <li className="px-5 py-3 flex items-center border-t border-dark-blue-200">
-                  <CheckIcon className="h-6 w-6 mr-4" />
-                  <p className="text-base text-dark-blue-400">
-                    Access to office hours (Doubt clearing session)
-                  </p>
-                </li>
-                <li className="px-5 py-3 flex items-center border-t border-dark-blue-200">
-                  <CheckIcon className="h-6 w-6 mr-4" />
-                  <p className="text-base text-dark-blue-400">
-                    Coach follow up
-                  </p>
-                </li>
-                <li className="px-5 py-3 flex items-center border-t border-dark-blue-200">
-                  <CheckIcon className="h-6 w-6 mr-4" />
-                  <p className="text-base text-dark-blue-400">
-                    Portfolio preparation & placement support
-                  </p>
-                </li>
-              </ul>
-            </article>
-            <div className="text-center md:text-right">
-              <a
-                className="inline-block bg-dark-blue-500 px-12 py-3 md:px-6 md:py-2 rounded mt-8 shadow-md btn-hover hover:bg-dark-blue-600"
-                href="https://launchpad.altcampus.school/signup"
-              >
-                <div className="flex items-center">
-                  <ProMedalIcon className="w-8" />
-                  <p className="text-white tracking-wider font-bold">BUY NOW</p>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div className="md:mx-8">
-            <article className="shadow-2xl bg-white rounded-lg">
-              <div className="bg-royal-blue-100 text-center pb-1 relative">
-                <BasicMedalIcon className="w-24 inline-block md:absolute left-0 top-0" />
-                <div className="">
-                  <div className="md:flex md:items-center md:justify-end md:py-2 md:px-2">
-                    <h2 className="text-3xl text-gold-800 font-semibold mb-4 md:mr-4 md:pl-20">
-                      Standard
-                    </h2>
-                    <div className="">
-                      <p className="bg-red-200 inline-block py-1 px-2 text-sm font-semibold  text-red-800">
-                        28% Off (Early Birds offer)
-                      </p>
-                      <div className="text-gray-500 my-1 pt-2">
-                        <h4 className="inline-block mx-2 line-through text-2xl font-medium font-mukta">
-                          ₹56,249
-                        </h4>
-
-                        <p className="inline-block mx-2 line-through font-medium font-mukta">
-                          $749{' '}
-                        </p>
-                      </div>
-                      <div className="offer-price">
-                        <h4 className="inline-block mx-2 text-4xl text-royal-blue-500 font-semibold font-mukta">
-                          ₹40,499
-                        </h4>
-                        <p className="inline-block mx-2 text-2xl text-green-theme-500 font-mukta">
-                          $539
-                        </p>
-                      </div>
-
-                      <p className="text-sm text-gray-600 underline">
-                        <Link href="/apply-for-emi">
-                          <a href="/apply-for-emi">
-                            Pay later via EMI available
-                          </a>
-                        </Link>
-                      </p>
-                    </div>
+            </footer>
+          </article>
+          <article className="bg-white shadow-lg-custom rounded-2xl">
+            <header className="relative">
+              <div className="px-14 py-8 card-banner-2 rounded-t-2xl bg-cover relative z-10">
+                <h3 className="text-white text-3xl font-bold text-shadow">
+                  Bootcamp
+                </h3>
+                <h5 className="font-medium text-xl text-white mt-4">
+                  Mentorship & Cohort
+                </h5>
+              </div>
+              <div className="absolute bottom-0 left-0 w-full h-6 bg-purple-900 bg-opacity-70 rounded-circle blur-lg filter"></div>
+            </header>
+            <ul className="pl-14 pr-10 py-10 leading-relaxed text-xl text-royal-blue-800 font-Karla pricing-list">
+              <li className="relative">
+                Donec facilisis tortor ut augue lacinia, at viverra est semper.{' '}
+              </li>
+              <li className="relative mt-2">Assignments</li>
+              <li className="relative mt-2">
+                Donec facilisis tortor ut augue lacinia, at viverra est semper.{' '}
+              </li>
+              <li className="relative mt-2">Github student developer pack</li>
+              <li className="relative mt-2">Step by Step course content</li>
+              <li className="relative mt-2">Assignments</li>
+              <li className="relative mt-2">
+                Donec facilisis tortor ut augue lacinia, at viverra est semper.{' '}
+              </li>
+            </ul>
+            <footer className="pl-12 pr-10 py-10">
+              <div className="border-solid border-t border-royal-blue-200 pt-6">
+                <span className="text-2xl text-gray-500 font-bold line-through">
+                  ₹ 1.1 Lacs
+                </span>
+                <div className="mt-6">
+                  <h3 className="tex text-4.5xl font-bold text-royal-blue-800">
+                    ₹ 90K
+                  </h3>
+                  <div className="flex justify-between items-center">
+                    <a
+                      className="text-gray-500 text-base underline leading-loose"
+                      href="#"
+                    >
+                      6 Easy EMIs of 10K
+                    </a>
+                    <a
+                      className="flex text-green-theme-900 font-semibold text-xl"
+                      href="#"
+                    >
+                      Enroll Now!
+                      <img
+                        className="ml-6"
+                        src="/images/icons/arrow-right-green.svg"
+                        alt="Arrow Right Icon"
+                      />
+                    </a>
                   </div>
                 </div>
               </div>
-              <ul>
-                <li className="px-5 py-3 flex items-center border-t border-dark-blue-200">
-                  <CheckIcon className="h-6 w-6 mr-4" />
-                  <p className="text-base text-dark-blue-400">
-                    Step by Step course content
-                  </p>
-                </li>
-                <li className="px-5 py-3 flex items-center border-t border-dark-blue-200">
-                  <CheckIcon className="h-6 w-6 mr-4" />
-                  <p className="text-base text-dark-blue-400">Assignments</p>
-                </li>
-                <li className="px-5 py-3 flex items-center border-t border-dark-blue-200">
-                  <CheckIcon className="h-6 w-6 mr-4" />
-                  <p className="text-base text-dark-blue-400">Projects</p>
-                </li>
-                <li className="px-5 py-3 flex items-center border-t border-dark-blue-200">
-                  <CheckIcon className="h-6 w-6 mr-4" />
-                  <p className="text-base text-dark-blue-400">
-                    Github student developer pack
-                  </p>
-                </li>
-                <li className="px-5 py-3 flex items-center border-t border-dark-blue-200">
-                  <CheckIcon className="h-6 w-6 mr-4" />
-                  <p className="text-base text-dark-blue-400">
-                    Developer community
-                  </p>
-                </li>
-                <li className="px-5 py-3 flex items-center border-t border-dark-blue-200">
-                  <CheckCrossIcon className="h-6 w-6 mr-4" />
-                  <p className="text-base text-dark-blue-400 line-through">
-                    Personalised feedback & Code review
-                  </p>
-                </li>
-                <li className="px-5 py-3 flex items-center border-t border-dark-blue-200">
-                  <CheckCrossIcon className="h-6 w-6 mr-4" />
-                  <p className="text-base text-dark-blue-400 line-through">
-                    Mentorship
-                  </p>
-                </li>
-                <li className="px-5 py-3 flex items-center border-t border-dark-blue-200">
-                  <CheckCrossIcon className="h-6 w-6 mr-4" />
-                  <p className="text-base text-dark-blue-400 line-through">
-                    Access to office hours (Doubt clearing session)
-                  </p>
-                </li>
-                <li className="px-5 py-3 flex items-center border-t border-dark-blue-200">
-                  <CheckCrossIcon className="h-6 w-6 mr-4" />
-                  <p className="text-base text-dark-blue-400 line-through">
-                    Coach follow up
-                  </p>
-                </li>
-                <li className="px-5 py-3 flex items-center border-t border-dark-blue-200">
-                  <CheckCrossIcon className="h-6 w-6 mr-4" />
-                  <p className="text-base text-dark-blue-400 line-through">
-                    Portfolio preparation & placement support
-                  </p>
-                </li>
-              </ul>
-            </article>
-            <div className="text-center md:text-right">
-              <a
-                className="inline-block bg-dark-blue-500 px-12 py-3 md:px-6 md:py-2 rounded mt-8 shadow-md btn-hover hover:bg-dark-blue-600"
-                href="https://launchpad.altcampus.school/signup?plan=standard"
-              >
-                <div className="flex items-center">
-                  <BasicMedalIcon className="w-8" />
-                  <p className="text-white tracking-wider font-bold">BUY NOW</p>
-                </div>
-              </a>
-            </div>
-          </div>
+            </footer>
+          </article>
         </div>
       </div>
     </section>

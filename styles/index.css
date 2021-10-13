@@ -21,7 +21,7 @@ html {
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Sora', sans-serif;
 }
 
 h1,
@@ -30,7 +30,10 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Sora', sans-serif;
+}
+p {
+  font-family: 'Karla', sans-serif;
 }
 
 button {
@@ -46,27 +49,124 @@ button {
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
 }
 
-.navbar {
-  background-color: #f6f9fc;
+/* Navigation BAR */
+.nav-active::after {
+  content: "";
+  width: 100%;
+  height: 4px;
+  background-color: #12853C;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 4px 4px 0 0;
 }
 
-/* Hero */
-.hero {
-  background: linear-gradient(#f6f9fc, #fafcfe, #ffffff);
-  position: relative;
+/* Background-image */
+.bg-fancy {
+  background: url('/images/bg-curve.svg') no-repeat 0 1rem , url('/images/bg-blur.svg') no-repeat 0 -48px;
+}
+.bg-blur {
+  background-image: url('/images/bg-blur.svg');
+  background-position: center center;
+}
+.bg-blur-blue {
+  background-image: url('/images/bg-blur-circle.svg');
+  background-position: center center;
+}
+.bg-curve {
+  background: url('/images/bg-curve-2.svg') no-repeat 0 98%, linear-gradient(#191C3C, #191C3C) ;
+  background-size: cover;
 }
 
-.hero-heading {
-  font-size: 3.5rem;
+/* AC Stats Component */
+.stats-item:last-child {
+  border-right: 0;
+}
+
+/* Course Model */
+.course-model-item::before, .course-model-item::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 6rem;
+  background-color: rgba(25, 28, 60,0.07);
+  filter: blur(30px);
+  border-radius: 100%;
+} 
+.course-model-item::before {
+  top: 0;
+}
+.course-model-item::after {
+  bottom: 0;
+}
+
+/* Pricing */
+
+#togglePrice:not(:checked) ~ .toggle-price div{
+  transform: translateX(1.5rem);
+  transition: transform 200ms ease-in-out;
+}
+#togglePrice:checked ~ .toggle-price div{
+  transform: translateX(0);
+  transition: transform 200ms ease-in-out;
+}
+#togglePrice:checked ~ .dollar{
+  color: #191C3C;
   font-weight: 700;
 }
-
-.hero-image {
-  max-width: 100%;
-  right: -28%;
-  top: -57%;
+#togglePrice:not(:checked) ~ .rupee {
+  color: #191C3C;
+  font-weight: 700;
+}
+.text-shadow {
+  text-shadow: 0 2px 4px rgba(0,0,0,0.23);
+}
+.pricing-list li::before{
+  content: "";
+  display: inline-block;
+  width: 0.5rem;
+  height: 0.5rem;
+  background: #9CAECA;
+  border-radius: 50%;
+  position: absolute;
+  left: -1.125rem;
+  top: 0.75rem;
+  line-height: 2;
+}
+.card-banner {
+  background: url("/images/card-banner1.svg") no-repeat;
+  background-size: cover;
+}
+.card-banner-2 {
+  background: url("/images/card-banner2.svg") no-repeat;
+  background-size: cover;
 }
 
+/* Wall OF Love */
+.wall-of-love {
+  background: url(/images/bg-blur-l.svg) no-repeat;
+}
+
+.wall-of-love-wrapper {
+  columns: 4;
+  column-gap: 1.5rem;
+}
+.tweet-box {
+  break-inside: avoid;
+  margin: 0 0 1.5rem 0;
+}
+
+/* FAQs */
+.active-ques {
+  background: linear-gradient(268.31deg, rgba(18,133,60,0.07) 0%, rgba(18,133,60,0) 40%);
+  border-right: 5px solid #12853C;
+}
+.answer-column {
+  background: url(/images/bg-blur-sm.svg) 100% 100% no-repeat;
+  background-size: 50%;
+}
 @media screen and (max-width: 1024px) {
   .hero-image {
     right: -34%;
@@ -120,30 +220,6 @@ button {
   background: url(/assets/media/mask2.svg),
     linear-gradient(to right top, #61cb72, #41a951);
   background-size: cover;
-}
-
-/* Testimonial */
-.tweet-selection,
-.testimonial {
-  background: url(/assets/media/mask3.svg) no-repeat,
-    linear-gradient(to right bottom, #111f3c, #20345d);
-  background-size: cover;
-}
-
-.testimonial blockquote::before,
-.testimonial blockquote::after {
-  content: '';
-  width: 12px;
-  height: 9px;
-  color: #fcd669;
-  position: relative;
-  display: inline-block;
-  top: -7px;
-  background: url(/assets/media/quote2.svg);
-}
-
-.testimonial blockquote::after {
-  background: url(/assets/media/quote1.svg);
 }
 
 .prev::after,
@@ -482,8 +558,6 @@ code::after {
   margin-bottom: 30px;
 }
 
-.tweet-text-color {
-  color: #1b95e0;
-}
+
 
 @import url('prism.css');

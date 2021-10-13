@@ -1,154 +1,105 @@
 import React from 'react';
-import Link from 'next/link';
 
 function FAQ(props) {
   return (
-    <section id='faqs' className='py-24 bg-royal-blue-100'>
-      <div className='max-w-3xl mx-auto px-8'>
-        <header className='text-center mb-12'>
-          <h3 className='font-bold text-4xl text-dark-blue-500'>FAQs</h3>
+    <section className="py-10 answer-column">
+      <div className="container px-3 mx-auto break-words">
+        <header className="text-center mb-20">
+          <h2 className="text-5.5xl text-gray-500 font-bold">
+            In case you still have questions…
+          </h2>
         </header>
-
-        <div className=''>
-          <div>
-            <h3 className='text-green-theme-700 font-semibold text-2xl'>
-              Q. Who is it for?
-            </h3>
-            <p className='font-medium text-dark-blue-300 pt-2 pb-8 text-lg'>
-              <b className='text-2xl mr-3'>A.</b>
-              AltCampus is an online programming bootcamp for recent college graduates, students taking gap year, dropouts,
-              professionals looking to switch careers, anyone learning web
-              development but needs right environment and guidance. No prior
-              programming knowledge required.
+        <div className="grid grid-cols-2">
+          <article>
+            <ul className="border-solid border-r border-royal-blue-200">
+              <li className="border-solid border-b border-royal-blue-200 pb-3 active-ques">
+                <h3 className="text-2xl text-royal-blue-800 font-bold">
+                  Will I be job ready?
+                </h3>
+                <p className="font-Karla text-gray-500 mt-2">
+                  Curabitur lobortis id lorem id bibendum. Ut id consectetur
+                  magna. Vestibulum nec.
+                </p>
+              </li>
+              <li className="border-solid border-b border-royal-blue-200 pb-3 mt-4">
+                <h3 className="text-2xl text-royal-blue-800 font-bold">
+                  Will I get step by step course content?
+                </h3>
+                <p className="font-Karla text-gray-500 mt-2">
+                  Curabitur lobortis id lorem id bibendum. Ut id consectetur
+                  magna. Vestibulum nec.
+                </p>
+              </li>
+              <li className="border-solid border-b border-royal-blue-200 pb-3 mt-4">
+                <h3 className="text-2xl text-royal-blue-800 font-bold">
+                  Will I get mentorship ?
+                </h3>
+                <p className="font-Karla text-gray-500 mt-2">
+                  Curabitur lobortis id lorem id bibendum. Ut id consectetur
+                  magna. Vestibulum nec.
+                </p>
+              </li>
+              <li className="border-solid border-b border-royal-blue-200 pb-3 mt-4">
+                <h3 className="text-2xl text-royal-blue-800 font-bold">
+                  Will I get projects to do?
+                </h3>
+                <p className="font-Karla text-gray-500 mt-2">
+                  Curabitur lobortis id lorem id bibendum. Ut id consectetur
+                  magna. Vestibulum nec.
+                </p>
+              </li>
+              <li className="border-solid border-b border-royal-blue-200 pb-3 mt-4">
+                <h3 className="text-2xl text-royal-blue-800 font-bold">
+                  Will I get help in placement ?
+                </h3>
+                <p className="font-Karla text-gray-500 mt-2">
+                  Curabitur lobortis id lorem id bibendum. Ut id consectetur
+                  magna. Vestibulum nec.
+                </p>
+              </li>
+            </ul>
+          </article>
+          <article className="pl-14">
+            <img src="/images/happy-child.svg" alt="Happy Child Graphic" />
+            <p className="font-Karla text-royal-blue-800 tracking-tight text-lg mt-8">
+              Curabitur lobortis id lorem id bibendum. Ut id consectetur magna.
+              Quisque volutpat augue enim, pulvinar lobortis nibh lacinia at.
+              Vestibulum nec erat ut mi sollicitudin porttitor id sit amet
+              risus. Nam tempus vel odio vitae aliquam. In imperdiet eros id
+              lacus vestibulum.
             </p>
-          </div>
-
-          <div>
-            <h3 className='text-green-theme-700 font-semibold text-2xl'>
-              Q. Does AltCampus help me get a job?
-            </h3>
-            <p className='font-medium text-dark-blue-300 pt-2 pb-8 text-lg'>
-              <b className='text-2xl mr-3'>A.</b>
-              Yes. AltCampus does help in job placements. We help you at every stage. We help you build strong
-              portfolio, prepare for interviews, and put you in touch with companies
-              for interview.
-            </p>
-          </div>
-
-          <div>
-            <h3 className='text-green-theme-700 font-semibold text-2xl'>
-              Q. I don't have enough money to enroll right now, can I buy now and pay later?
-            </h3>
-            <p className='font-medium text-dark-blue-300 pt-2 pb-8 text-lg'>
-              <b className='text-2xl mr-3'>A.</b>
-              Yes. AltCampus has partnered with Mihuru to provide you EMI based loan to enroll in the course. Please 
-              <Link href="/apply-for-emi"><a className='text-royal-blue-500 font-semibold underline hover:no-underline' href="/apply-for-emi"> apply here</a></Link> to avail it.
-            </p>
-          </div>
-
-          <div>
-            <h3 className='text-green-theme-700 font-semibold text-2xl'>
-              Q. Can I get a demo before I signup?
-            </h3>
-            <p className='font-medium text-dark-blue-300 pt-2 pb-8 text-lg'>
-              <b className='text-2xl mr-3'>A.</b>
-              Yes, you can try the free version of the program {' '}
-              <a
-                className='text-royal-blue-500 font-semibold underline hover:no-underline'
-                href='https://try.altcampus.school'
-              >
-               here.
-              </a>
-            </p>
-          </div>
-
-          <div>
-            <h3 className='text-green-theme-700 font-semibold text-2xl'>
-              Q. How does the entire process work?
-            </h3>
-            <p className='font-medium text-dark-blue-300 pt-2 pb-8 text-lg'>
-              <b className='text-2xl mr-3'>A.</b>
-              You can read about it here -{' '}
-              <a
-                className='text-royal-blue-500 font-semibold underline hover:no-underline'
-                href='how-it-works/'
-              >
-                How it works.
-              </a>
-            </p>
-          </div>
-
-          <div>
-            <h3 className='text-green-theme-700 font-semibold text-2xl'>
-              Q. Is this course self-paced or cohort based?
-            </h3>
-            <p className='font-medium text-dark-blue-300 pt-2 pb-1 text-lg'>
-              <b className='text-2xl mr-3'>A.</b>
-              We provide both the options. You can join a cohort or you can opt to do it at your own pace. 
-              The mentorship in either case will be available for 9 months. 
-            </p>
-            <p className='font-medium text-dark-blue-300 pt-2 pb-8 text-lg'>
-              It's easier to stay motivated and learn with a group of students, so if you want accountability, can put in 6-8 hours/day and really want to finish the course then we recommend that you join a cohort. 
-            </p>
-          </div>
-
-          <div>
-            <h3 className='text-green-theme-700 font-semibold text-2xl'>
-              Q. How many students are there in a cohort?
-            </h3>
-            <p className='font-medium text-dark-blue-300 pt-2 pb-8 text-lg'>
-              <b className='text-2xl mr-3'>A.</b>
-              Maximum 15 students.
-            </p>
-          </div>
-
-          <div>
-            <h3 className='text-green-theme-700 font-semibold text-2xl'>
-              Q. How long does it take to learn full stack web development and finish the course?
-            </h3>
-            <p className='font-medium text-dark-blue-300 pt-2 pb-8 text-lg'>
-              <b className='text-2xl mr-3'>A.</b>
-              In a cohort, it takes about 6-7 months to finish the AltCampus course. In self paced, it depends on the time and dedication of the learner. Students usually finish the course in anywhere between 5 to 9 months. Mentorship in either options is available till 9 months.
-            </p>
-          </div>
-
-          <div>
-            <h3 className='text-green-theme-700 font-semibold text-2xl'>
-              Q. Do I get to interact with mentors live?
-            </h3>
-            <p className='font-medium text-dark-blue-300 pt-2 pb-8 text-lg'>
-              <b className='text-2xl mr-3'>A.</b>
-              Yes, every working day mentors in all modules hold live, office
-              hour sessions where you can ask your doubts and work on problems
-              you are facing.
-            </p>
-          </div>
-
-          <div>
-            <h3 className='text-green-theme-700 font-semibold text-2xl'>
-              Q. How can I interact with other students in the community?
-            </h3>
-            <p className='font-medium text-dark-blue-300 pt-2 pb-8 text-lg'>
-              <b className='text-2xl mr-3'>A.</b>
-              Our custom platform helps you match with your peers and we have a
-              private Slack group where you can interact with peers and get live
-              help from mentors.
-            </p>
-          </div>
-
-          <div>
-            <h3 className='text-green-theme-700 font-semibold text-2xl'>
-              Q. I am based outside India, can I still enroll in this course?
-            </h3>
-            <p className='font-medium text-dark-blue-300 pt-2 pb-8 text-lg'>
-              <b className='text-2xl mr-3'>A.</b>
-              Yes. You can enroll in it no matter where you are from. If need be,
-              mentors hold office hours two times in 24 hours to accomodate all
-              timezones.
-            </p>
-          </div>
-
-          </div>
+            <article className="flex items-center bg-white py-4 pr-6 pl-14 shadow-lg-custom rounded-2xl relative z-10 ml-6 mt-10">
+              <p className="font-Karla text-base text-gray-500 leading-relaxed mr-6">
+                This is the most detailed, to the point and practical curriculum
+                that I have come across during my search of a bootcamp.
+                <div className="absolute -left-8 -top-3 transform">
+                  <span className="text-center rounded-full text-8xl text-green-theme-900 block w-16 h-16 transform -scale-y-1 font-Sora font-semibold text-opacity-50">
+                    “
+                  </span>
+                </div>
+              </p>
+              <aside>
+                <img src="/images/students/sachin.svg" alt="Sachin" />
+                <div className="mt-4">
+                  <h4 className="text-royal-blue-800 font-semibold text-base">
+                    Sachin
+                  </h4>
+                  <h6 className="text-xxs text-gray-500 uppercase font-normal mt-1">
+                    ClearTax
+                  </h6>
+                </div>
+              </aside>
+            </article>
+          </article>
+        </div>
+        <footer className="text-center">
+          <a
+            href="/stories"
+            className="inline-block mt-16 py-5 px-10 border-2 border-solid border-royal-blue-800 rounded text-royal-blue-800 font-bold text-center capitalize"
+          >
+            Read their success stories
+          </a>
+        </footer>
       </div>
     </section>
   );
