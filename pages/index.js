@@ -16,6 +16,7 @@ import CourseModel from '../components/Home/CourseModel/CourseModel';
 import TestimonialCTA from '../components/Home/TestimonialCTA';
 import WallOfLove from '../components/Home/WallOfLove';
 import Blog from '../components/Home/Blog';
+import { getTweets } from '../lib/twitter';
 
 function Home(props) {
   // React.useEffect(() => {
@@ -53,7 +54,7 @@ function Home(props) {
             action={'I am ready, Sign me up!'}
           />
           <Pricing />
-          <WallOfLove />
+          <WallOfLove tweets={props.tweets} />
           <FAQ />
           <Blog />
           <CTA
@@ -66,6 +67,22 @@ function Home(props) {
       </LayoutHome>
     </>
   );
+}
+
+export async function getStaticProps() {
+  const tweets = await getTweets([
+    '1098640557096734720',
+    '1102619238395633664',
+    '1117468286579556353',
+    '1120008211937947648',
+    '1338742094987407361',
+    '1391820153382260737',
+    '1427367547347750928',
+    '1410650906996051972',
+    '1360871839984095234'
+  ]);
+
+  return { props: { tweets } };
 }
 
 export default Home;

@@ -20,7 +20,10 @@ function ACStats(props) {
     <section className="pb-20">
       <article className="container mx-auto px-3 grid grid-cols-3 text-center stats-menu">
         {statsMenu.map((item) => (
-          <div className="border-r border-solid border-royal-blue-200 stats-item">
+          <div
+            className="border-r border-solid border-royal-blue-200 stats-item"
+            key={item.heading}
+          >
             <h2>
               <strong className="text-5.5xl text-royal-blue-800 font-bold">
                 {item.heading}
