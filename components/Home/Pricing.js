@@ -1,6 +1,24 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { numberWithCommas } from '../../lib/helper';
+
+let pricingData = {
+  online: {
+    priceINR: '102149',
+    priceUSD: '1344',
+    inr: '81249',
+    usd: '1119'
+  },
+  bootcamp: {
+    priceINR: '56249',
+    priceUSD: '740',
+    inr: '40499',
+    usd: '539'
+  }
+};
 
 function Pricing(props) {
+  let [currency, setCurrency] = useState('inr');
+  let symbol = currency === 'inr' ? '₹' : '$';
   return (
     <section className="py-24">
       <div className="container mx-auto px-8 sm:px-3">
@@ -15,6 +33,10 @@ function Pricing(props) {
                 name="toggle"
                 className="hidden"
                 id="togglePrice"
+                defaultChecked={currency === 'usd'}
+                onChange={() => {
+                  setCurrency(currency === 'inr' ? 'usd' : 'inr');
+                }}
               />
               <label
                 htmlFor="togglePrice"
@@ -60,11 +82,14 @@ function Pricing(props) {
               <footer className="pl-12 pr-10 py-10 md:absolute bottom-0 right-0 left-0">
                 <div className="border-solid border-t border-royal-blue-200 pt-6">
                   <span className="text-2xl text-gray-500 font-bold line-through">
-                    ₹ 80 K
+                    {symbol +
+                      numberWithCommas(
+                        pricingData.online['price' + currency.toUpperCase()]
+                      )}
                   </span>
                   <div className="mt-6">
                     <h3 className="tex text-4.5xl font-bold text-royal-blue-800">
-                      ₹ 60K
+                      {symbol + numberWithCommas(pricingData.online[currency])}
                     </h3>
                     <div className="flex justify-between items-center">
                       <a
@@ -122,11 +147,15 @@ function Pricing(props) {
               <footer className="pl-12 pr-10 py-10">
                 <div className="border-solid border-t border-royal-blue-200 pt-6">
                   <span className="text-2xl text-gray-500 font-bold line-through">
-                    ₹ 1.1 Lacs
+                    {symbol +
+                      numberWithCommas(
+                        pricingData.bootcamp['price' + currency.toUpperCase()]
+                      )}
                   </span>
                   <div className="mt-6">
                     <h3 className="tex text-4.5xl font-bold text-royal-blue-800">
-                      ₹ 90K
+                      {symbol +
+                        numberWithCommas(pricingData.bootcamp[currency])}
                     </h3>
                     <div className="flex justify-between items-center">
                       <a

@@ -9,7 +9,8 @@ export default function Tweet({
   media,
   created_at,
   public_metrics,
-  referenced_tweets
+  referenced_tweets,
+  hideImage = false
 }) {
   const authorUrl = `https://twitter.com/${author.username}`;
   const likeUrl = `https://twitter.com/intent/like?tweet_id=${id}`;
@@ -89,7 +90,7 @@ export default function Tweet({
         </a>
       </div>
       <div
-        className="tweet mt-4 mb-4 leading-normal whitespace-pre-wrap text-lg text-gray-700"
+        className="tweet mt-4 mb-4 leading-relaxed whitespace-pre-wrap text-base text-gray-600"
         dangerouslySetInnerHTML={{
           __html: twitterText.autoLink(formattedText, {
             usernameClass: 'tweet-text-color font-semibold hover:underline',
@@ -100,7 +101,7 @@ export default function Tweet({
         }}
       />
 
-      {media && media.length ? (
+      {!hideImage && media && media.length ? (
         <div
           className={
             media.length === 1

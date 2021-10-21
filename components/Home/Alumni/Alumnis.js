@@ -23,12 +23,12 @@ const alumnis = [
     image: '/images/students/sachin.svg'
   },
   {
-    name: 'Harshaan',
+    name: 'Harshaa',
     company: 'BigBinary',
     image: '/images/students/Harshaan.jpeg'
   },
   {
-    name: 'Chaduvula',
+    name: 'Prashant',
     company: 'BigBinary',
     image: '/images/students/Chaduvula.jpeg'
   }
@@ -43,7 +43,7 @@ function Alumnis(props) {
         </h3>
         <ul className="mt-10 md:grid grid-cols-6 hidden">
           {alumnis.map((item) => (
-            <li className="text-center">
+            <li className="text-center" key={item.name}>
               <img
                 className="w-40 h-40 rounded-full inline-block shadow-lg-custom"
                 src={item.image}
