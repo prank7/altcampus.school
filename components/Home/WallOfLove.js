@@ -2,10 +2,10 @@ import React from 'react';
 
 function WallOfLove(props) {
   return (
-    <section className="wall-of-love py-24">
-      <div className="container px-3 mx-auto break-words">
+    <section className="wall-of-love pt-8 pb-12 sm:pt-24 sm:pb-24">
+      <div className="container px-8 sm:px-3 mx-auto break-words">
         <header className="text-center mb-12">
-          <h2 className="text-5.5xl text-gray-500 font-bold">
+          <h2 className="text-4xl sm:text-5.5xl text-gray-500 font-bold">
             Our wall of love
           </h2>
         </header>

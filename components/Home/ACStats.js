@@ -18,11 +18,11 @@ const statsMenu = [
 function ACStats(props) {
   return (
     <section className="pb-20">
-      <article className="container mx-auto px-3 grid grid-cols-3 text-center stats-menu">
+      <article className="container mx-auto px-8 sm:px-3 sm:grid grid-cols-3 stats-menu justify-between space-y-10 sm:space-y-0">
         {statsMenu.map((item) => (
-          <div className="border-r border-solid border-royal-blue-200 stats-item">
+          <div className="sm:border-r sm:border-solid sm:border-royal-blue-200 stats-item col-span-1 text-center ">
             <h2>
-              <strong className="text-5.5xl text-royal-blue-800 font-bold">
+              <strong className="text-5xl sm:text-4xl md:text-5.5xl text-royal-blue-800 font-bold">
                 {item.heading}
               </strong>
               <br />

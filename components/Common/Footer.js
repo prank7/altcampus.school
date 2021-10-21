@@ -6,8 +6,8 @@ import { FacebookIcon, TwitterIcon } from '../Icons';
 function Footer(props) {
   return (
     <footer className="mt-7">
-      <div className="container mx-auto px-3 ">
-        <div className="border-solid py-7 border-t border-b border-royal-blue-200 grid grid-cols-4">
+      <div className="container px-8 mx-auto sm:px-3 ">
+        <div className="border-solid py-7 border-t border-b border-royal-blue-200 grid grid-cols-2 gap-y-8 sm:gap-y-0  sm sm:grid-cols-4">
           <nav>
             <h4 className="text-gray-500 text-sm font-semibold">Altcampus</h4>
             <ul className="mt-5">
@@ -107,7 +107,7 @@ function Footer(props) {
           </nav>
         </div>
       </div>
-      <div className="container mx-auto py-4 text-gray-500 px-3 text-xs">
+      <div className="container mx-auto py-4 text-gray-500 px-8 sm:px-3 text-xs">
         <small>© All Copyrights. Altcampus 2021</small>
       </div>
     </footer>

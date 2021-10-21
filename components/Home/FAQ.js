@@ -3,13 +3,13 @@ import React from 'react';
 function FAQ(props) {
   return (
     <section className="py-10 answer-column">
-      <div className="container px-3 mx-auto break-words">
+      <div className="container px-8 sm:px-3 mx-auto break-words">
         <header className="text-center mb-20">
-          <h2 className="text-5.5xl text-gray-500 font-bold">
+          <h2 className="text-4xl sm:text-5.5xl text-gray-500 font-bold leading-tight">
             In case you still have questions…
           </h2>
         </header>
-        <div className="grid grid-cols-2">
+        <div className="sm:grid grid-cols-2">
           <article>
             <ul className="border-solid border-r border-royal-blue-200">
               <li className="border-solid border-b border-royal-blue-200 pb-3 active-ques">
@@ -59,8 +59,14 @@ function FAQ(props) {
               </li>
             </ul>
           </article>
-          <article className="pl-14">
-            <img src="/images/happy-child.svg" alt="Happy Child Graphic" />
+          <article className="mt-12 sm:mt-0 sm:pl-14">
+            <div className="text-center sm:text-left">
+              <img
+                className="inline-block"
+                src="/images/happy-child.svg"
+                alt="Happy Child Graphic"
+              />
+            </div>
             <p className="font-Karla text-royal-blue-800 tracking-tight text-lg mt-8">
               Curabitur lobortis id lorem id bibendum. Ut id consectetur magna.
               Quisque volutpat augue enim, pulvinar lobortis nibh lacinia at.

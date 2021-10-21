@@ -2,12 +2,12 @@ import React from 'react';
 
 function CourseStack(props) {
   return (
-    <section className="py-20">
-      <div className="container mx-auto px-3">
+    <section className="py-8 md:py-20">
+      <div className="container mx-auto px-8 sm:px-3">
         <h3 className="text-center font-bold text-gray-500 text-2xl">
           What Separates Us…
         </h3>
-        <div className="max-w-5xl mx-auto grid grid-cols-2 mt-28 gap-x-16 gap-y-9">
+        <div className="max-w-5xl mx-auto md:grid md:grid-cols-2 mt-16 md:mt-28 gap-x-16 gap-y-9">
           <article className="">
             <h2 className="font-bold text-4xl text-royal-blue-800 leading-snug">
               Exhaustive{' '}
@@ -22,41 +22,41 @@ function CourseStack(props) {
               Vestibulum nec erat ut.
             </p>
           </article>
-          <div className="self-end grid grid-cols-2 gap-x-5 gap-y-8 relative">
+          <div className="self-end grid grid-cols-2 gap-x-5 gap-y-8 relative my-12 md:my-0">
             <figure className="absolute inline-block left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2">
               <div className="w-72 h-72 bg-royal-blue-600 bg-opacity-5 rounded-full blur-xl filter"></div>
             </figure>
-            <figure className="bg-white shadow-lg-custom px-8 py-6 rounded-full relative z-10">
+            <figure className="bg-white shadow-lg-custom px-8 py-6 rounded-full relative z-10 text-center">
               <img
-                className="h-12"
+                className="h-12 inline-block"
                 src="/images/icons/mongo.svg"
                 alt="MongoDB Logo"
               />
             </figure>
-            <figure className="bg-white shadow-lg-custom px-8 py-6 rounded-full relative z-10">
+            <figure className="bg-white shadow-lg-custom px-8 py-6 rounded-full relative z-10 text-center">
               <img
-                className="h-12"
+                className="h-12 inline-block"
                 src="/images/icons/express-js.svg"
                 alt="Express JS Logo"
               />
             </figure>
-            <figure className="bg-white shadow-lg-custom px-8 py-6 rounded-full relative z-10">
+            <figure className="bg-white shadow-lg-custom px-8 py-6 rounded-full relative z-10 text-center">
               <img
-                className="h-12"
+                className="h-12 inline-block"
                 src="/images/icons/react-js.svg"
                 alt="React JS Logo"
               />
             </figure>
-            <figure className="bg-white shadow-lg-custom px-8 py-6 rounded-full relative z-10">
+            <figure className="bg-white shadow-lg-custom px-8 py-6 rounded-full relative z-10 text-center">
               <img
-                className="h-12"
+                className="h-12 inline-block"
                 src="/images/icons/node-js.svg"
                 alt="Node JS Logo"
               />
             </figure>
           </div>
 
-          <form action="" className="self-end">
+          <form action="" className="self-end mb-12 md:mb-0">
             <legend className="text-xl font-semibold text-gray-500 mb-4">
               Get the Curriculum Deliverd to You
             </legend>

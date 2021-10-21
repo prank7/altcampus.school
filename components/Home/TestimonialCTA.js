@@ -3,13 +3,13 @@ import React from 'react';
 function Testimonial(props) {
   return (
     <section className="py-16 bg-royal-blue-800 bg-curve relative">
-      <article className="container mx-auto px-3 justify-between flex items-center">
+      <article className="container mx-auto px-8 sm:px-3 justify-between flex items-center">
         <img
-          className="absolute z-10 bottom-0"
+          className="absolute z-10 bottom-0 hidden md:inline-block"
           src="/images/students/jonas.svg"
           alt="Komal"
         />
-        <div className="ml-80 pl-24">
+        <div className="md:ml-80 pl-12">
           <header>
             <blockquote className="font-Karla text-xl relative">
               <p className="text-opacity-60 text-royal-blue-200">
@@ -27,19 +27,19 @@ function Testimonial(props) {
                   SDE at BIGBinary
                 </strong>
               </cite>
-              <div className="absolute -top-5 -left-20">
-                <span className="text-center rounded-full text-9xl text-green-theme-900 block w-16 h-16 transform -scale-y-1 font-Sora font-semibold">
+              <div className="absolute -top-9 -left-14 md:-top-5 md:-left-20">
+                <span className="text-center rounded-full text-7xl md:text-9xl text-green-theme-900 block w-16 h-16 transform -scale-y-1 font-Sora font-semibold">
                   “
                 </span>
               </div>
             </blockquote>
           </header>
-          <footer className="flex justify-between items-end mt-12">
+          <footer className="md:flex justify-between items-end mt-12">
             <h3 className="text-royal-blue-200 text text-4.5xl font-bold max-w-xl">
               Ready to change your life like Sarthak ?
             </h3>
             <a
-              className="bg-green-theme-900 text-white text-center py-4 px-12 rounded text-sm font-semibold inline-block"
+              className="bg-green-theme-900 text-white text-center py-4 px-12 rounded text-sm font-semibold inline-block mt-8 md:mt-0"
               href="#"
             >
               Sign Up Now

@@ -149,10 +149,14 @@ button {
   background: url(/images/bg-blur-l.svg) no-repeat;
 }
 
-.wall-of-love-wrapper {
-  columns: 4;
-  column-gap: 1.5rem;
+@media screen and (min-width: 769px) {
+  .wall-of-love-wrapper {
+    columns: 4;
+    column-gap: 1.5rem;
+  }
 }
+
+
 .tweet-box {
   break-inside: avoid;
   margin: 0 0 1.5rem 0;

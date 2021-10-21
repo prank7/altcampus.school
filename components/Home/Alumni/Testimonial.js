@@ -37,7 +37,7 @@ function Testimonial(props) {
   return (
     <a
       href=""
-      className="block shadow-lg-custom bg-white px-10 py-5 max-w-4xl mx-auto mt-7 rounded-lg"
+      className="block shadow-lg-custom bg-white px-6 sm:px-10 py-5 max-w-4xl mx-auto mt-7 rounded-lg"
     >
       <article className="flex items-center">
         <aside>
@@ -51,7 +51,7 @@ function Testimonial(props) {
             </h6>
           </div>
         </aside>
-        <p className="mx-16 font-Karla text-xl text-gray-500 leading-normal pr-9">
+        <p className="sm:mx-16 ml-6 font-Karla text-xl text-gray-500 leading-normal sm:pr-9">
           Sachin’s journey of choosing a different path, learning to code from
           AltCampus, and finally becoming a software developer.
         </p>

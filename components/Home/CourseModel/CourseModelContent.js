@@ -2,7 +2,7 @@ import React from 'react';
 
 function CourseModelContent(props) {
   return (
-    <div className="max-w max-w-lg">
+    <div className="md:max-w-lg">
       <p className="text-gray-500 text-xl leading-normal font-Karla mt-8">
         {props.intro}
       </p>

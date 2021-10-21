@@ -37,11 +37,11 @@ const alumnis = [
 function Alumnis(props) {
   return (
     <section className="pb-24 bg-blur bg-no-repeat">
-      <article className="container mx-auto px-3">
+      <article className="container mx-auto px-8 sm:px-3">
         <h3 className="text-center font-bold text-gray-500 text-2xl">
           Meet some of our alumnis...
         </h3>
-        <ul className="mt-10 grid grid-cols-6">
+        <ul className="mt-10 md:grid grid-cols-6 hidden">
           {alumnis.map((item) => (
             <li className="text-center">
               <img
