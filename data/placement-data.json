@@ -2705,5 +2705,126 @@
     "interviewLink": "",
     "graduationYear": "",
     "companyWebsite": "https://www.wolkensoftware.com/"
+  },
+  {
+    "name": "Ravindra Singh",
+    "about": "I am Ravindra Singh from Jhansi. I completed B.Tech with Mechanical Engineering.",
+    "username": "ravindra-me",
+    "company": "Sigmoid",
+    "dateOfBirth": "",
+    "role": "Front End Developer",
+    "ctc": "11LPA",
+    "projects": [
+      { "title": "", "description": "", "liveURL": "", "code": "" },
+      { "title": "", "description": "", "liveURL": "", "code": "" },
+      { "title": "", "description": "", "liveURL": "", "code": "" },
+      { "title": "", "description": "", "liveURL": "", "code": "" }
+    ],
+    "blogPosts": [
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" }
+    ],
+    "highestEducation": "Bachelor of Engineering, ME",
+    "email": "ravindrarajpoot9628172@gmail.com",
+    "twitter": "https://twitter.com/ravindra_9454",
+    "linkedin": "https://www.linkedin.com/in/ravindra-me/",
+    "github": "https://github.com/ravindra-me",
+    "image": [
+      {
+        "id": "attNbe5MgdvnjCkBy",
+        "width": 1440,
+        "height": 1410,
+        "url": "https://dl.airtable.com/.attachments/f59f6b7e7fa30bf04fcd2d1b44646a00/a5ee6dbf/profileImg.jpeg",
+        "filename": "profileImg.jpeg",
+        "size": 368603,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/c85c8822e81fba2d93d435beb3fdd053/f009b12b",
+            "width": 37,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/0c43ae377fef64632dc694bb49c70878/546e620b",
+            "width": 523,
+            "height": 512
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/5a63f1e7ab68e6c703b1669812aef05d/f074896c",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
+    "experineceAtAltCampus": "Altcampus is one of the best places where you can learn full-stack web development courses in a better way because in the world there are lots of Bootcamp but no one takes care of the basics and deep of each concept. \nMentors always support me always in coding and another thing also. And the way of explanation of the concepts is very good. \nThank you Altcampus.",
+    "interviewLink": "",
+    "graduationYear": "",
+    "companyWebsite": "https://www.sigmoid.com/"
+  },
+  {
+    "name": "Onkar Shingate",
+    "about": "I'm from solapur, maharashtra. Completed my BE(CS) from SIT, Lonavala in 2019.",
+    "username": "oshingate",
+    "company": "Emtec inc. ",
+    "dateOfBirth": "",
+    "role": "Full Stack Developer",
+    "ctc": "6",
+    "projects": [
+      {
+        "title": "Personal Portfolio",
+        "description": "Personal Portfolio",
+        "liveURL": "https://oshingate.netlify.app/",
+        "code": ""
+      },
+      { "title": "", "description": "", "liveURL": "", "code": "" },
+      { "title": "", "description": "", "liveURL": "", "code": "" },
+      { "title": "", "description": "", "liveURL": "", "code": "" }
+    ],
+    "blogPosts": [
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" }
+    ],
+    "highestEducation": " BE(CS)",
+    "email": "oshingate@gmail.com",
+    "twitter": "https://twitter.com/onkarshingate2",
+    "linkedin": "https://www.linkedin.com/in/oshingate/",
+    "github": "https://github.com/oshingate",
+    "image": [
+      {
+        "id": "attyDQpQAQJgt34dP",
+        "width": 538,
+        "height": 789,
+        "url": "https://dl.airtable.com/.attachments/1ed54b3fa076458959bf580ce15fc3ac/c272ddfc/onkar.jpg",
+        "filename": "onkar.jpg",
+        "size": 279468,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/c742459a423952766bcc65423ec74056/613dc841",
+            "width": 25,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/53ee08cc8a557c7b138afe535dda85b3/2396dbbc",
+            "width": 512,
+            "height": 751
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/4e9dbf90fbe4d5927ed822fdb1799999/643fccaa",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
+    "experineceAtAltCampus": "Altcampus made me job ready in just 7 months. If genuinely you want to be a MERN Stack Developer consider joining AltCampus.",
+    "interviewLink": "",
+    "graduationYear": "",
+    "companyWebsite": "emtecinc.com"
   }
 ]
