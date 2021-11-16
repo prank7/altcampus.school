@@ -7,12 +7,12 @@ function CourseModelContent(props) {
         {props.intro}
       </p>
       <a
-        className="text-green-theme-900 text-xl font-semibold flex items-center mt-6"
+        className="text-green-theme-900 text-xl font-semibold flex items-center mt-6 animate-arrow"
         href="#"
       >
         <strong>{props.action}</strong>
         <img
-          className="ml-12"
+          className="ml-12 arrow-slide"
           src="/images/icons/arrow-right-green.svg"
           alt="Arrow Right Icon"
         />

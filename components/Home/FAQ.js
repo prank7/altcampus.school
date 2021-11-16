@@ -133,9 +133,11 @@ function FAQ(props) {
         <footer className="text-center">
           <a
             href="/stories"
-            className="inline-block mt-16 py-5 px-10 border-2 border-solid border-royal-blue-800 rounded text-royal-blue-800 font-bold text-center capitalize"
+            className="hover-btn inline-block mt-16 py-5 px-10 border-2 border-solid border-royal-blue-800 rounded text-royal-blue-800 font-bold text-center capitalize"
           >
-            Read their success stories
+            <strong className="relative z-10">
+              Read their success stories
+            </strong>
           </a>
         </footer>
       </div>

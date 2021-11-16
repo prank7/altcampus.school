@@ -99,12 +99,12 @@ function Pricing(props) {
                         6 Easy EMIs of 10K
                       </a>
                       <a
-                        className="flex text-green-theme-900 font-semibold text-xl"
+                        className="flex text-green-theme-900 font-semibold text-xl animate-arrow"
                         href="#"
                       >
                         Enroll Now!
                         <img
-                          className="ml-6"
+                          className="ml-6 arrow-slide"
                           src="/images/icons/arrow-right-green.svg"
                           alt="Arrow Right Icon"
                         />
@@ -165,12 +165,12 @@ function Pricing(props) {
                         6 Easy EMIs of 10K
                       </a>
                       <a
-                        className="flex text-green-theme-900 font-semibold text-xl"
+                        className="flex text-green-theme-900 font-semibold text-xl animate-arrow"
                         href="#"
                       >
                         Enroll Now!
                         <img
-                          className="ml-6"
+                          className="ml-6 arrow-slide"
                           src="/images/icons/arrow-right-green.svg"
                           alt="Arrow Right Icon"
                         />

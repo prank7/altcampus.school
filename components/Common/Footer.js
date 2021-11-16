@@ -12,22 +12,34 @@ function Footer(props) {
             <h4 className="text-gray-500 text-sm font-semibold">Altcampus</h4>
             <ul className="mt-5">
               <li>
-                <a className="text-gray-500 text-xs" href="#">
+                <a
+                  className="text-gray-500 text-xs hover:text-royal-blue-900 duration-300 ease-in-out transition"
+                  href="#"
+                >
                   About Us
                 </a>
               </li>
               <li className="mt-2">
-                <a className="text-gray-500 text-xs" href="#">
+                <a
+                  className="text-gray-500 text-xs hover:text-royal-blue-900 duration-300 ease-in-out transition"
+                  href="#"
+                >
                   Team
                 </a>
               </li>
               <li className="mt-2">
-                <a className="text-gray-500 text-xs" href="#">
+                <a
+                  className="text-gray-500 text-xs hover:text-royal-blue-900 duration-300 ease-in-out transition"
+                  href="#"
+                >
                   Story
                 </a>
               </li>
               <li className="mt-2">
-                <a className="text-gray-500 text-xs" href="#">
+                <a
+                  className="text-gray-500 text-xs hover:text-royal-blue-900 duration-300 ease-in-out transition"
+                  href="#"
+                >
                   Community
                 </a>
               </li>
@@ -37,17 +49,26 @@ function Footer(props) {
             <h4 className="text-gray-500 text-sm font-semibold">Offerings</h4>
             <ul className="mt-5">
               <li>
-                <a className="text-gray-500 text-xs" href="#">
+                <a
+                  className="text-gray-500 text-xs hover:text-royal-blue-900 duration-300 ease-in-out transition"
+                  href="#"
+                >
                   MERN Course
                 </a>
               </li>
               <li className="mt-2">
-                <a className="text-gray-500 text-xs" href="#">
+                <a
+                  className="text-gray-500 text-xs hover:text-royal-blue-900 duration-300 ease-in-out transition"
+                  href="#"
+                >
                   Assessments
                 </a>
               </li>
               <li className="mt-2">
-                <a className="text-gray-500 text-xs" href="#">
+                <a
+                  className="text-gray-500 text-xs hover:text-royal-blue-900 duration-300 ease-in-out transition"
+                  href="#"
+                >
                   Bootcamp
                 </a>
               </li>
@@ -57,17 +78,26 @@ function Footer(props) {
             <h4 className="text-gray-500 text-sm font-semibold">Write to Us</h4>
             <ul className="mt-5">
               <li>
-                <a className="text-gray-500 text-xs" href="#">
+                <a
+                  className="text-gray-500 text-xs hover:text-royal-blue-900 duration-300 ease-in-out transition"
+                  href="#"
+                >
                   For Feedback
                 </a>
               </li>
               <li className="mt-2">
-                <a className="text-gray-500 text-xs" href="#">
+                <a
+                  className="text-gray-500 text-xs hover:text-royal-blue-900 duration-300 ease-in-out transition"
+                  href="#"
+                >
                   For Help
                 </a>
               </li>
               <li className="mt-2">
-                <a className="text-gray-500 text-xs" href="#">
+                <a
+                  className="text-gray-500 text-xs hover:text-royal-blue-900 duration-300 ease-in-out transition"
+                  href="#"
+                >
                   Story
                 </a>
               </li>

@@ -26,7 +26,7 @@ function Testimonial(props) {
         <li key={item.name}>
           <a
             href={item.path}
-            className="block shadow-lg-custom bg-white px-6 sm:px-10 py-5 max-w-4xl mx-auto mt-7 rounded-lg"
+            className="block shadow-lg-custom bg-white px-6 sm:px-10 py-5 max-w-4xl mx-auto mt-7 rounded-lg animate-arrow"
           >
             <article className="flex items-center">
               <aside className="text-center">
@@ -49,13 +49,12 @@ function Testimonial(props) {
               </blockquote>
 
               <footer>
-                <a href="">
-                  <img
-                    className="w-16"
-                    src="/images/icons/arrow-right.svg"
-                    alt="Arrow Right Icon"
-                  />
-                </a>
+                <img
+                  className="arrow-slide"
+                  width="84"
+                  src="/images/icons/arrow-right.svg"
+                  alt="Arrow Right Icon"
+                />
               </footer>
             </article>
           </a>

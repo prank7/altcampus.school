@@ -46,8 +46,9 @@ function CourseStack(props) {
                 name="email"
                 placeholder="Enter Your E-Mail ID"
               />
-              <button className="bg-royal-blue-800 py-4 px-8 rounded-full shadow-lg-custom">
+              <button className="bg-royal-blue-800 py-4 px-8 rounded-full shadow-lg-custom animate-arrow">
                 <img
+                  className="arrow-slide"
                   src="/images/icons/arrow-right-white.svg"
                   alt="Arrow Right Icon"
                 />

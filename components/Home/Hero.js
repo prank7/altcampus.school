@@ -76,7 +76,7 @@ function Hero(props) {
           <div className="text-center md:text-left">
             <a
               href="https://try.altcampus.school/"
-              className="bg-green-theme-900 py-4 px-8 inline-block md:col-span-1 text-center text-white font-semibold text-sm rounded mt-8 md:mt-0"
+              className="bg-green-theme-900 hover:bg-green-theme-700 transition duration-300 ease-in-out py-4 px-8 inline-block md:col-span-1 text-center text-white font-semibold text-sm rounded mt-8 md:mt-0"
             >
               Start For Free
             </a>

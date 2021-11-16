@@ -82,33 +82,33 @@ function Navbar() {
               className="hidden md:flex items-center space-x-10"
             >
               <ActiveLink href="/">
-                <a className="text-sm text-gray-500 hover:text-royal-blue-900 transition py-5">
+                <a className="text-sm text-gray-500 hover:text-royal-blue-900 duration-300 ease-in-out transition py-5">
                   Home
                 </a>
               </ActiveLink>
               <ActiveLink href="/#pricing">
-                <a className="text-sm text-gray-500 hover:text-royal-blue-900 transition py-5">
+                <a className="text-sm text-gray-500 hover:text-royal-blue-900 duration-300 ease-in-out transition py-5">
                   Course
                 </a>
               </ActiveLink>
               <ActiveLink href="/placements">
-                <a className="text-sm text-gray-500 hover:text-royal-blue-900 transition py-5">
+                <a className="text-sm text-gray-500 hover:text-royal-blue-900 duration-300 ease-in-out transition py-5">
                   Placements
                 </a>
               </ActiveLink>
               <ActiveLink href="/stories">
-                <a className="text-sm text-gray-500 hover:text-royal-blue-900 transition py-5">
+                <a className="text-sm text-gray-500 hover:text-royal-blue-900 duration-300 ease-in-out transition py-5">
                   Stories
                 </a>
               </ActiveLink>
               <ResourcesMenu />
               <ActiveLink href="https://launchpad.altcampus.school/login">
-                <a className="text-sm text-gray-500 hover:text-royal-blue-900 transition py-5">
+                <a className="text-sm text-gray-500 hover:text-royal-blue-900 duration-300 ease-in-out transition py-5">
                   Login
                 </a>
               </ActiveLink>
               <ActiveLink href="https://launchpad.altcampus.school/signup">
-                <a className="bg-green-theme-900 text-white rounded font-semibold py-3 px-8">
+                <a className="bg-green-theme-900 hover:bg-green-theme-700 transition duration-300 ease-in-out text-white rounded font-semibold py-3 px-8">
                   Signup
                 </a>
               </ActiveLink>
