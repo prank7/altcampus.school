@@ -13,18 +13,20 @@ function Testimonial(props) {
           <header>
             <blockquote className="font-Karla text-xl relative">
               <p className="text-opacity-60 text-royal-blue-200">
-                In the starting days, I was searching for the best courses
-                available online within my budget. A friend told me about
-                Altcampus. It has the best mentors and the best course content.
-                I landed a job immediately after completing my course. It
-                changed my life!
+                I feel proud to be a first batch, When I look back at my time in
+                AltCampus then I feel that was a great experience. AltCampus
+                provided me a platform to realize my potential, to make a module
+                approach with keen focus on learning and a strong collaboration.
+                All mentors were outstanding & gave me the best guidance
+                possible. I am overwhelmed by being an Alumni of AltCampus for
+                whatever & wherever I am today.
               </p>
               <cite className="not-italic inline-block mt-6">
                 <strong className="text-md text-royal-blue-200">
-                  Sarthak Pathak{' '}
+                  Komal Raj{' '}
                 </strong>
                 <strong className="uppercase text-xs text-opacity-50 text-royal-blue-200 ml-2">
-                  SDE at BIGBinary
+                  KheloMore Sports Private Limited Mumbai
                 </strong>
               </cite>
               <div className="absolute -top-9 -left-14 md:-top-5 md:-left-20">
@@ -36,7 +38,7 @@ function Testimonial(props) {
           </header>
           <footer className="md:flex justify-between items-end mt-12">
             <h3 className="text-royal-blue-200 text text-4.5xl font-bold max-w-xl">
-              Ready to change your life like Sarthak ?
+              Ready to change your life like Komal ?
             </h3>
             <a
               className="bg-green-theme-900 text-white text-center py-4 px-12 rounded text-sm font-semibold inline-block mt-8 md:mt-0"

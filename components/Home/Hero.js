@@ -29,24 +29,26 @@ function Hero(props) {
             </div>
             <blockquote className="ml-6">
               <p className="text-base text-gray-500 leading-relaxed">
-                Altcampus is where my search ended for the perfect bootcamp like
-                course. I finally landed a job! Thanks to them!
+                A place to learn not only programming but also the way you can
+                lead life. Profound learning. From a dropout to the programmer.
+                A path-breaking journey but Altcampus made me successful in
+                this.
               </p>
             </blockquote>
-            <figure className="text-center ml-6 md:ml-11">
+            <figure className="text-center ml-6 md:ml-8">
               <div className="w-16 md:w-24">
                 <img
-                  className="inline-block"
-                  src="/images/students/sachin.svg"
+                  className="inline-block w-16 h-16 rounded-full object-cover"
+                  src="/images/students/Chaduvula.jpeg"
                   alt="Sachin Kumaar"
                 />
                 <figcaption className="mt-2">
                   <cite className="text-base not-italic text-royal-blue-800 font-semibold">
-                    Sachin
+                    Prasanth Chaduvula
                   </cite>
                   <br />
                   <cite className="text-xxs not-italic text-gray-500 tracking-normal uppercase">
-                    Cleartax
+                    BigBinary
                   </cite>
                 </figcaption>
               </div>

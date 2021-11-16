@@ -2,11 +2,11 @@ import React from 'react';
 
 const statsMenu = [
   {
-    heading: '50 ',
-    subHeading: 'Aluminis in 10 Months'
+    heading: '86.4%',
+    subHeading: 'Our Placement Success Rate'
   },
   {
-    heading: '7.2 Lacs ',
+    heading: '7.2 Lacs',
     subHeading: 'Average Package'
   },
   {

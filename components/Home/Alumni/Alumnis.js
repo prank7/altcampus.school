@@ -3,14 +3,14 @@ import Testimonial from './Testimonial';
 
 const alumnis = [
   {
-    name: 'Chaduvula',
-    company: 'BigBinary',
-    image: '/images/students/Chaduvula.jpeg'
+    name: 'Ruchi Kharwar',
+    company: 'Accelerate Business Solutions',
+    image: '/images/students/ruchi.jpeg'
   },
   {
-    name: 'Harshaan',
-    company: 'BigBinary',
-    image: '/images/students/Harshaan.jpeg'
+    name: 'Abid Rahim',
+    company: 'LocoNav Pvt Ltd',
+    image: '/images/students/abid.jpeg'
   },
   {
     name: 'Komal',
@@ -18,19 +18,19 @@ const alumnis = [
     image: '/images/students/Komal.jpg'
   },
   {
-    name: 'Sachin',
-    company: 'BibBinary',
-    image: '/images/students/sachin.svg'
-  },
-  {
-    name: 'Harshaa',
+    name: 'Harshaan',
     company: 'BigBinary',
     image: '/images/students/Harshaan.jpeg'
   },
   {
-    name: 'Prashant',
+    name: 'Alisha saxena',
     company: 'BigBinary',
-    image: '/images/students/Chaduvula.jpeg'
+    image: '/images/students/alisha.jpeg'
+  },
+  {
+    name: 'Ashwin Kumar N',
+    company: 'Wolken Software',
+    image: '/images/students/ashwin.jpeg'
   }
 ];
 
@@ -39,13 +39,13 @@ function Alumnis(props) {
     <section className="pb-24 bg-blur bg-no-repeat">
       <article className="container mx-auto px-8 sm:px-3">
         <h3 className="text-center font-bold text-gray-500 text-2xl">
-          Meet some of our alumnis...
+          Meet some of our graduates...
         </h3>
         <ul className="mt-10 md:grid grid-cols-6 hidden">
           {alumnis.map((item) => (
             <li className="text-center" key={item.name}>
               <img
-                className="w-40 h-40 rounded-full inline-block shadow-lg-custom"
+                className="w-40 h-40 rounded-full inline-block shadow-lg-custom object-cover"
                 src={item.image}
                 alt={item.name}
               />
@@ -62,14 +62,13 @@ function Alumnis(props) {
         </ul>
         <div className="mt-24">
           <Testimonial />
-          <Testimonial />
         </div>
         <footer className="text-center">
           <a
-            href="/stories"
+            href="/placements"
             className="inline-block mt-16 py-5 px-10 border-2 border-solid border-royal-blue-800 rounded text-royal-blue-800 font-bold text-center capitalize"
           >
-            Read their success stories
+            Read how AltCampus changed their lives
           </a>
         </footer>
       </article>

@@ -17,7 +17,6 @@ function WallOfLove({ tweets }) {
             Our wall of love
           </h2>
         </header>
-        {/* <article className="items-start wall-of-love-wrapper"> */}
         <Masonry
           breakpointCols={breakpointColumnsObj}
           className="my-masonry-grid"
@@ -27,7 +26,6 @@ function WallOfLove({ tweets }) {
             <Tweet hideImage key={tweet.id} {...tweet} />
           ))}
         </Masonry>
-        {/* </article> */}
       </div>
     </section>
   );

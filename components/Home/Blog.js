@@ -18,7 +18,7 @@ function Blog(props) {
             />
             <div className="sm:max-w-2xl md:max-w-none sm:pr-12 md:pr-0">
               <h3 className="text-royal-blue-800 text-2xl font-bold mt-4">
-                Only fun learning environment
+                Only a fun learning environment...
               </h3>
               <p className="font-Karla text-gray-500 mt-3">
                 Curabitur lobortis id lorem id bibendum. Ut id consectetur
@@ -35,7 +35,7 @@ function Blog(props) {
             />
             <div className="sm:max-w-2xl md:max-w-none sm:pr-12 md:pr-0">
               <h3 className="text-royal-blue-800 text-2xl font-bold mt-4">
-                Only industry relevant knowledge
+                Only industry relevant knowledge..
               </h3>
               <p className="font-Karla text-gray-500 mt-3">
                 Curabitur lobortis id lorem id bibendum. Ut id consectetur

@@ -40,19 +40,17 @@ function Home(props) {
           <Pricing /> */}
           {/* <TestimonialTweets /> */}
           <CTA
-            titleA={'Land your dream job'}
-            titleB={'of which you will be more proud !'}
+            titleA={'Did you know that'}
+            titleB={
+              'Software Development is one of the most highly paid careers?'
+            }
             action={'Sign Up Now!'}
           />
           <CourseStack />
           <section>
             <CourseModel />
           </section>
-          <TestimonialCTA
-            titleA={'Ready to take the'}
-            titleB={'world of programming by storm?'}
-            action={'I am ready, Sign me up!'}
-          />
+          <TestimonialCTA />
           <Pricing />
           <WallOfLove tweets={props.tweets} />
           <FAQ />
@@ -60,7 +58,7 @@ function Home(props) {
           <CTA
             titleA={'Ready to take the'}
             titleB={'world of programming by storm?'}
-            action={'I am ready, Sign me up!'}
+            action={'I am ready, Sign me up.'}
           />
           {/* <LetsTalk /> */}
         </main>

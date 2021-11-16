@@ -22,36 +22,15 @@ function CourseStack(props) {
               Vestibulum nec erat ut.
             </p>
           </article>
-          <div className="self-end grid grid-cols-2 gap-x-5 gap-y-8 relative my-12 md:my-0">
+          <div className="relative my-12 md:my-0">
             <figure className="absolute inline-block left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2">
               <div className="w-72 h-72 bg-royal-blue-600 bg-opacity-5 rounded-full blur-xl filter"></div>
             </figure>
-            <figure className="bg-white shadow-lg-custom px-8 py-6 rounded-full relative z-10 text-center">
+            <figure className="relative z-10">
               <img
-                className="h-12 inline-block"
-                src="/images/icons/mongo.svg"
+                className=""
+                src="/images/icons/course-logo.svg"
                 alt="MongoDB Logo"
-              />
-            </figure>
-            <figure className="bg-white shadow-lg-custom px-8 py-6 rounded-full relative z-10 text-center">
-              <img
-                className="h-12 inline-block"
-                src="/images/icons/express-js.svg"
-                alt="Express JS Logo"
-              />
-            </figure>
-            <figure className="bg-white shadow-lg-custom px-8 py-6 rounded-full relative z-10 text-center">
-              <img
-                className="h-12 inline-block"
-                src="/images/icons/react-js.svg"
-                alt="React JS Logo"
-              />
-            </figure>
-            <figure className="bg-white shadow-lg-custom px-8 py-6 rounded-full relative z-10 text-center">
-              <img
-                className="h-12 inline-block"
-                src="/images/icons/node-js.svg"
-                alt="Node JS Logo"
               />
             </figure>
           </div>
@@ -77,22 +56,26 @@ function CourseStack(props) {
           </form>
           <article className="flex items-center bg-white py-6 px-7 shadow-lg-custom rounded-2xl relative z-10">
             <p className="font-Karla text-base text-gray-500 leading-relaxed mr-6 relative">
-              This is the most detailed, to the point and practical curriculum
-              that I have come across during my search of a bootcamp.
+              A life changing place for the passionate coder. One can not get
+              bored of enjoying the place and learning to code.
               <div className="absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2">
                 <span className="text-center rounded-full text-8xl text-green-theme-900 block w-16 h-16 transform -scale-y-1 font-Sora text-opacity-10 font-semibold">
                   “
                 </span>
               </div>
             </p>
-            <aside>
-              <img src="/images/students/sachin.svg" alt="Sachin" />
+            <aside className="min-w-max text-center">
+              <img
+                className="w-16 h-16 rounded-full object-cover inline-block"
+                src="/images/students/shastri.jpeg"
+                alt="Abhishek"
+              />
               <div className="mt-4">
                 <h4 className="text-royal-blue-800 font-semibold text-base">
-                  Sachin
+                  Abhishek
                 </h4>
                 <h6 className="text-xxs text-gray-500 uppercase font-normal mt-1">
-                  ClearTax
+                  VeGrow
                 </h6>
               </div>
             </aside>

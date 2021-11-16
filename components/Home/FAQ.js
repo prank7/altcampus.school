@@ -8,29 +8,30 @@ let data = [
     answer:
       'AltCampus is an online programming bootcamp for recent college graduates, students taking gap year, dropouts, professionals looking to switch careers, anyone learning web development but needs right environment and guidance. No prior programming knowledge required.',
     quote: {
-      text: 'This is the most detailed, to the point and practical curriculum that I have come across during my search of a bootcamp.',
+      text: 'AltCampus breaks the myth that you need a professional qualification to be a software developer. I was a CA dropout with no programming experience and currently I am working in a reputed company. This says all.',
       author: {
-        name: 'Sachin',
-        company: 'Cleartax',
-        avatar: '/images/students/sachin.svg'
+        name: 'Shreyansh',
+        company: 'BigBinary',
+        avatar:
+          'https://altcampus.school/_next/image?url=%2Fassets%2Fmedia%2Fsreyansh.jpg&w=1920&q=75'
       }
     }
   },
-
+  /*
   {
     topImage: '/images/happy-child.svg',
     question: 'Can I get a demo before I signup?',
-    answer: 'Yes, you can try the free version of the program here.',
+    answer:
+      'Yes, you can try the free version of the program here. https://try.altcampus.school/',
     quote: {
-      text: 'I feel proud to be a student of first batch. AltCampus provided me a platform to realize my potential. All mentors were outstanding and gave me the best guidance possible.',
+      text: 'The perfect place for someone looking to enter the world of tech with a strong support community, and great mentors, guided by a real drive to help each student realise his/her potential.',
       author: {
-        name: 'Komal',
-        company: 'KheloMore',
-        avatar:
-          'https://altcampus.school/_next/image?url=%2Fassets%2Fmedia%2Fkomal.jpeg&w=1920&q=75'
+        name: 'Akshat',
+        company: 'Mclaren College',
+        avatar: '/images/students/akshat.jpeg'
       }
     }
-  },
+  },*/
   {
     topImage: '/images/happy-child2.svg',
     question: 'Is this course self-paced or cohort based?',
@@ -53,11 +54,11 @@ let data = [
     answer:
       'Yes. AltCampus does help in job placements. We help you at every stage. We help you build strong portfolio, prepare for interviews, and put you in touch with companies for interview.',
     quote: {
-      text: 'This is the most detailed, to the point and practical curriculum that I have come across during my search of a bootcamp.',
+      text: 'AltCampus was the best decision of my life. AltCampus gave me knowledge and helped me learn skills both technical and non-technical and most of all I got my first job because of AltCampus. This is the best place for anyone willing to learn programming. You get to be amidst like minded people. Thank you AltCampus',
       author: {
-        name: 'Sachin',
-        company: 'Cleartax',
-        avatar: '/images/students/sachin.svg'
+        name: 'Ayushman',
+        company: 'BigBinary',
+        avatar: '/images/students/ayushman.jpeg'
       }
     }
   },
@@ -67,11 +68,11 @@ let data = [
     answer:
       'Yes. AltCampus has partnered with Mihuru to provide you EMI based loan to enroll in the course. Please apply here to avail it.',
     quote: {
-      text: 'This is the most detailed, to the point and practical curriculum that I have come across during my search of a bootcamp.',
+      text: 'AltCampus is an experience and life-changing journey for me. It shaped my thought and I learned to focus on process. Mentors helped me to learn coding from zero to professional level. Thank you AltCampus for opening doors to new horizons.',
       author: {
-        name: 'Sachin',
-        company: 'Cleartax',
-        avatar: '/images/students/sachin.svg'
+        name: 'Ashik',
+        company: 'Out of Box',
+        avatar: '/images/students/ashik.jpeg'
       }
     }
   },
@@ -80,12 +81,11 @@ let data = [
     question: 'How long is the course?',
     answer: `In a cohort, it takes about 6-7 months to finish the AltCampus course. In self paced, it depends on the time and dedication of the learner. Students usually finish the course in anywhere between 5 to 9 months. Mentorship in either options is available till 9 months.`,
     quote: {
-      text: 'AltCampus has made my career. I am very grateful to the mentors of AltCampus who believed in me and were there with me at each step in my learning journey. I will always remember their contribution.',
+      text: 'Altcampus made me job-ready in just 7 months. If genuinely you want to be a MERN Stack Developer consider joining AltCampus.',
       author: {
-        name: 'Ashwini',
-        company: 'ClearTax',
-        avatar:
-          'https://altcampus.school/_next/image?url=%2Fassets%2Fmedia%2Fstudents%2Fashwani.jpeg&w=1920&q=75'
+        name: 'Onkar',
+        company: 'Emtec inc.',
+        avatar: '/images/students/onkar.jpeg'
       }
     }
   },
@@ -94,12 +94,11 @@ let data = [
     question: 'Can I interact with mentors live?',
     answer: `Yes, every working day mentors in all modules hold live, office hour sessions where you can ask your doubts and work on problems you are facing.`,
     quote: {
-      text: 'AltCampus breaks the myth that you need a professional qualification to be a software developer. I was a CA dropout with no programming experience and currently I am working in a reputed company. This says all.',
+      text: 'I have had a life-changing experience with Altcampus. Coming from a non-software background, the path was tough but mentors were always available to help which made it possible for me to become a Software Engineer from not knowing to write a single line of code.',
       author: {
-        name: 'Shreyans',
+        name: 'Sourav',
         company: 'BigBinary',
-        avatar:
-          'https://altcampus.school/_next/image?url=%2Fassets%2Fmedia%2Fsreyansh.jpg&w=1920&q=75'
+        avatar: '/images/students/sourav.png'
       }
     }
   }
@@ -153,7 +152,7 @@ function Question({
 }) {
   return (
     <li
-      className={`cursor-pointer border-solid border-b border-royal-blue-200 pb-3 ${
+      className={`cursor-pointer border-solid border-b border-royal-blue-200 py-4 ${
         activeQuestionIndex === index && ' active-ques'
       }`}
       onClick={() => setActiveQuestionIndex(index)}
@@ -183,15 +182,15 @@ function Answer({ activeQuestionIndex }) {
             </span>
           </div>
         </p>
-        <aside>
+        <aside className="text-center">
           <Image
-            className="rounded-full"
-            height="56"
-            width="56"
+            className="rounded-full min-w-max object-cover"
+            height="60"
+            width="60"
             src={quote.author.avatar}
-            alt="Sachin"
+            alt={quote.author.name}
           />
-          <div className="mt-4">
+          <div className="">
             <h4 className="text-royal-blue-800 font-semibold text-base">
               {quote.author.name}
             </h4>
