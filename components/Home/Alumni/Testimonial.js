@@ -4,7 +4,7 @@ const alumnis = [
   {
     name: 'Swastik',
     company: 'Freelancing',
-    image: '/images/students/swastik.gif',
+    image: '/images/students/swastik.svg',
     path: '/placements/swastik-yadav',
     quote:
       "Applying for AltCampus was the best decision I have ever made up to now. You don't need any prior knowledge of programming. They train you from ground zero and make you reach your escape velocity."
@@ -12,7 +12,7 @@ const alumnis = [
   {
     name: 'Reetik',
     company: 'BigBinary',
-    image: '/images/students/reetik.jpeg',
+    image: '/images/students/reetik.svg',
     path: '/placements/reettik-goswami',
     quote:
       'AltCampus has helped me to develop an attitude that pushed me towards developing positive thinking. The culture here is pretty epic and improving with every passing day. I highly recommend learning here.'

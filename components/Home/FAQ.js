@@ -12,8 +12,7 @@ let data = [
       author: {
         name: 'Shreyansh',
         company: 'BigBinary',
-        avatar:
-          'https://altcampus.school/_next/image?url=%2Fassets%2Fmedia%2Fsreyansh.jpg&w=1920&q=75'
+        avatar: '/images/students/shreyansh.svg'
       }
     }
   },
@@ -43,8 +42,7 @@ let data = [
       author: {
         name: 'Shasank',
         company: 'BigBinary',
-        avatar:
-          'https://altcampus.school/_next/image?url=%2Fassets%2Fmedia%2Fstudents%2Fshashank.jpeg&w=1920&q=75'
+        avatar: '/images/students/shashank.svg'
       }
     }
   },
@@ -58,7 +56,7 @@ let data = [
       author: {
         name: 'Ayushman',
         company: 'BigBinary',
-        avatar: '/images/students/ayushman.jpeg'
+        avatar: '/images/students/ayushman.svg'
       }
     }
   },
@@ -72,7 +70,7 @@ let data = [
       author: {
         name: 'Ashik',
         company: 'Out of Box',
-        avatar: '/images/students/ashik.jpeg'
+        avatar: '/images/students/ashik.svg'
       }
     }
   },
@@ -85,7 +83,7 @@ let data = [
       author: {
         name: 'Onkar',
         company: 'Emtec inc.',
-        avatar: '/images/students/onkar.jpeg'
+        avatar: '/images/students/onkar.svg'
       }
     }
   },
@@ -98,7 +96,7 @@ let data = [
       author: {
         name: 'Sourav',
         company: 'BigBinary',
-        avatar: '/images/students/sourav.png'
+        avatar: '/images/students/sourav.svg'
       }
     }
   }

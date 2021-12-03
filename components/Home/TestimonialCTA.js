@@ -6,10 +6,10 @@ function Testimonial(props) {
       <article className="container mx-auto px-8 sm:px-3 justify-between flex items-center">
         <img
           className="absolute z-10 bottom-0 hidden md:inline-block"
-          src="/images/students/jonas.svg"
+          src="/images/students/komal-no-bg.png"
           alt="Komal"
         />
-        <div className="md:ml-80 pl-12">
+        <div className="md:ml-80 pl-20">
           <header>
             <blockquote className="font-Karla text-xl relative">
               <p className="text-opacity-60 text-royal-blue-200">
