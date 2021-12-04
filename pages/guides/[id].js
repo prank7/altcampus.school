@@ -43,7 +43,7 @@ export default function Post({ guideData, relatedGuides = [] }) {
         }}
       />
 
-      <section className="container mx-auto mb-16 px-8 md:px-0">
+      <section className="container mx-auto mb-16 px-8 pt-16 md:px-0">
         <div className="max-w-screen-md mx-auto">
           <article>
             <header>

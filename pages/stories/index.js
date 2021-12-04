@@ -21,7 +21,7 @@ const Stories = ({ allPostsData }) => {
         }}
       />
 
-      <div className="relative bg-gray-200 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8">
+      <div className="relative bg-gray-200 pt-16 pb-20 px-4 sm:px-6 lg:pt-32 lg:pb-28 lg:px-8">
         <div className="relative max-w-7xl mx-auto px-8 pb-16">
           <div className="text-center">
             <h2 className="text-3xl max-w-4xl mx-auto tracking-tight font-extrabold text-gray-700 sm:text-4xl">
@@ -38,9 +38,9 @@ const Stories = ({ allPostsData }) => {
                   <Link href={`/stories/[id]`} as={`/stories/${id}`}>
                     <figure className="bg-gray-100 rounded-xl flex p-2 cursor-pointer">
                       <img
-                        className="w-32 h-32"
+                        className="w-32 h-32 rounded object-cover"
                         src={studentPhoto}
-                        alt=""
+                        alt={name}
                         width="384"
                         height="512"
                       />

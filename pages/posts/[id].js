@@ -39,7 +39,7 @@ export default function Post({ postData, relatedPosts = [] }) {
         }}
       />
 
-      <section className="container mx-auto mb-16 px-8 md:px-0">
+      <section className="container mx-auto mb-16 px-8 md:px-0 pt-16">
         <div className="max-w-screen-md mx-auto">
           <article>
             <header>

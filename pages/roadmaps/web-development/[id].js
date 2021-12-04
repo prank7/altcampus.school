@@ -54,7 +54,7 @@ export default function Post({ roadmapData }) {
           }}
         />
         <main className="">
-          <header className="bg-gray-100 py-12 md:py-24">
+          <header className="bg-gray-100 py-12 md:pb-16 md:pt-32">
             <div className="container container mx-auto px-8 md:px-24">
               <strong className="uppercase text-gray-400 font-semibold">
                 Step by step
@@ -68,7 +68,7 @@ export default function Post({ roadmapData }) {
             </div>
           </header>
 
-          <section className="prose bg-white pt-12 pb-4">
+          <section className="prose bg-white pt-8 pb-4">
             <article className="container md:max-w-screen-lg mx-auto px-8 md:px-24">
               <Modal />
               <MDXRemote {...roadmapData.contentHtml} components={components} />
