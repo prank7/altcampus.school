@@ -15,13 +15,13 @@ function Hero(props) {
   return (
     <section className="py-32 md:py-40 bg-fancy bg-no-repeat">
       <article className="container mx-auto px-8 sm:px-3">
-        <header className="md:grid md:grid-cols-2 gap-x-20 items-center">
+        <header className="md:grid md:grid-cols-2 gap-x-20 items-center justify-between">
           <h2 className="text-4xl sm:text-4.5xl md:text-5.5xl font-bold leading-tight col-span-1 text-royal-blue-800 max-w-2xl">
             <strong className="md:block">Everything you</strong>
             <strong> need to become a </strong>
             <strong className="text-green-theme-900">Software Developer</strong>
           </h2>
-          <div className="bg-white col-span-1 flex items-center shadow-lg-custom py-7 pr-8 pl-8 rounded-2xl mt-8 md:mt-0 sm:mx-3.5">
+          <div className="bg-white col-span-1 flex items-center shadow-lg-custom py-7 pr-8 pl-8 rounded-2xl mt-8 md:mt-0 sm:ml-3.5">
             <div className="-ml-12 sm:-ml-16">
               <span className="text-center rounded-full text-5.5xl text-white block w-16 h-16 bg-gray-500 -shadow-md-custom pt-1 font-bold transform -scale-y-1">
                 “
@@ -73,10 +73,10 @@ function Hero(props) {
               !
             </strong>
           </h1>
-          <div className="text-center md:text-left">
+          <div className="text-center md:text-right">
             <a
               href="https://try.altcampus.school/"
-              className="bg-green-theme-900 hover:bg-green-theme-700 transition duration-300 ease-in-out py-4 px-8 inline-block md:col-span-1 text-center text-white font-semibold text-sm rounded mt-8 md:mt-0"
+              className="bg-green-theme-900 hover:bg-green-theme-700 transition duration-300 ease-in-out py-4 px-16 inline-block md:col-span-1 text-center text-white font-semibold text-sm rounded mt-8 md:mt-0"
             >
               Start For Free
             </a>

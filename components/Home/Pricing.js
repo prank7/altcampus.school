@@ -3,15 +3,15 @@ import { numberWithCommas } from '../../lib/helper';
 
 let pricingData = {
   online: {
-    priceINR: '102149',
+    priceINR: '5',
     priceUSD: '1344',
-    inr: '81249',
+    inr: '5K',
     usd: '1119'
   },
   bootcamp: {
     priceINR: '56249',
     priceUSD: '740',
-    inr: '40499',
+    inr: '61.5K',
     usd: '539'
   }
 };
@@ -27,82 +27,95 @@ function Pricing(props) {
             <h3 className="text-center font-bold text-gray-500 text-2xl">
               Price is what you pay, Value is what you get
             </h3>
-            <div className="flex items-center justify-center my-16">
-              <input
-                type="checkbox"
-                name="toggle"
-                className="hidden"
-                id="togglePrice"
-                defaultChecked={currency === 'usd'}
-                onChange={() => {
-                  setCurrency(currency === 'inr' ? 'usd' : 'inr');
-                }}
-              />
-              <label
-                htmlFor="togglePrice"
-                className="w-16 h-10 bg-royal-blue-200 rounded-full shadow-inner-custom flex items-center p-1 toggle-price order-1 mx-4 cursor-pointer"
-              >
-                <div className="w-8 h-8 rounded-full bg-gradient-to-b from from-royal-blue-600 to-royal-blue-800"></div>
-              </label>
-              <strong className="font-normal text-base text-gray-500 dollar">
-                US Dollars
-              </strong>
-              <strong className="font-normal text-base text-gray-500 order-2 rupee">
-                Rupees
-              </strong>
-            </div>
           </header>
-          <div className="md:grid md:grid-cols-2 gap-x-24">
-            <article className="bg-white shadow-lg-custom rounded-2xl relative">
-              <header className="relative">
-                <div className="px-14 py-8 card-banner rounded-t-2xl bg-cover relative z-10">
-                  <h3 className="text-white text-3xl font-bold text-shadow">
-                    Online Course
+          <div className="md:grid md:grid-cols-2 gap-x-24 mt-24">
+            <article className="bg-white shadow-lg-custom rounded-2xl">
+              <header className="relative bg-white">
+                <div className="bg-white px-8 py-8 rounded-t-2xl relative z-10 flex justify-between">
+                  <h3 className="text-royal-blue-800 text-3xl font-bold">
+                    Learn Specific Technology
                   </h3>
-                  <h5 className="font-medium text-xl text-white mt-4">
-                    Self Paced or Cohor
-                  </h5>
+                  <img src="/images/icons/frontend.svg" alt="FrontEnd Course" />
                 </div>
-                <div className="absolute bottom-0 left-0 w-full h-6 bg-dark-gold-900 bg-opacity-70 rounded-circle blur-lg filter"></div>
+                <div className="absolute bottom-0 left-0 w-full h-6 bg-gray-500 bg-opacity-20 rounded-circle blur-lg filter"></div>
               </header>
-              <ul className="pl-14 pr-10 py-10 leading-relaxed text-xl text-royal-blue-800 font-Karla pricing-list ">
-                <li className="relative">
-                  Donec facilisis tortor ut augue lacinia, at viverra est
-                  semper.{' '}
+              <div className="px-8 py-6 font-Karla text-lg text-royal-blue-800">
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Placeat nihil sint perferendis, cum atque corporis aut
+                  suscipit.
+                </p>
+              </div>
+              <ul className="px-8 py-4 leading-relaxed text-lg text-royal-blue-800">
+                <li className="flex items-center">
+                  <img
+                    src="/images/icons/html.svg"
+                    className="shadow-xs-custom rounded-full"
+                    alt="HTML"
+                  />
+                  <strong className="ml-4 font-medium">HTML</strong>
                 </li>
-                <li className="relative mt-2">Assignments</li>
-                <li className="relative mt-2">
-                  Donec facilisis tortor ut augue lacinia, at viverra est
-                  semper.{' '}
+                <li className="flex items-center mt-5">
+                  <img
+                    className="shadow-xs-custom rounded-full"
+                    src="/images/icons/css.svg"
+                    alt="CSS"
+                  />
+                  <strong className="ml-4 font-medium">CSS</strong>
                 </li>
-                <li className="relative mt-2">Github student developer pack</li>
-                <li className="relative mt-2">Step by Step course content</li>
-                <li className="relative mt-2">Assignments</li>
+                <li className="flex items-center mt-5">
+                  <img
+                    className="shadow-xs-custom rounded-full"
+                    src="/images/icons/js-rounded.svg"
+                    alt="JavaScript"
+                  />
+                  <strong className="ml-4 font-medium">JavaScript</strong>
+                </li>
+                <li className="flex items-center mt-5">
+                  <img
+                    className="shadow-xs-custom rounded-full"
+                    src="/images/icons/react-rounded.svg"
+                    alt="React JS"
+                  />
+                  <strong className="ml-4 font-medium">ReactJS</strong>
+                </li>
+                <li className="flex items-center mt-5">
+                  <img
+                    className="shadow-xs-custom rounded-full"
+                    src="/images/icons/node.svg"
+                    alt="Node JS"
+                  />
+                  <strong className="ml-4 font-medium">NodeJS</strong>
+                </li>
               </ul>
-              <footer className="pl-12 pr-10 py-10 md:absolute bottom-0 right-0 left-0">
+              <footer className="px-8 py-10">
                 <div className="border-solid border-t border-royal-blue-200 pt-6">
-                  <span className="text-2xl text-gray-500 font-bold line-through">
+                  {/* <span className="text-2xl text-gray-500 font-bold line-through">
                     {symbol +
                       numberWithCommas(
                         pricingData.online['price' + currency.toUpperCase()]
                       )}
+                  </span> */}
+                  <span className="text-2xl text-gray-500 font-bold">
+                    Starting From
                   </span>
                   <div className="mt-6">
-                    <h3 className="tex text-4.5xl font-bold text-royal-blue-800">
-                      {symbol + numberWithCommas(pricingData.online[currency])}
-                    </h3>
                     <div className="flex justify-between items-center">
-                      <a
+                      <h3 className="tex text-4.5xl font-bold text-royal-blue-800">
+                        {symbol +
+                          numberWithCommas(pricingData.online[currency])}
+                      </h3>
+                      {/* <a
                         className="text-gray-500 text-base underline leading-loose"
                         href="#"
                       >
                         6 Easy EMIs of 10K
-                      </a>
+                      </a> */}
                       <a
                         className="flex text-green-theme-900 font-semibold text-xl animate-arrow"
                         href="#"
                       >
-                        Enroll Now!
+                        Learn more
                         <img
                           className="ml-6 arrow-slide"
                           src="/images/icons/arrow-right-green.svg"
@@ -114,61 +127,83 @@ function Pricing(props) {
                 </div>
               </footer>
             </article>
-            <article className="bg-white shadow-lg-custom rounded-2xl mt-12 md:mt-0">
-              <header className="relative">
-                <div className="px-14 py-8 card-banner-2 rounded-t-2xl bg-cover relative z-10">
-                  <h3 className="text-white text-3xl font-bold text-shadow">
-                    Bootcamp
+            <article className="bg-white shadow-lg-custom rounded-2xl mt-12 md:mt-0 relative">
+              <header className="relative bg-white">
+                <div className="bg-white px-8 py-8 rounded-t-2xl relative z-10 flex justify-between">
+                  <h3 className="text-royal-blue-800 text-3xl font-bold">
+                    Career Path Related Courses
                   </h3>
-                  <h5 className="font-medium text-xl text-white mt-4">
-                    Mentorship & Cohort
-                  </h5>
+                  <img src="/images/icons/frontend.svg" alt="FrontEnd Course" />
                 </div>
-                <div className="absolute bottom-0 left-0 w-full h-6 bg-purple-900 bg-opacity-70 rounded-circle blur-lg filter"></div>
+                <div className="absolute bottom-0 left-0 w-full h-6 bg-gray-500 bg-opacity-20 rounded-circle blur-lg filter"></div>
               </header>
-              <ul className="pl-14 pr-10 py-10 leading-relaxed text-xl text-royal-blue-800 font-Karla pricing-list">
-                <li className="relative">
-                  Donec facilisis tortor ut augue lacinia, at viverra est
-                  semper.{' '}
+              <div className="px-8 py-6 font-Karla text-lg text-royal-blue-800">
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Placeat nihil sint perferendis, cum atque corporis aut
+                  suscipit.
+                </p>
+              </div>
+              <ul className="px-8 py-4 leading-relaxed text-lg text-royal-blue-800">
+                <li className="flex items-center">
+                  <img
+                    src="/images/icons/html.svg"
+                    className="shadow-xs-custom rounded-full"
+                    alt="HTML"
+                  />
+                  <strong className="ml-4 font-medium">
+                    Front-End Development
+                  </strong>
                 </li>
-                <li className="relative mt-2">Assignments</li>
-                <li className="relative mt-2">
-                  Donec facilisis tortor ut augue lacinia, at viverra est
-                  semper.{' '}
+                <li className="flex items-center mt-5">
+                  <img
+                    className="shadow-xs-custom rounded-full"
+                    src="/images/icons/css.svg"
+                    alt="CSS"
+                  />
+                  <strong className="ml-4 font-medium">
+                    Back-End Development
+                  </strong>
                 </li>
-                <li className="relative mt-2">Github student developer pack</li>
-                <li className="relative mt-2">Step by Step course content</li>
-                <li className="relative mt-2">Assignments</li>
-                <li className="relative mt-2">
-                  Donec facilisis tortor ut augue lacinia, at viverra est
-                  semper.{' '}
+                <li className="flex items-center mt-5">
+                  <img
+                    className="shadow-xs-custom rounded-full"
+                    src="/images/icons/js-rounded.svg"
+                    alt="JavaScript"
+                  />
+                  <strong className="ml-4 font-medium">
+                    Full Stack Development
+                  </strong>
                 </li>
               </ul>
-              <footer className="pl-12 pr-10 py-10">
+              <footer className="px-8 py-10 md:absolute bottom-0 right-0 left-0">
                 <div className="border-solid border-t border-royal-blue-200 pt-6">
-                  <span className="text-2xl text-gray-500 font-bold line-through">
+                  {/* <span className="text-2xl text-gray-500 font-bold line-through">
                     {symbol +
                       numberWithCommas(
                         pricingData.bootcamp['price' + currency.toUpperCase()]
                       )}
+                  </span> */}
+                  <span className="text-2xl text-gray-500 font-bold">
+                    Starting From
                   </span>
                   <div className="mt-6">
-                    <h3 className="tex text-4.5xl font-bold text-royal-blue-800">
-                      {symbol +
-                        numberWithCommas(pricingData.bootcamp[currency])}
-                    </h3>
                     <div className="flex justify-between items-center">
-                      <a
+                      <h3 className="tex text-4.5xl font-bold text-royal-blue-800">
+                        {symbol +
+                          numberWithCommas(pricingData.bootcamp[currency])}
+                      </h3>
+                      {/* <a
                         className="text-gray-500 text-base underline leading-loose"
                         href="#"
                       >
                         6 Easy EMIs of 10K
-                      </a>
+                      </a> */}
                       <a
                         className="flex text-green-theme-900 font-semibold text-xl animate-arrow"
                         href="#"
                       >
-                        Enroll Now!
+                        Learn more
                         <img
                           className="ml-6 arrow-slide"
                           src="/images/icons/arrow-right-green.svg"
@@ -180,6 +215,30 @@ function Pricing(props) {
                 </div>
               </footer>
             </article>
+          </div>
+          <div className="flex items-center justify-center mt-24">
+            <input
+              type="checkbox"
+              name="toggle"
+              className="hidden"
+              id="togglePrice"
+              defaultChecked={currency === 'usd'}
+              onChange={() => {
+                setCurrency(currency === 'inr' ? 'usd' : 'inr');
+              }}
+            />
+            <label
+              htmlFor="togglePrice"
+              className="w-16 h-10 bg-royal-blue-200 rounded-full shadow-inner-custom flex items-center p-1 toggle-price order-1 mx-4 cursor-pointer"
+            >
+              <div className="w-8 h-8 rounded-full bg-gradient-to-b from from-royal-blue-600 to-royal-blue-800"></div>
+            </label>
+            <strong className="font-normal text-base text-gray-500 dollar">
+              US Dollars
+            </strong>
+            <strong className="font-normal text-base text-gray-500 order-2 rupee">
+              Rupees
+            </strong>
           </div>
         </div>
       </div>

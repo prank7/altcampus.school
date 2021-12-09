@@ -109,6 +109,7 @@ module.exports = {
         27: '6.75rem'
       },
       boxShadow: {
+        'xs-custom': '0 6px 10px 0 rgba(0,0,0,0.03)',
         'sm-custom': '0 2px 4px 0 rgba(0,0,0,0.08)',
         'md-custom': '0 9px 12px 0 rgba(25,28,60,0.31)',
         '-md-custom': '0 -9px 12px 0 rgba(25,28,60,0.31)',

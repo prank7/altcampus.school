@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Group 6</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Landing-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-929.000000, -450.000000)">
+            <g id="Group-6" transform="translate(930.000000, 451.000000)">
+                <circle id="Oval" stroke="#F3F5F7" fill="#FFFFFF" cx="23" cy="23" r="23"></circle>
+                <g id="css" transform="translate(9.000000, 7.000000)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#2196F3" points="0 0 2.55 28.8 14 32 25.446 28.802 28 0"></polygon>
+                    <polygon id="Path" fill="#FAFAFA" points="22.548 9.418 22.226 13.036 21.254 23.882 14 25.888 13.994 25.89 6.744 23.882 6.238 18.21 9.79 18.21 10.054 21.152 13.996 22.216 13.998 22.214 17.946 21.15 18.484 16.248 6.068 16.282 5.716 12.93 18.782 12.776 19.046 9.188 5.366 9.226 5.136 5.888 14 5.888 22.864 5.888"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

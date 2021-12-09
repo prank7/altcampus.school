@@ -123,7 +123,7 @@ button {
 
 
 /* Course Model */
-.course-model-item::before, .course-model-item::after {
+.blur-before::before, .blur-after::after {
   content: "";
   position: absolute;
   display: block;
@@ -133,10 +133,11 @@ button {
   filter: blur(30px);
   border-radius: 100%;
 } 
-.course-model-item::before {
+
+.blure-before::before {
   top: 0;
 }
-.course-model-item::after {
+.blur-after::after {
   bottom: 0;
 }
 

@@ -6,6 +6,9 @@ function CourseModelContent(props) {
       <p className="text-gray-500 text-xl leading-normal font-Karla mt-8">
         {props.intro}
       </p>
+      <p className="text-gray-500 text-xl leading-normal font-Karla mt-8">
+        {props.subIntro}
+      </p>
       <a
         className="text-green-theme-900 text-xl font-semibold flex items-center mt-6 animate-arrow"
         href="#"

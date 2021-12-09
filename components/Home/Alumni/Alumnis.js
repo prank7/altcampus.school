@@ -1,4 +1,5 @@
 import React from 'react';
+import Hiring from './Hiring';
 import Testimonial from './Testimonial';
 
 const alumnis = [
@@ -68,6 +69,9 @@ function Alumnis(props) {
             </li>
           ))}
         </ul>
+        <div className="mt-24">
+          <Hiring />
+        </div>
         <div className="mt-24">
           <Testimonial />
         </div>
