@@ -6,7 +6,7 @@ import About from '../../components/Student/About';
 import Project from '../../components/Student/Project';
 import Blog from '../../components/Student/Blog';
 import Story from '../../components/Student/Story';
-import ReadyToWriteStory from '../../components/Home/ReadyToWriteStory';
+import CTA from '../../components/Home/SignupCTA';
 import StudentExperience from '../../components/Student/StudentExperience';
 import {
   getAllAlumnisData,
@@ -98,7 +98,11 @@ export default function student({ alumniData }) {
             </div>
           </div>
         </section>
-        <ReadyToWriteStory />
+        <CTA
+          titleA={'Ready to write your own story? '}
+          titleB={'Get started now.'}
+          action={'Sign up Now!.'}
+        />
       </LayoutHome>
     </>
   );

@@ -2,18 +2,13 @@ import React from 'react';
 
 function Banner(props) {
   return (
-    <section className="py-16 hero">
+    <section className="pb-16 pt-32">
       <div className="container mx-auto px-8">
         <header className="">
-          <h1 className="text-dark-blue-600 text-5xl font-bold text-center">
+          <h1 className="text-royal-blue-800 text-5xl font-bold text-center">
             {props.name}
           </h1>
-          <div className="max-w-3xl mx-auto">
-            {/* <img
-              src="/images/icons/placed.svg"
-              className="w-24 transform -rotate-12 inline-block"
-              alt="Placed Stamp"
-            /> */}
+          <div className="max-w-3xl mx-auto mt-4">
             <h3 className="text-royal-blue-500 text-xl font-semibold text-center">
               Placed as {props.role} at{' '}
               <a

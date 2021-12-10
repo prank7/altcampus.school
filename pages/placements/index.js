@@ -6,7 +6,7 @@ import Head from 'next/head';
 import Student from '../../components/Placement/Student';
 import Banner from '../../components/Placement/Banner';
 import HiringPartners from '../../components/Placement/HiringPartners';
-import ReadyToBuild from '../../components/Home/ReadyToBuildCTA';
+import CTA from '../../components/Home/SignupCTA';
 import { getAllAlumnisData } from '../../lib/airtableApi';
 
 function Placement({ alumnis }) {
@@ -37,9 +37,9 @@ function Placement({ alumnis }) {
         <HiringPartners />
         <section className="py-16">
           <div className="container mx-auto px-8">
-            <header>
-              <h2 className="text-center text-dark-blue-500 text-5xl font-semibold mb-8">
-                Our Alumni
+            <header className="text-center mb-24">
+              <h2 className="text-4xl sm:text-5.5xl text-gray-500 font-bold">
+                Meet our graduates
               </h2>
             </header>
             <div className="grid sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4  gap-8">
@@ -49,7 +49,11 @@ function Placement({ alumnis }) {
             </div>
           </div>
         </section>
-        <ReadyToBuild />
+        <CTA
+          titleA={'Ready to take the'}
+          titleB={'world of programming by storm?'}
+          action={'I am ready, Sign me up.'}
+        />
       </LayoutHome>
     </>
   );
