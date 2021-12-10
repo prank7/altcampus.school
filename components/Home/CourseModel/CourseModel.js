@@ -73,7 +73,7 @@ function CourseModel(props) {
       <div className="blur-before relative z-10">
         <div className="bg-white relative z-10">
           <div className="container mx-auto px-8 sm:px-3">
-            <article className="max-w-5xl mx-auto pt-12 pb-10 sm:pb-20 sm:flex items-center justify-between relative z-10">
+            <article className="max-w-5xl mx-auto pt-12 pb-10 sm:pb-40 sm:flex items-center justify-between relative z-10">
               <div className="max-w max-w-lg">
                 <h4 className="text-xl text-gray-500 mb-6">
                   An option to be guided…

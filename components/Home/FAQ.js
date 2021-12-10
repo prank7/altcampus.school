@@ -105,7 +105,7 @@ let data = [
 function FAQ(props) {
   let [activeQuestionIndex, setActiveQuestionIndex] = useState(0);
   return (
-    <section className="py-10 answer-column">
+    <section className="py-10 mt-6 answer-column">
       <div className="container px-8 sm:px-3 mx-auto break-words">
         <header className="text-center mb-20">
           <h2 className="text-4xl sm:text-5.5xl text-gray-500 font-bold leading-tight">

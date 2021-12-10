@@ -10,7 +10,7 @@ const breakpointColumnsObj = {
 
 function WallOfLove({ tweets }) {
   return (
-    <section className="wall-of-love pt-8 pb-12 sm:pt-24 sm:pb-24">
+    <section className="wall-of-love pt-8 pb-12 sm:pt-24 sm:pb-12">
       <div className="container px-8 sm:px-3 mx-auto break-words">
         <header className="text-center mb-12">
           <h2 className="text-4xl sm:text-5.5xl text-gray-500 font-bold">

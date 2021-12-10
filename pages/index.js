@@ -17,6 +17,7 @@ import TestimonialCTA from '../components/Home/TestimonialCTA';
 import WallOfLove from '../components/Home/WallOfLove';
 import Blog from '../components/Home/Blog';
 import { getTweets } from '../lib/twitter';
+import Checklist from '../components/Home/ChecklistCTA';
 
 function Home(props) {
   // React.useEffect(() => {
@@ -53,6 +54,7 @@ function Home(props) {
           <TestimonialCTA />
           <Pricing />
           <WallOfLove tweets={props.tweets} />
+          <Checklist />
           <FAQ />
           <Blog />
           <CTA
