@@ -1,3 +1,3 @@
 module.exports = {
-  upcomingBatchDates: ['02-03-2022', '01-05-2022']
+  upcomingBatchDates: ['03-02-2022', '02-03-2022']
 };
