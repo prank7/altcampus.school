@@ -4,7 +4,7 @@ function Singup(props) {
   return (
     <section className="py-16 bg-royal-blue-800 bg-curve text-center md:text-left">
       <article className="container mx-auto px-8 sm:px-3 md:flex items-center font-bold justify-between">
-        <h2 className="text-white text-3xl sm:text-4xl md:text-5xl md:leading-normal leading-normal max-w-4xl">
+        <h2 className="text-white text-3xl sm:text-4xl md:text-4.5xl md:leading-normal leading-normal max-w-4xl">
           <strong className="font-bold md:block">{props.titleA}</strong>{' '}
           <strong className="font-bold">{props.titleB}</strong>
         </h2>

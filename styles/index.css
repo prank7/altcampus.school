@@ -36,10 +36,10 @@ p {
   font-family: 'Karla', sans-serif;
 }
 
-button {
+/* button {
   outline: 0 !important;
   border: 0 !important;
-}
+} */
 
 .btn-hover:hover {
   transform: translateY(-1px);

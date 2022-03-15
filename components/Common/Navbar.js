@@ -86,7 +86,7 @@ function Navbar() {
                   Home
                 </a>
               </ActiveLink>
-              <ActiveLink href="#">
+              <ActiveLink href="/courses">
                 <a className="text-sm text-gray-500 hover:text-royal-blue-900 duration-300 ease-in-out transition py-5">
                   Course
                 </a>
