@@ -2826,5 +2826,395 @@
     "interviewLink": "",
     "graduationYear": "",
     "companyWebsite": "emtecinc.com"
+  },
+  {
+    "name": "Ayush Kamboj",
+    "about": "I am Computer Science Graduate who love to make web applications, APIs and interested in Tech. Apart from these things I watch football and read books in my free time.",
+    "username": "Ayushak18",
+    "company": "Stackera PVT LTD",
+    "dateOfBirth": "",
+    "role": "Full Stack Developer",
+    "ctc": "NA",
+    "projects": [
+      {
+        "title": "Portfolio Projects",
+        "description": "Portfolio Projects",
+        "liveURL": "https://www.ayushkamboj.tech/projects",
+        "code": ""
+      },
+      { "title": "", "description": "", "liveURL": "", "code": "" },
+      { "title": "", "description": "", "liveURL": "", "code": "" },
+      { "title": "", "description": "", "liveURL": "", "code": "" }
+    ],
+    "blogPosts": [
+      {
+        "title": "All Blogs",
+        "description": "All Blogs",
+        "liveURL": "https://www.ayushkamboj.tech/blogs"
+      },
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" }
+    ],
+    "highestEducation": "Bachelor's Of Technology ( Computer Science ) ",
+    "email": "aayushkamboj7@gmail.com",
+    "twitter": "https://twitter.com/dev_Ayush18",
+    "linkedin": "https://www.linkedin.com/in/ayush-kamboj-1271a5211",
+    "github": "https://github.com/Ayushak18",
+    "image": [
+      {
+        "id": "attcCg2p8OjlqRhUR",
+        "width": 1419,
+        "height": 1577,
+        "url": "https://dl.airtable.com/.attachments/e61ac2d5d691ba2e7615366cc442f8ee/a32a7e91/Ayush.jpg",
+        "filename": "Ayush.jpg",
+        "size": 231348,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/f52b376e3360aaaa3ebee4990193b9c8/fe87e9b5",
+            "width": 32,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/2291e5fbf9cd080f8cafd877e2f0bb61/bcdd23c7",
+            "width": 512,
+            "height": 569
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/7c65cb9dad767e1ed06114e58f068914/67dad1c4",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
+    "experineceAtAltCampus": "Studies hampered by Covid, worried about career, had no skills This was me in March 2020.\n\nThen I joined Altcampus  which not only gave me relevant skills for career but gave me life long memories, mentors, friends.\n\nAt one point I was thinking, I am a loser and cannot do anything in life but they really made what I am today.",
+    "interviewLink": "",
+    "graduationYear": "",
+    "companyWebsite": "https://stackera.io"
+  },
+  {
+    "name": "Abhishek Kumar",
+    "about": "I am Abhishek kumar from Patna, Bihar. I am graduated from Bangalore institute of technology in Electronics and communications. Before joining Altcampus i was working in Capgemini as Linux admin",
+    "username": "akuma392",
+    "company": "IBM india ",
+    "dateOfBirth": "",
+    "role": "Full stack developer ",
+    "ctc": "17",
+    "projects": [
+      {
+        "title": "Conduit Application",
+        "description": "",
+        "liveURL": "https://super-blog-react.netlify.app/",
+        "code": "https://super-blog-react.netlify.app/"
+      },
+      {
+        "title": "Podcast",
+        "description": "",
+        "liveURL": "https://abhishek-podcast.herokuapp.com/users/login",
+        "code": "https://abhishek-podcast.herokuapp.com/users/login"
+      },
+      { "title": "", "description": "", "liveURL": "", "code": "" },
+      { "title": "", "description": "", "liveURL": "", "code": "" }
+    ],
+    "blogPosts": [
+      {
+        "title": "Higher Order Functions",
+        "description": "",
+        "liveURL": "https://dev.to/akuma392/higher-order-functions-1m5i"
+      },
+      {
+        "title": "React.useEffect()",
+        "description": "",
+        "liveURL": "https://dev.to/akuma392/react-useeffect-4883"
+      },
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" }
+    ],
+    "highestEducation": "Electronic and communications ",
+    "email": "abhi.kumar5939@gmail.com",
+    "twitter": "twitter.com/abhi_sonal9",
+    "linkedin": "https://www.linkedin.com/in/abhishek-kumar-12977067",
+    "github": "github.com/akuma392",
+    "image": [
+      {
+        "id": "att8mTRG60XlclUeN",
+        "width": 5184,
+        "height": 3456,
+        "url": "https://dl.airtable.com/.attachments/c0253f5fcbc7cb35dda76b4977fb6922/b4dd5d20/Abhishek-kumar.jpeg",
+        "filename": "Abhishek-kumar.jpeg",
+        "size": 4251680,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/e2afa2b28276db925520e148a047c91e/d38fe7af",
+            "width": 54,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/f8cfc233d20e1778de05fd92212e1dcf/fe5fc11b",
+            "width": 768,
+            "height": 512
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/4fcefa9534a7c841843d8985ac2bc16f/04cb6bf3",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
+    "experineceAtAltCampus": "Altcampus is very well structured course with a very good quality of content and code assignment. The course structure is designed in such ways that even person with non technical background can be a full stack developer in few months. \nWhen I joined Altcampus, I didn’t know basic HTML. With the support and Guidance of Altcampus, now i am full stack developer.\n\n",
+    "interviewLink": "",
+    "graduationYear": "",
+    "companyWebsite": "ww.ibm.com"
+  },
+  {
+    "name": "Palacharla Narendra babu",
+    "about": "Iam an gud human being",
+    "username": "palacharlanarendra",
+    "company": "Ganit Incorporate",
+    "dateOfBirth": "",
+    "role": "Full stack developer",
+    "ctc": "NA",
+    "projects": [
+      { "title": "", "description": "", "liveURL": "", "code": "" },
+      { "title": "", "description": "", "liveURL": "", "code": "" },
+      { "title": "", "description": "", "liveURL": "", "code": "" },
+      { "title": "", "description": "", "liveURL": "", "code": "" }
+    ],
+    "blogPosts": [
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" }
+    ],
+    "highestEducation": "Mechanical Engineering",
+    "email": "",
+    "twitter": "https://twitter.com/narendrapalach1",
+    "linkedin": "https://www.linkedin.com/in/palacharla-narendra-180119201/",
+    "github": "https://github.com/palacharlanarendra",
+    "image": [
+      {
+        "id": "att2FXPR0N8V2MYMP",
+        "width": 6016,
+        "height": 4000,
+        "url": "https://dl.airtable.com/.attachments/16c97408a73257274eecb9e136eeb22b/f135c6f6/DSC_0044.JPG",
+        "filename": "DSC_0044.JPG",
+        "size": 6170721,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/c7ce083e9a7cc4664053897d8c5f0352/e2543383",
+            "width": 24,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/d59eedbb727261aa678869446ea1304d/8c858ca1",
+            "width": 512,
+            "height": 770
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/4a839b71088a510a1ceec46cb5fed09f/31fd58eb",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
+    "experineceAtAltCampus": "Altcampus is the best place to learn web development",
+    "interviewLink": "",
+    "graduationYear": "",
+    "companyWebsite": "https://www.ganitinc.com"
+  },
+  {
+    "name": "Shishupal Kumar",
+    "about": "I am economics graduate from Bihar, who grew  an interest in technology and web development and went for a career in tech with the help of AltCampus. I like to read books (mostly fiction) and travel places. I also enjoy watching cricket.\nLearning and growing as a professional in tech industry and contributing to the society and the country in all possible way is my ultimate goal of life.",
+    "username": "shishupalamigo",
+    "company": "BNED LoudCloud ",
+    "dateOfBirth": "",
+    "role": "Associate Technology (Node JS dev)",
+    "ctc": "NA",
+    "projects": [
+      { "title": "", "description": "", "liveURL": "", "code": "" },
+      { "title": "", "description": "", "liveURL": "", "code": "" },
+      { "title": "", "description": "", "liveURL": "", "code": "" },
+      { "title": "", "description": "", "liveURL": "", "code": "" }
+    ],
+    "blogPosts": [
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" }
+    ],
+    "highestEducation": "Banaras Hindu University for B.A(Hons.) Economics.",
+    "email": "",
+    "twitter": "https://twitter.com/shishupalamigo",
+    "linkedin": "https://www.linkedin.com/in/shishupalamigo/",
+    "github": "https://github.com/shishupalamigo",
+    "image": [
+      {
+        "id": "attSqZcU3sYA1EPrD",
+        "width": 2592,
+        "height": 3458,
+        "url": "https://dl.airtable.com/.attachments/9bf3fa24690200195faa9186ea15b28c/e4863ca8/shishupalKr.jpg",
+        "filename": "shishupalKr.jpg",
+        "size": 479948,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/3e0bc18c8f7eab6e9471373e149cb63d/306db9d2",
+            "width": 27,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/199502640a076f196b809d8b7a73e919/6e8f5304",
+            "width": 512,
+            "height": 683
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/404324dd34ec13c4ca889d9beaeb731e/17357289",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
+    "experineceAtAltCampus": "Along with a well structured and project based full stack course, the AltCampus provided me with a community of fellow learners who were always ready to help each other in making progress. For me who had no background in tech it was most helpful in keeping me motivated and making  continuous progress .\n The Mentors at AltCampus helped me not only with the curriculum, but also with my personal growth, guiding me at every step and clearing any doubts I came up with. For that I will be forever thank full to AltCampus and the mentors. \nI also had lot of fun while learning and taking part in the community events organised by the campus. ",
+    "interviewLink": "",
+    "graduationYear": "",
+    "companyWebsite": "https://www.bnedloudcloud.com/"
+  },
+  {
+    "name": "Sohail Shaik",
+    "about": "Am sohail shaik, Graduated in civil engineering, Switching my career to the right path through AltCampus seems great thought to me.",
+    "username": "sohailshaik8328",
+    "company": "Ganit Business Solutions Pvt. Ltd",
+    "dateOfBirth": "",
+    "role": "Frontend Developer",
+    "ctc": "NA",
+    "projects": [
+      { "title": "", "description": "", "liveURL": "", "code": "" },
+      { "title": "", "description": "", "liveURL": "", "code": "" },
+      { "title": "", "description": "", "liveURL": "", "code": "" },
+      { "title": "", "description": "", "liveURL": "", "code": "" }
+    ],
+    "blogPosts": [
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" }
+    ],
+    "highestEducation": "B.Tech ( Civil Engineering )",
+    "email": "sohailshaik765@gmail.com",
+    "twitter": "https://twitter.com/SohailS24733102",
+    "linkedin": "https://www.linkedin.com/in/sohail-shaik-a059ba1b5/",
+    "github": "https://github.com/sohailshaik8328",
+    "image": [
+      {
+        "id": "attj14YKH9uadbn5i",
+        "width": 460,
+        "height": 460,
+        "url": "https://dl.airtable.com/.attachments/09ae985b0afec675a90b846fde580cb8/138f1cfb/sohail_profilePic.jpeg",
+        "filename": "sohail_profilePic.jpeg",
+        "size": 33254,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/a983d6e32ec38e7977c7ad5cfac5791e/21535d9b",
+            "width": 36,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/0e0f84ec6a281d8e087d96adc49cb89e/91f08cbc",
+            "width": 460,
+            "height": 460
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/7e761748ccf2dbe532b8a8b63cb32df7/e46c2f9d",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
+    "experineceAtAltCampus": "The best place to learn MERN stack web development with the best content and resources. The way the teaching is only making people confident and self dicipline to get their dream job.",
+    "interviewLink": "",
+    "graduationYear": "",
+    "companyWebsite": "https://www.ganitinc.com/"
+  },
+  {
+    "name": "Narasimhulu Vasam",
+    "about": "My Name is Narasimhulu Vasam. I Have done my Post Graduation in the stream of commerce in the year 2020 at Yogi Vemana University which is located in Kadapa District Andhra Pradesh.  After My Post Graduation, I learned a full-stack development course at AltCampus. after completing the course, I got an opportunity as a frontend developer in LoudCloud company with a good package. right now i am working in that company as a frontend developer.",
+    "username": "Narasimhuluv",
+    "company": "BNED Loud Cloud",
+    "dateOfBirth": "",
+    "role": "Frontend Developer",
+    "ctc": "NA",
+    "projects": [
+      {
+        "title": "GitHub Battle",
+        "description": "GitHub Battle",
+        "liveURL": "https://github-battle-using-hooks.vercel.app/ ",
+        "code": ""
+      },
+      {
+        "title": "Blog Application",
+        "description": "Blog Application",
+        "liveURL": "https://blog-application-six.vercel.app/",
+        "code": ""
+      },
+      {
+        "title": "Netflix Clone",
+        "description": "Netflix Clone",
+        "liveURL": "https://netflix-youtube.vercel.app/",
+        "code": ""
+      },
+      { "title": "", "description": "", "liveURL": "", "code": "" }
+    ],
+    "blogPosts": [
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" },
+      { "title": "", "description": "", "liveURL": "" }
+    ],
+    "highestEducation": "Post Graduation (M.Com)",
+    "email": "vasamnarasimhulu123@gmail.com",
+    "twitter": "https://twitter.com/NarasimhuluV7",
+    "linkedin": "https://www.linkedin.com/in/vasam-narasimhulu-8085901b3/",
+    "github": "https://github.com/Narasimhuluv",
+    "image": [
+      {
+        "id": "attJLc49EDagAzrbc",
+        "width": 398,
+        "height": 499,
+        "url": "https://dl.airtable.com/.attachments/2e076fe29934c2537972e38ce041a849/2f42700c/photo.jpg",
+        "filename": "photo.jpg",
+        "size": 55060,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/382b4633f377cc5d10c11121b321ea0d/eb55f50d",
+            "width": 29,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/6da0257eaad70764c5bfe1a4f9874996/c925af3f",
+            "width": 398,
+            "height": 499
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/fb4b7c72a97667f938759a431201e111/604cef8f",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
+    "experineceAtAltCampus": "After my Post Graduation, I started giving interviews to get a job. I am getting calls from companies for the role of BPO. I don't like that role. one of my friends suggested joining Altcampus. I have joined and learned full-stack development courses there. I got an opportunity as a frontend developer in BNED LoudCloud with a good package. No one will believe from commerce background to the software developer. i am really telling that transformation made by  altcampus. Their Course content is ultimate, anyone can understand from any background education. they will guide us every time and if we have any doubts we freely connect to them at any time. they respond and will explain.",
+    "interviewLink": "",
+    "graduationYear": "",
+    "companyWebsite": "https://www.bnedloudcloud.com/"
   }
 ]
