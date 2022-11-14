@@ -37,9 +37,6 @@ function Home(props) {
           <Hero />
           <ACStats />
           <Alumni />
-          {/* <ChosePace />
-          <Pricing /> */}
-          {/* <TestimonialTweets /> */}
           <CTA
             titleA={'Did you know that'}
             titleB={

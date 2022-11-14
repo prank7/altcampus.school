@@ -3,15 +3,15 @@ import React from 'react';
 const statsMenu = [
   {
     heading: '86.4%',
-    subHeading: 'Our Placement Success Rate'
+    subHeading: 'Get a Job After Course Completion'
   },
   {
-    heading: '7.2 Lacs',
+    heading: '7.2 Lacks',
     subHeading: 'Average Package'
   },
   {
-    heading: '16 Weeks',
-    subHeading: 'Average Course Time'
+    heading: '188 Hours',
+    subHeading: 'Of Recorded Video Content'
   }
 ];
 

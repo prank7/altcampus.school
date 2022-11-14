@@ -48,6 +48,13 @@ function Alumnis(props) {
           Companies they were hired at…
         </h3>
         <ul className="grid grid-cols-6 items-center gap-x-14">
+          <li>
+            <img
+              className="w-full"
+              src="/images/hiring-partner/cleartax.png"
+              alt="ClearTax"
+            />
+          </li>
           <li className="">
             <img
               className="w-full"
@@ -62,13 +69,7 @@ function Alumnis(props) {
               alt="Betaflux"
             />
           </li>
-          <li>
-            <img
-              className="w-full"
-              src="/images/hiring-partner/cleartax.png"
-              alt="ClearTax"
-            />
-          </li>
+          
           <li>
             <img
               className="w-full"
