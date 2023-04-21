@@ -1,16 +1,17 @@
+import Link from 'next/dist/client/link';
 import Image from 'next/image';
 import React from 'react';
 
-function CourseCard(props) {
+function CourseCard({ course }) {
   return (
     <article className="shadow-xs-custom p-6 mt-4 max-w-xl mx-auto rounded-lg">
       <header className="flex justify-between">
         <div>
           <h2 className="text-xl font-bold text-royal-blue-800">
-            {props.heading}
+            <Link href={'/courses/'+course.slug}>{course.name}</Link>
           </h2>
           <strong className="font-mukta text-xs text-royal-blue-800 bg-royal-blue-200 px-2 py-1 inline-block rounded-sm mt-2">
-            Guided Path
+            {course.isMiniTrack ? 'Individual Module' : 'Track'}
           </strong>
           <figure className="flex space-x-2 mt-3">
             <img
@@ -36,7 +37,7 @@ function CourseCard(props) {
           </figure>
         </div>
         <div>
-          <h3 className="text-royal-blue-800 font-bold text-base">₹ 50,000</h3>
+          <h3 className="text-royal-blue-800 font-bold text-base">{"₹" + course.pricing.standard.INR}</h3>
         </div>
       </header>
       <footer className="flex justify-between mt-6 items-start">
