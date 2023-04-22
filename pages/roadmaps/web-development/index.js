@@ -36,9 +36,9 @@ function WebDevelopment({ roadmapsInfo }) {
               today!
             </p>
           </div>
-          <div className="mx-8 mb-8">
+          <section className="mx-8 mb-8">
             <StackedList roadmapsInfo={roadmapsInfo} />
-          </div>
+          </section>
         </div>
       </div>
     </LayoutHome>

@@ -25,23 +25,23 @@ const ListItem = (props) => {
       >
         <a>
           <div className="flex items-center px-4 py-4 sm:px-6">
-            <div className="min-w-0 flex-1 flex items-center">
-              <div className="flex-shrink-0">
+            <article className="min-w-0 flex-1 flex items-center">
+              <figure className="flex-shrink-0">
                 <img
                   className="border border-thin border-gray-200 h-12 w-12 rounded-full bg-gray-100"
                   src={props.icon}
                   alt=""
                 />
-              </div>
+              </figure>
               <div className="min-w-0 flex-1 px-4 md:grid md:grid-cols-2 md:gap-4">
                 <div>
-                  <div className="text-lg leading-5 font-semibold text-royal-blue-600 truncate">
+                  <h2 className="text-lg leading-5 font-semibold text-royal-blue-600 truncate">
                     {props.title || ''}
-                  </div>
-                  <div className="mt-2 flex items-center text-sm leading-5 text-gray-600">
+                  </h2>
+                  <p className="mt-2 flex items-center text-sm leading-5 text-gray-600">
                     {/* <Email /> */}
-                    <span className="truncate">{props.description}</span>
-                  </div>
+                    <strong className="truncate">{props.description}</strong>
+                  </p>
                 </div>
                 {/* <div className="hidden md:block">
                 <div>
@@ -58,10 +58,10 @@ const ListItem = (props) => {
                 </div>
               </div> */}
               </div>
-            </div>
-            <div>
+            </article>
+            <figure>
               <RightChevron className="w-8 h-8" />
-            </div>
+            </figure>
           </div>
         </a>
       </Link>

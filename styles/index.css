@@ -538,6 +538,10 @@ code::after {
   display: none;
 }
 
+.list-none::before {
+  display: none;
+}
+
 /* Alumini Profile */
 /* .student-background {
   height: 0;

@@ -76,8 +76,8 @@ export default function Post({ roadmapData }) {
           </section>
 
           <section className="flex items-center justify-center pb-16">
-            <ul className="flex items-center space-x-2">
-              <li className="mx-4">
+            <ul className="flex items-center space-x-2 list-none">
+              <li className="mx-4 list-none">
                 <a
                   className="flex border px-4 py-1 rounded-md border-royal-blue-500 items-center btn-hover"
                   target="_blank"
