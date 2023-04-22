@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { numberWithCommas } from '../../lib/helper';
+import { getCourses } from '../../lib/courseData';
+import Link from 'next/dist/client/link';
 
 let pricingData = {
   online: {
@@ -19,6 +21,10 @@ let pricingData = {
 function Pricing(props) {
   let [currency, setCurrency] = useState('inr');
   let symbol = currency === 'inr' ? '₹' : '$';
+
+  let specificSkills = props.courses.tracks.filter((a) => a.isMiniTrack);
+  let fullTracks = props.courses.tracks.filter((a) => !a.isMiniTrack);
+
   return (
     <section className="py-24">
       <div className="container mx-auto px-8 sm:px-3">
@@ -47,46 +53,30 @@ function Pricing(props) {
                 </p>
               </div>
               <ul className="px-8 py-4 leading-relaxed text-lg text-royal-blue-800">
-                <li className="flex items-center">
-                  <img
-                    src="/images/icons/html.svg"
-                    className="shadow-xs-custom rounded-full"
-                    alt="HTML"
-                  />
-                  <strong className="ml-4 font-medium">HTML</strong>
-                </li>
-                <li className="flex items-center mt-5">
-                  <img
-                    className="shadow-xs-custom rounded-full"
-                    src="/images/icons/css.svg"
-                    alt="CSS"
-                  />
-                  <strong className="ml-4 font-medium">CSS</strong>
-                </li>
-                <li className="flex items-center mt-5">
-                  <img
-                    className="shadow-xs-custom rounded-full"
-                    src="/images/icons/js-rounded.svg"
-                    alt="JavaScript"
-                  />
-                  <strong className="ml-4 font-medium">JavaScript</strong>
-                </li>
-                <li className="flex items-center mt-5">
-                  <img
-                    className="shadow-xs-custom rounded-full"
-                    src="/images/icons/react-rounded.svg"
-                    alt="React JS"
-                  />
-                  <strong className="ml-4 font-medium">ReactJS</strong>
-                </li>
-                <li className="flex items-center mt-5">
-                  <img
-                    className="shadow-xs-custom rounded-full"
-                    src="/images/icons/node.svg"
-                    alt="Node JS"
-                  />
-                  <strong className="ml-4 font-medium">NodeJS</strong>
-                </li>
+                {
+                  specificSkills.map((course, i) => {
+                    return (
+                      <li key={i} className="flex items-center">
+                        <div>
+                          <img
+                            src="/images/icons/html.svg"
+                            className="shadow-xs-custom rounded-full"
+                            alt="HTML"
+                          />
+                          <strong className="ml-4 font-medium">
+                            {course.name}
+                          </strong>
+                        </div>
+                        <div>
+                          <br/>
+                          <p>{"₹" + course.pricing.standard.INR}</p>
+                          <p><Link href={`/courses/${course.slug}`}>Learn More</Link></p>
+                        </div>
+                      </li>
+                    )
+                  })
+                }
+              
               </ul>
               <footer className="px-8 py-10">
                 <div className="border-solid border-t border-royal-blue-200 pt-6">
@@ -145,36 +135,29 @@ function Pricing(props) {
                 </p>
               </div>
               <ul className="px-8 py-4 leading-relaxed text-lg text-royal-blue-800">
-                <li className="flex items-center">
-                  <img
-                    src="/images/icons/html.svg"
-                    className="shadow-xs-custom rounded-full"
-                    alt="HTML"
-                  />
-                  <strong className="ml-4 font-medium">
-                    Front-End Development
-                  </strong>
-                </li>
-                <li className="flex items-center mt-5">
-                  <img
-                    className="shadow-xs-custom rounded-full"
-                    src="/images/icons/css.svg"
-                    alt="CSS"
-                  />
-                  <strong className="ml-4 font-medium">
-                    Back-End Development
-                  </strong>
-                </li>
-                <li className="flex items-center mt-5">
-                  <img
-                    className="shadow-xs-custom rounded-full"
-                    src="/images/icons/js-rounded.svg"
-                    alt="JavaScript"
-                  />
-                  <strong className="ml-4 font-medium">
-                    Full Stack Development
-                  </strong>
-                </li>
+                {
+                  fullTracks.map((course, i) => {
+                    return (
+                      <li key={i} className="flex items-center">
+                        <div>
+                          <img
+                            src="/images/icons/html.svg"
+                            className="shadow-xs-custom rounded-full"
+                            alt="HTML"
+                          />
+                          <strong className="ml-4 font-medium">
+                            {course.name}
+                          </strong>
+                        </div>
+                        <div>
+                          <br/>
+                          <p>{"₹" + course.pricing.standard.INR}</p>
+                          <p><Link href={`/courses/${course.slug}`}>Learn More</Link></p>
+                        </div>
+                      </li>
+                    )
+                  })
+                }
               </ul>
               <footer className="px-8 py-10 md:absolute bottom-0 right-0 left-0">
                 <div className="border-solid border-t border-royal-blue-200 pt-6">
@@ -245,5 +228,15 @@ function Pricing(props) {
     </section>
   );
 }
+
+
+export const getStaticProps = async () => {
+  const courses = await getCourses();
+  return {
+    props: {
+      courses
+    }
+  };
+};
 
 export default Pricing;

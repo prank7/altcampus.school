@@ -37,7 +37,7 @@ function WallOfLove({ tweets }) {
           <h1 className="text-center text-dark-blue-500 text-5xl font-semibold mb-16">
             What people are saying!
           </h1>
-          <Masonry
+          {/* <Masonry
             breakpointCols={breakpointColumnsObj}
             className="my-masonry-grid"
             columnClassName="my-masonry-grid_column"
@@ -45,7 +45,7 @@ function WallOfLove({ tweets }) {
             {tweets.map((tweet) => (
               <Tweet key={tweet.id} {...tweet} />
             ))}
-          </Masonry>
+          </Masonry> */}
         </main>
       </LayoutHome>
     </>

@@ -52,7 +52,12 @@ export default function IndividualCoursePage({ course }) {
               </div>
             )
           })}
+          <div>
+            <a className='bg-green-theme-900 hover:bg-green-theme-700 text-white rounded font-semibold py-3 px-8'
+              href={`https://launchpad.altcampus.com/signup?course=${course.name}&currency=INR`}>Buy Course Now</a>
+          </div>
         </div>
+        
         <CTA
           titleA={'Not sure about the course structure?'}
           titleB={'Try our free course here'}
