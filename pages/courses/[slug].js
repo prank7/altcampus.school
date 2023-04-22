@@ -54,7 +54,7 @@ export default function IndividualCoursePage({ course }) {
           })}
           <div>
             <a className='bg-green-theme-900 hover:bg-green-theme-700 text-white rounded font-semibold py-3 px-8'
-              href={`https://launchpad.altcampus.com/signup?course=${course.name}&currency=INR`}>Buy Course Now</a>
+              href={`https://launchpad.altcampus.com/signup?course=${course.slug}&currency=INR`}>Buy Course Now</a>
           </div>
         </div>
         

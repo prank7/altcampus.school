@@ -45,7 +45,7 @@ function CourseCard({ course }) {
           Learn all the required skills like HTML, CSS, JS & React to be a
           industry fit Front-End Developer.
         </p>
-        <a href={`https://launchpad.altcampus.com/signup?course=${course.name}&currency=INR`} className="flex">
+        <a href={`https://launchpad.altcampus.com/signup?course=${course.slug}&currency=INR`} className="flex">
           <strong className="font-semibold mr-3 text-green-theme-900">
             Enroll
           </strong>
