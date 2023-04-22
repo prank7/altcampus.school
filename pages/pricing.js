@@ -6,6 +6,8 @@ import Pricing from '../components/Home/Pricing';
 
 import LayoutHome from '../components/Common/Layout';
 
+import { getCourses } from '../lib/courseData';
+
 function PricingPage(props) {
   var title = 'Pricing | AltCampus School';
   var description =
@@ -24,10 +26,19 @@ function PricingPage(props) {
         }}
       />
       <LayoutHome>
-        <Pricing />
+        <Pricing courses={props.courses} />
       </LayoutHome>
     </>
   );
 }
+
+export const getStaticProps = async () => {
+  const courses = await getCourses();
+  return {
+    props: {
+      courses
+    }
+  };
+};
 
 export default PricingPage;

@@ -11,12 +11,18 @@ const alumnis = [
   },
   {
     name: 'Abid Rahim',
-    company: 'LocoNav Pvt Ltd',
+    company: 'LocoNav',
     image: '/images/students/abid.svg',
     path: '/placements/abid-rahim'
   },
   {
-    name: 'Komal',
+    name: 'Deepak Sharma',
+    company: 'Credilio',
+    image: '/images/students/harshaan.svg',
+    path: '/placements/deepak-sharma'
+  },
+  {
+    name: 'Komal Raj',
     company: 'KheloMore',
     image: '/images/students/komal.svg',
     path: '/placements/komal-raj'
@@ -27,17 +33,12 @@ const alumnis = [
     image: '/images/students/harshaan.svg',
     path: '/placements/harshaan-nihal-khan'
   },
+  
   {
-    name: 'Alisha saxena',
-    company: 'BigBinary',
-    image: '/images/students/alisha.svg',
-    path: '/placements/alisha-saxena'
-  },
-  {
-    name: 'Ashwin Kumar N',
-    company: 'Wolken Software',
-    image: '/images/students/ashwin.svg',
-    path: '/placements/ashwin-kumar-n'
+    name: 'Abhishek Kumar',
+    company: 'Lancesoft',
+    image: '/images/students/harshaan.svg',
+    path: '/placements/abhishek-kumar'
   }
 ];
 

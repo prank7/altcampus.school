@@ -14,9 +14,11 @@ function CourseContainer(props) {
             Guided Paths
           </button>
         </header>
-        <CourseCard heading={'Front-End Development'} />
-        <CourseCard heading={'Back-End Development'} />
-        <CourseCard heading={'Full Stack Development'} />
+        {
+          props.courses.tracks.map((course, i) => {
+            return <CourseCard key={i} course={course} />
+          })
+        }
       </div>
     </section>
   );

@@ -14,10 +14,11 @@ import Alumni from '../components/Home/Alumni/Alumnis';
 import CourseStack from '../components/Home/CourseStack';
 import CourseModel from '../components/Home/CourseModel/CourseModel';
 import TestimonialCTA from '../components/Home/TestimonialCTA';
-import WallOfLove from '../components/Home/WallOfLove';
+// import WallOfLove from '../components/Home/WallOfLove';
 import Blog from '../components/Home/Blog';
 import { getTweets } from '../lib/twitter';
 import Checklist from '../components/Home/ChecklistCTA';
+import { getCourses } from '../lib/courseData';
 
 function Home(props) {
   // React.useEffect(() => {
@@ -37,9 +38,6 @@ function Home(props) {
           <Hero />
           <ACStats />
           <Alumni />
-          {/* <ChosePace />
-          <Pricing /> */}
-          {/* <TestimonialTweets /> */}
           <CTA
             titleA={'Did you know that'}
             titleB={
@@ -52,8 +50,8 @@ function Home(props) {
             <CourseModel />
           </section>
           <TestimonialCTA />
-          <Pricing />
-          <WallOfLove tweets={props.tweets} />
+          <Pricing courses={props.courses} />
+          {/* <WallOfLove tweets={props.tweets} /> */}
           <Checklist />
           <FAQ />
           <Blog />
@@ -82,7 +80,9 @@ export async function getStaticProps() {
     '1360871839984095234'
   ]);
 
-  return { props: { tweets } };
+  const courses = await getCourses();
+
+  return { props: { tweets, courses } };
 }
 
 export default Home;

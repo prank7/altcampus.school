@@ -6,8 +6,9 @@ import Banner from '../../components/Courses/Banner';
 import Courses from '../../components/Courses/CourseContainer';
 import CTA from '../../components/Home/SignupCTA';
 import { getAllAlumnisData } from '../../lib/airtableApi';
+import { getCourses } from '../../lib/courseData';
 
-function Placement({ alumnis }) {
+function CoursePage({ alumnis, courses }) {
   var title = 'AltCampus Placements | AltCampus School';
   var description =
     "Placement stats and success stories from India's best programming bootcamp. AltCampus reviews and experiences shared by our students.";
@@ -32,7 +33,7 @@ function Placement({ alumnis }) {
       />
       <LayoutHome>
         <Banner />
-        <Courses />
+        <Courses courses={courses} />
         <CTA
           titleA={'Not sure about the course structure?'}
           titleB={'Try our free course here'}
@@ -43,13 +44,15 @@ function Placement({ alumnis }) {
   );
 }
 
-export const getStaticProps = () => {
+export const getStaticProps = async () => {
   const data = getAllAlumnisData();
+  const courses = await getCourses();
   return {
     props: {
-      alumnis: data
+      alumnis: data,
+      courses
     }
   };
 };
 
-export default Placement;
+export default CoursePage;
