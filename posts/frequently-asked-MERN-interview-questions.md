@@ -13,7 +13,7 @@ As a MERN stack developer you must have a clear understanding of underlying lang
 
 Most interviewers will ask questions related to core JavaScript concepts first and then a few questions from frameworks or libraries like Express or React. You must have a firm grasp on Javascript Fundamental concepts like -
 
-### Core JavaScript
+## Core JavaScript
 
 - Why Javascript ?
 - What are different data types in javascript ?
@@ -33,7 +33,7 @@ MERN stack questions will check your understanding about different technologies 
 
 They will ask you some web fundamental questions too, for example -
 
-### Web Fundamentals
+## Web Fundamentals
 
 - What is client side, server side architecture?
 - What is a request-response cycle?
@@ -45,7 +45,7 @@ They will ask you some web fundamental questions too, for example -
 
 Here are few interview questions related to underlying technologies used in MERN stack listed technology wise:-
 
-### Node/Express
+## Node/Express
 
 - What is Node.js?
 - Explain few features of Node.js?
@@ -67,7 +67,7 @@ Here are few interview questions related to underlying technologies used in MERN
 - Explain JWT authentication
 - Difference between Session and Token based authentication
 
-### MongoDB
+## MongoDB
 
 - Explain important features of MongoDB ?
 - How to insert multiple documents in mongoDB at once ?
@@ -84,7 +84,7 @@ Here are few interview questions related to underlying technologies used in MERN
 - What are the parameters passed to `update` method ?
 - Differentiate between relational and non-relational database.
 
-### React
+## React
 
 - Why React ?
 - What is props in React?

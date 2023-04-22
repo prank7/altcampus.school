@@ -13,7 +13,7 @@ As a software developer in 2021, you must have come across various developers’
 
 What exactly does a software developer’s portfolio look like? And why is it necessary?
 
-### A step up from tradition
+## A step up from tradition
 
 Resumes are not outdated. Having a resume that precisely states your information is crucial for recruiters to know about you. However, what about skills? Simply stating them on resumes is practically useless since there is no visual component to prove that these skills have been used by you. Portfolios are the ultimate proof of your work and hence are useful.
 
@@ -23,7 +23,7 @@ Here is one of our AltCampus alumni’s portfolio as a full stack developer - [R
 
 Portfolios like these will induce a sense of confidence to prospective clients, employees, etc, and give you an edge over competitors.
 
-### What should a portfolio contain?
+## What should a portfolio contain?
 
 - Who you are
 
@@ -49,7 +49,7 @@ Portfolios like these will induce a sense of confidence to prospective clients, 
 
   If you have ranked high in some leaderboards in popular coding platforms like Codewars and Leetcode, you can display that in your portfolio. Or, if your work was recognized by your previous employer, you can showcase that as well with a brief explanation. Maybe you are a bug-bounty hunter and gained recognition for a bug you found and fixed? Add that in there and you can see how your portfolio takes you far ahead! 🚀
 
-### Keep building and keep shipping 🙌
+## Keep building and keep shipping 🙌
 
 Keep building projects and add them to your portfolio. The more you build, the more experience you get, and better visibility. This way, you will never run out of opportunities to pursue or people to connect with.
 

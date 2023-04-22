@@ -11,7 +11,7 @@ author: ravi11o
 
 There are plenty of full stack projects ideas for beginners on MERN stack available. We have listed a few interesting beginners projects to learn fullstack web development along with some details for getting started.
 
-### 1. Travel Log App
+## 1. Travel Log App
 
 This fullstack web application will allow people to share their travel experience to a community of other travellers using this application.
 
@@ -27,13 +27,13 @@ This app will allow people to:-
   - places to visit
   - access of community, ease of transportation, safety etc...
 
-### 2. Personal Project Management Tool
+## 2. Personal Project Management Tool
 
 - This project can help you gather all your learning projects in one app. You can use MongoDB database for storing all project details like project name, details, url link, github repository etc.
 - Using React, create webpages where you can list all the projects.
 - Express application linked to mongoDB database can serve data to React application
 
-### 3. Public Blog App
+## 3. Public Blog App
 
 Create a blog application where users can
 
@@ -48,7 +48,7 @@ Create a blog application where users can
 
 You can view [this Github repo](https://github.com/gothinkster/realworld) for more details.
 
-### 4. E-Commerce Website/Shopify Clone
+## 4. E-Commerce Website/Shopify Clone
 
 This application will have 2 seperate interfaces.
 
@@ -71,7 +71,7 @@ Admin can do following tasks on admin dashboard
 - View list of all the users
 - Block/unblock a particular user
 
-### 5. Bookstore Library & Stock keeping app
+## 5. Bookstore Library & Stock keeping app
 
 This is an online library mamangement app where users can rent books for a specific time, like them and can also review books. This will have 2 interfaces.
 
@@ -91,13 +91,13 @@ Admin of this application can
 - Track rented books and thier availability
 - Send notifications via email to users once lease expires
 
-### 6. Social Media App for local handicrafts
+## 6. Social Media App for local handicrafts
 
 If you are interested in local handicrafts, you may show your love by allowing local people to share their creations using this application.
 
 Social media app where people can connect with other people, view local handicrafts being created in the area, share their own creatings etc...
 
-### 7. Task Management Tool
+## 7. Task Management Tool
 
 If you are a daily todo person, you can create this app for others to manage thier daily tasks.
 
@@ -109,7 +109,7 @@ In this application, Users can
 - Mark them as complete/incomplete
 - View weekly/monthly statistics of thier todos.
 
-### 8. Workout Tracker App
+## 8. Workout Tracker App
 
 For the gym freaks, this applicatio will allow interface to
 
@@ -119,7 +119,7 @@ For the gym freaks, this applicatio will allow interface to
 - View workout routine of others
 - Ask workout related queries through a forum
 
-### 9. Realtime Chat App
+## 9. Realtime Chat App
 
 Create a real time chat application using socket.io where users can
 
@@ -130,7 +130,7 @@ Create a real time chat application using socket.io where users can
 
 Use [this link](https://socket.io/) for realtime application details.
 
-### 10. Hospital Management App
+## 10. Hospital Management App
 
 This apppliation will help patients:
 

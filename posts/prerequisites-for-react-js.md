@@ -17,7 +17,7 @@ ReactJS is a JavaScript library for making user interfaces. While learning, you 
 
 Now, that we know the different technologies that we need before learning ReactJS let's look at these in a bit more detail.
 
-### HTML
+## HTML
 
 These are the following concepts that you need to know in HTML:
 
@@ -27,7 +27,7 @@ These are the following concepts that you need to know in HTML:
 4. Element attributes like class, id, src, href etc
 5. Building structure using multiple HTML elements
 
-### CSS
+## CSS
 
 These are the following concepts that you need to know in CSS:
 
@@ -42,7 +42,7 @@ These are the following concepts that you need to know in CSS:
 9. Typography
 10. Handling Media, Lists, Tables, Forms
 
-### JavaScript
+## JavaScript
 
 Being a better ReactJS engineer is fully dependent on how well you understand different JavaScript concepts. The better you are with JavaScript, the better you will understand and use React. These are the following JavaScript concepts you should master before learning ReactJS:
 
@@ -66,7 +66,7 @@ Being a better ReactJS engineer is fully dependent on how well you understand di
 18. ES Modules
 19. Node package manager
 
-### Node and NPM
+## Node and NPM
 
 While you will be working with ReactJS you will be using a lot of external packages created by the community for different use-cases. For this you need to understand the following things about how Node and NPM works:
 

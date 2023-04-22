@@ -55,7 +55,7 @@ console.log(result); // prints 4
 console.log(array); // prints [8, 2, 5, 7]
 ```
 
-### Removing items
+## Removing items
 
 ### 4. pop()
 

@@ -19,7 +19,7 @@ Before starting the MERN stack development course
 
 Here, I am going to list few fundamental concepts from Unix, HTML, CSS and Javascript for developers who want to start their journey as MERN Stack devs.
 
-### 1. Unix Shell Commands
+## 1. Unix Shell Commands
 
 These are few unix commands which every developer should be familiar with. They help in adding, listing, navigating, editing and deleting files and folders through command line.
 
@@ -31,7 +31,7 @@ These are few unix commands which every developer should be familiar with. They 
 - touch
 - grep
 
-### 2. HTML/ Fundamentals
+## 2. HTML/ Fundamentals
 
 - Introduction to Web and HTML & CSS
 - Box Model
@@ -41,7 +41,7 @@ These are few unix commands which every developer should be familiar with. They 
 - Adding Media, Lists, Tables, Forms
 - Responsive Web Design
 
-### 3. Javascript Fundamentals
+## 3. Javascript Fundamentals
 
 - Value, Variable and types
 - Functions

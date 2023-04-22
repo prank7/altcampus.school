@@ -9,7 +9,7 @@ ctaText: AltCampus helps you learn faster by inculcating these systems as part o
 author: ravi11o
 ---
 
-### Learn one language and write everywhere - JavaScript
+## Learn one language and write everywhere - JavaScript
 
 - Using Javascript for both front-end and back-end reduces the learning time and cost significantly as you don't need to learn any other language for separate client and server side applications.
 
@@ -33,7 +33,7 @@ In a full-stack MERN applications:
 2. _Views_ -> React frontend which renders the UI
 3. _Controllers_ -> ExpressJS back-end which handles the logic part
 
-### Community & Support
+## Community & Support
 
 - Javascript has the largest developer community for help and support.
 
