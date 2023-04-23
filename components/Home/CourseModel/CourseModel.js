@@ -54,27 +54,17 @@ function CourseModel() {
                   </strong>
                 </h2>
                 <CourseModelContent
-<<<<<<< HEAD
                   intro={
                     'Our courses are well thought out and pre-recorded, allowing you to move at your own pace and doing it whenever you want - day or night, part-time or full-time. No catching up with a cohort.'
                   }
                   subIntro={`It doesn't mean you have no support. You will have access to our forums where you can connect with other students and ask questions that the community will help you out with.`}
                   action={'Enroll Now'}
-=======
-                  intro="Curabitur lobortis id lorem id bibendum. Ut id consectetur magna. Quisque volutpat augue enim, pulvinar lobortis nibh lacinia at. Vestibulum nec erat ut"
-                  action="Enroll Now"
->>>>>>> ac-rebranding
                 />
               </div>
 
               <CourseModelGraphics
-<<<<<<< HEAD
                 image={'/images/graphics-project.svg'}
                 alt={'Graphics for Team'}
-=======
-                image="/images/graphics-team.svg"
-                alt="Graphics for Team"
->>>>>>> ac-rebranding
               />
             </article>
           </div>
@@ -94,16 +84,11 @@ function CourseModel() {
                   to answer your queries
                 </h2>
                 <CourseModelContent
-<<<<<<< HEAD
                   intro={
                     'Our courses are thorough and pretty comprehensive. However, when stuck you can ask your queries in the community forum where other students and instructors will answer them.'
                   }
                   subIntro={`We encourage students to connect with other students, seek help and help others to make it an immersive learning experience.`}
                   action={'Meet the team'}
-=======
-                  intro="Curabitur lobortis id lorem id bibendum. Ut id consectetur magna. Quisque volutpat augue enim, pulvinar lobortis nibh lacinia at. Vestibulum nec erat ut"
-                  action="Meet the team"
->>>>>>> ac-rebranding
                 />
               </div>
               <CourseModelGraphics
