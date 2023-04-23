@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { numberWithCommas } from '../../lib/helper';
 import { getCourses } from '../../lib/courseData';
-import Link from 'next/dist/client/link';
+import Link from 'next/link';
 
 let pricingData = {
   online: {

@@ -1,7 +1,7 @@
 ---
 title: 'What Are The Best Places to Learn Coding'
 description: 'How do you choose the right place to start your programming journey? Know all about launching your developer journey here.'
-date: '2021-07-06'
+date: '2023-04-23'
 blurb: How to begin your software developer journey.
 photo: '/images/posts/what-are-the-best-places-to-learn-coding.png'
 cta: true
@@ -21,19 +21,19 @@ There are a few factors that come into picture while choosing the best places to
 4. **Cost** - Is the pricing justified?
 5. **Placements** - What is the placement scenario? Do you get guidance in terms of developing your portfolio, and what kind of companies or roles would you be qualified to apply for?
 
-### The Learning Modes
+## The Learning Modes
 
 Before choosing the best place, picking the best resources from the vast ocean of internet can be frustrating. Rather than finding hundreds of materials from as many sources, it is always a wise decision to find a place where the structure has already been laid out.
 
 There are endless materials on the internet to get one started, but there are a few that stand out in terms of quality -
 
-1. **Codecademy**
+1. ### Codecademy
 
    Founded in 2011, Codecademy offers resources over a wide range of languages, frameworks, and personalized learning paths for the premium user. From HTML and CSS to Python, Ruby on Rails, JavaScript, Swift, and more, Codecademy has everything in one place. Each course also includes building a few apps to showcase in your portfolio.
 
    The drawback here is that even with the premium (or PRO) subscription, Codecademy lacks in one of the most crucial elements of learning - personalized mentorship. You will have to depend on outside community help; even if it is fellow Codecademy students who are on the same path as you, the lack of a mentor to provide feedback, makes this rank a bit lower on the best places to learn coding.
 
-2. **Udemy**
+2. ### Udemy
 
    This is a huge platform that has gained widespread popularity over the years. Established content creators and even organizations have started publishing their content here in the form of courses, mini-project series, etc. Founded in 2010 with a goal to globalize education accessibility for students everywhere, Udemy has become the go-to platform for learners in every nook and corner of the world.
 
@@ -41,7 +41,7 @@ There are endless materials on the internet to get one started, but there are a 
 
    There is also the **absence of practice**. Without enough practice exercises and challenges to cement the concepts you have gained from the course at each step, online courses from Udemy are at best, a supplemental resource but never a reliable source for learning programming.
 
-3. **Freecodecamp**
+3. ### Freecodecamp
 
    This platform stands as one of the true exceptions to the disadvantages of online learning. Founded in 2014, Freecodecamp (FCC), is a not-for-profit organization that aims to deliver 100% free education in computer science to learners everywhere. Thousands of testimonials stand out as a testament to how FCC has helped students from a plethora of diverse backgrounds to dive into the world of programming and restart their lives and careers.
 
@@ -49,7 +49,7 @@ There are endless materials on the internet to get one started, but there are a 
 
    There is however, a fundamental drawback to learning from FCC - **lack of mentorship**. The learning playground is free and filled with materials, but spending an unnecessary amount of time trying to find solutions and practice by yourself is not constructive.
 
-4. **Bootcamps**
+4. ### Bootcamps
 
    Bootcamps in India have grown in popularity over the years, largely due to the increase in demand for skilled software developers. Traditional educational institutions do not impart the much needed skills required for the modern industry. This, coupled with the rapid advancements in technology means that upskilling is the way to grow in one’s career.
 
@@ -63,7 +63,7 @@ There are endless materials on the internet to get one started, but there are a 
 
    While the courses may be relevant, the fee structure in ISA is exorbitant, and is the first thing that hinders students from joining. Quality education along with **affordability** and **personalized mentorship** are what students need today, to become qualified full-stack developers tomorrow.
 
-### The Alternative
+## The Alternative
 
 While it is true that online platforms are easily accessible for self-learners, it is also true that more than 60% of students need 3 main things in their learning journey -
 
@@ -75,7 +75,7 @@ This means choosing a good bootcamp that has done the work for you in terms of c
 
 [AltCampus](https://altcampus.school/) is an online bootcamp based out of India that offers best-in-class curriculum on the popular MERN stack. All course materials have been precisely structured and optimised so that the student can focus on learning right away and not spend time looking for resources elsewhere.
 
-### What makes AltCampus different?
+## What makes AltCampus different?
 
 It’s more than a traditional bootcamp. AltCampus focuses on [setting a process](https://altcampus.school/posts/4-simple-systems-to-learn-programming-faster) that makes it easy for students to learn programming. With regular communication sessions that engage the students with each other throughout the week, students [build their soft skills.](https://altcampus.school/posts/basic-communication-tips-for-beginner-developers) And with an active community of learners, AltCampus helps build students’ networks and in [landing their first tech job](https://altcampus.school/posts/how-to-get-first-job-as-a-software-developer-when-you-have-zero-experience) even without prior experience.
 
@@ -83,13 +83,13 @@ Learning at AltCampus is an immersive and experiential experience because of eng
 
 [Students from AltCampus have shared their experiences](https://altcampus.school/stories) about overcoming hurdles and becoming successful developers. This goes to show that diversity in the learning community gives a lot of perspective to incoming students.
 
-### Built for Developers, by Developers
+## Built for Developers, by Developers
 
 The gamified learning platform by AltCampus is interactive and gives the perfect roadmap for students to learn programming in a very structured manner along with numerous assignments, practice exercises, including “katas” from Codewars, which ensure that concepts are cemented in the learners’ minds at each milestone.
 
 If you are wondering [what you need to know before undertaking the coding journey](https://altcampus.school/posts/heres-everything-you-need-to-know-to-become-a-full-stack-web-developer), all it takes is commitment, dedication, and a will to keep learning new things everyday. This is where AltCampus also goes a step ahead - students learn about how to learn anything in their future tech career. The process is made that simple.
 
-### The Investment
+## The Investment
 
 It comes down to two things in the end - time and money. Both are precious assets that everyone needs to invest in learning, in order to become successful developers. Along with what has been stated above, [the math for pricing](https://altcampus.school/posts/why-are-bootcamps-so-expensive) is really quite straightforward. While many bootcamps in India and abroad charge exorbitant prices for very less ROI, AltCampus has kept students’ concerns as the sole factor behind its pricing strategy.
 

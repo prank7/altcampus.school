@@ -1,7 +1,7 @@
 ---
 title: 'How to build a great portfolio as a beginner developer'
 description: It's important to acquire skills and learn various parts of development but in order to get a job its equally important to present your skills in a meaningful way. That is why we recommend that you build a portfolio - to demonstrate your ability to potential employers.
-date: '2020-05-23'
+date: '2023-04-23'
 blurb: It's important to acquire skills and learn various parts of development but in order to get a job its equally important to present your skills in a meaningful way. That is why we recommend that you build a portfolio - to demonstrate your ability to potential employers.
 photo: '/images/posts/how-to-build-a-great-portfolio-as-a-beginner-developer.jpeg'
 cta: true
@@ -13,7 +13,7 @@ It's important to acquire skills and learn various parts of development but in o
 
 In this guide, we will learn how to build a good portfolio with actionable items.
 
-### Build projects
+## Build projects
 
 The most concrete way of proving skill set is  -  **to show**. We should strive to build quality projects that showcase our knowledge. Host them up online so that we can demo it by just sharing an URL (use services like [Github-pages](https://pages.github.com/), [Netlify](https://netlify.com) etc).
 
@@ -23,7 +23,7 @@ It's a bonus to work on a variety of projects (Websites, CLIs, Visualisations, G
 
 > Actionable Item -  Figure out a few good projects that you would like to do, add depth to them, finish them, host them online and make them presentable.
 
-### Putting ourselves out there
+## Putting ourselves out there
 
 As we go about learning and improving our skillsets, share them consistently. One of the ways we can do this is by tweeting every day. It builds up.
 
@@ -33,7 +33,7 @@ Another way is to write blog posts, we will talk about it in the last section.
 
 > Actionable Item - Start with Tweeting every day. Eventually, you can participate in dev communities like StackOverflow, Dev.to, Subreddits, Hashnode.
 
-### Open source contributions
+## Open source contributions
 
 It's important to be able to write code and build your projects but its also equally important to be able to read and contribute to an existing codebase. A great way to do this is by following and reading a few open source projects on Github.
 
@@ -41,7 +41,7 @@ The challenge with this though is finding a good project that matches your curre
 
 > Actionable Step -  Look up the list and try to find a project and a few issues that you can at least read, understand and try to work on.
 
-### Personal website with an active blog
+## Personal website with an active blog
 
 Well, now is the time to put them together and build one platform to showcase our work and self. One should build a good personal website. Our website should reflect who we are and shouldn't just be another template website. It serves as one point information source for people looking us up or potential employers. So make sure that the following things are listed properly -
 

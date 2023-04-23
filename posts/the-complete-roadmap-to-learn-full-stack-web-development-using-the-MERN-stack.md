@@ -1,7 +1,7 @@
 ---
 title: 'The Complete Roadmap to Learn Full Stack Web Development Using The MERN Stack'
 description: 'A step by step approach to learning diferent technologies in MERN stack could synchronize the different pieces by interlinking them and making the entire learning process smooth and less time consuming.'
-date: '2021-09-01'
+date: '2023-04-23'
 blurb: 'A step by step approach to learning diferent technologies in MERN stack could synchronize the different pieces by interlinking them and making the entire learning process smooth and less time consuming.'
 photo: '/images/posts/MERN-stack-roadmap.jpg'
 cta: true
@@ -32,7 +32,7 @@ The order for learning MERN stack is as follow:
 3. Express
 4. React
 
-**Node.js**
+## Node.js
 
 Node.js is the platform for the application layer(logic layer).This will not be visible to the clients. This is where client applications(React) will make requests for data or webpages.
 
@@ -49,7 +49,7 @@ Every MERN stack developer should have a basic understanding of Node.js concepts
 - working with FileSystem in Node.js
 - Package managers & external modules
 
-**MongoDB**
+## MongoDB
 
 MongoDB database is used to store application data. It is designed for fast performance and it can scale with demand.
 
@@ -64,7 +64,7 @@ Concepts to learn in mongoDB are
 - Aggregations
 - Import/Export data from JSON/CSV formats
 
-**ExpressJS**
+## ExpressJS
 
 Express is fast, light weight framework build on top of Node.js that provides a robust set of features to develop web and mobile applications.
 
@@ -83,7 +83,7 @@ Concepts to learn in Express are
 - JWT based Authentication
 - API Versioning, Authentication & Authorization
 
-**React**
+## React
 
 React is an open-source frontend library developed using Javascript for creating small, reusable user interfaces on the browser.
 

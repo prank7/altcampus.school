@@ -33,9 +33,9 @@ export default function Topics({ title, topics, exercises, description }) {
   return (
     <>
       <article className="bg-gray-100 p-8 rounded-md shadow-sm topic-list mb-10 mt-8">
-        <h3 className="mt-0 text-2xl text-gray-700">{title}</h3>
+        <h2 className="mt-0 text-2xl text-gray-700">{title}</h2>
         <p>{description}</p>
-        <ul className="mt-4">
+        <ul className="mt-4 list-none">
           {topics.map((topic) =>
             getLayout((topic.type || '').toLowerCase(), topic)
           )}
@@ -138,7 +138,7 @@ function Paid({ topic, setOpen, setModalType }) {
   return (
     <li
       key={topic}
-      className="flex font-medium my-12 list-none cursor-pointer items-center"
+      className="flex font-medium my-12 cursor-pointer items-center list-none"
       onClick={handleClick}
     >
       <svg className="h-4 w-4 text-blue-500" viewBox="0 0 24 24">

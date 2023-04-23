@@ -10,18 +10,11 @@ function Navbar(params) {
     <header className="bg-gray-50 py-3">
       <nav className="container mx-auto px-8 flex items-center justify-between">
         <div className="flex items-center">
-          <Link href="/">
-            <a href="/">
-              <AltCampusIcon className="h-12 w-auto sm:h-10" />
-            </a>
+          <Link href="/" legacyBehavior>
+            <AltCampusIcon className="h-12 w-auto sm:h-10" />
           </Link>
-          <Link href="/community">
-            <a
-              className="text-dark-blue-400 hover:text-dark-blue-700 text-xl ml-2 mt-1"
-              href="/community"
-            >
-              Community
-            </a>
+          <Link href="/community" className="text-dark-blue-400 hover:text-dark-blue-700 text-xl ml-2 mt-1">
+            Community
           </Link>
         </div>
         <label htmlFor="toggle" className="bars hidden">
@@ -58,10 +51,8 @@ function Navbar(params) {
           </label>
           <ul className="md:flex md:items-center">
             <li className="md:hidden">
-              <Link href="/">
-                <a>
-                  <AltCampusIcon className="h-12 w-auto sm:h-10" />
-                </a>
+              <Link href="/" legacyBehavior>
+                <AltCampusIcon className="h-12 w-auto sm:h-10" />
               </Link>
             </li>
             <li className="mt-12 md:mt-0 hidden md:inline-block">
@@ -122,52 +113,48 @@ function Navbar(params) {
               </ActiveLink>
             </li>
             <li className="grid grid-cols-2 row-gap-4 col-gap-8 border-t-2 border-dark-blue-100 md:hidden mt-8 py-8">
-              <a
+              <Link
                 href="/how-it-works"
                 className="text-base leading-6 font-medium text-gray-900 hover:text-gray-700 transition ease-in-out duration-150"
               >
                 How it works
-              </a>
-              <a
+              </Link>
+              <Link
                 href="/pricing"
                 className="text-base leading-6 font-medium text-gray-900 hover:text-gray-700 transition ease-in-out duration-150"
               >
                 Pricing
-              </a>
+              </Link>
             </li>
             <li className="mt-4 md:mt-0 md:ml-8">
-              <Link href="https://launchpad.altcampus.school/signup">
-                <a
-                  className="flex w-full md:w-auto justify-center text-xl md:text-base text-white font-bold px-12 py-4 md:px-4 md:py-1 rounded uppercase bg-green-theme-500 border border-green-theme-500 shadow-md btn-hover tracking-wide text-center"
-                  href="https://launchpad.altcampus.school/signup"
-                >
+              <Link
+                className="flex w-full md:w-auto justify-center text-xl md:text-base text-white font-bold px-12 py-4 md:px-4 md:py-1 rounded uppercase bg-green-theme-500 border border-green-theme-500 shadow-md btn-hover tracking-wide text-center"
+                href="https://launchpad.altcampus.school/signup"
+                legacyBehavior>
+                <>
                   <span className="hidden md:inline-block">signup</span>
                   <span className="md:hidden">signup for AltCampus School</span>
-                </a>
+                </>
               </Link>
             </li>
             <li className="md:ml-4 hidden md:inline-block">
-              <Link href="/community/join">
-                <a
-                  href="/community/join"
-                  className="whitespace-no-wrap inline-flex items-center justify-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 border-indigo-600 hover:text-white hover:bg-indigo-500 focus:outline-none transition ease-in-out duration-150"
-                >
-                  Join the Community
-                </a>
+              <Link
+                href="/community/join"
+                className="whitespace-no-wrap inline-flex items-center justify-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 border-indigo-600 hover:text-white hover:bg-indigo-500 focus:outline-none transition ease-in-out duration-150"
+              >
+                Join the Community
               </Link>
             </li>
             <li className="mt-8 md:ml-4 md:hidden text-center">
               <span className="text-center text-base leading-6 font-medium text-gray-500">
                 Existing Student?
               </span>
-              <Link href="/community/join">
-                <a
+                <Link
                   href="https://launchpad.altcampus.school/login"
                   className="pl-2 text-green-theme-600 hover:text-green-theme-500 transition ease-in-out duration-150"
                 >
                   Sign in
-                </a>
-              </Link>
+                </Link>
             </li>
           </ul>
         </div>

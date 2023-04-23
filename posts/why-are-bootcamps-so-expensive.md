@@ -1,7 +1,7 @@
 ---
 title: 'Why Are Bootcamps So Expensive?'
 description: 'The pricing behind bootcamps is interesting to know about. Learn why bootcamps are priced the way they are.'
-date: '2021-05-20'
+date: '2023-04-23'
 blurb: Learn about bootcamps and their pricing strategy.
 photo: '/images/posts/why-are-bootcamps-so-expensive.png'
 cta: true
@@ -15,7 +15,7 @@ Investing money on something as expensive as a bootcamp is definitely something 
 
 Let’s evaluate all these points.
 
-### What you are investing in -
+## What you are investing in -
 
 The general idea behind coding bootcamps is to educate aspiring developers with any background and train them in a specific set of skills and help them become job ready in a relatively short span of time.
 
@@ -25,11 +25,11 @@ The average salary for a skilled full-stack web developer in India is ~9 LPA. Th
 
 The answer is - Yes. But you are not just spending on getting yet another certificate. Rather, you are **investing** on a set of skills that, in all probability, can jump your career by leaps. The structured roadmap, the constant mentorship, and feedback loop all help in shaping the journey into a very successful outcome.
 
-### The pricing game -
+## The pricing game -
 
 Here’s the caveat - invest in bootcamps even if they are priced here, but **only on the right bootcamp**. A bootcamp that offers you holistic improvement along with quality education, is one that is worth choosing. What makes them expensive in the first place?
 
-- #### Curriculum
+- ### Curriculum
 
   It is no small feat to design a curriculum that keeps pace with the current technology trends. Every other week, a new technology comes out or gains visibility, and there are enough startups and businesses that are willing to jump on this bandwagon of change. This means that no one language or framework can guarantee you a lifetime of jobs. A true developer is always learning and upgrading themselves as necessity demands it.
 
@@ -37,13 +37,13 @@ Here’s the caveat - invest in bootcamps even if they are priced here, but **on
 
   There is a lot of time and effort invested in coming up with a curriculum that not only provides immense value but is also relevant as per industry requirements. This needs to be valued enough, and is one factor that influences pricing.
 
-- #### Mentorship
+- ### Mentorship
 
   The most important factor in pricing is mentorship and its associated value. Students can learn topics from anywhere today but there is one major thing that is lacking - the luxury to make mistakes and correct these mistakes by getting proper feedback and code reviews.
 
   As we discussed in one of our [previous articles](https://altcampus.school/posts/why-you-should-consider-joining-a-bootcamp-if-you-want-to-learn-programming), feedback loops and practice are crucial to elevate your understanding of concepts. Mentorship is a personal approach to learning that instills confidence in you with every step. Mentoring in this manner requires years of experience and management skills, which mentors have worked very hard at achieving, which is why investing in this factor is a huge advantage for learners.
 
-- #### Community
+- ### Community
 
   As the old African proverb says, _“If you want to go quickly, go alone. If you want to go far, go together.”_
 
@@ -51,9 +51,9 @@ Here’s the caveat - invest in bootcamps even if they are priced here, but **on
 
   So, you not only get a platform to learn but also get a community that supports, helps, and shares the journey with you along the way. This network can open unexpected doors and opportunities too in terms of career!
 
-### Conclusion - Is it worth it?
+## Conclusion - Is it worth it?
 
-#### Let’s do the math!
+### Let’s do the math!
 
 The average salary-goal of a full-stack web developer who has graduated from a bootcamp, would be a minimum of 6 LPA in India. Considering the price of a bootcamp like AltCampus , you would be investing about 15% of 6 LPA in order to gain valuable skills for life along with a well-paying job. The only bigger investment would be your time and effort.
 

@@ -1,7 +1,7 @@
 ---
 title: 'Array methods explained with pictorial representation'
 description: 'We will learn about the array methods like map, forEach, concat, filter, pop, push, reduce etc. Lets look at each of them in detail and also understand them via a nice pictorial representation.'
-date: '2020-05-22'
+date: '2023-04-23'
 blurb: We will learn about the array methods like map, forEach, concat, filter, pop, push, reduce etc. Lets look at each of them in detail and also understand them via a nice pictorial representation.
 photo: '/images/posts/array-methods-explained-pictorial-representation.jpeg'
 cta: true

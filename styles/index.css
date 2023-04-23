@@ -382,11 +382,16 @@ p {
   margin-top: 3rem;
 }
 .prose .gist h3,
-.prose .gist h2 {
+.prose .gist h2, .prose .gist h4{
   font-family: 'Lato';
 }
 .prose h2 {
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.75rem !important;
+  @apply text-3xl
+}
+.prose h3 {
+  margin-bottom: 0.75rem !important;
+  @apply text-2xl
 }
 .prose img {
   margin: 0;
@@ -396,6 +401,7 @@ p {
 .prose ul {
   color: rgb(66, 84, 102);
   font-weight: 500;
+  @apply font-source;
 }
 
 .transcript {
@@ -450,7 +456,6 @@ p {
   color: #4a5568;
 }
 .prose h2 {
-  font-size: 2rem;
   margin: 0;
   margin-top: 3rem;
 }
@@ -530,6 +535,10 @@ code::after {
   font-weight: 400;
 }
 .task-list-item::before {
+  display: none;
+}
+
+.list-none::before {
   display: none;
 }
 

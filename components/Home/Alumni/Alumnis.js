@@ -4,6 +4,12 @@ import Testimonial from './Testimonial';
 
 const alumnis = [
   {
+    name: 'Harshaan',
+    company: 'BigBinary',
+    image: '/images/students/harshaan.svg',
+    path: '/placements/harshaan-nihal-khan'
+  },
+  {
     name: 'Devika Misra',
     company: 'BigBinary',
     image: '/images/students/devika.svg',
@@ -28,17 +34,10 @@ const alumnis = [
     path: '/placements/komal-raj'
   },
   {
-    name: 'Harshaan',
-    company: 'BigBinary',
-    image: '/images/students/harshaan.svg',
-    path: '/placements/harshaan-nihal-khan'
-  },
-  
-  {
-    name: 'Abhishek Kumar',
+    name: 'Bimlendu',
     company: 'Lancesoft',
     image: '/images/students/harshaan.svg',
-    path: '/placements/abhishek-kumar'
+    path: '/placements/bimlendu-kumar'
   }
 ];
 
@@ -47,7 +46,7 @@ function Alumnis(props) {
     <section className="pb-24 bg-blur bg-no-repeat">
       <article className="container mx-auto px-8 sm:px-3">
         <h3 className="text-center font-bold text-gray-500 text-2xl">
-          Meet some of our graduates...
+          Meet some of our graduates
         </h3>
         <ul className="mt-10 md:grid grid-cols-6 hidden">
           {alumnis.map((item) => (

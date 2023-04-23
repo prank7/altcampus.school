@@ -1,7 +1,7 @@
 ---
 title: 'Writing semantically correct and clean HTML'
 description: 'Whether we are a beginner or an expert in HTML it is important to follow some set of rules to keep our HTML documents consistent and well organized.'
-date: '2020-05-30'
+date: '2023-04-23'
 blurb: 'Whether we are a beginner or an expert in HTML it is important to follow some set of rules to keep our HTML documents consistent and well organized.'
 photo: '/images/posts/writing-semantically-correct-and-clean-html.jpeg'
 cta: true
@@ -16,7 +16,7 @@ Whether we are a beginner or an expert in HTML it is important to follow some se
 
 Writing the best code not only keeps our code clean but also plays an important role in SEO. Here I am listing a few best practices that will keep our HTML code clean and impressive for those who read it including ourselves.
 
-### 1. Use Proper Document Structure
+## 1. Use Proper Document Structure
 
 HTML, by nature, is a forgiving language that allows even poorly written code to execute. Our pages will render without elements such as `<!DOCTYPE html>`, `<html>`, `<head>`, and `<body>`. But without these structural elements, pages will not render properly in every browser.
 
@@ -45,7 +45,7 @@ HTML, by nature, is a forgiving language that allows even poorly written code to
 </html>
 ```
 
-### 2. Always Write Standards-Compliant Markup
+## 2. Always Write Standards-Compliant Markup
 
 Make sure to open and close and nest elements properly.
 
@@ -68,7 +68,7 @@ that you wish existed.</p></strong>
 </p>
 ```
 
-### 3. Indent the code
+## 3. Indent the code
 
 Intended code is easier to read, easier to understand, and easier to maintain.
 
@@ -102,7 +102,7 @@ Intended code is easier to read, easier to understand, and easier to maintain.
 </html>
 ```
 
-### 4. Keep the Syntax Organised
+## 4. Keep the Syntax Organised
 
 There are a few quick rules that can help us to keep our code organized. Such as:
 
@@ -147,7 +147,7 @@ There are a few quick rules that can help us to keep our code organized. Such as
 
 Consistency is important to keep our code fully organized. When we find a specific practice that we like. We should stick to it, and use it everywhere, and not mix up.
 
-### 5. Make Use of Semantic Elements
+## 5. Make Use of Semantic Elements
 
 The library of HTML elements is really big, we can use any elements to display our content. Displaying our content on a page is easy, but displaying with proper meaning and intent can be tricky. So choose tags wisely, it should always be semantically correct.
 
@@ -169,7 +169,7 @@ The Alternative to College That You Wish Existed
 <p>The Alternative to College That You Wish Existed</p>
 ```
 
-### 6. Use `<h1>` Tag Only Once Per Page
+## 6. Use `<h1>` Tag Only Once Per Page
 
 The `<h1>` tag plays a significant role in ranking our page on search engines, so we should assign it to the most important text on our page.
 
@@ -197,7 +197,7 @@ The `<h1>` tag plays a significant role in ranking our page on search engines, s
 </p>
 ```
 
-### 7. Exterminate "Divitis"
+## 7. Exterminate "Divitis"
 
 We often overuse divs, to style the elements. It works for styling purposes but does not add meaning to our content on a page.
 
@@ -221,7 +221,7 @@ We often overuse divs, to style the elements. It works for styling purposes but 
 </section>
 ```
 
-### 8. Avoid Too Much Commenting
+## 8. Avoid Too Much Commenting
 
 Commenting code is good practice, but too much commenting makes our code look bad. HTML provides self-explanatory elements. Use commenting to make things a bit clearer, not for obvious or badly written code.
 
@@ -251,7 +251,7 @@ Commenting code is good practice, but too much commenting makes our code look ba
 </section>
 ```
 
-### 9. Do Not Use Inline Styling, Instead Use External Stylesheet
+## 9. Do Not Use Inline Styling, Instead Use External Stylesheet
 
 Inline styling may seem easier at first, but it is harder to maintain and also increases the line of code.
 
@@ -278,7 +278,7 @@ Using external stylesheet gives us the option to reuse our code. Also, we can st
 </html>
 ```
 
-### 10. Alternative Text Attribute on Images
+## 10. Alternative Text Attribute on Images
 
 Using alternative text attributes on <img> elements provides context to screen readers and is good for accessibility.
 
@@ -297,7 +297,7 @@ Using alternative text attributes on <img> elements provides context to screen r
 />
 ```
 
-### 11. Practical ID and Class Values:
+## 11. Practical ID and Class Values:
 
 Choosing good class and id names requires a skill that comes with experiences. One thing we can do as a beginner is to try to choose our class or id names based on the content and not on its styles.
 
@@ -313,7 +313,7 @@ Choosing good class and id names requires a skill that comes with experiences. O
 <p className="error">Error! please try again.</p>
 ```
 
-### 12. Use Proper White Spaces
+## 12. Use Proper White Spaces
 
 Many people especially beginners write messed up codes without using whitespaces. Also, it is common to find they use extra spaces in the attribute values.
 
@@ -341,7 +341,7 @@ Many people especially beginners write messed up codes without using whitespaces
 </body>
 ```
 
-### 12. Continually Refactor Code
+## 13. Continually Refactor Code
 
 Over time as websites grow and evolve, the codebase also grows, which may lead to some unwanted and complexity in the code. Instead of waiting until we are finished, it is good to take breaks and refactor our code multiple times as we work. This will help us to save time in the end identifying the errors especially when our document is too lengthy.
 

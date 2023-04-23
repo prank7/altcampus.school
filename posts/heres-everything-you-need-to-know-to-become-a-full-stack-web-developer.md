@@ -1,7 +1,7 @@
 ---
 title: Here's Everything You Need To Know To Become a Full-Stack Web Developer
 description: Are you qualified to be a full-stack web developer? Learn about everything you need to become a successful developer.
-date: '2021-05-19'
+date: '2023-04-23'
 blurb: Get to know everything you need to become a full-stack web developer.
 photo: '/images/posts/heres-everything-you-need-to-know-to-become-a-full-stack-web-developer.png'
 cta: true
@@ -15,25 +15,25 @@ Who is the field of web development for? Do you need a computer science backgrou
 
 These are just a few questions (and doubts) that arise in everyone who first ventures into this field. In this post today, we shall try to debunk a few myths and clear the doubts.
 
-### Who is this for?
+## Who is this for?
 
 Everyone. Period. Today, with the advent of internet access and affordable technology, learning is simply a matter of choosing the best from the vast ocean of resources available online. You only need time, effort, and determination to start and complete this journey. A laptop with internet, a code editor like VS Code, and good mentorship is all you need, tp get started.
 
 It does not matter if you are a student, graduate, professional in either IT or another domain, or a drop-out. Today’s industry has shifted focus from demanding degrees and education, and instead requires skilled people who can build and ship things regardless of previous experience or knowledge.
 
-### Do you need a CS degree?
+## Do you need a CS degree?
 
 Now, this is a topic of rather much debate in online platforms, but we would argue (with much proof) that the necessity of a CS degree is almost moot. If you have one, it is always great. But that does not mean that not having a background in Computer Science is a barrier. Startups today are hiring only based on skills and not based on previous experience or knowledge. In fact, with diverse experience, developers can manage work better and have great insights on building applications. This makes your non-CS background and work experience, actually desirable in many companies.
 
 So, keep hustling!
 
-### What if..?
+## What if..?
 
 This question begins an endless loop of doubts in the mind. It is natural to have doubts in the beginning. Imposter Syndrome as it is commonly known, is something almost every developer faces, in the beginning stages of learning or career. But prolonged self-doubt can sometimes hinder progress.
 
 The answer is - yes, you can. You can learn programming at any stage. [Students from AltCampus have shared their experiences](https://altcampus.school/stories) about how they became successful developers whilst facing hardships or having different backgrounds. This [article](https://www.freecodecamp.org/news/stories-from-300-developers-who-got-their-first-tech-job-in-their-30s-40s-and-50s-64306eb6bb27/) has wonderful stories about people from various backgrounds who studied hard and became full-stack developers at leading startups.
 
-### What you need for the journey
+## What you need for the journey
 
 - **Roadmap:**
 

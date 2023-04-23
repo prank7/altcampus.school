@@ -1,7 +1,7 @@
 ---
 title: '4 Simple Systems to Help You Learn Programming Faster'
 description: 'How to learn programming faster? 4 systems to help you learn programming faster and better at AltCampus.'
-date: '2020-02-11'
+date: '2023-04-23'
 blurb: Simple systems to help you learn programming better and faster.
 photo: '/images/posts/4-systems-learn-programming-faster-altcampus.png'
 cta: true
@@ -9,7 +9,7 @@ ctaText: AltCampus helps you learn faster by inculcating these systems as part o
 author: 'dprank'
 ---
 
-### 1. Learn in public
+## 1. Learn in public
 
 Learning in public means sharing whatever you are learning publicly. It could be through tweets, blog posts, videos, cartoons etc. The idea is to teach whatever you have learnt or share whatever you have created.
 
@@ -24,7 +24,7 @@ To get inspiration, look at the [students of AltCampus tweeting their progress p
 
 To learn more about this idea, read this fantastic article - [learning in public](https://www.swyx.io/learn-in-public/)
 
-### 2. Solve the problem on the paper
+## 2. Solve the problem on the paper
 
 One of the biggest problems with newbies is that they are just so excited to write code that they jump into the text editor the minute they have a problem statement. The problem with this approach is that you are actually not taking the time out to understand and think about the solution of the problem.
 
@@ -32,7 +32,7 @@ Resist the temptation of writing code straightaway. Code is nothing but a medium
 
 Always keep a pen and paper handy when you are learning. Anytime you get a problem, understand it, break it down. Write. Draw. Write steps in plain words, also called pseudo code. Solve the problem on the paper first. Once you know what the right approach is, start converting the pseudo code into actual code in your text editor.
 
-### 3. Find a feedback mechanism, someone to give you feedback or do code review
+## 3. Find a feedback mechanism, someone to give you feedback or do code review
 
 If you are not good at something how do you know if what you are doing is actually good or if you are improving at all?
 
@@ -42,7 +42,7 @@ When you have someone to get feedback from, you know what you need to fix and th
 
 At AltCampus we focus heavily on feedback. Mentors provide regular feedback to students on a granular level like assignments and checkpoints.
 
-### 4. Actually build something. Don't be in tutorial hell.
+## 4. Actually build something. Don't be in tutorial hell.
 
 A problem with newbies that they keep switching from one tutorial to another, one course to another, without actually using the knowledge to build something. This is partly because most of the courses just focus on delivering concepts via video or text. Assignments and projects are missing.
 

@@ -1,7 +1,7 @@
 ---
 title: 'Writing clean and organized CSS'
 description: 'In my previous article, I have listed a few best practices that will keep our HTML code clean and impressive. Similar to HTML, in order to write solid CSS and avoid mistakes, here again, I am listing a few best CSS practices.'
-date: '2021-01-28'
+date: '2023-04-23'
 blurb: 'In my previous article, I have listed a few best practices that will keep our HTML code clean and impressive. Similar to HTML, in order to write solid CSS and avoid mistakes, here again, I am listing a few best CSS practices.'
 photo: '/images/posts/writing-clean-and-organized-css.jpeg'
 cta: true
@@ -13,7 +13,7 @@ In my previous [article](https://altcampus.io/blog/writing-semantically-correct-
 
 Similar to HTML, in order to write solid CSS and avoid mistakes, here again, I am listing a few best CSS practices.
 
-### 1. Write CSS using multiple lines and spaces(make it readable)
+## 1. Write CSS using multiple lines and spaces(make it readable)
 
 The readability of your code is really important. Better readability makes code easier to read and edit in the future.
 
@@ -41,7 +41,7 @@ a,
 }
 ```
 
-### 2. Organize code with comments
+## 2. Organize code with comments
 
 Over time the CSS file can become quite extensive, spanning hundreds of lines. And if it is a multi-page website it may go more than that, maybe thousands of lines. So it is easy to get lost and becomes hard to manage a large file, edit them when necessary. Therefore let's organize our code in a logical group and then provide a comment before each group, saying the following styles belong to which group.
 
@@ -78,7 +78,7 @@ article {
 }
 ```
 
-### 3. Chose proper class names
+## 3. Chose proper class names
 
 Use modular class names (or values) according to the content within an element, not according to the appearance of an element. Also, use lowercase for the class names (or values), to keep consistent.
 
@@ -98,7 +98,7 @@ Use modular class names (or values) according to the content within an element, 
 }
 ```
 
-### 4. Build proficient selectors
+## 4. Build proficient selectors
 
 It is easy to get carried away with CSS selectors if they are not carefully maintained. They can easily become long and too specific.
 
@@ -128,7 +128,7 @@ Also, avoid the ID selectors, as it can quickly raise the specificity level of s
 }
 ```
 
-### 5. Use classes when necessary
+## 5. Use classes when necessary
 
 There are times when selectors become longer. Especially beginners mostly use type selector and keep on nesting, which leads to a longer selector, and does not make sense. So instead, using a class selector alone is better.
 
@@ -148,7 +148,7 @@ section aside h1 em {
 }
 ```
 
-### 6. Use shorthand properties and values
+## 6. Use shorthand properties and values
 
 Using shorthand properties and values allows us to quickly set and identify the styles. It also keeps our code clean.
 
@@ -177,7 +177,7 @@ button {
 }
 ```
 
-### 7. Use shorthand hexadecimal color values
+## 7. Use shorthand hexadecimal color values
 
 When available use three-character hexadecimal color values and always keep the characters in lowercase. The idea is to be consistent and prevent confusion.
 
@@ -199,7 +199,7 @@ When available use three-character hexadecimal color values and always keep the 
 }
 ```
 
-### 8. Drop units from zero values
+## 8. Drop units from zero values
 
 Adding a unit to zero value is unnecessary and provides no additional value.
 
@@ -223,7 +223,7 @@ div {
 }
 ```
 
-### 9. Group and align vendor prefixes
+## 9. Group and align vendor prefixes
 
 Within CSS codes the vendor prefixes can make our cluttered and unreadable. They must be kept organized in order to make the styles easier to read and to edit.
 
@@ -253,7 +253,7 @@ div {
 }
 ```
 
-### 10. Modularize styles for reuse
+## 10. Modularize styles for reuse
 
 This is one of the important parts. Use modular classes, in order to avoid repetition. Do not style the page keeping just one element in mind at a time. Look at the layout or page carefully, choosing a modular class, and then assign the styles, so that it should be available to share across elements as necessary.
 
@@ -282,14 +282,14 @@ This is one of the important parts. Use modular classes, in order to avoid repet
 }
 ```
 
-### 11. Use developer tools
+## 11. Use developer tools
 
 Often, we forget to use the browser's developer tools, which is the best practice to figure out the problems. Use developer tools to inspect the elements and find out what is rendering and what's not. Keep, using developer tools, in your habit, that will save a lot of time in order to solve the problem.
 
-### 12. Learn to search
+## 12. Learn to search
 
 Searching can be a skill in itself. First of all never hesitate to search for anything, if you are stuck somewhere, also if it is necessary. But in that case, you must know what to search in order to get the best search results. Therefore develop this skill for the long run.
 
-### 13. Continually refactor code
+## 13. Continually refactor code
 
 Again, it is good to take breaks and refactor our code as we work. This will help us to save time, in the end, identifying the errors especially when our document is too lengthy.

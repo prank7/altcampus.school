@@ -45,7 +45,7 @@ function Alumnis(props) {
     <section className="">
       <article className="">
         <h3 className="text-center font-bold text-gray-500 text-2xl mb-10">
-          Companies they were hired at…
+          Graduates of our courses work at
         </h3>
         <ul className="grid grid-cols-6 items-center gap-x-14">
           <li>
@@ -55,26 +55,25 @@ function Alumnis(props) {
               alt="ClearTax"
             />
           </li>
-          <li className="">
-            <img
-              className="w-full"
-              src="/images/hiring-partner/vegrow.png"
-              alt="Vegrow"
-            />
-          </li>
           <li>
             <img
               className="w-full"
-              src="/images/hiring-partner/betaflux.png"
-              alt="Betaflux"
+              src="/images/hiring-partner/fampay.svg"
+              alt="Fampay"
             />
           </li>
-          
           <li>
             <img
               className="w-full"
               src="/images/hiring-partner/loconav.png"
               alt="LocoNav"
+            />
+          </li>
+          <li className="">
+            <img
+              className="w-full"
+              src="/images/hiring-partner/big-binary.svg"
+              alt="BigBinary"
             />
           </li>
           <li>

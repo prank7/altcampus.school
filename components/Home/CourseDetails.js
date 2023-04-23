@@ -64,13 +64,11 @@ function CourseDetails(props) {
         </div>
       </div>
       <footer className="text-center">
-        <Link href="/curriculum">
-          <a
-            className="text-md text-white bg-green-theme-500 hover:bg-green-theme-600 uppercase py-3 px-20 inline-block mt-12 rounded font-semibold tracking-wider btn-hover font-mukta"
-            href="/curriculum"
-          >
-            Checkout our detailed curriculum
-          </a>
+        <Link
+          className="text-md text-white bg-green-theme-500 hover:bg-green-theme-600 uppercase py-3 px-20 inline-block mt-12 rounded font-semibold tracking-wider btn-hover font-mukta"
+          href="/curriculum"
+        >
+          Checkout our detailed curriculum
         </Link>
       </footer>
     </section>

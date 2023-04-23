@@ -1,7 +1,7 @@
 ---
 title: 'The Ultimate Guide to Programming Bootcamps in 2021'
 description: 'What are the best bootcamps in India? How to choose a programming bootcamp? Know how to become a software developer in this post.'
-date: '2021-08-15'
+date: '2023-04-23'
 blurb: Your ultimate guide to choose a programming bootcamp and become a software developer.
 photo: '/images/posts/the-ultimate-guide-to-bootcamp.png'
 cta: true
@@ -13,7 +13,7 @@ Imagine learning a new skill for 6 months and landing a job of $50000-$60000 wit
 
 A career in software development is highly lucrative today. [Even without a degree in computer science](https://altcampus.school/posts/do-you-need-a-cs-degree-to-become-a-software-developer), you can learn relevant skills and become a software developer. If you are thinking of kick-starting your career in software development, this is the ultimate guide for you to know all about bootcamps and how they can help you upskill and land you a life changing job.
 
-### What is a programming bootcamp?
+## What is a programming bootcamp?
 
 Programming bootcamps are intensive educational programs that give you a structured learning path along with resources to learn programming and software development. They offer short-term courses in different tech stacks like MERN Stack, MEAN Stack, Android Development, etc. These courses are highly focused and are aimed at making the student have expertise in one set of skills that are applicable in a large number of startups today.
 
@@ -23,11 +23,11 @@ Bootcamps can be cohort based, self-paced, part-time, or full-time, depending on
 
 If you are wondering how to choose the right bootcamp, you are in the right place. Choosing the proper bootcamp is important since it requires a lot of your money, and even more time. Read on to know about the types of bootcamps, skills that are in demand today, and career paths of a software developer.
 
-### How does a programming bootcamp help you learn software development?
+## How does a programming bootcamp help you learn software development?
 
 Becoming a good software developer requires building and shipping a lot of projects. Programming bootcamps provide you with resources, fellow students, and mentorship to learn and build apps that increase skills and develop teamwork capability. The feedback loops are great to correct your mistakes at each step.
 
-### Types of Bootcamps
+## Types of Bootcamps
 
 Bootcamps are immersive and community focused in nature. Programming bootcamps are especially strong in this sense. Post the COVID-19 pandemic, there has been a fundamental shift in the way bootcamps are run now. These are the major types of bootcamps in India and globally as well -
 
@@ -50,7 +50,7 @@ EMIs (Equated Monthly Instalment) can ease the burden in the beginning since you
 
 We will discuss more on the pricing factor in a later section below.
 
-### How to Choose a Bootcamp
+## How to Choose a Bootcamp
 
 Choosing the best programming bootcamp can be confusing given the vast number of choices today. You should give equal importance to all factors, especially financial, since this is going to be a big investment on upskilling. Consider these major factors to know how to choose the right bootcamp to learn programming -
 
@@ -78,19 +78,19 @@ The best thing about becoming a software developer is that you get to network an
 
 The best way to get insights into a bootcamp is to talk to graduates who are currently working. Find out what kind of support they received and how the course helped in their placements. Alumni are almost always ready to help and you can benefit from their knowledge.
 
-### Pricing of Bootcamps
+## Pricing of Bootcamps
 
 Payment is a major factor in deciding to enroll in a bootcamp. Investing in upskilling is always an investment; yet, bootcamps need to be worth it. Choose a bootcamp that will not put a deep hole in your pocket. An investment should not come at the cost of huge debts.
 
 So which bootcamp should you choose and how much should you invest? Bootcamps can seem to be expensive - and for good reason. They offer high quality education focusing on specialized skills that enable you to land much higher paying jobs than the average IT jobs. As a developer, you will always be in demand to build new products and apps for companies. Learning to program is a long-term investment and bootcamps prepare you for a great career.
 
-### What is the cost of a coding bootcamp?
+## What is the cost of a coding bootcamp?
 
 The cost of a coding bootcamp is usually on the higher side. But choosing the right bootcamp smartly will be easy on your pocket. The salary of a full-stack developer in India is 6 LPA to begin with. There is no upper limit to the salary since great skills will get you better packages regardless of experience.
 
 Based on this salary figure, you should invest no more than 20% of your first annual income beforehand. The math checks out, as can be seen [in this article](https://altcampus.school/posts/why-are-bootcamps-so-expensive). ISAs are an expensive affair, accounting for more than 60% of your first annual income, which puts you in debt for at least 3 years.
 
-### Which is the best bootcamp to learn coding?
+## Which is the best bootcamp to learn coding?
 
 Bootcamps are ranked on 2 major factors - cost and placement. If you are looking for the [best places to learn coding](https://altcampus.school/posts/what-are-the-best-places-to-learn-coding), there are lots of good resources online to start learning. But bootcamps are always beneficial compared to places like Udemy. As mentioned above, factors like mentorship, roadmap, and structured curriculum should be your priority.
 

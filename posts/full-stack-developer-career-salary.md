@@ -1,7 +1,7 @@
 ---
 title: 'Full Stack Developer Career - Growth, Salary, and Path Explained'
 description: 'What is the salary of a full stack developer? Know the career path and growth of a full stack developer in this article.'
-date: '2021-08-05'
+date: '2023-04-23'
 blurb: Everything you need to know about the salary of a full stack developer.
 photo: '/images/posts/full-stack-developer-career.png'
 cta: true
@@ -13,7 +13,7 @@ Software development is moving at breakneck speeds today. With worldwide accessi
 
 So what is the salary of a full-stack developer? How much does a full-stack developer earn in India?
 
-### Who is a full-stack developer?
+## Who is a full-stack developer?
 
 Simply put - a full-stack developer is one who can proficiently design the front-end of the application, which users interact with (Client-side), and develop the back-end which contains the business logic of the application. It handles how the users interact with the application (Interactivity), stores relevant data (Database), and ensures that the entire application works flawlessly (Server-side).
 
@@ -25,7 +25,7 @@ Full-stack developers need not know everything but they are expected to work acr
 
 Skills like these and more, make full-stack developers valuable assets to companies. Startups and product-based [companies are increasingly prioritising skills over degrees](https://altcampus.school/posts/do-you-need-a-cs-degree-to-become-a-software-developer), which is why now is the right time for you to become a full-stack developer.
 
-### What is the career path of a full-stack developer?
+## What is the career path of a full-stack developer?
 
 The myth that only developers with programming or computer science backgrounds can be successful full-stack developers, is slowly breaking away. Anyone with a passion, curiosity, and skills required for being a developer, can shape their career in software development. With the advent of browser-oriented softwares, becoming a software developer is now easier than ever!
 
@@ -50,7 +50,7 @@ Startups offer salaries based more on skills than anything else. While the start
 
 With 4-5 years of experience under the belt, full-stack developers in India can earn close to **15 LPA**. This is a general progress-view, but with the right knowledge and talent, students from AltCampus have consistently bagged full stack developer jobs with packages in the range of **9-15 LPA**, regardless of previous experience.
 
-### The Verdict
+## The Verdict
 
 It stands to reason that with good skills, salaries are practically a no-brainer. You can earn as much as a senior developer in India and even abroad, if you have the right skills to showcase. [Learning to program in a bootcamp](https://altcampus.school/posts/why-you-should-consider-joining-a-bootcamp-if-you-want-to-learn-programming) where you get access to a well-structured curriculum, personalized mentorship, and innumerable practice exercises along with feedback loops, can [kickstart your career as a full-stack developer](https://altcampus.school/) anywhere in the world.
 

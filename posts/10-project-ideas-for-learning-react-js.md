@@ -1,7 +1,7 @@
 ---
 title: '10 Project Ideas from Beginner to Advanced for Learning React JS'
 description: Learning a framework/library like React JS comes with lot of practice. For practice we need different project ideas. In this list I will help you with projects to create while learning React JS
-date: '2021-09-15'
+date: '2023-04-23'
 blurb: Learning a framework/library like React JS comes with lot of practice. For practice we need different project ideas. In this list I will help you with projects to create while learning React JS
 photo: '/images/posts/10-project-ideas-for-learning-react-js.jpg'
 cta: true

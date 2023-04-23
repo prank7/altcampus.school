@@ -1,7 +1,7 @@
 ---
 title: "Harshaan's story of learning to code, AltCampus, getting first job and advice for newbies."
 description: 'Harshaan talks about how to learn to code, AltCampus experience, placement support, getting first job and advice for newbie programmers.'
-date: '2020-02-08'
+date: '2023-04-23'
 blurb: Harshaan shares about learning to code, AltCampus, getting first job and advice for newbies.
 studentPhoto: '/images/students/harshaan-sq.svg'
 photo: 'https://altcampus.school/images/stories/Harshaan-AltCampus-placement-bootcamp.png'

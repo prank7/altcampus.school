@@ -1,7 +1,7 @@
 ---
 title: 'Basic Unix commands that you should know'
 description: Let's learn about a bunch of basic Unix commands that every beginner should know.
-date: '2020-05-30'
+date: '2023-04-23'
 blurb: Let's learn about a bunch of basic Unix commands that every beginner should know.
 photo: '/images/posts/basic-unix-commands.jpeg'
 hideCover: true
@@ -14,7 +14,7 @@ author: 'kabir4691'
 
 This command is used to view the list of files and directories in a particular directory.
 
-#### Usage
+### Usage
 
 `ls` - Display all the files and directories inside the current path.
 `ls <path>` - Display the files and directories inside the specified path.
@@ -25,7 +25,7 @@ This command is used to view the list of files and directories in a particular d
 
 This command is used to create an empty file(s).
 
-#### Usage
+### Usage
 
 `touch file1.txt` - Create a new file named file1.txt.
 
@@ -35,7 +35,7 @@ This command is used to create an empty file(s).
 
 This command is used to create a new directory.
 
-#### Usage
+### Usage
 
 `mkdir newfolder` - Create a new directory named newfolder.
 
@@ -47,7 +47,7 @@ This command is used to create a new directory.
 
 This command prints the path of your current working directory, starting from the root directory.
 
-#### Usage
+### Usage
 
 `pwd` - Print the current working directory path.
 
@@ -55,7 +55,7 @@ This command prints the path of your current working directory, starting from th
 
 This command is used to navigate the file system by switching the current working directory.
 
-#### Usage
+### Usage
 
 `cd folder2` - Switch your working directory to a folder called folder2, present inside your current working directory. You can verify the path of your new working directory by using the `pwd` command.
 
@@ -67,7 +67,7 @@ This command is used to navigate the file system by switching the current workin
 
 This command is used to delete empty directories.
 
-#### Usage
+### Usage
 
 `rmdir newfolder` - Delete a directory called newfolder. Note that this command can only delete empty directories. If you wish to delete a non-empty directory, use the `-rf` flag like `rmdir -rf newfolder`
 
@@ -75,7 +75,7 @@ This command is used to delete empty directories.
 
 This command is used to exit the terminal window (or tab).
 
-#### Usage
+### Usage
 
 `exit` - This will close the current terminal window (or tab).
 
@@ -83,7 +83,7 @@ This command is used to exit the terminal window (or tab).
 
 This command is used to get a history of the previously run commands
 
-#### Usage
+### Usage
 
 `history` - This will give a list of all the previous commands run on the machine.
 
@@ -93,7 +93,7 @@ Additionally, for quickly cycling through recent commands, you can press the UP 
 
 This command is used to clear your terminal screen of previous commands run and their outputs. Note that this only clears the screen and does not delete the command history.
 
-#### Usage
+### Usage
 
 `clear` - Clear the terminal screen.
 
@@ -101,6 +101,6 @@ This command is used to clear your terminal screen of previous commands run and 
 
 This command is used to peek at the contents of a file in the terminal without opening it.
 
-#### Usage
+### Usage
 
 `less <file-name>` - Show the contents of the file. You can press the space bar key to proceed to next section of the contents.

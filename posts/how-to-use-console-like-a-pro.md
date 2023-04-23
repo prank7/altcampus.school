@@ -1,7 +1,7 @@
 ---
 title: 'How to use console like a pro'
 description: 'Learn to use console in a better way. You will get to know about semantic logging, string substitution and other helper methods like group, count etc.'
-date: '2020-05-28'
+date: '2023-04-23'
 blurb: 'Learn to use console in a better way. You will get to know about semantic logging, string substitution and other helper methods like group, count etc.'
 photo: '/images/posts/how-to-use-console-like-a-pro.jpeg'
 cta: true
