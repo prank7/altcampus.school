@@ -31,7 +31,7 @@ function Pricing(props) {
         <header>
           <h3 className="text-center font-bold text-royal-blue-800 text-4xl leading-snug">
             Take control of your career, <br />{' '}
-            <span className="text-green-theme-900">start by selecting</span>
+            <span className="text-green-theme-900">start by choosing</span>
           </h3>
         </header>
         {/* <div className="md:grid md:grid-cols-2 gap-x-24 mt-24">
@@ -230,61 +230,29 @@ function Pricing(props) {
           <article className="md:pr-16 md:border-r-2 border-gray-200">
             <header className="text-center">
               <h3 className="text-gray-500 font-bold text-2xl">
-                a specific technology
+                a specific skill
               </h3>
-              <h5 className="text-gray-500 font-normal">starting with ₹ 5K </h5>
+              <h5 className="text-gray-500 font-normal">starting with ₹ 5K</h5>
             </header>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-12 text-center mt-10">
-              <figure className="shadow-lg-custom pt-10 pb-6 px-2 rounded-md">
-                <img
-                  className="inline-block h-16"
-                  src="/images/icons/html-css.svg"
-                  alt="HTML CSS"
-                />
-                <figcaption className="text-royal-blue-800 mt-6 font-semibold text-base">
-                  HTML & CSS
-                </figcaption>
-              </figure>
-              <figure className="shadow-lg-custom pt-10 pb-6 px-2 rounded-md">
-                <img
-                  className="inline-block h-16"
-                  src="/images/icons/react.svg"
-                  alt="React"
-                />
-                <figcaption className="text-royal-blue-800 mt-6 font-semibold text-base">
-                  React
-                </figcaption>
-              </figure>
-              <figure className="shadow-lg-custom pt-10 pb-6 px-2 rounded-md">
-                <img
-                  className="inline-block h-16"
-                  src="/images/icons/js.svg"
-                  alt="JavaScript"
-                />
-                <figcaption className="text-royal-blue-800 mt-6 font-semibold text-base">
-                  JavaScript
-                </figcaption>
-              </figure>
-              <figure className="shadow-lg-custom pt-10 pb-6 px-2 rounded-md">
-                <img
-                  className="inline-block h-16"
-                  src="/images/icons/node-md.svg"
-                  alt="HTML CSS"
-                />
-                <figcaption className="text-royal-blue-800 mt-6 font-semibold text-base">
-                  NodeJs
-                </figcaption>
-              </figure>
-              <figure className="shadow-lg-custom pt-10 pb-6 px-2 rounded-md">
-                <img
-                  className="inline-block h-16"
-                  src="/images/icons/mongo-md.svg"
-                  alt="HTML CSS"
-                />
-                <figcaption className="text-royal-blue-800 mt-6 font-semibold text-base">
-                  MongoDB
-                </figcaption>
-              </figure>
+              {
+                specificSkills.map((skill, i) => {
+                  return (
+                    <Link key={i} href={`/courses/${skill.slug}`}>
+                      <figure key={i} className="shadow-lg-custom pt-10 pb-6 px-2 rounded-md">
+                        <img
+                          className="inline-block h-16"
+                          src={skill.image || "/images/icons/html-css.svg"}
+                          alt={skill.name}
+                        />
+                        <figcaption className="text-royal-blue-800 mt-6 font-semibold text-base">
+                          {skill.name}
+                        </figcaption>
+                      </figure>
+                    </Link>
+                  )
+                })
+              }  
               <figure className="shadow-lg-custom pt-10 pb-6 px-2 rounded-md">
                 <div className="w-16 h-16 bg-royal-blue-200 rounded-full inline-flex justify-center items-center">
                   <span className="text-base text-royal-blue-800 font-semibold">
@@ -300,63 +268,43 @@ function Pricing(props) {
           <article className="md:pl-16 mt-16 md:mt-0">
             <header className="text-center">
               <h3 className="text-gray-500 font-bold text-2xl">
-                or a learning path
+                or a learning track
               </h3>
               <h5 className="text-gray-500 font-normal">starting with ₹ 65K</h5>
             </header>
             <div className="mt-10">
-              <article className="flex justify-between items-center bg-white p-8 rounded-md shadow-lg-custom">
-                <h3 className="text-base font-semibold text-royal-blue-800">
-                  Front-End <br /> Development
-                </h3>
-                <figure className="flex gap-x-3">
-                  <img src="/images/icons/html.svg" alt="html" />
-                  <img src="/images/icons/css.svg" alt="CSS" />
-                  <img src="/images/icons/js-rounded.svg" alt="js" />
-                  <img
-                    src="/images/icons/react-rounded.svg"
-                    alt="react-rounded"
-                  />
-                </figure>
-              </article>
-              <article className="flex justify-between items-center bg-white p-8 rounded-md shadow-lg-custom mt-8">
-                <h3 className="text-base font-semibold text-royal-blue-800">
-                  Back-End <br /> Development
-                </h3>
-                <figure className="flex gap-x-3">
-                  <img src="/images/icons/html.svg" alt="html" />
-                  <img src="/images/icons/css.svg" alt="CSS" />
-                  <img src="/images/icons/js-rounded.svg" alt="js" />
-                  <img
-                    src="/images/icons/react-rounded.svg"
-                    alt="react-rounded"
-                  />
-                </figure>
-              </article>
-              <article className="flex justify-between items-center bg-white p-8 rounded-md shadow-lg-custom mt-8">
-                <h3 className="text-base font-semibold text-royal-blue-800">
-                  Full-Stack <br /> Development
-                </h3>
-                <figure className="flex gap-x-3">
-                  <img src="/images/icons/html.svg" alt="html" />
-                  <img src="/images/icons/css.svg" alt="CSS" />
-                  <img src="/images/icons/js-rounded.svg" alt="js" />
-                  <img
-                    src="/images/icons/react-rounded.svg"
-                    alt="react-rounded"
-                  />
-                </figure>
-              </article>
+              {
+                fullTracks.map((track, i) => {
+                  return (
+                    <Link key={i} href={`/courses/${track.slug}`}>
+                      <article key={i} className={`flex justify-between items-center bg-white p-8 rounded-md shadow-lg-custom ${i !== 0 ? ' mt-8' : ''}`}>
+                        <h3 className="text-base font-semibold text-royal-blue-800">
+                          {track.name}
+                        </h3>
+                        <figure className="flex gap-x-3">
+                          <img src="/images/icons/html.svg" alt="html" />
+                          <img src="/images/icons/css.svg" alt="CSS" />
+                          <img src="/images/icons/js-rounded.svg" alt="js" />
+                          <img
+                            src="/images/icons/react-rounded.svg"
+                            alt="react-rounded"
+                          />
+                        </figure>
+                      </article>
+                    </Link>
+                  )
+                })
+              }
             </div>
           </article>
         </div>
         <footer className="text-center mt-20">
-          <a
+          <Link
             className="hover-btn inline-block mt-16 py-5 px-10 border-2 border-solid border-royal-blue-800 rounded text-royal-blue-800 font-bold text-center capitalize"
-            href="#"
+            href="/courses"
           >
-            <strong className="relative z-10">Show me all courses</strong>
-          </a>
+            <strong className="relative z-10">See all courses</strong>
+          </Link>
         </footer>
       </div>
     </section>

@@ -6,10 +6,10 @@ import CTA from '../../components/Home/SignupCTA';
 import { NextSeo } from 'next-seo';
 import LayoutHome from '../../components/Common/Layout';
 import CourseBanner from '../../components/Courses/CourseBanner';
-import CoursesAvailable from '../../components/Courses/CoursesAvailable';
+import ParentTracks from '../../components/Courses/ParentTracks';
 import CourseBenefit from '../../components/Courses/CourseBenefit';
 import CourseFeedback from '../../components/Courses/CourseFeedback';
-import TrackList from '../../components/Courses/TrackList';
+import ModuleList from '../../components/Courses/ModuleList';
 
 export default function IndividualCoursePage({ course }) {
   var title = 'AltCampus Placements | AltCampus School';
@@ -39,11 +39,14 @@ export default function IndividualCoursePage({ course }) {
           course={course}
         />
 
-        {/* For Specific Course */}
-        <CoursesAvailable />
-
         {/* For Track Course */}
-        <TrackList />
+        <ModuleList course={course} />
+
+        {/* For Specific Course */}
+        {
+          course.isMiniTrack ?
+          <ParentTracks course={course} /> : null
+        }
         <CourseBenefit />
 
         {/* <div>

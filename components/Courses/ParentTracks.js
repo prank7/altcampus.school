@@ -2,7 +2,7 @@ import Image from 'next/image';
 import React from 'react';
 import CoursesAvailableCard from './CourseAvailableCard';
 
-function CoursesAvailable() {
+function CoursesAvailable({ course }) {
   return (
     <section className="py-12 ">
       <div className="container mx-auto px-8">
@@ -10,9 +10,9 @@ function CoursesAvailable() {
           This specific skill is part of multiple learning paths
         </h4>
         <>
-          <CoursesAvailableCard />
-          <CoursesAvailableCard />
-          <CoursesAvailableCard />
+          {course.parentTracks.map((track, i) => {
+            return <CoursesAvailableCard track={track} key={i} />
+          })}
         </>
       </div>
     </section>
