@@ -58,7 +58,7 @@ function Navbar() {
       <Popover className="container mx-auto flex justify-between items-center px-8 sm:px-3 py-4 md:py-0">
         {({ open }) => (
           <>
-            <Link href="/">
+            <Link href="/" legacyBehavior>
               <AltCampusIcon className="w-32 sm:w-28" />
             </Link>
 
@@ -140,7 +140,7 @@ function MobileNavigation({ open }) {
         <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
           <div className="p-6">
             <div className="flex items-center justify-between">
-              <Link href="/">
+              <Link href="/" legacyBehavior>
                 <AltCampusIcon className="w-32" />
               </Link>
               <div className="">

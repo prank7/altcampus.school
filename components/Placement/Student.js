@@ -7,7 +7,7 @@ function Student(props) {
   //   return src;
   // };
   return (
-    <Link href={`/placements/${props.slug}`} className="text-center">
+    <Link href={`/placements/${props.slug}`} className="text-center" legacyBehavior>
       <article className="text-center">
         <figure className="sm:h-52 sm:w-52 overflow-hidden rounded-full shadow-sm-custom border border-solid border-gray-50 text-center inline-block">
           <Image

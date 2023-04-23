@@ -63,7 +63,11 @@ export default function ResourcesMenu() {
                 <div className="overflow-hidden rounded-lg shadow-lg ring-1 ring-black ring-opacity-5">
                   <div className="relative grid gap-8 bg-white px-8 py-8">
                     {resourceItems.map((item) => (
-                      <Link href={item.href} key={item.name} className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-200 transition ease-in-out duration-150">
+                      <Link
+                        href={item.href}
+                        key={item.name}
+                        className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-200 transition ease-in-out duration-150"
+                        legacyBehavior>
                         <>
                           <div className="flex items-center justify-center flex-shrink-0 text-white">
                             <item.icon

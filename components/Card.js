@@ -18,7 +18,10 @@ const Card = (props) => {
           {props.subTitle}
         </p>
         <div className="text-left">
-          <Link href={props.link || '/'} className="text-royal-blue-500 hover:text-royal-blue-700 font-bold pt-4 rounded inline-flex items-center text-right">
+          <Link
+            href={props.link || '/'}
+            className="text-royal-blue-500 hover:text-royal-blue-700 font-bold pt-4 rounded inline-flex items-center text-right"
+            legacyBehavior>
             <span>{props.cta} &rarr;</span>
           </Link>
         </div>

@@ -10,7 +10,7 @@ function Navbar(params) {
     <header className="bg-gray-50 py-3">
       <nav className="container mx-auto px-8 flex items-center justify-between">
         <div className="flex items-center">
-          <Link href="/">
+          <Link href="/" legacyBehavior>
             <AltCampusIcon className="h-12 w-auto sm:h-10" />
           </Link>
           <Link href="/community" className="text-dark-blue-400 hover:text-dark-blue-700 text-xl ml-2 mt-1">
@@ -51,7 +51,7 @@ function Navbar(params) {
           </label>
           <ul className="md:flex md:items-center">
             <li className="md:hidden">
-              <Link href="/">
+              <Link href="/" legacyBehavior>
                 <AltCampusIcon className="h-12 w-auto sm:h-10" />
               </Link>
             </li>
@@ -127,7 +127,10 @@ function Navbar(params) {
               </Link>
             </li>
             <li className="mt-4 md:mt-0 md:ml-8">
-              <Link className="flex w-full md:w-auto justify-center text-xl md:text-base text-white font-bold px-12 py-4 md:px-4 md:py-1 rounded uppercase bg-green-theme-500 border border-green-theme-500 shadow-md btn-hover tracking-wide text-center" href="https://launchpad.altcampus.school/signup">
+              <Link
+                className="flex w-full md:w-auto justify-center text-xl md:text-base text-white font-bold px-12 py-4 md:px-4 md:py-1 rounded uppercase bg-green-theme-500 border border-green-theme-500 shadow-md btn-hover tracking-wide text-center"
+                href="https://launchpad.altcampus.school/signup"
+                legacyBehavior>
                 <>
                   <span className="hidden md:inline-block">signup</span>
                   <span className="md:hidden">signup for AltCampus School</span>

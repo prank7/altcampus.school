@@ -22,7 +22,7 @@ const ListItem = (props) => {
       <Link
         href={`/roadmaps/web-development/${props.id}`}
         className="block hover:bg-gray-50 focus:outline-none focus:bg-gray-50 transition duration-150 ease-in-out"
-      >
+        legacyBehavior>
         <div className="flex items-center px-4 py-4 sm:px-6">
           <article className="min-w-0 flex-1 flex items-center">
             <figure className="flex-shrink-0">
