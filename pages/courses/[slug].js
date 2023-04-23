@@ -36,18 +36,16 @@ export default function IndividualCoursePage({ course }) {
       />
       <LayoutHome>
         <CourseBanner
-          name={course.name}
-          description={
-            'Curabitur lobortis id lorem id bibendum. Ut id consectetur magna. Quisque volutpat augue enim, pulvinar lobortis nibh lacinia at. Vestibulum nec erat' ||
-            course.description
-          }
+          course={course}
         />
+
         {/* For Specific Course */}
         <CoursesAvailable />
 
         {/* For Track Course */}
-        {/* <TrackList /> */}
+        <TrackList />
         <CourseBenefit />
+
         {/* <div>
           {course.modules.map((m, i) => {
             return (

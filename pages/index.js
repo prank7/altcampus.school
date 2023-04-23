@@ -40,7 +40,7 @@ function Home(props) {
           <Alumni />
           <CTA
             titleA="Tired of searching for"
-            titleB="the best tutorials on the internet? Stop it."
+            titleB="the best tutorials on the internet? Stop."
             action="Sign Up Now!"
           />
           <CourseStack />
