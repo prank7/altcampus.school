@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Food Galore",
+    "image": "food-galore.jpg",
+    "github": "https://github.com/abhishek-s-rathore/Food-Galore",
+    "live": "https://abhishek-s-rathore.github.io/Food-Galore/index.html",
+    "stack": ["HTML", "CSS"]
+  },
+  {
+    "name": "Todo List",
+    "image": "todo-list.jpg",
+    "github": "https://github.com/devspectre91/todolist",
+    "live": "https://devspectre91.github.io/todolist/",
+    "stack": ["HTML", "CSS", "JS"]
+  },
+  {
+    "name": "Hydro",
+    "image": "hydro.jpg",
+    "github": "https://github.com/knandwani98/checkpoint-4-html-css",
+    "live": "https://knandwani98.github.io/TA-STYLE-adding-media-THaaai/block-BHaacc/",
+    "stack": ["HTML", "CSS"]
+  },
+  {
+    "name": "Memory Game",
+    "image": "memory-game.jpg",
+    "live": "https://avengers-memorygame.netlify.app/",
+    "stack": ["HTML", "CSS", "JS", "React"]
+  },
+  {
+    "name": "Github Battle",
+    "image": "github-battle.jpg",
+    "github": "https://github.com/lovekushrajput/github-Battle/tree/main/war",
+    "live": "https://github-battle-five.vercel.app/",
+    "stack": ["HTML", "CSS", "JS", "React"]
+  },
+  {
+    "name": "Activity Tracker",
+    "image": "activity-tracker.jpg",
+    "github": "https://github.com/oshingate/React-Activity-Tracker",
+    "live": "https://oshingate-activity-tracker.netlify.app/",
+    "stack": ["HTML", "CSS", "JS", "React"]
+  },
+  {
+    "name": "Live Code Editor",
+    "image": "code-editor.jpg",
+    "github": "https://github.com/shivavishnoi/TA-FRONTEND-state-and-forms-TRaaab/tree/block-BRaabw/block-BRaabw",
+    "live": "https://celebrated-belekoy-dcba75.netlify.app/",
+    "stack": ["HTML", "CSS", "JS", "React"]
+  },
+  {
+    "name": "Shopping Cart",
+    "image": "shopping-cart.jpg",
+    "github": "https://github.com/shivavishnoi/TA-FRONTEND-state-and-forms-TRaaab/tree/block-BRaabw/block-BRaabw",
+    "live": "https://superlative-mochi-8c5fe5.netlify.app/",
+    "stack": ["HTML", "CSS", "JS", "React"]
+  }
+]
