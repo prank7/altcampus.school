@@ -2,15 +2,15 @@ import React from 'react';
 import globalData from '../../globalData';
 
 function Hero(props) {
-  var upcomingBatchDates = globalData.upcomingBatchDates;
-  var nextBatchDates = upcomingBatchDates.filter(
-    (a) => new Date(a) >= new Date()
-  );
-  var immediateBatchDate = nextBatchDates[0]
-    ? `Next cohort starts on ${new Date(nextBatchDates[0])
-        .toDateString()
-        .slice(4, 10)} OR Start learning at your own pace`
-    : '';
+  // var upcomingBatchDates = globalData.upcomingBatchDates;
+  // var nextBatchDates = upcomingBatchDates.filter(
+  //   (a) => new Date(a) >= new Date()
+  // );
+  // var immediateBatchDate = nextBatchDates[0]
+  //   ? `Next cohort starts on ${new Date(nextBatchDates[0])
+  //       .toDateString()
+  //       .slice(4, 10)} OR Start learning at your own pace`
+  //   : '';
 
   return (
     <section className="py-32 md:py-40 bg-fancy bg-no-repeat">
@@ -64,7 +64,7 @@ function Hero(props) {
         <footer className="md:grid md:grid-cols-5 items-center mt-11">
           <h1 className="sm:col-span-4 text-xl sm:text-2xl leading-normal font-normal text-royal-blue-800">
             <strong className="font-normal md:block">
-            Most well designed courses on the internet for learning full-stack web development.
+            The most well designed courses on the internet for learning full-stack web development.
             </strong>
             <strong className="font-normal">
               {' '}

@@ -14,15 +14,15 @@ function CourseModel(props) {
                   Learn by doing. Less theory, more practice
                 </h4>
                 <h2 className="font-bold text-royal-blue-800 text-4.5xl">
-                  Hands on{' '}
+                  Step-by-step, hands on{' '}
                   <strong className="text-green-theme-900">
                     project based
                   </strong>{' '}
-                  learning approach
+                  learning
                 </h2>
                 <CourseModelContent
                   intro={
-                    'Our assignments help you learn by building small, real world usecases with progressively increasing complexity. '
+                    'Our assignments and projects help you learn by building small, real world usecases with progressively increasing complexity. '
                   }
                   subIntro={
                     'Learn by building projects like chrome extension, e-commerce store, blogging app and more.'
@@ -55,7 +55,7 @@ function CourseModel(props) {
                 </h2>
                 <CourseModelContent
                   intro={
-                    'Our courses are very well thought out and content is pre-recorded, allowing you to move at your own pace without having to worry about catching up with a cohort and giving you the liberty to rewatch it again.'
+                    'Our courses are well thought out and pre-recorded, allowing you to move at your own pace and doing it whenever you want - day or night, part-time or full-time. No catching up with a cohort.'
                   }
                   subIntro={`It doesn't mean you have no support. You will have access to our forums where you can connect with other students and ask questions that the community will help you out with.`}
                   action={'Enroll Now'}
@@ -77,16 +77,17 @@ function CourseModel(props) {
             <article className="max-w-5xl mx-auto pt-12 pb-10 sm:pb-40 sm:flex items-center justify-between relative z-10">
               <div className="max-w max-w-lg">
                 <h4 className="text-xl text-gray-500 mb-6">
-                  Start small
+                  Don't be stuck. Get the help you need
                 </h4>
                 <h2 className="font-bold text-royal-blue-800 text-4.5xl">
-                  <strong className="text-green-theme-900">Small courses if you cant take all</strong> -
-                  So that you are wrong only once
+                  <strong className="text-green-theme-900">Community Forum </strong>
+                  to answer your queries
                 </h2>
                 <CourseModelContent
                   intro={
-                    'Curabitur lobortis id lorem id bibendum. Ut id consectetur magna. Quisque volutpat augue enim, pulvinar lobortis nibh lacinia at. Vestibulum nec erat ut'
+                    'Our courses are thorough and pretty comprehensive. However, when stuck you can ask your queries in the community forum where other students and instructors will answer them.'
                   }
+                  subIntro={`We encourage students to connect with other students, seek help and help others to make it an immersive learning experience.`}
                   action={'Meet the team'}
                 />
               </div>
