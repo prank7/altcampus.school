@@ -1,7 +1,7 @@
 ---
 title: 'How to do CRUD operations in MongoDB'
 description: 'In this article, we shall be looking at some basic CRUD operations in MongoDB. We will be using mongo, a Javascript shell interface to run queries directly on the database.'
-date: '2020-06-09'
+date: '2023-04-23'
 blurb: 'In this article, we shall be looking at some basic CRUD operations in MongoDB. We will be using mongo, a Javascript shell interface to run queries directly on the database.'
 photo: '/images/posts/crud-operations-in-mongodb.jpeg'
 cta: true

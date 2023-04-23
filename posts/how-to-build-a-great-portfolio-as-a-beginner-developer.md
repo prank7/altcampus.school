@@ -1,7 +1,7 @@
 ---
 title: 'How to build a great portfolio as a beginner developer'
 description: It's important to acquire skills and learn various parts of development but in order to get a job its equally important to present your skills in a meaningful way. That is why we recommend that you build a portfolio - to demonstrate your ability to potential employers.
-date: '2020-05-23'
+date: '2023-04-23'
 blurb: It's important to acquire skills and learn various parts of development but in order to get a job its equally important to present your skills in a meaningful way. That is why we recommend that you build a portfolio - to demonstrate your ability to potential employers.
 photo: '/images/posts/how-to-build-a-great-portfolio-as-a-beginner-developer.jpeg'
 cta: true

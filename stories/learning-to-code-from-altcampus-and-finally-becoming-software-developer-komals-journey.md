@@ -1,7 +1,7 @@
 ---
 title: "Komal's journey of choosing a different path, learning to code from AltCampus, and finally becoming a software developer."
 description: "Komal's advice for beginners, her experience at AltCampus as one of the first students, and becoming job-ready with competitive skills."
-date: '2020-07-10'
+date: '2023-04-23'
 blurb: Komal shares about learning to code at AltCampus, getting first job and advice for newbies.
 studentPhoto: '/images/students/komal-sq.svg'
 photo: 'https://altcampus.school/images/stories/Komal-AltCampus-placement.png'

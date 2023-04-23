@@ -1,7 +1,7 @@
 ---
 title: 'Frequently asked MERN Interview questions'
 description: 'As a MERN stack developer you must have a clear understanding of underlying language - JavaScript that is powering the technologies like Node, Express and React.'
-date: '2021-09-01'
+date: '2023-04-23'
 blurb: 'As a MERN stack developer you must have a clear understanding of underlying language - JavaScript that is powering the technologies like Node, Express and React.'
 photo: '/images/posts/MERN-interview-questions.jpg'
 cta: true

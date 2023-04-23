@@ -1,7 +1,7 @@
 ---
 title: 'List of simple projects to build to learn and be good at HTML and CSS'
 description: 'The pricing behind bootcamps is interesting to know about. Learn why bootcamps are priced the way they are.'
-date: '2021-08-26'
+date: '2023-04-23'
 blurb: Learn about bootcamps and their pricing strategy.
 photo: ''
 cta: true

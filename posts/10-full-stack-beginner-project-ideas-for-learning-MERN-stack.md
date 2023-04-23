@@ -1,7 +1,7 @@
 ---
 title: '10 Full Stack Beginner Project Ideas for Learning MERN Stack'
 description: 'There are plenty of full stack projects ideas for beginners on MERN stack available. We have listed a few interesting beginners projects to learn fullstack web development along with some details for getting started.'
-date: '2021-09-01'
+date: '2023-04-23'
 blurb: 'There are plenty of full stack projects ideas for beginners on MERN stack available. We have listed a few interesting beginners projects to learn fullstack web development along with some details for getting started.'
 photo: '/images/posts/10-full-stack-projects.jpg'
 cta: true

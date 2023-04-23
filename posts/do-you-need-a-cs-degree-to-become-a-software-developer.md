@@ -1,7 +1,7 @@
 ---
 title: 'Do You Need a CS Degree To Become a Software Developer?'
 description: 'Is a CS Degree necessary to become a software developer? In this article we discuss how to become a software developer without a CS Degree.'
-date: '2021-07-16'
+date: '2023-04-23'
 blurb: Why a CS Degree is not necessary to become a software developer.
 photo: '/images/posts/do-you-need-a-cs-degree-to-become-a-software-developer.png'
 cta: true
