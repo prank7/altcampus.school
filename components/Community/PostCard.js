@@ -17,15 +17,17 @@ export default function PostCard({ post, related, path = 'posts' }) {
       <div className="flex-1 bg-white p-6 flex flex-col justify-between">
         <div className="flex-1">
           <p className="text-sm font-medium text-indigo-600"></p>
-          <Link href={`/${path}/${post.id}`} className="block mt-2" legacyBehavior>
-            <h2 className="text-lg font-bold text-gray-800 hover:underline">
-              {post.title}
-            </h2>
-            {!related && (
-              <p className="mt-3 text-base text-gray-600">
-                {post.description}
-              </p>
-            )}
+          <Link href={`/${path}/${post.id}`} className="block mt-2">
+            <>
+              <h2 className="text-lg font-bold text-gray-800 hover:underline">
+                {post.title}
+              </h2>
+              {!related && (
+                <p className="mt-3 text-base text-gray-600">
+                  {post.description}
+                </p>
+              )}
+            </>
           </Link>
         </div>
         <div className="mt-6 flex items-center">

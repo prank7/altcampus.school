@@ -8,9 +8,7 @@ function CourseCard({ course }) {
       <header className="flex justify-between">
         <div>
           <h2 className="text-xl font-bold text-royal-blue-800">
-            <Link href={'/courses/' + course.slug} legacyBehavior>
-              {course.name}
-            </Link>
+            <Link href={'/courses/' + course.slug}>{course.name}</Link>
           </h2>
           <strong className="font-mukta text-xs text-royal-blue-800 bg-royal-blue-200 px-2 py-1 inline-block rounded-sm mt-2">
             {course.isMiniTrack ? 'Individual Module' : 'Track'}
