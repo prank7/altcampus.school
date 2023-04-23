@@ -26,7 +26,7 @@ const mobileMenu = [
     icon: HomeIcon
   },
   {
-    name: 'Course',
+    name: 'Courses',
     href: '/',
     icon: CurrencyDollarIcon
   },
@@ -86,7 +86,7 @@ function Navbar() {
               </ActiveLink>
               <ActiveLink href="/courses">
                 <div className="text-sm text-gray-500 hover:text-royal-blue-900 duration-300 ease-in-out transition py-5">
-                  Course
+                  Courses
                 </div>
               </ActiveLink>
               <ActiveLink href="/placements">
