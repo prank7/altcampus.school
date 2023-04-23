@@ -16,7 +16,6 @@ export default function IndividualCoursePage({ course }) {
     "Placement stats and success stories from India's best programming bootcamp. AltCampus reviews and experiences shared by our students.";
   var url = 'https://altcampus.school/placements';
 
-  console.log(course.modules);
   return (
     <>
       <NextSeo

@@ -1,7 +1,7 @@
 ---
 title: 'Understanding positioning in CSS'
 description: 'Positioning in CSS defines where an HTML element will be placed within a HTML page and how each HTML element affects the position of elements around it. Positioning is achieved via many methods, including the normal document flow, floats, and several types of positioned elements.'
-date: '2020-05-31'
+date: '2023-04-23'
 blurb: 'Positioning in CSS defines where an HTML element will be placed within a HTML page and how each HTML element affects the position of elements around it. Positioning is achieved via many methods, including the normal document flow, floats, and several types of positioned elements.'
 photo: '/images/posts/understanding-positioning-in-css.jpeg'
 cta: true

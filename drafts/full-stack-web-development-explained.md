@@ -1,6 +1,6 @@
 ---
 title: 'Full Stack Web Development Explained'
-date: '2020-09-11'
+date: '2023-04-23'
 blurb: What is Full stack web development and what are the various parts of it?
 ---
 

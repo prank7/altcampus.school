@@ -6,8 +6,8 @@ const statsMenu = [
     subHeading: 'Get a Job After Course Completion'
   },
   {
-    heading: '7.2 Lacks',
-    subHeading: 'Average Package'
+    heading: '40+',
+    subHeading: 'Projects You Build'
   },
   {
     heading: '188 Hours',

@@ -1,7 +1,7 @@
 ---
 title: 'The Complete Roadmap to Learn Full Stack Web Development Using The MERN Stack'
 description: 'A step by step approach to learning diferent technologies in MERN stack could synchronize the different pieces by interlinking them and making the entire learning process smooth and less time consuming.'
-date: '2021-09-01'
+date: '2023-04-23'
 blurb: 'A step by step approach to learning diferent technologies in MERN stack could synchronize the different pieces by interlinking them and making the entire learning process smooth and less time consuming.'
 photo: '/images/posts/MERN-stack-roadmap.jpg'
 cta: true

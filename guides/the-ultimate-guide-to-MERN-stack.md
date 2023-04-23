@@ -2,7 +2,7 @@
 title: 'The Ultimate Guide to MERN Stack'
 description: 'MERN stack which is powered by Javascript, allows developers to create Full stack applications without the knowledge of any other programming language.
 This guide covers all the what, why, and how, required to start the MERN stack development.'
-date: '2021-09-02'
+date: '2023-04-23'
 blurb: 'MERN stack which is powered by Javascript, allows developers to create Full stack applications without the knowledge of any other programming language.
 This guide covers the what, why, and how, required to start the MERN stack development.'
 photo: '/images/guides/the-ultimate-guide-to-MERN-stack.jpg'

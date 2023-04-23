@@ -1,7 +1,7 @@
 ---
 title: 'Key MERN Stack Concepts'
 description: 'MERN Stack is build of 4 robust technologies i.e. MongoDB, Express, React and Node. A full stack developer should be proficient in all the technology for developing frontend, backend and managing database.'
-date: '2021-09-01'
+date: '2023-04-23'
 blurb: 'MERN Stack is build of 4 robust technologies i.e. MongoDB, Express, React and Node. A full stack developer should be proficient in all the technology for developing frontend, backend and managing database.'
 photo: '/images/posts/key-MERN-concepts.jpg'
 cta: true
