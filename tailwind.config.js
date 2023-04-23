@@ -124,6 +124,9 @@ module.exports = {
       },
       opacity: {
         '07': '0.07'
+      },
+      backgroundImage: {
+        'multi-color': "url('/images/multi-bg-color.svg')"
       }
     }
   },
