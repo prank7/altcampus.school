@@ -57,7 +57,7 @@ function CourseModel() {
                   intro={
                     'Our courses are well thought out and pre-recorded, allowing you to move at your own pace and doing it whenever you want - day or night, part-time or full-time. No catching up with a cohort.'
                   }
-                  subIntro={`It doesn't mean you have no support. You will have access to our forums where you can connect with other students and ask questions that the community will help you out with.`}
+                  subIntro={`To keep you on track, our custom learning platform tailors todos for you depending on how many hours you want to put in everyday.`}
                   action={'Enroll Now'}
                 />
               </div>
