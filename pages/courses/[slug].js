@@ -9,6 +9,7 @@ import CourseBanner from '../../components/Courses/CourseBanner';
 import CoursesAvailable from '../../components/Courses/CoursesAvailable';
 import CourseBenefit from '../../components/Courses/CourseBenefit';
 import CourseFeedback from '../../components/Courses/CourseFeedback';
+import TrackList from '../../components/Courses/TrackList';
 
 export default function IndividualCoursePage({ course }) {
   var title = 'AltCampus Placements | AltCampus School';
@@ -41,7 +42,11 @@ export default function IndividualCoursePage({ course }) {
             course.description
           }
         />
+        {/* For Specific Course */}
         <CoursesAvailable />
+
+        {/* For Track Course */}
+        {/* <TrackList /> */}
         <CourseBenefit />
         {/* <div>
           {course.modules.map((m, i) => {

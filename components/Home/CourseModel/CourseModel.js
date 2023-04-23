@@ -48,7 +48,7 @@ function CourseModel() {
                   Hurry is worry. No catching up with others
                 </h4>
                 <h2 className="font-bold text-royal-blue-800 text-4.5xl">
-                  Your speed may vary. Learn at {' '}
+                  Your speed may vary. Learn at{' '}
                   <strong className="text-green-theme-900">
                     your own pace
                   </strong>
@@ -80,7 +80,9 @@ function CourseModel() {
                   Don't be stuck. Get the help you need
                 </h4>
                 <h2 className="font-bold text-royal-blue-800 text-4.5xl">
-                  <strong className="text-green-theme-900">Community Forum </strong>
+                  <strong className="text-green-theme-900">
+                    Community Forum{' '}
+                  </strong>
                   to answer your queries
                 </h2>
                 <CourseModelContent
