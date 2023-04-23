@@ -10,14 +10,10 @@ function TrackList({ course }) {
           Skills that you will learn in this course
         </h4>
         <div className="grid md:grid-cols-2 gap-4">
-          {
-            course.modules.map((module, i) => {
-              return (
-                <ModuleCard key={i} module={module} />
-              )
-            })
-          }
-          
+          {course.modules.map((module, i) => {
+            return <ModuleCard key={i} module={module} />;
+          })}
+
           {/* <TrackCard title="Javascript" icon="js-large" />
           <TrackCard title="React Js" icon="react-large" />
           <TrackCard title="EL 6" icon="mongo-large" />
