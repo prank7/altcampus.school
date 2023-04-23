@@ -4,7 +4,7 @@ function Checklist(props) {
   return (
     <section className="py-16 bg-royal-blue-800 bg-curve text-center md:text-left text-white">
       <article className="container mx-auto px-8 sm:px-3 md:flex items-end font-bold justify-between">
-        <div className="w-6/12">
+        <div className="md:w-6/12">
           <h4 className="text-xl font-normal">
             Want to be a developer but don’t know how to start ?
           </h4>
@@ -13,7 +13,7 @@ function Checklist(props) {
           </h2>
         </div>
 
-        <form action="" className="w-6/12 pl-24">
+        <form action="" className="md:w-6/12 md:pl-24 mt-8 md:mt-0">
           <fieldset className="flex">
             <input
               className="border border-solid border-royal-blue-200 text-base placeholder-gray-500 py-5 px-7 rounded-full inline-block w-4/5 shadow-lg-custom outline-none focus:border-royal-blue-800 text-royal-blue-800"
