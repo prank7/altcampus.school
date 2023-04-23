@@ -67,7 +67,7 @@ export default function ResourcesMenu() {
                         href={item.href}
                         key={item.name}
                         className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-200 transition ease-in-out duration-150"
-                        legacyBehavior>
+                      >
                         <>
                           <div className="flex items-center justify-center flex-shrink-0 text-white">
                             <item.icon
