@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from 'next/link';
 
 const Card = (props) => {
   return (
@@ -14,20 +14,18 @@ const Card = (props) => {
             {props.title}
           </h2>
         </div>
-        <p className="mt-1 text-gray-500 text-sm leading-5">
-          {props.subTitle}
-        </p>
+        <p className="mt-1 text-gray-500 text-sm leading-5">{props.subTitle}</p>
         <div className="text-left">
           <Link
             href={props.link || '/'}
             className="text-royal-blue-500 hover:text-royal-blue-700 font-bold pt-4 rounded inline-flex items-center text-right"
-            legacyBehavior>
+          >
             <span>{props.cta} &rarr;</span>
           </Link>
         </div>
       </div>
     </div>
   );
-}
+};
 
 export default Card;

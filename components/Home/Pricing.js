@@ -31,7 +31,7 @@ function Pricing(props) {
         <header>
           <h3 className="text-center font-bold text-royal-blue-800 text-4xl leading-snug">
             Take control of your career, <br />{' '}
-            <span className="text-green-theme-900">start by selecting</span>
+            <span className="text-green-theme-900">start by choosing</span>
           </h3>
         </header>
         {/* <div className="md:grid md:grid-cols-2 gap-x-24 mt-24">
@@ -230,9 +230,9 @@ function Pricing(props) {
           <article className="md:pr-16 md:border-r-2 border-gray-200">
             <header className="text-center">
               <h3 className="text-gray-500 font-bold text-2xl">
-                a specific technology
+                a specific skill
               </h3>
-              <h5 className="text-gray-500 font-normal">starting with ₹ 5K </h5>
+              <h5 className="text-gray-500 font-normal">starting with ₹ 5K</h5>
             </header>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-12 text-center mt-10">
               <figure className="shadow-lg-custom pt-5 pb-3 px-2 rounded-md border-2 border-white hover:border-royal-blue-600 hover:scale-105 transform  transition-all duration-500 cursor-pointer bg-white">
@@ -300,7 +300,7 @@ function Pricing(props) {
           <article className="md:pl-16 mt-16 md:mt-0">
             <header className="text-center">
               <h3 className="text-gray-500 font-bold text-2xl">
-                or a learning path
+                or a learning track
               </h3>
               <h5 className="text-gray-500 font-normal">starting with ₹ 65K</h5>
             </header>
@@ -351,12 +351,12 @@ function Pricing(props) {
           </article>
         </div>
         <footer className="text-center mt-20">
-          <a
+          <Link
             className="hover-btn inline-block mt-16 py-5 px-10 border-2 border-solid border-royal-blue-800 rounded text-royal-blue-800 font-bold text-center capitalize"
-            href="#"
+            href="/courses"
           >
-            <strong className="relative z-10">Show me all courses</strong>
-          </a>
+            <strong className="relative z-10">See all courses</strong>
+          </Link>
         </footer>
       </div>
     </section>

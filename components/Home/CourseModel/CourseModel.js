@@ -1,6 +1,7 @@
 import React from 'react';
 import CourseModelContent from './CourseModelContent';
 import CourseModelGraphics from './CourseModelGraphics';
+import Link from 'next/link';
 
 function CourseModel() {
   return (
@@ -27,7 +28,8 @@ function CourseModel() {
                   subIntro={
                     'Learn by building projects like chrome extension, e-commerce store, blogging app and more.'
                   }
-                  action={'Project sample in action'}
+                  action={'Student Projects in action'}
+                  cta={`/projects`}
                 />
               </div>
 
@@ -54,14 +56,18 @@ function CourseModel() {
                   </strong>
                 </h2>
                 <CourseModelContent
-                  intro="Curabitur lobortis id lorem id bibendum. Ut id consectetur magna. Quisque volutpat augue enim, pulvinar lobortis nibh lacinia at. Vestibulum nec erat ut"
-                  action="Enroll Now"
+                  intro={
+                    'Our courses are well thought out and pre-recorded, allowing you to move at your own pace and doing it whenever you want - day or night, part-time or full-time. No catching up with a cohort.'
+                  }
+                  subIntro={`To keep you on track, our custom learning platform tailors todos for you depending on how many hours you want to put in everyday.`}
+                  action={'Enroll Now'}
+                  cta={`/`}
                 />
               </div>
 
               <CourseModelGraphics
-                image="/images/graphics-team.svg"
-                alt="Graphics for Team"
+                image={'/images/graphics-project.svg'}
+                alt={'Graphics for Team'}
               />
             </article>
           </div>
@@ -83,8 +89,11 @@ function CourseModel() {
                   to answer your queries
                 </h2>
                 <CourseModelContent
-                  intro="Curabitur lobortis id lorem id bibendum. Ut id consectetur magna. Quisque volutpat augue enim, pulvinar lobortis nibh lacinia at. Vestibulum nec erat ut"
-                  action="Meet the team"
+                  intro={
+                    'Our courses are thorough and pretty comprehensive. However, when stuck you can ask your queries in the community forum where other students and instructors will answer them.'
+                  }
+                  subIntro={`We encourage students to connect with other students, seek help and help others to make it an immersive learning experience.`}
+                  action={'Meet the team'}
                 />
               </div>
               <CourseModelGraphics

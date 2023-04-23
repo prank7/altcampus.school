@@ -10,10 +10,13 @@ function Navbar(params) {
     <header className="bg-gray-50 py-3">
       <nav className="container mx-auto px-8 flex items-center justify-between">
         <div className="flex items-center">
-          <Link href="/" legacyBehavior>
+          <Link href="/">
             <AltCampusIcon className="h-12 w-auto sm:h-10" />
           </Link>
-          <Link href="/community" className="text-dark-blue-400 hover:text-dark-blue-700 text-xl ml-2 mt-1">
+          <Link
+            href="/community"
+            className="text-dark-blue-400 hover:text-dark-blue-700 text-xl ml-2 mt-1"
+          >
             Community
           </Link>
         </div>
@@ -51,65 +54,59 @@ function Navbar(params) {
           </label>
           <ul className="md:flex md:items-center">
             <li className="md:hidden">
-              <Link href="/" legacyBehavior>
+              <Link href="/">
                 <AltCampusIcon className="h-12 w-auto sm:h-10" />
               </Link>
             </li>
             <li className="mt-12 md:mt-0 hidden md:inline-block">
               <ActiveLink href="/">
-                <a className="text-gray-700 text-base hover:text-gray-900 transition ease-in-out duration-150">
+                <span className="text-gray-700 text-base hover:text-gray-900 transition ease-in-out duration-150">
                   Program
-                </a>
+                </span>
               </ActiveLink>
             </li>
             <li className="mt-12 md:mt-0 md:ml-8">
               <ActiveLink href="/roadmaps/web-development">
-                <a className="inline-flex items-center text-gray-700 text-base hover:text-gray-900 transition ease-in-out duration-150">
+                <span className="inline-flex items-center text-gray-700 text-base hover:text-gray-900 transition ease-in-out duration-150">
                   <img
                     className="h-6 w-6 text-green-theme-600 md:hidden mr-3"
                     src="/images/icons/roadmap.svg"
                   />
                   Roadmap
-                </a>
+                </span>
               </ActiveLink>
             </li>
             <li className="mt-4 md:mt-0 md:ml-8">
               <ActiveLink href="/placements">
-                <a className="inline-flex items-center text-gray-700 text-base hover:text-gray-900 transition ease-in-out duration-150">
+                <sapn className="inline-flex items-center text-gray-700 text-base hover:text-gray-900 transition ease-in-out duration-150">
                   <img
                     className="h-6 w-6 text-green-theme-600 md:hidden mr-3"
                     src="/images/icons/roadmap.svg"
                   />
                   Placements
-                </a>
+                </sapn>
               </ActiveLink>
             </li>
             <li className="mt-4 md:mt-0 md:ml-8">
               <ActiveLink href="/posts">
-                <a
-                  href="/posts"
-                  className="inline-flex items-center text-gray-700 text-base hover:text-gray-900 transition ease-in-out duration-150"
-                >
+                <span className="inline-flex items-center text-gray-700 text-base hover:text-gray-900 transition ease-in-out duration-150">
                   <img
                     className="flex-shrink-0 h-6 w-6 text-green-theme-600 md:hidden mr-3"
                     src="/images/icons/tutorials.svg"
                   />
                   Posts
-                </a>
+                </span>
               </ActiveLink>
             </li>
             <li className="mt-4 md:mt-0 md:ml-8">
               <ActiveLink href="/stories">
-                <a
-                  href="/stories"
-                  className="inline-flex items-center text-gray-700 text-base hover:text-gray-900 transition ease-in-out duration-150"
-                >
+                <span className="inline-flex items-center text-gray-700 text-base hover:text-gray-900 transition ease-in-out duration-150">
                   <img
                     className="flex-shrink-0 h-6 w-6 text-green-theme-600 md:hidden mr-3"
                     src="/images/icons/stories.svg"
                   />
                   Stories
-                </a>
+                </span>
               </ActiveLink>
             </li>
             <li className="grid grid-cols-2 row-gap-4 col-gap-8 border-t-2 border-dark-blue-100 md:hidden mt-8 py-8">
@@ -130,7 +127,7 @@ function Navbar(params) {
               <Link
                 className="flex w-full md:w-auto justify-center text-xl md:text-base text-white font-bold px-12 py-4 md:px-4 md:py-1 rounded uppercase bg-green-theme-500 border border-green-theme-500 shadow-md btn-hover tracking-wide text-center"
                 href="https://launchpad.altcampus.school/signup"
-                legacyBehavior>
+              >
                 <>
                   <span className="hidden md:inline-block">signup</span>
                   <span className="md:hidden">signup for AltCampus School</span>
@@ -149,12 +146,12 @@ function Navbar(params) {
               <span className="text-center text-base leading-6 font-medium text-gray-500">
                 Existing Student?
               </span>
-                <Link
-                  href="https://launchpad.altcampus.school/login"
-                  className="pl-2 text-green-theme-600 hover:text-green-theme-500 transition ease-in-out duration-150"
-                >
-                  Sign in
-                </Link>
+              <Link
+                href="https://launchpad.altcampus.school/login"
+                className="pl-2 text-green-theme-600 hover:text-green-theme-500 transition ease-in-out duration-150"
+              >
+                Sign in
+              </Link>
             </li>
           </ul>
         </div>

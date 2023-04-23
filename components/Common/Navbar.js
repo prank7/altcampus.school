@@ -58,7 +58,7 @@ function Navbar() {
       <Popover className="container mx-auto flex justify-between items-center px-8 sm:px-3 py-4 md:py-0">
         {({ open }) => (
           <>
-            <Link href="/" legacyBehavior>
+            <Link href="/">
               <AltCampusIcon className="w-32 sm:w-28" />
             </Link>
 
@@ -80,35 +80,35 @@ function Navbar() {
               className="hidden md:flex items-center space-x-10"
             >
               <ActiveLink href="/">
-                <a className="text-sm text-gray-500 hover:text-royal-blue-900 duration-300 ease-in-out transition py-5">
+                <div className="text-sm text-gray-500 hover:text-royal-blue-900 duration-300 ease-in-out transition py-5">
                   Home
-                </a>
+                </div>
               </ActiveLink>
               <ActiveLink href="/courses">
-                <a className="text-sm text-gray-500 hover:text-royal-blue-900 duration-300 ease-in-out transition py-5">
+                <div className="text-sm text-gray-500 hover:text-royal-blue-900 duration-300 ease-in-out transition py-5">
                   Course
-                </a>
+                </div>
               </ActiveLink>
               <ActiveLink href="/placements">
-                <a className="text-sm text-gray-500 hover:text-royal-blue-900 duration-300 ease-in-out transition py-5">
+                <div className="text-sm text-gray-500 hover:text-royal-blue-900 duration-300 ease-in-out transition py-5">
                   Placements
-                </a>
+                </div>
               </ActiveLink>
               <ActiveLink href="/stories">
-                <a className="text-sm text-gray-500 hover:text-royal-blue-900 duration-300 ease-in-out transition py-5">
+                <div className="text-sm text-gray-500 hover:text-royal-blue-900 duration-300 ease-in-out transition py-5">
                   Stories
-                </a>
+                </div>
               </ActiveLink>
               <ResourcesMenu />
               <ActiveLink href="https://launchpad.altcampus.school/login">
-                <a className="text-sm text-gray-500 hover:text-royal-blue-900 duration-300 ease-in-out transition py-5">
+                <div className="text-sm text-gray-500 hover:text-royal-blue-900 duration-300 ease-in-out transition py-5">
                   Login
-                </a>
+                </div>
               </ActiveLink>
               <ActiveLink href="https://launchpad.altcampus.school/signup">
-                <a className="bg-green-theme-900 hover:bg-green-theme-700 transition duration-300 ease-in-out text-white rounded font-semibold py-3 px-8">
+                <div className="bg-green-theme-900 hover:bg-green-theme-700 transition duration-300 ease-in-out text-white rounded font-semibold py-3 px-8">
                   Signup
-                </a>
+                </div>
               </ActiveLink>
             </Popover.Group>
 
@@ -140,7 +140,7 @@ function MobileNavigation({ open }) {
         <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
           <div className="p-6">
             <div className="flex items-center justify-between">
-              <Link href="/" legacyBehavior>
+              <Link href="/">
                 <AltCampusIcon className="w-32" />
               </Link>
               <div className="">
