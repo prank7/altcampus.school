@@ -16,6 +16,7 @@ function Testimonial(props) {
                 Feel proud to have done this amazing course. AltCampus
                 provided me a platform to realize my potential, to take a step-by-step
                 approach with keen focus on learning and building stuff.
+                <br/><br/>
                 The countless assignments and projects that I did made me a confident and job ready developer. Extremely proud of being an alumni of AltCampus and grateful for
                 whatever & wherever I am today.
               </p>
