@@ -3,22 +3,40 @@ import React from 'react';
 function Testimonial(props) {
   return (
     <section className="py-16 bg-royal-blue-800 bg-curve relative">
-      <article className="container mx-auto px-8 sm:px-3 justify-between flex items-center">
+      <article className="container mx-auto px-8 sm:px-3 justify-between md:flex items-center">
         <img
           className="absolute z-10 bottom-0 hidden md:inline-block"
           src="/images/students/komal-no-bg.png"
           alt="Komal"
         />
+        <div className="text-center mb-12 md:mb-0">
+          <img
+            className="inline-block md:hidden"
+            src="/images/students/komal.svg"
+            alt="Komal"
+          />
+        </div>
+
         <div className="md:ml-80 pl-20">
           <header>
             <blockquote className="font-Karla text-xl relative">
               <p className="text-opacity-60 text-royal-blue-200">
+<<<<<<< HEAD
                 Feel proud to have done this amazing course. AltCampus
                 provided me a platform to realize my potential, to take a step-by-step
                 approach with keen focus on learning and building stuff.
                 <br/><br/>
                 The countless assignments and projects that I did made me a confident and job ready developer. Extremely proud of being an alumni of AltCampus and grateful for
                 whatever & wherever I am today.
+=======
+                Feel proud to have done this amazing course. AltCampus provided
+                me a platform to realize my potential, to take a step-by-step
+                approach with keen focus on learning and building stuff. The
+                countless assignments and projects that I did made me a
+                confident and job ready developer. Extremely proud of being an
+                alumni of AltCampus and grateful for whatever & wherever I am
+                today.
+>>>>>>> 4c2ee6fc7612e499fb23fc6cd2a4c95a04d78797
               </p>
               <cite className="not-italic inline-block mt-6">
                 <strong className="text-md text-royal-blue-200">

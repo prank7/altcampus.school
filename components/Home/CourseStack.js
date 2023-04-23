@@ -85,12 +85,12 @@ function CourseStack(props) {
         <div className="bg-white relative z-10">
           <div className="container mx-auto px-8 sm:px-3">
             <article className="max-w-5xl mx-auto py-12">
-              <form action="" className="bg-white flex gap-x-14">
+              <form action="" className="bg-white md:flex gap-x-14">
                 <legend className=" text-2xl text-royal-blue-800 font-semibold max-w-md">
                   Would you like us to send our curriculum outline to your inbox
                   ?
                 </legend>
-                <fieldset className="flex space-x-6 w-full">
+                <fieldset className="flex space-x-6 w-full mt-6 md:mt-0">
                   <input
                     className="border border-solid border-royal-blue-200 text-base placeholder-gray-500 py-5 px-7 rounded-full inline-block w-4/5 shadow-lg-custom outline-none focus:border-royal-blue-800 text-royal-blue-800"
                     type="email"

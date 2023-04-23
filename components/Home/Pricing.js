@@ -28,13 +28,13 @@ function Pricing(props) {
   return (
     <section className="py-24">
       <div className="container mx-auto px-8 sm:px-3">
-        <div className="max-w-5xl mx-auto px-3 sm:px-0">
-          <header>
-            <h3 className="text-center font-bold text-gray-500 text-2xl">
-              Bootcamp style courses but 10x cheaper
-            </h3>
-          </header>
-          <div className="md:grid md:grid-cols-2 gap-x-24 mt-24">
+        <header>
+          <h3 className="text-center font-bold text-royal-blue-800 text-4xl leading-snug">
+            Take control of your career, <br />{' '}
+            <span className="text-green-theme-900">start by selecting</span>
+          </h3>
+        </header>
+        {/* <div className="md:grid md:grid-cols-2 gap-x-24 mt-24">
             <article className="bg-white shadow-lg-custom rounded-2xl">
               <header className="relative bg-white">
                 <div className="bg-white px-8 py-8 rounded-t-2xl relative z-10 flex justify-between">
@@ -53,39 +53,40 @@ function Pricing(props) {
                 </p>
               </div>
               <ul className="px-8 py-4 leading-relaxed text-lg text-royal-blue-800">
-                {
-                  specificSkills.map((course, i) => {
-                    return (
-                      <li key={i} className="flex items-center">
-                        <div>
-                          <img
-                            src="/images/icons/html.svg"
-                            className="shadow-xs-custom rounded-full"
-                            alt="HTML"
-                          />
-                          <strong className="ml-4 font-medium">
-                            {course.name}
-                          </strong>
-                        </div>
-                        <div>
-                          <br/>
-                          <p>{"₹" + course.pricing.standard.INR}</p>
-                          <p><Link href={`/courses/${course.slug}`}>Learn More</Link></p>
-                        </div>
-                      </li>
-                    )
-                  })
-                }
-              
+                {specificSkills.map((course, i) => {
+                  return (
+                    <li key={i} className="flex items-center">
+                      <div>
+                        <img
+                          src="/images/icons/html.svg"
+                          className="shadow-xs-custom rounded-full"
+                          alt="HTML"
+                        />
+                        <strong className="ml-4 font-medium">
+                          {course.name}
+                        </strong>
+                      </div>
+                      <div>
+                        <br />
+                        <p>{'₹' + course.pricing.standard.INR}</p>
+                        <p>
+                          <Link href={`/courses/${course.slug}`}>
+                            Learn More
+                          </Link>
+                        </p>
+                      </div>
+                    </li>
+                  );
+                })}
               </ul>
               <footer className="px-8 py-10">
                 <div className="border-solid border-t border-royal-blue-200 pt-6">
-                  {/* <span className="text-2xl text-gray-500 font-bold line-through">
+                  <span className="text-2xl text-gray-500 font-bold line-through">
                     {symbol +
                       numberWithCommas(
                         pricingData.online['price' + currency.toUpperCase()]
                       )}
-                  </span> */}
+                  </span>
                   <span className="text-2xl text-gray-500 font-bold">
                     Starting From
                   </span>
@@ -95,12 +96,12 @@ function Pricing(props) {
                         {symbol +
                           numberWithCommas(pricingData.online[currency])}
                       </h3>
-                      {/* <a
+                      <a
                         className="text-gray-500 text-base underline leading-loose"
                         href="#"
                       >
                         6 Easy EMIs of 10K
-                      </a> */}
+                      </a>
                       <a
                         className="flex text-green-theme-900 font-semibold text-xl animate-arrow"
                         href="#"
@@ -135,38 +136,40 @@ function Pricing(props) {
                 </p>
               </div>
               <ul className="px-8 py-4 leading-relaxed text-lg text-royal-blue-800">
-                {
-                  fullTracks.map((course, i) => {
-                    return (
-                      <li key={i} className="flex items-center">
-                        <div>
-                          <img
-                            src="/images/icons/html.svg"
-                            className="shadow-xs-custom rounded-full"
-                            alt="HTML"
-                          />
-                          <strong className="ml-4 font-medium">
-                            {course.name}
-                          </strong>
-                        </div>
-                        <div>
-                          <br/>
-                          <p>{"₹" + course.pricing.standard.INR}</p>
-                          <p><Link href={`/courses/${course.slug}`}>Learn More</Link></p>
-                        </div>
-                      </li>
-                    )
-                  })
-                }
+                {fullTracks.map((course, i) => {
+                  return (
+                    <li key={i} className="flex items-center">
+                      <div>
+                        <img
+                          src="/images/icons/html.svg"
+                          className="shadow-xs-custom rounded-full"
+                          alt="HTML"
+                        />
+                        <strong className="ml-4 font-medium">
+                          {course.name}
+                        </strong>
+                      </div>
+                      <div>
+                        <br />
+                        <p>{'₹' + course.pricing.standard.INR}</p>
+                        <p>
+                          <Link href={`/courses/${course.slug}`}>
+                            Learn More
+                          </Link>
+                        </p>
+                      </div>
+                    </li>
+                  );
+                })}
               </ul>
               <footer className="px-8 py-10 md:absolute bottom-0 right-0 left-0">
                 <div className="border-solid border-t border-royal-blue-200 pt-6">
-                  {/* <span className="text-2xl text-gray-500 font-bold line-through">
+                  <span className="text-2xl text-gray-500 font-bold line-through">
                     {symbol +
                       numberWithCommas(
                         pricingData.bootcamp['price' + currency.toUpperCase()]
                       )}
-                  </span> */}
+                  </span>
                   <span className="text-2xl text-gray-500 font-bold">
                     Starting From
                   </span>
@@ -176,12 +179,12 @@ function Pricing(props) {
                         {symbol +
                           numberWithCommas(pricingData.bootcamp[currency])}
                       </h3>
-                      {/* <a
+                      <a
                         className="text-gray-500 text-base underline leading-loose"
                         href="#"
                       >
                         6 Easy EMIs of 10K
-                      </a> */}
+                      </a>
                       <a
                         className="flex text-green-theme-900 font-semibold text-xl animate-arrow"
                         href="#"
@@ -198,8 +201,8 @@ function Pricing(props) {
                 </div>
               </footer>
             </article>
-          </div>
-          <div className="flex items-center justify-center mt-24">
+          </div> */}
+        {/* <div className="flex items-center justify-center mt-24">
             <input
               type="checkbox"
               name="toggle"
@@ -222,13 +225,143 @@ function Pricing(props) {
             <strong className="font-normal text-base text-gray-500 order-2 rupee">
               Rupees
             </strong>
-          </div>
+          </div> */}
+        <div className="grid md:grid-cols-2 max-w-6xl mx-auto mt-20">
+          <article className="md:pr-16 md:border-r-2 border-gray-200">
+            <header className="text-center">
+              <h3 className="text-gray-500 font-bold text-2xl">
+                a specific technology
+              </h3>
+              <h5 className="text-gray-500 font-normal">starting with ₹ 5K </h5>
+            </header>
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-12 text-center mt-10">
+              <figure className="shadow-lg-custom pt-10 pb-6 px-2 rounded-md">
+                <img
+                  className="inline-block h-16"
+                  src="/images/icons/html-css.svg"
+                  alt="HTML CSS"
+                />
+                <figcaption className="text-royal-blue-800 mt-6 font-semibold text-base">
+                  HTML & CSS
+                </figcaption>
+              </figure>
+              <figure className="shadow-lg-custom pt-10 pb-6 px-2 rounded-md">
+                <img
+                  className="inline-block h-16"
+                  src="/images/icons/react.svg"
+                  alt="React"
+                />
+                <figcaption className="text-royal-blue-800 mt-6 font-semibold text-base">
+                  React
+                </figcaption>
+              </figure>
+              <figure className="shadow-lg-custom pt-10 pb-6 px-2 rounded-md">
+                <img
+                  className="inline-block h-16"
+                  src="/images/icons/js.svg"
+                  alt="JavaScript"
+                />
+                <figcaption className="text-royal-blue-800 mt-6 font-semibold text-base">
+                  JavaScript
+                </figcaption>
+              </figure>
+              <figure className="shadow-lg-custom pt-10 pb-6 px-2 rounded-md">
+                <img
+                  className="inline-block h-16"
+                  src="/images/icons/node-md.svg"
+                  alt="HTML CSS"
+                />
+                <figcaption className="text-royal-blue-800 mt-6 font-semibold text-base">
+                  NodeJs
+                </figcaption>
+              </figure>
+              <figure className="shadow-lg-custom pt-10 pb-6 px-2 rounded-md">
+                <img
+                  className="inline-block h-16"
+                  src="/images/icons/mongo-md.svg"
+                  alt="HTML CSS"
+                />
+                <figcaption className="text-royal-blue-800 mt-6 font-semibold text-base">
+                  MongoDB
+                </figcaption>
+              </figure>
+              <figure className="shadow-lg-custom pt-10 pb-6 px-2 rounded-md">
+                <div className="w-16 h-16 bg-royal-blue-200 rounded-full inline-flex justify-center items-center">
+                  <span className="text-base text-royal-blue-800 font-semibold">
+                    +5
+                  </span>
+                </div>
+                <figcaption className="text-royal-blue-800 mt-6 font-semibold text-base">
+                  See all
+                </figcaption>
+              </figure>
+            </div>
+          </article>
+          <article className="md:pl-16 mt-16 md:mt-0">
+            <header className="text-center">
+              <h3 className="text-gray-500 font-bold text-2xl">
+                or a learning path
+              </h3>
+              <h5 className="text-gray-500 font-normal">starting with ₹ 65K</h5>
+            </header>
+            <div className="mt-10">
+              <article className="flex justify-between items-center bg-white p-8 rounded-md shadow-lg-custom">
+                <h3 className="text-base font-semibold text-royal-blue-800">
+                  Front-End <br /> Development
+                </h3>
+                <figure className="flex gap-x-3">
+                  <img src="/images/icons/html.svg" alt="html" />
+                  <img src="/images/icons/css.svg" alt="CSS" />
+                  <img src="/images/icons/js-rounded.svg" alt="js" />
+                  <img
+                    src="/images/icons/react-rounded.svg"
+                    alt="react-rounded"
+                  />
+                </figure>
+              </article>
+              <article className="flex justify-between items-center bg-white p-8 rounded-md shadow-lg-custom mt-8">
+                <h3 className="text-base font-semibold text-royal-blue-800">
+                  Back-End <br /> Development
+                </h3>
+                <figure className="flex gap-x-3">
+                  <img src="/images/icons/html.svg" alt="html" />
+                  <img src="/images/icons/css.svg" alt="CSS" />
+                  <img src="/images/icons/js-rounded.svg" alt="js" />
+                  <img
+                    src="/images/icons/react-rounded.svg"
+                    alt="react-rounded"
+                  />
+                </figure>
+              </article>
+              <article className="flex justify-between items-center bg-white p-8 rounded-md shadow-lg-custom mt-8">
+                <h3 className="text-base font-semibold text-royal-blue-800">
+                  Full-Stack <br /> Development
+                </h3>
+                <figure className="flex gap-x-3">
+                  <img src="/images/icons/html.svg" alt="html" />
+                  <img src="/images/icons/css.svg" alt="CSS" />
+                  <img src="/images/icons/js-rounded.svg" alt="js" />
+                  <img
+                    src="/images/icons/react-rounded.svg"
+                    alt="react-rounded"
+                  />
+                </figure>
+              </article>
+            </div>
+          </article>
         </div>
+        <footer className="text-center mt-20">
+          <a
+            className="hover-btn inline-block mt-16 py-5 px-10 border-2 border-solid border-royal-blue-800 rounded text-royal-blue-800 font-bold text-center capitalize"
+            href="#"
+          >
+            <strong className="relative z-10">Show me all courses</strong>
+          </a>
+        </footer>
       </div>
     </section>
   );
 }
-
 
 export const getStaticProps = async () => {
   const courses = await getCourses();

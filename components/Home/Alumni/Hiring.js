@@ -47,7 +47,7 @@ function Alumnis(props) {
         <h3 className="text-center font-bold text-gray-500 text-2xl mb-10">
           Graduates of our courses work at
         </h3>
-        <ul className="grid grid-cols-6 items-center gap-x-14">
+        <ul className="grid grid-cols-3 md:grid-cols-6 items-center gap-14">
           <li>
             <img
               className="w-full"
