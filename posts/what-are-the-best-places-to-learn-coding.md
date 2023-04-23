@@ -71,27 +71,27 @@ While it is true that online platforms are easily accessible for self-learners, 
 - **Personalized Mentorship.**
 - **Feedback Loop.**
 
-This means choosing a good bootcamp that has done the work for you in terms of curating content, designing the curriculum, and solid mentorship to guide you all the way through. If you are still on tenterhooks as to whether to join a bootcamp or not, [this article](https://altcampus.school/posts/why-you-should-consider-joining-a-bootcamp-if-you-want-to-learn-programming) gives a compelling reason to make your decision easier.
+This means choosing a good bootcamp that has done the work for you in terms of curating content, designing the curriculum, and solid mentorship to guide you all the way through. If you are still on tenterhooks as to whether to join a bootcamp or not, [this article](https://altcampus.com/posts/why-you-should-consider-joining-a-bootcamp-if-you-want-to-learn-programming) gives a compelling reason to make your decision easier.
 
-[AltCampus](https://altcampus.school/) is an online bootcamp based out of India that offers best-in-class curriculum on the popular MERN stack. All course materials have been precisely structured and optimised so that the student can focus on learning right away and not spend time looking for resources elsewhere.
+[AltCampus](https://altcampus.com/) is an online bootcamp based out of India that offers best-in-class curriculum on the popular MERN stack. All course materials have been precisely structured and optimised so that the student can focus on learning right away and not spend time looking for resources elsewhere.
 
 ## What makes AltCampus different?
 
-It’s more than a traditional bootcamp. AltCampus focuses on [setting a process](https://altcampus.school/posts/4-simple-systems-to-learn-programming-faster) that makes it easy for students to learn programming. With regular communication sessions that engage the students with each other throughout the week, students [build their soft skills.](https://altcampus.school/posts/basic-communication-tips-for-beginner-developers) And with an active community of learners, AltCampus helps build students’ networks and in [landing their first tech job](https://altcampus.school/posts/how-to-get-first-job-as-a-software-developer-when-you-have-zero-experience) even without prior experience.
+It’s more than a traditional bootcamp. AltCampus focuses on [setting a process](https://altcampus.com/posts/4-simple-systems-to-learn-programming-faster) that makes it easy for students to learn programming. With regular communication sessions that engage the students with each other throughout the week, students [build their soft skills.](https://altcampus.com/posts/basic-communication-tips-for-beginner-developers) And with an active community of learners, AltCampus helps build students’ networks and in [landing their first tech job](https://altcampus.com/posts/how-to-get-first-job-as-a-software-developer-when-you-have-zero-experience) even without prior experience.
 
 Learning at AltCampus is an immersive and experiential experience because of engaging activities such as Demo Days where everyone can present anything that they have built or designed, Hackathons where students form teams and compete to hack away at a prototype in the given time frame. This encourages them to put their theoretical learnings into practice and also inculcates the spirit of collaboration and managing workflows under time-bound pressure - two very important skills for the career ahead.
 
-[Students from AltCampus have shared their experiences](https://altcampus.school/stories) about overcoming hurdles and becoming successful developers. This goes to show that diversity in the learning community gives a lot of perspective to incoming students.
+[Students from AltCampus have shared their experiences](https://altcampus.com/stories) about overcoming hurdles and becoming successful developers. This goes to show that diversity in the learning community gives a lot of perspective to incoming students.
 
 ## Built for Developers, by Developers
 
 The gamified learning platform by AltCampus is interactive and gives the perfect roadmap for students to learn programming in a very structured manner along with numerous assignments, practice exercises, including “katas” from Codewars, which ensure that concepts are cemented in the learners’ minds at each milestone.
 
-If you are wondering [what you need to know before undertaking the coding journey](https://altcampus.school/posts/heres-everything-you-need-to-know-to-become-a-full-stack-web-developer), all it takes is commitment, dedication, and a will to keep learning new things everyday. This is where AltCampus also goes a step ahead - students learn about how to learn anything in their future tech career. The process is made that simple.
+If you are wondering [what you need to know before undertaking the coding journey](https://altcampus.com/posts/heres-everything-you-need-to-know-to-become-a-full-stack-web-developer), all it takes is commitment, dedication, and a will to keep learning new things everyday. This is where AltCampus also goes a step ahead - students learn about how to learn anything in their future tech career. The process is made that simple.
 
 ## The Investment
 
-It comes down to two things in the end - time and money. Both are precious assets that everyone needs to invest in learning, in order to become successful developers. Along with what has been stated above, [the math for pricing](https://altcampus.school/posts/why-are-bootcamps-so-expensive) is really quite straightforward. While many bootcamps in India and abroad charge exorbitant prices for very less ROI, AltCampus has kept students’ concerns as the sole factor behind its pricing strategy.
+It comes down to two things in the end - time and money. Both are precious assets that everyone needs to invest in learning, in order to become successful developers. Along with what has been stated above, [the math for pricing](https://altcampus.com/posts/why-are-bootcamps-so-expensive) is really quite straightforward. While many bootcamps in India and abroad charge exorbitant prices for very less ROI, AltCampus has kept students’ concerns as the sole factor behind its pricing strategy.
 
 **Investing less than 15% of your first annual income** as a developer beforehand is practically a steal, considering the demand as well as popularity of full-stack developers. If you are from India, from a long-term perspective, it is the best, most affordable bootcamp to learn full-stack web development. From a global market perspective, this investment is a no-brainer if you are from a high-income country.
 
@@ -99,4 +99,4 @@ As for placements, by the time you complete the curriculum, you will have built 
 
 Take the leap, today!
 
-Becoming a full-stack developer is a huge feat. There are endless opportunities to create and build impactful products as a developer, especially with the right knowledge and skill sets. If you have decided to take the leap, let’s [begin your journey at AltCampus today](https://altcampus.school/) 🙂🚀
+Becoming a full-stack developer is a huge feat. There are endless opportunities to create and build impactful products as a developer, especially with the right knowledge and skill sets. If you have decided to take the leap, let’s [begin your journey at AltCampus today](https://altcampus.com/) 🙂🚀

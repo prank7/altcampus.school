@@ -6,10 +6,10 @@ import { NextSeo } from 'next-seo';
 import ReadyToBuildCTA from '../components/Home/ReadyToBuildCTA';
 
 function curriculum(props) {
-  var title = 'Curriculum | AltCampus School';
+  var title = 'Curriculum | AltCampus';
   var description =
-    "Best curriculum and roadmap for learning full stack web development at India's best coding bootcamp. Learn MERN - JavaScript, React, Node.js with step by step and project based course.";
-  var url = 'https://altcampus.school/curriculum';
+    "Best curriculum and roadmap for learning full stack web development online. Learn MERN - JavaScript, React, Node.js with step by step and project based course.";
+  var url = 'https://altcampus.com/curriculum';
 
   return (
     <>

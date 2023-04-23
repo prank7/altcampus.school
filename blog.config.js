@@ -1,6 +1,6 @@
-const title = "AltCampus School - Learn programming online. Fullstack web development bootcamp based out of India.";
-const description = "AltCampus is an online, immersive programming bootcamp that helps you learn full-stack web development and become job-ready. Learn MERN stack - JavaScript, Node.js, React.js by building projects at India's best coding bootcamp.";
-const siteURL = 'https://altcampus.school';
+const title = "AltCampus - Learn programming online. Fullstack web development courses in MERN stack.";
+const description = "AltCampus offers online, immersive programming courses that helps you learn full-stack web development and become job-ready. Learn MERN stack - JavaScript, Node.js, React.js by building projects. Better than bootcamps.";
+const siteURL = 'https://altcampus.com';
 
 module.exports = {
   siteMeta: {
@@ -11,12 +11,12 @@ module.exports = {
       type: 'website',
       locale: 'en_IE',
       url: siteURL,
-      site_name: 'AltCampus School',
+      site_name: 'AltCampus',
       title,
       description,
       images: [
         {
-          url: 'https://altcampus.school/assets/media/altcampus-school-og.png',
+          url: 'https://altcampus.com/assets/media/altcampus-school-og.png',
           alt: title
         }
       ]

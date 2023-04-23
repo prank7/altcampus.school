@@ -11,7 +11,7 @@ author: 'ivinoop'
 
 Imagine learning a new skill for 6 months and landing a job of $50000-$60000 without any prior experience. Welcome to the world of programming bootcamps.
 
-A career in software development is highly lucrative today. [Even without a degree in computer science](https://altcampus.school/posts/do-you-need-a-cs-degree-to-become-a-software-developer), you can learn relevant skills and become a software developer. If you are thinking of kick-starting your career in software development, this is the ultimate guide for you to know all about bootcamps and how they can help you upskill and land you a life changing job.
+A career in software development is highly lucrative today. [Even without a degree in computer science](https://altcampus.com/posts/do-you-need-a-cs-degree-to-become-a-software-developer), you can learn relevant skills and become a software developer. If you are thinking of kick-starting your career in software development, this is the ultimate guide for you to know all about bootcamps and how they can help you upskill and land you a life changing job.
 
 ## What is a programming bootcamp?
 
@@ -88,12 +88,12 @@ So which bootcamp should you choose and how much should you invest? Bootcamps ca
 
 The cost of a coding bootcamp is usually on the higher side. But choosing the right bootcamp smartly will be easy on your pocket. The salary of a full-stack developer in India is 6 LPA to begin with. There is no upper limit to the salary since great skills will get you better packages regardless of experience.
 
-Based on this salary figure, you should invest no more than 20% of your first annual income beforehand. The math checks out, as can be seen [in this article](https://altcampus.school/posts/why-are-bootcamps-so-expensive). ISAs are an expensive affair, accounting for more than 60% of your first annual income, which puts you in debt for at least 3 years.
+Based on this salary figure, you should invest no more than 20% of your first annual income beforehand. The math checks out, as can be seen [in this article](https://altcampus.com/posts/why-are-bootcamps-so-expensive). ISAs are an expensive affair, accounting for more than 60% of your first annual income, which puts you in debt for at least 3 years.
 
 ## Which is the best bootcamp to learn coding?
 
-Bootcamps are ranked on 2 major factors - cost and placement. If you are looking for the [best places to learn coding](https://altcampus.school/posts/what-are-the-best-places-to-learn-coding), there are lots of good resources online to start learning. But bootcamps are always beneficial compared to places like Udemy. As mentioned above, factors like mentorship, roadmap, and structured curriculum should be your priority.
+Bootcamps are ranked on 2 major factors - cost and placement. If you are looking for the [best places to learn coding](https://altcampus.com/posts/what-are-the-best-places-to-learn-coding), there are lots of good resources online to start learning. But bootcamps are always beneficial compared to places like Udemy. As mentioned above, factors like mentorship, roadmap, and structured curriculum should be your priority.
 
 Job placements matter since students look for good packages and opportunities once they graduate. Bootcamps have a network of companies that you can apply to and interview, making the hurdle easier. Portfolio preparation, interview techniques, coding puzzles, etc., are some of the important things which bootcamps can help you gain mastery.
 
-At AltCampus, we understand all the pain points of learning software development and landing a job. Our full-stack web development course is geared towards helping you gain web development skills. You can kickstart your journey by taking a free trial here - [Free Trial](https://try.altcampus.school/) 🚀
+At AltCampus, we understand all the pain points of learning software development and landing a job. Our full-stack web development course is geared towards helping you gain web development skills. You can kickstart your journey by taking a free trial here - [Free Trial](https://try.altcampus.com/) 🚀

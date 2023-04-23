@@ -4,10 +4,10 @@ import { NextSeo } from 'next-seo';
 import LayoutHome from '../../components/Common/Layout';
 
 const Stories = ({ allPostsData }) => {
-  var title = 'Success Stories | AltCampus School';
+  var title = 'Success Stories | AltCampus';
   var description =
     'Placement and success stories from AltCampus. Stories from one of the best placement records among programming bootcamps in India';
-  var url = 'https://altcampus.school/stories';
+  var url = 'https://altcampus.com/stories';
 
   return (
     <LayoutHome>

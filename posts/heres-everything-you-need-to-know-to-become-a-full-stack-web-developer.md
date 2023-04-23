@@ -9,7 +9,7 @@ ctaText: AltCampus provides you a holistic roadmap to become a skilled software 
 author: 'ivinoop'
 ---
 
-[Bootcamps are a great way to kickstart](https://altcampus.school/posts/why-you-should-consider-joining-a-bootcamp-if-you-want-to-learn-programming) your software development career. However, there are a myriad of questions that crop up before this journey begins.
+[Bootcamps are a great way to kickstart](https://altcampus.com/posts/why-you-should-consider-joining-a-bootcamp-if-you-want-to-learn-programming) your software development career. However, there are a myriad of questions that crop up before this journey begins.
 
 Who is the field of web development for? Do you need a computer science background to make a career in it? What if you cannot learn programming? Or, what if you have never written a line of code before? What if you want to switch your career from say, an accounting field to web application development? What would one need in order to prepare for a future in web development?
 
@@ -31,7 +31,7 @@ So, keep hustling!
 
 This question begins an endless loop of doubts in the mind. It is natural to have doubts in the beginning. Imposter Syndrome as it is commonly known, is something almost every developer faces, in the beginning stages of learning or career. But prolonged self-doubt can sometimes hinder progress.
 
-The answer is - yes, you can. You can learn programming at any stage. [Students from AltCampus have shared their experiences](https://altcampus.school/stories) about how they became successful developers whilst facing hardships or having different backgrounds. This [article](https://www.freecodecamp.org/news/stories-from-300-developers-who-got-their-first-tech-job-in-their-30s-40s-and-50s-64306eb6bb27/) has wonderful stories about people from various backgrounds who studied hard and became full-stack developers at leading startups.
+The answer is - yes, you can. You can learn programming at any stage. [Students from AltCampus have shared their experiences](https://altcampus.com/stories) about how they became successful developers whilst facing hardships or having different backgrounds. This [article](https://www.freecodecamp.org/news/stories-from-300-developers-who-got-their-first-tech-job-in-their-30s-40s-and-50s-64306eb6bb27/) has wonderful stories about people from various backgrounds who studied hard and became full-stack developers at leading startups.
 
 ## What you need for the journey
 

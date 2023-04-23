@@ -11,7 +11,7 @@ function ReadyToBuild(props) {
 
           <a
             className="mt-4 md:mt-0 bg-white tracking-wider uppercase text-dark-blue-500 py-3 px-12 inline-block rounded shadow-md btn-hover font-semibold text-lg"
-            href="https://try.altcampus.school?utm_source=start_building_cta"
+            href="https://try.altcampus.com?utm_source=start_building_cta"
           >
             START BUILDING
           </a>

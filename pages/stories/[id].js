@@ -7,11 +7,11 @@ export default function Post({ postData }) {
   return (
     <LayoutHome>
       <NextSeo
-        title={postData.title + ' |' + ' AltCampus School'}
+        title={postData.title + ' |' + ' AltCampus'}
         description={postData.description}
         openGraph={{
           title: postData.title + ' |' + ' AltCampus School',
-          url: 'https://altcampus.school/stories/' + postData.id,
+          url: 'https://altcampus.com/stories/' + postData.id,
           description: postData.description,
           images: [
             {

@@ -19,7 +19,7 @@ function WallOfLove({ tweets }) {
   var title = 'Wall Of Love | AltCampus School';
   var description =
     'AltCampus is one of the best programming bootcamps in India. Learn how it helps you get a job as a full stack web developer.';
-  var url = 'https://altcampus.school/wall-of-love';
+  var url = 'https://altcampus.com/wall-of-love';
 
   return (
     <>

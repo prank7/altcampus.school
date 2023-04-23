@@ -23,7 +23,7 @@ All these libraries are keys for being a MERN stack developer.
 
 I am going to list some keys concepts from each of these technologies, mastering those can speed up the MERN stack learning process.
 
-I will list them in order which is available in the [roadmap](https://altcampus.school/posts/the-complete-roadmap-to-learn-full-stack-web-development-using-the-MERN-stack) so that developers can learn them in a sequence.
+I will list them in order which is available in the [roadmap](https://altcampus.com/posts/the-complete-roadmap-to-learn-full-stack-web-development-using-the-MERN-stack) so that developers can learn them in a sequence.
 
 ## Key concepts in Node.js
 

@@ -23,11 +23,11 @@ export default function Post({ guideData, relatedGuides = [] }) {
         </Head>
       ) : null}
       <NextSeo
-        title={guideData.title + ' |' + ' AltCampus School'}
+        title={guideData.title + ' |' + ' AltCampus'}
         description={guideData.description}
         openGraph={{
           title: guideData.title + ' |' + ' AltCampus School',
-          url: 'https://altcampus.school/community/guides/' + guideData.id,
+          url: 'https://altcampus.com/community/guides/' + guideData.id,
           description: guideData.description,
           images: [
             {
@@ -100,14 +100,14 @@ export default function Post({ guideData, relatedGuides = [] }) {
                   className="twitter-share-button"
                   href={`https://twitter.com/intent/tweet?text=${
                     guideData.title + ' - @AltCampus'
-                  }&url=${`https://altcampus.school/posts/${guideData.id}`}`}
+                  }&url=${`https://altcampus.com/posts/${guideData.id}`}`}
                 >
                   <TwitterAltIcon className="h-8 w-8" />
                   <span className="sr-only">Share to Twitter</span>
                 </a>
                 <a
                   className="twitter-share-button"
-                  href={`https://facebook.com/sharer/sharer.php?u=${`https://altcampus.school/posts/${guideData.id}`}`}
+                  href={`https://facebook.com/sharer/sharer.php?u=${`https://altcampus.com/posts/${guideData.id}`}`}
                 >
                   <FacebookIcon className="h-8 w-8" />
                   <span className="sr-only">Share to Facebook</span>

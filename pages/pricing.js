@@ -12,7 +12,7 @@ function PricingPage(props) {
   var title = 'Pricing | AltCampus School';
   var description =
     'AltCampus Course Cost is better than ISA based bootcamps, you pay less in long term. Get started learning web development for free with EMI now.';
-  var url = 'https://altcampus.school/pricing';
+  var url = 'https://altcampus.com/pricing';
 
   return (
     <>

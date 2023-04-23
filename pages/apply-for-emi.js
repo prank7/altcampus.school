@@ -7,10 +7,10 @@ import LayoutHome from '../components/Common/Layout';
 import { NextSeo } from 'next-seo';
 
 function ApplyForEMI(props) {
-  var title = 'Apply For EMI | AltCampus School';
+  var title = 'Apply For EMI | AltCampus';
   var description =
     'Enroll in AltCampus course for free now and pay later via EMI. Far more cost effective than ISA based bootcamps. Apply for EMI now.';
-  var url = 'https://altcampus.school/apply-for-emi';
+  var url = 'https://altcampus.com/apply-for-emi';
 
   return (
     <>
@@ -129,7 +129,7 @@ function Content() {
 
       {/* <div className='text-center mt-12'>
         <a
-          href='https://launchpad.altcampus.school/signup'
+          href='https://launchpad.altcampus.com/signup'
           className='text-md text-white bg-green-theme-500 hover:bg-green-theme-600 uppercase py-3 px-20 inline-block mt-6 rounded font-semibold tracking-wider btn-hover font-mukta'
         >
           START LEARNING NOW

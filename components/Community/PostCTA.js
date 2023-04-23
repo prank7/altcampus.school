@@ -12,7 +12,7 @@ function PostCTA(props) {
 
           <a
             className="mt-4 md:mt-0 bg-white tracking-wider uppercase text-dark-blue-500 py-3 px-4 inline-block rounded shadow-md btn-hover font-semibold text-md"
-            href="https://altcampus.school"
+            href="https://altcampus.com"
           >
             START LEARNING
           </a>

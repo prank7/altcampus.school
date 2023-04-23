@@ -83,7 +83,7 @@ function TrialContent() {
         web development free trial. Sign up today!
       </p>
       <a
-        href="http://try.altcampus.school/"
+        href="http://try.altcampus.com/"
         rel="noreferrer noopener"
         target="_blank"
         className="mt-8 w-full inline-flex items-center justify-center px-5 py-3 border border-transparent text-base uppercase tracking-wider font-bold rounded-md text-white bg-green-theme-600 hover:bg-green-theme-500 hover:borde sm:w-auto"
@@ -114,7 +114,7 @@ function PaidContent() {
         <b> professional full-stack web developer</b> in just 6 months!
       </p>
       <a
-        href="https://launchpad.altcampus.school/signup"
+        href="https://launchpad.altcampus.com/signup"
         rel="noreferrer noopener"
         target="_blank"
         className="mt-8 w-full inline-flex items-center justify-center px-5 py-3 border border-transparent text-base uppercase tracking-wider font-bold rounded-md text-white bg-green-theme-600 hover:bg-green-theme-500 hover:borde sm:w-auto"

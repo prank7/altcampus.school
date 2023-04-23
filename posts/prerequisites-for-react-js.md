@@ -75,4 +75,4 @@ While you will be working with ReactJS you will be using a lot of external packa
 3. Initializing a folder with NPM
 4. Installing external packages using NPM
 
-If you are someone new to all of this, take a look at [our course](https://altcampus.school) which takes you from absolute beginner to becoming a full-stack developer and getting your first developer job. It includes everything (assignments, video lectures, quizzes, interview questions and job prepration) you will need for your journey of becoming a full-stack developer.
+If you are someone new to all of this, take a look at [our course](https://altcampus.com) which takes you from absolute beginner to becoming a full-stack developer and getting your first developer job. It includes everything (assignments, video lectures, quizzes, interview questions and job prepration) you will need for your journey of becoming a full-stack developer.

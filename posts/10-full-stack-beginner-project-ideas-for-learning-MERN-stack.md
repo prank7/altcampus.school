@@ -146,4 +146,4 @@ This will help doctors
 - Show thier availability for the hospital
 - Track patients application status
 
-Hope this helps you in generating ideas on what to build to get better as a fullstack developer. If you liked this article, you might want to take a look at [the ultimate guide to MERN stack](https://altcampus.school/community/guides/the-ultimate-guide-to-MERN-stack).
+Hope this helps you in generating ideas on what to build to get better as a fullstack developer. If you liked this article, you might want to take a look at [the ultimate guide to MERN stack](https://altcampus.com/community/guides/the-ultimate-guide-to-MERN-stack).

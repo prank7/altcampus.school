@@ -9,7 +9,7 @@ ctaText: Learn how to code at AltCampus and kickstart your career as a software 
 author: 'ivinoop'
 ---
 
-As a software developer in 2021, you must have come across various developers’ portfolios, developers talking about building or creating portfolios, and how it is important for every developer to have it. Like we say at [AltCampus](https://altcampus.school/), your portfolio is the gateway to kickstart a great career. If you are a beginner developer, here’s a great article that explains [how to build a great portfolio](https://altcampus.school/posts/how-to-build-a-great-portfolio-as-a-beginner-developer).
+As a software developer in 2021, you must have come across various developers’ portfolios, developers talking about building or creating portfolios, and how it is important for every developer to have it. Like we say at [AltCampus](https://altcampus.com/), your portfolio is the gateway to kickstart a great career. If you are a beginner developer, here’s a great article that explains [how to build a great portfolio](https://altcampus.com/posts/how-to-build-a-great-portfolio-as-a-beginner-developer).
 
 What exactly does a software developer’s portfolio look like? And why is it necessary?
 
@@ -55,8 +55,8 @@ Keep building projects and add them to your portfolio. The more you build, the m
 
 Share your learning journey, projects, etc., in relevant developer communities. You can reach a large number of people this way and help fellow developers. Once they land on your portfolio from there, you will find yourself getting projects and employment opportunities.
 
-The tech market has changed in the last decade and becoming a software developer with relevant skills is much easier than it was before. [Skills are valued more than degrees](https://altcampus.school/posts/do-you-need-a-cs-degree-to-become-a-software-developer) and certificates and the barrier to enter software development is virtually non-existent today. This is all the more reason to have a great portfolio that can show recruiters that you have the skills required to be hired as a developer.
+The tech market has changed in the last decade and becoming a software developer with relevant skills is much easier than it was before. [Skills are valued more than degrees](https://altcampus.com/posts/do-you-need-a-cs-degree-to-become-a-software-developer) and certificates and the barrier to enter software development is virtually non-existent today. This is all the more reason to have a great portfolio that can show recruiters that you have the skills required to be hired as a developer.
 
-With the demand for full-stack developers on the rise, it is a worthy investment to learn programming and [become a full-stack developer](https://altcampus.school/posts/heres-everything-you-need-to-know-to-become-a-full-stack-web-developer). Your portfolio would really kick off with the added skills 🎯.
+With the demand for full-stack developers on the rise, it is a worthy investment to learn programming and [become a full-stack developer](https://altcampus.com/posts/heres-everything-you-need-to-know-to-become-a-full-stack-web-developer). Your portfolio would really kick off with the added skills 🎯.
 
 If you are looking for a great place to start learning programming and become job-ready as a developer, AltCampus is here to guide you throughout your journey. Sign up today and start learning for free 🙌

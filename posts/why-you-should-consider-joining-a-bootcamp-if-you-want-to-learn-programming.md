@@ -11,7 +11,7 @@ author: ivinoop
 
 The tech world has seen unprecedented growth in the last few years. Software Development took a quantum leap as the worldwide web became more accessible and hospitable. Browsers today are leading the world of app development as they are becoming more flexible to host all kinds of apps that are seemingly native in nature. With over 1.8 billion websites online, there are a plethora of technologies running seamlessly on the web to cater to enterprise as well as consumer needs.
 
-So the questions today for a learner are - What should one choose to learn today from the vast ocean of tech stacks available, and [what are the best places to learn programming?](https://altcampus.school/posts/what-are-the-best-places-to-learn-coding)
+So the questions today for a learner are - What should one choose to learn today from the vast ocean of tech stacks available, and [what are the best places to learn programming?](https://altcampus.com/posts/what-are-the-best-places-to-learn-coding)
 
 ## The Self-Taught Way
 
@@ -67,8 +67,8 @@ Especially in programming, practice is the only way to keep growing. Bootcamps m
 
 This is perhaps the most important part of learning programming in a bootcamp and goes parallely with mentorship. Getting feedback on your work is a great way to rectify mistakes and learn better ways to build projects. A constant stream of feedback from mentors and peers will build a positive approach to learning as well as build character. This loop ensures that there is quantitative as well as qualitative progress at each level of learning.
 
-Programming bootcamps are today's alternative to colleges since they offer a much more focused approach to learning relevant skills. [Degrees and certificates are becoming less of a factor](https://altcampus.school/posts/do-you-need-a-cs-degree-to-become-a-software-developer) to enter the software development world since the right skills matter. There are unlimited opportunities for a software developer today, especially in the web ecosystem since it has a low barrier for entry and is the most accessible platform for the majority of customers and developers alike.
+Programming bootcamps are today's alternative to colleges since they offer a much more focused approach to learning relevant skills. [Degrees and certificates are becoming less of a factor](https://altcampus.com/posts/do-you-need-a-cs-degree-to-become-a-software-developer) to enter the software development world since the right skills matter. There are unlimited opportunities for a software developer today, especially in the web ecosystem since it has a low barrier for entry and is the most accessible platform for the majority of customers and developers alike.
 
-While self-learning is always emphasized and encouraged, the learning that comes by being part of a bootcamp is unparalleled. From people skills, teamwork and [learning communication tips](https://altcampus.school/posts/basic-communication-tips-for-beginner-developers), to [becoming a skilled software developer](https://altcampus.school/posts/4-simple-systems-to-learn-programming-faster) in relevant technologies, bootcamps undoubtedly offer a holistic learning approach to everyone who has the goal of becoming a software developer.
+While self-learning is always emphasized and encouraged, the learning that comes by being part of a bootcamp is unparalleled. From people skills, teamwork and [learning communication tips](https://altcampus.com/posts/basic-communication-tips-for-beginner-developers), to [becoming a skilled software developer](https://altcampus.com/posts/4-simple-systems-to-learn-programming-faster) in relevant technologies, bootcamps undoubtedly offer a holistic learning approach to everyone who has the goal of becoming a software developer.
 
 All the best for your programming journey. 🙌

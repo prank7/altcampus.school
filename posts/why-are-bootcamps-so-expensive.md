@@ -33,7 +33,7 @@ Here’s the caveat - invest in bootcamps even if they are priced here, but **on
 
   It is no small feat to design a curriculum that keeps pace with the current technology trends. Every other week, a new technology comes out or gains visibility, and there are enough startups and businesses that are willing to jump on this bandwagon of change. This means that no one language or framework can guarantee you a lifetime of jobs. A true developer is always learning and upgrading themselves as necessity demands it.
 
-  But to begin a career as a full-stack web developer, you can start out with JavaScript and its ecosystem. Learning the MERN stack is a very valuable asset that you can have. At bootcamps like [AltCampus](https://altcampus.school/), the curriculum is precisely designed to provide just that, while solidifying your fundamentals in programming and problem-solving.
+  But to begin a career as a full-stack web developer, you can start out with JavaScript and its ecosystem. Learning the MERN stack is a very valuable asset that you can have. At bootcamps like [AltCampus](https://altcampus.com/), the curriculum is precisely designed to provide just that, while solidifying your fundamentals in programming and problem-solving.
 
   There is a lot of time and effort invested in coming up with a curriculum that not only provides immense value but is also relevant as per industry requirements. This needs to be valued enough, and is one factor that influences pricing.
 
@@ -41,7 +41,7 @@ Here’s the caveat - invest in bootcamps even if they are priced here, but **on
 
   The most important factor in pricing is mentorship and its associated value. Students can learn topics from anywhere today but there is one major thing that is lacking - the luxury to make mistakes and correct these mistakes by getting proper feedback and code reviews.
 
-  As we discussed in one of our [previous articles](https://altcampus.school/posts/why-you-should-consider-joining-a-bootcamp-if-you-want-to-learn-programming), feedback loops and practice are crucial to elevate your understanding of concepts. Mentorship is a personal approach to learning that instills confidence in you with every step. Mentoring in this manner requires years of experience and management skills, which mentors have worked very hard at achieving, which is why investing in this factor is a huge advantage for learners.
+  As we discussed in one of our [previous articles](https://altcampus.com/posts/why-you-should-consider-joining-a-bootcamp-if-you-want-to-learn-programming), feedback loops and practice are crucial to elevate your understanding of concepts. Mentorship is a personal approach to learning that instills confidence in you with every step. Mentoring in this manner requires years of experience and management skills, which mentors have worked very hard at achieving, which is why investing in this factor is a huge advantage for learners.
 
 - ### Community
 

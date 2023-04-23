@@ -242,4 +242,4 @@ You can go through this [live demo](https://ac-blog-app.vercel.app/) and use thi
 
 **Time Taken:** 30 Hours
 
-If you are someone new to all of this, take a look at [our course](https://altcampus.school) which takes you from absolute beginner to becoming a full-stack developer and getting your first developer job. It includes everything (assignments, video lectures, quizzes, interview questions and job prepration) you will need for your journey of becoming a full-stack developer.
+If you are someone new to all of this, take a look at [our course](https://altcampus.com) which takes you from absolute beginner to becoming a full-stack developer and getting your first developer job. It includes everything (assignments, video lectures, quizzes, interview questions and job prepration) you will need for your journey of becoming a full-stack developer.

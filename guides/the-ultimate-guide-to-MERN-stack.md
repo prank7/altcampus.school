@@ -64,7 +64,7 @@ MERN stack laverages below frameworks/tools for creating full-stack applications
 
 - MongoDB as the database uses JSON(Javascript Object Notation) format to store and manage data which is standard nowadays for exchange of information in a full-stack application from client to server and vice-versa, and can be easily integrated in MERN Stack applications.
 
-Here are [10 reasons why you should learn MERN stack.](https://altcampus.school/posts/why-should-you-learn-MERN-stack)
+Here are [10 reasons why you should learn MERN stack.](https://altcampus.com/posts/why-should-you-learn-MERN-stack)
 
 ## Are there other tech stacks ?
 
@@ -82,7 +82,7 @@ Yes, there are other stacks as well. They may use languages other than Javascrip
 - Grasp on JavaScript fundamentals
 - Basics of MongoDB is a plus.
 
-You can learn more about the [concepts you need to learn before starting MERN here.](https://altcampus.school/posts/prerequisites-for-learning-MERN-stack)
+You can learn more about the [concepts you need to learn before starting MERN here.](https://altcampus.com/posts/prerequisites-for-learning-MERN-stack)
 
 ## Various layers of MERN Stack
 
@@ -139,7 +139,7 @@ A full-stack MERN developer should be prolific in different technologies like
 4. Version Control(Git)
 5. Operating Systems(linux/Mac/Windows)
 
-Here's a [complete roadmap to learn and become a MERN stack developer](https://altcampus.school/posts/the-complete-roadmap-to-learn-full-stack-web-development-using-the-MERN-stack)
+Here's a [complete roadmap to learn and become a MERN stack developer](https://altcampus.com/posts/the-complete-roadmap-to-learn-full-stack-web-development-using-the-MERN-stack)
 
 ## How long does it take to learn MERN stack ?
 
@@ -162,7 +162,7 @@ It may take around additional 8-10 weeks to grasp the fundamentals.
 
 So, in total it will take between 18-30 weeks to become a full-stack developer on MERN stack, starting from absolute scratch.
 
-Our [program at AltCampus](https://altcampus.school) takes you all the way from zero to a full-stack employable MERN developer in about 6 months of time.
+Our [program at AltCampus](https://altcampus.com) takes you all the way from zero to a full-stack employable MERN developer in about 6 months of time.
 
 ## What is the salary of a MERN Stack developer ?
 
@@ -182,7 +182,7 @@ The average starting full-stack developer salary in India is around ₹589,578 o
 
 Since MERN stack is the most popular and widely used among all stacks for full-stack development, the average salary in India is around ₹723,000 or \$9717.
 
-[Here is an in-depth post explaining the salary, growth, and career of a full-stack developer.](https://altcampus.school/community/posts/full-stack-developer-career-salary)
+[Here is an in-depth post explaining the salary, growth, and career of a full-stack developer.](https://altcampus.com/community/posts/full-stack-developer-career-salary)
 
 ## How to learn MERN Stack ?
 
@@ -199,9 +199,9 @@ The key to learning MERN stack development is to follow a systematic step by ste
 - Use REST API to fetch data and render components by building say a shopping cart frontend in React.js
 - Lastly, create full stack applications like Blog App, Bookstore etc.
 
-Checkout [our roadmap](https://altcampus.school/posts/the-complete-roadmap-to-learn-full-stack-web-development-using-the-MERN-stack) for a detailed overview of all the concepts needed for being a MERN stack developer. Our [AltCampus Course](https://altcampus.school) covers all of the above steps.
+Checkout [our roadmap](https://altcampus.com/posts/the-complete-roadmap-to-learn-full-stack-web-development-using-the-MERN-stack) for a detailed overview of all the concepts needed for being a MERN stack developer. Our [AltCampus Course](https://altcampus.com) covers all of the above steps.
 
-If you are just starting out your developer journey, checkout [our course](https://altcampus.school) for a detailed, step by step process which includes Videos, Assignments, Projects & Feedback Videos for Assignments etc. It is for absolute beginners who are new to programming and needs no prior knowledge of programming.
+If you are just starting out your developer journey, checkout [our course](https://altcampus.com) for a detailed, step by step process which includes Videos, Assignments, Projects & Feedback Videos for Assignments etc. It is for absolute beginners who are new to programming and needs no prior knowledge of programming.
 
 ## What are some key concepts to learn in MERN Stack ?
 
@@ -209,7 +209,7 @@ MERN Stack is built of 4 robust technologies i.e. MongoDB, Express.js, React.js 
 
 To be a MERN Stack developer, one should have working knowledge of all the above technologies.
 
-Here's an article detailing [key concepts to learn in MERN Stack](https://altcampus.school/posts/key-MERN-stack-concepts).
+Here's an article detailing [key concepts to learn in MERN Stack](https://altcampus.com/posts/key-MERN-stack-concepts).
 
 ## What are some MERN stack beginner projects that you can build to learn ?
 
@@ -251,7 +251,7 @@ Create a blog application where users can
 
 Social media app where people can connect with other people, view local handicrafts being created in the area, share their own crafts and creatives, etc.
 
-Here are [10 full stack project ideas for beginner MERN stack developers](https://altcampus.school/posts/10-full-stack-beginner-project-ideas-for-learning-MERN-stack).
+Here are [10 full stack project ideas for beginner MERN stack developers](https://altcampus.com/posts/10-full-stack-beginner-project-ideas-for-learning-MERN-stack).
 
 ## What are the best MERN stack courses and bootcamps?
 
@@ -266,11 +266,11 @@ There are a lot of tutorials online to learn MERN stack.
 
 Most of these courses have good video content but they lack a strong feedback mechanism which could track students progress on a daily/weekly basis. They have community but you need to wait hours to get a response.
 
-Take a look at our [AltCampus full-stack MERN course](https://altcampus.school/).
+Take a look at our [AltCampus full-stack MERN course](https://altcampus.com/).
 
 AltCampus is an online programming bootcamp designed to help you learn full-stack web development and become job-ready. It is 100% online, Project based and provides unparalleled learning support at each step of learning.
 
-Take a look at the [AltCampus Curriculum](https://altcampus.school/curriculum). It has 14 modules, 80+ topics to learn, 200+ exercises for practice and more than 40 projects to strengthen your portfolio.
+Take a look at the [AltCampus Curriculum](https://altcampus.com/curriculum). It has 14 modules, 80+ topics to learn, 200+ exercises for practice and more than 40 projects to strengthen your portfolio.
 
 It's a 6 month immersive program which provides:-
 
@@ -318,7 +318,7 @@ MongoDB also supports replication which can provide high availability of data al
 - Explain lifecycle method and their sequence of execution ?
 - Explain React Context API ?
 
-Here's an article detailing [frequently asked MERN stack interview questions](https://altcampus.school/posts/frequently-asked-MERN-interview-questions).
+Here's an article detailing [frequently asked MERN stack interview questions](https://altcampus.com/posts/frequently-asked-MERN-interview-questions).
 
 ## What are the MERN stack developer jobs ?
 
@@ -389,12 +389,12 @@ There are hundreds of companies which have been developed using MERN stack techn
 
 ## Things to prepare before applying for MERN Stack Developer Job
 
-- Create [a personal portfolio Website](https://altcampus.school/posts/how-to-build-a-great-portfolio-as-a-beginner-developer) listing all your experiences and projects
+- Create [a personal portfolio Website](https://altcampus.com/posts/how-to-build-a-great-portfolio-as-a-beginner-developer) listing all your experiences and projects
 - Add 2-3 good MERN projects to your portfolio which should be live on some url.
 - Showcase your Github Projects
 - Solve DS & Algo problems to develop strong logic using Codewars, HackerRank, Codechef etc..
 - Revise Fundamentals of Javascript, React & Node/Express.
-- Checkout [Interview Questions for MERN Stack Developers](https://altcampus.school/posts/frequently-asked-MERN-interview-questions)
+- Checkout [Interview Questions for MERN Stack Developers](https://altcampus.com/posts/frequently-asked-MERN-interview-questions)
 
 **If possible**
 

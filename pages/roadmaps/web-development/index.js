@@ -6,10 +6,10 @@ import generateSitemap from '../../../lib/generateSitemap';
 import LayoutHome from '../../../components/Common/Layout';
 
 function WebDevelopment({ roadmapsInfo }) {
-  var title = 'Full Stack Web Development Learning Roadmap | AltCampus School';
+  var title = 'MERN Stack Stack Web Development Learning Roadmap | AltCampus';
   var description =
     "Full stack web development roadmap 2021. Detailed MERN stack roadmap and free resources from India's best coding bootcamp.";
-  var url = 'https://altcampus.school/community/web-development';
+  var url = 'https://altcampus.com/community/web-development';
 
   return (
     <LayoutHome>

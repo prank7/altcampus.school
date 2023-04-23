@@ -6,7 +6,7 @@ function PricingPolicy(props) {
   return (
     <>
       <Head>
-        <title>Pricing Policy | AltCampus School</title>
+        <title>Pricing Policy | AltCampus</title>
       </Head>
       <LayoutHome>
         <main class="max-w-3xl mx-auto px-6 space-y-4 text-gray-700 py-8 pb-16 space-y-3 font-normal">

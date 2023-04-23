@@ -6,10 +6,10 @@ import LayoutHome from '../../components/Common/Layout';
 
 const Tutorials = ({ allPostsData }) => {
   var title =
-    'How to Learn Web Development and Get a Job - Blog | AltCampus School';
+    'How to Learn Web Development and Get a Job - Blog | AltCampus';
   var description =
     'Insightful tips, techniques and posts on how to learn software developement and get a job';
-  var url = 'https://altcampus.school/posts';
+  var url = 'https://altcampus.com/posts';
 
   return (
     <LayoutHome>

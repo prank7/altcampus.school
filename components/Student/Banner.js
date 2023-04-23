@@ -42,7 +42,7 @@ function Banner(props) {
                     className="flex border px-4 py-1 rounded-md border-royal-blue-500 items-center"
                     style={{ color: '#40A8F5', borderColor: '#40A8F5' }}
                     href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(
-                      `https://altcampus.school/placements/${props.slug}`
+                      `https://altcampus.com/placements/${props.slug}`
                     )}`}
                   >
                     <img
@@ -61,7 +61,7 @@ function Banner(props) {
                     className="flex border px-4 py-1 rounded-md border-royal-blue-500 items-center"
                     style={{ color: '#2C7FBA', borderColor: '#2C7FBA' }}
                     href={`http://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(
-                      `https://altcampus.school/placements/${props.slug}`
+                      `https://altcampus.com/placements/${props.slug}`
                     )}`}
                   >
                     <img
@@ -80,7 +80,7 @@ function Banner(props) {
                     className="flex border px-4 py-1 rounded-md border-royal-blue-500 items-center"
                     style={{ color: '#4460A0', borderColor: '#4460A0' }}
                     href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(
-                      `https://altcampus.school/placements/${props.slug}`
+                      `https://altcampus.com/placements/${props.slug}`
                     )}`}
                   >
                     <img

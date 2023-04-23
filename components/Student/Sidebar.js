@@ -129,7 +129,7 @@ function Sidebar(props) {
                   Full Stack Certification
                 </h3>
                 <h4 className="text-md font-semibold text-dark-blue-700">
-                  AltCampus School
+                  AltCampus
                 </h4>
                 <time
                   className="text-md font-semibold text-dark-blue-300"

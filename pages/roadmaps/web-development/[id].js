@@ -32,17 +32,17 @@ export default function Post({ roadmapData }) {
           </Head>
         ) : null}
         <NextSeo
-          title={`${roadmapData.title} | AltCampus School'`}
+          title={`${roadmapData.title} | AltCampus'`}
           description={roadmapData.description}
           openGraph={{
-            title: `${roadmapData.title} Roadmap | AltCampus School`,
+            title: `${roadmapData.title} Roadmap | AltCampus`,
             url:
-              'https://altcampus.school/roadmaps/web-development/' +
+              'https://altcampus.com/roadmaps/web-development/' +
               roadmapData.id,
             description: roadmapData.description,
             images: [
               {
-                url: `https://altcampus.school${roadmapData.photo}`,
+                url: `https://altcampus.com${roadmapData.photo}`,
                 alt: roadmapData.title
               }
             ]
@@ -84,7 +84,7 @@ export default function Post({ roadmapData }) {
                   style={{ color: '#40A8F5', borderColor: '#40A8F5' }}
                   href={`https://twitter.com/intent/tweet?text=${
                     roadmapData.title + ' - @AltCampus'
-                  }&url=${`https://altcampus.school/posts/${roadmapData.id}`}`}
+                  }&url=${`https://altcampus.com/posts/${roadmapData.id}`}`}
                 >
                   <img
                     className="h-5"
@@ -100,7 +100,7 @@ export default function Post({ roadmapData }) {
                 <a
                   className="flex border px-4 py-1 rounded-md border-royal-blue-500 items-center btn-hover"
                   style={{ color: '#4460A0', borderColor: '#4460A0' }}
-                  href={`https://facebook.com/sharer/sharer.php?u=${`https://altcampus.school/posts/${roadmapData.id}`}`}
+                  href={`https://facebook.com/sharer/sharer.php?u=${`https://altcampus.com/posts/${roadmapData.id}`}`}
                 >
                   <img
                     className="h-5"

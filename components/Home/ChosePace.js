@@ -58,7 +58,7 @@ function ChosePace(props) {
               className="mt-8 tracking-wider uppercase text-white bg-green-theme-500 hover:bg-green-theme-600 px-2 py-1 ml-6 rounded-sm hover:shadow-lg transition-shadow ease-in-out duration-200 inline-block font-semibold"
               target="_blank"
               rel="noopener"
-              href="https://launchpad.altcampus.school/signup?utm_source=pick-your-pace"
+              href="https://launchpad.altcampus.com/signup?utm_source=pick-your-pace"
             >
               Start Today
             </a>
@@ -118,7 +118,7 @@ function ChosePace(props) {
                           className="tracking-wider uppercase text-white bg-green-theme-500 hover:bg-green-theme-600 px-2 py-1 ml-6 rounded-sm hover:shadow-lg transition-shadow ease-in-out duration-200 inline-block font-semibold"
                           target="_blank"
                           rel="noopener"
-                          href="https://launchpad.altcampus.school/signup?utm_source=pick-your-pace"
+                          href="https://launchpad.altcampus.com/signup?utm_source=pick-your-pace"
                         >
                           Enroll now
                         </a>

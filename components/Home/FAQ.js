@@ -21,7 +21,7 @@ let data = [
     topImage: '/images/happy-child.svg',
     question: 'Can I get a demo before I signup?',
     answer:
-      'Yes, you can try the free version of the program here. https://try.altcampus.school/',
+      'Yes, you can try the free version of the program here. https://try.altcampus.com/',
     quote: {
       text: 'The perfect place for someone looking to enter the world of tech with a strong support community, and great mentors, guided by a real drive to help each student realise his/her potential.',
       author: {

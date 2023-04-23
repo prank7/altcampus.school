@@ -24,11 +24,11 @@ Speaking of which, traditional education everywhere is highly lacking in providi
 There are two proven ways to gain these skills -
 
 1. By working as a junior developer (and getting hands-on experience), OR
-2. By kick-starting your full-stack developer journey through a bootcamp like [AltCampus](https://altcampus.school/), where you get personalized mentorship, top-notch structured curriculum, and hundreds of practice exercises with feedback loops to improve at every stage.
+2. By kick-starting your full-stack developer journey through a bootcamp like [AltCampus](https://altcampus.com/), where you get personalized mentorship, top-notch structured curriculum, and hundreds of practice exercises with feedback loops to improve at every stage.
 
-The second way is more lucrative and useful, and the reason is this - the self-taught can be exciting at first, but there are [pitfalls and cons to learning on your own](https://altcampus.school/posts/what-are-the-best-places-to-learn-coding), the most important of which would be wasted time.
+The second way is more lucrative and useful, and the reason is this - the self-taught can be exciting at first, but there are [pitfalls and cons to learning on your own](https://altcampus.com/posts/what-are-the-best-places-to-learn-coding), the most important of which would be wasted time.
 
-Another factor is that you will need all the help and support especially if you are from a non-CS background. The mentorship, feedback loop, and structured roadmap, are all important reasons [why you should consider joining a bootcamp if you want to learn programming.](https://altcampus.school/posts/why-you-should-consider-joining-a-bootcamp-if-you-want-to-learn-programming)
+Another factor is that you will need all the help and support especially if you are from a non-CS background. The mentorship, feedback loop, and structured roadmap, are all important reasons [why you should consider joining a bootcamp if you want to learn programming.](https://altcampus.com/posts/why-you-should-consider-joining-a-bootcamp-if-you-want-to-learn-programming)
 
 ## Debunking myths
 
@@ -36,10 +36,10 @@ But a lot of IT firms look for academic background, relevant experience, etc., d
 
 Yes, they do. Because they are firms and corporations founded upon decades old rules and parameters, which is why they have certain necessities in place. But gone are the days when getting into a tech job meant fulfilling all these parameters. Today’s product-focused companies and startups are solving real-world problems and they need people who have practical knowledge and relevant skills for the same. Where you acquired those skills, and how, do not and should not matter.
 
-Full-stack web developers are in huge demand today. There will be more than [8 lakh jobs for developers by 2024](https://www.nationalskillsnetwork.in/5-reasons-to-launch-your-career-as-full-stack-developer-in-2021/). The MERN stack has gained a lot of traction amongst both startups and enterprises, and it is no surprise that it is the most demanded tech stack for learning in bootcamps as well. AltCampus has an [exhaustive curriculum](https://altcampus.school/curriculum) with focused content that ensures learners reach their goals with no necessity to search for resources elsewhere.
+Full-stack web developers are in huge demand today. There will be more than [8 lakh jobs for developers by 2024](https://www.nationalskillsnetwork.in/5-reasons-to-launch-your-career-as-full-stack-developer-in-2021/). The MERN stack has gained a lot of traction amongst both startups and enterprises, and it is no surprise that it is the most demanded tech stack for learning in bootcamps as well. AltCampus has an [exhaustive curriculum](https://altcampus.com/curriculum) with focused content that ensures learners reach their goals with no necessity to search for resources elsewhere.
 
 ## Jump onto the wagon
 
 The No-CS Degree has become more than an exception today. People and companies alike are embracing the shift and seeing success as well. It is the best time now to jump onto the bandwagon and join thousands of fellow developers in software development.
 
-Now that you know you can become a software developer without a CS degree, [read this to learn everything you need to know to start learning full-stack web development](https://altcampus.school/posts/heres-everything-you-need-to-know-to-become-a-full-stack-web-developer). AltCampus is here to help you throughout your learning journey. Hop on to our [free trial](https://try.altcampus.school/) and start learning today! 🚀
+Now that you know you can become a software developer without a CS degree, [read this to learn everything you need to know to start learning full-stack web development](https://altcampus.com/posts/heres-everything-you-need-to-know-to-become-a-full-stack-web-developer). AltCampus is here to help you throughout your learning journey. Hop on to our [free trial](https://try.altcampus.com/) and start learning today! 🚀

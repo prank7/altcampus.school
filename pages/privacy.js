@@ -6,7 +6,7 @@ function Privacy(props) {
   return (
     <>
       <Head>
-        <title>Privacy Policy | AltCampus School</title>
+        <title>Privacy Policy | AltCampus</title>
       </Head>
 
       <LayoutHome>
@@ -17,7 +17,7 @@ function Privacy(props) {
             </h1>
           </article>
           <p>
-            This website ‘altcampus.school’ (‘Website’) is owned and operated by
+            This website ‘altcampus.com’ (‘Website’) is owned and operated by
             AltCampus Services Private Limited (‘AltCampus’), a company
             incorporated and registered under the laws of the Republic of India.
           </p>
@@ -126,7 +126,7 @@ function Privacy(props) {
               2.12 ‘Website’ refers to all web pages, any content such as
               textual, visual or aural (including modules, videos, including
               calls to action, text placement, images and other information)
-              made available online and/ or offline through altcampus.school and
+              made available online and/ or offline through altcampus.com and
               provided by AltCampus;
             </li>
           </ul>

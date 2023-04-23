@@ -101,4 +101,4 @@ Here are few interview questions related to underlying technologies used in MERN
 - Explain Context API in React?
 - Explain advanced hooks in React?
 
-The above questions should get you a pretty good idea on what you might be asked in a [MERN stack](https://altcampus.school/community/guides/the-ultimate-guide-to-MERN-stack), fullstack developer interview.
+The above questions should get you a pretty good idea on what you might be asked in a [MERN stack](https://altcampus.com/community/guides/the-ultimate-guide-to-MERN-stack), fullstack developer interview.

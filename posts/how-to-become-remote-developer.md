@@ -11,7 +11,7 @@ author: 'ivinoop'
 
 The year 2020 brought a phenomenal shift in how companies work, owing to the global pandemic situation. While many companies, both legacy and new, embraced the remote / work-from-home culture, there have been numerous companies that have been fully remote since their inception many years ago.
 
-Today, in 2021, the [median salary of a remote software developer](https://remoteok.io/remote-work-statistics) from remote hiring companies is ~ $130,000 USD. Developers from anywhere in the world can get these payscales regardless of location. [Full stack developer salaries in India](https://altcampus.school/posts/full-stack-developer-career-salary) can range from 9-15 LPA depending on skills and experience.
+Today, in 2021, the [median salary of a remote software developer](https://remoteok.io/remote-work-statistics) from remote hiring companies is ~ $130,000 USD. Developers from anywhere in the world can get these payscales regardless of location. [Full stack developer salaries in India](https://altcampus.com/posts/full-stack-developer-career-salary) can range from 9-15 LPA depending on skills and experience.
 
 ## So why remote?
 
@@ -35,9 +35,9 @@ Being able to upskill as and when required is another important trait as a softw
 
 MERN stack developers are in great demand, and will be so, for the next decade. Companies are moving to web based software development, and skilled web developers are always in need.
 
-With JavaScript as the only language in the entire MERN ecosystem, anyone can [learn to code and become a developer today](https://altcampus.school/). Wondering why you should learn MERN Stack? Here is [a compelling article](https://altcampus.school/posts/why-should-you-learn-MERN-stack) to clear all your doubts.
+With JavaScript as the only language in the entire MERN ecosystem, anyone can [learn to code and become a developer today](https://altcampus.com/). Wondering why you should learn MERN Stack? Here is [a compelling article](https://altcampus.com/posts/why-should-you-learn-MERN-stack) to clear all your doubts.
 
-If you a beginner, or are familiar with other domains in IT and want to switch over to web development, you need to be clear with the fundamental concepts of how the web works, along with basic HTML, CSS, and JavaScript. These are the [prerequisites to learn before diving into MERN Stack](https://altcampus.school/posts/prerequisites-for-learning-MERN-stack).
+If you a beginner, or are familiar with other domains in IT and want to switch over to web development, you need to be clear with the fundamental concepts of how the web works, along with basic HTML, CSS, and JavaScript. These are the [prerequisites to learn before diving into MERN Stack](https://altcampus.com/posts/prerequisites-for-learning-MERN-stack).
 
 ### Build projects
 
@@ -45,7 +45,7 @@ Projects are the best way to showcase your capability. If you are able to build 
 
 Create GitHub repositories for your projects and host them on sites like Netlify, Heroku, GitHub Pages for recruiters to see.
 
-Start simple. Build [projects in HTML and CSS](https://altcampus.school/posts/list-of-simple-projects-to-build-to-learn-and-be-good-at-html-and-css) to solidify your fundamentals. Once you are confident in these skills, dive into full stack development by building these [beginner projects for MERN stack](https://altcampus.school/posts/10-full-stack-beginner-project-ideas-for-learning-MERN-stack).
+Start simple. Build [projects in HTML and CSS](https://altcampus.com/posts/list-of-simple-projects-to-build-to-learn-and-be-good-at-html-and-css) to solidify your fundamentals. Once you are confident in these skills, dive into full stack development by building these [beginner projects for MERN stack](https://altcampus.com/posts/10-full-stack-beginner-project-ideas-for-learning-MERN-stack).
 
 You are already halfway there 🎯
 
@@ -53,9 +53,9 @@ You are already halfway there 🎯
 
 A portfolio is the modern developer's gateway to great jobs and opportunities. Though resumes are required, portfolio sites can convey way more information to potential employers at the click of a button.
 
-If you are a frontend developer, then there is virtually no limit to the creativity you can express on your portfolio site. Here's a great [article to get you started](https://altcampus.school/posts/how-to-build-a-great-portfolio-as-a-beginner-developer).
+If you are a frontend developer, then there is virtually no limit to the creativity you can express on your portfolio site. Here's a great [article to get you started](https://altcampus.com/posts/how-to-build-a-great-portfolio-as-a-beginner-developer).
 
-ReactJS is a solid frontend skill to have, since more than 9000 companies use it to deliver seamless client exprience for web apps. [Know this before learning ReactJS](https://altcampus.school/posts/prerequisites-for-react-js). Here are [10 great project ideas](https://altcampus.school/posts/10-project-ideas-for-learning-react-js) to go from beginner to advanced ReactJS developer.
+ReactJS is a solid frontend skill to have, since more than 9000 companies use it to deliver seamless client exprience for web apps. [Know this before learning ReactJS](https://altcampus.com/posts/prerequisites-for-react-js). Here are [10 great project ideas](https://altcampus.com/posts/10-project-ideas-for-learning-react-js) to go from beginner to advanced ReactJS developer.
 
 ### Write blogs
 
@@ -89,4 +89,4 @@ From the company's perspective, this is a great point in your favor.
 
 ## Become a remote software developer today
 
-If you are ready to take the jump, look no further. Our comprehensive [fully online course](https://altcampus.school/) takes you from zero to job-ready as a full stack developer. Start learning for [free](https://try.altcampus.school/) today 🚀.
+If you are ready to take the jump, look no further. Our comprehensive [fully online course](https://altcampus.com/) takes you from zero to job-ready as a full stack developer. Start learning for [free](https://try.altcampus.com/) today 🚀.

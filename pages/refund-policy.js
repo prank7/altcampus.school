@@ -6,7 +6,7 @@ function RefundPolicy(props) {
   return (
     <>
       <Head>
-        <title>Refund Policy | AltCampus School</title>
+        <title>Refund Policy | AltCampus</title>
       </Head>
       <LayoutHome>
         <main class="max-w-3xl mx-auto px-6 space-y-4 text-gray-600 py-8 pb-16 space-y-3 font-normal antialiased">

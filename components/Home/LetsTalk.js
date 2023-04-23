@@ -18,7 +18,7 @@ function LetsTalk(props) {
             className='mt-4 md:mt-0 bg-white tracking-wider uppercase text-dark-blue-500 py-3 px-12 inline-block rounded shadow-md btn-hover font-semibold sm:ml-10'
             target='_blank'
             rel='noopener'
-            href='https://try.altcampus.school?utm_source=lets_talk_cta'
+            href='https://try.altcampus.com?utm_source=lets_talk_cta'
           >
             TRY For Free!
           </a>

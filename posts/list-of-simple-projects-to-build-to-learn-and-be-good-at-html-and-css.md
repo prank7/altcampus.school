@@ -172,4 +172,4 @@ All these projects are to practice all concepts of HTML & CSS. Now before you st
 
 Google about portfolio websites, take some inspiration from others, and build your own.
 
-If you are more curious, want to learn the concepts, and build all these projects steps by step, do checkout [AltCampus](https://altcampus.school/) and kickstart your web developer journey for <a href="https://try.altcampus.school/" target="_blank">Free</a> 🚀
+If you are more curious, want to learn the concepts, and build all these projects steps by step, do checkout [AltCampus](https://altcampus.com/) and kickstart your web developer journey for <a href="https://try.altcampus.com/" target="_blank">Free</a> 🚀

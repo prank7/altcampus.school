@@ -4,7 +4,7 @@ description: 'From Dropping out of college to learning fullstack web development
 date: '2023-04-23'
 blurb: 'Chaduvula shares about learning to code, AltCampus, getting first job and advice for newbies.'
 studentPhoto: '/images/students/chaduvula-sq.svg'
-photo: 'https://altcampus.school/images/stories/Chaduvula-AltCampus-placement-bootcamp.png'
+photo: 'https://altcampus.com/images/stories/Chaduvula-AltCampus-placement-bootcamp.png'
 name: 'Prasanth Chaduvula'
 company: 'BigBinary'
 cta: true

@@ -126,11 +126,11 @@ function Navbar(params) {
             <li className="mt-4 md:mt-0 md:ml-8">
               <Link
                 className="flex w-full md:w-auto justify-center text-xl md:text-base text-white font-bold px-12 py-4 md:px-4 md:py-1 rounded uppercase bg-green-theme-500 border border-green-theme-500 shadow-md btn-hover tracking-wide text-center"
-                href="https://launchpad.altcampus.school/signup"
+                href="https://launchpad.altcampus.com/signup"
               >
                 <>
                   <span className="hidden md:inline-block">signup</span>
-                  <span className="md:hidden">signup for AltCampus School</span>
+                  <span className="md:hidden">signup for AltCampus</span>
                 </>
               </Link>
             </li>
@@ -147,7 +147,7 @@ function Navbar(params) {
                 Existing Student?
               </span>
               <Link
-                href="https://launchpad.altcampus.school/login"
+                href="https://launchpad.altcampus.com/login"
                 className="pl-2 text-green-theme-600 hover:text-green-theme-500 transition ease-in-out duration-150"
               >
                 Sign in

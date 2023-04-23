@@ -9,10 +9,10 @@ import { getAllAlumnisData } from '../../lib/airtableApi';
 import { getCourses } from '../../lib/courseData';
 
 function CoursePage({ alumnis, courses }) {
-  var title = 'AltCampus Placements | AltCampus School';
+  var title = 'AltCampus Placements';
   var description =
     "Placement stats and success stories from India's best programming bootcamp. AltCampus reviews and experiences shared by our students.";
-  var url = 'https://altcampus.school/placements';
+  var url = 'https://altcampus.com/placements';
 
   return (
     <>
@@ -25,7 +25,7 @@ function CoursePage({ alumnis, courses }) {
           description,
           images: [
             {
-              url: 'https://altcampus.school/assets/media/placement-page.png',
+              url: 'https://altcampus.com/assets/media/placement-page.png',
               alt: title
             }
           ]

@@ -4,7 +4,7 @@ description: "Komal's advice for beginners, her experience at AltCampus as one o
 date: '2023-04-23'
 blurb: Komal shares about learning to code at AltCampus, getting first job and advice for newbies.
 studentPhoto: '/images/students/komal-sq.svg'
-photo: 'https://altcampus.school/images/stories/Komal-AltCampus-placement.png'
+photo: 'https://altcampus.com/images/stories/Komal-AltCampus-placement.png'
 name: 'Komal Raj'
 company: 'Khelomore'
 cta: true

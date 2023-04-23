@@ -7,6 +7,7 @@ module.exports = {
       'avatars0.githubusercontent.com',
       'avatars1.githubusercontent.com',
       'avatars2.githubusercontent.com',
+      'altcampus.com',
       'altcampus.school',
       'pbs.twimg.com',
       'abs.twimg.com'

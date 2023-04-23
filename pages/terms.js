@@ -6,7 +6,7 @@ function Terms(props) {
   return (
     <>
       <Head>
-        <title>Terms | AltCampus School</title>
+        <title>Terms | AltCampus</title>
       </Head>
       <LayoutHome>
         <section className="max-w-3xl mx-auto px-6 space-y-4 text-gray-700 py-8 pb-16">
@@ -17,7 +17,7 @@ function Terms(props) {
           </article>
           <p>
             This Terms of Use (as defined below) shall govern the use of
-            ‘altcampus.school’, the AltCampus mobile applications, television
+            ‘altcampus.com’, the AltCampus mobile applications, television
             applications, our API’s and other related services (‘Website’). The
             Website is owned and operated by AltCampus Services Private Limited
             (’AltCampus’), a company incorporated and registered under the laws
@@ -250,7 +250,7 @@ function Terms(props) {
               contrary or any proprietary material owned by a third party and so
               expressly mentioned, AltCampus owns all Intellectual Property
               Rights to and into the trademarks ‘‘AltCampus Services Private
-              Limited’ and ‘altcampus.school’, and the Website, including,
+              Limited’ and ‘altcampus.com’, and the Website, including,
               without limitation, any and all rights, title and interest in and
               to copyright, related rights, logos, patents, utility models,
               designs, know-how, trade secrets and inventions (including any

@@ -23,7 +23,7 @@ A full-stack MERN developer should be prolific in different fields of developmen
 
 Sometimes it is hard to push yourself to learn all the components required to be a full-stack developer at once. Instead, we can follow another approach where we master either frontend or backend and have a working knowledge of others. Slowly we can improve on the other parts, based on the use cases inside the application.
 
-A step by step approach to learning diferent technologies in MERN stack could synchronize the different pieces by interlinking them and making the entire learning process smooth and less time consuming. If you have been wondering why you should learn MERN stack then [read this](https://altcampus.school/posts/why-should-you-learn-MERN-stack).
+A step by step approach to learning diferent technologies in MERN stack could synchronize the different pieces by interlinking them and making the entire learning process smooth and less time consuming. If you have been wondering why you should learn MERN stack then [read this](https://altcampus.com/posts/why-should-you-learn-MERN-stack).
 
 The order for learning MERN stack is as follow:
 
@@ -99,4 +99,4 @@ Concepts to master in React are
 - Routing in React
 - Context API & React hooks
 
-Needless to say, all of the above concepts have been covered in [our AltCampus course](https://altcampus.school) in detail along with plenty of practice materials, feedback videos and projects to make the learning faster and easier.
+Needless to say, all of the above concepts have been covered in [our AltCampus course](https://altcampus.com) in detail along with plenty of practice materials, feedback videos and projects to make the learning faster and easier.

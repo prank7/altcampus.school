@@ -5,8 +5,8 @@ import { NextSeo } from 'next-seo';
 function ContactPage(props) {
   var title = 'Contact | AltCampus';
   var description =
-    "Contact AltCampus, India's best programming bootcamp to get a job as a software developer.";
-  var url = 'https://altcampus.school/contact';
+    "Contact AltCampus, the best courses in MERN stack to help you get a job as a software developer.";
+  var url = 'https://altcampus.com/contact';
   return (
     <>
       <NextSeo
@@ -14,7 +14,7 @@ function ContactPage(props) {
         description={description}
         openGraph={{
           url,
-          site_name: 'AltCampus School',
+          site_name: 'AltCampus',
           title,
           description
         }}

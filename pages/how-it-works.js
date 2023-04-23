@@ -8,7 +8,7 @@ function HowItWorks(props) {
   var title = 'How AltCampus Works | AltCampus School';
   var description =
     'AltCampus is one of the best programming bootcamps in India. Learn how it helps you get a job as a full stack web developer.';
-  var url = 'https://altcampus.school/how-it-works';
+  var url = 'https://altcampus.com/how-it-works';
 
   return (
     <>
@@ -169,7 +169,7 @@ function Content() {
 
         <div className="text-center mt-12">
           <a
-            href="https://launchpad.altcampus.school/signup"
+            href="https://launchpad.altcampus.com/signup"
             className="text-md text-white bg-green-theme-500 hover:bg-green-theme-600 uppercase py-3 px-20 inline-block mt-6 rounded font-semibold tracking-wider btn-hover font-mukta"
           >
             START LEARNING NOW

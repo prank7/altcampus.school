@@ -100,12 +100,12 @@ function Navbar() {
                 </div>
               </ActiveLink>
               <ResourcesMenu />
-              <ActiveLink href="https://launchpad.altcampus.school/login">
+              <ActiveLink href="https://launchpad.altcampus.com/login">
                 <div className="text-sm text-gray-500 hover:text-royal-blue-900 duration-300 ease-in-out transition py-5">
                   Login
                 </div>
               </ActiveLink>
-              <ActiveLink href="https://launchpad.altcampus.school/signup">
+              <ActiveLink href="https://launchpad.altcampus.com/signup">
                 <div className="bg-green-theme-900 hover:bg-green-theme-700 transition duration-300 ease-in-out text-white rounded font-semibold py-3 px-8">
                   Signup
                 </div>
@@ -197,13 +197,13 @@ function MobileNavigation({ open }) {
             <div className="flex items-center justify-center text-center">
               <a
                 className="inline-flex content-center items-center text-xl text-white font-bold px-8 py-3 md:px-4 md:py-1 rounded uppercase bg-dark-blue-600 border  shadow-md btn-hover tracking-wide mr-3 w-1/2 justify-center"
-                href="https://launchpad.altcampus.school/signup"
+                href="https://launchpad.altcampus.com/signup"
               >
                 sign up
               </a>
               <a
                 className="inline-flex content-center items-center text-xl text-white font-bold px-8 py-3 md:px-4 md:py-1 rounded uppercase bg-green-theme-500 border border-green-theme-500 shadow-md btn-hover tracking-wide w-1/2 justify-center"
-                href="https://try.altcampus.school"
+                href="https://try.altcampus.com"
               >
                 Try for Free
               </a>
