@@ -13,12 +13,10 @@ function Testimonial(props) {
           <header>
             <blockquote className="font-Karla text-xl relative">
               <p className="text-opacity-60 text-royal-blue-200">
-                I feel proud to be a first batch, When I look back at my time in
-                AltCampus then I feel that was a great experience. AltCampus
-                provided me a platform to realize my potential, to make a module
-                approach with keen focus on learning and a strong collaboration.
-                All mentors were outstanding & gave me the best guidance
-                possible. I am overwhelmed by being an Alumni of AltCampus for
+                Feel proud to have done this amazing course. AltCampus
+                provided me a platform to realize my potential, to take a step-by-step
+                approach with keen focus on learning and building stuff.
+                The countless assignments and projects that I did made me a confident and job ready developer. Extremely proud of being an alumni of AltCampus and grateful for
                 whatever & wherever I am today.
               </p>
               <cite className="not-italic inline-block mt-6">

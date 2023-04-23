@@ -31,7 +31,7 @@ function Pricing(props) {
         <div className="max-w-5xl mx-auto px-3 sm:px-0">
           <header>
             <h3 className="text-center font-bold text-gray-500 text-2xl">
-              Price is what you pay, Value is what you get
+              Bootcamp style courses but 10x cheaper
             </h3>
           </header>
           <div className="md:grid md:grid-cols-2 gap-x-24 mt-24">

@@ -2,7 +2,7 @@ import React from 'react';
 import CourseModelContent from './CourseModelContent';
 import CourseModelGraphics from './CourseModelGraphics';
 
-function CourseModel(props) {
+function CourseModel() {
   return (
     <section className="mt-8">
       <div className="relative">
@@ -11,29 +11,29 @@ function CourseModel(props) {
             <article className="max-w-5xl mx-auto pb-10 sm:pb-16 sm:flex items-center justify-between relative z-10">
               <div className="max-w-lg">
                 <h4 className="text-xl text-gray-500 mb-6">
-                  Not only theory but their application…
+                  Learn by doing. Less theory, more practice
                 </h4>
                 <h2 className="font-bold text-royal-blue-800 text-4.5xl">
-                  All hands{' '}
+                  Step-by-step, hands on{' '}
                   <strong className="text-green-theme-900">
                     project based
                   </strong>{' '}
-                  approach
+                  learning
                 </h2>
                 <CourseModelContent
                   intro={
-                    'Get real-world programming skills - take part in our hackathons to learn and grow with community.'
+                    'Our assignments and projects help you learn by building small, real world usecases with progressively increasing complexity. '
                   }
                   subIntro={
-                    'We will also help you learn, create, clone and work on various commerce, Saas and other complex projects.'
+                    'Learn by building projects like chrome extension, e-commerce store, blogging app and more.'
                   }
                   action={'Project sample in action'}
                 />
               </div>
 
               <CourseModelGraphics
-                image={'/images/graphics-project.svg'}
-                alt={'Graphics for Project'}
+                image={'/images/graphics-team.svg'}
+                alt={'Learn MERN stack web development by building projects'}
               />
             </article>
           </div>
@@ -45,25 +45,36 @@ function CourseModel(props) {
             <article className="max-w-5xl mx-auto pt-12 pb-10 sm:pb-16 sm:flex items-center justify-between relative z-10">
               <div className="max-w-xl">
                 <h4 className="text-xl text-gray-500 mb-6">
-                  Do it your own way…
+                  Hurry is worry. No catching up with others
                 </h4>
                 <h2 className="font-bold text-royal-blue-800 text-4.5xl">
-                  Learn Alone or with{' '}
+                  Your speed may vary. Learn at {' '}
                   <strong className="text-green-theme-900">
-                    Cohort course
+                    your own pace
                   </strong>
                 </h2>
                 <CourseModelContent
+<<<<<<< HEAD
                   intro={
-                    'Curabitur lobortis id lorem id bibendum. Ut id consectetur magna. Quisque volutpat augue enim, pulvinar lobortis nibh lacinia at. Vestibulum nec erat ut'
+                    'Our courses are well thought out and pre-recorded, allowing you to move at your own pace and doing it whenever you want - day or night, part-time or full-time. No catching up with a cohort.'
                   }
+                  subIntro={`It doesn't mean you have no support. You will have access to our forums where you can connect with other students and ask questions that the community will help you out with.`}
                   action={'Enroll Now'}
+=======
+                  intro="Curabitur lobortis id lorem id bibendum. Ut id consectetur magna. Quisque volutpat augue enim, pulvinar lobortis nibh lacinia at. Vestibulum nec erat ut"
+                  action="Enroll Now"
+>>>>>>> ac-rebranding
                 />
               </div>
 
               <CourseModelGraphics
-                image={'/images/graphics-team.svg'}
+<<<<<<< HEAD
+                image={'/images/graphics-project.svg'}
                 alt={'Graphics for Team'}
+=======
+                image="/images/graphics-team.svg"
+                alt="Graphics for Team"
+>>>>>>> ac-rebranding
               />
             </article>
           </div>
@@ -76,22 +87,28 @@ function CourseModel(props) {
             <article className="max-w-5xl mx-auto pt-12 pb-10 sm:pb-40 sm:flex items-center justify-between relative z-10">
               <div className="max-w max-w-lg">
                 <h4 className="text-xl text-gray-500 mb-6">
-                  An option to be guided…
+                  Don't be stuck. Get the help you need
                 </h4>
                 <h2 className="font-bold text-royal-blue-800 text-4.5xl">
-                  <strong className="text-green-theme-900">Mentorship</strong> -
-                  So that you are wrong only once
+                  <strong className="text-green-theme-900">Community Forum </strong>
+                  to answer your queries
                 </h2>
                 <CourseModelContent
+<<<<<<< HEAD
                   intro={
-                    'Curabitur lobortis id lorem id bibendum. Ut id consectetur magna. Quisque volutpat augue enim, pulvinar lobortis nibh lacinia at. Vestibulum nec erat ut'
+                    'Our courses are thorough and pretty comprehensive. However, when stuck you can ask your queries in the community forum where other students and instructors will answer them.'
                   }
+                  subIntro={`We encourage students to connect with other students, seek help and help others to make it an immersive learning experience.`}
                   action={'Meet the team'}
+=======
+                  intro="Curabitur lobortis id lorem id bibendum. Ut id consectetur magna. Quisque volutpat augue enim, pulvinar lobortis nibh lacinia at. Vestibulum nec erat ut"
+                  action="Meet the team"
+>>>>>>> ac-rebranding
                 />
               </div>
               <CourseModelGraphics
-                image={'/images/graphics-cohort.svg'}
-                alt={'Graphics for Cohort'}
+                image="/images/graphics-cohort.svg"
+                alt="Graphics for Cohort"
               />
             </article>
           </div>
