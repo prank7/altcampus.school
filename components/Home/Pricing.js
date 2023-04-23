@@ -26,7 +26,7 @@ function Pricing(props) {
   let fullTracks = props.courses.tracks.filter((a) => !a.isMiniTrack);
 
   return (
-    <section className="py-24">
+    <section className="py-24 bg-blur-background bg-contain bg-center">
       <div className="container mx-auto px-8 sm:px-3">
         <header>
           <h3 className="text-center font-bold text-royal-blue-800 text-4xl leading-snug">
@@ -226,7 +226,7 @@ function Pricing(props) {
               Rupees
             </strong>
           </div> */}
-        <div className="grid md:grid-cols-2 max-w-6xl mx-auto mt-20">
+        <div className="grid md:grid-cols-2 max-w-6xl mx-auto mt-20  px-12">
           <article className="md:pr-16 md:border-r-2 border-gray-200">
             <header className="text-center">
               <h3 className="text-gray-500 font-bold text-2xl">
@@ -235,7 +235,7 @@ function Pricing(props) {
               <h5 className="text-gray-500 font-normal">starting with ₹ 5K </h5>
             </header>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-12 text-center mt-10">
-              <figure className="shadow-lg-custom pt-10 pb-6 px-2 rounded-md">
+              <figure className="shadow-lg-custom pt-5 pb-3 px-2 rounded-md border-2 border-white hover:border-royal-blue-600 hover:scale-105 transform  transition-all duration-500 cursor-pointer bg-white">
                 <img
                   className="inline-block h-16"
                   src="/images/icons/html-css.svg"
@@ -245,7 +245,7 @@ function Pricing(props) {
                   HTML & CSS
                 </figcaption>
               </figure>
-              <figure className="shadow-lg-custom pt-10 pb-6 px-2 rounded-md">
+              <figure className="shadow-lg-custom pt-5 pb-3 px-2 rounded-md border-2 border-white hover:border-royal-blue-600 hover:scale-105 transform transition-all duration-500 cursor-pointer bg-white">
                 <img
                   className="inline-block h-16"
                   src="/images/icons/react.svg"
@@ -255,7 +255,7 @@ function Pricing(props) {
                   React
                 </figcaption>
               </figure>
-              <figure className="shadow-lg-custom pt-10 pb-6 px-2 rounded-md">
+              <figure className="shadow-lg-custom pt-5 pb-3 px-2 rounded-md border-2 border-white hover:border-royal-blue-600 hover:scale-105 transform transition-all duration-500 cursor-pointer bg-white">
                 <img
                   className="inline-block h-16"
                   src="/images/icons/js.svg"
@@ -265,7 +265,7 @@ function Pricing(props) {
                   JavaScript
                 </figcaption>
               </figure>
-              <figure className="shadow-lg-custom pt-10 pb-6 px-2 rounded-md">
+              <figure className="shadow-lg-custom pt-5 pb-3 px-2 rounded-md border-2 border-white hover:border-royal-blue-600 hover:scale-105 transform transition-all duration-500 cursor-pointer bg-white">
                 <img
                   className="inline-block h-16"
                   src="/images/icons/node-md.svg"
@@ -275,7 +275,7 @@ function Pricing(props) {
                   NodeJs
                 </figcaption>
               </figure>
-              <figure className="shadow-lg-custom pt-10 pb-6 px-2 rounded-md">
+              <figure className="shadow-lg-custom pt-5 pb-3 px-2 rounded-md border-2 border-white hover:border-royal-blue-600 hover:scale-105 transform transition-all duration-500 cursor-pointer bg-white">
                 <img
                   className="inline-block h-16"
                   src="/images/icons/mongo-md.svg"
@@ -285,7 +285,7 @@ function Pricing(props) {
                   MongoDB
                 </figcaption>
               </figure>
-              <figure className="shadow-lg-custom pt-10 pb-6 px-2 rounded-md">
+              <figure className="shadow-lg-custom pt-5 pb-3 px-2 rounded-md border-2 border-white hover:border-royal-blue-600 hover:scale-105 transform transition-all duration-500 cursor-pointer bg-white">
                 <div className="w-16 h-16 bg-royal-blue-200 rounded-full inline-flex justify-center items-center">
                   <span className="text-base text-royal-blue-800 font-semibold">
                     +5
@@ -305,7 +305,7 @@ function Pricing(props) {
               <h5 className="text-gray-500 font-normal">starting with ₹ 65K</h5>
             </header>
             <div className="mt-10">
-              <article className="flex justify-between items-center bg-white p-8 rounded-md shadow-lg-custom">
+              <article className="flex justify-between items-center bg-white py-5 px-4 rounded-md shadow-lg-custom border-2 border-white hover:border-royal-blue-600 hover:scale-105 transform transition-all duration-500 cursor-pointer">
                 <h3 className="text-base font-semibold text-royal-blue-800">
                   Front-End <br /> Development
                 </h3>
@@ -319,7 +319,7 @@ function Pricing(props) {
                   />
                 </figure>
               </article>
-              <article className="flex justify-between items-center bg-white p-8 rounded-md shadow-lg-custom mt-8">
+              <article className="flex justify-between items-center bg-white py-5 px-4 rounded-md shadow-lg-custom border-2 border-white hover:border-royal-blue-600 hover:scale-105 transform transition-all duration-500 cursor-pointer mt-8">
                 <h3 className="text-base font-semibold text-royal-blue-800">
                   Back-End <br /> Development
                 </h3>
@@ -333,7 +333,7 @@ function Pricing(props) {
                   />
                 </figure>
               </article>
-              <article className="flex justify-between items-center bg-white p-8 rounded-md shadow-lg-custom mt-8">
+              <article className="flex justify-between items-center bg-white py-5 px-4 rounded-md shadow-lg-custom border-2 border-white hover:border-royal-blue-600 hover:scale-105 transform transition-all duration-500 cursor-pointer mt-8">
                 <h3 className="text-base font-semibold text-royal-blue-800">
                   Full-Stack <br /> Development
                 </h3>
