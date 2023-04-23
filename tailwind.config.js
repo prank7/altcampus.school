@@ -127,7 +127,8 @@ module.exports = {
         '07': '0.07'
       },
       backgroundImage: {
-        'multi-color': "url('/images/multi-bg-color.svg')"
+        'multi-color': "url('/images/multi-bg-color.svg')",
+        'blur-background': "url('/images/bg-blur-sm.svg')"
       }
     }
   },

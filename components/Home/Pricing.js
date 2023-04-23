@@ -26,7 +26,7 @@ function Pricing(props) {
   let fullTracks = props.courses.tracks.filter((a) => !a.isMiniTrack);
 
   return (
-    <section className="py-24">
+    <section className="py-24 bg-blur-background bg-contain bg-center">
       <div className="container mx-auto px-8 sm:px-3">
         <header>
           <h3 className="text-center font-bold text-royal-blue-800 text-4xl leading-snug">
@@ -226,7 +226,7 @@ function Pricing(props) {
               Rupees
             </strong>
           </div> */}
-        <div className="grid md:grid-cols-2 max-w-6xl mx-auto mt-20">
+        <div className="grid md:grid-cols-2 max-w-6xl mx-auto mt-20  px-12">
           <article className="md:pr-16 md:border-r-2 border-gray-200">
             <header className="text-center">
               <h3 className="text-gray-500 font-bold text-2xl">
@@ -235,25 +235,57 @@ function Pricing(props) {
               <h5 className="text-gray-500 font-normal">starting with ₹ 5K</h5>
             </header>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-12 text-center mt-10">
-              {
-                specificSkills.map((skill, i) => {
-                  return (
-                    <Link key={i} href={`/courses/${skill.slug}`}>
-                      <figure key={i} className="shadow-lg-custom pt-10 pb-6 px-2 rounded-md">
-                        <img
-                          className="inline-block h-16"
-                          src={skill.image || "/images/icons/html-css.svg"}
-                          alt={skill.name}
-                        />
-                        <figcaption className="text-royal-blue-800 mt-6 font-semibold text-base">
-                          {skill.name}
-                        </figcaption>
-                      </figure>
-                    </Link>
-                  )
-                })
-              }  
-              <figure className="shadow-lg-custom pt-10 pb-6 px-2 rounded-md">
+              <figure className="shadow-lg-custom pt-5 pb-3 px-2 rounded-md border-2 border-white hover:border-royal-blue-600 hover:scale-105 transform  transition-all duration-500 cursor-pointer bg-white">
+                <img
+                  className="inline-block h-16"
+                  src="/images/icons/html-css.svg"
+                  alt="HTML CSS"
+                />
+                <figcaption className="text-royal-blue-800 mt-6 font-semibold text-base">
+                  HTML & CSS
+                </figcaption>
+              </figure>
+              <figure className="shadow-lg-custom pt-5 pb-3 px-2 rounded-md border-2 border-white hover:border-royal-blue-600 hover:scale-105 transform transition-all duration-500 cursor-pointer bg-white">
+                <img
+                  className="inline-block h-16"
+                  src="/images/icons/react.svg"
+                  alt="React"
+                />
+                <figcaption className="text-royal-blue-800 mt-6 font-semibold text-base">
+                  React
+                </figcaption>
+              </figure>
+              <figure className="shadow-lg-custom pt-5 pb-3 px-2 rounded-md border-2 border-white hover:border-royal-blue-600 hover:scale-105 transform transition-all duration-500 cursor-pointer bg-white">
+                <img
+                  className="inline-block h-16"
+                  src="/images/icons/js.svg"
+                  alt="JavaScript"
+                />
+                <figcaption className="text-royal-blue-800 mt-6 font-semibold text-base">
+                  JavaScript
+                </figcaption>
+              </figure>
+              <figure className="shadow-lg-custom pt-5 pb-3 px-2 rounded-md border-2 border-white hover:border-royal-blue-600 hover:scale-105 transform transition-all duration-500 cursor-pointer bg-white">
+                <img
+                  className="inline-block h-16"
+                  src="/images/icons/node-md.svg"
+                  alt="HTML CSS"
+                />
+                <figcaption className="text-royal-blue-800 mt-6 font-semibold text-base">
+                  NodeJs
+                </figcaption>
+              </figure>
+              <figure className="shadow-lg-custom pt-5 pb-3 px-2 rounded-md border-2 border-white hover:border-royal-blue-600 hover:scale-105 transform transition-all duration-500 cursor-pointer bg-white">
+                <img
+                  className="inline-block h-16"
+                  src="/images/icons/mongo-md.svg"
+                  alt="HTML CSS"
+                />
+                <figcaption className="text-royal-blue-800 mt-6 font-semibold text-base">
+                  MongoDB
+                </figcaption>
+              </figure>
+              <figure className="shadow-lg-custom pt-5 pb-3 px-2 rounded-md border-2 border-white hover:border-royal-blue-600 hover:scale-105 transform transition-all duration-500 cursor-pointer bg-white">
                 <div className="w-16 h-16 bg-royal-blue-200 rounded-full inline-flex justify-center items-center">
                   <span className="text-base text-royal-blue-800 font-semibold">
                     +5
@@ -273,28 +305,48 @@ function Pricing(props) {
               <h5 className="text-gray-500 font-normal">starting with ₹ 65K</h5>
             </header>
             <div className="mt-10">
-              {
-                fullTracks.map((track, i) => {
-                  return (
-                    <Link key={i} href={`/courses/${track.slug}`}>
-                      <article key={i} className={`flex justify-between items-center bg-white p-8 rounded-md shadow-lg-custom ${i !== 0 ? ' mt-8' : ''}`}>
-                        <h3 className="text-base font-semibold text-royal-blue-800">
-                          {track.name}
-                        </h3>
-                        <figure className="flex gap-x-3">
-                          <img src="/images/icons/html.svg" alt="html" />
-                          <img src="/images/icons/css.svg" alt="CSS" />
-                          <img src="/images/icons/js-rounded.svg" alt="js" />
-                          <img
-                            src="/images/icons/react-rounded.svg"
-                            alt="react-rounded"
-                          />
-                        </figure>
-                      </article>
-                    </Link>
-                  )
-                })
-              }
+              <article className="flex justify-between items-center bg-white py-5 px-4 rounded-md shadow-lg-custom border-2 border-white hover:border-royal-blue-600 hover:scale-105 transform transition-all duration-500 cursor-pointer">
+                <h3 className="text-base font-semibold text-royal-blue-800">
+                  Front-End <br /> Development
+                </h3>
+                <figure className="flex gap-x-3">
+                  <img src="/images/icons/html.svg" alt="html" />
+                  <img src="/images/icons/css.svg" alt="CSS" />
+                  <img src="/images/icons/js-rounded.svg" alt="js" />
+                  <img
+                    src="/images/icons/react-rounded.svg"
+                    alt="react-rounded"
+                  />
+                </figure>
+              </article>
+              <article className="flex justify-between items-center bg-white py-5 px-4 rounded-md shadow-lg-custom border-2 border-white hover:border-royal-blue-600 hover:scale-105 transform transition-all duration-500 cursor-pointer mt-8">
+                <h3 className="text-base font-semibold text-royal-blue-800">
+                  Back-End <br /> Development
+                </h3>
+                <figure className="flex gap-x-3">
+                  <img src="/images/icons/html.svg" alt="html" />
+                  <img src="/images/icons/css.svg" alt="CSS" />
+                  <img src="/images/icons/js-rounded.svg" alt="js" />
+                  <img
+                    src="/images/icons/react-rounded.svg"
+                    alt="react-rounded"
+                  />
+                </figure>
+              </article>
+              <article className="flex justify-between items-center bg-white py-5 px-4 rounded-md shadow-lg-custom border-2 border-white hover:border-royal-blue-600 hover:scale-105 transform transition-all duration-500 cursor-pointer mt-8">
+                <h3 className="text-base font-semibold text-royal-blue-800">
+                  Full-Stack <br /> Development
+                </h3>
+                <figure className="flex gap-x-3">
+                  <img src="/images/icons/html.svg" alt="html" />
+                  <img src="/images/icons/css.svg" alt="CSS" />
+                  <img src="/images/icons/js-rounded.svg" alt="js" />
+                  <img
+                    src="/images/icons/react-rounded.svg"
+                    alt="react-rounded"
+                  />
+                </figure>
+              </article>
             </div>
           </article>
         </div>

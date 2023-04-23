@@ -65,13 +65,12 @@ export default function ResourcesMenu() {
                     {resourceItems.map((item) => (
                       <Link
                         href={item.href}
-                        key={item.name}
                         className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-200 transition ease-in-out duration-150"
                       >
                         <>
                           <div className="flex items-center justify-center flex-shrink-0 text-white">
                             <item.icon
-                              className="flex-shrink-0 h-5 w-5 text-royal-blue-600 mt-1"
+                              className=" h-5 w-5 text-royal-blue-600 mt-1"
                               aria-hidden="true"
                             />
                           </div>

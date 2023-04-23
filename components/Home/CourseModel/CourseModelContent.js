@@ -14,12 +14,14 @@ function CourseModelContent(props) {
         className="text-green-theme-900 text-xl font-semibold flex items-center mt-6 animate-arrow"
         href={props.cta || '/'}
       >
-        <strong>{props.action}</strong>
-        <img
-          className="ml-12 arrow-slide"
-          src="/images/icons/arrow-right-green.svg"
-          alt="Arrow Right Icon"
-        />
+        <>
+          <strong>{props.action}</strong>
+          <img
+            className="ml-12 arrow-slide"
+            src="/images/icons/arrow-right-green.svg"
+            alt="Arrow Right Icon"
+          />
+        </>
       </Link>
     </div>
   );
