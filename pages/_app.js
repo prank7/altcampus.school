@@ -6,6 +6,7 @@ import Head from 'next/head';
 const GA_TRACKING_ID = 'UA-121886584-4';
 
 function MyApp({ Component, pageProps }) {
+  console.log(pageProps, Component, 'Page props');
   return (
     <>
       <Head>

@@ -3,9 +3,10 @@ import Document, { Html, Main, Head, NextScript } from 'next/document';
 const GA_TRACKING_ID = 'UA-121886584-4';
 
 class MyDocument extends Document {
+
   static async getInitialProps(ctx) {
     const initialProps = await Document.getInitialProps(ctx);
-    return { ...initialProps };
+    return { ...initialProps, pathname: ctx.asPath };
   }
 
   render() {
@@ -17,6 +18,7 @@ class MyDocument extends Document {
           <meta name="author" content="AltCampus" />
           <meta name="HandheldFriendly" content="True" />
           <meta name="MobileOptimized" content="320" />
+          <link rel="canonical" href={`https://altcampus.com${this.props.pathname}`} />
           <link
             rel="shortcut icon"
             type="image/png"
