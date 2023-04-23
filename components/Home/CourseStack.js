@@ -1,3 +1,4 @@
+import Link from 'next/dist/client/link';
 import React from 'react';
 
 function CourseStack(props) {
@@ -7,7 +8,7 @@ function CourseStack(props) {
         <div className="max-w-5xl mx-auto">
           <header className="mb-7">
             <h4 className="text-xl text-gray-500 ">
-              What you are going to learn…
+              What you are going to learn
             </h4>
           </header>
           <div className="md:grid md:grid-cols-2 gap-x-16 gap-y-9">
@@ -19,9 +20,7 @@ function CourseStack(props) {
                 </strong>{' '}
               </h2>
               <p className="font-Karla text-xl tracking-tight text-gray-500 leading-relaxed mt-8">
-                At Altcampus, you're going to learn the most sought after
-                programming languages today that are needed to call yourself a
-                'fulll-stack web developer".
+                Are you ready to become a full-stack web developer? Our courses cover the most in-demand programming skills of today. With our comprehensive curriculum, you'll learn <Link href="/courses/react.js">React</Link>, Express JS, Node JS, and Mongo DB – the trifecta of web development known as the MERN stack.
               </p>
             </article>
             <div className="relative my-12 md:my-0">
@@ -38,8 +37,7 @@ function CourseStack(props) {
             </div>
             <article className="">
               <p className="font-Karla text-xl tracking-tight text-gray-500 leading-relaxed mt-8">
-                These include React, Express Js and Node Js. We refer to these
-                as the 'MERN stack'.
+                By mastering these powerful tools, you'll be equipped to tackle any project and impress potential employers. Join us and take your skills to the next level!
               </p>
             </article>
             <article className="flex items-center bg-white py-6 px-7 shadow-lg-custom rounded-2xl relative z-10">

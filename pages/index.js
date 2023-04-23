@@ -39,9 +39,9 @@ function Home(props) {
           <ACStats />
           <Alumni />
           <CTA
-            titleA={'Did you know that'}
+            titleA={`Still wasting time figuring out`}
             titleB={
-              'Software Development is one of the most highly paid careers?'
+              'the best tutorials and exercises on the internet? Stop it.'
             }
             action={'Sign Up Now!'}
           />

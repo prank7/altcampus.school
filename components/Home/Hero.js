@@ -17,8 +17,8 @@ function Hero(props) {
       <article className="container mx-auto px-8 sm:px-3">
         <header className="md:grid md:grid-cols-2 gap-x-20 items-center justify-between">
         <h2 className="text-4xl sm:text-4.5xl md:text-5.5xl font-bold leading-tight col-span-1 text-royal-blue-800 max-w-2xl">
-          <strong className="md:block">Step by step course </strong>
-          <strong> to help you become a  </strong>
+          <strong className="md:block">Step by step courses </strong>
+          <strong> for becoming a  </strong>
           <strong className="text-green-theme-900"> job ready web developer </strong>
         </h2>
           <div className="bg-white col-span-1 flex items-center shadow-lg-custom py-7 pr-8 pl-8 rounded-2xl mt-8 md:mt-0 sm:ml-3.5">
@@ -55,7 +55,7 @@ function Hero(props) {
           </div>
         </header>
         <h5 className="text-xs uppercase font-medium space-x-4 text-royal-blue-800 mt-14 flex items-center justify-center md:justify-start">
-          <strong className="font-medium">Start from Basics</strong>
+          <strong className="font-medium">Start from scratch</strong>
           <span className="w-1.2 h-1.2 inline-block bg-gray-500 rounded-full"></span>
           <strong className="font-medium">Real world Project based</strong>
           <span className="w-1.2 h-1.2 inline-block bg-gray-500 rounded-full"></span>
@@ -64,7 +64,7 @@ function Hero(props) {
         <footer className="md:grid md:grid-cols-5 items-center mt-11">
           <h1 className="sm:col-span-4 text-xl sm:text-2xl leading-normal font-normal text-royal-blue-800">
             <strong className="font-normal md:block">
-            One of the best courses on the internet for learning full-stack web development.
+            Most well designed courses on the internet for learning full-stack web development.
             </strong>
             <strong className="font-normal">
               {' '}
