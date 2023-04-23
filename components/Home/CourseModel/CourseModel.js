@@ -2,7 +2,7 @@ import React from 'react';
 import CourseModelContent from './CourseModelContent';
 import CourseModelGraphics from './CourseModelGraphics';
 
-function CourseModel(props) {
+function CourseModel() {
   return (
     <section className="mt-8">
       <div className="relative">
@@ -21,19 +21,15 @@ function CourseModel(props) {
                   approach
                 </h2>
                 <CourseModelContent
-                  intro={
-                    'Get real-world programming skills - take part in our hackathons to learn and grow with community.'
-                  }
-                  subIntro={
-                    'We will also help you learn, create, clone and work on various commerce, Saas and other complex projects.'
-                  }
-                  action={'Project sample in action'}
+                  intro="Get real-world programming skills - take part in our hackathons to learn and grow with community."
+                  subIntro="We will also help you learn, create, clone and work on various commerce, Saas and other complex projects."
+                  action="Project sample in action"
                 />
               </div>
 
               <CourseModelGraphics
-                image={'/images/graphics-project.svg'}
-                alt={'Graphics for Project'}
+                image="/images/graphics-project.svg"
+                alt="Graphics for Project"
               />
             </article>
           </div>
@@ -54,16 +50,14 @@ function CourseModel(props) {
                   </strong>
                 </h2>
                 <CourseModelContent
-                  intro={
-                    'Curabitur lobortis id lorem id bibendum. Ut id consectetur magna. Quisque volutpat augue enim, pulvinar lobortis nibh lacinia at. Vestibulum nec erat ut'
-                  }
-                  action={'Enroll Now'}
+                  intro="Curabitur lobortis id lorem id bibendum. Ut id consectetur magna. Quisque volutpat augue enim, pulvinar lobortis nibh lacinia at. Vestibulum nec erat ut"
+                  action="Enroll Now"
                 />
               </div>
 
               <CourseModelGraphics
-                image={'/images/graphics-team.svg'}
-                alt={'Graphics for Team'}
+                image="/images/graphics-team.svg"
+                alt="Graphics for Team"
               />
             </article>
           </div>
@@ -83,15 +77,13 @@ function CourseModel(props) {
                   So that you are wrong only once
                 </h2>
                 <CourseModelContent
-                  intro={
-                    'Curabitur lobortis id lorem id bibendum. Ut id consectetur magna. Quisque volutpat augue enim, pulvinar lobortis nibh lacinia at. Vestibulum nec erat ut'
-                  }
-                  action={'Meet the team'}
+                  intro="Curabitur lobortis id lorem id bibendum. Ut id consectetur magna. Quisque volutpat augue enim, pulvinar lobortis nibh lacinia at. Vestibulum nec erat ut"
+                  action="Meet the team"
                 />
               </div>
               <CourseModelGraphics
-                image={'/images/graphics-cohort.svg'}
-                alt={'Graphics for Cohort'}
+                image="/images/graphics-cohort.svg"
+                alt="Graphics for Cohort"
               />
             </article>
           </div>

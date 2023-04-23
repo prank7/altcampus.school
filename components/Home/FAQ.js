@@ -176,11 +176,11 @@ function Answer({ activeQuestionIndex }) {
       <article className="flex items-center bg-white py-4 pr-6 pl-14 shadow-lg-custom rounded-2xl relative z-10 ml-6 mt-10">
         <p className="font-Karla text-base text-gray-500 leading-relaxed mr-6">
           {quote.text}
-          <div className="absolute -left-8 -top-3 transform">
+          <span className="absolute -left-8 -top-3 transform">
             <span className="text-center rounded-full text-8xl text-green-theme-900 block w-16 h-16 transform -scale-y-1 font-Sora font-semibold text-opacity-50">
               “
             </span>
-          </div>
+          </span>
         </p>
         <aside className="text-center">
           <Image
