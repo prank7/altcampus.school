@@ -20,7 +20,17 @@ function CourseStack(props) {
                 </strong>{' '}
               </h2>
               <p className="font-Karla text-xl tracking-tight text-gray-500 leading-relaxed mt-8">
-                Are you ready to become a full-stack web developer? Our courses cover the most in-demand programming skills of today. With our comprehensive curriculum, you'll learn <Link href="/courses/react.js" className="underline">React</Link>, <Link href="/courses/backend-development" className="underline">Express JS, Node JS, and Mongo DB</Link> – the trifecta of web development known as the MERN stack.
+                Are you ready to become a full-stack web developer? Our courses
+                cover the most in-demand programming skills of today. With our
+                comprehensive curriculum, you'll learn{' '}
+                <Link href="/courses/react.js" className="underline">
+                  React
+                </Link>
+                ,{' '}
+                <Link href="/courses/backend-development" className="underline">
+                  Express JS, Node JS, and Mongo DB
+                </Link>{' '}
+                – the trifecta of web development known as the MERN stack.
               </p>
             </article>
             <div className="relative my-12 md:my-0">
@@ -37,17 +47,20 @@ function CourseStack(props) {
             </div>
             <article className="">
               <p className="font-Karla text-xl tracking-tight text-gray-500 leading-relaxed mt-8">
-                By mastering these powerful tools, you'll be equipped to tackle any project and impress potential employers. Join us and take your skills to the next level!
+                By mastering these powerful tools, you'll be equipped to tackle
+                any project and impress potential employers. Join us and take
+                your skills to the next level!
               </p>
             </article>
             <article className="flex items-center bg-white py-6 px-7 shadow-lg-custom rounded-2xl relative z-10">
               <p className="font-Karla text-base text-gray-500 leading-relaxed mr-6 relative">
-                A life changing investment! From zero to deployment, AltCampus full stack MERN course teaches you everything.
-                <div className="absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2">
+                A life changing investment! From zero to deployment, AltCampus
+                full stack MERN course teaches you everything.
+                <span className="absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2">
                   <span className="text-center rounded-full text-8xl text-green-theme-900 block w-16 h-16 transform -scale-y-1 font-Sora text-opacity-10 font-semibold">
                     “
                   </span>
-                </div>
+                </span>
               </p>
               <aside className="min-w-max text-center">
                 <img
