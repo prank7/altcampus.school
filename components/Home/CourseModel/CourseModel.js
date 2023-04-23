@@ -27,7 +27,8 @@ function CourseModel() {
                   subIntro={
                     'Learn by building projects like chrome extension, e-commerce store, blogging app and more.'
                   }
-                  action={'Project sample in action'}
+                  action={'Student Projects in action'}
+                  cta={`/projects`}
                 />
               </div>
 
@@ -59,6 +60,7 @@ function CourseModel() {
                   }
                   subIntro={`To keep you on track, our custom learning platform tailors todos for you depending on how many hours you want to put in everyday.`}
                   action={'Enroll Now'}
+                  cta={`/`}
                 />
               </div>
 
