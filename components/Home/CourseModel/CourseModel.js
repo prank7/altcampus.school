@@ -1,6 +1,7 @@
 import React from 'react';
 import CourseModelContent from './CourseModelContent';
 import CourseModelGraphics from './CourseModelGraphics';
+import Link from 'next/link';
 
 function CourseModel() {
   return (

@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 function CourseModelContent(props) {
   return (
@@ -11,7 +12,7 @@ function CourseModelContent(props) {
       </p>
       <Link
         className="text-green-theme-900 text-xl font-semibold flex items-center mt-6 animate-arrow"
-        href={props.cta}
+        href={props.cta || '/'}
       >
         <strong>{props.action}</strong>
         <img

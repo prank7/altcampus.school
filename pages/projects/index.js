@@ -7,7 +7,7 @@ import ProjectCard from '../../components/Projects/ProjectCard';
 import projectsData from './data.json';
 
 function Projects() {
-  var title = 'Projects | AltCampus School';
+  var title = 'Projects | AltCampus';
   var description =
     "Placement stats and success stories from India's best programming bootcamp. AltCampus reviews and experiences shared by our students.";
   var url = 'https://altcampus.school/placements';
@@ -35,8 +35,8 @@ function Projects() {
         <section className="py-32 md:pt-44 md:pb-14 bg-fancy bg-no-repeat">
           <article className="container mx-auto text-center px-8">
             <h1 className="text-5.5xl font-bold leading-tight text-royal-blue-800">
-              <strong className="text-green-theme-900">Projects</strong> to make{' '}
-              <br /> while learning
+              Sneak Peak into <strong className="text-green-theme-900">Projects</strong> that{' '}
+              <br /> students make
             </h1>
           </article>
         </section>
