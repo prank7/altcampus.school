@@ -11,29 +11,29 @@ function CourseModel(props) {
             <article className="max-w-5xl mx-auto pb-10 sm:pb-16 sm:flex items-center justify-between relative z-10">
               <div className="max-w-lg">
                 <h4 className="text-xl text-gray-500 mb-6">
-                  Not only theory but their application…
+                  Learn by doing. Less theory, more practice
                 </h4>
                 <h2 className="font-bold text-royal-blue-800 text-4.5xl">
-                  All hands{' '}
+                  Hands on{' '}
                   <strong className="text-green-theme-900">
                     project based
                   </strong>{' '}
-                  approach
+                  learning approach
                 </h2>
                 <CourseModelContent
                   intro={
-                    'Get real-world programming skills - take part in our hackathons to learn and grow with community.'
+                    'Our assignments help you learn by building small, real world usecases with progressively increasing complexity. '
                   }
                   subIntro={
-                    'We will also help you learn, create, clone and work on various commerce, Saas and other complex projects.'
+                    'Learn by building projects like chrome extension, e-commerce store, blogging app and more.'
                   }
                   action={'Project sample in action'}
                 />
               </div>
 
               <CourseModelGraphics
-                image={'/images/graphics-project.svg'}
-                alt={'Graphics for Project'}
+                image={'/images/graphics-team.svg'}
+                alt={'Learn MERN stack web development by building projects'}
               />
             </article>
           </div>
@@ -45,24 +45,25 @@ function CourseModel(props) {
             <article className="max-w-5xl mx-auto pt-12 pb-10 sm:pb-16 sm:flex items-center justify-between relative z-10">
               <div className="max-w-xl">
                 <h4 className="text-xl text-gray-500 mb-6">
-                  Do it your own way…
+                  Hurry is worry. No catching up with others
                 </h4>
                 <h2 className="font-bold text-royal-blue-800 text-4.5xl">
-                  Learn Alone or with{' '}
+                  Your speed may vary. Learn at {' '}
                   <strong className="text-green-theme-900">
-                    Cohort course
+                    your own pace
                   </strong>
                 </h2>
                 <CourseModelContent
                   intro={
-                    'Curabitur lobortis id lorem id bibendum. Ut id consectetur magna. Quisque volutpat augue enim, pulvinar lobortis nibh lacinia at. Vestibulum nec erat ut'
+                    'Our courses are very well thought out and content is pre-recorded, allowing you to move at your own pace without having to worry about catching up with a cohort and giving you the liberty to rewatch it again.'
                   }
+                  subIntro={`It doesn't mean you have no support. You will have access to our forums where you can connect with other students and ask questions that the community will help you out with.`}
                   action={'Enroll Now'}
                 />
               </div>
 
               <CourseModelGraphics
-                image={'/images/graphics-team.svg'}
+                image={'/images/graphics-project.svg'}
                 alt={'Graphics for Team'}
               />
             </article>
@@ -76,10 +77,10 @@ function CourseModel(props) {
             <article className="max-w-5xl mx-auto pt-12 pb-10 sm:pb-40 sm:flex items-center justify-between relative z-10">
               <div className="max-w max-w-lg">
                 <h4 className="text-xl text-gray-500 mb-6">
-                  An option to be guided…
+                  Start small
                 </h4>
                 <h2 className="font-bold text-royal-blue-800 text-4.5xl">
-                  <strong className="text-green-theme-900">Mentorship</strong> -
+                  <strong className="text-green-theme-900">Small courses if you cant take all</strong> -
                   So that you are wrong only once
                 </h2>
                 <CourseModelContent
