@@ -59,9 +59,7 @@ function Navbar() {
         {({ open }) => (
           <>
             <Link href="/">
-              <a>
-                <AltCampusIcon className="w-32 sm:w-28" />
-              </a>
+              <AltCampusIcon className="w-32 sm:w-28" />
             </Link>
 
             {/* Menu Icon */}
@@ -143,9 +141,7 @@ function MobileNavigation({ open }) {
           <div className="p-6">
             <div className="flex items-center justify-between">
               <Link href="/">
-                <a>
-                  <AltCampusIcon className="w-32" />
-                </a>
+                <AltCampusIcon className="w-32" />
               </Link>
               <div className="">
                 <Popover.Button className="bg-gray-300 rounded-md p-2 text-gray-400 hover:text-gray-500 hover:bg-gray-100">

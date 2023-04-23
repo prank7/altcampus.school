@@ -1,4 +1,4 @@
-import Link from 'next/dist/client/link';
+import Link from 'next/link';
 import React from 'react';
 
 function CourseStack(props) {
@@ -20,7 +20,7 @@ function CourseStack(props) {
                 </strong>{' '}
               </h2>
               <p className="font-Karla text-xl tracking-tight text-gray-500 leading-relaxed mt-8">
-                Are you ready to become a full-stack web developer? Our courses cover the most in-demand programming skills of today. With our comprehensive curriculum, you'll learn <Link href="/courses/react.js">React</Link>, Express JS, Node JS, and Mongo DB – the trifecta of web development known as the MERN stack.
+                Are you ready to become a full-stack web developer? Our courses cover the most in-demand programming skills of today. With our comprehensive curriculum, you'll learn <Link href="/courses/react.js" className="underline">React</Link>, Express JS, Node JS, and Mongo DB – the trifecta of web development known as the MERN stack.
               </p>
             </article>
             <div className="relative my-12 md:my-0">

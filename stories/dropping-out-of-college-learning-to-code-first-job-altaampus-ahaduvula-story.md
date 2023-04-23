@@ -1,14 +1,14 @@
 ---
 title: "Dropping out of college, AltCampus experience, first tech job, and working remotely from a village in Andhra Pradesh - Chaduvula's story."
 description: 'From Dropping out of college to learning fullstack web development, getting a job, and working remotely from a village in Andhra Pradesh. Chaduvula shares the role of AltCampus in his programming career.'
-date: '2023-04-23'2020-02-14'
-blurb: Chaduvula shares about learning to code, AltCampus, getting first job and advice for newbies.
+date: '2023-04-23'
+blurb: 'Chaduvula shares about learning to code, AltCampus, getting first job and advice for newbies.'
 studentPhoto: '/images/students/chaduvula-sq.svg'
 photo: 'https://altcampus.school/images/stories/Chaduvula-AltCampus-placement-bootcamp.png'
 name: 'Prasanth Chaduvula'
 company: 'BigBinary'
 cta: true
-ctaText: AltCampus provides quality content, mentorship, peer support system, and placement support to help you land a job like Chaduvula 😊
+ctaText: 'AltCampus provides quality content, mentorship, peer support system, and placement support to help you land a job like Chaduvula 😊'
 ---
 
 Chaduvula Prasanth, one of our Alumni, after completing the AltCampus course got placed at <a href="https://bigbinary.com" target="_blank">BigBinary</a> as a Software Engineer.

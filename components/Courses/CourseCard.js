@@ -1,6 +1,6 @@
-import Link from 'next/dist/client/link';
 import Image from 'next/image';
 import React from 'react';
+import Link from 'next/link';
 
 function CourseCard({ course }) {
   return (

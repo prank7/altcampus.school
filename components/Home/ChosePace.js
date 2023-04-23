@@ -96,13 +96,8 @@ function ChosePace(props) {
               </li>
               <li className="mb-2">
                 Enroll now, pay later using EMI.{' '}
-                <Link className="underline" href="/apply-for-emi">
-                  <a
-                    className="text-royal-blue-500 underline hover:no-underline"
-                    href="/apply-for-emi"
-                  >
-                    Apply here to avail.
-                  </a>
+                <Link className="text-royal-blue-500 underline hover:no-underline" href="/apply-for-emi">
+                  Apply here to avail.
                 </Link>
               </li>
             </ul>
