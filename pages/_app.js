@@ -3,7 +3,7 @@ import { siteMeta } from '../blog.config';
 import { DefaultSeo } from 'next-seo';
 import Head from 'next/head';
 
-const GA_TRACKING_ID = 'UA-121886584-4';
+const GA_TRACKING_ID = 'G-2SJPKQTMLX';
 
 function MyApp({ Component, pageProps }) {
   return (
