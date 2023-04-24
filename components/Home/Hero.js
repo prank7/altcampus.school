@@ -65,7 +65,7 @@ function Hero(props) {
         <footer className="md:grid md:grid-cols-5 items-center mt-11">
           <h1 className="sm:col-span-4 text-xl sm:text-2xl leading-normal font-normal text-royal-blue-800">
             <strong className="font-normal md:block">
-            Master full-stack web development with the most well-designed courses on the internet. 
+            Master full-stack web development with the best courses on the internet. 
             </strong>
             <strong className="font-normal">
               {' '}

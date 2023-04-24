@@ -40,9 +40,9 @@ function Home(props) {
           <ACStats />
           <Alumni />
           <CTA
-            titleA="Tired of looking for"
-            titleB="the best tutorials on the internet? Your search ends here."
-            action="Sign Up Now!"
+            titleA="Tired of looking for the best tutorials"
+            titleB="on the internet? <br/> Your search ends here."
+            action="Start Learning Now"
           />
           <CourseStack />
           <section>
