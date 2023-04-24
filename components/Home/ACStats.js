@@ -7,11 +7,11 @@ const statsMenu = [
   },
   {
     heading: '40+',
-    subHeading: 'Projects You Build'
+    subHeading: 'Projects to Build'
   },
   {
     heading: '188 Hours',
-    subHeading: 'Of Recorded Video Content'
+    subHeading: 'Of Bite Sized Video Content'
   }
 ];
 
@@ -21,7 +21,7 @@ function ACStats(props) {
       <article className="container mx-auto px-8 sm:px-3 ">
         <header className="text-center mb-20">
           <h3 className="text-gray-500 font-bold font-Sora text-2xl">
-            Even though we are more than just stats…
+            Our numbers speak for themselves
           </h3>
         </header>
         <div className="sm:grid grid-cols-3 stats-menu justify-between space-y-10 sm:space-y-0">

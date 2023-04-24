@@ -63,7 +63,7 @@ let data = [
     question: 'Do I have to take the entire full-stack course?',
     answer: `No, you can take individual specific skill based courses like HTML & CSS, Core JavaScript, React.js or Node.js. You can also take tracks like Frontend Development, Backend Development or Fullstack MERN Web Development.`,
     quote: {
-      text: 'AltCampus was the best decision of my life. AltCampus helped me learn both technical and non-technical skills and most important of all <strong>I got my first job because of AltCampus</strong>. This is the best place for anyone willing to learn programming. Thank you AltCampus',
+      text: 'AltCampus was the best decision of my life. AltCampus helped me learn both technical and non-technical skills and most important of all <strong>I got my first job because of AltCampus</strong>. Thank you AltCampus ❤️',
       author: {
         name: 'Ayushman',
         company: 'BigBinary',

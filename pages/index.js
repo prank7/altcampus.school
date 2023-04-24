@@ -19,6 +19,7 @@ import Blog from '../components/Home/Blog';
 import { getTweets } from '../lib/twitter';
 import Checklist from '../components/Home/ChecklistCTA';
 import { getCourses } from '../lib/courseData';
+import Image from 'next/image';
 
 function Home(props) {
   useEffect(() => {
@@ -39,8 +40,8 @@ function Home(props) {
           <ACStats />
           <Alumni />
           <CTA
-            titleA="Tired of searching for"
-            titleB="the best tutorials on the internet? Stop."
+            titleA="Tired of looking for"
+            titleB="the best tutorials on the internet? Your search ends here."
             action="Sign Up Now!"
           />
           <CourseStack />
@@ -53,6 +54,40 @@ function Home(props) {
           <Checklist />
           <FAQ />
           <Blog />
+          <article className="flex items-center bg-white py-4 pr-6 pl-14 shadow-lg-custom rounded-2xl relative z-10 ml-6 mt-10">
+            <div className="font-Karla text-base text-gray-500 leading-relaxed mr-6">
+              <p dangerouslySetInnerHTML={{__html: "Hands down the best course I have ever done. From not knowing anything about web development to landing a great job, AltCampus' detailed course content, and projects made me a skilled web developer and helped me build a good portfolio that got me a job."}}></p>
+              <span className="absolute -left-8 -top-3 transform">
+                <span className="text-center rounded-full text-8xl text-green-theme-900 block w-16 h-16 transform -scale-y-1 font-Sora font-semibold text-opacity-50">
+                  “
+                </span>
+              </span>
+            </div>
+            <aside className="text-center">
+              <Image
+                className="rounded-full min-w-max object-cover"
+                height="60"
+                width="60"
+                src={'/images/students/harshaan-sq.svg'}
+                alt="AltCampus Placed Student Testimonial"
+              />
+              <div className="">
+                <h4 className="text-royal-blue-800 font-semibold text-base">
+                  Abhishek
+                </h4>
+                <h6 className="text-xxs text-gray-500 uppercase font-normal mt-1">
+                  Goswami
+                </h6>
+              </div>
+            </aside>
+
+            <a
+              className="bg-green-theme-900 hover:bg-green-theme-700 transition duration-300 ease-in-out text-white text-center py-6 px-20 rounded text-sm font-semibold inline-block mt-8 md:mt-0"
+              href="https://launchpad.altcampus.com/signup"
+            >
+              Start Learning Now
+            </a>
+          </article>
           <CTA
             titleA="Ready to take the"
             titleB="world of programming by storm?"
