@@ -4,17 +4,53 @@ import Link from 'next/link';
 
 function CourseCard({ course }) {
   return (
-    <article className="shadow-xs-custom p-6 rounded-lg">
-      <header className="flex justify-between">
-        <div>
-          <h2 className="text-xl font-bold text-royal-blue-800">
-            <Link href={'/courses/' + course.slug}>{course.name}</Link>
-          </h2>
-
-          <strong className="font-mukta text-xs text-royal-blue-800 bg-royal-blue-200 px-2 py-1 inline-block rounded-sm mt-2">
-            {course.isMiniTrack ? 'Individual Module' : 'Track'}
-          </strong>
-          <figure className="flex space-x-2 mt-3">
+    <article className="shadow-xs-custom rounded-lg flex items-stretch">
+      <div className="p-4">
+        <h2 className="text-xl font-semibold text-royal-blue-800">
+          <Link href={'/courses/' + course.slug}>{course.name}</Link>
+        </h2>
+        <p className="text-xs text-gray-500 font-Karla mt-2">
+          Learn all the required skills like HTML, CSS, JS & React to be a
+          industry fit Front-End Developer.
+        </p>
+        {course.isMiniTrack ? (
+          <div className="flex items-center mt-4 text-gray-500 gap-x-2">
+            <strong className="inline-block bg-gold-400 bg-opacity-40 p-1 rounded-md font-medium text-royal-blue-800 text-xs">
+              Specific Module ★
+            </strong>
+            <span>•</span>
+            <strong className="text-gray-500 font-semibold text-xs">
+              16-32 weeks
+            </strong>
+            <span>•</span>
+            <h3 className="text-royal-blue-800 font-bold text-xs">
+              {'₹' + course.pricing.standard.INR}
+            </h3>
+          </div>
+        ) : (
+          <div className="flex items-center mt-4 text-gray-500 gap-x-2">
+            <strong className="flex items-center bg-royal-blue-200 bg-opacity-40 p-2 rounded-md font-medium text-royal-blue-800 text-xs">
+              Learning Path
+              <img
+                className="inline-block ml-1"
+                src="/images/icons/learning-path.svg"
+                alt=""
+              />
+            </strong>
+            <span>•</span>
+            <strong className="text-gray-500 font-semibold text-xs">
+              16-32 weeks
+            </strong>
+            <span>•</span>
+            <h3 className="text-royal-blue-800 font-bold text-xs">
+              {'₹' + course.pricing.standard.INR}
+            </h3>
+          </div>
+        )}
+        {/* <strong className="font-mukta text-xs text-royal-blue-800 bg-royal-blue-200 px-2 py-1 inline-block rounded-sm mt-2">
+            
+          </strong> */}
+        {/* <figure className="flex space-x-2 mt-3">
             <img
               className="w-8 shadow-lg rounded-full"
               src="/images/icons/html.svg"
@@ -35,20 +71,10 @@ function CourseCard({ course }) {
               src="/images/icons/react-rounded.svg"
               alt="ReactJS Icon"
             />
-          </figure>
-        </div>
-        <div>
-          <h3 className="text-royal-blue-800 font-bold text-base">
-            {'₹' + course.pricing.standard.INR}
-          </h3>
-        </div>
-      </header>
-      <footer className="flex justify-between mt-6 items-start">
-        <p className="max-w-sm text-royal-blue-800 text-base font-Karla">
-          Learn all the required skills like HTML, CSS, JS & React to be a
-          industry fit Front-End Developer.
-        </p>
-        {/* <a
+          </figure> */}
+      </div>
+      {/* <footer className="flex justify-between mt-6 items-start">
+        <a
           href={`https://launchpad.altcampus.com/signup?course=${course.slug}&currency=INR`}
           className="flex"
         >
@@ -61,8 +87,28 @@ function CourseCard({ course }) {
             src="/images/icons/arrow-right-green.svg"
             alt="Arrow Right"
           />
-        </a> */}
-      </footer>
+        </a>
+      </footer> */}
+      {course.isMiniTrack ? (
+        <img
+          className="w-28 h-full inline-block rounded-tr-md rounded-br-md"
+          src="/images/icons/html-large.svg"
+          alt={course.name}
+        />
+      ) : (
+        <div className="bg-gray-200 p-4 flex justify-center items-center rounded-tr-md rounded-br-md">
+          <figure className="grid grid-cols-2 gap-x-4 gap-y-4">
+            <img className="w-16" src="/images/icons/html.svg" alt="HTML" />
+            <img className="w-16" src="/images/icons/js-rounded.svg" alt="JS" />
+            <img
+              className="w-16"
+              src="/images/icons/react-rounded.svg"
+              alt="React"
+            />
+            <img className="w-16" src="/images/icons/css.svg" alt="CSS" />
+          </figure>
+        </div>
+      )}
     </article>
   );
 }
