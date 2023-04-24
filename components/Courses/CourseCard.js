@@ -5,20 +5,20 @@ import Link from 'next/link';
 function CourseCard({ course }) {
   const [currency, setCurrency] = useState('INR');
 
-  useEffect(()=> {
+  useEffect(() => {
     if (typeof window !== 'undefined') {
       // call to api.
-      localStorage.setItem('currency', 'USD') 
+      localStorage.setItem('currency', 'USD');
       setCurrency('USD');
     }
-  }, [])
+  }, []);
 
   return (
     <Link href={'/courses/' + course.slug}>
       <article className="rounded-lg flex items-stretch border-2 border-white hover:border-royal-blue-600 hover:scale-105 transform transition-all duration-500 cursor-pointer">
         <div className="p-4">
           <h2 className="text-xl font-semibold text-royal-blue-800">
-            <Link href={'/courses/' + course.slug}>{course.name}</Link>
+            {course.name}
           </h2>
           <p className="text-xs text-gray-500 font-Karla mt-2">
             Learn all the required skills like HTML, CSS, JS & React to be a
@@ -35,7 +35,9 @@ function CourseCard({ course }) {
               </strong>
               <span>•</span>
               <h3 className="text-royal-blue-800 font-bold text-xs">
-                {currency === 'INR' ? ('₹' + course.pricing.standard.INR) : ('$' + course.pricing.standard.USD)}
+                {currency === 'INR'
+                  ? '₹' + course.pricing.standard.INR
+                  : '$' + course.pricing.standard.USD}
               </h3>
             </div>
           ) : (
@@ -54,7 +56,9 @@ function CourseCard({ course }) {
               </strong>
               <span>•</span>
               <h3 className="text-royal-blue-800 font-bold text-xs">
-                {currency === 'INR' ? ('₹' + course.pricing.standard.INR) : ('$' + course.pricing.standard.USD)}
+                {currency === 'INR'
+                  ? '₹' + course.pricing.standard.INR
+                  : '$' + course.pricing.standard.USD}
               </h3>
             </div>
           )}
