@@ -40,6 +40,9 @@ p {
   outline: 0 !important;
   border: 0 !important;
 } */
+.btn-active {
+  @apply bg-royal-blue-800 text-white;
+}
 
 .btn-hover:hover {
   transform: translateY(-1px);
@@ -608,6 +611,15 @@ code::after {
 .my-masonry-grid_column > div {
   /* change div to reference your elements you put in <Masonry> */
   margin-bottom: 30px;
+}
+
+/* Course Page */
+.select-duration {
+  position: absolute;
+  left:  -999999px;
+}
+.select-duration:checked + label .dot {
+  display: inline-block
 }
 
 
