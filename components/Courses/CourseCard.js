@@ -1,8 +1,18 @@
 import Image from 'next/image';
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 
 function CourseCard({ course }) {
+  const [currency, setCurrency] = useState('INR');
+
+  useEffect(()=> {
+    if (typeof window !== 'undefined') {
+      // call to api.
+      localStorage.setItem('currency', 'USD') 
+      setCurrency('USD');
+    }
+  }, [])
+
   return (
     <Link href={'/courses/' + course.slug}>
       <article className="rounded-lg flex items-stretch border-2 border-white hover:border-royal-blue-600 hover:scale-105 transform transition-all duration-500 cursor-pointer">
@@ -17,7 +27,7 @@ function CourseCard({ course }) {
           {course.isMiniTrack ? (
             <div className="flex items-center mt-4 text-gray-500 gap-x-2">
               <strong className="inline-block bg-gold-400 bg-opacity-40 p-1 rounded-md font-medium text-royal-blue-800 text-xs">
-                Specific Module ★
+                Specific Skill ★
               </strong>
               <span>•</span>
               <strong className="text-gray-500 font-semibold text-xs">
@@ -25,13 +35,13 @@ function CourseCard({ course }) {
               </strong>
               <span>•</span>
               <h3 className="text-royal-blue-800 font-bold text-xs">
-                {'₹' + course.pricing.standard.INR}
+                {currency === 'INR' ? ('₹' + course.pricing.standard.INR) : ('$' + course.pricing.standard.USD)}
               </h3>
             </div>
           ) : (
             <div className="flex items-center mt-4 text-gray-500 gap-x-2">
               <strong className="flex items-center bg-royal-blue-200 bg-opacity-40 p-2 rounded-md font-medium text-royal-blue-800 text-xs">
-                Learning Path
+                Learning Track
                 <img
                   className="inline-block ml-1"
                   src="/images/icons/learning-path.svg"
@@ -44,7 +54,7 @@ function CourseCard({ course }) {
               </strong>
               <span>•</span>
               <h3 className="text-royal-blue-800 font-bold text-xs">
-                {'₹' + course.pricing.standard.INR}
+                {currency === 'INR' ? ('₹' + course.pricing.standard.INR) : ('$' + course.pricing.standard.USD)}
               </h3>
             </div>
           )}

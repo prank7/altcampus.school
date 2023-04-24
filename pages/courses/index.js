@@ -9,10 +9,11 @@ import { getAllAlumnisData } from '../../lib/airtableApi';
 import { getCourses } from '../../lib/courseData';
 
 function CoursePage({ alumnis, courses }) {
-  var title = 'AltCampus Placements';
+  var title = 'AltCampus Courses';
   var description =
     "Placement stats and success stories from India's best programming bootcamp. AltCampus reviews and experiences shared by our students.";
-  var url = 'https://altcampus.com/placements';
+  var url = 'https://altcampus.com/courses';
+  
 
   return (
     <>

@@ -1,25 +1,41 @@
 import Image from 'next/image';
-import React from 'react';
+import React, { useState } from 'react';
 import CourseCard from './CourseCard';
 
 function CourseContainer(props) {
+  var orderedTracks = props.courses.tracks.filter((t) => !t.isMiniTrack);
+  orderedTracks = orderedTracks.concat(props.courses.tracks.filter((t) => t.isMiniTrack).sort((a, b) => a.pricing.standard.INR > b.pricing.standard.INR))
+  
+  const [courseFilter, setCourseFilter ] = useState('all');
+  
+  switch(courseFilter) {
+    case 'miniTracks':
+      orderedTracks = orderedTracks.filter((o) => o.isMiniTrack)
+      break;
+    case 'fullTracks':
+      orderedTracks = orderedTracks.filter((o) => !o.isMiniTrack)
+      break;
+    default:
+      break;
+  }
+  
   return (
     <section className="py-32 md:pt-8 md:pb-24 bg-white">
       <div className="container mx-auto px-8 grid md:grid-cols-8">
         <aside className="hidden md:block col-span-3 lg:col-span-2 pr-4 lg:pr-12">
           <div className="flex flex-col gap-y-4 pr-16">
-            <button className="btn-active inline-block lg:max-w-min rounded-full px-10 py-4 border border-royal-blue-800">
+            <button onClick={() => setCourseFilter('all')} className={`${ courseFilter == 'all' ? 'btn-active ' : ''} inline-block lg:max-w-min rounded-full px-10 py-4 border border-royal-blue-800`}>
               All
             </button>
-            <button className="border-2 inline-block  border-solid text-royal-blue-800 border-royal-blue-800 rounded-full px-11 py-3">
+            <button onClick={() => setCourseFilter('miniTracks')} className={`${ courseFilter == 'miniTracks' ? 'btn-active ' : ''} border-2 inline-block  border-solid text-royal-blue-800 border-royal-blue-800 rounded-full px-11 py-3`}>
               Specific Skills
             </button>
-            <button className="border-2 inline-block border-solid text-royal-blue-800 border-royal-blue-800 rounded-full px-11 py-3">
-              Guided Paths
+            <button onClick={() => setCourseFilter('fullTracks')} className={`${ courseFilter == 'fullTracks' ? 'btn-active ' : ''} border-2 inline-block border-solid text-royal-blue-800 border-royal-blue-800 rounded-full px-11 py-3`}>
+              Learning Tracks
             </button>
           </div>
           <hr className="border-royal-blue-200 my-8" />
-          <div>
+          {/* <div>
             <h5 className="text-base font-semibold text-gray-500">
               Course duration
             </h5>
@@ -101,10 +117,10 @@ function CourseContainer(props) {
                 </label>
               </fieldset>
             </form>
-          </div>
+          </div> */}
         </aside>
         <div className="col-span-5 lg:col-span-6 grid lg:grid-cols-2 lg:pl-12 gap-8">
-          {props.courses.tracks.map((course, i) => {
+          {orderedTracks.map((course, i) => {
             return <CourseCard key={i} course={course} />;
           })}
         </div>
