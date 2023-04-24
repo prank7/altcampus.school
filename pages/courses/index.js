@@ -9,12 +9,11 @@ import { getAllAlumnisData } from '../../lib/airtableApi';
 import { getCourses } from '../../lib/courseData';
 
 function CoursePage({ alumnis, courses }) {
-  var title = 'AltCampus Courses';
+  var title = 'Web Development Courses | AltCampus';
   var description =
-    "Placement stats and success stories from India's best programming bootcamp. AltCampus reviews and experiences shared by our students.";
+    "The Best Web Development Courses - HTML & CSS, JavaScript, React.js, Node.js, MongoDB, Frontend Development, Backend Development and Full Stack MERN Development";
   var url = 'https://altcampus.com/courses';
   
-
   return (
     <>
       <NextSeo

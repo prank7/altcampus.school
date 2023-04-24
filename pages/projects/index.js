@@ -9,8 +9,8 @@ import projectsData from './data.json';
 function Projects() {
   var title = 'Projects | AltCampus';
   var description =
-    "Placement stats and success stories from India's best programming bootcamp. AltCampus reviews and experiences shared by our students.";
-  var url = 'https://altcampus.com/placements';
+    "Sample projects that students at AltCampus build to learn HTML, CSS, JavaScript, React.js, Node.js, MongoDB, frontend development, backend development and MERN stack.";
+  var url = 'https://altcampus.com/projects';
 
   return (
     <>
@@ -29,8 +29,6 @@ function Projects() {
           ]
         }}
       />
-      import React from 'react'; import ProjectCard from './ProjectCard'; export
-      default App;
       <LayoutHome>
         <section className="py-32 md:pt-44 md:pb-14 bg-fancy bg-no-repeat">
           <article className="container mx-auto text-center px-8">

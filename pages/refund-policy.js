@@ -20,15 +20,16 @@ function RefundPolicy(props) {
             refund deadlines and policies.
           </p>
           <p>
-            A User, who has not in the past 7 days availed the Free Trial, shall
+            A User, who has not in the past 3 days availed the Free Trial, shall
             be entitled to a refund of 90% (ninety percent) of the course fee
-            paid upon a valid refund request raised within 7(seven) days from
-            the date of payment.
+            paid upon a valid refund request raised within 3(three) days from
+            the date of payment - except for HTML & CSS specific skill course. 
+            There are no refunds for HTML & CSS course once you buy it.
           </p>
           <p>
             A User who has availed a Free Trial as specified in the
             <a href="/pricing-policy">Pricing Policy</a>, any time during the
-            preceding 7 days, shall not be entitled to any refund. It is
+            preceding 3 days, shall not be entitled to any refund. It is
             clarified that if any User makes payment during the subsistence of
             the Free Trial Window, such User shall not be entitled to any
             refund. AltCampus reserves the right to reject a refund request if
