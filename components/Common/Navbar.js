@@ -154,7 +154,7 @@ function Navbar() {
                   </div>
                 </div>
               </div> */}
-              <ActiveLink href="/placements">
+              {/* <ActiveLink href="/placements">
                 <div className="text-sm text-gray-500 hover:text-royal-blue-900 duration-300 ease-in-out transition py-5">
                   Placements
                 </div>
@@ -163,7 +163,8 @@ function Navbar() {
                 <div className="text-sm text-gray-500 hover:text-royal-blue-900 duration-300 ease-in-out transition py-5">
                   Stories
                 </div>
-              </ActiveLink>
+              </ActiveLink> */}
+              <TestimonialMenu />
               <ResourcesMenu />
               <ActiveLink href="https://launchpad.altcampus.com/login">
                 <div className="text-sm text-gray-500 hover:text-royal-blue-900 duration-300 ease-in-out transition py-5">

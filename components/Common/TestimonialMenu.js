@@ -38,12 +38,13 @@ export default function TestimonialMenu() {
             <Popover.Button
               className={`
                 ${open ? '' : 'text-opacity-90'}
-                text-4xl md:text-lg text-gold-500 inline-flex items-center  md:text-dark-blue-300 hover:text-dark-blue-500`}
+                text-sm text-gray-500 inline-flex items-center hover:text-royal-blue-900 transition`}
             >
               <span>Testimonials</span>
               <ChevronDownIcon
-                className={`${open ? '' : 'text-opacity-70'}
-                  ml-1 h-5 w-5 text-gold-500 md:text-dark-blue-300 transition ease-in-out duration-150`}
+                className={`${
+                  open ? '' : 'text-opacity-70'
+                } w-4 ml-1 text-gray-500`}
                 aria-hidden="true"
               />
             </Popover.Button>
