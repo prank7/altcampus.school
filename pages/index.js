@@ -114,12 +114,12 @@ function Home(props) {
                   <div className="w-16 md:w-24">
                     <img
                       className="inline-block w-16 h-16 rounded-full object-cover"
-                      src="/images/students/harshaan-sq.svg"
-                      alt="Harshaan Nihal Khan"
+                      src="/images/students/abhishek-sonal.svg"
+                      alt="Abhishek Kumar"
                     />
                     <figcaption className="mt-2">
                       <cite className="text-base not-italic text-royal-blue-800 font-semibold">
-                        Abhishek Goswami
+                        Abhishek Kumar
                       </cite>
                       <br />
                       {/* <cite className="text-xxs not-italic text-gray-500 tracking-normal uppercase">
