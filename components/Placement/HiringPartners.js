@@ -16,6 +16,11 @@ function HiringPartners(props) {
             />
             <img
               className="w-full"
+              src="/images/hiring-partner/fampay.svg"
+              alt="Fampay"
+            />
+            <img
+              className="w-full"
               src="/images/hiring-partner/cleartax.png"
               alt="ClearTax"
             />

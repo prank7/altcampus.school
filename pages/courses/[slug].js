@@ -12,10 +12,10 @@ import CourseFeedback from '../../components/Courses/CourseFeedback';
 import ModuleList from '../../components/Courses/ModuleList';
 
 export default function IndividualCoursePage({ course }) {
-  var title = 'AltCampus Placements | AltCampus';
+  var title = `${course.name} Course | AltCampus`;
   var description =
-    "Placement stats and success stories from India's best programming bootcamp. AltCampus reviews and experiences shared by our students.";
-  var url = 'https://altcampus.com/placements';
+    `The best ${course.name} course on the internet. Learn ${course.name} properly with step-by-step course content, videos, exercises, assignments and projects.`;
+  var url = `https://altcampus.com/courses/${course.slug}`;
 
   return (
     <>

@@ -39,7 +39,7 @@ function Placement({ alumnis }) {
           <div className="container mx-auto px-8">
             <header className="text-center mb-24">
               <h2 className="text-4xl sm:text-5.5xl text-gray-500 font-bold">
-                Meet our graduates
+                Meet some of our graduates
               </h2>
             </header>
             <div className="grid sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4  gap-8">

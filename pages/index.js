@@ -119,12 +119,12 @@ function Home(props) {
                     />
                     <figcaption className="mt-2">
                       <cite className="text-base not-italic text-royal-blue-800 font-semibold">
-                        Abhishek Kumar
+                        Abhishek 
                       </cite>
                       <br />
-                      {/* <cite className="text-xxs not-italic text-gray-500 tracking-normal uppercase">
-                        BigBinary
-                      </cite> */}
+                      <cite className="text-xxs not-italic text-gray-500 tracking-normal uppercase">
+                        Lancesoft
+                      </cite>
                     </figcaption>
                   </div>
                 </figure>
@@ -152,14 +152,14 @@ function Home(props) {
 export async function getStaticProps() {
   const tweets = await getTweets([
     '1474600021140008961',
-    '1430470361422864391',
-    '1117468286579556353',
     '1447431422780719110',
     '1391820153382260737',
-    '1427367547347750928',
-    '1410650906996051972',
+    '1117468286579556353',
     '1495804079439855625',
-    '1120008211937947648'
+    '1430470361422864391',
+    '1427367547347750928',
+    '1120008211937947648',
+    '1410650906996051972',
   ]);
 
   const courses = await getCourses();

@@ -26,7 +26,7 @@ export default function Post({ guideData, relatedGuides = [] }) {
         title={guideData.title + ' |' + ' AltCampus'}
         description={guideData.description}
         openGraph={{
-          title: guideData.title + ' |' + ' AltCampus School',
+          title: guideData.title + ' |' + ' AltCampus',
           url: 'https://altcampus.com/community/guides/' + guideData.id,
           description: guideData.description,
           images: [

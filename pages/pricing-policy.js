@@ -58,7 +58,7 @@ function PricingPolicy(props) {
             </ul>
           </p>
 
-          <p>
+          {/* <p>
             ii. Full Access - at USD 1249 (exclusive of additional charges){' '}
             <br />
             <ul>
@@ -73,7 +73,7 @@ function PricingPolicy(props) {
                 mentor for six-months from the day of subscription payment.
               </li>
             </ul>
-          </p>
+          </p> */}
 
           <p>
             The Users is required to make full payment of the Course Fee in lump

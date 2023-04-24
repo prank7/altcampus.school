@@ -35,7 +35,7 @@ const Stories = ({ allPostsData }) => {
             {allPostsData.map(
               ({ id, name, company, date, title, studentPhoto, blurb }) => (
                 <div key={id} className="mb-8">
-                  <Link href={`/stories/[id]`}>
+                  <Link href={`/stories/${id}`}>
                     <figure className="bg-gray-100 rounded-xl flex p-2 cursor-pointer">
                       <img
                         className="w-32 h-32 rounded object-cover"

@@ -17,8 +17,8 @@ import { NextSeo } from 'next-seo';
 export default function student({ alumniData }) {
   // console.log(alumniData);
   if (!alumniData) return null;
-  var title = `${alumniData.name} | AltCampus School`;
-  var description = `Placed as ${alumniData.role} at ${alumniData.company} after completing AltCampus programming bootcamp.`;
+  var title = `${alumniData.name} | AltCampus`;
+  var description = `Placed as ${alumniData.role} at ${alumniData.company} after completing AltCampus course.`;
   var url = `https://altcampus.com/placements/${alumniData.slug}`;
 
   return (

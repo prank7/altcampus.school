@@ -1,5 +1,6 @@
 import React from 'react';
 import globalData from '../../globalData';
+import Link from 'next/link';
 
 function Hero(props) {
   // var upcomingBatchDates = globalData.upcomingBatchDates;
@@ -72,12 +73,12 @@ function Hero(props) {
             </strong>
           </h1>
           <div className="text-center md:text-right">
-            <a
-              href="https://try.altcampus.com/"
+            <Link
+              href="/courses"
               className="bg-green-theme-900 hover:bg-green-theme-700 transition duration-300 ease-in-out py-4 px-16 inline-block md:col-span-1 text-center text-white font-semibold text-sm rounded mt-8 md:mt-0"
             >
-              Start For Free
-            </a>
+              Browse Courses
+            </Link>
           </div>
         </footer>
       </article>

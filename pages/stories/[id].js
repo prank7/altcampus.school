@@ -10,7 +10,7 @@ export default function Post({ postData }) {
         title={postData.title + ' |' + ' AltCampus'}
         description={postData.description}
         openGraph={{
-          title: postData.title + ' |' + ' AltCampus School',
+          title: postData.title + ' |' + ' AltCampus',
           url: 'https://altcampus.com/stories/' + postData.id,
           description: postData.description,
           images: [
