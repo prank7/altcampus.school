@@ -9,39 +9,39 @@ function Footer(props) {
       <div className="container px-8 mx-auto sm:px-3 ">
         <div className="border-solid py-7 border-t border-b border-royal-blue-200 grid grid-cols-2 gap-y-8 sm:gap-y-0  sm sm:grid-cols-4">
           <nav>
-            <h4 className="text-gray-500 text-sm font-semibold">Altcampus</h4>
+            <h4 className="text-gray-500 text-sm font-semibold">AltCampus</h4>
             <ul className="mt-5">
               <li>
-                <a
+                <Link
                   className="text-gray-500 text-xs hover:text-royal-blue-900 duration-300 ease-in-out transition"
-                  href="#"
+                  href="/curriculum"
                 >
-                  About Us
-                </a>
+                  Curriculum
+                </Link>
               </li>
               <li className="mt-2">
-                <a
+                <Link
                   className="text-gray-500 text-xs hover:text-royal-blue-900 duration-300 ease-in-out transition"
-                  href="#"
+                  href="/placements"
                 >
-                  Team
-                </a>
+                  Success Stories
+                </Link>
               </li>
               <li className="mt-2">
-                <a
+                <Link
                   className="text-gray-500 text-xs hover:text-royal-blue-900 duration-300 ease-in-out transition"
-                  href="#"
+                  href="/posts"
                 >
-                  Story
-                </a>
+                  Blog Posts
+                </Link>
               </li>
               <li className="mt-2">
-                <a
+                <Link
                   className="text-gray-500 text-xs hover:text-royal-blue-900 duration-300 ease-in-out transition"
-                  href="#"
+                  href="/pricing"
                 >
-                  Community
-                </a>
+                  Pricing
+                </Link>
               </li>
             </ul>
           </nav>
@@ -49,57 +49,73 @@ function Footer(props) {
             <h4 className="text-gray-500 text-sm font-semibold">Offerings</h4>
             <ul className="mt-5">
               <li>
-                <a
+                <Link
                   className="text-gray-500 text-xs hover:text-royal-blue-900 duration-300 ease-in-out transition"
-                  href="#"
+                  href="/courses"
                 >
-                  MERN Course
-                </a>
+                  Full Stack Web Development Track 
+                </Link>
               </li>
               <li className="mt-2">
-                <a
+                <Link
                   className="text-gray-500 text-xs hover:text-royal-blue-900 duration-300 ease-in-out transition"
-                  href="#"
+                  href="/courses"
                 >
-                  Assessments
-                </a>
+                  Backend Development Track 
+                </Link>
               </li>
               <li className="mt-2">
-                <a
+                <Link
                   className="text-gray-500 text-xs hover:text-royal-blue-900 duration-300 ease-in-out transition"
-                  href="#"
+                  href="/courses"
                 >
-                  Bootcamp
-                </a>
+                  Frontend Development Track 
+                </Link>
+              </li>
+              <li className="mt-2">
+                <Link
+                  className="text-gray-500 text-xs hover:text-royal-blue-900 duration-300 ease-in-out transition"
+                  href="/courses"
+                >
+                  All Courses
+                </Link>
               </li>
             </ul>
           </nav>
           <nav>
-            <h4 className="text-gray-500 text-sm font-semibold">Write to Us</h4>
+            <h4 className="text-gray-500 text-sm font-semibold">Policies</h4>
             <ul className="mt-5">
               <li>
-                <a
+                <Link
                   className="text-gray-500 text-xs hover:text-royal-blue-900 duration-300 ease-in-out transition"
-                  href="#"
+                  href="/privacy-policy"
                 >
-                  For Feedback
-                </a>
+                  Privacy Policy
+                </Link>
               </li>
               <li className="mt-2">
-                <a
+                <Link
                   className="text-gray-500 text-xs hover:text-royal-blue-900 duration-300 ease-in-out transition"
-                  href="#"
+                  href="/refund-policy"
                 >
-                  For Help
-                </a>
+                  Refund Policy
+                </Link>
               </li>
               <li className="mt-2">
-                <a
+                <Link
                   className="text-gray-500 text-xs hover:text-royal-blue-900 duration-300 ease-in-out transition"
-                  href="#"
+                  href="/pricing-policy"
                 >
-                  Story
-                </a>
+                  Pricing Policy
+                </Link>
+              </li>
+              <li className="mt-2">
+                <Link
+                  className="text-gray-500 text-xs hover:text-royal-blue-900 duration-300 ease-in-out transition"
+                  href="/terms"
+                >
+                  Terms
+                </Link>
               </li>
             </ul>
           </nav>
@@ -107,7 +123,7 @@ function Footer(props) {
             <h4 className="text-gray-500 text-sm font-semibold">Follow us</h4>
             <ul className="mt-5 flex items-center">
               <li>
-                <a className="text-gray-500 text-xs" href="#">
+                <a className="text-gray-500 text-xs" href="https://github.com/altcampus">
                   <img
                     className="w-8 h-8"
                     src="/images/icons/github.svg"
@@ -116,7 +132,7 @@ function Footer(props) {
                 </a>
               </li>
               <li className="ml-5">
-                <a className="text-gray-500 text-xs" href="#">
+                <a className="text-gray-500 text-xs" href="https://twitter.com/altcampus">
                   <img
                     className="w-8 h-8"
                     src="/images/icons/twitter.svg"
@@ -125,11 +141,11 @@ function Footer(props) {
                 </a>
               </li>
               <li className="ml-5">
-                <a className="text-gray-500 text-xs" href="#">
+                <a className="text-gray-500 text-xs" href="https://facebook.com/AltCampusIO">
                   <img
                     className="w-8 h-8"
-                    src="/images/icons/linkedin.svg"
-                    alt="Twitter Icon"
+                    src="/images/icons/facebook.svg"
+                    alt="Facebook Icon"
                   />
                 </a>
               </li>
@@ -138,7 +154,7 @@ function Footer(props) {
         </div>
       </div>
       <div className="container mx-auto py-4 text-gray-500 px-8 sm:px-3 text-xs">
-        <small>© All Copyrights. Altcampus 2021</small>
+        <small>© Copyright. AltCampus Services Private Limited. 2023</small>
       </div>
     </footer>
   );

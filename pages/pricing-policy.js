@@ -30,12 +30,12 @@ function PricingPolicy(props) {
           <p>
             A user registering with AltCampus (‘User’) may have the option to
             opt for a Free Trial (as defined below) or pay the course fee at the
-            time of registration. AltCampus may offer a free trial period of 7
-            (seven) days (‘Free Trial Window’) for the specified courses (‘Free
+            time of registration. AltCampus may offer a free trial period of 3
+            (three) days (‘Free Trial Window’) for the specified courses (‘Free
             Trial’). If free trial is available, the Free Trial Window shall
             commence from the date from which the access to the course is
-            granted to the User and shall expire after the expiration of 7
-            (seven) days from the date of such access. Upon the expiration of
+            granted to the User and shall expire after the expiration of 3
+            (three) days from the date of such access. Upon the expiration of
             the Free Trial Window, the access to the course will be terminated
             by AltCampus unless the User shall have made full payment associated
             with the courses (‘Course Fee’) to AltCampus. The Course Fee is as

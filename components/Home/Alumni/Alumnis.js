@@ -35,7 +35,7 @@ const alumnis = [
   },
   {
     name: 'Bimlendu',
-    company: 'Lancesoft',
+    company: 'Arvolution',
     image: '/images/students/bimlendu.svg',
     path: '/placements/bimlendu-kumar'
   }

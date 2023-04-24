@@ -21,16 +21,15 @@ const Stories = ({ allPostsData }) => {
         }}
       />
 
-      <div className="relative bg-gray-200 pt-16 pb-20 px-4 sm:px-6 lg:pt-32 lg:pb-28 lg:px-8">
+      <div className="relative pt-16 pb-20 px-4 sm:px-6 lg:pt-32 lg:pb-28 lg:px-8">
         <div className="relative max-w-7xl mx-auto px-8 pb-16">
           <div className="text-center">
             <h2 className="text-3xl max-w-4xl mx-auto tracking-tight font-extrabold text-gray-700 sm:text-4xl">
-              Placement Stories - Getting Software Jobs After Learning at Our
-              Bootcamp
+              Placement Stories - Getting Software Jobs After Doing Our Course
             </h2>
           </div>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-6 gap-4 bg-gray-200">
+        <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-6 gap-4 ">
           <div className="mx-8 col-span-1 md:col-start-2 md:col-span-4">
             {allPostsData.map(
               ({ id, name, company, date, title, studentPhoto, blurb }) => (
@@ -57,7 +56,7 @@ const Stories = ({ allPostsData }) => {
                             </h5>
                           </div>
                           <div>
-                            <h5 className="text-sm text-gray-600">{`‍Placed at ${company}`}</h5>
+                            <h5 className="text-sm text-gray-600">{`${company}`}</h5>
                           </div>
                         </figcaption>
                       </div>

@@ -29,11 +29,11 @@ const Tutorials = ({ allPostsData }) => {
 
 function Cards({ posts }) {
   return (
-    <div className="relative bg-gray-200 pt-16 pb-16 px-4 sm:px-6 lg:pt-32 lg:pb-28 lg:px-8">
+    <div className="relative pt-16 pb-16 px-4 sm:px-6 lg:pt-32 lg:pb-28 lg:px-8">
       <div className="relative max-w-7xl mx-auto px-8">
         <div className="text-center">
-          <h2 className="text-3xl max-w-4xl mx-auto tracking-tight font-extrabold text-gray-700 sm:text-4xl">
-            How to Learn Web Development and Get a Job - Tips on Zero to Job
+          <h2 className="max-w-4xl mx-auto tracking-tight text-5.5xl font-bold leading-tight text-royal-blue-800 sm:text-4xl">
+            How to <strong className='text-green-theme-900'>Learn Web Development </strong>and Get a Job <br/> Tips on Zero to Job
           </h2>
           <p className="mt-3 max-w-2xl mx-auto text-xl text-gray-600 sm:mt-4">
             On our blog here, we discuss how to get started learning full stack
