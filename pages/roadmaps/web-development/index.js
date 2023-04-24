@@ -22,7 +22,7 @@ function WebDevelopment({ roadmapsInfo }) {
           description
         }}
       />
-      <div className="w-full h-full bg-gray-100 pb-12 pt-24">
+      <div className="w-full h-full pb-12 pt-24">
         <div className="max-w-4xl mx-auto">
           <div className="mx-8">
             <h1 className="text-center py-4 text-4xl font-bold text-gray-600">
