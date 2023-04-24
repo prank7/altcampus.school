@@ -65,8 +65,8 @@ function Alumnis(props) {
           <li>
             <img
               className="w-full"
-              src="/images/hiring-partner/loconav.png"
-              alt="LocoNav"
+              src="/images/hiring-partner/ey.svg"
+              alt="Ernst & Young"
             />
           </li>
           <li className="">
@@ -79,15 +79,15 @@ function Alumnis(props) {
           <li>
             <img
               className="w-full"
-              src="/images/hiring-partner/mclarencollege.png"
-              alt="Mclarencollege"
+              src="/images/hiring-partner/loconav.png"
+              alt="LocoNav"
             />
           </li>
           <li>
             <img
               className="w-full"
-              src="/images/hiring-partner/thunderpod.png"
-              alt="Thunderpod"
+              src="/images/hiring-partner/mclarencollege.png"
+              alt="Mclarencollege"
             />
           </li>
         </ul>

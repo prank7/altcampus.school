@@ -235,57 +235,26 @@ function Pricing(props) {
               <h5 className="text-gray-500 font-normal">starting with ₹ 5K</h5>
             </header>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-12 text-center mt-10">
-              <figure className="shadow-lg-custom pt-5 pb-3 px-2 rounded-md border-2 border-white hover:border-royal-blue-600 hover:scale-105 transform  transition-all duration-500 cursor-pointer bg-white">
-                <img
-                  className="inline-block h-16"
-                  src="/images/icons/html-css.svg"
-                  alt="HTML CSS"
-                />
-                <figcaption className="text-royal-blue-800 mt-6 font-semibold text-base">
-                  HTML & CSS
-                </figcaption>
-              </figure>
-              <figure className="shadow-lg-custom pt-5 pb-3 px-2 rounded-md border-2 border-white hover:border-royal-blue-600 hover:scale-105 transform transition-all duration-500 cursor-pointer bg-white">
-                <img
-                  className="inline-block h-16"
-                  src="/images/icons/react.svg"
-                  alt="React"
-                />
-                <figcaption className="text-royal-blue-800 mt-6 font-semibold text-base">
-                  React
-                </figcaption>
-              </figure>
-              <figure className="shadow-lg-custom pt-5 pb-3 px-2 rounded-md border-2 border-white hover:border-royal-blue-600 hover:scale-105 transform transition-all duration-500 cursor-pointer bg-white">
-                <img
-                  className="inline-block h-16"
-                  src="/images/icons/js.svg"
-                  alt="JavaScript"
-                />
-                <figcaption className="text-royal-blue-800 mt-6 font-semibold text-base">
-                  JavaScript
-                </figcaption>
-              </figure>
-              <figure className="shadow-lg-custom pt-5 pb-3 px-2 rounded-md border-2 border-white hover:border-royal-blue-600 hover:scale-105 transform transition-all duration-500 cursor-pointer bg-white">
-                <img
-                  className="inline-block h-16"
-                  src="/images/icons/node-md.svg"
-                  alt="HTML CSS"
-                />
-                <figcaption className="text-royal-blue-800 mt-6 font-semibold text-base">
-                  NodeJs
-                </figcaption>
-              </figure>
-              <figure className="shadow-lg-custom pt-5 pb-3 px-2 rounded-md border-2 border-white hover:border-royal-blue-600 hover:scale-105 transform transition-all duration-500 cursor-pointer bg-white">
-                <img
-                  className="inline-block h-16"
-                  src="/images/icons/mongo-md.svg"
-                  alt="HTML CSS"
-                />
-                <figcaption className="text-royal-blue-800 mt-6 font-semibold text-base">
-                  MongoDB
-                </figcaption>
-              </figure>
-              <figure className="shadow-lg-custom pt-5 pb-3 px-2 rounded-md border-2 border-white hover:border-royal-blue-600 hover:scale-105 transform transition-all duration-500 cursor-pointer bg-white">
+              {
+                specificSkills.map((skill, i) => {
+                  return (
+                    <Link key={i} href={`/courses/${skill.slug}`}>
+                      <figure key={i} className="shadow-lg-custom pt-5 pb-3 px-2 rounded-md border-2 border-white hover:border-royal-blue-600 hover:scale-105 transform  transition-all duration-500 cursor-pointer bg-white">
+                        <img
+                          className="inline-block h-16"
+                          src={skill.image || "/images/icons/js-rounded.svg"}
+                          alt={skill.name}
+                        />
+                        <figcaption className="text-royal-blue-800 mt-6 font-semibold text-base">
+                          {skill.name}
+                        </figcaption>
+                      </figure>
+                    </Link>
+                  )
+                })
+              }  
+              
+              {/* <figure className="shadow-lg-custom pt-5 pb-3 px-2 rounded-md border-2 border-white hover:border-royal-blue-600 hover:scale-105 transform transition-all duration-500 cursor-pointer bg-white">
                 <div className="w-16 h-16 bg-royal-blue-200 rounded-full inline-flex justify-center items-center">
                   <span className="text-base text-royal-blue-800 font-semibold">
                     +5
@@ -294,7 +263,7 @@ function Pricing(props) {
                 <figcaption className="text-royal-blue-800 mt-6 font-semibold text-base">
                   See all
                 </figcaption>
-              </figure>
+              </figure> */}
             </div>
           </article>
           <article className="md:pl-16 mt-16 md:mt-0">
@@ -305,48 +274,29 @@ function Pricing(props) {
               <h5 className="text-gray-500 font-normal">starting with ₹ 65K</h5>
             </header>
             <div className="mt-10">
-              <article className="flex justify-between items-center bg-white py-5 px-4 rounded-md shadow-lg-custom border-2 border-white hover:border-royal-blue-600 hover:scale-105 transform transition-all duration-500 cursor-pointer">
-                <h3 className="text-base font-semibold text-royal-blue-800">
-                  Front-End <br /> Development
-                </h3>
-                <figure className="flex gap-x-3">
-                  <img src="/images/icons/html.svg" alt="html" />
-                  <img src="/images/icons/css.svg" alt="CSS" />
-                  <img src="/images/icons/js-rounded.svg" alt="js" />
-                  <img
-                    src="/images/icons/react-rounded.svg"
-                    alt="react-rounded"
-                  />
-                </figure>
-              </article>
-              <article className="flex justify-between items-center bg-white py-5 px-4 rounded-md shadow-lg-custom border-2 border-white hover:border-royal-blue-600 hover:scale-105 transform transition-all duration-500 cursor-pointer mt-8">
-                <h3 className="text-base font-semibold text-royal-blue-800">
-                  Back-End <br /> Development
-                </h3>
-                <figure className="flex gap-x-3">
-                  <img src="/images/icons/html.svg" alt="html" />
-                  <img src="/images/icons/css.svg" alt="CSS" />
-                  <img src="/images/icons/js-rounded.svg" alt="js" />
-                  <img
-                    src="/images/icons/react-rounded.svg"
-                    alt="react-rounded"
-                  />
-                </figure>
-              </article>
-              <article className="flex justify-between items-center bg-white py-5 px-4 rounded-md shadow-lg-custom border-2 border-white hover:border-royal-blue-600 hover:scale-105 transform transition-all duration-500 cursor-pointer mt-8">
-                <h3 className="text-base font-semibold text-royal-blue-800">
-                  Full-Stack <br /> Development
-                </h3>
-                <figure className="flex gap-x-3">
-                  <img src="/images/icons/html.svg" alt="html" />
-                  <img src="/images/icons/css.svg" alt="CSS" />
-                  <img src="/images/icons/js-rounded.svg" alt="js" />
-                  <img
-                    src="/images/icons/react-rounded.svg"
-                    alt="react-rounded"
-                  />
-                </figure>
-              </article>
+              {
+                fullTracks.map((track, i) => {
+                  return (
+                    <Link key={i} href={`/courses/${track.slug}`}>
+                      <article key={i} className={`flex justify-between items-center bg-white py-5 px-4 rounded-md shadow-lg-custom border-2 border-white hover:border-royal-blue-600 hover:scale-105 transform transition-all duration-500 cursor-pointer ${i != 0 ? ' mt-8' : ''}`}>
+                        <h3 className="text-base font-semibold text-royal-blue-800">
+                          {track.name}
+                        </h3>
+                        <figure className="flex gap-x-3">
+                          <img src="/images/icons/html.svg" alt="html" />
+                          <img src="/images/icons/css.svg" alt="CSS" />
+                          <img src="/images/icons/js-rounded.svg" alt="js" />
+                          <img
+                            src="/images/icons/react-rounded.svg"
+                            alt="react-rounded"
+                          />
+                        </figure>
+                      </article>
+                    </Link>
+                  )
+                })
+              }
+              
             </div>
           </article>
         </div>

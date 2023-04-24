@@ -64,11 +64,11 @@ function Hero(props) {
         <footer className="md:grid md:grid-cols-5 items-center mt-11">
           <h1 className="sm:col-span-4 text-xl sm:text-2xl leading-normal font-normal text-royal-blue-800">
             <strong className="font-normal md:block">
-            The most well designed courses on the internet for learning full-stack web development.
+            Master full-stack web development with the most well-designed courses on the internet. 
             </strong>
             <strong className="font-normal">
               {' '}
-              Start from zero and become job ready in MERN stack within 6 months.
+              From zero to job-ready in MERN stack in just 6 months.
             </strong>
           </h1>
           <div className="text-center md:text-right">
