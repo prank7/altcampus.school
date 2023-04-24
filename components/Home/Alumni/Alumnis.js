@@ -24,7 +24,7 @@ const alumnis = [
   {
     name: 'Deepak Sharma',
     company: 'Credilio',
-    image: '/images/students/harshaan.svg',
+    image: '/images/students/deepak-sharma.svg',
     path: '/placements/deepak-sharma'
   },
   {
@@ -36,7 +36,7 @@ const alumnis = [
   {
     name: 'Bimlendu',
     company: 'Lancesoft',
-    image: '/images/students/harshaan.svg',
+    image: '/images/students/bimlendu.svg',
     path: '/placements/bimlendu-kumar'
   }
 ];
