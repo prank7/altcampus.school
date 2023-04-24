@@ -234,34 +234,38 @@ function Pricing(props) {
               </h3>
               <h5 className="text-gray-500 font-normal">starting with ₹ 5K</h5>
             </header>
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-3 text-center mt-10">
-              {
-                specificSkills.map((skill, i) => {
-                  return (
-                    <Link key={i} href={`/courses/${skill.slug}`}>
-                      <figure key={i} className="shadow-lg-custom pt-5 pb-3 px-2 rounded-md border-2 border-white hover:border-royal-blue-600 hover:scale-105 transform  transition-all duration-500 cursor-pointer bg-white">
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-6 text-center mt-10 items-stretch">
+              {specificSkills.map((skill, i) => {
+                return (
+                  <Link key={i} href={`/courses/${skill.slug}`}>
+                    <figure
+                      key={i}
+                      className="shadow-lg-custom pt-5 pb-3 px-2 rounded-md border-2 border-white hover:border-royal-blue-600 hover:scale-105 transform  transition-all duration-500 cursor-pointer bg-white"
+                    >
+                      <img
+                        className="inline-block h-16"
+                        src={skill.image || '/images/icons/js-rounded.svg'}
+                        alt={skill.name}
+                      />
+                      <figcaption className="text-royal-blue-800 mt-6 font-semibold text-sm h-14">
+                        {skill.name}
+                      </figcaption>
+
+                      <div className="flex justify-between border-t mt-5 pt-3 px-4">
+                        <span className="text-sm font-semibold text-gray-600">
+                          {'₹' + skill.pricing.standard.INR}
+                        </span>
                         <img
-                          className="inline-block h-16"
-                          src={skill.image || "/images/icons/js-rounded.svg"}
-                          alt={skill.name}
+                          className="arrow-slide w-5"
+                          src="/images/icons/arrow-right-green.svg"
+                          alt="Arrow Right Icon"
                         />
-                        <figcaption className="text-royal-blue-800 mt-6 font-semibold text-base">
-                          {skill.name}
-                        </figcaption>
-                        <span className='px-2 py-1 mt-2 text-sm font-semibold text-gray-600'>{"₹" + skill.pricing.standard.INR}</span>
-                        {/* <div>
-                          <img
-                            className="mt-6 arrow-slide "
-                            src="/images/icons/arrow-right-green.svg"
-                            alt="Arrow Right Icon"
-                          />
-                        </div> */}
-                      </figure>
-                    </Link>
-                  )
-                })
-              }  
-              
+                      </div>
+                    </figure>
+                  </Link>
+                );
+              })}
+
               {/* <figure className="shadow-lg-custom pt-5 pb-3 px-2 rounded-md border-2 border-white hover:border-royal-blue-600 hover:scale-105 transform transition-all duration-500 cursor-pointer bg-white">
                 <div className="w-16 h-16 bg-royal-blue-200 rounded-full inline-flex justify-center items-center">
                   <span className="text-base text-royal-blue-800 font-semibold">
@@ -282,29 +286,31 @@ function Pricing(props) {
               <h5 className="text-gray-500 font-normal">starting with ₹ 65K</h5>
             </header>
             <div className="mt-10">
-              {
-                fullTracks.map((track, i) => {
-                  return (
-                    <Link key={i} href={`/courses/${track.slug}`}>
-                      <article key={i} className={`flex justify-between items-center bg-white py-5 px-4 rounded-md shadow-lg-custom border-2 border-white hover:border-royal-blue-600 hover:scale-105 transform transition-all duration-500 cursor-pointer ${i != 0 ? ' mt-8' : ''}`}>
-                        <h3 className="text-base font-semibold text-royal-blue-800">
-                          {track.name}
-                        </h3>
-                        <figure className="flex gap-x-3">
-                          <img src="/images/icons/html.svg" alt="html" />
-                          <img src="/images/icons/css.svg" alt="CSS" />
-                          <img src="/images/icons/js-rounded.svg" alt="js" />
-                          <img
-                            src="/images/icons/react-rounded.svg"
-                            alt="react-rounded"
-                          />
-                        </figure>
-                      </article>
-                    </Link>
-                  )
-                })
-              }
-              
+              {fullTracks.map((track, i) => {
+                return (
+                  <Link key={i} href={`/courses/${track.slug}`}>
+                    <article
+                      key={i}
+                      className={`flex justify-between items-center bg-white py-5 px-4 rounded-md shadow-lg-custom border-2 border-white hover:border-royal-blue-600 hover:scale-105 transform transition-all duration-500 cursor-pointer ${
+                        i != 0 ? ' mt-8' : ''
+                      }`}
+                    >
+                      <h3 className="text-base font-semibold text-royal-blue-800">
+                        {track.name}
+                      </h3>
+                      <figure className="flex gap-x-3">
+                        <img src="/images/icons/html.svg" alt="html" />
+                        <img src="/images/icons/css.svg" alt="CSS" />
+                        <img src="/images/icons/js-rounded.svg" alt="js" />
+                        <img
+                          src="/images/icons/react-rounded.svg"
+                          alt="react-rounded"
+                        />
+                      </figure>
+                    </article>
+                  </Link>
+                );
+              })}
             </div>
           </article>
         </div>
