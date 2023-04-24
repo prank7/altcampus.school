@@ -10,8 +10,7 @@ function Banner(props) {
         </h1>
         <h2 className="max-w-3xl mx-auto mt-8 font-Karla text-royal-blue-800 tracking-tight text-lg">
           Checkout our alumni stories and how AltCampus helped them to learn and
-          get their first job as a Software developer. Learn how India's finest
-          programming bootcamp is enabling folks to kickstart their career in
+          get their first job as a Software developer. Learn how our web development courses are enabling folks to kickstart their career in
           tech.
         </h2>
         <div className="text-center">
@@ -27,7 +26,7 @@ function Banner(props) {
           </figure>
         </div>
         <h3 className="text-4xl text-green-theme-900 font-bold mt-6">
-          <strong>Our Placement Success Rate - 86.4%</strong>
+          <strong>Our Success Rate - 86.4%</strong>
         </h3>
       </article>
     </section>

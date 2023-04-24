@@ -72,7 +72,7 @@ export default function Tweet({
         </a>
         <a
           className="ml-auto"
-          href={authorUrl}
+          href={tweetUrl}
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -124,7 +124,7 @@ export default function Tweet({
         </div>
       ) : null}
       {quoteTweet ? <Tweet {...quoteTweet} /> : null}
-      <a
+      {/* <a
         className="text-gray-500 text-sm hover:underline block"
         href={tweetUrl}
         target="_blank"
@@ -136,7 +136,7 @@ export default function Tweet({
         >
           {tinytime('{h}:{mm} {a} - {MM} {do}, {YYYY}').render(createdAt)}
         </time>
-      </a>
+      </a> */}
       <div className="flex text-gray-700 mt-2">
         <a
           className="flex items-center mr-4 text-gray-500 hover:text-blue-600 transition hover:underline"
