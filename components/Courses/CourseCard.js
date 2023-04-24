@@ -15,7 +15,7 @@ function CourseCard({ course }) {
 
   return (
     <Link href={'/courses/' + course.slug}>
-      <article className="rounded-lg flex items-stretch border-2 border-white hover:border-royal-blue-600 hover:scale-105 transform transition-all duration-500 cursor-pointer">
+      <article className="rounded-lg flex items-stretch border border-gray-200 hover:border-royal-blue-600 hover:scale-105 transform transition-all duration-500 cursor-pointer">
         <div className="p-4">
           <h2 className="text-xl font-semibold text-royal-blue-800">
             {course.name}

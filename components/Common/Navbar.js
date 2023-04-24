@@ -18,6 +18,7 @@ import {
   HeartIcon
 } from '@heroicons/react/outline';
 import Link from 'next/link';
+import CourseMenu, { courseItems } from './courseMenu';
 
 const mobileMenu = [
   {
@@ -84,11 +85,75 @@ function Navbar() {
                   Home
                 </div>
               </ActiveLink>
-              <ActiveLink href="/courses">
+              <CourseMenu />
+              {/* <ActiveLink href="/courses">
                 <div className="text-sm text-gray-500 hover:text-royal-blue-900 duration-300 ease-in-out transition py-5">
                   Courses
                 </div>
-              </ActiveLink>
+              </ActiveLink> */}
+              {/* <div className="relative">
+                <div className="absolute bg-white w-96 top-full shadow-md-custom rounded-md left-1/2 transform -translate-x-1/2 border grid grid-cols-2">
+                  <div className="p-4 border-b">
+                    <h4 className="text-lg text-gray-500 font-medium">
+                      Specific Skill
+                    </h4>
+                    <ul className=" text-royal-blue-800 text-sm font-medium pt-4 gap-4">
+                      <li className="flex items-center">
+                        <img
+                          className="w-6"
+                          src="/images/icons/html.svg"
+                          alt="HTML"
+                        />
+                        <strong className="ml-2 font-medium">HTML & CSS</strong>
+                      </li>
+                      <li className="flex items-center">
+                        <img
+                          className="w-6"
+                          src="/images/icons/js-rounded.svg"
+                          alt="JavaScript"
+                        />
+                        <strong className="ml-2 font-medium">JavaScript</strong>
+                      </li>
+                      <li className="flex items-center">
+                        <img
+                          className="w-6"
+                          src="/images/icons/react-rounded.svg"
+                          alt="React js"
+                        />
+                        <strong className="ml-2 font-medium">React.js</strong>
+                      </li>
+                      <li className="flex items-center">
+                        <img
+                          className="w-6"
+                          src="/images/icons/node-md.svg"
+                          alt="Node js"
+                        />
+                        <strong className="ml-2 font-medium">Node.js</strong>
+                      </li>
+                      <li className="flex items-center">
+                        <img
+                          className="w-6"
+                          src="/images/icons/node-md.svg"
+                          alt="Node js"
+                        />
+                        <strong className="ml-2 font-medium">
+                          MERN stack capastone project
+                        </strong>
+                      </li>
+                    </ul>
+                  </div>
+                  <div className="p-4 bg-royal-blue-100 rounded-bl-md rounded-br-md">
+                    <h4 className="text-lg text-gray-500 font-medium">
+                      Learning track
+                    </h4>
+                    <ul className="text-royal-blue-800 font-medium text-sm pt-4 gap-2">
+                      <li>Fronte-end Development</li>
+                      <li>Back-end Development</li>
+                      <li>Full-stack Development</li>
+                    </ul>
+                  </div>
+                </div>
+              </div> */}
               <ActiveLink href="/placements">
                 <div className="text-sm text-gray-500 hover:text-royal-blue-900 duration-300 ease-in-out transition py-5">
                   Placements
