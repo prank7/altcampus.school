@@ -33,10 +33,10 @@ function Blog(props) {
             />
             <div className="sm:max-w-2xl md:max-w-none sm:pr-12 md:pr-0">
               <h3 className="text-royal-blue-800 text-2xl font-bold mt-4">
-                Followed by <span className='text-green-theme-900'>100+</span> exercises and projects
+                Followed by <span className='text-green-theme-900'>200+</span> exercises and projects
               </h3>
               <p className="font-Karla text-gray-500 mt-3">
-                In addition to extensive video content, our program includes over 100 hands-on exercises and real-world projects that help you build practical skills and apply it in real-world scenarios. 
+                In addition to extensive video content, our program includes over 200 hands-on exercises and real-world projects that help you build practical skills and apply it in real-world scenarios. 
                 <br/><br/>
                 By the time you complete the course, you'll have a robust portfolio to showcase to potential employers.
               </p>

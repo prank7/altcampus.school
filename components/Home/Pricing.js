@@ -226,7 +226,7 @@ function Pricing(props) {
               Rupees
             </strong>
           </div> */}
-        <div className="grid md:grid-cols-2 max-w-6xl mx-auto mt-20  px-12">
+        <div className="grid md:grid-cols-2  mx-auto mt-20  px-12">
           <article className="md:pr-16 md:border-r-2 border-gray-200">
             <header className="text-center">
               <h3 className="text-gray-500 font-bold text-2xl">
@@ -234,7 +234,7 @@ function Pricing(props) {
               </h3>
               <h5 className="text-gray-500 font-normal">starting with ₹ 5K</h5>
             </header>
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-12 text-center mt-10">
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-3 text-center mt-10">
               {
                 specificSkills.map((skill, i) => {
                   return (
@@ -248,6 +248,14 @@ function Pricing(props) {
                         <figcaption className="text-royal-blue-800 mt-6 font-semibold text-base">
                           {skill.name}
                         </figcaption>
+                        <span className='px-2 py-1 mt-2 text-sm font-semibold text-gray-600'>{"₹" + skill.pricing.standard.INR}</span>
+                        {/* <div>
+                          <img
+                            className="mt-6 arrow-slide "
+                            src="/images/icons/arrow-right-green.svg"
+                            alt="Arrow Right Icon"
+                          />
+                        </div> */}
                       </figure>
                     </Link>
                   )

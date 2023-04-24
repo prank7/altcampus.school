@@ -119,12 +119,12 @@ function Home(props) {
                     />
                     <figcaption className="mt-2">
                       <cite className="text-base not-italic text-royal-blue-800 font-semibold">
-                        Abhishek Kumar
+                        Abhishek 
                       </cite>
                       <br />
-                      {/* <cite className="text-xxs not-italic text-gray-500 tracking-normal uppercase">
-                        BigBinary
-                      </cite> */}
+                      <cite className="text-xxs not-italic text-gray-500 tracking-normal uppercase">
+                        Lancesoft
+                      </cite>
                     </figcaption>
                   </div>
                 </figure>
