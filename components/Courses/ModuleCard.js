@@ -5,11 +5,11 @@ function ModuleCard({ module }) {
   return (
     <article className="border border-gray-300 mx-auto rounded-md p-4">
       <header className="flex">
-        <div>
+        <div className="max-w-sm">
           <h2 className="text-2xl text-royal-blue-800 font-semibold">
             {module.name}
           </h2>
-          <p className="text-base text-gray-500 max-w-sm mt-2">
+          <p className="text-base text-gray-500 mt-2">
             Curabitur lobortis id lorem id bibendum. Ut id consectetur magna.
           </p>
         </div>
