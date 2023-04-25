@@ -49,7 +49,7 @@ function Testimonial(props) {
             </h3>
             <a
               className="bg-green-theme-900 hover:bg-green-theme-700 transition duration-300 ease-in-out text-white text-center py-4 px-12 rounded text-sm font-semibold inline-block mt-8 md:mt-0"
-              href="#"
+              href="https://launchpad.altcampus.com/signup"
             >
               Sign Up Now
             </a>

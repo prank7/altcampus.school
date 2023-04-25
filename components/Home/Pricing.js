@@ -319,7 +319,7 @@ function Pricing(props) {
             className="hover-btn inline-block mt-16 py-5 px-10 border-2 border-solid border-royal-blue-800 rounded text-royal-blue-800 font-bold text-center capitalize"
             href="/courses"
           >
-            <strong className="relative z-10">See all courses</strong>
+            <strong className="relative z-10">Browse Courses</strong>
           </Link>
         </footer>
       </div>
