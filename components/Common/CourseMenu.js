@@ -87,7 +87,7 @@ export const courseItems = [
   }
 ];
 
-export default function CourseMeu() {
+export default function CourseMenu() {
   return (
     <div className="max-w-sm">
       <Popover className="relative">
