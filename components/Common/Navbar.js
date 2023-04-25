@@ -18,7 +18,7 @@ import {
   HeartIcon
 } from '@heroicons/react/outline';
 import Link from 'next/link';
-import CourseMenu, { courseItems } from './courseMenu';
+import CourseMenu, { courseItems } from './CourseMenu';
 
 const mobileMenu = [
   {
