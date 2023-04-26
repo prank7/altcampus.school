@@ -10,7 +10,7 @@ function ModuleCard({ module }) {
             {module.name}
           </h2>
           <p className="text-base text-gray-500 mt-2">
-            Curabitur lobortis id lorem id bibendum. Ut id consectetur magna.
+            {module.description}
           </p>
         </div>
         <figure className="">
