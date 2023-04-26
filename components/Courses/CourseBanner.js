@@ -59,7 +59,7 @@ function CourseBanner({ course }) {
         </div>
 
         <a
-          className="inline-block bg-green-theme-900 text-white text-sm font-semibold py-4 px-12 rounded-md mt-8"
+          className="inline-block bg-green-theme-900 text-white text-md font-semibold py-4 px-12 rounded-md mt-8"
           href={`https://launchpad.altcampus.com/signup?course=${course.slug}`}
         >
           {`Enroll at ${symbol} ${course.pricing.standard[currency]}`}

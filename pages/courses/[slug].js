@@ -79,7 +79,8 @@ export default function IndividualCoursePage({ course }) {
         <CTA
           titleA={'This course is 25% pocket friendly '}
           titleB={'when compared to other platforms'}
-          action={'Enroll for $5K'}
+          action={`Enroll Now`}
+          course={course}
         />
       </LayoutHome>
     </>
