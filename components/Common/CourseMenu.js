@@ -118,16 +118,16 @@ export default function CourseMenu() {
               <Popover.Panel className="absolute z-10 max-w-2xl w-screen px-4 mt-3 transform -translate-x-1/2 left-1/2 sm:px-0">
                 <div className="overflow-hidden w-full rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white">
                   <div className="relative grid gap-8 px-4 pt-4 grid-cols-2">
-                    {courseItems.map((item) => (
-                      <div className="">
+                    {courseItems.map((item, i) => (
+                      <div className="" key={i}>
                         <>
                           <div className="">
                             <h4 className="text-sm font-medium text-gray-500">
                               {item.name}
                             </h4>
                             <ul>
-                              {item.skills.map((skill) => (
-                                <li className="my-4">
+                              {item.skills.map((skill, j) => (
+                                <li className="my-4" key={j}>
                                   <Link
                                     className="flex items-start p-1 rounded-lg hover:bg-gray-200 transition ease-in-out duration-150"
                                     href={skill.href}
