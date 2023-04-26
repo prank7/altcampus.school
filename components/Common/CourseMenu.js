@@ -119,38 +119,36 @@ export default function CourseMeu() {
                 <div className="overflow-hidden w-full rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white">
                   <div className="relative grid gap-8 px-4 pt-4 grid-cols-2">
                     {courseItems.map((item) => (
-                      <div className="">
-                        <>
-                          <div className="">
-                            <h4 className="text-sm font-medium text-gray-500">
-                              {item.name}
-                            </h4>
-                            <ul>
-                              {item.skills.map((skill) => (
-                                <li className="my-4">
-                                  <Link
-                                    className="flex items-start p-1 rounded-lg hover:bg-gray-200 transition ease-in-out duration-150"
-                                    href={skill.href}
-                                  >
-                                    <img
-                                      className="w-6"
-                                      src={skill.icon}
-                                      alt={skill.name}
-                                    />
-                                    <div className="ml-2">
-                                      <strong className="text-sm font-medium text-royal-blue-800">
-                                        {skill.name}
-                                      </strong>
-                                      <p className="text-sm text-gray-500 mt-1">
-                                        {skill.description}
-                                      </p>
-                                    </div>
-                                  </Link>
-                                </li>
-                              ))}
-                            </ul>
-                          </div>
-                        </>
+                      <div key={item.name}>
+                        <div className="">
+                          <h4 className="text-sm font-medium text-gray-500">
+                            {item.name}
+                          </h4>
+                          <ul>
+                            {item.skills.map((skill) => (
+                              <li className="my-4" key={skill.name}>
+                                <Link
+                                  className="flex items-start p-1 rounded-lg hover:bg-gray-200 transition ease-in-out duration-150"
+                                  href={skill.href}
+                                >
+                                  <img
+                                    className="w-6"
+                                    src={skill.icon}
+                                    alt={skill.name}
+                                  />
+                                  <div className="ml-2">
+                                    <strong className="text-sm font-medium text-royal-blue-800">
+                                      {skill.name}
+                                    </strong>
+                                    <p className="text-sm text-gray-500 mt-1">
+                                      {skill.description}
+                                    </p>
+                                  </div>
+                                </Link>
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
                       </div>
                     ))}
                   </div>
