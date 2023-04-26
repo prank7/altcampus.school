@@ -299,13 +299,21 @@ function Pricing(props) {
                         {track.name}
                       </h3>
                       <figure className="flex gap-x-3">
-                        <img src="/images/icons/html.svg" alt="html" />
-                        <img src="/images/icons/css.svg" alt="CSS" />
-                        <img src="/images/icons/js-rounded.svg" alt="js" />
                         <img
-                          src="/images/icons/react-rounded.svg"
+                          src="/images/icons/html.svg"
+                          alt="html-rounded"
+                        />
+                        <img
+                          src="/images/icons/css.svg"
+                          alt="css-rounded"
+                        />
+                        <img
+                          src="/images/icons/js-rounded.svg"
                           alt="react-rounded"
                         />
+                        <img src="/images/icons/react-rounded.svg" alt="html" />
+                        <img src="/images/icons/node-md.svg" alt="CSS" />
+                        <img src="/images/icons/mongo.svg" alt="js" />
                       </figure>
                     </article>
                   </Link>
