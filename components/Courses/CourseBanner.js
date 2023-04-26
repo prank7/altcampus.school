@@ -64,7 +64,7 @@ function CourseBanner({ course }) {
         >
           {`Enroll at ${symbol} ${course.pricing.standard[currency]}`}
         </a>
-        <footer className="max-w-6xl mt-16 grid gap-16 md:gap-0 md:grid-cols-3 mx-auto">
+        {/* <footer className="max-w-6xl mt-16 grid gap-16 md:gap-0 md:grid-cols-3 mx-auto">
           <div className="text-center px-16">
             <h3 className="text-5xl font-bold text-royal-blue-800">95%</h3>
             <p className="text-gray-500 mt-2 text-xl">
@@ -81,7 +81,7 @@ function CourseBanner({ course }) {
             <h3 className="text-5xl font-bold text-royal-blue-800">16 Weeks</h3>
             <p className="text-gray-500 mt-2 text-xl">Average Course Time</p>
           </div>
-        </footer>
+        </footer> */}
       </article>
     </section>
   );

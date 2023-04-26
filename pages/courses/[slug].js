@@ -47,7 +47,7 @@ export default function IndividualCoursePage({ course }) {
           course.isMiniTrack ?
           <ParentTracks course={course} /> : null
         }
-        <CourseBenefit />
+        {/* <CourseBenefit /> */}
 
         {/* <div>
           {course.modules.map((m, i) => {

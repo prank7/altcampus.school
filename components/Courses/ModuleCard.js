@@ -31,7 +31,7 @@ function ModuleCard({ module }) {
       </div>
       <div className="flex items-center mt-8 text-gray-500 gap-x-2 border-t border-gray-200 pt-4">
         <strong className="inline-block bg-gold-400 bg-opacity-40 p-2 rounded-md font-medium text-royal-blue-800">
-          Specific Module ★
+          Specific Skills ★
         </strong>
         <span>•</span>
         <strong className="text-gray-500 font-semibold">16-32 weeks</strong>
