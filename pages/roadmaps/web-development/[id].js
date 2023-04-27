@@ -5,11 +5,14 @@ import Link from 'next/link';
 import { MDXRemote } from 'next-mdx-remote';
 
 import { getAllRoadmapIds, getRoadmapData } from '../../../lib/roadmaps';
+import { getCoursesWithBasicInfo } from '../../../lib/courseData';
+
 import LayoutHome from '../../../components/Common/Layout';
 import PostCTA from '../../../components/Community/PostCTA';
 import authors from '../../../lib/author.json';
 import Topics from '../../../components/roadmap/Topics';
 import Modal from '../../../components/roadmap/Modal';
+
 
 export let ModalContext = createContext(false);
 
@@ -131,10 +134,12 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
   const roadmapData = await getRoadmapData(params.id);
+  let coursesWithBasicInfo = await getCoursesWithBasicInfo()
 
   return {
     props: {
-      roadmapData
+      roadmapData,
+      coursesWithBasicInfo
     }
   };
 }

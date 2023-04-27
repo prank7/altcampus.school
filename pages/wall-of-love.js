@@ -6,6 +6,7 @@ import Masonry from 'react-masonry-css';
 import LayoutHome from '../components/Common/Layout';
 import { getTweets } from '../lib/twitter';
 import Tweet from '../components/Tweet';
+import { getCoursesWithBasicInfo } from '../lib/courseData';
 
 const breakpointColumnsObj = {
   default: 3,
@@ -15,7 +16,7 @@ const breakpointColumnsObj = {
   640: 1
 };
 
-function WallOfLove({ tweets }) {
+function WallOfLove({ tweets, coursesWithBasicInfo }) {
   var title = 'Wall Of Love | AltCampus School';
   var description =
     'AltCampus is one of the best programming bootcamps in India. Learn how it helps you get a job as a full stack web developer.';
@@ -32,7 +33,7 @@ function WallOfLove({ tweets }) {
           description
         }}
       />
-      <LayoutHome coursesWithBasicInfo={props.coursesWithBasicInfo}>
+      <LayoutHome coursesWithBasicInfo={coursesWithBasicInfo}>
         <main className="max-w-7xl mx-auto px-8 py-20">
           <h1 className="text-center text-dark-blue-500 text-5xl font-semibold mb-16">
             What people are saying!
@@ -109,7 +110,8 @@ export async function getStaticProps() {
     '1360871839984095234'
   ]);
 
-  return { props: { tweets } };
+  const coursesWithBasicInfo = await getCoursesWithBasicInfo();
+  return { props: { tweets, coursesWithBasicInfo } };
 }
 
 export default WallOfLove;

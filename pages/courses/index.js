@@ -7,6 +7,7 @@ import Courses from '../../components/Courses/CourseContainer';
 import CTA from '../../components/Home/SignupCTA';
 import { getAllAlumnisData } from '../../lib/airtableApi';
 import { getCourses } from '../../lib/courseData';
+import { getCoursesWithBasicInfo } from '../../lib/courseData';
 
 function CoursePage({ alumnis, courses, coursesWithBasicInfo }) {
   var title = 'Web Development Courses | AltCampus';
@@ -61,9 +62,12 @@ export const getStaticProps = async () => {
     }
   })
 
+  let coursesWithBasicInfo = await getCoursesWithBasicInfo()
+
   return {
     props: {
-      courses: courses
+      courses: courses,
+      coursesWithBasicInfo
     }
   };
 };

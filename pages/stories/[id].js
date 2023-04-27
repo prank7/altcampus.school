@@ -2,6 +2,7 @@ import { getAllPostIds, getPostData } from '../../lib/stories';
 import PostCTA from '../../components/Community/PostCTA';
 import { NextSeo } from 'next-seo';
 import LayoutHome from '../../components/Common/Layout';
+import { getCoursesWithBasicInfo } from '../../lib/courseData';
 
 export default function Post({ postData, coursesWithBasicInfo }) {
   return (
@@ -54,9 +55,11 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
   const postData = await getPostData(params.id);
+  let coursesWithBasicInfo = await getCoursesWithBasicInfo()
   return {
     props: {
-      postData
+      postData,
+      coursesWithBasicInfo
     }
   };
 }

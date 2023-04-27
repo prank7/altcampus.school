@@ -32,23 +32,9 @@ function MyApp({ Component, pageProps, coursesWithBasicInfo }) {
           }}
         />
       </Head>
-      <Component {...pageProps} coursesWithBasicInfo={coursesWithBasicInfo}  />
+      <Component {...pageProps} />
     </>
   );
 }
-
-
-MyApp.getInitialProps = async (ctx) => {
-  var courses = await getCourses();
-  
-  var coursesWithBasicInfo = courses.tracks.map((c, i) => {
-    return {
-      name: c.name, slug: c.slug, image: c.image, pricing: c.pricing, isMiniTrack: c.isMiniTrack, description: c.description
-    }
-  });
-
-  return { coursesWithBasicInfo }
-}
-
 
 export default MyApp;

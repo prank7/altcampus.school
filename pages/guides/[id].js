@@ -11,6 +11,7 @@ import {
   getGuideData,
   getRelatedGuides
 } from '../../lib/guides';
+import { getCoursesWithBasicInfo } from '../../lib/courseData';
 
 export default function Post({ guideData, relatedGuides = [], coursesWithBasicInfo }) {
   let authorInfo = authors[guideData.author || 'altcampus'];
@@ -152,10 +153,12 @@ export async function getStaticPaths() {
 export async function getStaticProps({ params }) {
   const guideData = await getGuideData(params.id);
   const relatedGuides = await getRelatedGuides(params.id);
+  let coursesWithBasicInfo = await getCoursesWithBasicInfo()
   return {
     props: {
       guideData,
-      relatedGuides
+      relatedGuides,
+      coursesWithBasicInfo
     }
   };
 }

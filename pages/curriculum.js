@@ -4,6 +4,7 @@ import Head from 'next/head';
 import { NextSeo } from 'next-seo';
 
 import ReadyToBuildCTA from '../components/Home/ReadyToBuildCTA';
+import { getCoursesWithBasicInfo } from '../lib/courseData';
 
 function curriculum(props) {
   var title = 'Curriculum | AltCampus';
@@ -714,6 +715,11 @@ function curriculum(props) {
       </LayoutHome>
     </>
   );
+}
+
+export async function getStaticProps() {
+  let coursesWithBasicInfo = await getCoursesWithBasicInfo()
+  return { props: { coursesWithBasicInfo } };
 }
 
 export default curriculum;

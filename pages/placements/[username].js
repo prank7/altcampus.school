@@ -8,6 +8,8 @@ import Blog from '../../components/Student/Blog';
 import Story from '../../components/Student/Story';
 import CTA from '../../components/Home/SignupCTA';
 import StudentExperience from '../../components/Student/StudentExperience';
+import { getCoursesWithBasicInfo } from '../../lib/courseData';
+
 import {
   getAllAlumnisData,
   getIndividualAlumniData
@@ -120,12 +122,14 @@ export const getStaticPaths = () => {
   };
 };
 
-export const getStaticProps = (props) => {
+export const getStaticProps = async(props) => {
   const { username } = props.params;
   const alumniData = getIndividualAlumniData(username);
+  let coursesWithBasicInfo = await getCoursesWithBasicInfo()
   return {
     props: {
-      alumniData
+      alumniData,
+      coursesWithBasicInfo
     }
   };
 };

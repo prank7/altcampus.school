@@ -1,6 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 import LayoutHome from '../components/Common/Layout';
+import { getCoursesWithBasicInfo } from '../lib/courseData';
 
 function PricingPolicy(props) {
   return (
@@ -8,7 +9,7 @@ function PricingPolicy(props) {
       <Head>
         <title>Pricing Policy | AltCampus</title>
       </Head>
-      <LayoutHome>
+      <LayoutHome coursesWithBasicInfo={props.coursesWithBasicInfo}>
         <main className="max-w-3xl mx-auto px-6 space-y-4 text-gray-700 py-8 pb-16 space-y-3 font-normal">
           <article className="text-center md:py-16 py-12">
             <h1 className="text-5xl text-dark-blue-500 font-semibold">
@@ -132,6 +133,11 @@ function PricingPolicy(props) {
       </LayoutHome>
     </>
   );
+}
+
+export async function getStaticProps() {
+  let coursesWithBasicInfo = await getCoursesWithBasicInfo()
+  return { props: { coursesWithBasicInfo } };
 }
 
 export default PricingPolicy;

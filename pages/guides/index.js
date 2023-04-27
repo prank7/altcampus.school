@@ -3,6 +3,7 @@ import LayoutHome from '../../components/Common/Layout';
 import { NextSeo } from 'next-seo';
 import generateSitemap from '../../lib/generateSitemap';
 import { getSortedGuidesData } from '../../lib/guides';
+import { getCoursesWithBasicInfo } from '../../lib/courseData';
 
 const Tutorials = ({ allPostsData, coursesWithBasicInfo }) => {
   var title =
@@ -54,11 +55,13 @@ function Cards({ posts }) {
 
 export async function getStaticProps() {
   const allPostsData = getSortedGuidesData();
+  let coursesWithBasicInfo = await getCoursesWithBasicInfo()
 
   await generateSitemap();
   return {
     props: {
-      allPostsData
+      allPostsData,
+      coursesWithBasicInfo
     }
   };
 }

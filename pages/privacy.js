@@ -1,6 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 import LayoutHome from '../components/Common/Layout';
+import { getCoursesWithBasicInfo } from '../lib/courseData';
 
 function Privacy(props) {
   return (
@@ -476,6 +477,11 @@ function Privacy(props) {
       </LayoutHome>
     </>
   );
+}
+
+export async function getStaticProps() {
+  const coursesWithBasicInfo = await getCoursesWithBasicInfo();
+  return { props: { coursesWithBasicInfo } };
 }
 
 export default Privacy;

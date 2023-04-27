@@ -5,8 +5,9 @@ import CTA from '../../components/Home/SignupCTA';
 import { getCourses } from '../../lib/courseData';
 import ProjectCard from '../../components/Projects/ProjectCard';
 import projectsData from './data.json';
+import { getCoursesWithBasicInfo } from '../../lib/courseData';
 
-function Projects() {
+function Projects(props) {
   var title = 'Projects | AltCampus';
   var description =
     "Sample projects that students at AltCampus build to learn HTML, CSS, JavaScript, React.js, Node.js, MongoDB, frontend development, backend development and MERN stack.";
@@ -61,9 +62,12 @@ function Projects() {
 
 export const getStaticProps = async () => {
   const courses = await getCourses();
+  let coursesWithBasicInfo = await getCoursesWithBasicInfo()
+  
   return {
     props: {
-      courses
+      courses,
+      coursesWithBasicInfo
     }
   };
 };
