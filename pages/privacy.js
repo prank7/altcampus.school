@@ -9,8 +9,8 @@ function Privacy(props) {
         <title>Privacy Policy | AltCampus</title>
       </Head>
 
-      <LayoutHome>
-        <main class="max-w-3xl mx-auto px-6 space-y-4 text-gray-700 py-8 pb-16 space-y-3 font-normal">
+      <LayoutHome coursesWithBasicInfo={props.coursesWithBasicInfo}>
+        <main className="max-w-3xl mx-auto px-6 space-y-4 text-gray-700 py-8 pb-16 space-y-3 font-normal">
           <article className="text-center md:py-16 py-12">
             <h1 className="text-5xl text-dark-blue-500 font-semibold">
               Privacy and Cookie Policy

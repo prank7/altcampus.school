@@ -4,7 +4,7 @@ import { NextSeo } from 'next-seo';
 import generateSitemap from '../../lib/generateSitemap';
 import { getSortedGuidesData } from '../../lib/guides';
 
-const Tutorials = ({ allPostsData }) => {
+const Tutorials = ({ allPostsData, coursesWithBasicInfo }) => {
   var title =
     'How to Learn Web Development and Get a Job - Blog | AltCampus';
   var description =
@@ -12,7 +12,7 @@ const Tutorials = ({ allPostsData }) => {
   var url = 'https://altcampus.com/guides';
 
   return (
-    <LayoutHome>
+    <LayoutHome coursesWithBasicInfo={coursesWithBasicInfo}>
       <NextSeo
         title={title}
         description={description}

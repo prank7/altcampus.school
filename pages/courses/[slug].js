@@ -11,7 +11,7 @@ import CourseBenefit from '../../components/Courses/CourseBenefit';
 import CourseFeedback from '../../components/Courses/CourseFeedback';
 import ModuleList from '../../components/Courses/ModuleList';
 
-export default function IndividualCoursePage({ course }) {
+export default function IndividualCoursePage({ course, coursesWithBasicInfo }) {
   var title = `${course.name} Course | AltCampus`;
   var description =
     `The best ${course.name} course on the internet. Learn ${course.name} properly with step-by-step course content, videos, exercises, assignments and projects.`;
@@ -34,7 +34,7 @@ export default function IndividualCoursePage({ course }) {
           ]
         }}
       />
-      <LayoutHome>
+      <LayoutHome coursesWithBasicInfo={coursesWithBasicInfo}>
         <CourseBanner
           course={course}
         />
@@ -47,7 +47,7 @@ export default function IndividualCoursePage({ course }) {
           course.isMiniTrack ?
           <ParentTracks course={course} /> : null
         }
-        <CourseBenefit />
+        {/* <CourseBenefit /> */}
 
         {/* <div>
           {course.modules.map((m, i) => {
@@ -79,7 +79,8 @@ export default function IndividualCoursePage({ course }) {
         <CTA
           titleA={'This course is 25% pocket friendly '}
           titleB={'when compared to other platforms'}
-          action={'Enroll for $5K'}
+          action={`Enroll Now`}
+          course={course}
         />
       </LayoutHome>
     </>

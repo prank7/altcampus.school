@@ -18,7 +18,7 @@ import {
   HeartIcon
 } from '@heroicons/react/outline';
 import Link from 'next/link';
-import CourseMenu, { courseItems } from './courseMenu';
+import CourseMenu, { courseItems } from './CourseMenu';
 
 const mobileMenu = [
   {
@@ -53,7 +53,7 @@ const mobileMenu = [
   }
 ];
 
-function Navbar() {
+function Navbar(props) {
   return (
     <header className="fixed z-20 w-full top-0 bg-white shadow-sm-custom">
       <Popover className="container mx-auto flex justify-between items-center px-8 sm:px-3 py-4 md:py-0">
@@ -85,7 +85,9 @@ function Navbar() {
                   Home
                 </div>
               </ActiveLink>
-              <CourseMenu />
+
+              <CourseMenu coursesWithBasicInfo={props.coursesWithBasicInfo}/>
+
               {/* <ActiveLink href="/courses">
                 <div className="text-sm text-gray-500 hover:text-royal-blue-900 duration-300 ease-in-out transition py-5">
                   Courses

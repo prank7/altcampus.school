@@ -8,7 +8,7 @@ import CTA from '../../components/Home/SignupCTA';
 import { getAllAlumnisData } from '../../lib/airtableApi';
 import { getCourses } from '../../lib/courseData';
 
-function CoursePage({ alumnis, courses }) {
+function CoursePage({ alumnis, courses, coursesWithBasicInfo }) {
   var title = 'Web Development Courses | AltCampus';
   var description =
     "The Best Web Development Courses - HTML & CSS, JavaScript, React.js, Node.js, MongoDB, Frontend Development, Backend Development and Full Stack MERN Development";
@@ -31,7 +31,7 @@ function CoursePage({ alumnis, courses }) {
           ]
         }}
       />
-      <LayoutHome>
+      <LayoutHome coursesWithBasicInfo={coursesWithBasicInfo}>
         <Banner />
         <Courses courses={courses} />
         <CTA
@@ -45,12 +45,25 @@ function CoursePage({ alumnis, courses }) {
 }
 
 export const getStaticProps = async () => {
-  const data = getAllAlumnisData();
-  const courses = await getCourses();
+  let courses = await getCourses();
+
+  courses = courses.tracks.map((c) => {
+    var estimatedTimeToComplete = c.modules.reduce((acc, cur) => acc + cur.estimatedTimeToComplete, 0);
+
+    return {
+      name: c.name, 
+      slug: c.slug, 
+      isMiniTrack: c.isMiniTrack || false, 
+      pricing: c.pricing,
+      image: c.image, 
+      description: c.description,
+      estimatedTimeToComplete
+    }
+  })
+
   return {
     props: {
-      alumnis: data,
-      courses
+      courses: courses
     }
   };
 };

@@ -3,14 +3,14 @@ import { getSortedPostsData } from '../../lib/stories';
 import { NextSeo } from 'next-seo';
 import LayoutHome from '../../components/Common/Layout';
 
-const Stories = ({ allPostsData }) => {
+const Stories = ({ allPostsData, coursesWithBasicInfo }) => {
   var title = 'Success Stories | AltCampus';
   var description =
     'Placement and success stories from AltCampus. Stories from one of the best placement records among programming bootcamps in India';
   var url = 'https://altcampus.com/stories';
 
   return (
-    <LayoutHome>
+    <LayoutHome coursesWithBasicInfo={coursesWithBasicInfo}>
       <NextSeo
         title={title}
         description={description}

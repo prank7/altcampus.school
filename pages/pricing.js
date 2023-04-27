@@ -25,18 +25,18 @@ function PricingPage(props) {
           description
         }}
       />
-      <LayoutHome>
-        <Pricing courses={props.courses} />
+      <LayoutHome coursesWithBasicInfo={props.coursesWithBasicInfo}>
+        <Pricing courses={props.coursesWithBasicInfo} />
       </LayoutHome>
     </>
   );
 }
 
 export const getStaticProps = async () => {
-  const courses = await getCourses();
+  // const courses = await getCourses();
   return {
     props: {
-      courses
+      
     }
   };
 };

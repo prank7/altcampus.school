@@ -87,7 +87,8 @@ export const courseItems = [
   }
 ];
 
-export default function CourseMeu() {
+export default function CourseMenu(props) {
+
   return (
     <div className="max-w-sm">
       <Popover className="relative">
@@ -118,22 +119,23 @@ export default function CourseMeu() {
               <Popover.Panel className="absolute z-10 max-w-2xl w-screen px-4 mt-3 transform -translate-x-1/2 left-1/2 sm:px-0">
                 <div className="overflow-hidden w-full rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white">
                   <div className="relative grid gap-8 px-4 pt-4 grid-cols-2">
-                    {courseItems.map((item) => (
-                      <div key={item.name}>
+                    
+                      <div>
                         <div className="">
                           <h4 className="text-sm font-medium text-gray-500">
-                            {item.name}
+                            Specific Skills
                           </h4>
                           <ul>
-                            {item.skills.map((skill) => (
+                          {props.coursesWithBasicInfo.filter((c) => c.isMiniTrack).map((skill, i) => {
+                            return (
                               <li className="my-4" key={skill.name}>
                                 <Link
                                   className="flex items-start p-1 rounded-lg hover:bg-gray-200 transition ease-in-out duration-150"
-                                  href={skill.href}
+                                  href={`/courses/${skill.slug}`}
                                 >
                                   <img
                                     className="w-6"
-                                    src={skill.icon}
+                                    src={skill.image || 'https://altcampus/images/icons/js-rounded.svg'}
                                     alt={skill.name}
                                   />
                                   <div className="ml-2">
@@ -141,16 +143,48 @@ export default function CourseMeu() {
                                       {skill.name}
                                     </strong>
                                     <p className="text-sm text-gray-500 mt-1">
-                                      {skill.description}
+                                      
                                     </p>
                                   </div>
                                 </Link>
                               </li>
-                            ))}
+                            )
+                          })}
                           </ul>
                         </div>
                       </div>
-                    ))}
+
+                      <div className="">
+                        <h4 className="text-sm font-medium text-gray-500">
+                          Learning Tracks
+                        </h4>
+                        <ul>
+                        {props.coursesWithBasicInfo.filter((c) => !c.isMiniTrack).map((skill, i) => {
+                          return (
+                            <li className="my-4" key={skill.name}>
+                              <Link
+                                className="flex items-start p-1 rounded-lg hover:bg-gray-200 transition ease-in-out duration-150"
+                                href={`/courses/${skill.slug}`}
+                              >
+                                <img
+                                  className="w-6"
+                                  src={skill.image || 'https://altcampus/images/icons/js-rounded.svg'}
+                                  alt={skill.name}
+                                />
+                                <div className="ml-2">
+                                  <strong className="text-sm font-medium text-royal-blue-800">
+                                    {skill.name}
+                                  </strong>
+                                  <p className="text-sm text-gray-500 mt-1">
+                                    {skill.description}
+                                  </p>
+                                </div>
+                              </Link>
+                            </li>
+                          )
+                        })}
+                        </ul>
+                      </div>
                   </div>
                   <div className="text-center py-6 border-t">
                     <Link

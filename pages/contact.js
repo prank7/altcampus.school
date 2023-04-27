@@ -19,7 +19,7 @@ function ContactPage(props) {
           description
         }}
       />
-      <LayoutHome>
+      <LayoutHome coursesWithBasicInfo={props.coursesWithBasicInfo}>
         <main className="max-w-xl mx-auto px-6">
           <div>
             <article className="text-center md:py-16 py-12">

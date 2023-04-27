@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { numberWithCommas } from '../../lib/helper';
 import { getCourses } from '../../lib/courseData';
 import Link from 'next/link';
@@ -19,11 +19,26 @@ let pricingData = {
 };
 
 function Pricing(props) {
-  let [currency, setCurrency] = useState('inr');
-  let symbol = currency === 'inr' ? '₹' : '$';
+  let [currency, setCurrency] = useState('INR');
+  let symbol = currency === 'INR' ? '₹' : '$';
 
-  let specificSkills = props.courses.tracks.filter((a) => a.isMiniTrack);
-  let fullTracks = props.courses.tracks.filter((a) => !a.isMiniTrack);
+  let specificSkills = props.courses.filter((a) => a.isMiniTrack);
+  let fullTracks = props.courses.filter((a) => !a.isMiniTrack);
+
+  let fullTrackLowest = [...fullTracks].sort((a, b) => a.pricing.standard.INR - b.pricing.standard.INR)[0];
+  let specificSkillLowest = [...specificSkills].sort((a, b) => a.pricing.standard.INR - b.pricing.standard.INR)[0];
+
+  useEffect(() => {
+    if (localStorage.getItem('ac_currency')) {
+      return setCurrency(localStorage.getItem('ac_currency'))
+    }
+
+    localStorage.setItem('ac_currency', currency);
+  }, [])
+
+  useEffect(() => {
+    localStorage.setItem('ac_currency', currency);
+  }, [currency])
 
   return (
     <section className="py-24 bg-blur-background bg-contain bg-center">
@@ -202,37 +217,39 @@ function Pricing(props) {
               </footer>
             </article>
           </div> */}
-        {/* <div className="flex items-center justify-center mt-24">
-            <input
-              type="checkbox"
-              name="toggle"
-              className="hidden"
-              id="togglePrice"
-              defaultChecked={currency === 'usd'}
-              onChange={() => {
-                setCurrency(currency === 'inr' ? 'usd' : 'inr');
-              }}
-            />
-            <label
-              htmlFor="togglePrice"
-              className="w-16 h-10 bg-royal-blue-200 rounded-full shadow-inner-custom flex items-center p-1 toggle-price order-1 mx-4 cursor-pointer"
-            >
-              <div className="w-8 h-8 rounded-full bg-gradient-to-b from from-royal-blue-600 to-royal-blue-800"></div>
-            </label>
-            <strong className="font-normal text-base text-gray-500 dollar">
-              US Dollars
-            </strong>
-            <strong className="font-normal text-base text-gray-500 order-2 rupee">
-              Rupees
-            </strong>
-          </div> */}
+
+        <div className="flex items-center justify-center mt-8">
+          <input
+            type="checkbox"
+            name="toggle"
+            className="hidden"
+            id="togglePrice"
+            checked={currency !== 'INR'}
+            onChange={() => {
+              setCurrency(currency === 'INR' ? 'USD' : 'INR');
+            }}
+          />
+          <label
+            htmlFor="togglePrice"
+            className="w-16 h-10 bg-royal-blue-200 rounded-full shadow-inner-custom flex items-center p-1 toggle-price order-1 mx-4 cursor-pointer"
+          >
+            <div className="w-8 h-8 rounded-full bg-gradient-to-b from from-royal-blue-600 to-royal-blue-800"></div>
+          </label>
+          <strong className="font-normal text-base text-gray-500 dollar">
+            USD
+          </strong>
+          <strong className="font-normal text-base text-gray-500 order-2 rupee">
+            INR
+          </strong>
+        </div>
+
         <div className="grid md:grid-cols-2  mx-auto mt-20  px-12">
           <article className="md:pr-16 md:border-r-2 border-gray-200">
             <header className="text-center">
               <h3 className="text-gray-500 font-bold text-2xl">
                 a specific skill
               </h3>
-              <h5 className="text-gray-500 font-normal">starting with ₹ 5K</h5>
+              <h5 className="text-gray-500 font-normal">{`starting at ${symbol} ${specificSkillLowest.pricing.standard[currency]}`}</h5>
             </header>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-6 text-center mt-10 items-stretch">
               {specificSkills.map((skill, i) => {
@@ -253,7 +270,7 @@ function Pricing(props) {
 
                       <div className="flex justify-between border-t mt-5 pt-3 px-4">
                         <span className="text-sm font-semibold text-gray-600">
-                          {'₹' + skill.pricing.standard.INR}
+                          {symbol + skill.pricing.standard[currency]}
                         </span>
                         <img
                           className="arrow-slide w-5"
@@ -283,7 +300,7 @@ function Pricing(props) {
               <h3 className="text-gray-500 font-bold text-2xl">
                 or a learning track
               </h3>
-              <h5 className="text-gray-500 font-normal">starting with ₹ 65K</h5>
+              <h5 className="text-gray-500 font-normal">{`starting at ${symbol} ${fullTrackLowest.pricing.standard[currency]}`}</h5>
             </header>
             <div className="mt-10">
               {fullTracks.map((track, i) => {
@@ -299,13 +316,10 @@ function Pricing(props) {
                         {track.name}
                       </h3>
                       <figure className="flex gap-x-3">
-                        <img src="/images/icons/html.svg" alt="html" />
-                        <img src="/images/icons/css.svg" alt="CSS" />
-                        <img src="/images/icons/js-rounded.svg" alt="js" />
-                        <img
-                          src="/images/icons/react-rounded.svg"
-                          alt="react-rounded"
-                        />
+                        <img src={ track.image || "/images/icons/js-rounded.svg"} alt="react-rounded" />
+                        {/* <img src="/images/icons/react-rounded.svg" alt="html" />
+                        <img src="/images/icons/node-md.svg" alt="CSS" />
+                        <img src="/images/icons/mongo.svg" alt="js" /> */}
                       </figure>
                     </article>
                   </Link>

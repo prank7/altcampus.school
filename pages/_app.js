@@ -2,15 +2,13 @@ import '../styles/index.css';
 import { siteMeta } from '../blog.config';
 import { DefaultSeo } from 'next-seo';
 import Head from 'next/head';
+import { getCourses } from '../lib/courseData';
 
 const GA_TRACKING_ID = 'G-2SJPKQTMLX';
 
-function MyApp({ Component, pageProps }) {
+function MyApp({ Component, pageProps, coursesWithBasicInfo }) {
   return (
     <>
-      <Head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      </Head>
       <DefaultSeo
         twitter={siteMeta.twitter}
         openGraph={siteMeta.openGraph}
@@ -34,9 +32,23 @@ function MyApp({ Component, pageProps }) {
           }}
         />
       </Head>
-      <Component {...pageProps} />
+      <Component {...pageProps} coursesWithBasicInfo={coursesWithBasicInfo}  />
     </>
   );
 }
+
+
+MyApp.getInitialProps = async (ctx) => {
+  var courses = await getCourses();
+  
+  var coursesWithBasicInfo = courses.tracks.map((c, i) => {
+    return {
+      name: c.name, slug: c.slug, image: c.image, pricing: c.pricing, isMiniTrack: c.isMiniTrack, description: c.description
+    }
+  });
+
+  return { coursesWithBasicInfo }
+}
+
 
 export default MyApp;

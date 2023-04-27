@@ -22,7 +22,7 @@ function curriculum(props) {
           description
         }}
       />
-      <LayoutHome>
+      <LayoutHome coursesWithBasicInfo={props.coursesWithBasicInfo}>
         <section className="py-24 bg-royal-blue-100">
           <header className="text-center">
             <h2 className="font-bold text-5xl text-dark-blue-500">

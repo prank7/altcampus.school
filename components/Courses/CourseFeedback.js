@@ -4,8 +4,8 @@ function CourseFeedback() {
   return (
     <section className="py-16 bg-multi-color bg-cover bg-no-repeat px-8">
       <article className="max-w-3xl mx-auto flex items-center bg-white justify-between px-8 py-7 rounded-xl">
-        <div class="-ml-12 sm:-ml-16">
-          <span class="text-center rounded-full text-5.5xl text-white block w-16 h-16 bg-gray-500 -shadow-md-custom pt-1 font-bold transform -scale-y-1">
+        <div className="-ml-12 sm:-ml-16">
+          <span className="text-center rounded-full text-5.5xl text-white block w-16 h-16 bg-gray-500 -shadow-md-custom pt-1 font-bold transform -scale-y-1">
             “
           </span>
         </div>

@@ -22,6 +22,7 @@ import { getCourses } from '../lib/courseData';
 import Image from 'next/image';
 
 function Home(props) {
+  
   useEffect(() => {
     const s = document.createElement('script');
     s.setAttribute('src', 'https://platform.twitter.com/widgets.js');
@@ -34,7 +35,7 @@ function Home(props) {
       <Head>
         <title>{blogConfig.siteMeta.title}</title>
       </Head>
-      <LayoutHome>
+      <LayoutHome coursesWithBasicInfo={props.coursesWithBasicInfo}>
         <main>
           <Hero />
           <ACStats />
@@ -49,7 +50,7 @@ function Home(props) {
             <CourseModel />
           </section>
           <TestimonialCTA />
-          <Pricing courses={props.courses} />
+          <Pricing courses={props.coursesWithBasicInfo} />
           <WallOfLove tweets={props.tweets} />
           <Checklist />
           <FAQ />
@@ -162,9 +163,9 @@ export async function getStaticProps() {
     '1410650906996051972',
   ]);
 
-  const courses = await getCourses();
+  // const courses = await getCourses();
 
-  return { props: { tweets, courses } };
+  return { props: { tweets } };
 }
 
 export default Home;

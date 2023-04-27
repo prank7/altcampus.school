@@ -5,14 +5,14 @@ import { getAllRoadmapsInfo } from '../../../lib/roadmaps';
 import generateSitemap from '../../../lib/generateSitemap';
 import LayoutHome from '../../../components/Common/Layout';
 
-function WebDevelopment({ roadmapsInfo }) {
+function WebDevelopment({ roadmapsInfo, coursesWithBasicInfo }) {
   var title = 'MERN Stack Stack Web Development Learning Roadmap 2023 | AltCampus';
   var description =
     "Full stack web development roadmap 2023. Detailed MERN stack roadmap and free resources from the best web development course on the internet.";
   var url = 'https://altcampus.com/community/web-development';
 
   return (
-    <LayoutHome>
+    <LayoutHome coursesWithBasicInfo={coursesWithBasicInfo}>
       <NextSeo
         title={title}
         description={description}

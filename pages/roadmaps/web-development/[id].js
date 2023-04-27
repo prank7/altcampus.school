@@ -19,13 +19,13 @@ const components = {
   Topics,
   Modal
 };
-export default function Post({ roadmapData }) {
+export default function Post({ roadmapData, coursesWithBasicInfo }) {
   let [open, setOpen] = useState(false);
   let [modalType, setModalType] = useState('paid');
 
   return (
     <ModalContext.Provider value={{ open, setOpen, modalType, setModalType }}>
-      <LayoutHome>
+      <LayoutHome coursesWithBasicInfo={coursesWithBasicInfo}>
         {roadmapData.scriptTag ? (
           <Head>
             <script type="text/javascript" src={roadmapData.scriptTag}></script>

@@ -21,7 +21,7 @@ function HowItWorks(props) {
           description
         }}
       />
-      <LayoutHome>
+      <LayoutHome coursesWithBasicInfo={props.coursesWithBasicInfo}>
         <Content />
       </LayoutHome>
     </>

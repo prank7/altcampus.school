@@ -8,8 +8,8 @@ function RefundPolicy(props) {
       <Head>
         <title>Refund Policy | AltCampus</title>
       </Head>
-      <LayoutHome>
-        <main class="max-w-3xl mx-auto px-6 space-y-4 text-gray-600 py-8 pb-16 space-y-3 font-normal antialiased">
+      <LayoutHome coursesWithBasicInfo={props.coursesWithBasicInfo}>
+        <main className="max-w-3xl mx-auto px-6 space-y-4 text-gray-600 py-8 pb-16 space-y-3 font-normal antialiased">
           <article className="text-center md:py-16 py-12">
             <h1 className="text-5xl text-dark-blue-500 font-semibold">
               Refund Policy

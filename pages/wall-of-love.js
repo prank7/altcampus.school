@@ -32,7 +32,7 @@ function WallOfLove({ tweets }) {
           description
         }}
       />
-      <LayoutHome>
+      <LayoutHome coursesWithBasicInfo={props.coursesWithBasicInfo}>
         <main className="max-w-7xl mx-auto px-8 py-20">
           <h1 className="text-center text-dark-blue-500 text-5xl font-semibold mb-16">
             What people are saying!

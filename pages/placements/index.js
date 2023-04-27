@@ -9,7 +9,7 @@ import HiringPartners from '../../components/Placement/HiringPartners';
 import CTA from '../../components/Home/SignupCTA';
 import { getAllAlumnisData } from '../../lib/airtableApi';
 
-function Placement({ alumnis }) {
+function Placement({ alumnis, coursesWithBasicInfo }) {
   var title = 'AltCampus Placements';
   var description =
     "Placement stats and success stories from India's best programming bootcamp. AltCampus reviews and experiences shared by our students.";
@@ -32,7 +32,7 @@ function Placement({ alumnis }) {
           ]
         }}
       />
-      <LayoutHome>
+      <LayoutHome coursesWithBasicInfo={coursesWithBasicInfo}>
         <Banner />
         <HiringPartners />
         <section className="py-16">
@@ -60,7 +60,12 @@ function Placement({ alumnis }) {
 }
 
 export const getStaticProps = () => {
-  const data = getAllAlumnisData();
+  let data = getAllAlumnisData();
+  data = data.map((d) =>  {
+    const relevantData = { name: d.name, slug: d.slug, image: d.image, role: d.role, company: d.company }
+    return relevantData;
+  })
+
   return {
     props: {
       alumnis: data

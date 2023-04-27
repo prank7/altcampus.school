@@ -3,10 +3,10 @@ import Document, { Html, Main, Head, NextScript } from 'next/document';
 const GA_TRACKING_ID = 'G-2SJPKQTMLX';
 
 class MyDocument extends Document {
-  static async getInitialProps(ctx) {
-    const initialProps = await Document.getInitialProps(ctx);
-    return { ...initialProps };
-  }
+  // static async getInitialProps(ctx) {
+  //   const initialProps = await Document.getInitialProps(ctx);
+  //   return { ...initialProps };
+  // }
 
   render() {
     return (
@@ -27,15 +27,6 @@ class MyDocument extends Document {
             rel="preconnect"
             href="https://fonts.googleapis.com"
             crossOrigin="true"
-          />
-          <link
-            href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Source+Sans+Pro:wght@200;400;600;700&family=Mukta:wght@300;400;500;600&display=swap"
-            rel="preload"
-            as="style"
-          />
-          <link
-            href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Source+Sans+Pro:wght@200;400;600;700&family=Mukta:wght@300;400;500;600&display=swap"
-            rel="stylesheet"
           />
           {/* Karla & Sora Font Family */}
           <link

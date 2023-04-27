@@ -8,7 +8,7 @@ function Terms(props) {
       <Head>
         <title>Terms | AltCampus</title>
       </Head>
-      <LayoutHome>
+      <LayoutHome coursesWithBasicInfo={props.coursesWithBasicInfo}>
         <section className="max-w-3xl mx-auto px-6 space-y-4 text-gray-700 py-8 pb-16">
           <article className="text-center md:py-16 py-12">
             <h1 className="text-5xl text-dark-blue-500 font-semibold">

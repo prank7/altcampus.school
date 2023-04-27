@@ -10,7 +10,7 @@ function Singup(props) {
         </h2>
         <a
           className="bg-green-theme-900 hover:bg-green-theme-700 transition duration-300 ease-in-out text-white text-center py-6 px-20 rounded text-lg font-semibold inline-block mt-8 md:mt-0"
-          href="https://launchpad.altcampus.com/signup"
+          href={props.course ? `https://launchpad.altcampus.com/signup?course=${props.course.slug}` : `https://launchpad.altcampus.com/signup`}
         >
           {props.action}
         </a>

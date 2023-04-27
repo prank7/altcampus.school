@@ -12,11 +12,11 @@ import {
   getRelatedGuides
 } from '../../lib/guides';
 
-export default function Post({ guideData, relatedGuides = [] }) {
+export default function Post({ guideData, relatedGuides = [], coursesWithBasicInfo }) {
   let authorInfo = authors[guideData.author || 'altcampus'];
 
   return (
-    <LayoutHome>
+    <LayoutHome coursesWithBasicInfo={coursesWithBasicInfo}>
       {guideData.scriptTag ? (
         <Head>
           <script type="text/javascript" src={guideData.scriptTag}></script>

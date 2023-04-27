@@ -14,7 +14,7 @@ import {
 } from '../../lib/airtableApi';
 import { NextSeo } from 'next-seo';
 
-export default function student({ alumniData }) {
+export default function student({ alumniData, coursesWithBasicInfo }) {
   // console.log(alumniData);
   if (!alumniData) return null;
   var title = `${alumniData.name} | AltCampus`;
@@ -42,7 +42,7 @@ export default function student({ alumniData }) {
         <title>{alumniData.name} | AltCampus Alumni </title>
         <link rel="icon" href="/favicon.png" />
       </Head>
-      <LayoutHome>
+      <LayoutHome coursesWithBasicInfo={coursesWithBasicInfo}>
         <Banner {...alumniData} />
         <section className="bg-royal-blue-100  py-16">
           <div className="container mx-auto px-8 md:grid items-start md:grid-cols-9 gap-16">

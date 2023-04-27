@@ -3,8 +3,8 @@ import React, { useState } from 'react';
 import CourseCard from './CourseCard';
 
 function CourseContainer(props) {
-  var orderedTracks = props.courses.tracks.filter((t) => !t.isMiniTrack);
-  orderedTracks = orderedTracks.concat(props.courses.tracks.filter((t) => t.isMiniTrack).sort((a, b) => a.pricing.standard.INR > b.pricing.standard.INR))
+  var orderedTracks = props.courses.filter((t) => !t.isMiniTrack);
+  orderedTracks = orderedTracks.concat(props.courses.filter((t) => t.isMiniTrack).sort((a, b) => a.pricing.standard.INR > b.pricing.standard.INR))
   
   const [courseFilter, setCourseFilter ] = useState('all');
   
