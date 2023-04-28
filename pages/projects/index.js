@@ -6,10 +6,10 @@ import { getCourses } from '../../lib/courseData';
 import ProjectCard from '../../components/Projects/ProjectCard';
 import projectsData from './data.json';
 
-function Projects() {
+function Projects(props) {
   var title = 'Projects | AltCampus';
   var description =
-    "Sample projects that students at AltCampus build to learn HTML, CSS, JavaScript, React.js, Node.js, MongoDB, frontend development, backend development and MERN stack.";
+    'Sample projects that students at AltCampus build to learn HTML, CSS, JavaScript, React.js, Node.js, MongoDB, frontend development, backend development and MERN stack.';
   var url = 'https://altcampus.com/projects';
 
   return (
@@ -33,7 +33,8 @@ function Projects() {
         <section className="py-32 md:pt-44 md:pb-14 bg-fancy bg-no-repeat">
           <article className="container mx-auto text-center px-8">
             <h1 className="text-5.5xl font-bold leading-tight text-royal-blue-800">
-              Sneak Peak into <strong className="text-green-theme-900">Projects</strong> that{' '}
+              Sneak Peak into{' '}
+              <strong className="text-green-theme-900">Projects</strong> that{' '}
               <br /> students make
             </h1>
           </article>
