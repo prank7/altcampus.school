@@ -25,7 +25,7 @@ function Hero(props) {
               job ready web developer{' '}
             </strong>
           </h2>
-          <div className="bg-white col-span-1 flex items-center justify-between shadow-lg-custom p-4 py-7 md:px-8 rounded-2xl mt-16 lg:mt-0 sm:ml-3.5 relative">
+          <div className="bg-white col-span-1 flex items-center justify-between shadow-lg-custom p-6 py-7 md:px-8 rounded-2xl mt-16 lg:mt-0 sm:ml-3.5 relative">
             <div className="md:-ml-12 sm:-ml-16 absolute md:static -top-8 left-1/2 transform md:transform-none -translate-x-1/2">
               <span className="text-center rounded-full text-5.5xl text-white block w-16 h-16 bg-gray-500 -shadow-md-custom pt-1 font-bold transform -scale-y-1">
                 “
