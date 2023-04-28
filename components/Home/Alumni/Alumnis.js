@@ -6,37 +6,37 @@ const alumnis = [
   {
     name: 'Harshaan',
     company: 'BigBinary',
-    image: '/images/students/harshaan.svg',
+    image: '/images/students/harshaan.png',
     path: '/placements/harshaan-nihal-khan'
   },
   {
     name: 'Devika Misra',
     company: 'BigBinary',
-    image: '/images/students/devika.svg',
+    image: '/images/students/devika.png',
     path: '/placements/devika-misra'
   },
   {
     name: 'Abid Rahim',
     company: 'LocoNav',
-    image: '/images/students/abid.svg',
+    image: '/images/students/abid.png',
     path: '/placements/abid-rahim'
   },
   {
     name: 'Deepak Sharma',
     company: 'Credilio',
-    image: '/images/students/deepak-sharma.svg',
+    image: '/images/students/deepak-sharma.png',
     path: '/placements/deepak-sharma'
   },
   {
     name: 'Komal Raj',
     company: 'KheloMore',
-    image: '/images/students/komal.svg',
+    image: '/images/students/komal.png',
     path: '/placements/komal-raj'
   },
   {
     name: 'Bimlendu',
     company: 'Arvolution',
-    image: '/images/students/bimlendu.svg',
+    image: '/images/students/bimlendu.png',
     path: '/placements/bimlendu-kumar'
   }
 ];

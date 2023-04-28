@@ -4,7 +4,7 @@ const alumnis = [
   {
     name: 'Swastik',
     company: 'Freelancing',
-    image: '/images/students/swastik.svg',
+    image: '/images/students/swastik.png',
     path: '/placements/swastik-yadav',
     quote:
       "AltCampus was <strong>the best decision I have ever made</strong>. You don't need any prior knowledge of programming. The courses take you from ground zero and help you reach your escape velocity."
@@ -12,7 +12,7 @@ const alumnis = [
   {
     name: 'Reetik',
     company: 'BigBinary',
-    image: '/images/students/reetik.svg',
+    image: '/images/students/reetik.png',
     path: '/placements/reettik-goswami',
     quote:
       'AltCampus has helped me develop postive attitude and problem solving. The <strong>courses are pretty epic and extremely detailed</strong>. I highly recommend it for anyone looking to learn web dev.'
@@ -45,7 +45,7 @@ function Testimonial(props) {
                 </div>
               </aside>
               <blockquote className="sm:mx-16 ml-6 font-Karla text-xl text-gray-500 leading-normal sm:pr-9">
-                <p dangerouslySetInnerHTML={{__html: item.quote}}/>
+                <p dangerouslySetInnerHTML={{ __html: item.quote }} />
               </blockquote>
 
               <footer>

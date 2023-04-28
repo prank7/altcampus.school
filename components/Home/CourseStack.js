@@ -65,7 +65,7 @@ function CourseStack(props) {
               <aside className="min-w-max text-center">
                 <img
                   className="w-16 h-16 rounded-full object-cover inline-block"
-                  src="/images/students/shastri.svg"
+                  src="/images/students/shastri.png"
                   alt="Abhishek"
                 />
                 <div className="mt-4">
