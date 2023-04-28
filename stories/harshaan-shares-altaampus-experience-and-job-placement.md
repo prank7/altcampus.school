@@ -3,7 +3,7 @@ title: "Harshaan's story of learning to code, AltCampus, getting first job and a
 description: 'Harshaan talks about how to learn to code, AltCampus experience, placement support, getting first job and advice for newbie programmers.'
 date: '2023-04-23'
 blurb: Harshaan shares about learning to code, AltCampus, getting first job and advice for newbies.
-studentPhoto: '/images/students/harshaan-sq.svg'
+studentPhoto: '/images/students/harshaan-sq.png'
 photo: 'https://altcampus.com/images/stories/Harshaan-AltCampus-placement-bootcamp.png'
 name: 'Harshaan Nihal Khan'
 company: 'BigBinary'

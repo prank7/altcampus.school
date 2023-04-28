@@ -12,7 +12,7 @@ let data = [
       author: {
         name: 'Shreyansh',
         company: 'BigBinary',
-        avatar: '/images/students/shreyansh.svg'
+        avatar: '/images/students/shreyansh.png'
       }
     }
   },
@@ -40,7 +40,7 @@ let data = [
       author: {
         name: 'Shasank',
         company: 'BigBinary',
-        avatar: '/images/students/shashank.svg'
+        avatar: '/images/students/shashank.png'
       }
     }
   },
@@ -54,7 +54,7 @@ let data = [
       author: {
         name: 'Onkar',
         company: 'Emtec inc.',
-        avatar: '/images/students/onkar.svg'
+        avatar: '/images/students/onkar.png'
       }
     }
   },
@@ -67,9 +67,9 @@ let data = [
       author: {
         name: 'Ayushman',
         company: 'BigBinary',
-        avatar: '/images/students/ayushman.svg'
+        avatar: '/images/students/ayushman.png'
       }
-    },
+    }
   },
   // {
   //   topImage: '/images/happy-child3.svg',
@@ -89,14 +89,14 @@ let data = [
   //   topImage: '/images/happy-child2.svg',
   //   question: 'How long are the courses?',
   //   answer: `In a cohort, it takes about 6-7 months to finish the AltCampus full-stack course. In self paced, it depends on the time and dedication of the learner. Students usually finish the course in anywhere between 5 to 9 months. Mentorship in either options is available till 9 months.`,
-    // quote: {
-    //   text: 'Altcampus made me job-ready in just 7 months. If genuinely you want to be a MERN Stack Developer consider joining AltCampus.',
-    //   author: {
-    //     name: 'Onkar',
-    //     company: 'Emtec inc.',
-    //     avatar: '/images/students/onkar.svg'
-    //   }
-    // }
+  // quote: {
+  //   text: 'Altcampus made me job-ready in just 7 months. If genuinely you want to be a MERN Stack Developer consider joining AltCampus.',
+  //   author: {
+  //     name: 'Onkar',
+  //     company: 'Emtec inc.',
+  //     avatar: '/images/students/onkar.svg'
+  //   }
+  // }
   // },
   {
     topImage: '/images/happy-child3.svg',
@@ -107,7 +107,7 @@ let data = [
       author: {
         name: 'Sourav',
         company: 'BigBinary',
-        avatar: '/images/students/sourav.svg'
+        avatar: '/images/students/sourav.png'
       }
     }
   }
@@ -186,7 +186,7 @@ function Answer({ activeQuestionIndex }) {
       </p>
       <article className="flex items-center bg-white py-4 pr-6 pl-14 shadow-lg-custom rounded-2xl relative z-10 ml-6 mt-10">
         <div className="font-Karla text-base text-gray-500 leading-relaxed mr-6">
-          <p dangerouslySetInnerHTML={{__html: quote.text}}></p>
+          <p dangerouslySetInnerHTML={{ __html: quote.text }}></p>
           <span className="absolute -left-8 -top-3 transform">
             <span className="text-center rounded-full text-8xl text-green-theme-900 block w-16 h-16 transform -scale-y-1 font-Sora font-semibold text-opacity-50">
               “
@@ -195,7 +195,7 @@ function Answer({ activeQuestionIndex }) {
         </div>
         <aside className="text-center">
           <Image
-            className="rounded-full min-w-max object-cover"
+            className="w-14 h-14 rounded-full inline-block min-w-max object-cover"
             height="60"
             width="60"
             src={quote.author.avatar}

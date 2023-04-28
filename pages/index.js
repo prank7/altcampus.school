@@ -22,7 +22,6 @@ import { getCourses } from '../lib/courseData';
 import Image from 'next/image';
 
 function Home(props) {
-  
   useEffect(() => {
     const s = document.createElement('script');
     s.setAttribute('src', 'https://platform.twitter.com/widgets.js');
@@ -115,12 +114,12 @@ function Home(props) {
                   <div className="w-16 md:w-24">
                     <img
                       className="inline-block w-16 h-16 rounded-full object-cover"
-                      src="/images/students/abhishek-sonal.svg"
+                      src="/images/students/abhishek-sonal.png"
                       alt="Abhishek Kumar"
                     />
                     <figcaption className="mt-2">
                       <cite className="text-base not-italic text-royal-blue-800 font-semibold">
-                        Abhishek 
+                        Abhishek
                       </cite>
                       <br />
                       <cite className="text-xxs not-italic text-gray-500 tracking-normal uppercase">
@@ -160,7 +159,7 @@ export async function getStaticProps() {
     '1430470361422864391',
     '1427367547347750928',
     '1120008211937947648',
-    '1410650906996051972',
+    '1410650906996051972'
   ]);
 
   // const courses = await getCourses();

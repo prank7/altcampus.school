@@ -17,11 +17,14 @@ function Hero(props) {
     <section className="py-32 md:py-40 bg-fancy bg-no-repeat">
       <article className="container mx-auto px-8 sm:px-3">
         <header className="md:grid md:grid-cols-2 gap-x-20 items-center justify-between">
-        <h2 className="text-4xl sm:text-4.5xl md:text-5.5xl font-bold leading-tight col-span-1 text-royal-blue-800 max-w-2xl">
-          <strong className="md:block">Step by step courses </strong>
-          <strong> for becoming a  </strong>
-          <strong className="text-green-theme-900"> job ready web developer </strong>
-        </h2>
+          <h2 className="text-4xl sm:text-4.5xl md:text-5.5xl font-bold leading-tight col-span-1 text-royal-blue-800 max-w-2xl">
+            <strong className="md:block">Step by step courses </strong>
+            <strong> for becoming a </strong>
+            <strong className="text-green-theme-900">
+              {' '}
+              job ready web developer{' '}
+            </strong>
+          </h2>
           <div className="bg-white col-span-1 flex items-center shadow-lg-custom py-7 pr-8 pl-8 rounded-2xl mt-8 md:mt-0 sm:ml-3.5">
             <div className="-ml-12 sm:-ml-16">
               <span className="text-center rounded-full text-5.5xl text-white block w-16 h-16 bg-gray-500 -shadow-md-custom pt-1 font-bold transform -scale-y-1">
@@ -30,16 +33,17 @@ function Hero(props) {
             </div>
             <blockquote className="ml-6">
               <p className="text-base text-gray-500 leading-relaxed">
-                From a <b>dropout to getting a job as a programmer</b> - 
-                a path-breaking journey that AltCampus made me successful in. 
-                Profound learning! It's the <b>most well designed course</b> I have ever taken.
+                From a <b>dropout to getting a job as a programmer</b> - a
+                path-breaking journey that AltCampus made me successful in.
+                Profound learning! It's the <b>most well designed course</b> I
+                have ever taken.
               </p>
             </blockquote>
             <figure className="text-center ml-6 md:ml-8">
               <div className="w-16 md:w-24">
                 <img
                   className="inline-block w-16 h-16 rounded-full object-cover"
-                  src="/images/students/chaduvula.svg"
+                  src="/images/students/chaduvula.png"
                   alt="Prasanth Chaduvula"
                 />
                 <figcaption className="mt-2">
@@ -65,7 +69,8 @@ function Hero(props) {
         <footer className="md:grid md:grid-cols-5 items-center mt-11">
           <h1 className="sm:col-span-4 text-xl sm:text-2xl leading-normal font-normal text-royal-blue-800">
             <strong className="font-normal md:block">
-            Master full-stack web development with the best courses on the internet. 
+              Master full-stack web development with the best courses on the
+              internet.
             </strong>
             <strong className="font-normal">
               {' '}
@@ -87,8 +92,6 @@ function Hero(props) {
 }
 
 export default Hero;
-
-
 
 /*
 <h2 className="text-4xl sm:text-4.5xl md:text-5.5xl font-bold leading-tight col-span-1 text-royal-blue-800 max-w-2xl">
