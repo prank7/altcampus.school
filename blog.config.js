@@ -16,7 +16,7 @@ module.exports = {
       description,
       images: [
         {
-          url: 'https://altcampus.com/assets/media/altcampus-school-og.png',
+          url: 'https://altcampus.com/assets/media/altcampus-com-og.png',
           alt: title
         }
       ]
