@@ -7,6 +7,7 @@ import { TwitterAltIcon, FacebookIcon } from '../../components/Icons';
 import authors from '../../lib/author.json';
 import Image from 'next/image';
 import LayoutHome from '../../components/Common/Layout';
+import { getCoursesWithBasicInfo } from '../../lib/courseData';
 
 export default function Post({ postData, relatedPosts = [], coursesWithBasicInfo }) {
   let authorInfo = authors[postData.author || 'altcampus'];
@@ -157,10 +158,12 @@ export async function getStaticPaths() {
 export async function getStaticProps({ params }) {
   const postData = await getPostData(params.id);
   const relatedPosts = await getRelatedPosts(params.id);
+  let coursesWithBasicInfo = await getCoursesWithBasicInfo()
   return {
     props: {
       postData,
-      relatedPosts
+      relatedPosts,
+      coursesWithBasicInfo
     }
   };
 }

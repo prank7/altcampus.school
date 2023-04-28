@@ -3,6 +3,7 @@ import Head from 'next/head';
 import { NextSeo } from 'next-seo';
 
 import LayoutHome from '../components/Common/Layout';
+import { getCoursesWithBasicInfo } from '../lib/courseData';
 
 function HowItWorks(props) {
   var title = 'How AltCampus Works | AltCampus School';
@@ -178,6 +179,11 @@ function Content() {
       </div>
     </main>
   );
+}
+
+export async function getStaticProps() {
+  let coursesWithBasicInfo = await getCoursesWithBasicInfo()
+  return { props: { coursesWithBasicInfo } };
 }
 
 export default HowItWorks;

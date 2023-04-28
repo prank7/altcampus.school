@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { getSortedPostsData } from '../../lib/stories';
 import { NextSeo } from 'next-seo';
 import LayoutHome from '../../components/Common/Layout';
+import { getCoursesWithBasicInfo } from '../../lib/courseData';
 
 const Stories = ({ allPostsData, coursesWithBasicInfo }) => {
   var title = 'Success Stories | AltCampus';
@@ -74,9 +75,11 @@ const Stories = ({ allPostsData, coursesWithBasicInfo }) => {
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
+  let coursesWithBasicInfo = await getCoursesWithBasicInfo()
   return {
     props: {
-      allPostsData
+      allPostsData,
+      coursesWithBasicInfo
     }
   };
 }

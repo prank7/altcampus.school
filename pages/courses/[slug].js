@@ -10,6 +10,7 @@ import ParentTracks from '../../components/Courses/ParentTracks';
 import CourseBenefit from '../../components/Courses/CourseBenefit';
 import CourseFeedback from '../../components/Courses/CourseFeedback';
 import ModuleList from '../../components/Courses/ModuleList';
+import { getCoursesWithBasicInfo } from '../../lib/courseData';
 
 export default function IndividualCoursePage({ course, coursesWithBasicInfo }) {
   var title = `${course.name} Course | AltCampus`;
@@ -97,9 +98,11 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
   const course = await getCourseData(params.slug);
+  const coursesWithBasicInfo = await getCoursesWithBasicInfo();
   return {
     props: {
-      course
+      course,
+      coursesWithBasicInfo
     }
   };
 }

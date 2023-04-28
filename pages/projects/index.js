@@ -5,6 +5,7 @@ import CTA from '../../components/Home/SignupCTA';
 import { getCourses } from '../../lib/courseData';
 import ProjectCard from '../../components/Projects/ProjectCard';
 import projectsData from './data.json';
+import { getCoursesWithBasicInfo } from '../../lib/courseData';
 
 function Projects(props) {
   var title = 'Projects | AltCampus';
@@ -62,9 +63,12 @@ function Projects(props) {
 
 export const getStaticProps = async () => {
   const courses = await getCourses();
+  let coursesWithBasicInfo = await getCoursesWithBasicInfo()
+  
   return {
     props: {
-      courses
+      courses,
+      coursesWithBasicInfo
     }
   };
 };

@@ -8,6 +8,7 @@ import Banner from '../../components/Placement/Banner';
 import HiringPartners from '../../components/Placement/HiringPartners';
 import CTA from '../../components/Home/SignupCTA';
 import { getAllAlumnisData } from '../../lib/airtableApi';
+import { getCoursesWithBasicInfo } from '../../lib/courseData';
 
 function Placement({ alumnis, coursesWithBasicInfo }) {
   var title = 'AltCampus Placements';
@@ -59,16 +60,19 @@ function Placement({ alumnis, coursesWithBasicInfo }) {
   );
 }
 
-export const getStaticProps = () => {
+export const getStaticProps = async() => {
   let data = getAllAlumnisData();
   data = data.map((d) =>  {
     const relevantData = { name: d.name, slug: d.slug, image: d.image, role: d.role, company: d.company }
     return relevantData;
   })
 
+  let coursesWithBasicInfo = await getCoursesWithBasicInfo()
+
   return {
     props: {
-      alumnis: data
+      alumnis: data,
+      coursesWithBasicInfo
     }
   };
 };

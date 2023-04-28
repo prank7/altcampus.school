@@ -4,6 +4,7 @@ import StackedList from '../../../components/StackedList';
 import { getAllRoadmapsInfo } from '../../../lib/roadmaps';
 import generateSitemap from '../../../lib/generateSitemap';
 import LayoutHome from '../../../components/Common/Layout';
+import { getCoursesWithBasicInfo } from '../../../lib/courseData';
 
 function WebDevelopment({ roadmapsInfo, coursesWithBasicInfo }) {
   var title = 'MERN Stack Stack Web Development Learning Roadmap 2023 | AltCampus';
@@ -47,11 +48,13 @@ function WebDevelopment({ roadmapsInfo, coursesWithBasicInfo }) {
 
 export async function getStaticProps() {
   const roadmapsInfo = getAllRoadmapsInfo();
+  let coursesWithBasicInfo = await getCoursesWithBasicInfo()
 
   await generateSitemap();
   return {
     props: {
-      roadmapsInfo
+      roadmapsInfo,
+      coursesWithBasicInfo
     }
   };
 }

@@ -3,6 +3,7 @@ import { getSortedPostsData } from '../../lib/posts';
 import { NextSeo } from 'next-seo';
 import generateSitemap from '../../lib/generateSitemap';
 import LayoutHome from '../../components/Common/Layout';
+import { getCoursesWithBasicInfo } from '../../lib/courseData';
 
 const Tutorials = ({ allPostsData, coursesWithBasicInfo }) => {
   var title =
@@ -53,11 +54,13 @@ function Cards({ posts }) {
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
+  let coursesWithBasicInfo = await getCoursesWithBasicInfo()
 
   await generateSitemap();
   return {
     props: {
-      allPostsData
+      allPostsData,
+      coursesWithBasicInfo
     }
   };
 }

@@ -1,6 +1,7 @@
 import LayoutHome from '../components/Common/Layout';
 import Head from 'next/head';
 import { NextSeo } from 'next-seo';
+import { getCoursesWithBasicInfo } from '../lib/courseData';
 
 function ContactPage(props) {
   var title = 'Contact | AltCampus';
@@ -62,6 +63,11 @@ function ContactPage(props) {
       </LayoutHome>
     </>
   );
+}
+
+export async function getStaticProps() {
+  let coursesWithBasicInfo = await getCoursesWithBasicInfo()
+  return { props: { coursesWithBasicInfo } };
 }
 
 export default ContactPage;

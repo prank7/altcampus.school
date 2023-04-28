@@ -18,7 +18,7 @@ import WallOfLove from '../components/Home/WallOfLove';
 import Blog from '../components/Home/Blog';
 import { getTweets } from '../lib/twitter';
 import Checklist from '../components/Home/ChecklistCTA';
-import { getCourses } from '../lib/courseData';
+import { getCourses, getCoursesWithBasicInfo } from '../lib/courseData';
 import Image from 'next/image';
 
 function Home(props) {
@@ -162,9 +162,8 @@ export async function getStaticProps() {
     '1410650906996051972'
   ]);
 
-  // const courses = await getCourses();
-
-  return { props: { tweets } };
+  const coursesWithBasicInfo = await getCoursesWithBasicInfo();
+  return { props: { tweets, coursesWithBasicInfo } };
 }
 
 export default Home;

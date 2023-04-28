@@ -1,6 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 import LayoutHome from '../components/Common/Layout';
+import { getCoursesWithBasicInfo } from '../lib/courseData';
 
 function RefundPolicy(props) {
   return (
@@ -83,6 +84,11 @@ function RefundPolicy(props) {
       </LayoutHome>
     </>
   );
+}
+
+export async function getStaticProps() {
+  const coursesWithBasicInfo = await getCoursesWithBasicInfo();
+  return { props: { coursesWithBasicInfo } };
 }
 
 export default RefundPolicy;
