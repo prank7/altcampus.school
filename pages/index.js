@@ -22,12 +22,12 @@ import { getCourses, getCoursesWithBasicInfo } from '../lib/courseData';
 import Image from 'next/image';
 
 function Home(props) {
-  useEffect(() => {
-    const s = document.createElement('script');
-    s.setAttribute('src', 'https://platform.twitter.com/widgets.js');
-    s.setAttribute('async', 'true');
-    document.head.appendChild(s);
-  }, []);
+  // useEffect(() => {
+  //   const s = document.createElement('script');
+  //   s.setAttribute('src', 'https://platform.twitter.com/widgets.js');
+  //   s.setAttribute('async', 'true');
+  //   document.head.appendChild(s);
+  // }, []);
 
   return (
     <>
