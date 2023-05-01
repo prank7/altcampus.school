@@ -123,7 +123,7 @@ function FAQ(props) {
             In case you still have questions…
           </h2>
         </header>
-        <div className="sm:grid grid-cols-2">
+        <div className="lg:grid grid-cols-2">
           <article>
             <ul className="border-solid border-r border-royal-blue-200">
               {data.map((q, index) => (
@@ -177,7 +177,7 @@ function Question({
 function Answer({ activeQuestionIndex }) {
   let { answer, quote, topImage } = data[activeQuestionIndex];
   return (
-    <article className="mt-12 sm:mt-0 sm:pl-14">
+    <article className="mt-12 lg:mt-0 lg:pl-14">
       <div className="text-center sm:text-left">
         <img src={topImage} alt="Happy Child Graphic" />
       </div>

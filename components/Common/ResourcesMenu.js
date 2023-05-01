@@ -40,7 +40,7 @@ export default function ResourcesMenu() {
             <Popover.Button
               className={`
                 ${open ? '' : 'text-opacity-90'}
-                text-sm text-gray-500 inline-flex items-center hover:text-royal-blue-900 transition`}
+                text-sm text-gray-500 inline-flex items-center hover:text-royal-blue-900 transition outline-none`}
             >
               <span>Resources</span>
               <ChevronDownIcon

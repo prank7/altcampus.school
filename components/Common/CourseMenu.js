@@ -88,16 +88,15 @@ export const courseItems = [
 ];
 
 export default function CourseMenu(props) {
-
   return (
-    <div className="max-w-sm">
+    <div className="">
       <Popover className="relative">
         {({ open }) => (
           <>
             <Popover.Button
               className={`
                 ${open ? '' : 'text-opacity-90'}
-                text-sm text-gray-500 inline-flex items-center hover:text-royal-blue-900 transition`}
+                text-sm text-gray-500 inline-flex items-center hover:text-royal-blue-900 transition outline-none`}
             >
               <span>Courses</span>
               <ChevronDownIcon
@@ -116,17 +115,54 @@ export default function CourseMenu(props) {
               leaveFrom="opacity-100 translate-y-0"
               leaveTo="opacity-0 translate-y-1"
             >
-              <Popover.Panel className="absolute z-10 max-w-2xl w-screen px-4 mt-3 transform -translate-x-1/2 left-1/2 sm:px-0">
-                <div className="overflow-hidden w-full rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white">
+              <Popover.Panel className="absolute z-10 w-screen max-w-xl lg:max-w-3xl px-4 mt-5 lg:mt-3 transform -translate-x-1/2 left-1/2 sm:px-0">
+                <div className="overflow-hidden max-w-4xl w-full rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white">
                   <div className="relative grid gap-8 px-4 pt-4 grid-cols-2">
-                    
-                      <div>
-                        <div className="">
-                          <h4 className="text-sm font-medium text-gray-500">
-                            Specific Skills
-                          </h4>
-                          <ul>
-                          {props.coursesWithBasicInfo.filter((c) => c.isMiniTrack).map((skill, i) => {
+                    <div>
+                      <div className="">
+                        <h4 className="text-sm font-medium text-gray-500">
+                          Specific Skills
+                        </h4>
+                        <ul>
+                          {props.coursesWithBasicInfo
+                            .filter((c) => c.isMiniTrack)
+                            .map((skill, i) => {
+                              return (
+                                <li className="my-4" key={skill.name}>
+                                  <Link
+                                    className="flex items-start p-1 rounded-lg hover:bg-gray-200 transition ease-in-out duration-150"
+                                    href={`/courses/${skill.slug}`}
+                                  >
+                                    <img
+                                      className="w-6"
+                                      src={
+                                        skill.image ||
+                                        'https://altcampus/images/icons/js-rounded.svg'
+                                      }
+                                      alt={skill.name}
+                                    />
+                                    <div className="ml-2">
+                                      <strong className="text-sm font-medium text-royal-blue-800">
+                                        {skill.name}
+                                      </strong>
+                                      <p className="text-sm text-gray-500 mt-1"></p>
+                                    </div>
+                                  </Link>
+                                </li>
+                              );
+                            })}
+                        </ul>
+                      </div>
+                    </div>
+
+                    <div className="">
+                      <h4 className="text-sm font-medium text-gray-500">
+                        Learning Tracks
+                      </h4>
+                      <ul>
+                        {props.coursesWithBasicInfo
+                          .filter((c) => !c.isMiniTrack)
+                          .map((skill, i) => {
                             return (
                               <li className="my-4" key={skill.name}>
                                 <Link
@@ -135,7 +171,10 @@ export default function CourseMenu(props) {
                                 >
                                   <img
                                     className="w-6"
-                                    src={skill.image || 'https://altcampus/images/icons/js-rounded.svg'}
+                                    src={
+                                      skill.image ||
+                                      'https://altcampus/images/icons/js-rounded.svg'
+                                    }
                                     alt={skill.name}
                                   />
                                   <div className="ml-2">
@@ -143,48 +182,15 @@ export default function CourseMenu(props) {
                                       {skill.name}
                                     </strong>
                                     <p className="text-sm text-gray-500 mt-1">
-                                      
+                                      {skill.description}
                                     </p>
                                   </div>
                                 </Link>
                               </li>
-                            )
+                            );
                           })}
-                          </ul>
-                        </div>
-                      </div>
-
-                      <div className="">
-                        <h4 className="text-sm font-medium text-gray-500">
-                          Learning Tracks
-                        </h4>
-                        <ul>
-                        {props.coursesWithBasicInfo.filter((c) => !c.isMiniTrack).map((skill, i) => {
-                          return (
-                            <li className="my-4" key={skill.name}>
-                              <Link
-                                className="flex items-start p-1 rounded-lg hover:bg-gray-200 transition ease-in-out duration-150"
-                                href={`/courses/${skill.slug}`}
-                              >
-                                <img
-                                  className="w-6"
-                                  src={skill.image || 'https://altcampus/images/icons/js-rounded.svg'}
-                                  alt={skill.name}
-                                />
-                                <div className="ml-2">
-                                  <strong className="text-sm font-medium text-royal-blue-800">
-                                    {skill.name}
-                                  </strong>
-                                  <p className="text-sm text-gray-500 mt-1">
-                                    {skill.description}
-                                  </p>
-                                </div>
-                              </Link>
-                            </li>
-                          )
-                        })}
-                        </ul>
-                      </div>
+                      </ul>
+                    </div>
                   </div>
                   <div className="text-center py-6 border-t">
                     <Link

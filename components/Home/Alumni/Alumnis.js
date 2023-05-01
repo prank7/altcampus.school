@@ -48,7 +48,7 @@ function Alumnis(props) {
         <h3 className="text-center font-bold text-gray-500 text-2xl">
           Meet some of our graduates
         </h3>
-        <ul className="mt-10 md:grid grid-cols-6 hidden">
+        <ul className="mt-10 grid grid-cols-2 md:grid-cols-3 gap-10 lg:grid-cols-6">
           {alumnis.map((item) => (
             <li className="text-center" key={item.name}>
               <a href={item.path}>

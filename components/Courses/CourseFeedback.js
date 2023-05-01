@@ -18,7 +18,7 @@ function CourseFeedback() {
         <div className="text-center">
           <img
             className="inline-block"
-            src="/images/students/ashik.svg"
+            src="/images/students/ashik.png"
             alt=""
           />
           <h5 className="text-base font-semibold text-royal-blue-800 mt-2">

@@ -94,7 +94,7 @@ function Home(props) {
                 Start Learning Now
               </a>
             </article> */}
-            <article className="md:flex justify-center space-x-8 items-center container mx-auto px-8">
+            <article className="lg:flex justify-center space-x-8 items-center container mx-auto px-8">
               <div className="max-w-3xl bg-white col-span-1 flex items-center shadow-lg-custom py-7 pr-8 pl-8 rounded-2xl mt-8 md:mt-0 sm:ml-3.5">
                 <div className="-ml-12 sm:-ml-16">
                   <span className="text-center rounded-full text-5.5xl text-white block w-16 h-16 bg-gray-500 -shadow-md-custom pt-1 font-bold transform -scale-y-1">
@@ -129,12 +129,14 @@ function Home(props) {
                   </div>
                 </figure>
               </div>
-              <a
-                className="bg-green-theme-900 hover:bg-green-theme-700 transition duration-300 ease-in-out text-white text-center py-6 px-20 rounded text-sm font-semibold inline-block mt-8 md:mt-0"
-                href="https://launchpad.altcampus.com/signup"
-              >
-                Start Learning Now
-              </a>
+              <div className="text-center">
+                <a
+                  className="bg-green-theme-900 hover:bg-green-theme-700 transition duration-300 ease-in-out text-white text-center py-6 px-20 rounded text-sm font-semibold inline-block mt-8 lg:mt-0"
+                  href="https://launchpad.altcampus.com/signup"
+                >
+                  Start Learning Now
+                </a>
+              </div>
             </article>
           </section>
           {/* <CTA

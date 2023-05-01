@@ -78,7 +78,7 @@ function Navbar(props) {
 
             <Popover.Group
               as="nav"
-              className="hidden md:flex items-center space-x-10"
+              className="hidden md:flex items-center space-x-4 lg:space-x-10"
             >
               <ActiveLink href="/">
                 <div className="text-sm text-gray-500 hover:text-royal-blue-900 duration-300 ease-in-out transition py-5">
@@ -86,7 +86,7 @@ function Navbar(props) {
                 </div>
               </ActiveLink>
 
-              <CourseMenu coursesWithBasicInfo={props.coursesWithBasicInfo}/>
+              <CourseMenu coursesWithBasicInfo={props.coursesWithBasicInfo} />
 
               {/* <ActiveLink href="/courses">
                 <div className="text-sm text-gray-500 hover:text-royal-blue-900 duration-300 ease-in-out transition py-5">

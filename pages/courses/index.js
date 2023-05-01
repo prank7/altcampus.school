@@ -12,9 +12,9 @@ import { getCoursesWithBasicInfo } from '../../lib/courseData';
 function CoursePage({ alumnis, courses, coursesWithBasicInfo }) {
   var title = 'Web Development Courses | AltCampus';
   var description =
-    "The Best Web Development Courses - HTML & CSS, JavaScript, React.js, Node.js, MongoDB, Frontend Development, Backend Development and Full Stack MERN Development";
+    'The Best Web Development Courses - HTML & CSS, JavaScript, React.js, Node.js, MongoDB, Frontend Development, Backend Development and Full Stack MERN Development';
   var url = 'https://altcampus.com/courses';
-  
+
   return (
     <>
       <NextSeo
@@ -49,20 +49,23 @@ export const getStaticProps = async () => {
   let courses = await getCourses();
 
   courses = courses.tracks.map((c) => {
-    var estimatedTimeToComplete = c.modules.reduce((acc, cur) => acc + cur.estimatedTimeToComplete, 0);
+    var estimatedTimeToComplete = c.modules.reduce(
+      (acc, cur) => acc + cur.estimatedTimeToComplete,
+      0
+    );
 
     return {
-      name: c.name, 
-      slug: c.slug, 
-      isMiniTrack: c.isMiniTrack || false, 
+      name: c.name,
+      slug: c.slug,
+      isMiniTrack: c.isMiniTrack || false,
       pricing: c.pricing,
-      image: c.image, 
+      image: c.image,
       description: c.description,
       estimatedTimeToComplete
-    }
-  })
+    };
+  });
 
-  let coursesWithBasicInfo = await getCoursesWithBasicInfo()
+  let coursesWithBasicInfo = await getCoursesWithBasicInfo();
 
   return {
     props: {
