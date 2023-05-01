@@ -53,7 +53,7 @@ function Footer(props) {
                   className="text-gray-500 text-xs hover:text-royal-blue-900 duration-300 ease-in-out transition"
                   href="/courses"
                 >
-                  Full Stack Web Development Track 
+                  Full Stack Web Development Track
                 </Link>
               </li>
               <li className="mt-2">
@@ -61,7 +61,7 @@ function Footer(props) {
                   className="text-gray-500 text-xs hover:text-royal-blue-900 duration-300 ease-in-out transition"
                   href="/courses"
                 >
-                  Backend Development Track 
+                  Backend Development Track
                 </Link>
               </li>
               <li className="mt-2">
@@ -69,7 +69,7 @@ function Footer(props) {
                   className="text-gray-500 text-xs hover:text-royal-blue-900 duration-300 ease-in-out transition"
                   href="/courses"
                 >
-                  Frontend Development Track 
+                  Frontend Development Track
                 </Link>
               </li>
               <li className="mt-2">
@@ -123,25 +123,37 @@ function Footer(props) {
             <h4 className="text-gray-500 text-sm font-semibold">Follow us</h4>
             <ul className="mt-5 flex items-center">
               <li>
-                <a className="text-gray-500 text-xs" href="https://github.com/altcampus">
+                <a
+                  target="_blank"
+                  className="text-gray-500 text-xs"
+                  href="https://github.com/altcampus"
+                >
                   <img
-                    className="w-8 h-8"
+                    className="w-8 h-8 opacity-75 transition-opacity duration-200 hover:opacity-100"
                     src="/images/icons/github.svg"
                     alt="Github Icon"
                   />
                 </a>
               </li>
               <li className="ml-5">
-                <a className="text-gray-500 text-xs" href="https://twitter.com/altcampus">
+                <a
+                  target="_blank"
+                  className="text-gray-500 text-xs"
+                  href="https://twitter.com/altcampus"
+                >
                   <img
-                    className="w-8 h-8"
+                    className="w-8 h-8 opacity-75 transition-opacity duration-200 hover:opacity-100"
                     src="/images/icons/twitter.svg"
                     alt="Twitter Icon"
                   />
                 </a>
               </li>
               <li className="ml-5">
-                <a className="text-gray-500 text-xs" href="https://facebook.com/AltCampusIO">
+                <a
+                  target="_blank"
+                  className="text-gray-500 text-xs opacity-75 transition-opacity duration-200 hover:opacity-100"
+                  href="https://facebook.com/AltCampusIO"
+                >
                   <img
                     className="w-8 h-8"
                     src="/images/icons/facebook.svg"

@@ -25,20 +25,24 @@ function Pricing(props) {
   let specificSkills = props.courses.filter((a) => a.isMiniTrack);
   let fullTracks = props.courses.filter((a) => !a.isMiniTrack);
 
-  let fullTrackLowest = [...fullTracks].sort((a, b) => a.pricing.standard.INR - b.pricing.standard.INR)[0];
-  let specificSkillLowest = [...specificSkills].sort((a, b) => a.pricing.standard.INR - b.pricing.standard.INR)[0];
+  let fullTrackLowest = [...fullTracks].sort(
+    (a, b) => a.pricing.standard.INR - b.pricing.standard.INR
+  )[0];
+  let specificSkillLowest = [...specificSkills].sort(
+    (a, b) => a.pricing.standard.INR - b.pricing.standard.INR
+  )[0];
 
   useEffect(() => {
     if (localStorage.getItem('ac_currency')) {
-      return setCurrency(localStorage.getItem('ac_currency'))
+      return setCurrency(localStorage.getItem('ac_currency'));
     }
 
     localStorage.setItem('ac_currency', currency);
-  }, [])
+  }, []);
 
   useEffect(() => {
     localStorage.setItem('ac_currency', currency);
-  }, [currency])
+  }, [currency]);
 
   return (
     <section className="py-24 bg-blur-background bg-contain bg-center">
@@ -49,7 +53,8 @@ function Pricing(props) {
             <span className="text-green-theme-900">start by choosing</span>
           </h3>
         </header>
-        {/* <div className="md:grid md:grid-cols-2 gap-x-24 mt-24">
+        {/* 
+          <div className="md:grid md:grid-cols-2 gap-x-24 mt-24">
             <article className="bg-white shadow-lg-custom rounded-2xl">
               <header className="relative bg-white">
                 <div className="bg-white px-8 py-8 rounded-t-2xl relative z-10 flex justify-between">
@@ -216,7 +221,8 @@ function Pricing(props) {
                 </div>
               </footer>
             </article>
-          </div> */}
+          </div> 
+*/}
 
         <div className="flex items-center justify-center mt-8">
           <input
@@ -243,28 +249,28 @@ function Pricing(props) {
           </strong>
         </div>
 
-        <div className="grid md:grid-cols-2  mx-auto mt-20  px-12">
-          <article className="md:pr-16 md:border-r-2 border-gray-200">
+        <div className="grid lg:grid-cols-2  mx-auto mt-20  lg:px-12">
+          <article className="lg:pr-16 lg:border-r-2 border-gray-200">
             <header className="text-center">
               <h3 className="text-gray-500 font-bold text-2xl">
                 a specific skill
               </h3>
               <h5 className="text-gray-500 font-normal">{`starting at ${symbol} ${specificSkillLowest.pricing.standard[currency]}`}</h5>
             </header>
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-6 text-center mt-10 items-stretch">
+            <div className="grid grid-cols-2 lg:grid-cols-3 gap-6 text-center mt-10 items-stretch">
               {specificSkills.map((skill, i) => {
                 return (
                   <Link key={i} href={`/courses/${skill.slug}`}>
                     <figure
                       key={i}
-                      className="shadow-lg-custom pt-5 pb-3 px-2 rounded-md border-2 border-white hover:border-royal-blue-600 hover:scale-105 transform  transition-all duration-500 cursor-pointer bg-white"
+                      className="shadow-lg-custom pt-5 pb-3 px-2 rounded-md border-2 border-white hover:border-royal-blue-600 transition-all duration-200 cursor-pointer bg-white"
                     >
                       <img
                         className="inline-block h-16"
                         src={skill.image || '/images/icons/js-rounded.svg'}
                         alt={skill.name}
                       />
-                      <figcaption className="text-royal-blue-800 mt-6 font-semibold text-sm h-14">
+                      <figcaption className="text-royal-blue-800 mt-6 font-semibold text-sm h-12 md:h-14">
                         {skill.name}
                       </figcaption>
 
@@ -283,7 +289,7 @@ function Pricing(props) {
                 );
               })}
 
-              {/* <figure className="shadow-lg-custom pt-5 pb-3 px-2 rounded-md border-2 border-white hover:border-royal-blue-600 hover:scale-105 transform transition-all duration-500 cursor-pointer bg-white">
+              {/* <figure className="shadow-lg-custom pt-5 pb-3 px-2 rounded-md border-2 border-white hover:border-royal-blue-600 hover:scale-105 transform transition-all duration-200 cursor-pointer bg-white">
                 <div className="w-16 h-16 bg-royal-blue-200 rounded-full inline-flex justify-center items-center">
                   <span className="text-base text-royal-blue-800 font-semibold">
                     +5
@@ -295,7 +301,7 @@ function Pricing(props) {
               </figure> */}
             </div>
           </article>
-          <article className="md:pl-16 mt-16 md:mt-0">
+          <article className="lg:pl-16 mt-16 lg:mt-0">
             <header className="text-center">
               <h3 className="text-gray-500 font-bold text-2xl">
                 or a learning track
@@ -308,7 +314,7 @@ function Pricing(props) {
                   <Link key={i} href={`/courses/${track.slug}`}>
                     <article
                       key={i}
-                      className={`flex justify-between items-center bg-white py-5 px-4 rounded-md shadow-lg-custom border-2 border-white hover:border-royal-blue-600 hover:scale-105 transform transition-all duration-500 cursor-pointer ${
+                      className={`flex justify-between items-center bg-white py-5 px-4 rounded-md shadow-lg-custom border-2 border-white hover:border-royal-blue-600 transition-all duration-200 cursor-pointer ${
                         i != 0 ? ' mt-8' : ''
                       }`}
                     >
@@ -316,7 +322,10 @@ function Pricing(props) {
                         {track.name}
                       </h3>
                       <figure className="flex gap-x-3">
-                        <img src={ track.image || "/images/icons/js-rounded.svg"} alt="react-rounded" />
+                        <img
+                          src={track.image || '/images/icons/js-rounded.svg'}
+                          alt="react-rounded"
+                        />
                         {/* <img src="/images/icons/react-rounded.svg" alt="html" />
                         <img src="/images/icons/node-md.svg" alt="CSS" />
                         <img src="/images/icons/mongo.svg" alt="js" /> */}
