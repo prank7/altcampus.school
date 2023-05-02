@@ -3,10 +3,15 @@ import { siteMeta } from '../blog.config';
 import { DefaultSeo } from 'next-seo';
 import Head from 'next/head';
 import { getCourses } from '../lib/courseData';
+import { useRouter } from 'next/router';
 
 const GA_TRACKING_ID = 'G-2SJPKQTMLX';
 
 function MyApp({ Component, pageProps, coursesWithBasicInfo }) {
+
+  const site = "https://altcampus.com";
+  const canonicalURL = site + useRouter().pathname;
+
   return (
     <>
       <DefaultSeo
@@ -22,6 +27,7 @@ function MyApp({ Component, pageProps, coursesWithBasicInfo }) {
         <meta name="author" content="AltCampus" />
         <meta name="HandheldFriendly" content="True" />
         <meta name="MobileOptimized" content="320" />
+        <link rel="canonical" href={canonicalURL} />
 
         <noscript
           dangerouslySetInnerHTML={{
