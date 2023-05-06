@@ -45,9 +45,9 @@ function Home(props) {
             action="Start Learning Now"
           />
           <CourseStack />
-          <section>
-            <CourseModel />
-          </section>
+
+          <CourseModel />
+
           <TestimonialCTA />
           <Pricing courses={props.coursesWithBasicInfo} />
           <WallOfLove tweets={props.tweets} />

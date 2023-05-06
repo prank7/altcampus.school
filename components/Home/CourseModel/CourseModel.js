@@ -14,7 +14,7 @@ function CourseModel() {
               <span className="text-green-theme-900">We do it right</span>
             </h3>
           </header>
-          <div className="grid grid-cols-3 gap-8">
+          <div className="grid lg:grid-cols-3 gap-8">
             <article className="">
               <header>
                 <CourseModelGraphics
