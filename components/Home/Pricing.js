@@ -266,11 +266,13 @@ function Pricing(props) {
                       className="shadow-lg-custom pt-5 pb-3 px-2 rounded-md border-2 border-white hover:border-royal-blue-600 transition-all duration-200 cursor-pointer bg-white"
                     >
                       <img
-                        className="inline-block h-16"
+                        className="inline-block h-24"
+                        width="96"
+                        height="96"
                         src={skill.image || '/images/icons/js-rounded.svg'}
                         alt={skill.name}
                       />
-                      <figcaption className="text-royal-blue-800 mt-6 font-semibold text-sm h-12 md:h-14">
+                      <figcaption className="text-royal-blue-800 font-semibold text-sm h-12 md:h-14">
                         {skill.name}
                       </figcaption>
 
