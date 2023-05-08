@@ -55,7 +55,7 @@ function Alumnis(props) {
                 <img
                   className="shadow-lg-custom rounded-full inline-block object-cover"
                   src={item.image}
-                  alt={item.name}
+                  alt={item.name + "- AltCampus alumni"}
                   width="170"
                   height="170"
                 />
