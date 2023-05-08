@@ -3,7 +3,7 @@ title: 'Writing clean and organized CSS'
 description: 'In my previous article, I have listed a few best practices that will keep our HTML code clean and impressive. Similar to HTML, in order to write solid CSS and avoid mistakes, here again, I am listing a few best CSS practices.'
 date: '2023-04-23'
 blurb: 'In my previous article, I have listed a few best practices that will keep our HTML code clean and impressive. Similar to HTML, in order to write solid CSS and avoid mistakes, here again, I am listing a few best CSS practices.'
-photo: '/images/posts/writing-clean-and-organized-css.jpeg'
+photo: '/images/posts/writing-clean-and-organized-css.webp'
 cta: true
 ctaText: AltCampus helps you learn faster by inculcating these systems as part of the learning model. 🙌
 author: suraj122

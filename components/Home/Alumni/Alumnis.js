@@ -6,37 +6,37 @@ const alumnis = [
   {
     name: 'Harshaan',
     company: 'BigBinary',
-    image: '/images/students/harshaan.png',
+    image: '/images/students/harshaan.webp',
     path: '/placements/harshaan-nihal-khan'
   },
   {
     name: 'Devika Misra',
     company: 'BigBinary',
-    image: '/images/students/devika.png',
+    image: '/images/students/devika.webp',
     path: '/placements/devika-misra'
   },
   {
     name: 'Abid Rahim',
     company: 'LocoNav',
-    image: '/images/students/abid.png',
+    image: '/images/students/abid.webp',
     path: '/placements/abid-rahim'
   },
   {
     name: 'Deepak Sharma',
     company: 'Credilio',
-    image: '/images/students/deepak-sharma.png',
+    image: '/images/students/deepak-sharma.webp',
     path: '/placements/deepak-sharma'
   },
   {
     name: 'Komal Raj',
     company: 'KheloMore',
-    image: '/images/students/komal.png',
+    image: '/images/students/komal.webp',
     path: '/placements/komal-raj'
   },
   {
     name: 'Bimlendu',
     company: 'Arvolution',
-    image: '/images/students/bimlendu.png',
+    image: '/images/students/bimlendu.webp',
     path: '/placements/bimlendu-kumar'
   }
 ];
@@ -56,6 +56,8 @@ function Alumnis(props) {
                   className="shadow-lg-custom rounded-full inline-block object-cover"
                   src={item.image}
                   alt={item.name}
+                  width="170"
+                  height="170"
                 />
                 <div className="mt-4">
                   <h4 className="text-royal-blue-800 font-semibold text-base">

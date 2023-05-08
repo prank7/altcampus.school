@@ -3,7 +3,7 @@ title: 'Understanding positioning in CSS'
 description: 'Positioning in CSS defines where an HTML element will be placed within a HTML page and how each HTML element affects the position of elements around it. Positioning is achieved via many methods, including the normal document flow, floats, and several types of positioned elements.'
 date: '2023-04-23'
 blurb: 'Positioning in CSS defines where an HTML element will be placed within a HTML page and how each HTML element affects the position of elements around it. Positioning is achieved via many methods, including the normal document flow, floats, and several types of positioned elements.'
-photo: '/images/posts/understanding-positioning-in-css.jpeg'
+photo: '/images/posts/understanding-positioning-in-css.webp'
 cta: true
 ctaText: AltCampus helps you learn faster by inculcating these systems as part of the learning model. 🙌
 author: jaybhoyar
@@ -57,7 +57,7 @@ h2 {
 }
 ```
 
-![relative positioning](/images/posts/understanding-positioning-in-css/relative.png)
+![relative positioning](/images/posts/understanding-positioning-in-css/relative.webp)
 
 Here, the box will move 30 pixels from left and 30px from top from its original position.
 
@@ -92,7 +92,7 @@ h2 {
 }
 ```
 
-![absolute positioning](/images/posts/understanding-positioning-in-css/absolute.png)
+![absolute positioning](/images/posts/understanding-positioning-in-css/absolute.webp)
 
 ### 4. fixed
 
@@ -126,7 +126,7 @@ h2 {
 }
 ```
 
-![fixed positioning](/images/posts/understanding-positioning-in-css/fixed.png)
+![fixed positioning](/images/posts/understanding-positioning-in-css/fixed.webp)
 
 ### 5. sticky
 
@@ -158,4 +158,4 @@ Sticky is similar to relative positioning, but it doesn’t remove an element fr
 }
 ```
 
-![sticky positioning](/images/posts/understanding-positioning-in-css/sticky.png)
+![sticky positioning](/images/posts/understanding-positioning-in-css/sticky.webp)

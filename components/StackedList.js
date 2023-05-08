@@ -29,7 +29,9 @@ const ListItem = (props) => {
               <img
                 className="border border-thin border-gray-200 h-12 w-12 rounded-full bg-gray-100"
                 src={props.icon}
-                alt=""
+                alt={props.title}
+                width="44"
+                height="44"
               />
             </figure>
             <div className="min-w-0 flex-1 px-4 md:grid md:grid-cols-2 md:gap-4">

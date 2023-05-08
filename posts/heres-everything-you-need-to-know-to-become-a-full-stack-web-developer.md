@@ -3,7 +3,7 @@ title: Here's Everything You Need To Know To Become a Full-Stack Web Developer
 description: Are you qualified to be a full-stack web developer? Learn about everything you need to become a successful developer.
 date: '2023-04-23'
 blurb: Get to know everything you need to become a full-stack web developer.
-photo: '/images/posts/heres-everything-you-need-to-know-to-become-a-full-stack-web-developer.png'
+photo: '/images/posts/heres-everything-you-need-to-know-to-become-a-full-stack-web-developer.webp'
 cta: true
 ctaText: AltCampus provides you a holistic roadmap to become a skilled software developer 🛣️
 author: 'ivinoop'

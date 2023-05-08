@@ -3,7 +3,7 @@ title: 'How To Overcome Imposter Syndrome As An Aspiring Software Developer'
 description: 'What is Imposter Syndrome?Know all about Imposter Syndrome and how to overcome it.'
 date: '2023-04-23'
 blurb: How to overcome Imposter Syndrome as an aspiring software developer.
-photo: '/images/posts/how-to-overcome-imposter-syndrome-as-an-aspiring-software-developer.png'
+photo: '/images/posts/how-to-overcome-imposter-syndrome-as-an-aspiring-software-developer.webp'
 cta: true
 ctaText: Start learning full-stack web development in the best online bootcamp in India, and launch your developer career! 🚀
 author: ivinoop

@@ -60,14 +60,20 @@ function Placement({ alumnis, coursesWithBasicInfo }) {
   );
 }
 
-export const getStaticProps = async() => {
+export const getStaticProps = async () => {
   let data = getAllAlumnisData();
-  data = data.map((d) =>  {
-    const relevantData = { name: d.name, slug: d.slug, image: d.image, role: d.role, company: d.company }
+  data = data.map((d) => {
+    const relevantData = {
+      name: d.name,
+      slug: d.slug,
+      image: d.image,
+      role: d.role,
+      company: d.company
+    };
     return relevantData;
-  })
+  });
 
-  let coursesWithBasicInfo = await getCoursesWithBasicInfo()
+  let coursesWithBasicInfo = await getCoursesWithBasicInfo();
 
   return {
     props: {

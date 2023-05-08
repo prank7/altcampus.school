@@ -3,7 +3,7 @@ title: 'Why You Should Consider Joining a Bootcamp if You Want to Learn Programm
 description: 'Is bootcamp the right place for you to become a good programmer? Learn the advantages of having a community of developers'
 date: '2023-04-23'
 blurb: How bootcamps can help you in your programming journey.
-photo: '/images/posts/why-you-should-join-bootcamp-if-you-want-to-learn-programming.png'
+photo: '/images/posts/why-you-should-join-bootcamp-if-you-want-to-learn-programming.webp'
 cta: true
 ctaText: AltCampus helps you become a full-stack web developer by providing the perfect roadmap for your programming journey.  🙌
 author: ivinoop

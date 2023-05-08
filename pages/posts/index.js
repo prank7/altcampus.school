@@ -6,8 +6,7 @@ import LayoutHome from '../../components/Common/Layout';
 import { getCoursesWithBasicInfo } from '../../lib/courseData';
 
 const Tutorials = ({ allPostsData, coursesWithBasicInfo }) => {
-  var title =
-    'How to Learn Web Development and Get a Job - Blog | AltCampus';
+  var title = 'How to Learn Web Development and Get a Job - Blog | AltCampus';
   var description =
     'Insightful tips, techniques and posts on how to learn software developement and get a job';
   var url = 'https://altcampus.com/posts';
@@ -34,7 +33,11 @@ function Cards({ posts }) {
       <div className="relative max-w-7xl mx-auto px-8">
         <div className="text-center">
           <h2 className="max-w-4xl mx-auto tracking-tight text-5.5xl font-bold leading-tight text-royal-blue-800 sm:text-4xl">
-            How to <strong className='text-green-theme-900'>Learn Web Development </strong>and Get a Job <br/> Tips on Zero to Job
+            How to{' '}
+            <strong className="text-green-theme-900">
+              Learn Web Development{' '}
+            </strong>
+            and Get a Job <br /> Tips on Zero to Job
           </h2>
           <p className="mt-3 max-w-2xl mx-auto text-xl text-gray-600 sm:mt-4">
             On our blog here, we discuss how to get started learning full stack
@@ -54,7 +57,7 @@ function Cards({ posts }) {
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
-  let coursesWithBasicInfo = await getCoursesWithBasicInfo()
+  let coursesWithBasicInfo = await getCoursesWithBasicInfo();
 
   await generateSitemap();
   return {

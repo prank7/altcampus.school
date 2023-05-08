@@ -3,7 +3,7 @@ title: 'How to Get Your First Job as a Developer When You Have Zero Experience'
 description: 'How to get first job as a web developer when everyone is looking for experienced developers? Building portfolio, showcasing expertise and getting a job with zero years of experience as a full-stack web developer.'
 date: '2023-04-23'
 blurb: Getting first job as a developer is about showing your competence and curiousity.
-photo: '/images/posts/how-to-get-first-job-as-a-developer-when-you-have-zero-experience.png'
+photo: '/images/posts/how-to-get-first-job-as-a-developer-when-you-have-zero-experience.webp'
 cta: true
 ctaText: AltCampus helps you get your first job as a software developer by helping you prepare good portfolio, skillset and introducing you to companies hiring.  🙌
 author: dprank

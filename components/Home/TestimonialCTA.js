@@ -6,14 +6,18 @@ function Testimonial(props) {
       <article className="container mx-auto px-8 sm:px-3 justify-between lg:flex items-center">
         <img
           className="absolute z-10 bottom-0 hidden lg:inline-block"
-          src="/images/students/komal-no-bg.png"
+          src="/images/students/komal-no-bg.webp"
           alt="Komal"
+          width="362"
+          height="568"
         />
         <div className="text-center mb-12 lg:mb-0">
           <img
             className="inline-block lg:hidden"
-            src="/images/students/komal.png"
+            src="/images/students/komal.webp"
             alt="Komal"
+            width="170"
+            height="170"
           />
         </div>
 

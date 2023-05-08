@@ -3,7 +3,7 @@ title: 'Why Are Bootcamps So Expensive?'
 description: 'The pricing behind bootcamps is interesting to know about. Learn why bootcamps are priced the way they are.'
 date: '2023-04-23'
 blurb: Learn about bootcamps and their pricing strategy.
-photo: '/images/posts/why-are-bootcamps-so-expensive.png'
+photo: '/images/posts/why-are-bootcamps-so-expensive.webp'
 cta: true
 ctaText: AltCampus makes your investment into its full-stack web development curriculum, highly worth it!
 author: ivinoop

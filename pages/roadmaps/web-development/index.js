@@ -7,9 +7,10 @@ import LayoutHome from '../../../components/Common/Layout';
 import { getCoursesWithBasicInfo } from '../../../lib/courseData';
 
 function WebDevelopment({ roadmapsInfo, coursesWithBasicInfo }) {
-  var title = 'MERN Stack Stack Web Development Learning Roadmap 2023 | AltCampus';
+  var title =
+    'MERN Stack Stack Web Development Learning Roadmap 2023 | AltCampus';
   var description =
-    "Full stack web development roadmap 2023. Detailed MERN stack roadmap and free resources from the best web development course on the internet.";
+    'Full stack web development roadmap 2023. Detailed MERN stack roadmap and free resources from the best web development course on the internet.';
   var url = 'https://altcampus.com/community/web-development';
 
   return (
@@ -27,7 +28,8 @@ function WebDevelopment({ roadmapsInfo, coursesWithBasicInfo }) {
         <div className="max-w-4xl mx-auto">
           <div className="mx-8">
             <h1 className="text-center py-4 text-4xl font-bold text-gray-600">
-              Your Roadmap to Becoming a Full-Stack Web Developer (MERN Stack) in 2023
+              Your Roadmap to Becoming a Full-Stack Web Developer (MERN Stack)
+              in 2023
             </h1>
             <p className="pb-16 pt-6 text-center text-gray-500 text-md">
               Below you will find all the topics - arranged in step-by-step
@@ -48,7 +50,7 @@ function WebDevelopment({ roadmapsInfo, coursesWithBasicInfo }) {
 
 export async function getStaticProps() {
   const roadmapsInfo = getAllRoadmapsInfo();
-  let coursesWithBasicInfo = await getCoursesWithBasicInfo()
+  let coursesWithBasicInfo = await getCoursesWithBasicInfo();
 
   await generateSitemap();
   return {

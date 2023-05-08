@@ -3,7 +3,7 @@ title: '10 Full Stack Beginner Project Ideas for Learning MERN Stack'
 description: 'There are plenty of full stack projects ideas for beginners on MERN stack available. We have listed a few interesting beginners projects to learn fullstack web development along with some details for getting started.'
 date: '2023-04-23'
 blurb: 'There are plenty of full stack projects ideas for beginners on MERN stack available. We have listed a few interesting beginners projects to learn fullstack web development along with some details for getting started.'
-photo: '/images/posts/10-full-stack-projects.jpg'
+photo: '/images/posts/10-full-stack-projects.webp'
 cta: true
 ctaText: AltCampus helps you learn faster by inculcating these systems as part of the learning model. 🙌
 author: ravi11o

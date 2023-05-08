@@ -63,8 +63,8 @@ function Projects(props) {
 
 export const getStaticProps = async () => {
   const courses = await getCourses();
-  let coursesWithBasicInfo = await getCoursesWithBasicInfo()
-  
+  let coursesWithBasicInfo = await getCoursesWithBasicInfo();
+
   return {
     props: {
       courses,

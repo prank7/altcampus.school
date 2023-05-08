@@ -3,7 +3,7 @@ title: 'How to build a great portfolio as a beginner developer'
 description: It's important to acquire skills and learn various parts of development but in order to get a job its equally important to present your skills in a meaningful way. That is why we recommend that you build a portfolio - to demonstrate your ability to potential employers.
 date: '2023-04-23'
 blurb: It's important to acquire skills and learn various parts of development but in order to get a job its equally important to present your skills in a meaningful way. That is why we recommend that you build a portfolio - to demonstrate your ability to potential employers.
-photo: '/images/posts/how-to-build-a-great-portfolio-as-a-beginner-developer.jpeg'
+photo: '/images/posts/how-to-build-a-great-portfolio-as-a-beginner-developer.webp'
 cta: true
 ctaText: AltCampus helps you learn faster by inculcating these systems as part of the learning model. 🙌
 author: dprank

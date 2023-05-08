@@ -3,7 +3,7 @@ title: 'Array methods explained with pictorial representation'
 description: 'We will learn about the array methods like map, forEach, concat, filter, pop, push, reduce etc. Lets look at each of them in detail and also understand them via a nice pictorial representation.'
 date: '2023-04-23'
 blurb: We will learn about the array methods like map, forEach, concat, filter, pop, push, reduce etc. Lets look at each of them in detail and also understand them via a nice pictorial representation.
-photo: '/images/posts/array-methods-explained-pictorial-representation.jpeg'
+photo: '/images/posts/array-methods-explained-pictorial-representation.webp'
 cta: true
 ctaText: AltCampus helps you learn faster by inculcating these systems as part of the learning model. 🙌
 author: bim240

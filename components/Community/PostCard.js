@@ -38,7 +38,7 @@ export default function PostCard({ post, related, path = 'posts' }) {
                 className="rounded-full"
                 src={author?.avatar}
                 layout="fill"
-                alt=""
+                alt={author.name}
               />
             </div>
           </div>

@@ -3,7 +3,7 @@ title: 'The Complete Roadmap to Learn Full Stack Web Development Using The MERN 
 description: 'A step by step approach to learning diferent technologies in MERN stack could synchronize the different pieces by interlinking them and making the entire learning process smooth and less time consuming.'
 date: '2023-04-23'
 blurb: 'A step by step approach to learning diferent technologies in MERN stack could synchronize the different pieces by interlinking them and making the entire learning process smooth and less time consuming.'
-photo: '/images/posts/MERN-stack-roadmap.jpg'
+photo: '/images/posts/MERN-stack-roadmap.webp'
 cta: true
 ctaText: AltCampus helps you learn faster by inculcating these systems as part of the learning model. 🙌
 author: ravi11o

@@ -3,7 +3,7 @@ title: 'What Are The Best Places to Learn Coding'
 description: 'How do you choose the right place to start your programming journey? Know all about launching your developer journey here.'
 date: '2023-04-23'
 blurb: How to begin your software developer journey.
-photo: '/images/posts/what-are-the-best-places-to-learn-coding.png'
+photo: '/images/posts/what-are-the-best-places-to-learn-coding.webp'
 cta: true
 ctaText: Launch your coding journey by choosing the best place to become a software developer.  🙌
 author: ivinoop

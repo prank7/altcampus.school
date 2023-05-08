@@ -9,7 +9,11 @@ import Image from 'next/image';
 import LayoutHome from '../../components/Common/Layout';
 import { getCoursesWithBasicInfo } from '../../lib/courseData';
 
-export default function Post({ postData, relatedPosts = [], coursesWithBasicInfo }) {
+export default function Post({
+  postData,
+  relatedPosts = [],
+  coursesWithBasicInfo
+}) {
   let authorInfo = authors[postData.author || 'altcampus'];
 
   return (
@@ -73,12 +77,16 @@ export default function Post({ postData, relatedPosts = [], coursesWithBasicInfo
           <footer className="flex items-center justify-between mt-8">
             <div className="flex items-center space-x-2 lg:space-x-4">
               <img
-                className="w-12 h-12 rounded-full lg:w-12 lg:h-12"
+                className="w-12 h-12 rounded-full"
                 src={authorInfo.avatar}
                 alt={authorInfo.name}
+                width="48"
+                height="48"
               />
               <div className="font-medium text-lg leading-6 space-y-1">
-                <cite className="font-bold block not-italic">{authorInfo.name}</cite>
+                <cite className="font-bold block not-italic">
+                  {authorInfo.name}
+                </cite>
                 <a
                   href={`https://twitter.com/${authorInfo.twitter}`}
                   target="_blank"
@@ -87,15 +95,13 @@ export default function Post({ postData, relatedPosts = [], coursesWithBasicInfo
                     {`@` + authorInfo.twitter}
                   </strong>
                 </a>
-                { authorInfo.website ?
-                  <a
-                    href={`${authorInfo.website}`}
-                    target="_blank"
-                  >
+                {authorInfo.website ? (
+                  <a href={`${authorInfo.website}`} target="_blank">
                     <span className="text-gray-600 underline text-normal inline-block text-sm">
                       Website
                     </span>
-                  </a> : null}
+                  </a>
+                ) : null}
               </div>
             </div>
 
@@ -158,7 +164,7 @@ export async function getStaticPaths() {
 export async function getStaticProps({ params }) {
   const postData = await getPostData(params.id);
   const relatedPosts = await getRelatedPosts(params.id);
-  let coursesWithBasicInfo = await getCoursesWithBasicInfo()
+  let coursesWithBasicInfo = await getCoursesWithBasicInfo();
   return {
     props: {
       postData,

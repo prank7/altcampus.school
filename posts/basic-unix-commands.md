@@ -3,7 +3,7 @@ title: 'Basic Unix commands that you should know'
 description: Let's learn about a bunch of basic Unix commands that every beginner should know.
 date: '2023-04-23'
 blurb: Let's learn about a bunch of basic Unix commands that every beginner should know.
-photo: '/images/posts/basic-unix-commands.jpeg'
+photo: '/images/posts/basic-unix-commands.webp'
 hideCover: true
 cta: true
 ctaText: AltCampus helps you pick up good communication skills to get you good, first job as a software developer. 🙌

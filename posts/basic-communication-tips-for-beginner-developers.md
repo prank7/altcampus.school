@@ -3,7 +3,7 @@ title: 'Basic Communication Tips for Beginner Developers'
 description: 'How to present yourself as a developer? How to fix your online presence? Basic remote working communication tips for software developers.'
 date: '2023-04-23'
 blurb: How to present yourself as a developer? How to fix your online presence? Basic remote working communication tips for software developers.
-photo: '/images/posts/basic-communication-tips-for-beginner-developers.png'
+photo: '/images/posts/basic-communication-tips-for-beginner-developers.webp'
 hideCover: true
 cta: true
 ctaText: AltCampus helps you pick up good communication skills to get you good, first job as a software developer.  🙌

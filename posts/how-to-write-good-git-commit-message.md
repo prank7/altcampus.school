@@ -3,7 +3,7 @@ title: 'How to write good Git commit messages'
 description: 'One of the things a lot of newbie developers overlook often is the format of their commit messages. Properly formatted commit messages can do so much more than just looking neat, such as - Provide context to the code reviewer'
 date: '2023-04-23'
 blurb: 'One of the things a lot of newbie developers overlook often is the format of their commit messages. Properly formatted commit messages can do so much more than just looking neat, such as - Provide context to the code reviewer'
-photo: '/images/posts/how-to-write-good-git-commit-message.jpeg'
+photo: '/images/posts/how-to-write-good-git-commit-message.webp'
 cta: true
 ctaText: AltCampus helps you learn faster by inculcating these systems as part of the learning model. 🙌
 author: kabir4691

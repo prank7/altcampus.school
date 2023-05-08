@@ -3,7 +3,7 @@ title: 'Prerequisites for learning React JS'
 description: 'Before you start learning about React JS you need to be familiar with the other web technologies like HTML, CSS and JavaScript. This article will list all the important concepts you need to learn before hopping to React JS.'
 date: '2023-04-23'
 blurb: 'Before you start learning about React JS you need to be familiar with the other web technologies like HTML, CSS and JavaScript. This article will list all the important concepts you need to learn before hopping to React JS.'
-photo: '/images/posts/prerequisites-for-react-js.jpg'
+photo: '/images/posts/prerequisites-for-react-js.webp'
 cta: true
 ctaText: AltCampus helps you learn faster by inculcating these systems as part of the learning model. 🙌
 author: nnnkit

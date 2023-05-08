@@ -3,7 +3,7 @@ title: 'Full Stack Developer Career - Growth, Salary, and Path Explained'
 description: 'What is the salary of a full stack developer? Know the career path and growth of a full stack developer in this article.'
 date: '2023-04-23'
 blurb: Everything you need to know about the salary of a full stack developer.
-photo: '/images/posts/full-stack-developer-career.png'
+photo: '/images/posts/full-stack-developer-career.webp'
 cta: true
 ctaText: Learn full stack development at AltCampus and become job ready 🚀
 author: 'ivinoop'

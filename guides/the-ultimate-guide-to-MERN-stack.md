@@ -5,7 +5,7 @@ This guide covers all the what, why, and how, required to start the MERN stack d
 date: '2023-04-23'
 blurb: 'MERN stack which is powered by Javascript, allows developers to create Full stack applications without the knowledge of any other programming language.
 This guide covers the what, why, and how, required to start the MERN stack development.'
-photo: '/images/guides/the-ultimate-guide-to-MERN-stack.jpg'
+photo: '/images/guides/the-ultimate-guide-to-MERN-stack.webp'
 cta: true
 ctaText: AltCampus helps you learn faster by inculcating these systems as part of the learning model.  🙌
 author: ravi11o

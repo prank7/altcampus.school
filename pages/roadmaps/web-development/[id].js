@@ -13,7 +13,6 @@ import authors from '../../../lib/author.json';
 import Topics from '../../../components/roadmap/Topics';
 import Modal from '../../../components/roadmap/Modal';
 
-
 export let ModalContext = createContext(false);
 
 const components = {
@@ -93,6 +92,8 @@ export default function Post({ roadmapData, coursesWithBasicInfo }) {
                     className="h-5"
                     src="/images/icons/tweet-share.svg"
                     alt="Tweeter"
+                    width="20"
+                    height="20"
                   />
                   <span className="inline-block ml-2 font-semibold text-sm">
                     Tweet
@@ -109,6 +110,8 @@ export default function Post({ roadmapData, coursesWithBasicInfo }) {
                     className="h-5"
                     src="/images/icons/fb-share.svg"
                     alt="Facebook"
+                    width="20"
+                    height="20"
                   />
                   <span className="inline-block ml-2 font-semibold text-sm">
                     Share
@@ -134,7 +137,7 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
   const roadmapData = await getRoadmapData(params.id);
-  let coursesWithBasicInfo = await getCoursesWithBasicInfo()
+  let coursesWithBasicInfo = await getCoursesWithBasicInfo();
 
   return {
     props: {

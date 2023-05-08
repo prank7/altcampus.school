@@ -3,7 +3,7 @@ title: 'Writing semantically correct and clean HTML'
 description: 'Whether we are a beginner or an expert in HTML it is important to follow some set of rules to keep our HTML documents consistent and well organized.'
 date: '2023-04-23'
 blurb: 'Whether we are a beginner or an expert in HTML it is important to follow some set of rules to keep our HTML documents consistent and well organized.'
-photo: '/images/posts/writing-semantically-correct-and-clean-html.jpeg'
+photo: '/images/posts/writing-semantically-correct-and-clean-html.webp'
 cta: true
 ctaText: AltCampus helps you learn faster by inculcating these systems as part of the learning model. 🙌
 author: suraj122

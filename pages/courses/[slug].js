@@ -14,8 +14,7 @@ import { getCoursesWithBasicInfo } from '../../lib/courseData';
 
 export default function IndividualCoursePage({ course, coursesWithBasicInfo }) {
   var title = `${course.name} Course | AltCampus`;
-  var description =
-    `The best ${course.name} course on the internet. Learn ${course.name} properly with step-by-step course content, videos, exercises, assignments and projects.`;
+  var description = `The best ${course.name} course on the internet. Learn ${course.name} properly with step-by-step course content, videos, exercises, assignments and projects.`;
   var url = `https://altcampus.com/courses/${course.slug}`;
 
   return (
@@ -36,18 +35,13 @@ export default function IndividualCoursePage({ course, coursesWithBasicInfo }) {
         }}
       />
       <LayoutHome coursesWithBasicInfo={coursesWithBasicInfo}>
-        <CourseBanner
-          course={course}
-        />
+        <CourseBanner course={course} />
 
         {/* For Track Course */}
         <ModuleList course={course} />
 
         {/* For Specific Course */}
-        {
-          course.isMiniTrack ?
-          <ParentTracks course={course} /> : null
-        }
+        {course.isMiniTrack ? <ParentTracks course={course} /> : null}
         {/* <CourseBenefit /> */}
 
         {/* <div>

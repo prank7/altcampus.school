@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 let data = [
   {
-    topImage: '/images/happy-child.svg',
+    topImage: '/images/learning-pace.webp',
     question: 'Who is it for?',
     answer:
       'AltCampus offers web development courses for recent college graduates, students taking gap year, dropouts, professionals looking to switch careers, wannabe indiehackers or just anyone interested in learning web development. No prior programming knowledge required.',
@@ -12,7 +12,7 @@ let data = [
       author: {
         name: 'Shreyansh',
         company: 'BigBinary',
-        avatar: '/images/students/shreyansh.png'
+        avatar: '/images/students/shreyansh.webp'
       }
     }
   },
@@ -32,7 +32,7 @@ let data = [
     }
   },*/
   {
-    topImage: '/images/happy-child2.svg',
+    topImage: '/images/learn-by-doing.webp',
     question: 'Is this course self-paced or cohort based?',
     answer: `It's a self-paced course. The entire course content is pre-recorded and you can go at your own and can learn part-time or full-time, in day or night.`,
     quote: {
@@ -40,12 +40,12 @@ let data = [
       author: {
         name: 'Shasank',
         company: 'BigBinary',
-        avatar: '/images/students/shashank.png'
+        avatar: '/images/students/shashank.webp'
       }
     }
   },
   {
-    topImage: '/images/happy-child2.svg',
+    topImage: '/images/learn-by-doing.webp',
     question: 'How does AltCampus help me get a job?',
     answer:
       'AltCampus has modules dedicated on how to go about building resume and portfolio, how to prepare for interviews, and how to do job hunting. It makes finding jobs easier.',
@@ -54,12 +54,12 @@ let data = [
       author: {
         name: 'Onkar',
         company: 'Emtec inc.',
-        avatar: '/images/students/onkar.png'
+        avatar: '/images/students/onkar.webp'
       }
     }
   },
   {
-    topImage: '/images/happy-child3.svg',
+    topImage: '/images/get-help.webp',
     question: 'Do I have to take the entire full-stack course?',
     answer: `No, you can take individual specific skill based courses like HTML & CSS, Core JavaScript, React.js or Node.js. You can also take tracks like Frontend Development, Backend Development or Fullstack MERN Web Development.`,
     quote: {
@@ -67,7 +67,7 @@ let data = [
       author: {
         name: 'Ayushman',
         company: 'BigBinary',
-        avatar: '/images/students/ayushman.png'
+        avatar: '/images/students/ayushman.webp'
       }
     }
   },
@@ -99,7 +99,7 @@ let data = [
   // }
   // },
   {
-    topImage: '/images/happy-child3.svg',
+    topImage: '/images/get-help.webp',
     question: 'Are there any live sessions?',
     answer: `No, there are no live sessions. Everything is pre-recorded. If you have queries you can ask in forum where community will answer your questions.`,
     quote: {
@@ -107,7 +107,7 @@ let data = [
       author: {
         name: 'Sourav',
         company: 'BigBinary',
-        avatar: '/images/students/sourav.png'
+        avatar: '/images/students/sourav.webp'
       }
     }
   }
@@ -179,9 +179,15 @@ function Answer({ activeQuestionIndex }) {
   return (
     <article className="mt-12 lg:mt-0 lg:pl-14">
       <div className="text-center sm:text-left">
-        <img src={topImage} alt="Happy Child Graphic" />
+        <img
+          className="w-32"
+          src={topImage}
+          alt="Happy Child Graphic"
+          width="120"
+          height="109"
+        />
       </div>
-      <p className="font-Karla text-royal-blue-800 tracking-tight text-lg mt-8">
+      <p className="font-Karla text-royal-blue-800 tracking-tight text-lg mt-4">
         {answer}
       </p>
       <article className="flex items-center bg-white py-4 pr-6 pl-14 shadow-lg-custom rounded-2xl relative z-10 ml-6 mt-10">

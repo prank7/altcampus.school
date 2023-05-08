@@ -3,7 +3,7 @@ title: 'Frequently asked MERN Interview questions'
 description: 'As a MERN stack developer you must have a clear understanding of underlying language - JavaScript that is powering the technologies like Node, Express and React.'
 date: '2023-04-23'
 blurb: 'As a MERN stack developer you must have a clear understanding of underlying language - JavaScript that is powering the technologies like Node, Express and React.'
-photo: '/images/posts/MERN-interview-questions.jpg'
+photo: '/images/posts/MERN-interview-questions.webp'
 cta: true
 ctaText: AltCampus helps you learn faster by inculcating these systems as part of the learning model. 🙌
 author: ravi11o

@@ -3,7 +3,7 @@ title: 'Why Every Developer Should Have A Portfolio'
 description: 'Portfolios are a great way to showcase your skills and get a job as a full stack developer. In this article, we discuss why and how portfolios are useful.'
 date: '2023-04-23'
 blurb: Launch your career as a developer with a strong portfolio.
-photo: '/images/posts/why-every-developer-should-have-a-portfolio.png'
+photo: '/images/posts/why-every-developer-should-have-a-portfolio.webp'
 cta: true
 ctaText: Learn how to code at AltCampus and kickstart your career as a software developer 🚀
 author: 'ivinoop'

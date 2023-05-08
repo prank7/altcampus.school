@@ -41,7 +41,9 @@ function CourseStack(props) {
                 <img
                   className=""
                   src="/images/icons/course-logo.svg"
-                  alt="MongoDB Logo"
+                  alt="MERN Course Stack"
+                  width="480"
+                  height="235"
                 />
               </figure>
             </div>
@@ -65,8 +67,10 @@ function CourseStack(props) {
               <aside className="min-w-max text-center">
                 <img
                   className="w-16 h-16 rounded-full object-cover inline-block"
-                  src="/images/students/shastri.png"
+                  src="/images/students/shastri.webp"
                   alt="Abhishek"
+                  width="64"
+                  height="64"
                 />
                 <div className="mt-4">
                   <h4 className="text-royal-blue-800 font-semibold text-base">

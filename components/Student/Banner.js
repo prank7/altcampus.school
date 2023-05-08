@@ -49,6 +49,8 @@ function Banner(props) {
                       className="h-5"
                       src="/images/icons/tweet-share.svg"
                       alt="Tweeter"
+                      width="20"
+                      height="20"
                     />
                     <span className="inline-block ml-2 font-semibold text-sm">
                       Tweet
@@ -68,6 +70,8 @@ function Banner(props) {
                       src="/images/icons/linkedin-share.svg"
                       className="h-4"
                       alt="Linkedin"
+                      width="20"
+                      height="20"
                     />
                     <span className="inline-block ml-2 font-semibold text-sm">
                       Share
@@ -87,6 +91,8 @@ function Banner(props) {
                       className="h-5"
                       src="/images/icons/fb-share.svg"
                       alt="Facebook"
+                      width="20"
+                      height="20"
                     />
                     <span className="inline-block ml-2 font-semibold text-sm">
                       Share

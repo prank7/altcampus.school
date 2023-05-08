@@ -132,6 +132,8 @@ function Footer(props) {
                     className="w-8 h-8 opacity-75 transition-opacity duration-200 hover:opacity-100"
                     src="/images/icons/github.svg"
                     alt="Github Icon"
+                    width="32"
+                    height="32"
                   />
                 </a>
               </li>
@@ -145,6 +147,8 @@ function Footer(props) {
                     className="w-8 h-8 opacity-75 transition-opacity duration-200 hover:opacity-100"
                     src="/images/icons/twitter.svg"
                     alt="Twitter Icon"
+                    width="32"
+                    height="32"
                   />
                 </a>
               </li>
@@ -158,6 +162,8 @@ function Footer(props) {
                     className="w-8 h-8"
                     src="/images/icons/facebook.svg"
                     alt="Facebook Icon"
+                    width="32"
+                    height="32"
                   />
                 </a>
               </li>

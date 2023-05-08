@@ -13,7 +13,11 @@ import {
 } from '../../lib/guides';
 import { getCoursesWithBasicInfo } from '../../lib/courseData';
 
-export default function Post({ guideData, relatedGuides = [], coursesWithBasicInfo }) {
+export default function Post({
+  guideData,
+  relatedGuides = [],
+  coursesWithBasicInfo
+}) {
   let authorInfo = authors[guideData.author || 'altcampus'];
 
   return (
@@ -57,7 +61,7 @@ export default function Post({ guideData, relatedGuides = [], coursesWithBasicIn
                     // className="w-full h-full"
                     layout="responsive"
                     src={guideData.photo}
-                    alt=""
+                    alt={guideData.title}
                     width="1600"
                     height="900"
                   />
@@ -153,7 +157,7 @@ export async function getStaticPaths() {
 export async function getStaticProps({ params }) {
   const guideData = await getGuideData(params.id);
   const relatedGuides = await getRelatedGuides(params.id);
-  let coursesWithBasicInfo = await getCoursesWithBasicInfo()
+  let coursesWithBasicInfo = await getCoursesWithBasicInfo();
   return {
     props: {
       guideData,

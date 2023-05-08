@@ -32,7 +32,12 @@ function Sidebar(props) {
                   href={props.github}
                   target="_blank"
                 >
-                  <img src="/images/icons/github.svg" alt="GitHub" />
+                  <img
+                    src="/images/icons/github.svg"
+                    alt="GitHub"
+                    width="32"
+                    height="32"
+                  />
                 </a>
               </li>
             )}
@@ -45,7 +50,12 @@ function Sidebar(props) {
                   href={props.twitter}
                   target="_blank"
                 >
-                  <img src="/images/icons/twitter-sm.svg" alt="Twitter" />
+                  <img
+                    src="/images/icons/twitter-sm.svg"
+                    alt="Twitter"
+                    width="32"
+                    height="32"
+                  />
                 </a>
               </li>
             )}
@@ -58,7 +68,12 @@ function Sidebar(props) {
                   href={props.linkedin}
                   target="_blank"
                 >
-                  <img src="/images/icons/linkedin.svg" alt="Linkedin" />
+                  <img
+                    src="/images/icons/linkedin.svg"
+                    alt="Linkedin"
+                    width="32"
+                    height="32"
+                  />
                 </a>
               </li>
             )}
@@ -70,7 +85,12 @@ function Sidebar(props) {
                   className="w-10 h-10 bg-dark-blue-200 place-items-center grid rounded-full"
                   href={`mailto:${props.email}`}
                 >
-                  <img src="/images/icons/email.svg" alt="Email" />
+                  <img
+                    src="/images/icons/email.svg"
+                    alt="Email"
+                    width="32"
+                    height="32"
+                  />
                 </a>
               </li>
             )}
@@ -96,7 +116,7 @@ function Sidebar(props) {
             <figure className="w-20">
               <Image
                 layout="responsive"
-                src="/images/icons/placed.png"
+                src="/images/icons/placed.webp"
                 alt="Placed Stamp"
                 height={100}
                 width={100}
@@ -123,6 +143,8 @@ function Sidebar(props) {
                 src="/images/icons/brand-icon.svg"
                 className="w-8"
                 alt="Brand"
+                width="32"
+                height="32"
               />
               <div className="ml-6">
                 <h3 className="text-md font-semibold text-dark-blue-700">
@@ -144,6 +166,8 @@ function Sidebar(props) {
                 src="/images/icons/grad-hat.svg"
                 className="w-8"
                 alt="Graduation Hat"
+                width="32"
+                height="32"
               />
               <div className="ml-6">
                 <h3 className="text-md font-semibold text-dark-blue-700">

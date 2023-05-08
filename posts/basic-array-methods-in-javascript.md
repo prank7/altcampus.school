@@ -3,7 +3,7 @@ title: 'Basic array methods in JavaScript'
 description: 'This article will cover the basic array methods in JavaScript. For simplicity, we will be splitting them into groups like adding items, removing items, iteration and searching.'
 date: '2023-04-23'
 blurb: This article will cover the basic array methods in JavaScript. For simplicity, we will be splitting them into groups like adding items, removing items, iteration and searching.
-photo: '/images/posts/basic-array-methods-in-javascript.jpeg'
+photo: '/images/posts/basic-array-methods-in-javascript.webp'
 cta: true
 ctaText: AltCampus helps you learn faster by inculcating these systems as part of the learning model. 🙌
 author: kabir4691

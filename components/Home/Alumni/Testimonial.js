@@ -4,7 +4,7 @@ const alumnis = [
   {
     name: 'Swastik',
     company: 'Freelancing',
-    image: '/images/students/swastik.png',
+    image: '/images/students/swastik.webp',
     path: '/placements/swastik-yadav',
     quote:
       "AltCampus was <strong>the best decision I have ever made</strong>. You don't need any prior knowledge of programming. The courses take you from ground zero and help you reach your escape velocity."
@@ -12,7 +12,7 @@ const alumnis = [
   {
     name: 'Reetik',
     company: 'BigBinary',
-    image: '/images/students/reetik.png',
+    image: '/images/students/reetik.webp',
     path: '/placements/reettik-goswami',
     quote:
       'AltCampus has helped me develop postive attitude and problem solving. The <strong>courses are pretty epic and extremely detailed</strong>. I highly recommend it for anyone looking to learn web dev.'
@@ -34,6 +34,8 @@ function Testimonial(props) {
                   className="w-16 h-16 min-w-max rounded-full object-cover"
                   src={item.image}
                   alt={item.name}
+                  width="64"
+                  height="64"
                 />
                 <div className="mt-4">
                   <h4 className="text-royal-blue-800 font-semibold text-base">

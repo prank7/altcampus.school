@@ -16,6 +16,8 @@ const ProjectCard = ({
         className="rounded-lg mb-4 h-36 object-cover w-full"
         src={ROOT_IMAGE_URL + projectImage}
         alt={projectName}
+        width="290"
+        height="144"
       />
       <h3 className="text-xl font-semibold mb-4">{projectName}</h3>
       <ul className="flex flex-wrap mb-4">

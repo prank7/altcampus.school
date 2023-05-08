@@ -10,14 +10,15 @@ function Banner(props) {
         </h1>
         <h2 className="max-w-3xl mx-auto mt-8 font-Karla text-royal-blue-800 tracking-tight text-lg">
           Checkout our alumni stories and how AltCampus helped them to learn and
-          get their first job as a Software developer. Learn how our web development courses are enabling folks to kickstart their career in
+          get their first job as a Software developer. Learn how our web
+          development courses are enabling folks to kickstart their career in
           tech.
         </h2>
         <div className="text-center">
           <figure className="w-24 mt-12 inline-block">
             <Image
               layout="responsive"
-              src="/images/icons/success-rate.png"
+              src="/images/icons/success-rate.webp"
               alt="Success Rate Stamp"
               height={100}
               width={100}

@@ -3,7 +3,7 @@ title: "Dropping out of college, AltCampus experience, first tech job, and worki
 description: 'From Dropping out of college to learning fullstack web development, getting a job, and working remotely from a village in Andhra Pradesh. Chaduvula shares the role of AltCampus in his programming career.'
 date: '2023-04-23'
 blurb: 'Chaduvula shares about learning to code, AltCampus, getting first job and advice for newbies.'
-studentPhoto: '/images/students/chaduvula-sq.png'
+studentPhoto: '/images/students/chaduvula-sq.webp'
 photo: 'https://altcampus.com/images/stories/Chaduvula-AltCampus-placement-bootcamp.png'
 name: 'Prasanth Chaduvula'
 company: 'BigBinary'

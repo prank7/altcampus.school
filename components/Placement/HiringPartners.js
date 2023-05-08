@@ -11,94 +11,130 @@ function HiringPartners(props) {
           <figure className="grid grid-cols-6 items-center gap-x-14 gap-y-8">
             <img
               className="w-full"
-              src="/images/hiring-partner/big-binary.svg"
+              src="/images/hiring-partner/big-binary.webp"
               alt="BigBinary"
+              width="170"
+              height="40"
             />
             <img
               className="w-full"
-              src="/images/hiring-partner/fampay.svg"
+              src="/images/hiring-partner/fampay.webp"
               alt="Fampay"
+              width="170"
+              height="40"
             />
             <img
               className="w-full"
-              src="/images/hiring-partner/cleartax.png"
+              src="/images/hiring-partner/cleartax.webp"
               alt="ClearTax"
+              width="170"
+              height="40"
             />
             <img
               className="w-full"
-              src="/images/hiring-partner/loconav.png"
+              src="/images/hiring-partner/loconav.webp"
               alt="LocoNav"
+              width="170"
+              height="40"
             />
             <img
               className="w-full"
-              src="/images/hiring-partner/khelomore.svg"
+              src="/images/hiring-partner/khelomore.webp"
               alt="Khelomore"
+              width="170"
+              height="40"
             />
             <img
               className="w-full"
-              src="/images/hiring-partner/ey.svg"
+              src="/images/hiring-partner/ey.webp"
               alt="EY India"
+              width="170"
+              height="40"
             />
             <img
               className="w-full"
-              src="/images/hiring-partner/thunderpod.png"
+              src="/images/hiring-partner/thunderpod.webp"
               alt="Thunderpod"
+              width="170"
+              height="40"
             />
             <img
               className="w-full"
-              src="/images/hiring-partner/mclarencollege.png"
+              src="/images/hiring-partner/mclarencollege.webp"
               alt="Mclarencollege"
+              width="170"
+              height="40"
             />
             <img
               className="w-full"
-              src="/images/hiring-partner/epyc.png"
+              src="/images/hiring-partner/epyc.webp"
               alt="EPYC"
+              width="170"
+              height="40"
             />
             <img
               className="w-full"
-              src="/images/hiring-partner/betaflux.png"
+              src="/images/hiring-partner/betaflux.webp"
               alt="Betaflux"
+              width="170"
+              height="40"
             />
 
             <img
               className="w-full"
-              src="/images/hiring-partner/saeloun.svg"
+              src="/images/hiring-partner/saeloun.webp"
               alt="Saeloun"
+              width="170"
+              height="40"
             />
             <img
               className="w-full"
-              src="/images/hiring-partner/lancesoft.png"
+              src="/images/hiring-partner/lancesoft.webp"
               alt="LanceSoft"
+              width="170"
+              height="40"
             />
             <img
               className="w-full"
-              src="/images/hiring-partner/arvolution.png"
+              src="/images/hiring-partner/arvolution.webp"
               alt="ARVOLUTION"
+              width="170"
+              height="40"
             />
             <img
               className="w-full"
-              src="/images/hiring-partner/vegrow.png"
+              src="/images/hiring-partner/vegrow.webp"
               alt="Vegrow"
+              width="170"
+              height="40"
             />
             <img
               className="w-full"
-              src="/images/hiring-partner/accelerate.png"
+              src="/images/hiring-partner/accelerate.webp"
               alt="Accelerate"
+              width="170"
+              height="40"
             />
             <img
               className="w-full"
-              src="/images/hiring-partner/credilio.svg"
+              src="/images/hiring-partner/credilio.webp"
               alt="Credilio"
+              width="170"
+              height="40"
             />
             <img
               className="w-full"
-              src="/images/hiring-partner/outofbox.png"
+              src="/images/hiring-partner/outofbox.webp"
               alt="Out Of Box"
+              width="170"
+              height="40"
             />
             <img
               className="w-full"
-              src="/images/hiring-partner/juvoxa.png"
+              src="/images/hiring-partner/juvoxa.webp"
               alt="Out Of Box"
+              width="170"
+              height="40"
             />
           </figure>
         </div>

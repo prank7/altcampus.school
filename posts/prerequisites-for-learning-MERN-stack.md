@@ -3,7 +3,7 @@ title: 'Prerequisites for Learning MERN Stack'
 description: 'Before starting the MERN stack development course you should have a basic understanding of fundamental languages used by the browser and the server. You must be familier with basics of HTML, CSS and Javascript.'
 date: '2023-04-23'
 blurb: 'Before starting the MERN stack development course you should have a basic understanding of fundamental languages used by the browser and the server. You must be familier with basics of HTML, CSS and Javascript.'
-photo: '/images/posts/prerequisite-for-MERN.jpg'
+photo: '/images/posts/prerequisite-for-MERN.webp'
 cta: true
 ctaText: AltCampus helps you learn faster by inculcating these systems as part of the learning model. 🙌
 author: ravi11o

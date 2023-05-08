@@ -75,7 +75,7 @@ const Stories = ({ allPostsData, coursesWithBasicInfo }) => {
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
-  let coursesWithBasicInfo = await getCoursesWithBasicInfo()
+  let coursesWithBasicInfo = await getCoursesWithBasicInfo();
   return {
     props: {
       allPostsData,

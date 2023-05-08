@@ -3,7 +3,7 @@ title: 'The Ultimate Guide to Programming Bootcamps in 2021'
 description: 'What are the best bootcamps in India? How to choose a programming bootcamp? Know how to become a software developer in this post.'
 date: '2023-04-23'
 blurb: Your ultimate guide to choose a programming bootcamp and become a software developer.
-photo: '/images/posts/the-ultimate-guide-to-bootcamp.png'
+photo: '/images/posts/the-ultimate-guide-to-bootcamp.webp'
 cta: true
 ctaText: Learn how to code at AltCampus and kickstart your career as a software developer 🚀
 author: 'ivinoop'

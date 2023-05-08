@@ -3,7 +3,7 @@ title: '4 common situations while using Git and how to solve them'
 description: 'Learn about some common situation while using Git such as changing the git commit message, understanding git log and more.'
 date: '2023-04-23'
 blurb: Learn about some common situation while using Git such as changing the git commit message, understanding git log and more.
-photo: '/images/posts/4-common-situations-in-git.jpeg'
+photo: '/images/posts/4-common-situations-in-git.webp'
 cta: true
 ctaText: AltCampus helps you learn faster by inculcating these systems as part of the learning model.  🙌
 author: nnnkit

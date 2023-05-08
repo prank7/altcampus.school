@@ -12,50 +12,71 @@ function Blog(props) {
         <div className="md:grid md:grid-cols-3 md:gap-x-24 space-y-16 md:space-y-0">
           <article className="sm:flex sm:items-center md:block">
             <img
-              className="h-36 order-1"
-              src="/images/happy-child.svg"
-              alt="Web development courses"
+              className="w-40 order-1"
+              src="/images/learning-pace.webp"
+              alt="Step by step video content"
+              width="160"
+              height="144"
             />
             <div className="sm:max-w-2xl md:max-w-none sm:pr-12 md:pr-0">
               <h3 className="text-royal-blue-800 text-2xl font-bold mt-4">
-                <span className='text-green-theme-900'>188 hours</span> of bite sized, step-by-step video content
+                <span className="text-green-theme-900">188 hours</span> of bite
+                sized, step-by-step video content
               </h3>
               <p className="font-Karla text-gray-500 mt-3">
-                With 188 hours of expertly crafted  bite-sized, step-by-step video content, you'll have everything you need to master the ins and outs of full-stack web development. <br/><br/> Learn at your own pace, build skills and launch your dream career on your own schedule.
+                With 188 hours of expertly crafted bite-sized, step-by-step
+                video content, you'll have everything you need to master the ins
+                and outs of full-stack web development. <br />
+                <br /> Learn at your own pace, build skills and launch your
+                dream career on your own schedule.
               </p>
             </div>
           </article>
           <article className="sm:flex sm:items-center md:block">
             <img
-              className="h-36 order-1"
-              src="/images/happy-child2.svg"
-              alt="Happy Child"
+              className="w-40 order-1"
+              src="/images/learn-by-doing.webp"
+              alt="Learn by doing, 200+ exercises and projects"
+              width="160"
+              height="144"
             />
             <div className="sm:max-w-2xl md:max-w-none sm:pr-12 md:pr-0">
               <h3 className="text-royal-blue-800 text-2xl font-bold mt-4">
-                Followed by <span className='text-green-theme-900'>200+</span> exercises and projects
+                Followed by <span className="text-green-theme-900">200+</span>{' '}
+                exercises and projects
               </h3>
               <p className="font-Karla text-gray-500 mt-3">
-                In addition to extensive video content, our program includes over 200 hands-on exercises and real-world projects that help you build practical skills and apply it in real-world scenarios. 
-                <br/><br/>
-                By the time you complete the course, you'll have a robust portfolio to showcase to potential employers.
+                In addition to extensive video content, our program includes
+                over 200 hands-on exercises and real-world projects that help
+                you build practical skills and apply it in real-world scenarios.
+                <br />
+                <br />
+                By the time you complete the course, you'll have a robust
+                portfolio to showcase to potential employers.
               </p>
             </div>
           </article>
           <article className="sm:flex sm:items-center md:block">
             <img
-              className="h-36 order-1"
-              src="/images/happy-child3.svg"
-              alt="Happy Child"
+              className="w-40 order-1"
+              src="/images/get-help.webp"
+              alt="A dedicated module on landing your dream job"
+              width="160"
+              height="144"
             />
             <div className="sm:max-w-2xl md:max-w-none sm:pr-12 md:pr-0">
               <h3 className="text-royal-blue-800 text-2xl font-bold mt-4">
-                A dedicated module on landing your <span className='text-green-theme-900'> dream job</span>
+                A dedicated module on landing your{' '}
+                <span className="text-green-theme-900"> dream job</span>
               </h3>
               <p className="font-Karla text-gray-500 mt-3">
-                Our program includes a dedicated module on portfolio building and job hunting to help you launch your career as a full-stack web developer.
-                <br/><br/>
-                You'll learn how to create an impressive portfolio and get our tips for navigating the job market and landing your dream job.
+                Our program includes a dedicated module on portfolio building
+                and job hunting to help you launch your career as a full-stack
+                web developer.
+                <br />
+                <br />
+                You'll learn how to create an impressive portfolio and get our
+                tips for navigating the job market and landing your dream job.
               </p>
             </div>
           </article>

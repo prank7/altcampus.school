@@ -18,7 +18,7 @@ function CourseModel() {
             <article className="">
               <header>
                 <CourseModelGraphics
-                  image={'/images/graphics-team.svg'}
+                  image={'/images/learn-by-doing.webp'}
                   alt={'Learn MERN stack web development by building projects'}
                 />
               </header>
@@ -49,8 +49,8 @@ function CourseModel() {
             <article className="">
               <header>
                 <CourseModelGraphics
-                  image={'/images/graphics-project.svg'}
-                  alt={'Graphics for Team'}
+                  image={'/images/learning-pace.webp'}
+                  alt={'No catching up with others, learn at your own pace'}
                 />
               </header>
               <div className="">
@@ -77,8 +77,8 @@ function CourseModel() {
             <article className="">
               <header>
                 <CourseModelGraphics
-                  image="/images/graphics-cohort.svg"
-                  alt="Graphics for Cohort"
+                  image="/images/get-help.webp"
+                  alt="Don't be stuck, community Forum to answer your queries"
                 />
               </header>
               <div className="">

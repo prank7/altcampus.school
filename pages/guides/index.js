@@ -6,8 +6,7 @@ import { getSortedGuidesData } from '../../lib/guides';
 import { getCoursesWithBasicInfo } from '../../lib/courseData';
 
 const Tutorials = ({ allPostsData, coursesWithBasicInfo }) => {
-  var title =
-    'How to Learn Web Development and Get a Job - Blog | AltCampus';
+  var title = 'How to Learn Web Development and Get a Job - Blog | AltCampus';
   var description =
     'Insightful tips, techniques and posts on MERN stack and how to learn software developement and get a job';
   var url = 'https://altcampus.com/guides';
@@ -55,7 +54,7 @@ function Cards({ posts }) {
 
 export async function getStaticProps() {
   const allPostsData = getSortedGuidesData();
-  let coursesWithBasicInfo = await getCoursesWithBasicInfo()
+  let coursesWithBasicInfo = await getCoursesWithBasicInfo();
 
   await generateSitemap();
   return {

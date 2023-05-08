@@ -12,43 +12,55 @@ function Alumnis(props) {
           <li>
             <img
               className="w-full"
-              src="/images/hiring-partner/cleartax.png"
+              src="/images/hiring-partner/cleartax.webp"
               alt="ClearTax"
+              width="177"
+              height="33"
             />
           </li>
           <li>
             <img
               className="w-full"
-              src="/images/hiring-partner/fampay.svg"
+              src="/images/hiring-partner/fampay.webp"
               alt="Fampay"
+              width="177"
+              height="33"
             />
           </li>
           <li>
             <img
               className="w-full"
-              src="/images/hiring-partner/ey.svg"
+              src="/images/hiring-partner/ey.webp"
               alt="Ernst & Young"
+              width="177"
+              height="33"
             />
           </li>
           <li className="">
             <img
               className="w-full"
-              src="/images/hiring-partner/big-binary.svg"
+              src="/images/hiring-partner/big-binary.webp"
               alt="BigBinary"
+              width="177"
+              height="33"
             />
           </li>
           <li>
             <img
               className="w-full"
-              src="/images/hiring-partner/loconav.png"
+              src="/images/hiring-partner/loconav.webp"
               alt="LocoNav"
+              width="177"
+              height="33"
             />
           </li>
           <li>
             <img
               className="w-full"
-              src="/images/hiring-partner/mclarencollege.png"
+              src="/images/hiring-partner/mclarencollege.webp"
               alt="Mclarencollege"
+              width="177"
+              height="33"
             />
           </li>
         </ul>

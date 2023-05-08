@@ -3,7 +3,7 @@ title: 'Why Should You Learn MERN Stack ?'
 description: 'MERN Stack is the complete solution for creating Full stack web applications. It involves frontend app development, backend app development as well as database designs. All it requires is the Javascript.'
 date: '2023-04-23'
 blurb: 'MERN Stack is the complete solution for creating Full stack web applications. It involves frontend app development, backend app development as well as database designs. All it requires is the Javascript.'
-photo: '/images/posts/why-should-you-learn-MERN.jpg'
+photo: '/images/posts/why-should-you-learn-MERN.webp'
 cta: true
 ctaText: AltCampus helps you learn faster by inculcating these systems as part of the learning model. 🙌
 author: ravi11o

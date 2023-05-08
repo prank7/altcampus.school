@@ -114,8 +114,10 @@ function Home(props) {
                   <div className="w-16 md:w-24">
                     <img
                       className="inline-block w-16 h-16 rounded-full object-cover"
-                      src="/images/students/abhishek-sonal.png"
+                      src="/images/students/abhishek-sonal.webp"
                       alt="Abhishek Kumar"
+                      width="64"
+                      height="64"
                     />
                     <figcaption className="mt-2">
                       <cite className="text-base not-italic text-royal-blue-800 font-semibold">

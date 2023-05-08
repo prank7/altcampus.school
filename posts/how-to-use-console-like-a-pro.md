@@ -3,7 +3,7 @@ title: 'How to use console like a pro'
 description: 'Learn to use console in a better way. You will get to know about semantic logging, string substitution and other helper methods like group, count etc.'
 date: '2023-04-23'
 blurb: 'Learn to use console in a better way. You will get to know about semantic logging, string substitution and other helper methods like group, count etc.'
-photo: '/images/posts/how-to-use-console-like-a-pro.jpeg'
+photo: '/images/posts/how-to-use-console-like-a-pro.webp'
 cta: true
 ctaText: AltCampus helps you learn faster by inculcating these systems as part of the learning model. 🙌
 author: nnnkit
@@ -21,7 +21,7 @@ Looking at the output, you can see some messages are critical and some are not. 
 
 `log` is just one of the methods in the `console` object. Try doing `console.log(console)` you will see there are many other methods that we don't use regularly. In this article we will learn about using other console methods.
 
-![Console Object](/images/posts/how-to-use-console-like-a-pro/console.png)
+![Console Object](/images/posts/how-to-use-console-like-a-pro/console.webp)
 
 ## Semantic Logging
 
@@ -31,7 +31,7 @@ Semantic logging is a way to use appropriate methods to provide extra bit of inf
 - `console.error` for displaying an error.
 - `console.info` for displaying any piece of information.
 
-![Console Filter](/images/posts/how-to-use-console-like-a-pro/filter.png)
+![Console Filter](/images/posts/how-to-use-console-like-a-pro/filter.webp)
 
 > Using these methods also gives you an option to filter them in console.
 
@@ -87,7 +87,7 @@ for (let i = 0; i < users.length; i++) {
 }
 ```
 
-![Console Group](/images/posts/how-to-use-console-like-a-pro/group.png)
+![Console Group](/images/posts/how-to-use-console-like-a-pro/group.webp)
 
 **`console.time`** helps you track time taken by any operation. Each timer accepts a unique name.
 
@@ -118,7 +118,7 @@ console.table(users, ['name']);
 console.table(users, ['age']);
 ```
 
-![Table](/images/posts/how-to-use-console-like-a-pro/table.png)
+![Table](/images/posts/how-to-use-console-like-a-pro/table.webp)
 
 ```jsx
 for (let i = 0; i < 10; i++) {

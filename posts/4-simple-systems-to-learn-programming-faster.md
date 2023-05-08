@@ -3,7 +3,7 @@ title: '4 Simple Systems to Help You Learn Programming Faster'
 description: 'How to learn programming faster? 4 systems to help you learn programming faster and better at AltCampus.'
 date: '2023-04-23'
 blurb: Simple systems to help you learn programming better and faster.
-photo: '/images/posts/4-systems-learn-programming-faster-altcampus.png'
+photo: '/images/posts/4-systems-learn-programming-faster-altcampus.webp'
 cta: true
 ctaText: AltCampus helps you learn faster by inculcating these systems as part of the learning model.  🙌
 author: 'dprank'

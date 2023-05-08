@@ -43,7 +43,9 @@ function Hero(props) {
               <div className="w-auto md:w-24">
                 <img
                   className="inline-block w-16 h-16 rounded-full object-cover"
-                  src="/images/students/chaduvula.png"
+                  src="/images/students/chaduvula.webp"
+                  width="64"
+                  height="64"
                   alt="Prasanth Chaduvula"
                 />
                 <figcaption className="mt-2 text-center">
