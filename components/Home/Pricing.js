@@ -284,6 +284,8 @@ function Pricing(props) {
                           className="arrow-slide w-5"
                           src="/images/icons/arrow-right-green.svg"
                           alt="Arrow Right Icon"
+                          width="20"
+                          height="20"
                         />
                       </div>
                     </figure>
@@ -326,7 +328,9 @@ function Pricing(props) {
                       <figure className="flex gap-x-3">
                         <img
                           src={track.image || '/images/icons/js-rounded.svg'}
-                          alt="react-rounded"
+                          alt={track.name}
+                          width="auto"
+                          height="57"
                         />
                         {/* <img src="/images/icons/react-rounded.svg" alt="html" />
                         <img src="/images/icons/node-md.svg" alt="CSS" />
