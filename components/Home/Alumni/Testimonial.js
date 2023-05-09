@@ -54,6 +54,7 @@ function Testimonial(props) {
                 <img
                   className="arrow-slide"
                   width="84"
+                  height="16"
                   src="/images/icons/arrow-right.svg"
                   alt="Arrow Right Icon"
                 />
