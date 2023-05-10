@@ -52,21 +52,24 @@ function Alumnis(props) {
           {alumnis.map((item) => (
             <li className="text-center" key={item.name}>
               <a href={item.path}>
-                <img
-                  className="shadow-lg-custom rounded-full inline-block object-cover"
-                  src={item.image}
-                  alt={item.name + '- AltCampus alumni'}
-                  width="170"
-                  height="170"
-                />
-                <div className="mt-4">
-                  <h4 className="text-royal-blue-800 font-semibold text-base">
-                    {item.name}
-                  </h4>
-                  <strong className="inline-block text-xxs text-gray-500 uppercase font-normal mt-1">
-                    {item.company}
-                  </strong>
-                </div>
+                <figure>
+                  <img
+                    className="shadow-lg-custom rounded-full inline-block object-cover"
+                    src={item.image}
+                    alt={item.name + '- AltCampus alumni'}
+                    width="170"
+                    height="170"
+                  />
+                  <figcaption className="mt-4">
+                    <cite className="text-base not-italic text-royal-blue-800 font-semibold">
+                      {item.name}
+                    </cite>
+                    <br />
+                    <cite className="text-xxs not-italic text-gray-500 tracking-normal uppercase">
+                      {item.company}
+                    </cite>
+                  </figcaption>
+                </figure>
               </a>
             </li>
           ))}

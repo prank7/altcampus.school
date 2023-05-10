@@ -9,10 +9,10 @@ function CourseModel() {
       <section className="mt-8 pt-20 pb-40">
         <div className="container mx-auto px-8 sm:px-3">
           <header>
-            <h3 className="text-center font-bold text-royal-blue-800 text-4xl leading-snug">
+            <h2 className="text-center font-bold text-royal-blue-800 text-4xl leading-snug">
               We don’t just do it differently, <br />{' '}
               <span className="text-green-theme-900">We do it right</span>
-            </h3>
+            </h2>
           </header>
           <div className="grid lg:grid-cols-3 gap-8">
             <article className="">
@@ -23,16 +23,16 @@ function CourseModel() {
                 />
               </header>
               <div className="">
-                <h4 className="text-lg text-gray-500 mb-6">
+                <strong className="text-lg font-normal inline-block text-gray-500 mb-6">
                   Learn by doing. Less theory, more practice
-                </h4>
-                <h2 className="font-bold text-royal-blue-800 text-2xl">
+                </strong>
+                <h3 className="font-bold text-royal-blue-800 text-2xl">
                   Step-by-step, hands on{' '}
                   <strong className="text-green-theme-900">
                     project based
                   </strong>{' '}
                   learning
-                </h2>
+                </h3>
                 <CourseModelContent
                   intro={
                     'Our assignments and projects help you learn by building small, real world usecases with progressively increasing complexity. '
@@ -54,15 +54,15 @@ function CourseModel() {
                 />
               </header>
               <div className="">
-                <h4 className="text-lg text-gray-500 mb-6">
+                <strong className="inline-block font-normal text-lg text-gray-500 mb-6">
                   Hurry is worry. No catching up with others
-                </h4>
-                <h2 className="font-bold text-royal-blue-800 text-2xl">
+                </strong>
+                <h3 className="font-bold text-royal-blue-800 text-2xl">
                   Your speed may vary. Learn at{' '}
                   <strong className="text-green-theme-900">
                     your own pace
                   </strong>
-                </h2>
+                </h3>
                 <CourseModelContent
                   intro={
                     'Our courses are well thought out and pre-recorded, allowing you to move at your own pace and doing it whenever you want - day or night, part-time or full-time. No catching up with a cohort.'
@@ -82,15 +82,15 @@ function CourseModel() {
                 />
               </header>
               <div className="">
-                <h4 className="text-lg text-gray-500 mb-6">
+                <strong className="inline-block font-normal text-lg text-gray-500 mb-6">
                   Don't be stuck. Get the help you need
-                </h4>
-                <h2 className="font-bold text-royal-blue-800 text-2xl">
+                </strong>
+                <h3 className="font-bold text-royal-blue-800 text-2xl">
                   <strong className="text-green-theme-900">
                     Community Forum{' '}
                   </strong>
                   to answer your queries
-                </h2>
+                </h3>
                 <CourseModelContent
                   intro={
                     'Our courses are thorough and pretty comprehensive. However, when stuck you can ask your queries in the community forum where other students and instructors will answer them.'
