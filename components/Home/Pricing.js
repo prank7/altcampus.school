@@ -322,14 +322,15 @@ function Pricing(props) {
                         i != 0 ? ' mt-8' : ''
                       }`}
                     >
-                      <h3 className="text-base font-semibold text-royal-blue-800">
+                      <h3 className="text-base font-semibold text-royal-blue-800 w-52">
                         {track.name}
                       </h3>
                       <figure className="flex gap-x-3">
                         <img
+                          className="w-auto"
                           src={track.image || '/images/icons/js-rounded.svg'}
                           alt={track.name}
-                          width="auto"
+                          width="246"
                           height="57"
                         />
                         {/* <img src="/images/icons/react-rounded.svg" alt="html" />

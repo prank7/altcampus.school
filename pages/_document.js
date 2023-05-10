@@ -1,4 +1,5 @@
 import Document, { Html, Main, Head, NextScript } from 'next/document';
+import Script from 'next/script';
 
 const GA_TRACKING_ID = 'G-2SJPKQTMLX';
 
@@ -33,11 +34,12 @@ class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Karla&family=Sora:wght@400;500;600;700&display=swap"
             rel="stylesheet"
           />
-          <script
-            async={true}
+          <Script
+            strategy="afterInteractive"
             src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
           />
-          <script
+          <Script
+            strategy="afterInteractive"
             dangerouslySetInnerHTML={{
               __html: `
                 window.dataLayer = window.dataLayer || [];
@@ -48,7 +50,8 @@ class MyDocument extends Document {
             }}
           />
 
-          <script
+          <Script
+            strategy="afterInteractive"
             dangerouslySetInnerHTML={{
               __html: `
               !function(f,b,e,v,n,t,s)
