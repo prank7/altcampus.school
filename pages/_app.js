@@ -10,7 +10,7 @@ const GA_TRACKING_ID = 'G-2SJPKQTMLX';
 function MyApp({ Component, pageProps, coursesWithBasicInfo }) {
 
   const site = "https://altcampus.com";
-  const canonicalURL = site + useRouter().pathname;
+  const canonicalURL = site + useRouter().asPath;
 
   return (
     <>
