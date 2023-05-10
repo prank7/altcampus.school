@@ -26,6 +26,8 @@ function Checklist(props) {
                 className="arrow-slide"
                 src="/images/icons/arrow-right-green.svg"
                 alt="Arrow Right Icon"
+                width="30"
+                height="18"
               />
             </button>
           </fieldset>

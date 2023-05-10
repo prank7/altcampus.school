@@ -106,6 +106,8 @@ function CourseStack(props) {
                       className="arrow-slide"
                       src="/images/icons/arrow-right-white.svg"
                       alt="Arrow Right Icon"
+                      width="30"
+                      height="18"
                     />
                   </button>
                 </fieldset>

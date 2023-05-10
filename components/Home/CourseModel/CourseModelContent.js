@@ -21,6 +21,8 @@ function CourseModelContent(props) {
               className="ml-12 arrow-slide"
               src="/images/icons/arrow-right-green.svg"
               alt="Arrow Right Icon"
+              width="30"
+              height="18"
             />
           </>
         </Link>
