@@ -45,9 +45,9 @@ function Alumnis(props) {
   return (
     <section className="pb-24 bg-blur bg-no-repeat">
       <article className="container mx-auto px-8 sm:px-3">
-        <h3 className="text-center font-bold text-gray-500 text-2xl">
+        <h2 className="text-center font-bold text-gray-500 text-2xl">
           Meet some of our graduates
-        </h3>
+        </h2>
         <ul className="mt-10 grid grid-cols-2 md:grid-cols-3 gap-10 lg:grid-cols-6">
           {alumnis.map((item) => (
             <li className="text-center" key={item.name}>
@@ -55,7 +55,7 @@ function Alumnis(props) {
                 <img
                   className="shadow-lg-custom rounded-full inline-block object-cover"
                   src={item.image}
-                  alt={item.name + "- AltCampus alumni"}
+                  alt={item.name + '- AltCampus alumni'}
                   width="170"
                   height="170"
                 />
@@ -63,9 +63,9 @@ function Alumnis(props) {
                   <h4 className="text-royal-blue-800 font-semibold text-base">
                     {item.name}
                   </h4>
-                  <h6 className="text-xxs text-gray-500 uppercase font-normal mt-1">
+                  <strong className="inline-block text-xxs text-gray-500 uppercase font-normal mt-1">
                     {item.company}
-                  </h6>
+                  </strong>
                 </div>
               </a>
             </li>

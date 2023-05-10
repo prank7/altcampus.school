@@ -24,7 +24,7 @@ export default function Tweet({
     referenced_tweets && referenced_tweets.find((t) => t.type === 'quoted');
 
   return (
-    <div className="bg-white px-6 py-4 my-4 ">
+    <div className="bg-white px-6 py-4 my-4 border border-royal-blue-700 border-opacity-10 shadow-sm rounded-md">
       <div className="flex items-center">
         <a
           className="flex h-12 w-12"
@@ -64,7 +64,7 @@ export default function Tweet({
             ) : null}
           </span>
           <span
-            className="text-gray-400 hover:underline"
+            className="text-gray-500 hover:underline"
             title={`@${author.username}`}
           >
             @{author.username}

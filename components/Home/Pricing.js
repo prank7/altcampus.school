@@ -255,7 +255,7 @@ function Pricing(props) {
               <h3 className="text-gray-500 font-bold text-2xl">
                 a specific skill
               </h3>
-              <h5 className="text-gray-500 font-normal">{`starting at ${symbol} ${specificSkillLowest.pricing.standard[currency]}`}</h5>
+              <strong className="text-gray-500 font-normal">{`starting at ${symbol} ${specificSkillLowest.pricing.standard[currency]}`}</strong>
             </header>
             <div className="grid grid-cols-2 lg:grid-cols-3 gap-6 text-center mt-10 items-stretch">
               {specificSkills.map((skill, i) => {
@@ -310,7 +310,7 @@ function Pricing(props) {
               <h3 className="text-gray-500 font-bold text-2xl">
                 or a learning track
               </h3>
-              <h5 className="text-gray-500 font-normal">{`starting at ${symbol} ${fullTrackLowest.pricing.standard[currency]}`}</h5>
+              <strong className="text-gray-500 font-normal">{`starting at ${symbol} ${fullTrackLowest.pricing.standard[currency]}`}</strong>
             </header>
             <div className="mt-10">
               {fullTracks.map((track, i) => {

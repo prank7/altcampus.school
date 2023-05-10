@@ -5,9 +5,9 @@ function Alumnis(props) {
   return (
     <section className="">
       <article className="">
-        <h3 className="text-center font-bold text-gray-500 text-2xl mb-10">
+        <h2 className="text-center font-bold text-gray-500 text-2xl mb-10">
           Graduates of our courses work at
-        </h3>
+        </h2>
         <ul className="grid grid-cols-3 md:grid-cols-6 items-center gap-14">
           <li>
             <img

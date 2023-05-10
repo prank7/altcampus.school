@@ -105,11 +105,13 @@ function CourseCard({ course }) {
         </a>
       </footer> */}
         {course.isMiniTrack ? (
-          <img
-            className="w-28 h-full inline-block rounded-tr-md rounded-br-md"
-            src="/images/icons/html-large.svg"
-            alt={course.name}
-          />
+          <div className="bg-gray-200 px-4 flex justify-center items-center rounded-tr-md rounded-br-md">
+            <img
+              className="w-28 h-full inline-block rounded-tr-md rounded-br-md"
+              src="/images/icons/html-large.svg"
+              alt={course.name}
+            />
+          </div>
         ) : (
           <div className="bg-gray-200 p-4 flex justify-center items-center rounded-tr-md rounded-br-md">
             <figure className="grid grid-cols-2 gap-x-4 gap-y-4">

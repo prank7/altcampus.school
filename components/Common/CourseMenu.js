@@ -170,7 +170,7 @@ export default function CourseMenu(props) {
                                   href={`/courses/${skill.slug}`}
                                 >
                                   <img
-                                    className="w-6"
+                                    className="w-8"
                                     src={
                                       skill.image ||
                                       'https://altcampus/images/icons/js-rounded.svg'
