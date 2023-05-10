@@ -5,9 +5,9 @@ function Checklist(props) {
     <section className="py-16 bg-royal-blue-800 bg-curve text-center md:text-left text-white">
       <article className="container mx-auto px-8 sm:px-3 lg:flex items-end font-bold justify-between">
         <div className="lg:w-6/12">
-          <h4 className="text-xl font-normal">
+          <h3 className="text-xl font-normal">
             Want to be a developer but don’t know how to start ?
-          </h4>
+          </h3>
           <h2 className="text-4xl font-bold mt-4 leading-normal">
             Get a Developer’s ultimate checklist delivered to your inbox!
           </h2>

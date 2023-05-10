@@ -30,21 +30,24 @@ function Testimonial(props) {
           >
             <article className="flex items-center">
               <aside className="text-center">
-                <img
-                  className="w-16 h-16 min-w-max rounded-full object-cover"
-                  src={item.image}
-                  alt={item.name}
-                  width="64"
-                  height="64"
-                />
-                <div className="mt-4">
-                  <h4 className="text-royal-blue-800 font-semibold text-base">
-                    {item.name}
-                  </h4>
-                  <h6 className="text-xxs text-gray-500 uppercase font-normal mt-1">
-                    {item.company}
-                  </h6>
-                </div>
+                <figure>
+                  <img
+                    className="w-16 h-16 min-w-max rounded-full object-cover"
+                    src={item.image}
+                    alt={item.name}
+                    width="64"
+                    height="64"
+                  />
+                  <figcaption className="mt-4">
+                    <cite className="text-base not-italic text-royal-blue-800 font-semibold">
+                      {item.name}
+                    </cite>
+                    <br />
+                    <cite className="text-xxs not-italic text-gray-500 tracking-normal uppercase">
+                      {item.company}
+                    </cite>
+                  </figcaption>
+                </figure>
               </aside>
               <blockquote className="sm:mx-16 ml-6 font-Karla text-xl text-gray-500 leading-normal sm:pr-9">
                 <p dangerouslySetInnerHTML={{ __html: item.quote }} />

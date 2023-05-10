@@ -20,9 +20,9 @@ function ACStats(props) {
     <section className="pb-20">
       <article className="container mx-auto px-8 sm:px-3 ">
         <header className="text-center mb-20">
-          <h3 className="text-gray-500 font-bold font-Sora text-2xl">
+          <h2 className="text-gray-500 font-bold font-Sora text-2xl">
             Our numbers speak for themselves
-          </h3>
+          </h2>
         </header>
         <div className="sm:grid grid-cols-3 stats-menu justify-between space-y-10 sm:space-y-0">
           {statsMenu.map((item) => (
@@ -30,7 +30,7 @@ function ACStats(props) {
               className="sm:border-r sm:border-solid sm:border-royal-blue-200 stats-item col-span-1 text-center"
               key={item.heading}
             >
-              <h2>
+              <h3>
                 <strong className="text-5xl sm:text-4xl md:text-5.5xl text-royal-blue-800 font-bold">
                   {item.heading}
                 </strong>
@@ -38,7 +38,7 @@ function ACStats(props) {
                 <strong className="text-gray-500 font-Karla text-2xl font-normal">
                   {item.subHeading}
                 </strong>
-              </h2>
+              </h3>
             </div>
           ))}
         </div>

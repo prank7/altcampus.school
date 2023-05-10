@@ -9,16 +9,14 @@ function ModuleCard({ module }) {
           <h2 className="text-2xl text-royal-blue-800 font-semibold">
             {module.name}
           </h2>
-          <p className="text-base text-gray-500 mt-2">
-            {module.description}
-          </p>
+          <p className="text-base text-gray-500 mt-2">{module.description}</p>
         </div>
         <figure className="">
           <img className="w-16" src={`/images/icons/react.svg`} alt="HTML" />
         </figure>
       </header>
 
-      <div>
+      {/* <div>
         <ul className="list-disc pl-4 mt-8">
           {module.topics.map((t, i) => {
             return (
@@ -28,7 +26,7 @@ function ModuleCard({ module }) {
             );
           })}
         </ul>
-      </div>
+      </div> */}
       <div className="flex items-center mt-8 text-gray-500 gap-x-2 border-t border-gray-200 pt-4">
         <strong className="inline-block bg-gold-400 bg-opacity-40 p-2 rounded-md font-medium text-royal-blue-800">
           Specific Skills ★

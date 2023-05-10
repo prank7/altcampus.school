@@ -7,9 +7,9 @@ function CourseStack(props) {
       <div className="container mx-auto px-8 sm:px-3">
         <div className="max-w-5xl mx-auto">
           <header className="mb-7">
-            <h4 className="text-xl text-gray-500 ">
+            <h3 className="text-xl text-gray-500 ">
               What you are going to learn
-            </h4>
+            </h3>
           </header>
           <div className="md:grid md:grid-cols-2 gap-x-16 gap-y-9">
             <article className="">
@@ -65,21 +65,24 @@ function CourseStack(props) {
                 </span>
               </p>
               <aside className="min-w-max text-center">
-                <img
-                  className="w-16 h-16 rounded-full object-cover inline-block"
-                  src="/images/students/shastri.webp"
-                  alt="Abhishek"
-                  width="64"
-                  height="64"
-                />
-                <div className="mt-4">
-                  <h4 className="text-royal-blue-800 font-semibold text-base">
-                    Abhishek
-                  </h4>
-                  <h6 className="text-xxs text-gray-500 uppercase font-normal mt-1">
-                    VeGrow
-                  </h6>
-                </div>
+                <figure>
+                  <img
+                    className="w-16 h-16 rounded-full object-cover inline-block"
+                    src="/images/students/shastri.webp"
+                    alt="Abhishek"
+                    width="64"
+                    height="64"
+                  />
+                  <figcaption className="mt-4">
+                    <cite className="text-base not-italic text-royal-blue-800 font-semibold">
+                      Abhishek
+                    </cite>
+                    <br />
+                    <cite className="text-xxs not-italic text-gray-500 tracking-normal uppercase">
+                      VeGrow
+                    </cite>
+                  </figcaption>
+                </figure>
               </aside>
             </article>
           </div>

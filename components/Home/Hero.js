@@ -61,13 +61,13 @@ function Hero(props) {
             </figure>
           </div>
         </header>
-        <h5 className="text-xs uppercase font-medium space-x-4 text-royal-blue-800 mt-14 flex items-center justify-center lg:justify-start text-center">
+        <div className="text-xs uppercase font-medium space-x-4 text-royal-blue-800 mt-14 flex items-center justify-center lg:justify-start text-center">
           <strong className="font-medium">Start from scratch</strong>
           <span className="w-1.2 h-1.2 inline-block bg-gray-500 rounded-full"></span>
           <strong className="font-medium">Real world Project based</strong>
           <span className="w-1.2 h-1.2 inline-block bg-gray-500 rounded-full"></span>
           <strong className="font-medium"> Community Learning Support</strong>
-        </h5>
+        </div>
         <footer className="lg:grid lg:grid-cols-5 items-center mt-11">
           <h1 className="sm:col-span-4 text-xl sm:text-2xl leading-normal font-normal text-royal-blue-800">
             <strong className="font-normal md:block">

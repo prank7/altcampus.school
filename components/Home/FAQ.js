@@ -200,21 +200,24 @@ function Answer({ activeQuestionIndex }) {
           </span>
         </div>
         <aside className="text-center">
-          <Image
-            className="w-14 h-14 rounded-full inline-block min-w-max object-cover"
-            height="60"
-            width="60"
-            src={quote.author.avatar}
-            alt={quote.author.name}
-          />
-          <div className="">
-            <h4 className="text-royal-blue-800 font-semibold text-base">
-              {quote.author.name}
-            </h4>
-            <h6 className="text-xxs text-gray-500 uppercase font-normal mt-1">
-              {quote.author.company}
-            </h6>
-          </div>
+          <figure>
+            <Image
+              className="w-14 h-14 rounded-full inline-block min-w-max object-cover"
+              height="60"
+              width="60"
+              src={quote.author.avatar}
+              alt={quote.author.name}
+            />
+            <figcaption className="">
+              <cite className="text-base not-italic text-royal-blue-800 font-semibold">
+                {quote.author.name}
+              </cite>
+              <br />
+              <cite className="text-xxs not-italic text-gray-500 tracking-normal uppercase">
+                {quote.author.company}
+              </cite>
+            </figcaption>
+          </figure>
         </aside>
       </article>
     </article>
