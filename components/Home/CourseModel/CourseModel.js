@@ -68,8 +68,8 @@ function CourseModel() {
                     'Our courses are well thought out and pre-recorded, allowing you to move at your own pace and doing it whenever you want - day or night, part-time or full-time. No catching up with a cohort.'
                   }
                   subIntro={`To keep you on track, our custom learning platform tailors todos for you depending on how many hours you want to put in everyday.`}
-                  action={'Enroll Now'}
-                  cta={`/`}
+                  action={'Checkout Our Courses'}
+                  cta={`/courses`}
                 />
               </div>
             </article>
@@ -96,7 +96,8 @@ function CourseModel() {
                     'Our courses are thorough and pretty comprehensive. However, when stuck you can ask your queries in the community forum where other students and instructors will answer them.'
                   }
                   subIntro={`We encourage students to connect with other students, seek help and help others to make it an immersive learning experience.`}
-                  action={'Meet the team'}
+                  action={'Our Student Reviews'}
+                  cta={'/wall-of-love'}
                 />
               </div>
             </article>

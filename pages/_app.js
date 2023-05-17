@@ -43,6 +43,13 @@ function MyApp({ Component, pageProps, coursesWithBasicInfo }) {
         <meta name="MobileOptimized" content="320" />
         <link rel="canonical" href={canonicalURL} />
       </Head>
+      
+      {/* Global Site Tag (gtag.js) - Google Analytics */}
+      <Script
+        strategy="afterInteractive"
+        src={`https://www.googletagmanager.com/gtag/js?id=${gtag.GA_TRACKING_ID}`}
+      />
+
       <Script
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{
@@ -57,11 +64,7 @@ function MyApp({ Component, pageProps, coursesWithBasicInfo }) {
             `
         }}
       />
-      {/* Global Site Tag (gtag.js) - Google Analytics */}
-      <Script
-        strategy="afterInteractive"
-        src={`https://www.googletagmanager.com/gtag/js?id=${gtag.GA_TRACKING_ID}`}
-      />
+      
       {/* Global Site Code Pixel - Facebook Pixel */}
       <Script
         id="fb-pixel"

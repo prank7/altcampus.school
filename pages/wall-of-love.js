@@ -34,9 +34,9 @@ function WallOfLove({ tweets, coursesWithBasicInfo }) {
         }}
       />
       <LayoutHome coursesWithBasicInfo={coursesWithBasicInfo}>
-        <main className="max-w-7xl mx-auto px-8 py-20">
-          <h1 className="text-center text-dark-blue-500 text-5xl font-semibold mb-16">
-            What people are saying!
+        <main className="max-w-7xl mx-auto px-8 py-20 ">
+          <h1 className="text-5xl font-bold hero-heading text-royal-blue-800 text-center mb-16 mt-16">
+            Wall Of Love
           </h1>
           <Masonry
             breakpointCols={breakpointColumnsObj}
