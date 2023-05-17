@@ -17,6 +17,7 @@ module.exports = {
       {
         source: '/:path*',
         destination: `https://altcampus.com/:path*`,
+        permanent: true
       }
     ];
   }
