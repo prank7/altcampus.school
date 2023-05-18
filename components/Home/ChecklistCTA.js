@@ -6,10 +6,10 @@ function Checklist(props) {
       <article className="container mx-auto px-8 sm:px-3 lg:flex items-end font-bold justify-between">
         <div className="lg:w-6/12">
           <h3 className="text-xl font-normal">
-            Want to be a developer but don’t know how to start ?
+            Want to be a developer but don’t know how and where to start?
           </h3>
           <h2 className="text-4xl font-bold mt-4 leading-normal">
-            Get a Developer’s ultimate checklist delivered to your inbox!
+            Get the developer's ultimate competency checklist delivered
           </h2>
         </div>
 

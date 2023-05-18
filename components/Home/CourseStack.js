@@ -23,11 +23,11 @@ function CourseStack(props) {
                 Are you ready to become a full-stack web developer? Our courses
                 cover the most in-demand programming skills of today. With our
                 comprehensive curriculum, you'll learn{' '}
-                <Link href="/courses/react.js" className="underline">
+                <Link href="/courses/react.js-mastery-from-basic-to-advanced" className="underline">
                   React
                 </Link>
                 ,{' '}
-                <Link href="/courses/backend-development" className="underline">
+                <Link href="/courses/back-end-web-development" className="underline">
                   Express JS, Node JS, and Mongo DB
                 </Link>{' '}
                 – the trifecta of web development known as the MERN stack.
