@@ -55,45 +55,6 @@ function Home(props) {
           <FAQ />
           <Blog />
           <section className="py-16 bg-royal-blue-800 bg-curve text-center md:text-left">
-            {/* <article className="flex items-center bg-white py-4 pr-6 pl-14 shadow-lg-custom rounded-2xl relative z-10 ml-6 mt-10">
-              <div className="font-Karla text-base text-gray-500 leading-relaxed mr-6">
-                <p
-                  dangerouslySetInnerHTML={{
-                    __html:
-                      "Hands down the best course I have ever done. From not knowing anything about web development to landing a great job, AltCampus' detailed course content, and projects made me a skilled web developer and helped me build a good portfolio that got me a job."
-                  }}
-                ></p>
-                <span className="absolute -left-8 -top-3 transform">
-                  <span className="text-center rounded-full text-8xl text-green-theme-900 block w-16 h-16 transform -scale-y-1 font-Sora font-semibold text-opacity-50">
-                    “
-                  </span>
-                </span>
-              </div>
-              <aside className="text-center">
-                <Image
-                  className="rounded-full min-w-max object-cover"
-                  height="60"
-                  width="60"
-                  src={'/images/students/harshaan-sq.svg'}
-                  alt="AltCampus Placed Student Testimonial"
-                />
-                <div className="">
-                  <h4 className="text-royal-blue-800 font-semibold text-base">
-                    Abhishek
-                  </h4>
-                  <h6 className="text-xxs text-gray-500 uppercase font-normal mt-1">
-                    Goswami
-                  </h6>
-                </div>
-              </aside>
-
-              <a
-                className="bg-green-theme-900 hover:bg-green-theme-700 transition duration-300 ease-in-out text-white text-center py-6 px-20 rounded text-sm font-semibold inline-block mt-8 md:mt-0"
-                href="https://launchpad.altcampus.com/signup"
-              >
-                Start Learning Now
-              </a>
-            </article> */}
             <article className="lg:flex justify-center space-x-8 items-center container mx-auto px-8">
               <div className="max-w-3xl bg-white col-span-1 flex items-center shadow-lg-custom py-7 pr-8 pl-8 rounded-2xl mt-8 md:mt-0 sm:ml-3.5">
                 <div className="-ml-12 sm:-ml-16">

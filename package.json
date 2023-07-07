@@ -9,6 +9,7 @@
     "placement": "node ./lib/generatePlacementData"
   },
   "dependencies": {
+    "@getbrevo/brevo": "^1.0.1",
     "@headlessui/react": "^1.7.14",
     "@heroicons/react": "^1.0.6",
     "@tailwindcss/typography": "^0.3.0",
@@ -33,7 +34,8 @@
     "slugify": "^1.6.6",
     "tailwindcss": "^2.2.19",
     "tinytime": "^0.2.6",
-    "twitter-text": "^3.1.0"
+    "twitter-text": "^3.1.0",
+    "validator": "^13.9.0"
   },
   "peerDependencies": {
     "@fullhuman/postcss-purgecss": "^4.0.2",
@@ -41,11 +43,11 @@
   },
   "devDependencies": {
     "dotenv": "^10.0.0",
+    "eslint-config-next": "^13.3.1",
     "postcss": "^8.0.0",
     "postcss-flexbugs-fixes": "^4.2.1",
     "postcss-loader": "^4.0.4",
     "postcss-preset-env": "^8.3.2",
-    "prettier": "^2.8.8",
-    "eslint-config-next": "^13.3.1"
+    "prettier": "^2.8.8"
   }
 }
