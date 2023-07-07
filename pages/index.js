@@ -16,8 +16,8 @@ import CourseModel from '../components/Home/CourseModel/CourseModel';
 import TestimonialCTA from '../components/Home/TestimonialCTA';
 import WallOfLove from '../components/Home/WallOfLove';
 import Blog from '../components/Home/Blog';
-import { getTweets } from '../lib/twitter';
 import Checklist from '../components/Home/ChecklistCTA';
+import tweets from '../data/tweets.json';
 import { getCourses, getCoursesWithBasicInfo } from '../lib/courseData';
 import Image from 'next/image';
 
@@ -50,7 +50,7 @@ function Home(props) {
 
           <TestimonialCTA />
           <Pricing courses={props.coursesWithBasicInfo} />
-          {/* <WallOfLove tweets={props.tweets} /> */}
+          <WallOfLove tweets={tweets} />
           <Checklist />
           <FAQ />
           <Blog />
@@ -166,10 +166,8 @@ export async function getStaticProps() {
   //   '1410650906996051972'
   // ]);
 
-  var tweets = []
-
   const coursesWithBasicInfo = await getCoursesWithBasicInfo();
-  return { props: { tweets, coursesWithBasicInfo } };
+  return { props: { coursesWithBasicInfo } };
 }
 
 export default Home;
