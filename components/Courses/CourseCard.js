@@ -13,8 +13,8 @@ function CourseCard({ course, currency, symbol }) {
 
   return (
     <Link href={'/courses/' + course.slug}>
-      <article className="rounded-lg flex items-stretch border border-gray-200 hover:border-royal-blue-600 transition-all duration-500 cursor-pointer">
-        <div className="p-4">
+      <article className="rounded-lg grid grid-cols-8 border border-gray-200 hover:border-royal-blue-600 transition-all duration-500 cursor-pointer">
+        <div className="p-4 col-span-6">
           <h2 className="text-xl font-semibold text-royal-blue-800">
             {course.name}
           </h2>
@@ -86,7 +86,7 @@ function CourseCard({ course, currency, symbol }) {
           </figure> */}
         </div>
         {course.isMiniTrack ? (
-          <div className="bg-gray-200 px-4 flex justify-center items-center rounded-tr-md rounded-br-md">
+          <div className="col-span-2 bg-gray-200 px-4 flex justify-center items-center rounded-tr-md rounded-br-md">
             <img
               className="w-32 h-full inline-block rounded-tr-md rounded-br-md"
               src={ course.image || "/images/icons/html-large.svg"}
@@ -94,7 +94,7 @@ function CourseCard({ course, currency, symbol }) {
             />
           </div>
         ) : (
-          <div className="bg-gray-200 p-2 flex justify-center items-center rounded-tr-md rounded-br-md">
+          <div className="col-span-2 bg-gray-200 p-2 flex justify-center items-center rounded-tr-md rounded-br-md">
             <figure className="grid grid-cols-2 gap-x-1 gap-y-1">
               {
                 courseData.tracks[course.name].moduleImages.map((image) => { 
@@ -104,22 +104,16 @@ function CourseCard({ course, currency, symbol }) {
             </figure>
           </div>
         )}
-        <footer className="flex justify-between mt-6 items-start">
-          <a
-            href={`https://launchpad.altcampus.com/signup?course=${course.slug}&currency=INR`}
-            className="flex"
-          >
-            <strong className="font-semibold mr-3 text-green-theme-900">
-              Enroll
-            </strong>
-
-            <img
-              className="h-5"
-              src="/images/icons/arrow-right-green.svg"
-              alt="Arrow Right"
-            />
-          </a>
-        </footer>
+        {/* <footer className="col-span-8 px-5 py-2 border-t flex items-center align-middle justify-between ">
+          <strong className="font-semibold mr-3 text-green-theme-900">
+            Enroll Now
+          </strong>
+          <img
+            className="h-2"
+            src="/images/icons/arrow-right-green.svg"
+            alt="Arrow Right"
+          />
+        </footer> */}
       </article>
     </Link>
   );

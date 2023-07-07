@@ -9,7 +9,7 @@ function TrackList({ course }) {
         <h4 className="text-xl text-gray-500 font-semibold text-center mb-8">
           Skills that you will learn in this course
         </h4>
-        <div className="grid md:grid-cols-2 gap-4">
+        <div className="grid md:grid-cols-1 gap-4">
           {course.modules.map((module, i) => {
             return <ModuleCard key={i} module={module} />;
           })}

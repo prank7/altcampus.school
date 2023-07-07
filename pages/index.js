@@ -50,7 +50,7 @@ function Home(props) {
 
           <TestimonialCTA />
           <Pricing courses={props.coursesWithBasicInfo} />
-          <WallOfLove tweets={props.tweets} />
+          {/* <WallOfLove tweets={props.tweets} /> */}
           <Checklist />
           <FAQ />
           <Blog />

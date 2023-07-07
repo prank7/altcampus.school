@@ -3,6 +3,7 @@ import { numberWithCommas } from '../../lib/helper';
 import { getCourses } from '../../lib/courseData';
 import Link from 'next/link';
 import CurrencyToggle from '../Common/CurrencyToggle';
+import courseData from '../../data/course.json'
 
 let pricingData = {
   online: {
@@ -121,20 +122,22 @@ function Pricing(props) {
                       }`}
                     >
                       <div className='flex justify-between items-center'>
-                        <h3 className="text-base font-semibold text-royal-blue-800 w-52">
+                        <h3 className="text-lg font-semibold text-royal-blue-800 w-72">
                           {track.name}
                         </h3>
-                        <figure className="flex gap-x-3">
-                          <img
+                        <figure className="flex flex-start -space-x-9">
+                          {/* <img
                             className="w-auto"
                             src={track.image || '/images/icons/js-rounded.svg'}
                             alt={track.name}
                             width="246"
                             height="57"
-                          />
-                          {/* <img src="/images/icons/react-rounded.svg" alt="html" />
-                          <img src="/images/icons/node-md.svg" alt="CSS" />
-                          <img src="/images/icons/mongo.svg" alt="js" /> */}
+                          /> */}
+                          {
+                            courseData.tracks[track.name].moduleImages.map((image, i) => {
+                              return <img className='h-20 w-20 rounded-full' key={i} src={image || "/images/icons/react-rounded.svg"} alt={track.name} />
+                            })
+                          }
                         </figure>
                       </div>
                       <div className="flex justify-between mt-0 pt-1 px-0">

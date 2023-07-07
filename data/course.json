@@ -3,9 +3,11 @@
     "Full Stack Web Development": {
       "moduleImages": [
         "https://altcampus.com/images/icons/course/html-and-css.svg",
+        "https://altcampus.com/images/icons/course/javascript.svg",
         "https://altcampus.com/images/icons/course/reactJS.svg",
         "https://altcampus.com/images/icons/course/nodeJS.svg",
-        "https://altcampus.com/images/icons/course/expressJS.svg"
+        "https://altcampus.com/images/icons/course/mongoDB.svg",
+        "https://altcampus.com/images/icons/course/redis.svg"
       ]
     },
     "Front End Web Development": {
@@ -20,8 +22,56 @@
       "moduleImages": [
         "https://altcampus.com/images/icons/course/nodeJS.svg",
         "https://altcampus.com/images/icons/course/expressJS.svg",
-        "https://altcampus.com/images/icons/course/mongoDB.svg"
+        "https://altcampus.com/images/icons/course/mongoDB.svg",
+        "https://altcampus.com/images/icons/course/redis.svg"
       ]
+    }
+  },
+  "modules": {
+    "Unix & Git": {
+      "image": "https://altcampus.com/images/icons/course/git.svg"
+    },
+    "HTML & CSS Fundamentals": {
+      "image": "https://altcampus.com/images/icons/course/html-and-css.svg"
+    },
+    "JavaScript Fundamentals": {
+      "image": "https://altcampus.com/images/icons/course/javascript.svg"
+    },
+    "Advanced CSS": {
+      "image": "https://altcampus.com/images/icons/course/css.svg"
+    },
+    "Advanced JavaScript": {
+      "image": "https://altcampus.com/images/icons/course/javascript.svg"
+    },
+    "React.js Fundamentals": {
+      "image": "https://altcampus.com/images/icons/course/reactJS.svg"
+    },
+    "Advanced React.js": {
+      "image": "https://altcampus.com/images/icons/course/reactJS.svg"
+    },
+    "Node.js": {
+      "image": "https://altcampus.com/images/icons/course/nodeJS.svg"
+    },
+    "MongoDB": {
+      "image": "https://altcampus.com/images/icons/course/mongoDB.svg"
+    },
+    "Server side Apps with Express.js and MongoDB": {
+      "image": "https://altcampus.com/images/icons/course/expressJS.svg"
+    },
+    "API & Auth": {
+      "image": "https://altcampus.com/images/icons/course/api.svg"
+    },
+    "Advanced Server Side Applications": {
+      "image": "https://altcampus.com/images/icons/course/advanced-server.svg"
+    },
+    "Web Security  & Deployment": {
+      "image": "https://altcampus.com/images/icons/course/security.svg"
+    },
+    "Data Structure & Algorithms": {
+      "image": "https://altcampus.com/images/icons/course/data-structure.svg"
+    },
+    "Capstone Project": {
+      "image": "https://altcampus.com/images/icons/course/mern-stack.svg"
     }
   }
 }

@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import React, { useEffect, useState } from 'react';
 import CurrencyToggle from '../Common/CurrencyToggle';
+import courseData from '../../data/course.json';
 
 function CourseBanner({ course }) {
 
@@ -10,11 +11,22 @@ function CourseBanner({ course }) {
   return (
     <section className="pb-16 pt-36 bg-royal-blue-200">
       <article className="container mx-auto px-8 text-center">
-        <img
-          className="inline-block w-32"
-          src={course.image}
-          alt=""
-        />
+        {
+          course.isMiniTrack ?
+            <img
+              className="inline-block w-32"
+              src={course.image}
+              alt=""
+            />
+        :
+          <div class="flex justify-center -space-x-6">
+            {courseData.tracks[course.name].moduleImages.map((image, i) => {
+              return (
+                <img src={image} key={i} alt={course.name} class="w-16 h-16 rounded-full bg-transparent" loading="lazy" />
+              )
+            })}
+          </div>
+        }
         <h1 className="text-3xl font-bold leading-tight text-royal-blue-800 mt-8">
           <strong>{course.name}</strong>
         </h1>
