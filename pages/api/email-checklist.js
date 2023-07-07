@@ -13,10 +13,9 @@ function checklistCopy() {
         Your dedication to self-improvement and growth is commendable.
       </p>
       <p>
-        Please check out the AltCampus' "The Ultimate Full Stack Web Developer Competency Checklist" you requested from <a href="https://altcampus.notion.site/The-Ultimate-Full-Stack-Web-Developer-Competency-Checklist-99c92bd98f0e43a9abce6687d733eb29?pvs=4">this Notion Page</a> or here - https://altcampus.notion.site/The-Ultimate-Full-Stack-Web-Developer-Competency-Checklist-99c92bd98f0e43a9abce6687d733eb29?pvs=4</br>
-        It's packed with detailed and step-by-step micro learning checkpoints that will help you assist in figuring out which course to take or skill to sharpen next.
+        Please check out the AltCampus' "The Ultimate Full Stack Web Developer Competency Checklist" you requested from <a href="https://altcampus.notion.site/The-Ultimate-Full-Stack-Web-Developer-Competency-Checklist-99c92bd98f0e43a9abce6687d733eb29?pvs=4">this Notion Page</a> or here - https://altcampus.notion.site/The-Ultimate-Full-Stack-Web-Developer-Competency-Checklist-99c92bd98f0e43a9abce6687d733eb29?pvs=4
       </p>
-      </p>
+      <p>It's packed with detailed and step-by-step micro learning checkpoints that will help you assist in figuring out which course to take or skill to sharpen next.</p>
       <p>
         Feel free to take your time going through the checklist at your own pace.
       </p>
@@ -29,11 +28,9 @@ function checklistCopy() {
       <p>
         Thank you once again for your interest and for joining us on this learning journey. We look forward to witnessing your growth and success.
       </p>
-      <br/><br/>
+      <br/>
       <p>
-        Best regards,
-      </p>
-      <p>
+        Best regards,<br/>
         Prashant
       </p>
     </div>
@@ -42,8 +39,6 @@ function checklistCopy() {
 }
 
 export default async function handler(req, res) {
-  console.log(process.env.BREVO_API_KEY, req.body.email, 'KEEEKEK')
-
   if (req.method === 'POST' && req.body.email && validator.isEmail(req.body.email)) {
     try {
       var { data} = await axios.post('https://api.brevo.com/v3/smtp/email', {  

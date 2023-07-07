@@ -44,11 +44,9 @@ function curriculumCopy() {
       <p>
         Thank you once again for your interest and for joining us on this learning journey. We look forward to witnessing your growth and success.
       </p>
-      <br/><br/>
+      <br/>
       <p>
-        Best regards,
-      </p>
-      <p>
+        Best regards,<br/>
         Prashant
       </p>
     </div>
@@ -57,8 +55,6 @@ function curriculumCopy() {
 }
 
 export default async function handler(req, res) {
-  console.log(process.env.BREVO_API_KEY, req.body.email, 'KEEEKEK')
-
   if (req.method === 'POST' && req.body.email && validator.isEmail(req.body.email)) {
     try {
       var { data} = await axios.post('https://api.brevo.com/v3/smtp/email', {  

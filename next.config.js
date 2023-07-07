@@ -17,8 +17,18 @@ module.exports = {
   async redirects() {
     return [
       {
-        source: '/:path*',
-        destination: `https://altcampus.com/:path*`,
+        source: '/community/posts/:path*',
+        destination: '/posts/:path*',
+        permanent: true
+      },
+      {
+        source: '/community/stories/:path*',
+        destination: '/stories/:path*',
+        permanent: true
+      },
+      {
+        source: '/community/guides/:path*',
+        destination: '/guides/:path*',
         permanent: true
       }
     ];

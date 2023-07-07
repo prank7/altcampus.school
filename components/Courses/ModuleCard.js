@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
 import courseData from '../../data/course.json';
-console.log(courseData)
 
 function ModuleCard({ module }) {
   let estimatedTime = module.estimatedTimeToComplete || module.topics.reduce((sum, a)=> sum += a.estimatedTimeToComplete, 0)

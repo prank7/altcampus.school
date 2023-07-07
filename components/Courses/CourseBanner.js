@@ -19,10 +19,10 @@ function CourseBanner({ course }) {
               alt=""
             />
         :
-          <div class="flex justify-center -space-x-6">
+          <div className="flex justify-center -space-x-6">
             {courseData.tracks[course.name].moduleImages.map((image, i) => {
               return (
-                <img src={image} key={i} alt={course.name} class="w-16 h-16 rounded-full bg-transparent" loading="lazy" />
+                <img src={image} key={i} alt={course.name} className="w-16 h-16 rounded-full bg-transparent" loading="lazy" />
               )
             })}
           </div>

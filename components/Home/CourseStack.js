@@ -1,7 +1,39 @@
 import Link from 'next/link';
-import React from 'react';
+import { useState } from 'react';
+import isEmail from 'validator/lib/isEmail';
 
 function CourseStack(props) {
+  
+  const [emailSent, setEmailSent] = useState(false);
+  const [email, setEmail] = useState('');
+  const [isEmailBeingSent, setIsEmailBeingSent] = useState(false);
+
+  const sendEmail = async (e) => {
+    e.preventDefault();
+    if (!isEmail(email)) {
+      alert('Please enter a valid email');
+      return;
+    }
+    if(isEmailBeingSent) {
+      return;
+    }
+
+    setIsEmailBeingSent(true);
+
+    const res = await fetch('/api/email-curriculum', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({ email })
+    });
+    
+    if (res.status === 200) {
+      setEmailSent(true);
+      setIsEmailBeingSent(false);
+    }
+  };
+
   return (
     <section className="pt-24 pb-8">
       <div className="container mx-auto px-8 sm:px-3">
@@ -92,29 +124,47 @@ function CourseStack(props) {
         <div className="bg-white relative z-10">
           <div className="container mx-auto px-8 sm:px-3">
             <article className="max-w-5xl mx-auto py-12">
-              <form action="" className="bg-white md:flex gap-x-14">
-                <legend className=" text-2xl text-royal-blue-800 font-semibold max-w-md">
-                  Would you like us to send our curriculum outline to your inbox
-                  ?
-                </legend>
-                <fieldset className="flex space-x-6 w-full mt-6 md:mt-0">
-                  <input
-                    className="border border-solid border-royal-blue-200 text-base placeholder-gray-500 py-5 px-7 rounded-full inline-block w-4/5 shadow-lg-custom outline-none focus:border-royal-blue-800 text-royal-blue-800"
-                    type="email"
-                    name="email"
-                    placeholder="Enter Your E-Mail ID"
-                  />
-                  <button className="bg-royal-blue-800 py-4 px-8 rounded-full shadow-lg-custom animate-arrow">
-                    <img
-                      className="arrow-slide"
-                      src="/images/icons/arrow-right-white.svg"
-                      alt="Arrow Right Icon"
-                      width="30"
-                      height="18"
+              {
+                emailSent ?
+                  <div className="text-center">
+                    <h3 className="text-2xl text-royal-blue-800 font-semibold">
+                      Thank you for your interest in our curriculum. We have sent
+                      the curriculum outline to your inbox. ✅
+                    </h3>
+                  </div>
+              :
+                <form action="" className="bg-white md:flex gap-x-14">
+                  <legend className=" text-2xl text-royal-blue-800 font-semibold max-w-md">
+                    Would you like us to send our curriculum outline to your inbox
+                    ?
+                  </legend>
+                  <fieldset className="flex space-x-6 w-full mt-6 md:mt-0">
+                    <input
+                      className="border border-solid border-royal-blue-200 text-base placeholder-gray-500 py-5 px-7 rounded-full inline-block w-4/5 shadow-lg-custom outline-none focus:border-royal-blue-800 text-royal-blue-800"
+                      type="email"
+                      value={email}
+                      name="email"
+                      onChange={(e) => setEmail(e.target.value)}
+                      placeholder="Your email id"
                     />
-                  </button>
-                </fieldset>
-              </form>
+                    <button onClick={(e) => sendEmail(e)} className="bg-royal-blue-800 py-4 px-8 rounded-full shadow-lg-custom animate-arrow">
+                      {
+                        isEmailBeingSent ?
+                          <span className='text-white text-xs'>Sending</span>
+                        :
+                          <img
+                            className="arrow-slide"
+                            src="/images/icons/arrow-right-white.svg"
+                            alt="Arrow Right Icon"
+                            width="30"
+                            height="18"
+                          />
+                      }
+                      
+                    </button>
+                  </fieldset>
+                </form>
+              }
             </article>
           </div>
         </div>

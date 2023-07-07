@@ -9,7 +9,6 @@ const ProjectCard = ({
   liveLink,
   stackList
 }) => {
-  console.log({ projectImage });
   return (
     <div className="bg-white shadow-md rounded-lg p-4">
       <img

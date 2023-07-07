@@ -5,8 +5,6 @@ import courseData from '../../data/course.json';
 
 function CourseCard({ course, currency, symbol }) {
 
-  console.log(course, 'CRORHH')
-
   let estimatedTime = course.estimatedTimeToComplete;
   const lowerNumOfWeeks = Math.floor(estimatedTime/(60*4*5)); // 3 hours - 5 days a week
   const upperNumOfWeeks = Math.ceil(estimatedTime/(60*3*4)); // 3 hours - 4 days a week
