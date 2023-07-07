@@ -83,7 +83,7 @@ function Alumnis(props) {
         <footer className="text-center">
           <a
             href="/placements"
-            className="hover-btn inline-block mt-16 py-5 px-10 border-2 border-solid border-royal-blue-800 rounded text-royal-blue-800 font-bold text-center capitalize"
+            className="hover-btn inline-block mt-16 py-5 px-10 border-2 border-solid border-royal-blue-800 rounded text-royal-blue-800 font-bold text-center "
           >
             <strong className="relative z-10">
               Read how AltCampus changed their lives

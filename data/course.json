@@ -6,8 +6,8 @@
         "https://altcampus.com/images/icons/course/javascript.svg",
         "https://altcampus.com/images/icons/course/reactJS.svg",
         "https://altcampus.com/images/icons/course/nodeJS.svg",
-        "https://altcampus.com/images/icons/course/mongoDB.svg",
-        "https://altcampus.com/images/icons/course/redis.svg"
+        "http://altcampus.com/images/icons/course/redis.svg",
+        "https://altcampus.com/images/icons/course/mongoDB.svg"
       ]
     },
     "Front End Web Development": {
@@ -22,8 +22,8 @@
       "moduleImages": [
         "https://altcampus.com/images/icons/course/nodeJS.svg",
         "https://altcampus.com/images/icons/course/expressJS.svg",
-        "https://altcampus.com/images/icons/course/mongoDB.svg",
-        "https://altcampus.com/images/icons/course/redis.svg"
+        "https://altcampus.com/images/icons/course/redis.svg",
+        "https://altcampus.com/images/icons/course/mongoDB.svg"
       ]
     }
   },

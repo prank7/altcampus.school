@@ -42,7 +42,7 @@ function Home(props) {
           <CTA
             titleA="Tired of looking for the best tutorials"
             titleB="on the internet? <br/> Your search ends here."
-            action="Start Learning Now"
+            action="Start learning now"
           />
           <CourseStack />
 
@@ -136,7 +136,7 @@ function Home(props) {
                   className="bg-green-theme-900 hover:bg-green-theme-700 transition duration-300 ease-in-out text-white text-center py-6 px-20 rounded text-sm font-semibold inline-block mt-8 lg:mt-0"
                   href="https://launchpad.altcampus.com/signup"
                 >
-                  Start Learning Now
+                  Start learning now
                 </a>
               </div>
             </article>

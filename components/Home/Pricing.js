@@ -122,10 +122,10 @@ function Pricing(props) {
                       }`}
                     >
                       <div className='flex justify-between items-center'>
-                        <h3 className="text-lg font-semibold text-royal-blue-800 w-72">
+                        <h3 className="text-lg font-semibold text-royal-blue-800 w-48 sm:w-72">
                           {track.name}
                         </h3>
-                        <figure className="flex flex-start -space-x-9">
+                        <figure className="flex flex-start -space-x-6 sm:-space-x-7">
                           {/* <img
                             className="w-auto"
                             src={track.image || '/images/icons/js-rounded.svg'}
@@ -135,7 +135,7 @@ function Pricing(props) {
                           /> */}
                           {
                             courseData.tracks[track.name].moduleImages.map((image, i) => {
-                              return <img className='h-20 w-20 rounded-full' key={i} src={image || "/images/icons/react-rounded.svg"} alt={track.name} />
+                              return <img className='h-16 w-16 sm:h-20 sm:w-20 rounded-full' key={i} src={image || "/images/icons/react-rounded.svg"} alt={track.name} />
                             })
                           }
                         </figure>
@@ -161,10 +161,10 @@ function Pricing(props) {
         </div>
         <footer className="text-center mt-20">
           <Link
-            className="hover-btn inline-block mt-16 py-5 px-10 border-2 border-solid border-royal-blue-800 rounded text-royal-blue-800 font-bold text-center capitalize"
+            className="hover-btn inline-block mt-16 py-5 px-10 border-2 border-solid border-royal-blue-800 rounded text-royal-blue-800 font-bold text-center"
             href="/courses"
           >
-            <strong className="relative z-10">Browse Courses</strong>
+            <strong className="relative z-10">Browse courses</strong>
           </Link>
         </footer>
       </div>

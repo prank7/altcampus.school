@@ -10,6 +10,8 @@ import {
 import Link from 'next/link';
 import { Fragment } from 'react';
 
+import courseData from '../../data/course.json'
+
 export const courseItems = [
   {
     name: 'Specific Skills',
@@ -130,11 +132,11 @@ export default function CourseMenu(props) {
                               return (
                                 <li className="my-4" key={skill.name}>
                                   <Link
-                                    className="flex items-start p-1 rounded-lg hover:bg-gray-200 transition ease-in-out duration-150"
+                                    className="flex items-center p-1 rounded-lg hover:bg-gray-200 transition ease-in-out duration-150"
                                     href={`/courses/${skill.slug}`}
                                   >
                                     <img
-                                      className="w-6"
+                                      className="w-14"
                                       src={
                                         skill.image ||
                                         'https://altcampus/images/icons/js-rounded.svg'
@@ -166,17 +168,16 @@ export default function CourseMenu(props) {
                             return (
                               <li className="my-4" key={skill.name}>
                                 <Link
-                                  className="flex items-start p-1 rounded-lg hover:bg-gray-200 transition ease-in-out duration-150"
+                                  className="flex flex-col items-start p-1 rounded-lg hover:bg-gray-200 transition ease-in-out duration-150"
                                   href={`/courses/${skill.slug}`}
                                 >
-                                  <img
-                                    className="w-8"
-                                    src={
-                                      skill.image ||
-                                      'https://altcampus/images/icons/js-rounded.svg'
-                                    }
-                                    alt={skill.name}
-                                  />
+                                  <div className='flex -space-x-2 '>
+                                    {
+                                      courseData.tracks[skill.name].moduleImages.map((image, i) => {
+                                        return <img className='h-8 w-8 rounded-full' key={i} src={image || "/images/icons/react-rounded.svg"} alt={skill.name} />
+                                      }
+                                    )}
+                                  </div>
                                   <div className="ml-2">
                                     <strong className="text-sm font-medium text-royal-blue-800">
                                       {skill.name}

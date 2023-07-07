@@ -84,7 +84,7 @@ function Hero(props) {
               href="/courses"
               className="bg-green-theme-900 hover:bg-green-theme-700 transition duration-300 ease-in-out py-4 px-16 inline-block md:col-span-1 text-center text-white font-semibold text-sm rounded mt-8 lg:mt-0"
             >
-              Browse Courses
+              Browse courses
             </Link>
           </div>
         </footer>
