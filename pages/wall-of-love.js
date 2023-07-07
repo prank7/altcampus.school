@@ -4,7 +4,7 @@ import { NextSeo } from 'next-seo';
 import Masonry from 'react-masonry-css';
 
 import LayoutHome from '../components/Common/Layout';
-import { getTweets } from '../lib/twitter';
+import tweets from '../data/tweets.json';
 import Tweet from '../components/Tweet';
 import { getCoursesWithBasicInfo } from '../lib/courseData';
 
@@ -16,7 +16,7 @@ const breakpointColumnsObj = {
   640: 1
 };
 
-function WallOfLove({ tweets, coursesWithBasicInfo }) {
+function WallOfLove({ coursesWithBasicInfo }) {
   var title = 'Wall Of Love | AltCampus School';
   var description =
     'AltCampus is one of the best programming bootcamps in India. Learn how it helps you get a job as a full stack web developer.';
@@ -110,10 +110,8 @@ export async function getStaticProps() {
   //   '1360871839984095234'
   // ]);
 
-  var tweets =  []
-
   const coursesWithBasicInfo = await getCoursesWithBasicInfo();
-  return { props: { tweets, coursesWithBasicInfo } };
+  return { props: { coursesWithBasicInfo } };
 }
 
 export default WallOfLove;
