@@ -140,7 +140,7 @@ function CourseContainer(props) {
         </aside>
         <div className="col-span-5 lg:col-span-6 grid lg:grid-cols-2 lg:pl-12 gap-8">
           {orderedTracks.map((course, i) => {
-            return <CourseCard key={i} course={course} />;
+            return <CourseCard key={i} course={course} currency={props.currency} symbol={props.symbol} />;
           })}
         </div>
       </div>

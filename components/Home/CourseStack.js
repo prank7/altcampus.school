@@ -40,7 +40,7 @@ function CourseStack(props) {
               <figure className="relative z-10">
                 <img
                   className=""
-                  src="/images/icons/course-logo.svg"
+                  src="/images/icons/course-logo.webp"
                   alt="MERN Course Stack"
                   width="480"
                   height="235"

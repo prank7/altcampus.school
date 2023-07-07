@@ -1,0 +1,27 @@
+{
+  "tracks": {
+    "Full Stack Web Development": {
+      "moduleImages": [
+        "https://altcampus.com/images/icons/course/html-and-css.svg",
+        "https://altcampus.com/images/icons/course/reactJS.svg",
+        "https://altcampus.com/images/icons/course/nodeJS.svg",
+        "https://altcampus.com/images/icons/course/expressJS.svg"
+      ]
+    },
+    "Front End Web Development": {
+      "moduleImages": [
+        "https://altcampus.com/images/icons/course/html.svg",
+        "https://altcampus.com/images/icons/course/css.svg",
+        "https://altcampus.com/images/icons/course/javascript.svg",
+        "https://altcampus.com/images/icons/course/reactJS.svg"
+      ]
+    },
+    "Back End Web Development": {
+      "moduleImages": [
+        "https://altcampus.com/images/icons/course/nodeJS.svg",
+        "https://altcampus.com/images/icons/course/expressJS.svg",
+        "https://altcampus.com/images/icons/course/mongoDB.svg"
+      ]
+    }
+  }
+}

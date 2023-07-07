@@ -1,17 +1,15 @@
 import Image from 'next/image';
 import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
+import courseData from '../../data/course.json';
 
-function CourseCard({ course }) {
-  const [currency, setCurrency] = useState('INR');
+function CourseCard({ course, currency, symbol }) {
 
-  useEffect(() => {
-    if (typeof window !== 'undefined') {
-      // call to api.
-      localStorage.setItem('currency', 'USD');
-      setCurrency('USD');
-    }
-  }, []);
+  console.log(course, 'CRORHH')
+
+  let estimatedTime = course.estimatedTimeToComplete;
+  const lowerNumOfWeeks = Math.floor(estimatedTime/(60*4*5)); // 3 hours - 5 days a week
+  const upperNumOfWeeks = Math.ceil(estimatedTime/(60*3*4)); // 3 hours - 4 days a week
 
   return (
     <Link href={'/courses/' + course.slug}>
@@ -20,18 +18,17 @@ function CourseCard({ course }) {
           <h2 className="text-xl font-semibold text-royal-blue-800">
             {course.name}
           </h2>
-          <p className="text-xs text-gray-500 font-Karla mt-2">
-            Learn all the required skills like HTML, CSS, JS & React to be a
-            industry fit Front-End Developer.
+          <p className="text-sm text-gray-600 font-Karla mt-2">
+            {course.description}
           </p>
           {course.isMiniTrack ? (
             <div className="flex items-center mt-4 text-gray-500 gap-x-2">
-              <strong className="inline-block bg-gold-400 bg-opacity-40 p-1 rounded-md font-medium text-royal-blue-800 text-xs">
-                Specific Skill ★
+              <strong className="inline-block bg-gold-400 bg-opacity-40 p-2 rounded-md font-medium text-yellow-900 text-xs">
+                Specific Skill 🌟
               </strong>
               <span>•</span>
               <strong className="text-gray-500 font-semibold text-xs">
-                16-32 weeks
+                {lowerNumOfWeeks}-{upperNumOfWeeks} weeks
               </strong>
               <span>•</span>
               <h3 className="text-royal-blue-800 font-bold text-xs">
@@ -42,7 +39,7 @@ function CourseCard({ course }) {
             </div>
           ) : (
             <div className="flex items-center mt-4 text-gray-500 gap-x-2">
-              <strong className="flex items-center bg-royal-blue-200 bg-opacity-40 p-2 rounded-md font-medium text-royal-blue-800 text-xs">
+              <strong className="flex items-center bg-green-200 bg-opacity-40 p-2 rounded-md font-medium text-green-900 text-xs">
                 Learning Track
                 <img
                   className="inline-block ml-1"
@@ -52,7 +49,7 @@ function CourseCard({ course }) {
               </strong>
               <span>•</span>
               <strong className="text-gray-500 font-semibold text-xs">
-                16-32 weeks
+                {lowerNumOfWeeks}-{upperNumOfWeeks} weeks
               </strong>
               <span>•</span>
               <h3 className="text-royal-blue-800 font-bold text-xs">
@@ -88,48 +85,41 @@ function CourseCard({ course }) {
             />
           </figure> */}
         </div>
-        {/* <footer className="flex justify-between mt-6 items-start">
-        <a
-          href={`https://launchpad.altcampus.com/signup?course=${course.slug}&currency=INR`}
-          className="flex"
-        >
-          <strong className="font-semibold mr-3 text-green-theme-900">
-            Enroll
-          </strong>
-
-          <img
-            className="h-5"
-            src="/images/icons/arrow-right-green.svg"
-            alt="Arrow Right"
-          />
-        </a>
-      </footer> */}
         {course.isMiniTrack ? (
           <div className="bg-gray-200 px-4 flex justify-center items-center rounded-tr-md rounded-br-md">
             <img
-              className="w-28 h-full inline-block rounded-tr-md rounded-br-md"
-              src="/images/icons/html-large.svg"
+              className="w-32 h-full inline-block rounded-tr-md rounded-br-md"
+              src={ course.image || "/images/icons/html-large.svg"}
               alt={course.name}
             />
           </div>
         ) : (
-          <div className="bg-gray-200 p-4 flex justify-center items-center rounded-tr-md rounded-br-md">
-            <figure className="grid grid-cols-2 gap-x-4 gap-y-4">
-              <img className="w-16" src="/images/icons/html.svg" alt="HTML" />
-              <img
-                className="w-16"
-                src="/images/icons/js-rounded.svg"
-                alt="JS"
-              />
-              <img
-                className="w-16"
-                src="/images/icons/react-rounded.svg"
-                alt="React"
-              />
-              <img className="w-16" src="/images/icons/css.svg" alt="CSS" />
+          <div className="bg-gray-200 p-2 flex justify-center items-center rounded-tr-md rounded-br-md">
+            <figure className="grid grid-cols-2 gap-x-1 gap-y-1">
+              {
+                courseData.tracks[course.name].moduleImages.map((image) => { 
+                  return <img className="w-24" src={image} alt={course.name} />
+                })
+              }
             </figure>
           </div>
         )}
+        <footer className="flex justify-between mt-6 items-start">
+          <a
+            href={`https://launchpad.altcampus.com/signup?course=${course.slug}&currency=INR`}
+            className="flex"
+          >
+            <strong className="font-semibold mr-3 text-green-theme-900">
+              Enroll
+            </strong>
+
+            <img
+              className="h-5"
+              src="/images/icons/arrow-right-green.svg"
+              alt="Arrow Right"
+            />
+          </a>
+        </footer>
       </article>
     </Link>
   );
