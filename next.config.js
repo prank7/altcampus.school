@@ -8,7 +8,8 @@ module.exports = {
       'avatars1.githubusercontent.com',
       'avatars2.githubusercontent.com',
       'pbs.twimg.com',
-      'abs.twimg.com'
+      'abs.twimg.com',
+      'altcampus.sfo3.digitaloceanspaces.com'
     ]
   },
 
