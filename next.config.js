@@ -10,7 +10,8 @@ module.exports = {
       'altcampus.com',
       'altcampus.school',
       'pbs.twimg.com',
-      'abs.twimg.com'
+      'abs.twimg.com',
+      'altcampus.sfo3.digitaloceanspaces.com'
     ]
   },
 
