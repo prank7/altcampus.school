@@ -66,7 +66,7 @@ function Hero(props) {
           <span className="w-1.2 h-1.2 inline-block bg-gray-500 rounded-full"></span>
           <strong className="font-medium">Real world Project based</strong>
           <span className="w-1.2 h-1.2 inline-block bg-gray-500 rounded-full"></span>
-          <strong className="font-medium"> Community Learning Support</strong>
+          <strong className="font-medium"> 100% online</strong>
         </div>
         <footer className="lg:grid lg:grid-cols-5 items-center mt-11">
           <h1 className="sm:col-span-4 text-xl sm:text-2xl leading-normal font-normal text-royal-blue-800">

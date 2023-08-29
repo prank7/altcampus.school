@@ -85,19 +85,19 @@ let data = [
   //     }
   //   }
   // },
-  // {
-  //   topImage: '/images/happy-child2.svg',
-  //   question: 'How long are the courses?',
-  //   answer: `In a cohort, it takes about 6-7 months to finish the AltCampus full-stack course. In self paced, it depends on the time and dedication of the learner. Students usually finish the course in anywhere between 5 to 9 months. Mentorship in either options is available till 9 months.`,
-  // quote: {
-  //   text: 'Altcampus made me job-ready in just 7 months. If genuinely you want to be a MERN Stack Developer consider joining AltCampus.',
-  //   author: {
-  //     name: 'Onkar',
-  //     company: 'Emtec inc.',
-  //     avatar: '/images/students/onkar.svg'
-  //   }
-  // }
-  // },
+  {
+    topImage: '/images/happy-child2.svg',
+    question: 'Is the course offline or online?',
+    answer: `The course is completely online. You can take the course from anywhere in the world.`,
+    quote: {
+      text: `AltCampus's online course is extremely well designed. Everything is broken down - concepts, assignments and projects sequentially. You can finish the course on your own. `,
+      author: {
+        name: 'Ayush',
+        company: 'Stackera',
+        avatar: 'https://pbs.twimg.com/profile_images/1328286297492840451/TO-YmsZR_400x400.jpg'
+      }
+    }
+  },
   {
     topImage: '/images/get-help.webp',
     question: 'Are there any live sessions?',
