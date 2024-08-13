@@ -11,7 +11,8 @@ module.exports = {
       'altcampus.school',
       'pbs.twimg.com',
       'abs.twimg.com',
-      'altcampus.sfo3.digitaloceanspaces.com'
+      'altcampus.sfo3.digitaloceanspaces.com',
+      'altcampus.s3.ap-south-1.amazonaws.com'
     ]
   },
 
